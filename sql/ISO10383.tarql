@@ -1,0 +1,104 @@
+PREFIX cc: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX fibo-fbc-fct-bci: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/>
+PREFIX fibo-fbc-fct-mkt: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/>
+PREFIX fibo-fbc-fct-mkti: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/>
+PREFIX fibo-fbc-pas-fpas: <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/>
+PREFIX fibo-fnd-plc-vrt: <https://spec.edmcouncil.org/fibo/ontology/FND/Places/VirtualPlaces/>
+PREFIX fibo-fnd-arr-arr: <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/>
+PREFIX gleif: <https://rdf.gleif.org/L1/>
+PREFIX lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+PREFIX lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX pav: <http://purl.org/pav/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX tempo: <http://purl.org/tempo/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+	?exedge
+		a	?ex_opsg ;
+		a	?_fsp ;
+		a	owl:NamedIndividual ;
+		fibo-fbc-fct-mkt:hasExchangeName	?NAME_INSTITUTION_DESCRIPTION ;
+		fibo-fbc-fct-mkt:hasExchangeAcronym	?ACRONYM ;
+		fibo-fnd-plc-vrt:hasWebsite	?_web ;
+		fibo-fbc-fct-mkt:operatesInCountry ?_iso ;
+		fibo-fbc-fct-mkt:operatesInMunicipality ?_mun ;
+		fibo-fnd-arr-arr:isConstituentOf	?sgop ;
+		lcc-lr:isIdentifiedBy ?_lei ;
+		rdfs:label	?NAME_INSTITUTION_DESCRIPTION ;
+		skos:note	?COMMENTS .
+
+	?micedge
+		a	?mic_opsg ;
+		a	owl:NamedIndividual ;
+		lcc-lr:hasTag	?MIC ;
+		lcc-lr:identifies	?exedge ;
+		lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+		fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus ?_status ;
+		rdfs:label	?_miclbl ;
+		dct:created ?_crea ;
+		dct:modified ?_modf ;
+		tempo:validFrom ?_crea ;
+		tempo:validTill ?_expd .
+}
+WHERE {
+	BIND(NOW() AS ?now)
+	BIND(IF(BOUND(?EXPIRY_DATE),"-","") AS ?EXPD)
+	BIND(URI(CONCAT(STR(fibo-fbc-fct-mkti:),'Exchange-',?MIC,?EXPD,COALESCE(?EXPIRY_DATE,""))) AS ?exedge)
+	BIND(URI(CONCAT(STR(fibo-fbc-fct-mkti:),'MIC-',?MIC)) AS ?micedge)
+	BIND(IF(?MIC != ?OPERATING_MIC,URI(CONCAT(STR(fibo-fbc-fct-mkti:),'Exchange-',?OPERATING_MIC)),?null) AS ?sgop)
+	BIND(URI(CONCAT(STR(cc:), ?ISO_COUNTRY_CODE__ISO_3166_)) AS ?_iso)
+	BIND(URI(CONCAT(STR(fibo-fbc-fct-bci:), REPLACE(?CITY, " ", "_"))) AS ?_mun)
+	BIND(URI(CONCAT(STR(gleif:), 'L-', ?LEI, '-LEI')) AS ?_lei)
+
+	VALUES (?OPRT_SGMT ?ex_opsg) {
+		("OPRT" fibo-fbc-fct-mkt:OperatingLevelMarket)
+		("SGMT" fibo-fbc-fct-mkt:MarketSegmentLevelMarket)
+	}
+	VALUES (?OPRT_SGMT ?mic_opsg) {
+		("OPRT" fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier)
+		("SGMT" fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier)
+	}
+	VALUES (?OPRT_SGMT ?_fsp) {
+		("OPRT" fibo-fbc-pas-fpas:FinancialServiceProvider)
+		("SGMT" undef)
+	}
+	VALUES (?OPRT_SGMT ?_miclblapdx) {
+		("OPRT" ' operating-level market identifier')
+		("SGMT" ' market segment-level market identifier')
+	}
+	BIND(CONCAT(?NAME_INSTITUTION_DESCRIPTION, ?_miclblapdx) AS ?_miclbl)
+
+	VALUES (?STATUS ?_status) {
+		("ACTIVE" fibo-fbc-fct-mkt:ActiveMICStatus)
+		("DELETED" fibo-fbc-fct-mkt:DeletedMICStatus)
+		("MODIFIED" fibo-fbc-fct-mkt:ModifiedMICStatus)
+	}
+
+	BIND(COALESCE(?MARKET_CAT_CODE, "NSPD") AS ?_MARKET_CAT_CODE)
+	VALUES (?_MARKET_CAT_CODE ?_adty) {
+		("APPA" undef)
+		("ATSS" fibo-fbc-fct-mkt:AlternativeTradingSystem)
+		("CASP" undef)
+		("DCMS" fibo-fbc-fct-mkt:DesignatedContractMarket)
+		("IDQS" undef)
+		("MLTF" fibo-fbc-fct-mkt:MultilateralTradingFacility)
+		("NSPD" undef)
+		("OTFS" fibo-fbc-fct-mkt:OrganizedTradingFacility)
+		("OTHR" undef)
+		("RMKT" fibo-fbc-fct-mkt:RegulatedExchange)
+		("RMOS" undef)
+		("SEFS" fibo-fbc-fct-mkt:SwapExecutionFacility)
+		("SINT" fibo-fbc-fct-mkt:SystematicInternaliser)
+		("TRFS" undef)
+	}
+
+	BIND(xsd:anyURI(?WEBSITE) AS ?_web)
+	BIND(xsd:date(?CREATION_ISO_DATE) AS ?_crea)
+	BIND(xsd:date(?MODIF_ISO_DATE) AS ?_modf)
+	BIND(xsd:date(?EXPIRY_DATE) AS ?_expd)
+}
