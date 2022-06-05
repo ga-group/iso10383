@@ -30,7 +30,8 @@ CONSTRUCT {
 		fibo-fnd-arr-arr:isConstituentOf	?sgop ;
 		lcc-lr:isIdentifiedBy ?_lei ;
 		rdfs:label	?NAME_INSTITUTION_DESCRIPTION ;
-		skos:note	?COMMENTS .
+		skos:note	?COMMENTS ;
+		tempo:validFrom	?_modf .
 
 	?micedge
 		a	?mic_opsg ;
