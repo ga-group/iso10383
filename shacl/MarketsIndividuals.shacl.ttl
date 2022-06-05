@@ -29,32 +29,44 @@ fibo-fbc-fct-mkt:MarketSegmentLevelMarket-shape a sh:NodeShape ;
 	sh:targetClass fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	## tests
 	sh:property fibo-fbc-fct-mkt:hasExchangeName-property ;
-	sh:property fibo-fbc-fct-mkt:rdfs-label-property ;
+	sh:property rdfs:label-property ;
 	sh:property fibo-fnd-arr-arr:isConstituentOf-property ;
 	sh:property fibo-fbc-fct-mkt:operatesInCountry-property ;
 	sh:property fibo-fbc-fct-mkt:operatesInMunicipality-property ;
+	sh:property tempo:validFrom-property ;
+	sh:property tempo:validTill-property ;
+	sh:sparql tempo:validFrom-validTill-cons ;
 	.
 
 fibo-fbc-fct-mkt:OperatingLevelMarket-shape a sh:NodeShape ;
 	sh:targetClass fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	## tests
 	sh:property fibo-fbc-fct-mkt:hasExchangeName-property ;
-	sh:property fibo-fbc-fct-mkt:rdfs-label-property ;
+	sh:property rdfs:label-property ;
 	sh:property fibo-fnd-plc-vrt:hasWebsite-property ;
 	sh:property fibo-fbc-fct-mkt:operatesInCountry-property ;
 	sh:property fibo-fbc-fct-mkt:operatesInMunicipality-property ;
+	sh:property tempo:validFrom-property ;
+	sh:property tempo:validTill-property ;
+	sh:sparql tempo:validFrom-validTill-cons ;
 	.
 
 fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier-shape a sh:NodeShape ;
 	sh:targetClass fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	## tests
-	sh:property fibo-fbc-fct-mkt:rdfs-label-property ;
+	sh:property rdfs:label-property ;
+	sh:property tempo:validFrom-property ;
+	sh:property tempo:validTill-property ;
+	sh:sparql tempo:validFrom-validTill-cons ;
 	.
 
 fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier-shape a sh:NodeShape ;
 	sh:targetClass fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	## tests
-	sh:property fibo-fbc-fct-mkt:rdfs-label-property ;
+	sh:property rdfs:label-property ;
+	sh:property tempo:validFrom-property ;
+	sh:property tempo:validTill-property ;
+	sh:sparql tempo:validFrom-validTill-cons ;
 	.
 
 ## properties
@@ -65,17 +77,16 @@ fibo-fbc-fct-mkt:hasExchangeName-property a sh:PropertyShape ;
 	sh:type xsd:string ;
 	.
 
-fibo-fbc-fct-mkt:rdfs-label-property a sh:PropertyShape ;
+rdfs:label-property a sh:PropertyShape ;
 	sh:path rdfs:label ;
 	sh:minCount 1 ;
-	sh:maxCount 1 ;
 	sh:type xsd:string ;
+	sh:uniqueLang true ;
 	.
 
 fibo-fnd-plc-vrt:hasWebsite-property a sh:PropertyShape ;
 	sh:path fibo-fnd-plc-vrt:hasWebsite ;
-	sh:minCount 1 ;
-	sh:maxCount 1 ;
+	sh:minCount 0 ;
 	sh:type xsd:anyURI ;
 	.
 
@@ -96,4 +107,32 @@ fibo-fbc-fct-mkt:operatesInMunicipality-property a sh:PropertyShape ;
 	sh:path fibo-fbc-fct-mkt:operatesInMunicipality ;
 	sh:minCount 1 ;
 	sh:maxCount 1 ;
+	.
+
+tempo:validFrom-property a sh:PropertyShape ;
+	sh:path tempo:validFrom ;
+	sh:minCount 0 ;
+	sh:maxCount 1 ;
+	sh:type xsd:date ;
+	.
+
+tempo:validTill-property a sh:PropertyShape ;
+	sh:path tempo:validTill ;
+	sh:minCount 0 ;
+	sh:maxCount 1 ;
+	sh:type xsd:date ;
+	.
+
+tempo:validFrom-validTill-cons
+	sh:prefixes tempo: ;
+	sh:message "tempo:validFrom equals tempo:validTill implying zero efficacy" ;
+	sh:deactivated false ;
+	sh:select """
+PREFIX tempo: <http://purl.org/tempo/>
+
+SELECT $this ?value WHERE {
+	$this tempo:validFrom ?value ;
+		tempo:validTill ?value .
+}
+"""
 	.
