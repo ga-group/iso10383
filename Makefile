@@ -28,21 +28,13 @@ check.%: %.ttl shacl/%.shacl.ttl
 	$(sparql) --results text --data $< --query sql/valrpt.sql
 
 
-MarketsIndividuals.ttl: download/ISO10383_MIC_latest.xlsx MarketsIndividuals.ttl.aux
-	ttl2ttl --sortable $@.aux \
+MarketsIndividuals.ttl: download/ISO10383_MIC_latest.xlsx MarketsIndividuals-aux.ttl MarketsIndividuals-align.ttl
+	ttl2ttl --sortable $(filter %.ttl, $^) \
 	> $@.t
-	## make a black list
-	cut -f1 $@.t \
-	| sort | uniq \
-	> $@.tt
-	## we don't want to use lcc-3166-1 prefix
-	echo "lcc-3166-1:" >> $@.tt
-	-ttl2ttl --sortable $@ \
-	| grep -vFf $@.tt \
-	>> $@.t
-	$(RM) $@.tt
+	-cat $@ >> $@.t
 	scripts/rdISO10383.R $< \
 	| tarql -t --stdin sql/ISO10383.tarql \
+	| grep -vF 'lcc-3166-1:' \
 	| sed 's@rdf:type@a@; s@  *@ @g' \
 	>> $@.t && mv $@.t $@
 	$(MAKE) $@.canon
