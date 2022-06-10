@@ -745,7 +745,7 @@ fibo-fbc-fct-mkti:Exchange-APXL
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.ssx.sydney"^^xsd:anyURI ;
 	rdfs:label	"SYDNEY STOCK EXCHANGE LIMITED" ;
-	skos:note	"AS A SECURITIES EXCHANGE,SSX PROVIDES LISTING FACILITIES TO COMPANIES AND SECURITIES ISSUERS AS WELL AS TRADING FACILITIES FOR STOCK BROKERS, TRADERS AND INVESTORS TO BUY AND SELL SHARES/SECURITIES." , "AS A SECURITIES EXCHANGE,SSX PROVIDES ‘LISTING’ FACILITIES TO COMPANIES AND SECURITIES ISSUERS AS WELL AS ‘TRADING’ FACILITIES FOR STOCK BROKERS, TRADERS AND INVESTORS TO BUY AND SELL SHARES/SECURITIES." ;
+	skos:note	"AS A SECURITIES EXCHANGE,SSX PROVIDES ‘LISTING’ FACILITIES TO COMPANIES AND SECURITIES ISSUERS AS WELL AS ‘TRADING’ FACILITIES FOR STOCK BROKERS, TRADERS AND INVESTORS TO BUY AND SELL SHARES/SECURITIES." ;
 	tempo:validFrom	"2016-02-22"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-AQEA
@@ -4102,7 +4102,7 @@ fibo-fbc-fct-mkti:Exchange-CAVE
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-OTCM ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.otcmarkets.com"^^xsd:anyURI ;
 	rdfs:label	"CAVEAT EMPTOR" ;
-	skos:note	"CORPORATE ACTIONS CAVEAT EMPTOR." , "CORPORATE ACTIONS — CAVEAT EMPTOR." ;
+	skos:note	"CORPORATE ACTIONS — CAVEAT EMPTOR." ;
 	skos:related	wd:Q107223115 ;
 	tempo:validFrom	"2012-08-27"^^xsd:date .
 
@@ -9539,7 +9539,7 @@ fibo-fbc-fct-mkti:Exchange-FTUS
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.flowtraders.com"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-549300K64LZQW7R9ST34-LEI ;
 	rdfs:label	"FLOW TRADERS U.S LLC" ;
-	skos:note	"FLOW TRADERS DISCLOSED LIQUIDITY PROVISION THROUGH LEVEL ALTERNATIVE TRADING SYSTEM (ATS)." , "FLOW TRADERS’ DISCLOSED LIQUIDITY PROVISION THROUGH LEVEL ALTERNATIVE TRADING SYSTEM (ATS)." ;
+	skos:note	"FLOW TRADERS’ DISCLOSED LIQUIDITY PROVISION THROUGH LEVEL ALTERNATIVE TRADING SYSTEM (ATS)." ;
 	skos:related	wd:Q21009903 ;
 	tempo:validFrom	"2019-04-22"^^xsd:date .
 
@@ -9768,10 +9768,10 @@ fibo-fbc-fct-mkti:Exchange-GEMX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"GEMMA" ;
-	fibo-fbc-fct-mkt:hasExchangeName	"GEMMA (GILT EDGED MARKET MAKERS' ASSOCIATION)" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"GEMMA (GILT EDGED MARKET MAKERS’ASSOCIATION)" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
-	rdfs:label	"GEMMA (GILT EDGED MARKET MAKERS' ASSOCIATION)" ;
+	rdfs:label	"GEMMA (GILT EDGED MARKET MAKERS’ASSOCIATION)" ;
 	skos:related	wd:Q93355919 ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -12855,7 +12855,7 @@ fibo-fbc-fct-mkti:Exchange-ISWE
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.icap.com/what-we-do/electronic-markets/i-swap.aspx"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-213800C2MCT5QBE5VW36-LEI ;
 	rdfs:label	"ICAP GLOBAL DERIVATIVES LIMITED - ELECTRONIC" ;
-	skos:note	"MTF/SEF FOR THE TRADING OF INTEREST RATE DERIVATIVES - CLOB." , "MTF/SEF FOR THE TRADING OF INTEREST RATE DERIVATIVES – CLOB." ;
+	skos:note	"MTF/SEF FOR THE TRADING OF INTEREST RATE DERIVATIVES – CLOB." ;
 	skos:related	wd:Q107190283 ;
 	tempo:validFrom	"2018-02-26"^^xsd:date .
 
@@ -12937,7 +12937,7 @@ fibo-fbc-fct-mkti:Exchange-ISWV
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.icap.com/what-we-do/our-markets-and-products/products/medium-long-term-interest-rate-swaps.aspx"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-213800C2MCT5QBE5VW36-LEI ;
 	rdfs:label	"ICAP GLOBAL DERIVATIVES LIMITED - VOICE" ;
-	skos:note	"MTF/SEF FOR THE TRADING OF INTEREST RATE DERIVATIVES - VOICE / RFQ." , "MTF/SEF FOR THE TRADING OF INTEREST RATE DERIVATIVES – VOICE / RFQ." ;
+	skos:note	"MTF/SEF FOR THE TRADING OF INTEREST RATE DERIVATIVES – VOICE / RFQ." ;
 	skos:related	wd:Q107190281 ;
 	tempo:validFrom	"2018-02-26"^^xsd:date .
 
@@ -15685,7 +15685,7 @@ fibo-fbc-fct-mkti:Exchange-MSMS
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Tokyo ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.morganstanleymufg.com"^^xsd:anyURI ;
 	rdfs:label	"MORGAN STANLEY MUFG SECURITIES CO., LTD" ;
-	skos:note	"MORGAN STANLEYS SECURITIES JOINT VENTURE WITH MITSUBISHI UFJ FINANCIAL GROUP IN JAPAN." , "MORGAN STANLEY’S SECURITIES JOINT VENTURE WITH MITSUBISHI UFJ FINANCIAL GROUP IN JAPAN." ;
+	skos:note	"MORGAN STANLEY’S SECURITIES JOINT VENTURE WITH MITSUBISHI UFJ FINANCIAL GROUP IN JAPAN." ;
 	skos:related	wd:Q17230560 ;
 	tempo:validFrom	"2015-07-27"^^xsd:date .
 
@@ -18971,7 +18971,7 @@ fibo-fbc-fct-mkti:Exchange-RICX
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Narberth ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.rxats.com"^^xsd:anyURI ;
 	rdfs:label	"RIVERCROSS" ;
-	skos:note	"RIVERCROSS IS AN ALTERNATIVE TRADING SYSTEM (ATS) OPERATED PURSUANT TO REGULATION ATS BY RIVERCROSS SECURITIES, LLLP, PROVIDING A SECURE AND CONFIDENTIAL LIQUIDITY SOURCE FOR U.S.-REGISTERED BROKER-DEALERS AND THEIR CLIENTS." , "RIVERCROSS™ IS AN ALTERNATIVE TRADING SYSTEM (ATS) OPERATED PURSUANT TO REGULATION ATS BY RIVERCROSS SECURITIES, LLLP, PROVIDING A SECURE AND CONFIDENTIAL LIQUIDITY SOURCE FOR U.S.-REGISTERED BROKER-DEALERS AND THEIR CLIENTS." ;
+	skos:note	"RIVERCROSS™ IS AN ALTERNATIVE TRADING SYSTEM (ATS) OPERATED PURSUANT TO REGULATION ATS BY RIVERCROSS SECURITIES, LLLP, PROVIDING A SECURE AND CONFIDENTIAL LIQUIDITY SOURCE FOR U.S.-REGISTERED BROKER-DEALERS AND THEIR CLIENTS." ;
 	skos:related	wd:Q93356546 ;
 	tempo:validFrom	"2011-05-23"^^xsd:date .
 
@@ -24520,7 +24520,7 @@ fibo-fbc-fct-mkti:Exchange-WINS
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.winterflood.com"^^xsd:anyURI ;
 	rdfs:label	"WINTERFLOOD SECURITIES LIMITED - ELECTRONIC PLATFORM" ;
-	skos:note	"REGISTERED MARKET MAKER - ELECTRONIC PLATFORM" , "REGISTERED MARKET MAKER – ELECTRONIC PLATFORM" ;
+	skos:note	"REGISTERED MARKET MAKER – ELECTRONIC PLATFORM" ;
 	skos:related	wd:Q93360875 ;
 	tempo:validFrom	"2017-06-26"^^xsd:date .
 
@@ -25265,7 +25265,7 @@ fibo-fbc-fct-mkti:Exchange-XBES
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XJSE ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.jse.co.za"^^xsd:anyURI ;
 	rdfs:label	"JSE CASH BOND MARKET" ;
-	skos:note	"JSE - FORMER BOND EXCHANGE OF SOUTH AFRICA." , "JSE – FORMER BOND EXCHANGE OF SOUTH AFRICA." ;
+	skos:note	"JSE – FORMER BOND EXCHANGE OF SOUTH AFRICA." ;
 	skos:related	wd:Q107188889 ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
 
@@ -28642,7 +28642,7 @@ fibo-fbc-fct-mkti:Exchange-XMAI
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XBKK ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.set.or.th"^^xsd:anyURI ;
 	rdfs:label	"MARKET FOR ALTERNATIVE INVESTMENT" ;
-	skos:note	"THE MAIS PURPOSE IS TO CREATE NEW FUND-RAISING OPPORTUNITIES FOR INNOVATIVE BUSINESS WITH HIGH POTENTIAL GROWTH AS WELL AS PROVIDE A GREATER RANGE OF INVESTMENT ALTERNATIVES." , "THE MAI’S PURPOSE IS TO CREATE NEW FUND-RAISING OPPORTUNITIES FOR INNOVATIVE BUSINESS WITH HIGH POTENTIAL GROWTH AS WELL AS PROVIDE A GREATER RANGE OF INVESTMENT ALTERNATIVES." ;
+	skos:note	"THE MAI’S PURPOSE IS TO CREATE NEW FUND-RAISING OPPORTUNITIES FOR INNOVATIVE BUSINESS WITH HIGH POTENTIAL GROWTH AS WELL AS PROVIDE A GREATER RANGE OF INVESTMENT ALTERNATIVES." ;
 	skos:related	wd:Q6578261 ;
 	tempo:validFrom	"2011-04-25"^^xsd:date .
 
