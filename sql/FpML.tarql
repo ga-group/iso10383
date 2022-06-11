@@ -1,0 +1,47 @@
+PREFIX cc: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX fibo-fbc-fct-bc: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/>
+PREFIX fibo-fbc-fct-bci: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/>
+PREFIX fibo-fnd-plc-loc: <https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/>
+PREFIX lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/>
+PREFIX lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX pav: <http://purl.org/pav/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX tempo: <http://purl.org/tempo/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+	?iedge
+		a	owl:NamedIndividual ;
+		a	fibo-fnd-plc-loc:BusinessCenter ;
+		dct:description	?_desi ;
+		rdfs:label	?_ilbl ;
+		lcc-cr:isPartOf ?_cccc .
+
+	?cedge
+		a	fibo-fbc-fct-bc:BusinessCenterCode ;
+		a	owl:NamedIndividual ;
+		dct:description	?_desc ;
+		rdfs:label	?Code ;
+		lcc-lr:identifies	?iedge ;
+		lcc-lr:denotes	?iedge ;
+		lcc-lr:hasTag	?Code ;
+		lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme .
+}
+WHERE {
+	BIND(NOW() AS ?now)
+	BIND(URI(CONCAT(STR(fibo-fbc-fct-bci:),?Code)) AS ?cedge)
+
+	BIND(STRBEFORE(?Description, ", ") AS ?_ilbl)
+	BIND(REPLACE(REPLACE(?_ilbl,
+		" ", "_"),
+		"\\.", "") AS ?_iril)
+	BIND(URI(CONCAT(STR(fibo-fbc-fct-bci:),?_iril)) AS ?iedge)
+	BIND(URI(CONCAT(STR(cc:),SUBSTR(?Code,1,2))) AS ?_cccc)
+
+	BIND(CONCAT("the FpML business center code for ", ?Description) AS ?_desc)
+	BIND(CONCAT("the international business center of ",?_ilbl) AS ?_desi)
+}

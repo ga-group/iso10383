@@ -39,6 +39,17 @@ MarketsIndividuals.ttl: download/ISO10383_MIC_latest.xlsx MarketsIndividuals-aux
 	>> $@.t && mv $@.t $@
 	$(MAKE) $@.canon
 
+BusinessCentersIndividuals.ttl: download/business-center-latest.xml BusinessCentersIndividuals-aux.ttl BusinessCentersIndividuals-align.ttl
+	ttl2ttl --sortable $(filter %.ttl, $^) \
+	> $@.t
+	-cat $@ >> $@.t
+	xsltproc scripts/rdfpml.xsl $< \
+	| tarql -t --stdin sql/FpML.tarql \
+	| grep -vF 'lcc-3166-1:' \
+	| sed 's@rdf:type@a@; s@  *@ @g' \
+	>> $@.t && mv $@.t $@
+	$(MAKE) $@.canon
+
 setup-stardog:                                                                                                                                                                                          
 	$(stardog) namespace add --prefix fibo-fbc-fct-mkt --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/ iso
 	$(stardog) namespace add --prefix fibo-fbc-fct-mkti --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/ iso

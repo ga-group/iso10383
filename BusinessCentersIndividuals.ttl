@@ -1,0 +1,4572 @@
+@prefix cc2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes-Adjunct/> .
+@prefix cc: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fibo-fbc-fct-bc: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/> .
+@prefix fibo-fbc-fct-bci: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/> .
+@prefix fibo-fnd-dt-bd: <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/> .
+@prefix fibo-fnd-plc-loc: <https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/> .
+@prefix fibo-fnd-utl-av: <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> .
+@prefix gleif: <https://rdf.gleif.org/L1/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix tempo: <http://purl.org/tempo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/>
+	a	owl:Ontology ;
+	dct:abstract	"""This ontology includes individuals representing the set of international business centers corresponding to those identified in FpML as well as additional municipalities called out in the ISO 10383 Codes for exchanges and market identification (MIC) standard.
+This set of business centers is current with respect to the FpML published XML data as of 2021.  Note that we have deviated from the standard FIBO naming convention of strict use of camel case to add underscores in city names for readability purposes.""" ;
+	dct:license	"http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	dct:modified	"2022-06-10T12:43:00Z"^^xsd:dateTime ;
+	dct:source	"https://www.fpml.org/coding-scheme/business-center-8-2.xml"^^xsd:anyURI ;
+	fibo-fnd-utl-av:hasMaturityLevel	fibo-fnd-utl-av:Release ;
+	owl:imports	<https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/> , <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> , <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> , <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> , <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> , <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> , <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> , <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> ;
+	owl:versionIRI	<https://spec.edmcouncil.org/fibo/ontology/FBC/20220301/FunctionalEntities/BusinessCentersIndividuals/> ;
+	rdfs:label	"Business Centers Individuals" ;
+	skos:changeNote	"The https://spec.edmcouncil.org/fibo/ontology/FBC/20180901/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to support revisions of the MIC codes as of December 2018." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20181201/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to replace Swaziland with Eswatini, which was revised by the LCC 1.1 RTF to reflect the change to the country name per the U.N." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20190401/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to add municipalities required for the ISO revision to the MIC codes as of September 2019." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20190901/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to add municipalities required for the ISO revision to the MIC codes as of September 2019." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20191201/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to merge countries with locations in FND." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20200301/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to add municipalities required for the ISO revision to the MIC codes as of June 2020, replace the relations hasTag property with the equivalent lcc-lr version, and replace skos:definition on reference individuals with dct:description." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20200601/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to add municipalities required for the ISO revision to the MIC codes as of November 2020, and add Municipalities for 4 important Swiss financial cities." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20201101/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to add municipalities required for the ISO revision to the MIC codes as of March 2021." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20210301/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to add municipalities required for the ISO revision to the MIC codes as of September 2021." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20210901/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to add municipalities required for the ISO revision to the MIC codes as of March 2022." ;
+	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
+	sm:contributor	"GA Financial Solutions GmbH" , "Thematix Partners LLC" , "agnos.ai UK Ltd." ;
+	sm:copyright	"Copyright (c) 2018-2022 EDM Council, Inc." , "Copyright (c) 2018-2022 Object Management Group, Inc." , "Copyright (c) 2022 GA Financial Solutions GmbH" ;
+	sm:fileAbbreviation	"fibo-fbc-fct-bci" ;
+	sm:filename	"BusinessCentersIndividuals.ttl" .
+
+fibo-fbc-fct-bci:AEAB
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Abu Dhabi, Business Day (as defined in 2021 ISDA Definitions Section 2.1.9 (ii))" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:AbuDhabiBusinessDay ;
+	lcc-lr:hasTag	"AEAB" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:AbuDhabiBusinessDay ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"AEAB" .
+
+fibo-fbc-fct-bci:AEAD
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	fibo-fnd-dt-bd:BusinessDayAdjustment , owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Abu Dhabi, Settlement Day (as defined in 2021 ISDA Definitions Section 2.1.9 (i))" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:AbuDhabiSettlementDay ;
+	lcc-lr:hasTag	"AEAD" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:AbuDhabiSettlementDay ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"AEAD" .
+
+fibo-fbc-fct-bci:AEDU
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Dubai, United Arab Emirates" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Dubai ;
+	lcc-lr:hasTag	"AEDU" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Dubai ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"AEDU" .
+
+fibo-fbc-fct-bci:AMYE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Yerevan, Armenia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Yerevan ;
+	lcc-lr:hasTag	"AMYE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Yerevan ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"AMYE" .
+
+fibo-fbc-fct-bci:AOLU
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Luanda, Angola" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Luanda ;
+	lcc-lr:hasTag	"AOLU" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Luanda ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"AOLU" .
+
+fibo-fbc-fct-bci:ARBA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Buenos Aires, Argentina" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Buenos_Aires ;
+	lcc-lr:hasTag	"ARBA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Buenos_Aires ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ARBA" .
+
+fibo-fbc-fct-bci:ATVI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Vienna, Austria" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Vienna ;
+	lcc-lr:hasTag	"ATVI" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Vienna ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ATVI" .
+
+fibo-fbc-fct-bci:AUAD
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Adelaide, Australia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Adelaide ;
+	lcc-lr:hasTag	"AUAD" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Adelaide ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"AUAD" .
+
+fibo-fbc-fct-bci:AUBR
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Brisbane, Australia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Brisbane ;
+	lcc-lr:hasTag	"AUBR" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Brisbane ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"AUBR" .
+
+fibo-fbc-fct-bci:AUCA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Canberra, Australia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Canberra ;
+	lcc-lr:hasTag	"AUCA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Canberra ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"AUCA" .
+
+fibo-fbc-fct-bci:AUDA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Darwin, Australia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Darwin ;
+	lcc-lr:hasTag	"AUDA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Darwin ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"AUDA" .
+
+fibo-fbc-fct-bci:AUME
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Melbourne, Australia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Melbourne ;
+	lcc-lr:hasTag	"AUME" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Melbourne ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"AUME" .
+
+fibo-fbc-fct-bci:AUPE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Perth, Australia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Perth ;
+	lcc-lr:hasTag	"AUPE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Perth ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"AUPE" .
+
+fibo-fbc-fct-bci:AUSY
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Sydney, Australia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Sydney ;
+	lcc-lr:hasTag	"AUSY" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Sydney ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"AUSY" .
+
+fibo-fbc-fct-bci:AZBA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Baku, Azerbaijan" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Baku ;
+	lcc-lr:hasTag	"AZBA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Baku ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"AZBA" .
+
+fibo-fbc-fct-bci:Aabenraa
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:DK ;
+	rdfs:label	"Aabenraa" .
+
+fibo-fbc-fct-bci:Aalborg
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:DK ;
+	rdfs:label	"Aalborg" .
+
+fibo-fbc-fct-bci:Abha
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Abha" ;
+	lcc-cr:isPartOf	cc:SA ;
+	rdfs:label	"Abha" .
+
+fibo-fbc-fct-bci:Abidjan
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Abidjan" ;
+	lcc-cr:isPartOf	cc:CI ;
+	rdfs:label	"Abidjan" .
+
+fibo-fbc-fct-bci:AbuDhabiBusinessDay
+	a	fibo-fnd-dt-bd:BusinessDayAdjustment ;
+	a	owl:NamedIndividual ;
+	dct:description	"the business day adjustment convention for the Abu Dhabi Business Center." ;
+	fibo-fnd-plc-loc:hasBusinessCenter	fibo-fbc-fct-bci:Abu_Dhabi ;
+	rdfs:label	"Abu Dhabi Business Day" .
+
+fibo-fbc-fct-bci:AbuDhabiSettlementDay
+	a	fibo-fnd-dt-bd:BusinessDayAdjustment ;
+	a	owl:NamedIndividual ;
+	dct:description	"the business day adjustment convention for the Abu Dhabi Business Center." ;
+	fibo-fnd-plc-loc:hasBusinessCenter	fibo-fbc-fct-bci:Abu_Dhabi ;
+	rdfs:label	"Abu Dhabi Settlement Day" .
+
+fibo-fbc-fct-bci:Abu_Dhabi
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Abu Dhabi" ;
+	lcc-cr:isPartOf	cc:AE ;
+	rdfs:label	"Abu Dhabi" .
+
+fibo-fbc-fct-bci:Abuja
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Abuja" ;
+	lcc-cr:isPartOf	cc:NG ;
+	rdfs:label	"Abuja" .
+
+fibo-fbc-fct-bci:Accra
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Accra" ;
+	lcc-cr:isPartOf	cc:GH ;
+	rdfs:label	"Accra" .
+
+fibo-fbc-fct-bci:Addis_Ababa
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Addis Ababa" ;
+	lcc-cr:isPartOf	cc:ET ;
+	rdfs:label	"Addis Ababa" .
+
+fibo-fbc-fct-bci:Adelaide
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Adelaide" ;
+	lcc-cr:isPartOf	cc:AU ;
+	rdfs:label	"Adelaide" .
+
+fibo-fbc-fct-bci:Aden
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Aden" ;
+	lcc-cr:isPartOf	cc:YE ;
+	rdfs:label	"Aden" .
+
+fibo-fbc-fct-bci:Ahmedabad
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
+	dct:description	"the international business center of Ahmedabad" ;
+	lcc-cr:isPartOf	cc:IN ;
+	rdfs:label	"Ahmedabad" .
+
+fibo-fbc-fct-bci:Algiers
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Algiers" ;
+	lcc-cr:isPartOf	cc:DZ ;
+	rdfs:label	"Algiers" .
+
+fibo-fbc-fct-bci:Alma-ata
+	owl:sameAs	fibo-fbc-fct-bci:Almaty .
+
+fibo-fbc-fct-bci:Almaty
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Almaty" ;
+	lcc-cr:isPartOf	cc:KZ ;
+	rdfs:label	"Almaty" .
+
+fibo-fbc-fct-bci:Amman
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Amman" ;
+	lcc-cr:isPartOf	cc:JO ;
+	rdfs:label	"Amman" .
+
+fibo-fbc-fct-bci:Amsterdam
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Amsterdam" ;
+	lcc-cr:isPartOf	cc:NL ;
+	rdfs:label	"Amsterdam" .
+
+fibo-fbc-fct-bci:Ankara
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Ankara" ;
+	lcc-cr:isPartOf	cc:TR ;
+	rdfs:label	"Ankara" .
+
+fibo-fbc-fct-bci:Antananarivo
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:MG ;
+	rdfs:label	"Antananarivo" .
+
+fibo-fbc-fct-bci:Astana
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:KZ ;
+	rdfs:label	"Astana" .
+
+fibo-fbc-fct-bci:Asti
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:IT ;
+	rdfs:label	"Asti" .
+
+fibo-fbc-fct-bci:Asuncion
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:PY ;
+	rdfs:label	"Asuncion" .
+
+fibo-fbc-fct-bci:Athens
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Athens" ;
+	lcc-cr:isPartOf	cc:GR ;
+	rdfs:label	"Athens" .
+
+fibo-fbc-fct-bci:Atlanta
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-GA , cc:US ;
+	rdfs:label	"Atlanta" .
+
+fibo-fbc-fct-bci:Auckland
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Auckland" ;
+	lcc-cr:isPartOf	cc:NZ ;
+	rdfs:label	"Auckland" .
+
+fibo-fbc-fct-bci:Aylesbury
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:GB ;
+	rdfs:label	"Aylesbury" .
+
+fibo-fbc-fct-bci:BBBR
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Bridgetown, Barbados" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Bridgetown ;
+	lcc-lr:hasTag	"BBBR" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Bridgetown ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"BBBR" .
+
+fibo-fbc-fct-bci:BDDH
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Dhaka, Bangladesh" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Dhaka ;
+	lcc-lr:hasTag	"BDDH" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Dhaka ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"BDDH" .
+
+fibo-fbc-fct-bci:BEBR
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Brussels, Belgium" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Brussels ;
+	lcc-lr:hasTag	"BEBR" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Brussels ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"BEBR" .
+
+fibo-fbc-fct-bci:BGSO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Sofia, Bulgaria" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Sofia ;
+	lcc-lr:hasTag	"BGSO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Sofia ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"BGSO" .
+
+fibo-fbc-fct-bci:BHMA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Manama, Bahrain" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Manama ;
+	lcc-lr:hasTag	"BHMA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Manama ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"BHMA" .
+
+fibo-fbc-fct-bci:BMHA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Hamilton, Bermuda" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Hamilton ;
+	lcc-lr:hasTag	"BMHA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Hamilton ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"BMHA" .
+
+fibo-fbc-fct-bci:BNBS
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Bandar Seri Begawan, Brunei" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Bandar_Seri_Begawan ;
+	lcc-lr:hasTag	"BNBS" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Bandar_Seri_Begawan ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"BNBS" .
+
+fibo-fbc-fct-bci:BOLP
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for La Paz, Bolivia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:La_Paz ;
+	lcc-lr:hasTag	"BOLP" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:La_Paz ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"BOLP" .
+
+fibo-fbc-fct-bci:BRBD
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Brazil Business Day. This means a business day in any of Sao Paulo, Rio de Janeiro or Brasilia not otherwise declared as a financial market holiday by the Bolsa de Mercadorias & Futuros (BM&F)" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:BrazilBusinessDay ;
+	lcc-lr:hasTag	"BRBD" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:BrazilBusinessDay ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"BRBD" .
+
+fibo-fbc-fct-bci:BRBR
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Brasilia, Brazil" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Brasilia ;
+	lcc-lr:hasTag	"BRBR" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Brasilia ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"BRBR" .
+
+fibo-fbc-fct-bci:BRRJ
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Rio de Janeiro, Brazil" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Rio_de_Janeiro ;
+	lcc-lr:hasTag	"BRRJ" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Rio_de_Janeiro ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"BRRJ" .
+
+fibo-fbc-fct-bci:BRSP
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Sao Paulo, Brazil" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Sao_Paulo ;
+	lcc-lr:hasTag	"BRSP" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Sao_Paulo ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"BRSP" .
+
+fibo-fbc-fct-bci:BSNA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Nassau, Bahamas" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Nassau ;
+	lcc-lr:hasTag	"BSNA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Nassau ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"BSNA" .
+
+fibo-fbc-fct-bci:BWGA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Gaborone, Botswana" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Gaborone ;
+	lcc-lr:hasTag	"BWGA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Gaborone ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"BWGA" .
+
+fibo-fbc-fct-bci:BYMI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Minsk, Belarus" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Minsk ;
+	lcc-lr:hasTag	"BYMI" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Minsk ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"BYMI" .
+
+fibo-fbc-fct-bci:Baghdad
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
+	dct:description	"the international business center of Baghdad" ;
+	lcc-cr:isPartOf	cc:IQ ;
+	rdfs:label	"Baghdad" .
+
+fibo-fbc-fct-bci:Baku
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
+	dct:description	"the international business center of Baku" ;
+	lcc-cr:isPartOf	cc:AZ ;
+	rdfs:label	"Baku" .
+
+fibo-fbc-fct-bci:Bandar_Seri_Begawan
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Bandar Seri Begawan" ;
+	lcc-cr:isPartOf	cc:BN ;
+	rdfs:label	"Bandar Seri Begawan" .
+
+fibo-fbc-fct-bci:Bangalore
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Bangalore" ;
+	lcc-cr:isPartOf	cc:IN ;
+	rdfs:label	"Bangalore" .
+
+fibo-fbc-fct-bci:Bangkok
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Bangkok" ;
+	lcc-cr:isPartOf	cc:TH ;
+	rdfs:label	"Bangkok" .
+
+fibo-fbc-fct-bci:Banja_Luka
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:BA ;
+	rdfs:label	"Banja Luka" .
+
+fibo-fbc-fct-bci:Banjul
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Banjul" ;
+	lcc-cr:isPartOf	cc:GM ;
+	rdfs:label	"Banjul" .
+
+fibo-fbc-fct-bci:Barcelona
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Barcelona" ;
+	lcc-cr:isPartOf	cc:ES ;
+	rdfs:label	"Barcelona" .
+
+fibo-fbc-fct-bci:Basel
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Basel" ;
+	lcc-cr:isPartOf	cc:CH ;
+	rdfs:label	"Basel" .
+
+fibo-fbc-fct-bci:Basseterre
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:KN ;
+	rdfs:label	"Basseterre" .
+
+fibo-fbc-fct-bci:Bedminster
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
+	rdfs:label	"Bedminster" .
+
+fibo-fbc-fct-bci:Beijing
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Beijing" ;
+	lcc-cr:isPartOf	cc:CN ;
+	rdfs:label	"Beijing" .
+
+fibo-fbc-fct-bci:Beirut
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Beirut" ;
+	lcc-cr:isPartOf	cc:LB ;
+	rdfs:label	"Beirut" .
+
+fibo-fbc-fct-bci:Belgrade
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Belgrade" ;
+	lcc-cr:isPartOf	cc:RS ;
+	rdfs:label	"Belgrade" .
+
+fibo-fbc-fct-bci:Bergamo
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:IT ;
+	rdfs:label	"Bergamo" .
+
+fibo-fbc-fct-bci:Bergen
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:NO ;
+	rdfs:label	"Bergen" .
+
+fibo-fbc-fct-bci:Berlin
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:DE ;
+	rdfs:label	"Berlin" .
+
+fibo-fbc-fct-bci:Bermuda
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:BM ;
+	rdfs:label	"Bermuda" .
+
+fibo-fbc-fct-bci:Bern
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:CH ;
+	rdfs:label	"Bern" .
+
+fibo-fbc-fct-bci:Biella
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:IT ;
+	rdfs:label	"Biella" .
+
+fibo-fbc-fct-bci:Bilbao
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:ES ;
+	rdfs:label	"Bilbao" .
+
+fibo-fbc-fct-bci:Bishkek
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:KG ;
+	rdfs:label	"Bishkek" .
+
+fibo-fbc-fct-bci:Blantyre
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:MW ;
+	rdfs:label	"Blantyre" .
+
+fibo-fbc-fct-bci:BocaRaton
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-FL , cc:US ;
+	rdfs:label	"Boca Raton" .
+
+fibo-fbc-fct-bci:Bogota
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Bogota" ;
+	lcc-cr:isPartOf	cc:CO ;
+	rdfs:label	"Bogota" .
+
+fibo-fbc-fct-bci:Bologna
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:IT ;
+	rdfs:label	"Bologna" .
+
+fibo-fbc-fct-bci:Boston
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Boston" ;
+	lcc-cr:isPartOf	cc2:US-MA , cc:US ;
+	rdfs:label	"Boston" .
+
+fibo-fbc-fct-bci:Bradford
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:GB ;
+	rdfs:label	"Bradford" .
+
+fibo-fbc-fct-bci:Brasilia
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Brasilia" ;
+	lcc-cr:isPartOf	cc:BR ;
+	rdfs:label	"Brasilia" .
+
+fibo-fbc-fct-bci:Bratislava
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Bratislava" ;
+	lcc-cr:isPartOf	cc:SK ;
+	rdfs:label	"Bratislava" .
+
+fibo-fbc-fct-bci:BrazilBusinessDay
+	a	fibo-fnd-dt-bd:BusinessDayAdjustment ;
+	a	owl:NamedIndividual ;
+	dct:description	"the business day adjustment convention for the Brazil Business Day. This means a business day in any of Sao Paulo, Rio de Janeiro or Brasilia not otherwise declared as a financial market holiday by the Bolsa de Mercadorias & Futuros (BM&F)" ;
+	fibo-fnd-plc-loc:hasBusinessCenter	fibo-fbc-fct-bci:Brasilia , fibo-fbc-fct-bci:Rio_de_Janeiro , fibo-fbc-fct-bci:Sao_Paulo ;
+	rdfs:label	"Brazil Business Day" .
+
+fibo-fbc-fct-bci:Bridgetown
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Bridgetown" ;
+	lcc-cr:isPartOf	cc:BB ;
+	rdfs:label	"Bridgetown" .
+
+fibo-fbc-fct-bci:Brisbane
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Brisbane" ;
+	lcc-cr:isPartOf	cc:AU ;
+	rdfs:label	"Brisbane" .
+
+fibo-fbc-fct-bci:Brussels
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Brussels" ;
+	lcc-cr:isPartOf	cc:BE ;
+	rdfs:label	"Brussels" .
+
+fibo-fbc-fct-bci:BryanstonSandton
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:ZA ;
+	rdfs:label	"Bryanston, Sandton" .
+
+fibo-fbc-fct-bci:Bucarest
+	owl:sameAs	fibo-fbc-fct-bci:Bucharest .
+
+fibo-fbc-fct-bci:Bucharest
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
+	dct:description	"the international business center of Bucharest" ;
+	lcc-cr:isPartOf	cc:RO ;
+	rdfs:label	"Bucharest" .
+
+fibo-fbc-fct-bci:Budapest
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Budapest" ;
+	lcc-cr:isPartOf	cc:HU ;
+	rdfs:label	"Budapest" .
+
+fibo-fbc-fct-bci:Buenos_Aires
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Buenos Aires" ;
+	lcc-cr:isPartOf	cc:AR ;
+	rdfs:label	"Buenos Aires" .
+
+fibo-fbc-fct-bci:CACL
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Calgary, Canada" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Calgary ;
+	lcc-lr:hasTag	"CACL" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Calgary ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CACL" .
+
+fibo-fbc-fct-bci:CAFR
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Fredericton, Canada." ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Fredericton ;
+	lcc-lr:hasTag	"CAFR" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Fredericton ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CAFR" .
+
+fibo-fbc-fct-bci:CAMO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Montreal, Canada" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Montreal ;
+	lcc-lr:hasTag	"CAMO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Montreal ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CAMO" .
+
+fibo-fbc-fct-bci:CAOT
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Ottawa, Canada" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Ottawa ;
+	lcc-lr:hasTag	"CAOT" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Ottawa ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CAOT" .
+
+fibo-fbc-fct-bci:CATO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Toronto, Canada" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Toronto ;
+	lcc-lr:hasTag	"CATO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Toronto ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CATO" .
+
+fibo-fbc-fct-bci:CAVA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Vancouver, Canada" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Vancouver ;
+	lcc-lr:hasTag	"CAVA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Vancouver ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CAVA" .
+
+fibo-fbc-fct-bci:CAWI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Winnipeg, Canada" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Winnipeg ;
+	lcc-lr:hasTag	"CAWI" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Winnipeg ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CAWI" .
+
+fibo-fbc-fct-bci:CFYA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Yaounde, Central African Republic" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Yaounde ;
+	lcc-lr:hasTag	"CFYA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Yaounde ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CFYA" .
+
+fibo-fbc-fct-bci:CHBA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Basel, Switzerland" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Basel ;
+	lcc-lr:hasTag	"CHBA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Basel ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CHBA" .
+
+fibo-fbc-fct-bci:CHGE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Geneva, Switzerland" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Geneva ;
+	lcc-lr:hasTag	"CHGE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Geneva ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CHGE" .
+
+fibo-fbc-fct-bci:CHZU
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Zurich, Switzerland" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Zurich ;
+	lcc-lr:hasTag	"CHZU" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Zurich ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CHZU" .
+
+fibo-fbc-fct-bci:CIAB
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Abidjan, Cote d'Ivoire" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Abidjan ;
+	lcc-lr:hasTag	"CIAB" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Abidjan ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CIAB" .
+
+fibo-fbc-fct-bci:CLSA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Santiago, Chile" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Santiago ;
+	lcc-lr:hasTag	"CLSA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Santiago ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CLSA" .
+
+fibo-fbc-fct-bci:CNBE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Beijing, China" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Beijing ;
+	lcc-lr:hasTag	"CNBE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Beijing ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CNBE" .
+
+fibo-fbc-fct-bci:CNSH
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Shanghai, China" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Shanghai ;
+	lcc-lr:hasTag	"CNSH" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Shanghai ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CNSH" .
+
+fibo-fbc-fct-bci:COBO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Bogota, Colombia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Bogota ;
+	lcc-lr:hasTag	"COBO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Bogota ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"COBO" .
+
+fibo-fbc-fct-bci:CRSJ
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for San Jose, Costa Rica" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:San_Jose ;
+	lcc-lr:hasTag	"CRSJ" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:San_Jose ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CRSJ" .
+
+fibo-fbc-fct-bci:CWWI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Willemstad, Curacao" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Willemstad ;
+	lcc-lr:hasTag	"CWWI" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Willemstad ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CWWI" .
+
+fibo-fbc-fct-bci:CYNI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Nicosia, Cyprus" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Nicosia ;
+	lcc-lr:hasTag	"CYNI" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Nicosia ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CYNI" .
+
+fibo-fbc-fct-bci:CZPR
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Prague, Czech Republic" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Prague ;
+	lcc-lr:hasTag	"CZPR" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Prague ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"CZPR" .
+
+fibo-fbc-fct-bci:Cairo
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Cairo" ;
+	lcc-cr:isPartOf	cc:EG ;
+	rdfs:label	"Cairo" .
+
+fibo-fbc-fct-bci:Calcutta
+	owl:sameAs	fibo-fbc-fct-bci:Kolkata .
+
+fibo-fbc-fct-bci:Calgary
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Calgary" ;
+	lcc-cr:isPartOf	cc:CA ;
+	rdfs:label	"Calgary" .
+
+fibo-fbc-fct-bci:Canberra
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Canberra" ;
+	lcc-cr:isPartOf	cc:AU ;
+	rdfs:label	"Canberra" .
+
+fibo-fbc-fct-bci:Caracas
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Caracas" ;
+	lcc-cr:isPartOf	cc:VE ;
+	rdfs:label	"Caracas" .
+
+fibo-fbc-fct-bci:Casablanca
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Casablanca" ;
+	lcc-cr:isPartOf	cc:MA ;
+	rdfs:label	"Casablanca" .
+
+fibo-fbc-fct-bci:Charlotte
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Charlotte" ;
+	lcc-cr:isPartOf	cc2:US-NC , cc:US ;
+	rdfs:label	"Charlotte" .
+
+fibo-fbc-fct-bci:Chatham
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:MA , cc:US ;
+	rdfs:label	"Chatham" .
+
+fibo-fbc-fct-bci:Chennai
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Chennai" ;
+	lcc-cr:isPartOf	cc:IN ;
+	rdfs:label	"Chennai" .
+
+fibo-fbc-fct-bci:Chicago
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Chicago" ;
+	lcc-cr:isPartOf	cc2:US-IL , cc:US ;
+	rdfs:label	"Chicago" .
+
+fibo-fbc-fct-bci:Chisinau
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:MD ;
+	rdfs:label	"Chisinau" .
+
+fibo-fbc-fct-bci:Chittagong
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:BD ;
+	rdfs:label	"Chittagong" .
+
+fibo-fbc-fct-bci:Chiyoda-ku
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:JP ;
+	rdfs:label	"Chiyoda-ku" .
+
+fibo-fbc-fct-bci:ClujNapoca
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:RO ;
+	rdfs:label	"Cluj Napoca" .
+
+fibo-fbc-fct-bci:Cologne
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Cologne" ;
+	lcc-cr:isPartOf	cc:DE ;
+	rdfs:label	"Cologne" .
+
+fibo-fbc-fct-bci:Colombo
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Colombo" ;
+	lcc-cr:isPartOf	cc:LK ;
+	rdfs:label	"Colombo" .
+
+fibo-fbc-fct-bci:Conakry
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Conakry" ;
+	lcc-cr:isPartOf	cc:GN ;
+	rdfs:label	"Conakry" .
+
+fibo-fbc-fct-bci:Copenhagen
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Copenhagen" ;
+	lcc-cr:isPartOf	cc:DK ;
+	rdfs:label	"Copenhagen" .
+
+fibo-fbc-fct-bci:Cordoba
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:AR ;
+	rdfs:label	"Cordoba" .
+
+fibo-fbc-fct-bci:Corrientes
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:AR ;
+	rdfs:label	"Corrientes" .
+
+fibo-fbc-fct-bci:DECO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Cologne, Germany" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Cologne ;
+	lcc-lr:hasTag	"DECO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Cologne ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"DECO" .
+
+fibo-fbc-fct-bci:DEDU
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Dusseldorf, Germany" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Duesseldorf ;
+	lcc-lr:hasTag	"DEDU" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Duesseldorf ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"DEDU" .
+
+fibo-fbc-fct-bci:DEFR
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Frankfurt, Germany" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Frankfurt ;
+	lcc-lr:hasTag	"DEFR" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Frankfurt ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"DEFR" .
+
+fibo-fbc-fct-bci:DEHA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Hannover, Germany" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Hannover ;
+	lcc-lr:hasTag	"DEHA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Hannover ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"DEHA" .
+
+fibo-fbc-fct-bci:DEHH
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Hamburg, Germany" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Hamburg ;
+	lcc-lr:hasTag	"DEHH" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Hamburg ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"DEHH" .
+
+fibo-fbc-fct-bci:DELE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Leipzig, Germany" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Leipzig ;
+	lcc-lr:hasTag	"DELE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Leipzig ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"DELE" .
+
+fibo-fbc-fct-bci:DEMA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Mainz, Germany" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Mainz ;
+	lcc-lr:hasTag	"DEMA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Mainz ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"DEMA" .
+
+fibo-fbc-fct-bci:DEMU
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Munich, Germany" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Munich ;
+	lcc-lr:hasTag	"DEMU" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Munich ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"DEMU" .
+
+fibo-fbc-fct-bci:DEST
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Stuttgart, Germany" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Stuttgart ;
+	lcc-lr:hasTag	"DEST" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Stuttgart ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"DEST" .
+
+fibo-fbc-fct-bci:DKCO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Copenhagen, Denmark" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Copenhagen ;
+	lcc-lr:hasTag	"DKCO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Copenhagen ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"DKCO" .
+
+fibo-fbc-fct-bci:DOSD
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Santo Domingo, Dominican Republic" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Santo_Domingo ;
+	lcc-lr:hasTag	"DOSD" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Santo_Domingo ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"DOSD" .
+
+fibo-fbc-fct-bci:DZAL
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Algiers, Algeria" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Algiers ;
+	lcc-lr:hasTag	"DZAL" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Algiers ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"DZAL" .
+
+fibo-fbc-fct-bci:Dakar
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Dakar" ;
+	lcc-cr:isPartOf	cc:SN ;
+	rdfs:label	"Dakar" .
+
+fibo-fbc-fct-bci:Dalian
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:CN ;
+	rdfs:label	"Dalian" .
+
+fibo-fbc-fct-bci:Damascus
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	dct:description	"the municipality of Damascus" ;
+	lcc-cr:isPartOf	cc:SY ;
+	rdfs:label	"Damascus" .
+
+fibo-fbc-fct-bci:Dar_es_Salaam
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Dar es Salaam" ;
+	lcc-cr:isPartOf	cc:TZ ;
+	rdfs:label	"Dar es Salaam" .
+
+fibo-fbc-fct-bci:Darwin
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Darwin" ;
+	lcc-cr:isPartOf	cc:AU ;
+	rdfs:label	"Darwin" .
+
+fibo-fbc-fct-bci:Davos_Platz
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:CH ;
+	rdfs:label	"Davos Platz" .
+
+fibo-fbc-fct-bci:Denver
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Denver" ;
+	lcc-cr:isPartOf	cc2:US-CO , cc:US ;
+	rdfs:label	"Denver" .
+
+fibo-fbc-fct-bci:Detroit
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Detroit" ;
+	lcc-cr:isPartOf	cc2:US-MI , cc:US ;
+	rdfs:label	"Detroit" .
+
+fibo-fbc-fct-bci:Dhaka
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Dhaka" ;
+	lcc-cr:isPartOf	cc:BD ;
+	rdfs:label	"Dhaka" .
+
+fibo-fbc-fct-bci:Dnipropetrovsk
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:UA ;
+	rdfs:label	"Dnipropetrovsk" .
+
+fibo-fbc-fct-bci:Dodoma
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Dodoma" ;
+	lcc-cr:isPartOf	cc:TZ ;
+	rdfs:label	"Dodoma" .
+
+fibo-fbc-fct-bci:Doha
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Doha" ;
+	lcc-cr:isPartOf	cc:QA ;
+	rdfs:label	"Doha" .
+
+fibo-fbc-fct-bci:Douala
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:CM ;
+	rdfs:label	"Douala" .
+
+fibo-fbc-fct-bci:Dubai
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Dubai" ;
+	lcc-cr:isPartOf	cc:AE ;
+	rdfs:label	"Dubai" .
+
+fibo-fbc-fct-bci:Dublin
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Dublin" ;
+	lcc-cr:isPartOf	cc:IE ;
+	rdfs:label	"Dublin" .
+
+fibo-fbc-fct-bci:Duesseldorf
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:DE ;
+	dct:description	"the international business center of Dusseldorf" ;
+	rdfs:label	"Duesseldorf" .
+
+fibo-fbc-fct-bci:Dusseldorf
+	owl:sameAs	fibo-fbc-fct-bci:Duesseldorf .
+
+fibo-fbc-fct-bci:EETA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Tallinn, Estonia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Tallinn ;
+	lcc-lr:hasTag	"EETA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Tallinn ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"EETA" .
+
+fibo-fbc-fct-bci:EGCA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Cairo, Egypt" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Cairo ;
+	lcc-lr:hasTag	"EGCA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Cairo ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"EGCA" .
+
+fibo-fbc-fct-bci:ESAS
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
+	dct:description	"the FpML business center code for ESAS Settlement Day (as defined in 2006 ISDA Definitions Section 7.1 and Supplement Number 15 to the 2000 ISDA Definitions)" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:ESASSettlementDay ;
+	lcc-lr:hasTag	"ESAS" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:ESASSettlementDay ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ESAS" .
+
+fibo-fbc-fct-bci:ESASSettlementDay
+	a	fibo-fnd-dt-bd:BusinessDayAdjustment ;
+	a	owl:NamedIndividual ;
+	dct:description	"the business day adjustment convention for the ESAS Settlement Day (as defined in 2006 ISDA Definitions Section 7.1 and Supplement Number 15 to the 2000 ISDA Definitions)" ;
+	fibo-fnd-plc-loc:hasBusinessCenter	fibo-fbc-fct-bci:Wellington ;
+	fibo-fnd-utl-av:explanatoryNote	"ESAS is the Reserve Bank of New Zealand's Exchange Settlement Account System which is used by banks and other approved financial institutions to settle their obligations on a Real-Time Gross Settlement (RTGS) basis." ;
+	rdfs:label	"ESAS Settlement Day" .
+
+fibo-fbc-fct-bci:ESBA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Barcelona, Spain" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Barcelona ;
+	lcc-lr:hasTag	"ESBA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Barcelona ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ESBA" .
+
+fibo-fbc-fct-bci:ESMA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Madrid, Spain" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Madrid ;
+	lcc-lr:hasTag	"ESMA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Madrid ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ESMA" .
+
+fibo-fbc-fct-bci:ESSS
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for San Sebastian, Spain" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:San_Sebastian ;
+	lcc-lr:hasTag	"ESSS" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:San_Sebastian ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ESSS" .
+
+fibo-fbc-fct-bci:ETAA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Addis Ababa, Ethiopia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Addis_Ababa ;
+	lcc-lr:hasTag	"ETAA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Addis_Ababa ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ETAA" .
+
+fibo-fbc-fct-bci:EUR-ICESWAP
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Publication dates for ICE Swap rates based on EUR-EURIBOR rates" ;
+	lcc-lr:hasTag	"EUR-ICESWAP" ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"EUR-ICESWAP" .
+
+fibo-fbc-fct-bci:EUTA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
+	dct:description	"the FpML business center code for TARGET (euro 'Business Center')" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:TARGETSettlementDay ;
+	lcc-lr:hasTag	"EUTA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:TARGETSettlementDay ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"EUTA" .
+
+fibo-fbc-fct-bci:Ebene
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	fibo-fnd-utl-av:synonym	"Cybercity" , "Ebene Cybercity" ;
+	lcc-cr:isPartOf	cc:MU ;
+	rdfs:label	"Ebene" .
+
+fibo-fbc-fct-bci:Eden_Island
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:SC ;
+	rdfs:label	"Eden Island" .
+
+fibo-fbc-fct-bci:Edinburgh
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Edinburgh" ;
+	lcc-cr:isPartOf	cc:GB ;
+	rdfs:label	"Edinburgh" .
+
+fibo-fbc-fct-bci:El_Salvador
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:SV ;
+	rdfs:label	"El Salvador" .
+
+fibo-fbc-fct-bci:Esch-sur-alzette
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:LU ;
+	rdfs:label	"Esch-sur-alzette" .
+
+fibo-fbc-fct-bci:Eschborn
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:DE ;
+	rdfs:label	"Eschborn" .
+
+fibo-fbc-fct-bci:Eschenz
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:CH ;
+	rdfs:label	"Eschenz" .
+
+fibo-fbc-fct-bci:Espirito_Santo
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:BR ;
+	rdfs:label	"Espirito Santo" .
+
+fibo-fbc-fct-bci:Espoo
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:FI ;
+	rdfs:label	"Espoo" .
+
+fibo-fbc-fct-bci:FIHE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Helsinki, Finland" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Helsinki ;
+	lcc-lr:hasTag	"FIHE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Helsinki ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"FIHE" .
+
+fibo-fbc-fct-bci:FRPA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Paris, France" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Paris ;
+	lcc-lr:hasTag	"FRPA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Paris ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"FRPA" .
+
+fibo-fbc-fct-bci:Fiac
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:FR ;
+	rdfs:label	"Fiac" .
+
+fibo-fbc-fct-bci:Firenze
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:IT ;
+	rdfs:label	"Firenze" .
+
+fibo-fbc-fct-bci:Florence
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:IT ;
+	rdfs:label	"Florence" .
+
+fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme
+	a	fibo-fbc-fct-bc:BusinessCenterCodeScheme ;
+	a	owl:NamedIndividual ;
+	dct:description	"the coding scheme used to define a set of codes for municipalities, or business centers, or business day adjustments for FpML" ;
+	fibo-fnd-utl-av:adaptedFrom	"http://www.fpml.org/coding-scheme/business-center"^^xsd:anyURI ;
+	rdfs:label	"FpML Business Center Code Scheme" .
+
+fibo-fbc-fct-bci:Frankfurt
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Frankfurt" ;
+	lcc-cr:isPartOf	cc:DE ;
+	rdfs:label	"Frankfurt" .
+
+fibo-fbc-fct-bci:Fredericton
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Fredericton" ;
+	lcc-cr:isPartOf	cc:CA ;
+	rdfs:label	"Fredericton" .
+
+fibo-fbc-fct-bci:Freetown
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Freetown" ;
+	lcc-cr:isPartOf	cc:SL ;
+	rdfs:label	"Freetown" .
+
+fibo-fbc-fct-bci:Fukuoka
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:JP ;
+	rdfs:label	"Fukuoka" .
+
+fibo-fbc-fct-bci:GBED
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Edinburgh, Scotland" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Edinburgh ;
+	lcc-lr:hasTag	"GBED" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Edinburgh ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"GBED" .
+
+fibo-fbc-fct-bci:GBLO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for London, United Kingdom" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:London ;
+	lcc-lr:hasTag	"GBLO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:London ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"GBLO" .
+
+fibo-fbc-fct-bci:GBP-ICESWAP
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Publication dates for GBP ICE Swap rates" ;
+	lcc-lr:hasTag	"GBP-ICESWAP" ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"GBP-ICESWAP" .
+
+fibo-fbc-fct-bci:GETB
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Tbilisi, Georgia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Tbilisi ;
+	lcc-lr:hasTag	"GETB" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Tbilisi ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"GETB" .
+
+fibo-fbc-fct-bci:GGSP
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Saint Peter Port, Guernsey" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Saint_Peter_Port ;
+	lcc-lr:hasTag	"GGSP" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Saint_Peter_Port ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"GGSP" .
+
+fibo-fbc-fct-bci:GHAC
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Accra, Ghana" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Accra ;
+	lcc-lr:hasTag	"GHAC" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Accra ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"GHAC" .
+
+fibo-fbc-fct-bci:GIFT_City
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	fibo-fnd-utl-av:synonym	"Gujarat International Finance Tec-City" ;
+	lcc-cr:isPartOf	cc:IN ;
+	rdfs:label	"GIFT City" .
+
+fibo-fbc-fct-bci:GMBA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Banjul, Gambia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Banjul ;
+	lcc-lr:hasTag	"GMBA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Banjul ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"GMBA" .
+
+fibo-fbc-fct-bci:GNCO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Conakry, Guinea" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Conakry ;
+	lcc-lr:hasTag	"GNCO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Conakry ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"GNCO" .
+
+fibo-fbc-fct-bci:GRAT
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Athens, Greece" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Athens ;
+	lcc-lr:hasTag	"GRAT" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Athens ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"GRAT" .
+
+fibo-fbc-fct-bci:GUGC
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Guatemala City, Guatemala" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Guatemala_City ;
+	lcc-lr:hasTag	"GUGC" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Guatemala_City ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"GUGC" .
+
+fibo-fbc-fct-bci:Gaborone
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Gaborone" ;
+	lcc-cr:isPartOf	cc:BW ;
+	rdfs:label	"Gaborone" .
+
+fibo-fbc-fct-bci:Gandhinagar
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:IN ;
+	rdfs:label	"Gandhinagar" .
+
+fibo-fbc-fct-bci:Geneva
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Geneva" ;
+	lcc-cr:isPartOf	cc:CH ;
+	rdfs:label	"Geneva" .
+
+fibo-fbc-fct-bci:Genova
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:IT ;
+	rdfs:label	"Genova" .
+
+fibo-fbc-fct-bci:George_Town
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of George Town" ;
+	lcc-cr:isPartOf	cc:KY ;
+	rdfs:label	"George Town" .
+
+fibo-fbc-fct-bci:Georgetown
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:GY ;
+	rdfs:label	"Georgetown" .
+
+fibo-fbc-fct-bci:Gibraltar
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:GI ;
+	rdfs:label	"Gibraltar" .
+
+fibo-fbc-fct-bci:Glenview
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-IL , cc:US ;
+	rdfs:label	"Glenview" .
+
+fibo-fbc-fct-bci:Great_Neck
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-NY , cc:US ;
+	rdfs:label	"Great Neck" .
+
+fibo-fbc-fct-bci:Greenwich
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-CT , cc:US ;
+	rdfs:label	"Greenwich" .
+
+fibo-fbc-fct-bci:Grindsted
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:DK ;
+	rdfs:label	"Grindsted" .
+
+fibo-fbc-fct-bci:Guatemala_City
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Guatemala City" ;
+	lcc-cr:isPartOf	cc:GT ;
+	rdfs:label	"Guatemala City" .
+
+fibo-fbc-fct-bci:Guayaquil
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:EC ;
+	rdfs:label	"Guayaquil" .
+
+fibo-fbc-fct-bci:Guaynabo
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-PR , cc:US ;
+	rdfs:label	"Guaynabo" .
+
+fibo-fbc-fct-bci:Guildford
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:GB ;
+	rdfs:label	"Guildford" .
+
+fibo-fbc-fct-bci:HKHK
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Hong Kong, Hong Kong" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Hong_Kong ;
+	lcc-lr:hasTag	"HKHK" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Hong_Kong ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"HKHK" .
+
+fibo-fbc-fct-bci:HNTE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Tegucigalpa, Honduras" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Tegucigalpa ;
+	lcc-lr:hasTag	"HNTE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Tegucigalpa ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"HNTE" .
+
+fibo-fbc-fct-bci:HRZA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Zagreb, Republic of Croatia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Zagreb ;
+	lcc-lr:hasTag	"HRZA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Zagreb ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"HRZA" .
+
+fibo-fbc-fct-bci:HUBU
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Budapest, Hungary" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Budapest ;
+	lcc-lr:hasTag	"HUBU" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Budapest ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"HUBU" .
+
+fibo-fbc-fct-bci:Hamburg
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
+	dct:description	"the international business center of Hamburg" ;
+	lcc-cr:isPartOf	cc:DE ;
+	rdfs:label	"Hamburg" .
+
+fibo-fbc-fct-bci:Hamilton
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Hamilton" ;
+	lcc-cr:isPartOf	cc:BM ;
+	rdfs:label	"Hamilton" .
+
+fibo-fbc-fct-bci:Hannover
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
+	dct:description	"the international business center of Hannover" ;
+	lcc-cr:isPartOf	cc:DE ;
+	rdfs:label	"Hannover" .
+
+fibo-fbc-fct-bci:Hanoi
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Hanoi" ;
+	lcc-cr:isPartOf	cc:VN ;
+	rdfs:label	"Hanoi" .
+
+fibo-fbc-fct-bci:Harare
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Harare" ;
+	lcc-cr:isPartOf	cc:ZW ;
+	rdfs:label	"Harare" .
+
+fibo-fbc-fct-bci:Helsinki
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Helsinki" ;
+	lcc-cr:isPartOf	cc:FI ;
+	rdfs:label	"Helsinki" .
+
+fibo-fbc-fct-bci:Ho_Chi_Minh
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Ho Chi Minh (formerly Saigon)" ;
+	lcc-cr:isPartOf	cc:VN ;
+	rdfs:label	"Ho Chi Minh (formerly Saigon)" .
+
+fibo-fbc-fct-bci:Ho_Chi_Minh_City
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:VN ;
+	rdfs:label	"Ho Chi Minh City" .
+
+fibo-fbc-fct-bci:Hong_Kong
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Hong Kong" ;
+	lcc-cr:isPartOf	cc:HK ;
+	rdfs:label	"Hong Kong" .
+
+fibo-fbc-fct-bci:Honolulu
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Honolulu" ;
+	lcc-cr:isPartOf	cc2:US-HI , cc:US ;
+	rdfs:label	"Honolulu" .
+
+fibo-fbc-fct-bci:Horsens
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:DK ;
+	rdfs:label	"Horsens" .
+
+fibo-fbc-fct-bci:Houston
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Houston" ;
+	lcc-cr:isPartOf	cc2:US-TX , cc:US ;
+	rdfs:label	"Houston" .
+
+fibo-fbc-fct-bci:Hove
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:GB ;
+	rdfs:label	"Hove" .
+
+fibo-fbc-fct-bci:Hyderabad
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Hyderabad" ;
+	lcc-cr:isPartOf	cc:IN ;
+	rdfs:label	"Hyderabad" .
+
+fibo-fbc-fct-bci:IDJA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Jakarta, Indonesia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Jakarta ;
+	lcc-lr:hasTag	"IDJA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Jakarta ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"IDJA" .
+
+fibo-fbc-fct-bci:IEDU
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Dublin, Ireland" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Dublin ;
+	lcc-lr:hasTag	"IEDU" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Dublin ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"IEDU" .
+
+fibo-fbc-fct-bci:ILJE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Jerusalem, Israel" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Jerusalem ;
+	lcc-lr:hasTag	"ILJE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Jerusalem ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ILJE" .
+
+fibo-fbc-fct-bci:ILS-TELBOR
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Publication dates of the ILS-TELBOR index." ;
+	lcc-lr:hasTag	"ILS-TELBOR" ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ILS-TELBOR" .
+
+fibo-fbc-fct-bci:ILTA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Tel Aviv, Israel" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Tel_Aviv ;
+	lcc-lr:hasTag	"ILTA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Tel_Aviv ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ILTA" .
+
+fibo-fbc-fct-bci:INAH
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Ahmedabad, India" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Ahmedabad ;
+	lcc-lr:hasTag	"INAH" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Ahmedabad ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"INAH" .
+
+fibo-fbc-fct-bci:INBA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Bangalore, India" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Bangalore ;
+	lcc-lr:hasTag	"INBA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Bangalore ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"INBA" .
+
+fibo-fbc-fct-bci:INCH
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Chennai, India" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Chennai ;
+	lcc-lr:hasTag	"INCH" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Chennai ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"INCH" .
+
+fibo-fbc-fct-bci:INHY
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Hyderabad, India" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Hyderabad ;
+	lcc-lr:hasTag	"INHY" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Hyderabad ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"INHY" .
+
+fibo-fbc-fct-bci:INKO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Kolkata, India" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Kolkata ;
+	lcc-lr:hasTag	"INKO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Kolkata ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"INKO" .
+
+fibo-fbc-fct-bci:INMU
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Mumbai, India" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Mumbai ;
+	lcc-lr:hasTag	"INMU" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Mumbai ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"INMU" .
+
+fibo-fbc-fct-bci:INND
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for New Delhi, India" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:New_Delhi ;
+	lcc-lr:hasTag	"INND" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:New_Delhi ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"INND" .
+
+fibo-fbc-fct-bci:IQBA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Baghdad, Iraq" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Baghdad ;
+	lcc-lr:hasTag	"IQBA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Baghdad ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"IQBA" .
+
+fibo-fbc-fct-bci:IRTE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Teheran, Iran" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Teheran ;
+	lcc-lr:hasTag	"IRTE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Teheran ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"IRTE" .
+
+fibo-fbc-fct-bci:ISRE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Reykjavik, Iceland" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Reykjavik ;
+	lcc-lr:hasTag	"ISRE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Reykjavik ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ISRE" .
+
+fibo-fbc-fct-bci:ITMI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Milan, Italy" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Milan ;
+	lcc-lr:hasTag	"ITMI" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Milan ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ITMI" .
+
+fibo-fbc-fct-bci:ITRO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Rome, Italy" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Rome ;
+	lcc-lr:hasTag	"ITRO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Rome ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ITRO" .
+
+fibo-fbc-fct-bci:ITTU
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Turin, Italy" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Turin ;
+	lcc-lr:hasTag	"ITTU" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Turin ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ITTU" .
+
+fibo-fbc-fct-bci:Indore_Madhya_Pradesh
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:IN ;
+	rdfs:label	"Indore Madhya Pradesh" .
+
+fibo-fbc-fct-bci:Istanbul
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Istanbul" ;
+	lcc-cr:isPartOf	cc:TR ;
+	rdfs:label	"Istanbul" .
+
+fibo-fbc-fct-bci:JESH
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for St. Helier, Channel Islands, Jersey" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:St_Helier ;
+	lcc-lr:hasTag	"JESH" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:St_Helier ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"JESH" .
+
+fibo-fbc-fct-bci:JMKI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Kingston, Jamaica" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Kingston ;
+	lcc-lr:hasTag	"JMKI" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Kingston ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"JMKI" .
+
+fibo-fbc-fct-bci:JOAM
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Amman, Jordan" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Amman ;
+	lcc-lr:hasTag	"JOAM" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Amman ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"JOAM" .
+
+fibo-fbc-fct-bci:JPTO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Tokyo, Japan" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Tokyo ;
+	lcc-lr:hasTag	"JPTO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Tokyo ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"JPTO" .
+
+fibo-fbc-fct-bci:Jakarta
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Jakarta" ;
+	lcc-cr:isPartOf	cc:ID ;
+	rdfs:label	"Jakarta" .
+
+fibo-fbc-fct-bci:Jeddah
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Jeddah" ;
+	lcc-cr:isPartOf	cc:SA ;
+	rdfs:label	"Jeddah" .
+
+fibo-fbc-fct-bci:Jersey_City
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
+	rdfs:label	"Jersey City" .
+
+fibo-fbc-fct-bci:Jerusalem
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Jerusalem" ;
+	lcc-cr:isPartOf	cc:IL ;
+	rdfs:label	"Jerusalem" .
+
+fibo-fbc-fct-bci:Johannesburg
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Johannesburg" ;
+	lcc-cr:isPartOf	cc:ZA ;
+	rdfs:label	"Johannesburg" .
+
+fibo-fbc-fct-bci:KENA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Nairobi, Kenya" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Nairobi ;
+	lcc-lr:hasTag	"KENA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Nairobi ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"KENA" .
+
+fibo-fbc-fct-bci:KHPP
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Phnom Penh, Cambodia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Phnom_Penh ;
+	lcc-lr:hasTag	"KHPP" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Phnom_Penh ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"KHPP" .
+
+fibo-fbc-fct-bci:KRSE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Seoul, Republic of Korea" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Seoul ;
+	lcc-lr:hasTag	"KRSE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Seoul ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"KRSE" .
+
+fibo-fbc-fct-bci:KWKC
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Kuwait City, Kuwait" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Kuwait_City ;
+	lcc-lr:hasTag	"KWKC" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Kuwait_City ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"KWKC" .
+
+fibo-fbc-fct-bci:KYGE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for George Town, Cayman Islands" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:George_Town ;
+	lcc-lr:hasTag	"KYGE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:George_Town ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"KYGE" .
+
+fibo-fbc-fct-bci:KZAL
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Almaty, Kazakhstan" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Almaty ;
+	lcc-lr:hasTag	"KZAL" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Almaty ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"KZAL" .
+
+fibo-fbc-fct-bci:Kampala
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Kampala" ;
+	lcc-cr:isPartOf	cc:UG ;
+	rdfs:label	"Kampala" .
+
+fibo-fbc-fct-bci:Kansas_City
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-MO , cc:US ;
+	rdfs:label	"Kansas City" .
+
+fibo-fbc-fct-bci:Karachi
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Karachi" ;
+	lcc-cr:isPartOf	cc:PK ;
+	rdfs:label	"Karachi" .
+
+fibo-fbc-fct-bci:Kathmandu
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Kathmandu" ;
+	lcc-cr:isPartOf	cc:NP ;
+	rdfs:label	"Kathmandu" .
+
+fibo-fbc-fct-bci:Kharkov
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:UA ;
+	rdfs:label	"Kharkov" .
+
+fibo-fbc-fct-bci:Khartoum
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:SD ;
+	rdfs:label	"Khartoum" .
+
+fibo-fbc-fct-bci:Kiel
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:DE ;
+	rdfs:label	"Kiel" .
+
+fibo-fbc-fct-bci:Kiev
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Kiev" ;
+	lcc-cr:isPartOf	cc:UA ;
+	rdfs:label	"Kiev" .
+
+fibo-fbc-fct-bci:Kigali
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:RW ;
+	rdfs:label	"Kigali" .
+
+fibo-fbc-fct-bci:Kingston
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Kingston" ;
+	lcc-cr:isPartOf	cc:JM ;
+	rdfs:label	"Kingston" .
+
+fibo-fbc-fct-bci:Kingstown
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:VC ;
+	rdfs:label	"Kingstown" .
+
+fibo-fbc-fct-bci:Klagenfurt_am_Woerthersee
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:AT ;
+	rdfs:label	"Klagenfurt Am Woerthersee" .
+
+fibo-fbc-fct-bci:Kolkata
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Kolkata" ;
+	lcc-cr:isPartOf	cc:IN ;
+	rdfs:label	"Kolkata" .
+
+fibo-fbc-fct-bci:Kongsvinger
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:NO ;
+	rdfs:label	"Kongsvinger" .
+
+fibo-fbc-fct-bci:Kuala_Lumpur
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Kuala Lumpur" ;
+	lcc-cr:isPartOf	cc:MY ;
+	rdfs:label	"Kuala Lumpur" .
+
+fibo-fbc-fct-bci:Kuwait_City
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Kuwait City" ;
+	lcc-cr:isPartOf	cc:KW ;
+	rdfs:label	"Kuwait City" .
+
+fibo-fbc-fct-bci:LAVI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Vientiane, Laos" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Vientiane ;
+	lcc-lr:hasTag	"LAVI" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Vientiane ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"LAVI" .
+
+fibo-fbc-fct-bci:LBBE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Beirut, Lebanon" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Beirut ;
+	lcc-lr:hasTag	"LBBE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Beirut ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"LBBE" .
+
+fibo-fbc-fct-bci:LKCO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Colombo, Sri Lanka" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Colombo ;
+	lcc-lr:hasTag	"LKCO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Colombo ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"LKCO" .
+
+fibo-fbc-fct-bci:LULU
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Luxembourg, Luxembourg" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Luxembourg ;
+	lcc-lr:hasTag	"LULU" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Luxembourg ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"LULU" .
+
+fibo-fbc-fct-bci:LVRI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Riga, Latvia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Riga ;
+	lcc-lr:hasTag	"LVRI" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Riga ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"LVRI" .
+
+fibo-fbc-fct-bci:La_Paz
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of La Paz" ;
+	lcc-cr:isPartOf	cc:BO ;
+	rdfs:label	"La Paz" .
+
+fibo-fbc-fct-bci:Labuan
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Labuan" ;
+	lcc-cr:isPartOf	cc:MY ;
+	rdfs:label	"Labuan" .
+
+fibo-fbc-fct-bci:Lagos
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Lagos" ;
+	lcc-cr:isPartOf	cc:NEia , cc:NG ;
+	rdfs:label	"Lagos" .
+
+fibo-fbc-fct-bci:Lane_Cove
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:AU ;
+	rdfs:label	"Lane Cove" .
+
+fibo-fbc-fct-bci:Lao
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:LA ;
+	rdfs:label	"Lao" .
+
+fibo-fbc-fct-bci:Larnaca
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:CY ;
+	rdfs:label	"Larnaca" .
+
+fibo-fbc-fct-bci:Leipzig
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Leipzig" ;
+	lcc-cr:isPartOf	cc:DE ;
+	rdfs:label	"Leipzig" .
+
+fibo-fbc-fct-bci:Lilongwe
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Lilongwe" ;
+	lcc-cr:isPartOf	cc:MW ;
+	rdfs:label	"Lilongwe" .
+
+fibo-fbc-fct-bci:Lima
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Lima" ;
+	lcc-cr:isPartOf	cc:PE ;
+	rdfs:label	"Lima" .
+
+fibo-fbc-fct-bci:Limassol
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:CY ;
+	rdfs:label	"Limassol" .
+
+fibo-fbc-fct-bci:Linz
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:AT ;
+	rdfs:label	"Linz" .
+
+fibo-fbc-fct-bci:Lisboa
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:PT ;
+	rdfs:label	"Lisboa" .
+
+fibo-fbc-fct-bci:Lisbon
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Lisbon" ;
+	lcc-cr:isPartOf	cc:PT ;
+	rdfs:label	"Lisbon" .
+
+fibo-fbc-fct-bci:Ljubljana
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Ljubljana" ;
+	lcc-cr:isPartOf	cc:SI ;
+	rdfs:label	"Ljubljana" .
+
+fibo-fbc-fct-bci:London
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of London" ;
+	lcc-cr:isPartOf	cc:GB ;
+	rdfs:label	"London" .
+
+fibo-fbc-fct-bci:Los_Angeles
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Los Angeles" ;
+	lcc-cr:isPartOf	cc2:US-CA , cc:US ;
+	rdfs:label	"Los Angeles" .
+
+fibo-fbc-fct-bci:Luanda
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Luanda" ;
+	lcc-cr:isPartOf	cc:AO ;
+	rdfs:label	"Luanda" .
+
+fibo-fbc-fct-bci:Lugano
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:CH ;
+	rdfs:label	"Lugano" .
+
+fibo-fbc-fct-bci:Lusaka
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Lusaka" ;
+	lcc-cr:isPartOf	cc:ZM ;
+	rdfs:label	"Lusaka" .
+
+fibo-fbc-fct-bci:Luxembourg
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Luxembourg" ;
+	lcc-cr:isPartOf	cc:LU ;
+	rdfs:label	"Luxembourg" .
+
+fibo-fbc-fct-bci:Luzern
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:CH ;
+	rdfs:label	"Luzern" .
+
+fibo-fbc-fct-bci:MACA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Casablanca, Morocco" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Casablanca ;
+	lcc-lr:hasTag	"MACA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Casablanca ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"MACA" .
+
+fibo-fbc-fct-bci:MARA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Rabat, Morocco" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Rabat ;
+	lcc-lr:hasTag	"MARA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Rabat ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"MARA" .
+
+fibo-fbc-fct-bci:MCMO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Monaco, Monaco" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Monaco ;
+	lcc-lr:hasTag	"MCMO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Monaco ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"MCMO" .
+
+fibo-fbc-fct-bci:MNUB
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Ulan Bator, Mongolia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Ulaanbaatar ;
+	lcc-lr:hasTag	"MNUB" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Ulaanbaatar ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"MNUB" .
+
+fibo-fbc-fct-bci:MOMA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Macau, Macao" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Macau ;
+	lcc-lr:hasTag	"MOMA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Macau ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"MOMA" .
+
+fibo-fbc-fct-bci:MTVA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Valletta, Malta" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Valletta ;
+	lcc-lr:hasTag	"MTVA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Valletta ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"MTVA" .
+
+fibo-fbc-fct-bci:MUPL
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Port Louis, Mauritius" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Port_Louis ;
+	lcc-lr:hasTag	"MUPL" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Port_Louis ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"MUPL" .
+
+fibo-fbc-fct-bci:MVMA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Male, Maldives" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Male ;
+	lcc-lr:hasTag	"MVMA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Male ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"MVMA" .
+
+fibo-fbc-fct-bci:MWLI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Lilongwe, Malawi" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Lilongwe ;
+	lcc-lr:hasTag	"MWLI" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Lilongwe ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"MWLI" .
+
+fibo-fbc-fct-bci:MXMC
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Mexico City, Mexico" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Mexico_City ;
+	lcc-lr:hasTag	"MXMC" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Mexico_City ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"MXMC" .
+
+fibo-fbc-fct-bci:MYKL
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Kuala Lumpur, Malaysia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Kuala_Lumpur ;
+	lcc-lr:hasTag	"MYKL" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Kuala_Lumpur ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"MYKL" .
+
+fibo-fbc-fct-bci:MYLA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Labuan, Malaysia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Labuan ;
+	lcc-lr:hasTag	"MYLA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Labuan ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"MYLA" .
+
+fibo-fbc-fct-bci:MZMA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Maputo, Mozambique" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Maputo ;
+	lcc-lr:hasTag	"MZMA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Maputo ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"MZMA" .
+
+fibo-fbc-fct-bci:Macau
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Macau" ;
+	lcc-cr:isPartOf	cc:MO ;
+	rdfs:label	"Macau" .
+
+fibo-fbc-fct-bci:Madras
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:IN ;
+	rdfs:label	"Madras" .
+
+fibo-fbc-fct-bci:Madrid
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Madrid" ;
+	lcc-cr:isPartOf	cc:ES ;
+	rdfs:label	"Madrid" .
+
+fibo-fbc-fct-bci:Mainz
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Mainz" ;
+	lcc-cr:isPartOf	cc:DE ;
+	rdfs:label	"Mainz" .
+
+fibo-fbc-fct-bci:Makati
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Makati" ;
+	lcc-cr:isPartOf	cc:PH ;
+	rdfs:label	"Makati" .
+
+fibo-fbc-fct-bci:Makati_City
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:PH ;
+	rdfs:label	"Makati City" .
+
+fibo-fbc-fct-bci:Male
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Male" ;
+	lcc-cr:isPartOf	cc:MV ;
+	rdfs:label	"Male" .
+
+fibo-fbc-fct-bci:Managua
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:NI ;
+	rdfs:label	"Managua" .
+
+fibo-fbc-fct-bci:Manama
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Manama" ;
+	lcc-cr:isPartOf	cc:BH ;
+	rdfs:label	"Manama" .
+
+fibo-fbc-fct-bci:Manila
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Manila" ;
+	lcc-cr:isPartOf	cc:PH ;
+	rdfs:label	"Manila" .
+
+fibo-fbc-fct-bci:Maputo
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
+	dct:description	"the international business center of Maputo" ;
+	lcc-cr:isPartOf	cc:MZ ;
+	rdfs:label	"Maputo" .
+
+fibo-fbc-fct-bci:Maringa
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:BR ;
+	rdfs:label	"Maringa" .
+
+fibo-fbc-fct-bci:Mbabane
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:SZ ;
+	rdfs:label	"Mbabane" .
+
+fibo-fbc-fct-bci:Melbourne
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Melbourne" ;
+	lcc-cr:isPartOf	cc:AU ;
+	rdfs:label	"Melbourne" .
+
+fibo-fbc-fct-bci:Mendoza
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:AR ;
+	rdfs:label	"Mendoza" .
+
+fibo-fbc-fct-bci:Mexico_City
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Mexico City" ;
+	lcc-cr:isPartOf	cc:MX ;
+	rdfs:label	"Mexico City" .
+
+fibo-fbc-fct-bci:Miami
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-FL , cc:US ;
+	rdfs:label	"Miami" .
+
+fibo-fbc-fct-bci:Milan
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Milan" ;
+	lcc-cr:isPartOf	cc:IT ;
+	rdfs:label	"Milan" .
+
+fibo-fbc-fct-bci:Minneapolis
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Minneapolis" ;
+	lcc-cr:isPartOf	cc2:US-MN , cc:US ;
+	rdfs:label	"Minneapolis" .
+
+fibo-fbc-fct-bci:Minsk
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Minsk" ;
+	lcc-cr:isPartOf	cc:BY ;
+	rdfs:label	"Minsk" .
+
+fibo-fbc-fct-bci:Mobile
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Mobile" ;
+	lcc-cr:isPartOf	cc2:US-AL , cc:US ;
+	rdfs:label	"Mobile" .
+
+fibo-fbc-fct-bci:Moka
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:MU ;
+	rdfs:label	"Moka" .
+
+fibo-fbc-fct-bci:Monaco
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Monaco" ;
+	lcc-cr:isPartOf	cc:MC ;
+	rdfs:label	"Monaco" .
+
+fibo-fbc-fct-bci:Montenegro
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:ME ;
+	rdfs:label	"Montenegro" .
+
+fibo-fbc-fct-bci:Montevideo
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Montevideo" ;
+	lcc-cr:isPartOf	cc:UY ;
+	rdfs:label	"Montevideo" .
+
+fibo-fbc-fct-bci:Montreal
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Montreal" ;
+	lcc-cr:isPartOf	cc:CA ;
+	rdfs:label	"Montreal" .
+
+fibo-fbc-fct-bci:Moorpark
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:US ;
+	rdfs:label	"Moorpark" .
+
+fibo-fbc-fct-bci:Moscow
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Moscow" ;
+	lcc-cr:isPartOf	cc:RU ;
+	rdfs:label	"Moscow" .
+
+fibo-fbc-fct-bci:Mount_Pleasant
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-SC , cc:US ;
+	rdfs:label	"Mount Pleasant" .
+
+fibo-fbc-fct-bci:Muenchen
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:DE ;
+	rdfs:label	"Muenchen" .
+
+fibo-fbc-fct-bci:Mumbai
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Mumbai" ;
+	lcc-cr:isPartOf	cc:IN ;
+	rdfs:label	"Mumbai" .
+
+fibo-fbc-fct-bci:Munich
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Munich" ;
+	lcc-cr:isPartOf	cc:DE ;
+	rdfs:label	"Munich" .
+
+fibo-fbc-fct-bci:Muscat
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Muscat" ;
+	lcc-cr:isPartOf	cc:OM ;
+	rdfs:label	"Muscat" .
+
+fibo-fbc-fct-bci:NAWI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Windhoek, Namibia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Windhoek ;
+	lcc-lr:hasTag	"NAWI" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Windhoek ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"NAWI" .
+
+fibo-fbc-fct-bci:NGAB
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Abuja, Nigeria" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Abuja ;
+	lcc-lr:hasTag	"NGAB" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Abuja ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"NGAB" .
+
+fibo-fbc-fct-bci:NGLA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Lagos, Nigeria" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Lagos ;
+	lcc-lr:hasTag	"NGLA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Lagos ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"NGLA" .
+
+fibo-fbc-fct-bci:NLAM
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Amsterdam, Netherlands" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Amsterdam ;
+	lcc-lr:hasTag	"NLAM" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Amsterdam ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"NLAM" .
+
+fibo-fbc-fct-bci:NLRO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Rotterdam, Netherlands" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Rotterdam ;
+	lcc-lr:hasTag	"NLRO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Rotterdam ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"NLRO" .
+
+fibo-fbc-fct-bci:NOOS
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Oslo, Norway" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Oslo ;
+	lcc-lr:hasTag	"NOOS" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Oslo ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"NOOS" .
+
+fibo-fbc-fct-bci:NPKA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Kathmandu, Nepal" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Kathmandu ;
+	lcc-lr:hasTag	"NPKA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Kathmandu ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"NPKA" .
+
+fibo-fbc-fct-bci:NYFD
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
+	dct:description	"the FpML business center code for New York Fed Business Day (as defined in 2006 ISDA Definitions Section 1.9 and 2000 ISDA Definitions Section 1.9)" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:NewYorkFederalReserveBusinessDay ;
+	lcc-lr:hasTag	"NYFD" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:NewYorkFederalReserveBusinessDay ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"NYFD" .
+
+fibo-fbc-fct-bci:NYSE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
+	dct:description	"the FpML business center code for New York Stock Exchange Business Day (as defined in 2006 ISDA Definitions Section 1.10 and 2000 ISDA Definitions Section 1.10)" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:NewYorkStockExchangeBusinessDay ;
+	lcc-lr:hasTag	"NYSE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:NewYorkStockExchangeBusinessDay ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"NYSE" .
+
+fibo-fbc-fct-bci:NZAU
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Auckland, New Zealand" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Auckland ;
+	lcc-lr:hasTag	"NZAU" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Auckland ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"NZAU" .
+
+fibo-fbc-fct-bci:NZWE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Wellington, New Zealand" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Wellington ;
+	lcc-lr:hasTag	"NZWE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Wellington ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"NZWE" .
+
+fibo-fbc-fct-bci:Nablus
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:PS ;
+	rdfs:label	"Nablus" .
+
+fibo-fbc-fct-bci:Nacka
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:SE ;
+	rdfs:label	"Nacka" .
+
+fibo-fbc-fct-bci:Nagoya
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:JP ;
+	rdfs:label	"Nagoya" .
+
+fibo-fbc-fct-bci:Nairobi
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Nairobi" ;
+	lcc-cr:isPartOf	cc:KE ;
+	rdfs:label	"Nairobi" .
+
+fibo-fbc-fct-bci:Narberth
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-PA , cc:US ;
+	rdfs:label	"Narberth" .
+
+fibo-fbc-fct-bci:Nasau
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:BS ;
+	rdfs:label	"Nasau" .
+
+fibo-fbc-fct-bci:Nassau
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Nassau" ;
+	lcc-cr:isPartOf	cc:BS ;
+	rdfs:label	"Nassau" .
+
+fibo-fbc-fct-bci:NewYorkFederalReserveBusinessDay
+	a	fibo-fnd-dt-bd:BusinessDayAdjustment ;
+	a	owl:NamedIndividual ;
+	dct:description	"the business day adjustment convention for the New York Fed" ;
+	fibo-fnd-plc-loc:hasBusinessCenter	fibo-fbc-fct-bci:New_York ;
+	rdfs:label	"New York Federal Reserve Business Day" .
+
+fibo-fbc-fct-bci:NewYorkStockExchangeBusinessDay
+	a	fibo-fnd-dt-bd:BusinessDayAdjustment ;
+	a	owl:NamedIndividual ;
+	dct:description	"the business day adjustment convention for the New York Stock Exchange" ;
+	fibo-fnd-plc-loc:hasBusinessCenter	fibo-fbc-fct-bci:New_York ;
+	rdfs:label	"New York Stock Exchange Business Day" .
+
+fibo-fbc-fct-bci:New_Delhi
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of New Delhi" ;
+	lcc-cr:isPartOf	cc:IN ;
+	rdfs:label	"New Delhi" .
+
+fibo-fbc-fct-bci:New_York
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of New York" ;
+	fibo-fnd-utl-av:synonym	"New York City" ;
+	lcc-cr:isPartOf	cc2:US-NY , cc:US ;
+	rdfs:label	"New York" .
+
+fibo-fbc-fct-bci:Newcastle
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:AU ;
+	rdfs:label	"Newcastle" .
+
+fibo-fbc-fct-bci:Nicosia
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Nicosia" ;
+	lcc-cr:isPartOf	cc:CY ;
+	rdfs:label	"Nicosia" .
+
+fibo-fbc-fct-bci:North_Bergen
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
+	rdfs:label	"North Bergen" .
+
+fibo-fbc-fct-bci:Novosibirsk
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:RU ;
+	rdfs:label	"Novosibirsk" .
+
+fibo-fbc-fct-bci:Nyon
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:CH ;
+	rdfs:label	"Nyon" .
+
+fibo-fbc-fct-bci:OMMU
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Muscat, Oman" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Muscat ;
+	lcc-lr:hasTag	"OMMU" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Muscat ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"OMMU" .
+
+fibo-fbc-fct-bci:Odessa
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:UA ;
+	rdfs:label	"Odessa" .
+
+fibo-fbc-fct-bci:Oldenburg
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:DE ;
+	rdfs:label	"Oldenburg" .
+
+fibo-fbc-fct-bci:Osaka
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:JP ;
+	rdfs:label	"Osaka" .
+
+fibo-fbc-fct-bci:Oslo
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Oslo" ;
+	lcc-cr:isPartOf	cc:NO ;
+	rdfs:label	"Oslo" .
+
+fibo-fbc-fct-bci:Oststeinbek
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:DE ;
+	rdfs:label	"Oststeinbek" .
+
+fibo-fbc-fct-bci:Ottawa
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Ottawa" ;
+	lcc-cr:isPartOf	cc:CA ;
+	rdfs:label	"Ottawa" .
+
+fibo-fbc-fct-bci:PAPC
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Panama City, Panama" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Panama_City ;
+	lcc-lr:hasTag	"PAPC" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Panama_City ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"PAPC" .
+
+fibo-fbc-fct-bci:PELI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Lima, Peru" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Lima ;
+	lcc-lr:hasTag	"PELI" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Lima ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"PELI" .
+
+fibo-fbc-fct-bci:PHMA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Manila, Philippines" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Manila ;
+	lcc-lr:hasTag	"PHMA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Manila ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"PHMA" .
+
+fibo-fbc-fct-bci:PHMK
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Makati, Philippines" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Makati ;
+	lcc-lr:hasTag	"PHMK" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Makati ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"PHMK" .
+
+fibo-fbc-fct-bci:PKKA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Karachi, Pakistan" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Karachi ;
+	lcc-lr:hasTag	"PKKA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Karachi ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"PKKA" .
+
+fibo-fbc-fct-bci:PLWA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Warsaw, Poland" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Warsaw ;
+	lcc-lr:hasTag	"PLWA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Warsaw ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"PLWA" .
+
+fibo-fbc-fct-bci:PRSJ
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for San Juan, Puerto Rico" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:San_Juan ;
+	lcc-lr:hasTag	"PRSJ" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:San_Juan ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"PRSJ" .
+
+fibo-fbc-fct-bci:PTLI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Lisbon, Portugal" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Lisbon ;
+	lcc-lr:hasTag	"PTLI" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Lisbon ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"PTLI" .
+
+fibo-fbc-fct-bci:Padova
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:IT ;
+	rdfs:label	"Padova" .
+
+fibo-fbc-fct-bci:PalmaDeMallorca
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:ES ;
+	rdfs:label	"Palma de Mallorca" .
+
+fibo-fbc-fct-bci:Panama_City
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Panama City" ;
+	lcc-cr:isPartOf	cc:PA ;
+	rdfs:label	"Panama City" .
+
+fibo-fbc-fct-bci:Paris
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Paris" ;
+	lcc-cr:isPartOf	cc:FR ;
+	rdfs:label	"Paris" .
+
+fibo-fbc-fct-bci:Pasig_City
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:PH ;
+	rdfs:label	"Pasig City" .
+
+fibo-fbc-fct-bci:Perth
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Perth" ;
+	lcc-cr:isPartOf	cc:AU ;
+	rdfs:label	"Perth" .
+
+fibo-fbc-fct-bci:Pfaffikon_SZ
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:CH-SZ , cc:CH ;
+	rdfs:label	"Pfäffikon SZ" .
+
+fibo-fbc-fct-bci:Philadelphia
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-PA , cc:US ;
+	rdfs:label	"Philadelphia" .
+
+fibo-fbc-fct-bci:Phnom_Penh
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
+	dct:description	"the international business center of Phnom Penh" ;
+	lcc-cr:isPartOf	cc:KH ;
+	rdfs:label	"Phnom Penh" .
+
+fibo-fbc-fct-bci:Port_Louis
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Port Louis" ;
+	lcc-cr:isPartOf	cc:MU ;
+	rdfs:label	"Port Louis" .
+
+fibo-fbc-fct-bci:Port_Moresby
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:PG ;
+	rdfs:label	"Port Moresby" .
+
+fibo-fbc-fct-bci:Port_Vila
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:VU ;
+	rdfs:label	"Port Vila" .
+
+fibo-fbc-fct-bci:Port_of_Spain
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Port of Spain" ;
+	lcc-cr:isPartOf	cc:TT ;
+	rdfs:label	"Port of Spain" .
+
+fibo-fbc-fct-bci:Portland
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Portland" ;
+	lcc-cr:isPartOf	cc2:US-OR , cc:US ;
+	rdfs:label	"Portland" .
+
+fibo-fbc-fct-bci:Porto
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:PT ;
+	rdfs:label	"Porto" .
+
+fibo-fbc-fct-bci:Prague
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Prague" ;
+	lcc-cr:isPartOf	cc:CZ ;
+	rdfs:label	"Prague" .
+
+fibo-fbc-fct-bci:Praia
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:CV ;
+	rdfs:label	"Praia" .
+
+fibo-fbc-fct-bci:Princeton
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
+	rdfs:label	"Princeton" .
+
+fibo-fbc-fct-bci:Purchase
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-NY , cc:US ;
+	rdfs:label	"Purchase" .
+
+fibo-fbc-fct-bci:QADO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Doha, Qatar" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Doha ;
+	lcc-lr:hasTag	"QADO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Doha ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"QADO" .
+
+fibo-fbc-fct-bci:Quito
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:EC ;
+	rdfs:label	"Quito" .
+
+fibo-fbc-fct-bci:ROBU
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Bucharest, Romania" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Bucharest ;
+	lcc-lr:hasTag	"ROBU" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Bucharest ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ROBU" .
+
+fibo-fbc-fct-bci:RSBE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Belgrade, Serbia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Belgrade ;
+	lcc-lr:hasTag	"RSBE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Belgrade ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"RSBE" .
+
+fibo-fbc-fct-bci:RUMO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Moscow, Russian Federation" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Moscow ;
+	lcc-lr:hasTag	"RUMO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Moscow ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"RUMO" .
+
+fibo-fbc-fct-bci:Rabat
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Rabat" ;
+	lcc-cr:isPartOf	cc:MA ;
+	rdfs:label	"Rabat" .
+
+fibo-fbc-fct-bci:Randers
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:DK ;
+	rdfs:label	"Randers" .
+
+fibo-fbc-fct-bci:Red_Bank
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
+	rdfs:label	"Red Bank" .
+
+fibo-fbc-fct-bci:Regensburg
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:DE ;
+	rdfs:label	"Regensburg" .
+
+fibo-fbc-fct-bci:Reggio_Emilia
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:IT ;
+	rdfs:label	"Reggio Emilia" .
+
+fibo-fbc-fct-bci:Reykjavik
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Reykjavik" ;
+	lcc-cr:isPartOf	cc:IS ;
+	rdfs:label	"Reykjavik" .
+
+fibo-fbc-fct-bci:Riga
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Riga" ;
+	lcc-cr:isPartOf	cc:LV ;
+	rdfs:label	"Riga" .
+
+fibo-fbc-fct-bci:Rio_de_Janeiro
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Rio de Janeiro" ;
+	lcc-cr:isPartOf	cc:BR ;
+	rdfs:label	"Rio de Janeiro" .
+
+fibo-fbc-fct-bci:Riyadh
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Riyadh" ;
+	lcc-cr:isPartOf	cc:SA ;
+	rdfs:label	"Riyadh" .
+
+fibo-fbc-fct-bci:Road_Town
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Road Town" ;
+	lcc-cr:isPartOf	cc:VG ;
+	rdfs:label	"Road Town" .
+
+fibo-fbc-fct-bci:Rodgau
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:DE ;
+	rdfs:label	"Rodgau" .
+
+fibo-fbc-fct-bci:Roma
+	owl:sameAs	fibo-fbc-fct-bci:Rome .
+
+fibo-fbc-fct-bci:Rome
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Rome" ;
+	lcc-cr:isPartOf	cc:IT ;
+	rdfs:label	"Rome" .
+
+fibo-fbc-fct-bci:Rosario
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:AR ;
+	rdfs:label	"Rosario" .
+
+fibo-fbc-fct-bci:Rotterdam
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Rotterdam" ;
+	lcc-cr:isPartOf	cc:NL ;
+	rdfs:label	"Rotterdam" .
+
+fibo-fbc-fct-bci:SAAB
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Abha, Saudi Arabia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Abha ;
+	lcc-lr:hasTag	"SAAB" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Abha ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"SAAB" .
+
+fibo-fbc-fct-bci:SAJE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Jeddah, Saudi Arabia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Jeddah ;
+	lcc-lr:hasTag	"SAJE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Jeddah ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"SAJE" .
+
+fibo-fbc-fct-bci:SARI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Riyadh, Saudi Arabia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Riyadh ;
+	lcc-lr:hasTag	"SARI" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Riyadh ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"SARI" .
+
+fibo-fbc-fct-bci:SEST
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Stockholm, Sweden" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Stockholm ;
+	lcc-lr:hasTag	"SEST" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Stockholm ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"SEST" .
+
+fibo-fbc-fct-bci:SGSI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Singapore, Singapore" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Singapore ;
+	lcc-lr:hasTag	"SGSI" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Singapore ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"SGSI" .
+
+fibo-fbc-fct-bci:SILJ
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Ljubljana, Slovenia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Ljubljana ;
+	lcc-lr:hasTag	"SILJ" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Ljubljana ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"SILJ" .
+
+fibo-fbc-fct-bci:SKBR
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Bratislava, Slovakia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Bratislava ;
+	lcc-lr:hasTag	"SKBR" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Bratislava ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"SKBR" .
+
+fibo-fbc-fct-bci:SLFR
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Freetown, Sierra Leone" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Freetown ;
+	lcc-lr:hasTag	"SLFR" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Freetown ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"SLFR" .
+
+fibo-fbc-fct-bci:SNDA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Dakar, Senegal" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Dakar ;
+	lcc-lr:hasTag	"SNDA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Dakar ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"SNDA" .
+
+fibo-fbc-fct-bci:SVSS
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for San Salvador, El Salvador" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:San_Salvador ;
+	lcc-lr:hasTag	"SVSS" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:San_Salvador ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"SVSS" .
+
+fibo-fbc-fct-bci:Sabadell
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:ES ;
+	rdfs:label	"Sabadell" .
+
+fibo-fbc-fct-bci:Sacramento
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Sacramento" ;
+	lcc-cr:isPartOf	cc2:US-CA , cc:US ;
+	rdfs:label	"Sacramento" .
+
+fibo-fbc-fct-bci:Saint-Petersburg
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	fibo-fnd-utl-av:synonym	"St. Petersburg" ;
+	lcc-cr:isPartOf	cc:RU ;
+	rdfs:label	"Saint Petersburg" .
+
+fibo-fbc-fct-bci:Saint_Peter_Port
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Saint Peter Port" ;
+	fibo-fnd-utl-av:synonym	"St. Peter Port" ;
+	lcc-cr:isPartOf	cc:GG ;
+	rdfs:label	"Saint Peter Port" .
+
+fibo-fbc-fct-bci:Salzburg
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:AT ;
+	rdfs:label	"Salzburg" .
+
+fibo-fbc-fct-bci:Samara
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:RU ;
+	rdfs:label	"Samara" .
+
+fibo-fbc-fct-bci:San_Carlos
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-CA , cc:US ;
+	rdfs:label	"San Carlos" .
+
+fibo-fbc-fct-bci:San_Francisco
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
+	dct:description	"the international business center of San Francisco" ;
+	lcc-cr:isPartOf	cc2:US-CA , cc:US ;
+	rdfs:label	"San Francisco" .
+
+fibo-fbc-fct-bci:San_Jose
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of San Jose" ;
+	lcc-cr:isPartOf	cc:CR ;
+	rdfs:label	"San Jose" .
+
+fibo-fbc-fct-bci:San_Juan
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of San Juan" ;
+	lcc-cr:isPartOf	cc:PR ;
+	rdfs:label	"San Juan" .
+
+fibo-fbc-fct-bci:San_Salvador
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of San Salvador" ;
+	lcc-cr:isPartOf	cc:SV ;
+	rdfs:label	"San Salvador" .
+
+fibo-fbc-fct-bci:San_Sebastian
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of San Sebastian" ;
+	lcc-cr:isPartOf	cc:ES ;
+	rdfs:label	"San Sebastian" .
+
+fibo-fbc-fct-bci:Santa_Fe
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:AR ;
+	rdfs:label	"Santa Fe" .
+
+fibo-fbc-fct-bci:Santander
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:ES ;
+	rdfs:label	"Santander" .
+
+fibo-fbc-fct-bci:Santiago
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Santiago" ;
+	lcc-cr:isPartOf	cc:CL ;
+	rdfs:label	"Santiago" .
+
+fibo-fbc-fct-bci:Santo_Domingo
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Santo Domingo" ;
+	lcc-cr:isPartOf	cc:DMnRepublic , cc:DO ;
+	rdfs:label	"Santo Domingo" .
+
+fibo-fbc-fct-bci:Sao_Paulo
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Sao Paulo" ;
+	lcc-cr:isPartOf	cc:BR ;
+	rdfs:label	"Sao Paulo" .
+
+fibo-fbc-fct-bci:Sapporo
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:JP ;
+	rdfs:label	"Sapporo" .
+
+fibo-fbc-fct-bci:Sarajevo
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:BA ;
+	rdfs:label	"Sarajevo" .
+
+fibo-fbc-fct-bci:SeaGirt
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:US ;
+	rdfs:label	"Sea Girt" .
+
+fibo-fbc-fct-bci:Seattle
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Seattle" ;
+	lcc-cr:isPartOf	cc2:US-WA , cc:US ;
+	rdfs:label	"Seattle" .
+
+fibo-fbc-fct-bci:Seoul
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Seoul" ;
+	lcc-cr:isPartOf	cc:KR ;
+	rdfs:label	"Seoul" .
+
+fibo-fbc-fct-bci:Shanghai
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Shanghai" ;
+	lcc-cr:isPartOf	cc:CN ;
+	rdfs:label	"Shanghai" .
+
+fibo-fbc-fct-bci:Shenzhen
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:CN ;
+	rdfs:label	"Shenzhen" .
+
+fibo-fbc-fct-bci:Silkeborg
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:DK ;
+	rdfs:label	"Silkeborg" .
+
+fibo-fbc-fct-bci:Singapore
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Singapore" ;
+	lcc-cr:isPartOf	cc:SG ;
+	rdfs:label	"Singapore" .
+
+fibo-fbc-fct-bci:Skopje
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:MK ;
+	rdfs:label	"Skopje" .
+
+fibo-fbc-fct-bci:Sliema
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:MT ;
+	rdfs:label	"Sliema" .
+
+fibo-fbc-fct-bci:Sofia
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Sofia" ;
+	lcc-cr:isPartOf	cc:BG ;
+	rdfs:label	"Sofia" .
+
+fibo-fbc-fct-bci:Split
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:HR ;
+	rdfs:label	"Split" .
+
+fibo-fbc-fct-bci:StAlbans
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:GB ;
+	rdfs:label	"St. Albans" .
+
+fibo-fbc-fct-bci:St_Helier
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of St. Helier" ;
+	lcc-cr:isPartOf	cc:JE ;
+	rdfs:label	"St. Helier" .
+
+fibo-fbc-fct-bci:Stamford
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-CT , cc:US ;
+	rdfs:label	"Stamford" .
+
+fibo-fbc-fct-bci:Stockholm
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Stockholm" ;
+	lcc-cr:isPartOf	cc:SE ;
+	rdfs:label	"Stockholm" .
+
+fibo-fbc-fct-bci:Stuttgart
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Stuttgart" ;
+	lcc-cr:isPartOf	cc:DE ;
+	rdfs:label	"Stuttgart" .
+
+fibo-fbc-fct-bci:Summit
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
+	rdfs:label	"Summit" .
+
+fibo-fbc-fct-bci:Suva
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:FJ ;
+	rdfs:label	"Suva" .
+
+fibo-fbc-fct-bci:Sydney
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Sydney" ;
+	lcc-cr:isPartOf	cc:AU ;
+	rdfs:label	"Sydney" .
+
+fibo-fbc-fct-bci:TARGETSettlementDay
+	a	fibo-fnd-dt-bd:BusinessDayAdjustment ;
+	a	owl:NamedIndividual ;
+	dct:description	"the business day adjustment convention for the TARGET (euro 'Business Center')" ;
+	fibo-fnd-plc-loc:hasBusinessCenter	fibo-fbc-fct-bci:Amsterdam , fibo-fbc-fct-bci:Athens , fibo-fbc-fct-bci:Brussels , fibo-fbc-fct-bci:Dublin , fibo-fbc-fct-bci:Frankfurt , fibo-fbc-fct-bci:Helsinki , fibo-fbc-fct-bci:Lisbon , fibo-fbc-fct-bci:Luxembourg , fibo-fbc-fct-bci:Madrid , fibo-fbc-fct-bci:Paris , fibo-fbc-fct-bci:Rome , fibo-fbc-fct-bci:Vienna ;
+	fibo-fnd-utl-av:explanatoryNote	"TARGET, which stands for the Trans-European Automated Real-time Gross settlement adjustment Express Transfer system, is the real-time gross settlement (RTGS) system for the euro. TARGET operating days are the settlement days for the financial markets in euro, as well as foreign exchange transactions involving the euro." ;
+	rdfs:label	"TARGET Settlement Day" .
+
+fibo-fbc-fct-bci:THBA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Bangkok, Thailand" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Bangkok ;
+	lcc-lr:hasTag	"THBA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Bangkok ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"THBA" .
+
+fibo-fbc-fct-bci:TNTU
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Tunis, Tunisia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Tunis ;
+	lcc-lr:hasTag	"TNTU" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Tunis ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"TNTU" .
+
+fibo-fbc-fct-bci:TRAN
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Ankara, Turkey" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Ankara ;
+	lcc-lr:hasTag	"TRAN" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Ankara ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"TRAN" .
+
+fibo-fbc-fct-bci:TRIS
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Istanbul, Turkey" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Istanbul ;
+	lcc-lr:hasTag	"TRIS" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Istanbul ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"TRIS" .
+
+fibo-fbc-fct-bci:TTPS
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Port of Spain, Trinidad and Tobago" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Port_of_Spain ;
+	lcc-lr:hasTag	"TTPS" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Port_of_Spain ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"TTPS" .
+
+fibo-fbc-fct-bci:TWTA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Taipei, Taiwan" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Taipei ;
+	lcc-lr:hasTag	"TWTA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Taipei ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"TWTA" .
+
+fibo-fbc-fct-bci:TZDA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Dar es Salaam, Tanzania" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Dar_es_Salaam ;
+	lcc-lr:hasTag	"TZDA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Dar_es_Salaam ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"TZDA" .
+
+fibo-fbc-fct-bci:TZDO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Dodoma, Tanzania" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Dodoma ;
+	lcc-lr:hasTag	"TZDO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Dodoma ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"TZDO" .
+
+fibo-fbc-fct-bci:Taipei
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Taipei" ;
+	lcc-cr:isPartOf	cc:TW ;
+	rdfs:label	"Taipei" .
+
+fibo-fbc-fct-bci:Taiwan
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:TW ;
+	rdfs:label	"Taiwan" .
+
+fibo-fbc-fct-bci:Tallinn
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Tallinn" ;
+	lcc-cr:isPartOf	cc:EE ;
+	rdfs:label	"Tallinn" .
+
+fibo-fbc-fct-bci:Tashkent
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
+	dct:description	"the international business center of Tashkent" ;
+	lcc-cr:isPartOf	cc:UZ ;
+	rdfs:label	"Tashkent" .
+
+fibo-fbc-fct-bci:Tbilisi
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Tbilisi" ;
+	lcc-cr:isPartOf	cc:GE ;
+	rdfs:label	"Tbilisi" .
+
+fibo-fbc-fct-bci:Tegucigalpa
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Tegucigalpa" ;
+	lcc-cr:isPartOf	cc:HN ;
+	rdfs:label	"Tegucigalpa" .
+
+fibo-fbc-fct-bci:Teheran
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Teheran" ;
+	lcc-cr:isPartOf	cc:IR ;
+	rdfs:label	"Teheran" .
+
+fibo-fbc-fct-bci:Tehran
+	owl:sameAs	fibo-fbc-fct-bci:Teheran .
+
+fibo-fbc-fct-bci:Tel_Aviv
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Tel Aviv" ;
+	lcc-cr:isPartOf	cc:IL ;
+	rdfs:label	"Tel Aviv" .
+
+fibo-fbc-fct-bci:TheWoodlands
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-TX , cc:US ;
+	rdfs:label	"The Woodlands" .
+
+fibo-fbc-fct-bci:The_Hague
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:NL ;
+	rdfs:label	"The Hague" .
+
+fibo-fbc-fct-bci:Tirana
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:AL ;
+	rdfs:label	"Tirana" .
+
+fibo-fbc-fct-bci:Tokyo
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Tokyo" ;
+	lcc-cr:isPartOf	cc:JP ;
+	rdfs:label	"Tokyo" .
+
+fibo-fbc-fct-bci:Toronto
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Toronto" ;
+	lcc-cr:isPartOf	cc:CA ;
+	rdfs:label	"Toronto" .
+
+fibo-fbc-fct-bci:Torshavn
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:FO ;
+	rdfs:label	"Torshavn" .
+
+fibo-fbc-fct-bci:Triesen
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:LI ;
+	rdfs:label	"Triesen" .
+
+fibo-fbc-fct-bci:Tripoli
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:LY ;
+	rdfs:label	"Tripoli" .
+
+fibo-fbc-fct-bci:Tromso
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:NO ;
+	rdfs:label	"Tromso" .
+
+fibo-fbc-fct-bci:Trondheim
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:NO ;
+	rdfs:label	"Trondheim" .
+
+fibo-fbc-fct-bci:Tucuman
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:AR ;
+	rdfs:label	"Tucuman" .
+
+fibo-fbc-fct-bci:Tunis
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Tunis" ;
+	lcc-cr:isPartOf	cc:TN ;
+	rdfs:label	"Tunis" .
+
+fibo-fbc-fct-bci:Turin
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Turin" ;
+	lcc-cr:isPartOf	cc:IT ;
+	rdfs:label	"Turin" .
+
+fibo-fbc-fct-bci:UAKI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Kiev, Ukraine" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Kiev ;
+	lcc-lr:hasTag	"UAKI" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Kiev ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"UAKI" .
+
+fibo-fbc-fct-bci:UGKA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Kampala, Uganda" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Kampala ;
+	lcc-lr:hasTag	"UGKA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Kampala ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"UGKA" .
+
+fibo-fbc-fct-bci:USBO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Boston, Massachusetts, United States" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Boston ;
+	lcc-lr:hasTag	"USBO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Boston ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USBO" .
+
+fibo-fbc-fct-bci:USCH
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Chicago, United States" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Chicago ;
+	lcc-lr:hasTag	"USCH" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Chicago ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USCH" .
+
+fibo-fbc-fct-bci:USCR
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Charlotte, North Carolina, United States" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Charlotte ;
+	lcc-lr:hasTag	"USCR" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Charlotte ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USCR" .
+
+fibo-fbc-fct-bci:USD-ICESWAP
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Publication dates for ICE Swap rates based on USD-LIBOR rates" ;
+	lcc-lr:hasTag	"USD-ICESWAP" ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USD-ICESWAP" .
+
+fibo-fbc-fct-bci:USD-MUNI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Publication dates for the USD-Municipal Swap Index" ;
+	lcc-lr:hasTag	"USD-MUNI" ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USD-MUNI" .
+
+fibo-fbc-fct-bci:USDC
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Washington, District of Columbia, United States" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Washington ;
+	lcc-lr:hasTag	"USDC" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Washington ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USDC" .
+
+fibo-fbc-fct-bci:USDN
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Denver, United States" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Denver ;
+	lcc-lr:hasTag	"USDN" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Denver ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USDN" .
+
+fibo-fbc-fct-bci:USDT
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Detroit, Michigan, United States" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Detroit ;
+	lcc-lr:hasTag	"USDT" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Detroit ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USDT" .
+
+fibo-fbc-fct-bci:USGS
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
+	dct:description	"the FpML business center code for U.S. Government Securities Business Day (as defined in 2006 ISDA Definitions Section 1.11 and 2000 ISDA Definitions Section 1.11)" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:USGovernmentSecuritiesBusinessDay ;
+	lcc-lr:hasTag	"USGS" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:USGovernmentSecuritiesBusinessDay ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USGS" .
+
+fibo-fbc-fct-bci:USGovernmentSecuritiesBusinessDay
+	a	fibo-fnd-dt-bd:BusinessDayAdjustment ;
+	a	owl:NamedIndividual ;
+	dct:description	"the business day adjustment convention for U.S. Government Securities" ;
+	fibo-fnd-plc-loc:hasBusinessCenter	fibo-fbc-fct-bci:Washington ;
+	rdfs:label	"U.S. Government Securities Business Day" .
+
+fibo-fbc-fct-bci:USHL
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Honolulu, Hawaii, United States" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Honolulu ;
+	lcc-lr:hasTag	"USHL" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Honolulu ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USHL" .
+
+fibo-fbc-fct-bci:USHO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Houston, United States" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Houston ;
+	lcc-lr:hasTag	"USHO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Houston ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USHO" .
+
+fibo-fbc-fct-bci:USLA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Los Angeles, United States" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Los_Angeles ;
+	lcc-lr:hasTag	"USLA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Los_Angeles ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USLA" .
+
+fibo-fbc-fct-bci:USMB
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Mobile, Alabama, United States" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Mobile ;
+	lcc-lr:hasTag	"USMB" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Mobile ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USMB" .
+
+fibo-fbc-fct-bci:USMN
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Minneapolis, United States" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Minneapolis ;
+	lcc-lr:hasTag	"USMN" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Minneapolis ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USMN" .
+
+fibo-fbc-fct-bci:USNY
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for New York, United States" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:New_York ;
+	lcc-lr:hasTag	"USNY" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:New_York ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USNY" .
+
+fibo-fbc-fct-bci:USPO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Portland, Oregon, United States" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Portland ;
+	lcc-lr:hasTag	"USPO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Portland ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USPO" .
+
+fibo-fbc-fct-bci:USSA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Sacramento, California, United States" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Sacramento ;
+	lcc-lr:hasTag	"USSA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Sacramento ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USSA" .
+
+fibo-fbc-fct-bci:USSE
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Seattle, United States" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Seattle ;
+	lcc-lr:hasTag	"USSE" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Seattle ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USSE" .
+
+fibo-fbc-fct-bci:USSF
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for San Francisco, United States" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:San_Francisco ;
+	lcc-lr:hasTag	"USSF" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:San_Francisco ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USSF" .
+
+fibo-fbc-fct-bci:USWT
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Wichita, United States" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Wichita ;
+	lcc-lr:hasTag	"USWT" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Wichita ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"USWT" .
+
+fibo-fbc-fct-bci:UYMO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Montevideo, Uruguay" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Montevideo ;
+	lcc-lr:hasTag	"UYMO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Montevideo ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"UYMO" .
+
+fibo-fbc-fct-bci:UZTA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Tashkent, Uzbekistan" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Tashkent ;
+	lcc-lr:hasTag	"UZTA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Tashkent ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"UZTA" .
+
+fibo-fbc-fct-bci:Ulaan_Baatar
+	owl:sameAs	fibo-fbc-fct-bci:Ulaanbaatar .
+
+fibo-fbc-fct-bci:Ulaanbaatar
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Ulanbaatar" ;
+	lcc-cr:isPartOf	cc:MN ;
+	rdfs:label	"Ulaanbaatar" .
+
+fibo-fbc-fct-bci:Ulan_Bator
+	owl:sameAs	fibo-fbc-fct-bci:Ulaanbaatar .
+
+fibo-fbc-fct-bci:Unterschleisshem
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:DE ;
+	rdfs:label	"Unterschleisshem" .
+
+fibo-fbc-fct-bci:Utrecht
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:NL ;
+	rdfs:label	"Utrecht" .
+
+fibo-fbc-fct-bci:VECA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Caracas, Venezuela" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Caracas ;
+	lcc-lr:hasTag	"VECA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Caracas ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"VECA" .
+
+fibo-fbc-fct-bci:VGRT
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Road Town, Virgin Islands (British)" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Road_Town ;
+	lcc-lr:hasTag	"VGRT" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Road_Town ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"VGRT" .
+
+fibo-fbc-fct-bci:VNHA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Hanoi, Vietnam" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Hanoi ;
+	lcc-lr:hasTag	"VNHA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Hanoi ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"VNHA" .
+
+fibo-fbc-fct-bci:VNHC
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Ho Chi Minh (formerly Saigon), Vietnam" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Ho_Chi_Minh ;
+	lcc-lr:hasTag	"VNHC" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Ho_Chi_Minh ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"VNHC" .
+
+fibo-fbc-fct-bci:Vaduz
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:LI ;
+	rdfs:label	"Vaduz" .
+
+fibo-fbc-fct-bci:Valencia
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:ES ;
+	rdfs:label	"Valencia" .
+
+fibo-fbc-fct-bci:Valletta
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Valletta" ;
+	lcc-cr:isPartOf	cc:MT ;
+	rdfs:label	"Valletta" .
+
+fibo-fbc-fct-bci:Valparaiso
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:CL ;
+	rdfs:label	"Valparaiso" .
+
+fibo-fbc-fct-bci:Vancouver
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Vancouver" ;
+	lcc-cr:isPartOf	cc:CA ;
+	rdfs:label	"Vancouver" .
+
+fibo-fbc-fct-bci:Victoria
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:SC ;
+	rdfs:label	"Victoria" .
+
+fibo-fbc-fct-bci:Vienna
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Vienna" ;
+	lcc-cr:isPartOf	cc:AT ;
+	rdfs:label	"Vienna" .
+
+fibo-fbc-fct-bci:Vientiane
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Vientiane" ;
+	lcc-cr:isPartOf	cc:LA ;
+	rdfs:label	"Vientiane" .
+
+fibo-fbc-fct-bci:Vilnius
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:LT ;
+	rdfs:label	"Vilnius" .
+
+fibo-fbc-fct-bci:Warsaw
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Warsaw" ;
+	lcc-cr:isPartOf	cc:PL ;
+	rdfs:label	"Warsaw" .
+
+fibo-fbc-fct-bci:Warszawa
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:PL ;
+	rdfs:label	"Warszawa" .
+
+fibo-fbc-fct-bci:Washington
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Washington" ;
+	lcc-cr:isPartOf	cc2:US-DC , cc:US ;
+	rdfs:label	"Washington" .
+
+fibo-fbc-fct-bci:Washington_New_York
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-NY , cc:US ;
+	rdfs:label	"Washington, New York" .
+
+fibo-fbc-fct-bci:Wellington
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Wellington" ;
+	lcc-cr:isPartOf	cc:NZ ;
+	rdfs:label	"Wellington" .
+
+fibo-fbc-fct-bci:Wichita
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Wichita" ;
+	lcc-cr:isPartOf	cc2:US-KS , cc:US ;
+	rdfs:label	"Wichita" .
+
+fibo-fbc-fct-bci:Willemstad
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
+	dct:description	"the international business center of Willemstad" ;
+	lcc-cr:isPartOf	cc:CW ;
+	rdfs:label	"Willemstad" .
+
+fibo-fbc-fct-bci:Wilmington
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc2:US-DE , cc:US ;
+	rdfs:label	"Wilmington" .
+
+fibo-fbc-fct-bci:Windhoek
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Windhoek" ;
+	lcc-cr:isPartOf	cc:NA ;
+	rdfs:label	"Windhoek" .
+
+fibo-fbc-fct-bci:Winnipeg
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Winnipeg" ;
+	lcc-cr:isPartOf	cc:CA ;
+	rdfs:label	"Winnipeg" .
+
+fibo-fbc-fct-bci:Wroclaw
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:PL ;
+	rdfs:label	"Wroclaw" .
+
+fibo-fbc-fct-bci:Wuxi
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:CN ;
+	rdfs:label	"Wuxi" .
+
+fibo-fbc-fct-bci:YEAD
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Aden, Yemen" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Aden ;
+	lcc-lr:hasTag	"YEAD" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Aden ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"YEAD" .
+
+fibo-fbc-fct-bci:Yaounde
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Yaounde" ;
+	lcc-cr:isPartOf	cc:CF ;
+	rdfs:label	"Yaounde" .
+
+fibo-fbc-fct-bci:Yerevan
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Yerevan" ;
+	lcc-cr:isPartOf	cc:AM ;
+	rdfs:label	"Yerevan" .
+
+fibo-fbc-fct-bci:ZAJO
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Johannesburg, South Africa" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Johannesburg ;
+	lcc-lr:hasTag	"ZAJO" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Johannesburg ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ZAJO" .
+
+fibo-fbc-fct-bci:ZMLU
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Lusaka, Zambia" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Lusaka ;
+	lcc-lr:hasTag	"ZMLU" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Lusaka ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ZMLU" .
+
+fibo-fbc-fct-bci:ZWHA
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Harare, Zimbabwe" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Harare ;
+	lcc-lr:hasTag	"ZWHA" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Harare ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ZWHA" .
+
+fibo-fbc-fct-bci:Zagreb
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Zagreb" ;
+	lcc-cr:isPartOf	cc:HR ;
+	rdfs:label	"Zagreb" .
+
+fibo-fbc-fct-bci:Zaragoza
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:ES ;
+	rdfs:label	"Zaragoza" .
+
+fibo-fbc-fct-bci:Zhengzhou
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:CN ;
+	rdfs:label	"Zhengzhou" .
+
+fibo-fbc-fct-bci:Zilina
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:SK ;
+	rdfs:label	"Zilina" .
+
+fibo-fbc-fct-bci:Zurich
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Zurich" ;
+	lcc-cr:isPartOf	cc:CH ;
+	rdfs:label	"Zurich" .
+
+fibo-fbc-fct-bci:s-Hertogenbosch
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:NL ;
+	rdfs:label	"s'-Hertogenbosch" .
