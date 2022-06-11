@@ -16,6 +16,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix sws: <http://sws.geonames.org/> .
 @prefix tempo: <http://purl.org/tempo/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -191,27 +192,31 @@ fibo-fbc-fct-bci:Aabenraa
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:DK ;
-	rdfs:label	"Aabenraa" .
+	rdfs:label	"Aabenraa" ;
+	skos:closeMatch	<http://sws.geonames.org/2625070/> .
 
 fibo-fbc-fct-bci:Aalborg
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:DK ;
-	rdfs:label	"Aalborg" .
+	rdfs:label	"Aalborg" ;
+	skos:closeMatch	<http://sws.geonames.org/2624886/> .
 
 fibo-fbc-fct-bci:Abha
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Abha" ;
 	lcc-cr:isPartOf	cc:SA ;
-	rdfs:label	"Abha" .
+	rdfs:label	"Abha" ;
+	skos:closeMatch	<http://sws.geonames.org/110690/> .
 
 fibo-fbc-fct-bci:Abidjan
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Abidjan" ;
 	lcc-cr:isPartOf	cc:CI ;
-	rdfs:label	"Abidjan" .
+	rdfs:label	"Abidjan" ;
+	skos:closeMatch	<http://sws.geonames.org/2293538/> .
 
 fibo-fbc-fct-bci:AbuDhabiBusinessDay
 	a	fibo-fnd-dt-bd:BusinessDayAdjustment ;
@@ -232,56 +237,64 @@ fibo-fbc-fct-bci:Abu_Dhabi
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Abu Dhabi" ;
 	lcc-cr:isPartOf	cc:AE ;
-	rdfs:label	"Abu Dhabi" .
+	rdfs:label	"Abu Dhabi" ;
+	skos:closeMatch	<http://sws.geonames.org/292968/> .
 
 fibo-fbc-fct-bci:Abuja
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Abuja" ;
 	lcc-cr:isPartOf	cc:NG ;
-	rdfs:label	"Abuja" .
+	rdfs:label	"Abuja" ;
+	skos:closeMatch	<http://sws.geonames.org/2352778/> .
 
 fibo-fbc-fct-bci:Accra
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Accra" ;
 	lcc-cr:isPartOf	cc:GH ;
-	rdfs:label	"Accra" .
+	rdfs:label	"Accra" ;
+	skos:closeMatch	<http://sws.geonames.org/2306104/> .
 
 fibo-fbc-fct-bci:Addis_Ababa
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Addis Ababa" ;
 	lcc-cr:isPartOf	cc:ET ;
-	rdfs:label	"Addis Ababa" .
+	rdfs:label	"Addis Ababa" ;
+	skos:closeMatch	<http://sws.geonames.org/344979/> .
 
 fibo-fbc-fct-bci:Adelaide
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Adelaide" ;
 	lcc-cr:isPartOf	cc:AU ;
-	rdfs:label	"Adelaide" .
+	rdfs:label	"Adelaide" ;
+	skos:closeMatch	<http://sws.geonames.org/2078025/> .
 
 fibo-fbc-fct-bci:Aden
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Aden" ;
 	lcc-cr:isPartOf	cc:YE ;
-	rdfs:label	"Aden" .
+	rdfs:label	"Aden" ;
+	skos:closeMatch	<http://sws.geonames.org/415189/> .
 
 fibo-fbc-fct-bci:Ahmedabad
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Ahmedabad" ;
 	lcc-cr:isPartOf	cc:IN ;
-	rdfs:label	"Ahmedabad" .
+	rdfs:label	"Ahmedabad" ;
+	skos:closeMatch	<http://sws.geonames.org/1279233/> .
 
 fibo-fbc-fct-bci:Algiers
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Algiers" ;
 	lcc-cr:isPartOf	cc:DZ ;
-	rdfs:label	"Algiers" .
+	rdfs:label	"Algiers" ;
+	skos:closeMatch	<http://sws.geonames.org/2507480/> .
 
 fibo-fbc-fct-bci:Alma-ata
 	owl:sameAs	fibo-fbc-fct-bci:Almaty .
@@ -291,84 +304,97 @@ fibo-fbc-fct-bci:Almaty
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Almaty" ;
 	lcc-cr:isPartOf	cc:KZ ;
-	rdfs:label	"Almaty" .
+	rdfs:label	"Almaty" ;
+	skos:closeMatch	<http://sws.geonames.org/1526384/> .
 
 fibo-fbc-fct-bci:Amman
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Amman" ;
 	lcc-cr:isPartOf	cc:JO ;
-	rdfs:label	"Amman" .
+	rdfs:label	"Amman" ;
+	skos:closeMatch	<http://sws.geonames.org/250441/> .
 
 fibo-fbc-fct-bci:Amsterdam
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Amsterdam" ;
 	lcc-cr:isPartOf	cc:NL ;
-	rdfs:label	"Amsterdam" .
+	rdfs:label	"Amsterdam" ;
+	skos:closeMatch	<http://sws.geonames.org/2759794/> .
 
 fibo-fbc-fct-bci:Ankara
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Ankara" ;
 	lcc-cr:isPartOf	cc:TR ;
-	rdfs:label	"Ankara" .
+	rdfs:label	"Ankara" ;
+	skos:closeMatch	<http://sws.geonames.org/323786/> .
 
 fibo-fbc-fct-bci:Antananarivo
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:MG ;
-	rdfs:label	"Antananarivo" .
+	rdfs:label	"Antananarivo" ;
+	skos:closeMatch	<http://sws.geonames.org/1070940/> .
 
 fibo-fbc-fct-bci:Antiguo_Cuscatlan
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:SV ;
-	rdfs:label	"Antiguo Cuscatlan" .
+	rdfs:label	"Antiguo Cuscatlan" ;
+	skos:closeMatch	<http://sws.geonames.org/3587362/> .
 
 fibo-fbc-fct-bci:Astana
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:KZ ;
-	rdfs:label	"Astana" .
+	rdfs:label	"Astana" ;
+	skos:closeMatch	<http://sws.geonames.org/1526273/> .
 
 fibo-fbc-fct-bci:Asti
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:IT ;
-	rdfs:label	"Asti" .
+	rdfs:label	"Asti" ;
+	skos:closeMatch	<http://sws.geonames.org/3182714/> .
 
 fibo-fbc-fct-bci:Asuncion
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:PY ;
-	rdfs:label	"Asuncion" .
+	rdfs:label	"Asuncion" ;
+	skos:closeMatch	<http://sws.geonames.org/3439389/> .
 
 fibo-fbc-fct-bci:Athens
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Athens" ;
 	lcc-cr:isPartOf	cc:GR ;
-	rdfs:label	"Athens" .
+	rdfs:label	"Athens" ;
+	skos:closeMatch	<http://sws.geonames.org/264371/> .
 
 fibo-fbc-fct-bci:Atlanta
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-GA , cc:US ;
-	rdfs:label	"Atlanta" .
+	rdfs:label	"Atlanta" ;
+	skos:closeMatch	<http://sws.geonames.org/4180439/> .
 
 fibo-fbc-fct-bci:Auckland
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Auckland" ;
 	lcc-cr:isPartOf	cc:NZ ;
-	rdfs:label	"Auckland" .
+	rdfs:label	"Auckland" ;
+	skos:closeMatch	<http://sws.geonames.org/2193733/> .
 
 fibo-fbc-fct-bci:Aylesbury
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:GB ;
-	rdfs:label	"Aylesbury" .
+	rdfs:label	"Aylesbury" ;
+	skos:closeMatch	<http://sws.geonames.org/2656719/> .
 
 fibo-fbc-fct-bci:BBBR
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -525,195 +551,225 @@ fibo-fbc-fct-bci:Baghdad
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Baghdad" ;
 	lcc-cr:isPartOf	cc:IQ ;
-	rdfs:label	"Baghdad" .
+	rdfs:label	"Baghdad" ;
+	skos:closeMatch	<http://sws.geonames.org/98182/> .
 
 fibo-fbc-fct-bci:Baku
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Baku" ;
 	lcc-cr:isPartOf	cc:AZ ;
-	rdfs:label	"Baku" .
+	rdfs:label	"Baku" ;
+	skos:closeMatch	<http://sws.geonames.org/587084/> .
 
 fibo-fbc-fct-bci:Bandar_Seri_Begawan
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Bandar Seri Begawan" ;
 	lcc-cr:isPartOf	cc:BN ;
-	rdfs:label	"Bandar Seri Begawan" .
+	rdfs:label	"Bandar Seri Begawan" ;
+	skos:closeMatch	<http://sws.geonames.org/1820906/> .
 
 fibo-fbc-fct-bci:Bangalore
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Bangalore" ;
 	lcc-cr:isPartOf	cc:IN ;
-	rdfs:label	"Bangalore" .
+	rdfs:label	"Bangalore" ;
+	skos:closeMatch	<http://sws.geonames.org/1277333/> .
 
 fibo-fbc-fct-bci:Bangkok
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Bangkok" ;
 	lcc-cr:isPartOf	cc:TH ;
-	rdfs:label	"Bangkok" .
+	rdfs:label	"Bangkok" ;
+	skos:closeMatch	<http://sws.geonames.org/1609350/> .
 
 fibo-fbc-fct-bci:Banja_Luka
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:BA ;
-	rdfs:label	"Banja Luka" .
+	rdfs:label	"Banja Luka" ;
+	skos:closeMatch	<http://sws.geonames.org/3204541/> .
 
 fibo-fbc-fct-bci:Banjul
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Banjul" ;
 	lcc-cr:isPartOf	cc:GM ;
-	rdfs:label	"Banjul" .
+	rdfs:label	"Banjul" ;
+	skos:closeMatch	<http://sws.geonames.org/2413876/> .
 
 fibo-fbc-fct-bci:Barcelona
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Barcelona" ;
 	lcc-cr:isPartOf	cc:ES ;
-	rdfs:label	"Barcelona" .
+	rdfs:label	"Barcelona" ;
+	skos:closeMatch	<http://sws.geonames.org/3128760/> .
 
 fibo-fbc-fct-bci:Basel
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Basel" ;
 	lcc-cr:isPartOf	cc:CH ;
-	rdfs:label	"Basel" .
+	rdfs:label	"Basel" ;
+	skos:closeMatch	<http://sws.geonames.org/2661604/> .
 
 fibo-fbc-fct-bci:Basseterre
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:KN ;
-	rdfs:label	"Basseterre" .
+	rdfs:label	"Basseterre" ;
+	skos:closeMatch	<http://sws.geonames.org/3575551/> .
 
 fibo-fbc-fct-bci:Bedminster
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
-	rdfs:label	"Bedminster" .
+	rdfs:label	"Bedminster" ;
+	skos:closeMatch	<http://sws.geonames.org/5095528/> .
 
 fibo-fbc-fct-bci:Beijing
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Beijing" ;
 	lcc-cr:isPartOf	cc:CN ;
-	rdfs:label	"Beijing" .
+	rdfs:label	"Beijing" ;
+	skos:closeMatch	<http://sws.geonames.org/1816670/> .
 
 fibo-fbc-fct-bci:Beirut
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Beirut" ;
 	lcc-cr:isPartOf	cc:LB ;
-	rdfs:label	"Beirut" .
+	rdfs:label	"Beirut" ;
+	skos:closeMatch	<http://sws.geonames.org/276781/> .
 
 fibo-fbc-fct-bci:Belgrade
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Belgrade" ;
 	lcc-cr:isPartOf	cc:RS ;
-	rdfs:label	"Belgrade" .
+	rdfs:label	"Belgrade" ;
+	skos:closeMatch	<http://sws.geonames.org/792680/> .
 
 fibo-fbc-fct-bci:Bergamo
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:IT ;
-	rdfs:label	"Bergamo" .
+	rdfs:label	"Bergamo" ;
+	skos:closeMatch	<http://sws.geonames.org/3182164/> .
 
 fibo-fbc-fct-bci:Bergen
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:NO ;
-	rdfs:label	"Bergen" .
+	rdfs:label	"Bergen" ;
+	skos:closeMatch	<http://sws.geonames.org/3161732/> .
 
 fibo-fbc-fct-bci:Berlin
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Berlin" .
+	rdfs:label	"Berlin" ;
+	skos:closeMatch	<http://sws.geonames.org/2950159/> .
 
 fibo-fbc-fct-bci:Bermuda
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:BM ;
-	rdfs:label	"Bermuda" .
+	rdfs:label	"Bermuda" ;
+	skos:closeMatch	<http://sws.geonames.org/3573345/> .
 
 fibo-fbc-fct-bci:Bern
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:CH ;
-	rdfs:label	"Bern" .
+	rdfs:label	"Bern" ;
+	skos:closeMatch	<http://sws.geonames.org/2661552/> .
 
 fibo-fbc-fct-bci:Biella
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:IT ;
-	rdfs:label	"Biella" .
+	rdfs:label	"Biella" ;
+	skos:closeMatch	<http://sws.geonames.org/3182043/> .
 
 fibo-fbc-fct-bci:Bilbao
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:ES ;
-	rdfs:label	"Bilbao" .
+	rdfs:label	"Bilbao" ;
+	skos:closeMatch	<http://sws.geonames.org/3128026/> .
 
 fibo-fbc-fct-bci:Bishkek
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:KG ;
-	rdfs:label	"Bishkek" .
+	rdfs:label	"Bishkek" ;
+	skos:closeMatch	<http://sws.geonames.org/1528675/> .
 
 fibo-fbc-fct-bci:Blantyre
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:MW ;
-	rdfs:label	"Blantyre" .
+	rdfs:label	"Blantyre" ;
+	skos:closeMatch	<http://sws.geonames.org/931755/> .
 
 fibo-fbc-fct-bci:BocaRaton
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-FL , cc:US ;
-	rdfs:label	"Boca Raton" .
+	rdfs:label	"Boca Raton" ;
+	skos:closeMatch	<http://sws.geonames.org/4148411/> .
 
 fibo-fbc-fct-bci:Bogota
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Bogota" ;
 	lcc-cr:isPartOf	cc:CO ;
-	rdfs:label	"Bogota" .
+	rdfs:label	"Bogota" ;
+	skos:closeMatch	<http://sws.geonames.org/3688689/> .
 
 fibo-fbc-fct-bci:Bologna
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:IT ;
-	rdfs:label	"Bologna" .
+	rdfs:label	"Bologna" ;
+	skos:closeMatch	<http://sws.geonames.org/3181928/> .
 
 fibo-fbc-fct-bci:Boston
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Boston" ;
 	lcc-cr:isPartOf	cc2:US-MA , cc:US ;
-	rdfs:label	"Boston" .
+	rdfs:label	"Boston" ;
+	skos:closeMatch	<http://sws.geonames.org/4930956/> .
 
 fibo-fbc-fct-bci:Bradford
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:GB ;
-	rdfs:label	"Bradford" .
+	rdfs:label	"Bradford" ;
+	skos:closeMatch	<http://sws.geonames.org/2654993/> .
 
 fibo-fbc-fct-bci:Brasilia
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Brasilia" ;
 	lcc-cr:isPartOf	cc:BR ;
-	rdfs:label	"Brasilia" .
+	rdfs:label	"Brasilia" ;
+	skos:closeMatch	<http://sws.geonames.org/3469058/> .
 
 fibo-fbc-fct-bci:Bratislava
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Bratislava" ;
 	lcc-cr:isPartOf	cc:SK ;
-	rdfs:label	"Bratislava" .
+	rdfs:label	"Bratislava" ;
+	skos:closeMatch	<http://sws.geonames.org/3060972/> .
 
 fibo-fbc-fct-bci:BrazilBusinessDay
 	a	fibo-fnd-dt-bd:BusinessDayAdjustment ;
@@ -727,27 +783,31 @@ fibo-fbc-fct-bci:Bridgetown
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Bridgetown" ;
 	lcc-cr:isPartOf	cc:BB ;
-	rdfs:label	"Bridgetown" .
+	rdfs:label	"Bridgetown" ;
+	skos:closeMatch	<http://sws.geonames.org/3374036/> .
 
 fibo-fbc-fct-bci:Brisbane
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Brisbane" ;
 	lcc-cr:isPartOf	cc:AU ;
-	rdfs:label	"Brisbane" .
+	rdfs:label	"Brisbane" ;
+	skos:closeMatch	<http://sws.geonames.org/2174003/> .
 
 fibo-fbc-fct-bci:Brussels
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Brussels" ;
 	lcc-cr:isPartOf	cc:BE ;
-	rdfs:label	"Brussels" .
+	rdfs:label	"Brussels" ;
+	skos:closeMatch	<http://sws.geonames.org/2800866/> .
 
 fibo-fbc-fct-bci:BryanstonSandton
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:ZA ;
-	rdfs:label	"Bryanston, Sandton" .
+	rdfs:label	"Bryanston, Sandton" ;
+	skos:closeMatch	<http://sws.geonames.org/1015304/> .
 
 fibo-fbc-fct-bci:Bucarest
 	owl:sameAs	fibo-fbc-fct-bci:Bucharest .
@@ -757,21 +817,24 @@ fibo-fbc-fct-bci:Bucharest
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Bucharest" ;
 	lcc-cr:isPartOf	cc:RO ;
-	rdfs:label	"Bucharest" .
+	rdfs:label	"Bucharest" ;
+	skos:closeMatch	<http://sws.geonames.org/683506/> .
 
 fibo-fbc-fct-bci:Budapest
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Budapest" ;
 	lcc-cr:isPartOf	cc:HU ;
-	rdfs:label	"Budapest" .
+	rdfs:label	"Budapest" ;
+	skos:closeMatch	<http://sws.geonames.org/3054643/> .
 
 fibo-fbc-fct-bci:Buenos_Aires
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Buenos Aires" ;
 	lcc-cr:isPartOf	cc:AR ;
-	rdfs:label	"Buenos Aires" .
+	rdfs:label	"Buenos Aires" ;
+	skos:closeMatch	<http://sws.geonames.org/3435910/> .
 
 fibo-fbc-fct-bci:CACL
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -978,7 +1041,8 @@ fibo-fbc-fct-bci:Cairo
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Cairo" ;
 	lcc-cr:isPartOf	cc:EG ;
-	rdfs:label	"Cairo" .
+	rdfs:label	"Cairo" ;
+	skos:closeMatch	<http://sws.geonames.org/360630/> .
 
 fibo-fbc-fct-bci:Calcutta
 	owl:sameAs	fibo-fbc-fct-bci:Kolkata .
@@ -988,119 +1052,137 @@ fibo-fbc-fct-bci:Calgary
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Calgary" ;
 	lcc-cr:isPartOf	cc:CA ;
-	rdfs:label	"Calgary" .
+	rdfs:label	"Calgary" ;
+	skos:closeMatch	<http://sws.geonames.org/5913490/> .
 
 fibo-fbc-fct-bci:Canberra
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Canberra" ;
 	lcc-cr:isPartOf	cc:AU ;
-	rdfs:label	"Canberra" .
+	rdfs:label	"Canberra" ;
+	skos:closeMatch	<http://sws.geonames.org/2172517/> .
 
 fibo-fbc-fct-bci:Caracas
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Caracas" ;
 	lcc-cr:isPartOf	cc:VE ;
-	rdfs:label	"Caracas" .
+	rdfs:label	"Caracas" ;
+	skos:closeMatch	<http://sws.geonames.org/3646738/> .
 
 fibo-fbc-fct-bci:Casablanca
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Casablanca" ;
 	lcc-cr:isPartOf	cc:MA ;
-	rdfs:label	"Casablanca" .
+	rdfs:label	"Casablanca" ;
+	skos:closeMatch	<http://sws.geonames.org/2553604/> .
 
 fibo-fbc-fct-bci:Charlotte
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Charlotte" ;
 	lcc-cr:isPartOf	cc2:US-NC , cc:US ;
-	rdfs:label	"Charlotte" .
+	rdfs:label	"Charlotte" ;
+	skos:closeMatch	<http://sws.geonames.org/4460243/> .
 
 fibo-fbc-fct-bci:Chatham
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:MA , cc:US ;
-	rdfs:label	"Chatham" .
+	rdfs:label	"Chatham" ;
+	skos:closeMatch	<http://sws.geonames.org/4221552/> .
 
 fibo-fbc-fct-bci:Chennai
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Chennai" ;
 	lcc-cr:isPartOf	cc:IN ;
-	rdfs:label	"Chennai" .
+	rdfs:label	"Chennai" ;
+	skos:closeMatch	<http://sws.geonames.org/1264527/> .
 
 fibo-fbc-fct-bci:Chicago
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Chicago" ;
 	lcc-cr:isPartOf	cc2:US-IL , cc:US ;
-	rdfs:label	"Chicago" .
+	rdfs:label	"Chicago" ;
+	skos:closeMatch	<http://sws.geonames.org/4887398/> .
 
 fibo-fbc-fct-bci:Chisinau
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:MD ;
-	rdfs:label	"Chisinau" .
+	rdfs:label	"Chisinau" ;
+	skos:closeMatch	<http://sws.geonames.org/618426/> .
 
 fibo-fbc-fct-bci:Chittagong
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:BD ;
-	rdfs:label	"Chittagong" .
+	rdfs:label	"Chittagong" ;
+	skos:closeMatch	<http://sws.geonames.org/1205733/> .
 
 fibo-fbc-fct-bci:Chiyoda-ku
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:JP ;
-	rdfs:label	"Chiyoda-ku" .
+	rdfs:label	"Chiyoda-ku" ;
+	skos:closeMatch	<http://sws.geonames.org/1864529/> .
 
 fibo-fbc-fct-bci:ClujNapoca
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:RO ;
-	rdfs:label	"Cluj Napoca" .
+	rdfs:label	"Cluj Napoca" ;
+	skos:closeMatch	<http://sws.geonames.org/681290/> .
 
 fibo-fbc-fct-bci:Cologne
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Cologne" ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Cologne" .
+	rdfs:label	"Cologne" ;
+	skos:closeMatch	<http://sws.geonames.org/2886242/> .
 
 fibo-fbc-fct-bci:Colombo
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Colombo" ;
 	lcc-cr:isPartOf	cc:LK ;
-	rdfs:label	"Colombo" .
+	rdfs:label	"Colombo" ;
+	skos:closeMatch	<http://sws.geonames.org/1248991/> .
 
 fibo-fbc-fct-bci:Conakry
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Conakry" ;
 	lcc-cr:isPartOf	cc:GN ;
-	rdfs:label	"Conakry" .
+	rdfs:label	"Conakry" ;
+	skos:closeMatch	<http://sws.geonames.org/2422465/> .
 
 fibo-fbc-fct-bci:Copenhagen
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Copenhagen" ;
 	lcc-cr:isPartOf	cc:DK ;
-	rdfs:label	"Copenhagen" .
+	rdfs:label	"Copenhagen" ;
+	skos:closeMatch	<http://sws.geonames.org/2618425/> .
 
 fibo-fbc-fct-bci:Cordoba
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:AR ;
-	rdfs:label	"Cordoba" .
+	rdfs:label	"Cordoba" ;
+	skos:closeMatch	<http://sws.geonames.org/3860259/> .
 
 fibo-fbc-fct-bci:Corrientes
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:AR ;
-	rdfs:label	"Corrientes" .
+	rdfs:label	"Corrientes" ;
+	skos:closeMatch	<http://sws.geonames.org/3435217/> .
 
 fibo-fbc-fct-bci:DECO
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -1227,108 +1309,124 @@ fibo-fbc-fct-bci:Dakar
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Dakar" ;
 	lcc-cr:isPartOf	cc:SN ;
-	rdfs:label	"Dakar" .
+	rdfs:label	"Dakar" ;
+	skos:closeMatch	<http://sws.geonames.org/2253354/> .
 
 fibo-fbc-fct-bci:Dalian
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:CN ;
-	rdfs:label	"Dalian" .
+	rdfs:label	"Dalian" ;
+	skos:closeMatch	<http://sws.geonames.org/1814087/> .
 
 fibo-fbc-fct-bci:Damascus
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	dct:description	"the municipality of Damascus" ;
 	lcc-cr:isPartOf	cc:SY ;
-	rdfs:label	"Damascus" .
+	rdfs:label	"Damascus" ;
+	skos:closeMatch	<http://sws.geonames.org/170654/> .
 
 fibo-fbc-fct-bci:Dar_es_Salaam
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Dar es Salaam" ;
 	lcc-cr:isPartOf	cc:TZ ;
-	rdfs:label	"Dar es Salaam" .
+	rdfs:label	"Dar es Salaam" ;
+	skos:closeMatch	<http://sws.geonames.org/160263/> .
 
 fibo-fbc-fct-bci:Darwin
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Darwin" ;
 	lcc-cr:isPartOf	cc:AU ;
-	rdfs:label	"Darwin" .
+	rdfs:label	"Darwin" ;
+	skos:closeMatch	<http://sws.geonames.org/2073124/> .
 
 fibo-fbc-fct-bci:Davos_Platz
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:CH ;
-	rdfs:label	"Davos Platz" .
+	rdfs:label	"Davos Platz" ;
+	skos:closeMatch	<http://sws.geonames.org/7669421/> .
 
 fibo-fbc-fct-bci:Denver
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Denver" ;
 	lcc-cr:isPartOf	cc2:US-CO , cc:US ;
-	rdfs:label	"Denver" .
+	rdfs:label	"Denver" ;
+	skos:closeMatch	<http://sws.geonames.org/5419384/> .
 
 fibo-fbc-fct-bci:Detroit
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Detroit" ;
 	lcc-cr:isPartOf	cc2:US-MI , cc:US ;
-	rdfs:label	"Detroit" .
+	rdfs:label	"Detroit" ;
+	skos:closeMatch	<http://sws.geonames.org/4990729/> .
 
 fibo-fbc-fct-bci:Dhaka
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Dhaka" ;
 	lcc-cr:isPartOf	cc:BD ;
-	rdfs:label	"Dhaka" .
+	rdfs:label	"Dhaka" ;
+	skos:closeMatch	<http://sws.geonames.org/1185241/> .
 
 fibo-fbc-fct-bci:Dnipropetrovsk
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:UA ;
-	rdfs:label	"Dnipropetrovsk" .
+	rdfs:label	"Dnipropetrovsk" ;
+	skos:closeMatch	<http://sws.geonames.org/709930/> .
 
 fibo-fbc-fct-bci:Dodoma
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Dodoma" ;
 	lcc-cr:isPartOf	cc:TZ ;
-	rdfs:label	"Dodoma" .
+	rdfs:label	"Dodoma" ;
+	skos:closeMatch	<http://sws.geonames.org/160196/> .
 
 fibo-fbc-fct-bci:Doha
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Doha" ;
 	lcc-cr:isPartOf	cc:QA ;
-	rdfs:label	"Doha" .
+	rdfs:label	"Doha" ;
+	skos:closeMatch	<http://sws.geonames.org/290030/> .
 
 fibo-fbc-fct-bci:Douala
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:CM ;
-	rdfs:label	"Douala" .
+	rdfs:label	"Douala" ;
+	skos:closeMatch	<http://sws.geonames.org/2232593/> .
 
 fibo-fbc-fct-bci:Dubai
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Dubai" ;
 	lcc-cr:isPartOf	cc:AE ;
-	rdfs:label	"Dubai" .
+	rdfs:label	"Dubai" ;
+	skos:closeMatch	<http://sws.geonames.org/292223/> .
 
 fibo-fbc-fct-bci:Dublin
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Dublin" ;
 	lcc-cr:isPartOf	cc:IE ;
-	rdfs:label	"Dublin" .
+	rdfs:label	"Dublin" ;
+	skos:closeMatch	<http://sws.geonames.org/2964574/> .
 
 fibo-fbc-fct-bci:Duesseldorf
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Dusseldorf" ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Duesseldorf" .
+	rdfs:label	"Duesseldorf" ;
+	skos:closeMatch	<http://sws.geonames.org/2934246/> .
 
 fibo-fbc-fct-bci:Dusseldorf
 	owl:sameAs	fibo-fbc-fct-bci:Duesseldorf .
@@ -1434,44 +1532,51 @@ fibo-fbc-fct-bci:Ebene
 	a	owl:NamedIndividual ;
 	fibo-fnd-utl-av:synonym	"Cybercity" , "Ebene Cybercity" ;
 	lcc-cr:isPartOf	cc:MU ;
-	rdfs:label	"Ebene" .
+	rdfs:label	"Ebene" ;
+	skos:closeMatch	<http://sws.geonames.org/1106748/> .
 
 fibo-fbc-fct-bci:Eden_Island
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:SC ;
-	rdfs:label	"Eden Island" .
+	rdfs:label	"Eden Island" ;
+	skos:closeMatch	<http://sws.geonames.org/8693252/> .
 
 fibo-fbc-fct-bci:Edinburgh
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Edinburgh" ;
 	lcc-cr:isPartOf	cc:GB ;
-	rdfs:label	"Edinburgh" .
+	rdfs:label	"Edinburgh" ;
+	skos:closeMatch	<http://sws.geonames.org/2650225/> .
 
 fibo-fbc-fct-bci:Esch-sur-alzette
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:LU ;
-	rdfs:label	"Esch-sur-alzette" .
+	rdfs:label	"Esch-sur-alzette" ;
+	skos:closeMatch	<http://sws.geonames.org/2960596/> .
 
 fibo-fbc-fct-bci:Eschborn
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Eschborn" .
+	rdfs:label	"Eschborn" ;
+	skos:closeMatch	<http://sws.geonames.org/2929134/> .
 
 fibo-fbc-fct-bci:Eschenz
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:CH ;
-	rdfs:label	"Eschenz" .
+	rdfs:label	"Eschenz" ;
+	skos:closeMatch	<http://sws.geonames.org/2660859/> .
 
 fibo-fbc-fct-bci:Espoo
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:FI ;
-	rdfs:label	"Espoo" .
+	rdfs:label	"Espoo" ;
+	skos:closeMatch	<http://sws.geonames.org/660158/> .
 
 fibo-fbc-fct-bci:FIHE
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -1497,19 +1602,22 @@ fibo-fbc-fct-bci:Fiac
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:FR ;
-	rdfs:label	"Fiac" .
+	rdfs:label	"Fiac" ;
+	skos:closeMatch	<http://sws.geonames.org/3018542/> .
 
 fibo-fbc-fct-bci:Firenze
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:IT ;
-	rdfs:label	"Firenze" .
+	rdfs:label	"Firenze" ;
+	skos:closeMatch	<http://sws.geonames.org/3176959/> .
 
 fibo-fbc-fct-bci:Florence
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:IT ;
-	rdfs:label	"Florence" .
+	rdfs:label	"Florence" ;
+	skos:closeMatch	<http://sws.geonames.org/3176959/> .
 
 fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme
 	a	fibo-fbc-fct-bc:BusinessCenterCodeScheme ;
@@ -1523,27 +1631,31 @@ fibo-fbc-fct-bci:Frankfurt
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Frankfurt" ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Frankfurt" .
+	rdfs:label	"Frankfurt" ;
+	skos:closeMatch	<http://sws.geonames.org/2925533/> .
 
 fibo-fbc-fct-bci:Fredericton
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Fredericton" ;
 	lcc-cr:isPartOf	cc:CA ;
-	rdfs:label	"Fredericton" .
+	rdfs:label	"Fredericton" ;
+	skos:closeMatch	<http://sws.geonames.org/5957776/> .
 
 fibo-fbc-fct-bci:Freetown
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Freetown" ;
 	lcc-cr:isPartOf	cc:SL ;
-	rdfs:label	"Freetown" .
+	rdfs:label	"Freetown" ;
+	skos:closeMatch	<http://sws.geonames.org/2409306/> .
 
 fibo-fbc-fct-bci:Fukuoka
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:JP ;
-	rdfs:label	"Fukuoka" .
+	rdfs:label	"Fukuoka" ;
+	skos:closeMatch	<http://sws.geonames.org/1863967/> .
 
 fibo-fbc-fct-bci:GBED
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -1655,26 +1767,30 @@ fibo-fbc-fct-bci:Gaborone
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Gaborone" ;
 	lcc-cr:isPartOf	cc:BW ;
-	rdfs:label	"Gaborone" .
+	rdfs:label	"Gaborone" ;
+	skos:closeMatch	<http://sws.geonames.org/933773/> .
 
 fibo-fbc-fct-bci:Gandhinagar
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:IN ;
-	rdfs:label	"Gandhinagar" .
+	rdfs:label	"Gandhinagar" ;
+	skos:closeMatch	<http://sws.geonames.org/1271715/> .
 
 fibo-fbc-fct-bci:Geneva
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Geneva" ;
 	lcc-cr:isPartOf	cc:CH ;
-	rdfs:label	"Geneva" .
+	rdfs:label	"Geneva" ;
+	skos:closeMatch	<http://sws.geonames.org/2660646/> .
 
 fibo-fbc-fct-bci:Genoa
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:IT ;
-	rdfs:label	"Genoa" .
+	rdfs:label	"Genoa" ;
+	skos:closeMatch	<http://sws.geonames.org/3176219/> .
 
 fibo-fbc-fct-bci:Genova
 	owl:sameAs	fibo-fbc-fct-bci:Genoa .
@@ -1684,68 +1800,79 @@ fibo-fbc-fct-bci:George_Town
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of George Town" ;
 	lcc-cr:isPartOf	cc:KY ;
-	rdfs:label	"George Town" .
+	rdfs:label	"George Town" ;
+	skos:closeMatch	<http://sws.geonames.org/3580661/> .
 
 fibo-fbc-fct-bci:Georgetown
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:GY ;
-	rdfs:label	"Georgetown" .
+	rdfs:label	"Georgetown" ;
+	skos:closeMatch	<http://sws.geonames.org/3378644/> .
 
 fibo-fbc-fct-bci:Gibraltar
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:GI ;
-	rdfs:label	"Gibraltar" .
+	rdfs:label	"Gibraltar" ;
+	skos:closeMatch	<http://sws.geonames.org/2411585/> .
 
 fibo-fbc-fct-bci:Glenview
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-IL , cc:US ;
-	rdfs:label	"Glenview" .
+	rdfs:label	"Glenview" ;
+	skos:closeMatch	<http://sws.geonames.org/4893886/> .
 
 fibo-fbc-fct-bci:Great_Neck
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-NY , cc:US ;
-	rdfs:label	"Great Neck" .
+	rdfs:label	"Great Neck" ;
+	skos:closeMatch	<http://sws.geonames.org/5119218/> .
 
 fibo-fbc-fct-bci:Greenwich
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-CT , cc:US ;
-	rdfs:label	"Greenwich" .
+	rdfs:label	"Greenwich" ;
+	skos:closeMatch	<http://sws.geonames.org/4835395/> .
 
 fibo-fbc-fct-bci:Grindsted
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:DK ;
-	rdfs:label	"Grindsted" .
+	rdfs:label	"Grindsted" ;
+	skos:closeMatch	<http://sws.geonames.org/2621192/> .
 
 fibo-fbc-fct-bci:Guatemala_City
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Guatemala City" ;
 	lcc-cr:isPartOf	cc:GT ;
-	rdfs:label	"Guatemala City" .
+	rdfs:label	"Guatemala City" ;
+	skos:closeMatch	<http://sws.geonames.org/3598132/> .
 
 fibo-fbc-fct-bci:Guayaquil
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:EC ;
-	rdfs:label	"Guayaquil" .
+	rdfs:label	"Guayaquil" ;
+	skos:closeMatch	<http://sws.geonames.org/3657509/> .
 
 fibo-fbc-fct-bci:Guaynabo
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-PR , cc:US ;
-	rdfs:label	"Guaynabo" .
+	rdfs:label	"Guaynabo" ;
+	skos:closeMatch	<http://sws.geonames.org/4565119/> .
 
 fibo-fbc-fct-bci:Guildford
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:GB ;
-	rdfs:label	"Guildford" .
+	rdfs:label	"Guildford" ;
+	skos:closeMatch	<http://sws.geonames.org/2647793/> .
 
 fibo-fbc-fct-bci:HKHK
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -1792,42 +1919,48 @@ fibo-fbc-fct-bci:Hamburg
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Hamburg" ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Hamburg" .
+	rdfs:label	"Hamburg" ;
+	skos:closeMatch	<http://sws.geonames.org/2911298/> .
 
 fibo-fbc-fct-bci:Hamilton
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Hamilton" ;
 	lcc-cr:isPartOf	cc:BM ;
-	rdfs:label	"Hamilton" .
+	rdfs:label	"Hamilton" ;
+	skos:closeMatch	<http://sws.geonames.org/3573197/> .
 
 fibo-fbc-fct-bci:Hannover
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Hannover" ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Hannover" .
+	rdfs:label	"Hannover" ;
+	skos:closeMatch	<http://sws.geonames.org/2910831/> .
 
 fibo-fbc-fct-bci:Hanoi
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Hanoi" ;
 	lcc-cr:isPartOf	cc:VN ;
-	rdfs:label	"Hanoi" .
+	rdfs:label	"Hanoi" ;
+	skos:closeMatch	<http://sws.geonames.org/1581130/> .
 
 fibo-fbc-fct-bci:Harare
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Harare" ;
 	lcc-cr:isPartOf	cc:ZW ;
-	rdfs:label	"Harare" .
+	rdfs:label	"Harare" ;
+	skos:closeMatch	<http://sws.geonames.org/890299/> .
 
 fibo-fbc-fct-bci:Helsinki
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Helsinki" ;
 	lcc-cr:isPartOf	cc:FI ;
-	rdfs:label	"Helsinki" .
+	rdfs:label	"Helsinki" ;
+	skos:closeMatch	<http://sws.geonames.org/658225/> .
 
 fibo-fbc-fct-bci:Ho_Chi_Minh
 	owl:sameAs	fibo-fbc-fct-bci:Ho_Chi_Minh_City .
@@ -1837,47 +1970,54 @@ fibo-fbc-fct-bci:Ho_Chi_Minh_City
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Ho Chi Minh (formerly Saigon)" ;
 	lcc-cr:isPartOf	cc:VN ;
-	rdfs:label	"Ho Chi Minh City" .
+	rdfs:label	"Ho Chi Minh City" ;
+	skos:closeMatch	<http://sws.geonames.org/1566083/> .
 
 fibo-fbc-fct-bci:Hong_Kong
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Hong Kong" ;
 	lcc-cr:isPartOf	cc:HK ;
-	rdfs:label	"Hong Kong" .
+	rdfs:label	"Hong Kong" ;
+	skos:closeMatch	<http://sws.geonames.org/1819729/> .
 
 fibo-fbc-fct-bci:Honolulu
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Honolulu" ;
 	lcc-cr:isPartOf	cc2:US-HI , cc:US ;
-	rdfs:label	"Honolulu" .
+	rdfs:label	"Honolulu" ;
+	skos:closeMatch	<http://sws.geonames.org/5856195/> .
 
 fibo-fbc-fct-bci:Horsens
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:DK ;
-	rdfs:label	"Horsens" .
+	rdfs:label	"Horsens" ;
+	skos:closeMatch	<http://sws.geonames.org/2619771/> .
 
 fibo-fbc-fct-bci:Houston
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Houston" ;
 	lcc-cr:isPartOf	cc2:US-TX , cc:US ;
-	rdfs:label	"Houston" .
+	rdfs:label	"Houston" ;
+	skos:closeMatch	<http://sws.geonames.org/4699066/> .
 
 fibo-fbc-fct-bci:Hove
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:GB ;
-	rdfs:label	"Hove" .
+	rdfs:label	"Hove" ;
+	skos:closeMatch	<http://sws.geonames.org/2646504/> .
 
 fibo-fbc-fct-bci:Hyderabad
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Hyderabad" ;
 	lcc-cr:isPartOf	cc:IN ;
-	rdfs:label	"Hyderabad" .
+	rdfs:label	"Hyderabad" ;
+	skos:closeMatch	<http://sws.geonames.org/1269843/> .
 
 fibo-fbc-fct-bci:IDJA
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -2061,14 +2201,16 @@ fibo-fbc-fct-bci:Indore_Madhya_Pradesh
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:IN ;
-	rdfs:label	"Indore Madhya Pradesh" .
+	rdfs:label	"Indore Madhya Pradesh" ;
+	skos:closeMatch	<http://sws.geonames.org/1269743/> .
 
 fibo-fbc-fct-bci:Istanbul
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Istanbul" ;
 	lcc-cr:isPartOf	cc:TR ;
-	rdfs:label	"Istanbul" .
+	rdfs:label	"Istanbul" ;
+	skos:closeMatch	<http://sws.geonames.org/745044/> .
 
 fibo-fbc-fct-bci:JESH
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -2115,34 +2257,39 @@ fibo-fbc-fct-bci:Jakarta
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Jakarta" ;
 	lcc-cr:isPartOf	cc:ID ;
-	rdfs:label	"Jakarta" .
+	rdfs:label	"Jakarta" ;
+	skos:closeMatch	<http://sws.geonames.org/1642911/> .
 
 fibo-fbc-fct-bci:Jeddah
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Jeddah" ;
 	lcc-cr:isPartOf	cc:SA ;
-	rdfs:label	"Jeddah" .
+	rdfs:label	"Jeddah" ;
+	skos:closeMatch	<http://sws.geonames.org/105343/> .
 
 fibo-fbc-fct-bci:Jersey_City
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
-	rdfs:label	"Jersey City" .
+	rdfs:label	"Jersey City" ;
+	skos:closeMatch	<http://sws.geonames.org/5099836/> .
 
 fibo-fbc-fct-bci:Jerusalem
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Jerusalem" ;
 	lcc-cr:isPartOf	cc:IL ;
-	rdfs:label	"Jerusalem" .
+	rdfs:label	"Jerusalem" ;
+	skos:closeMatch	<http://sws.geonames.org/7498240/> .
 
 fibo-fbc-fct-bci:Johannesburg
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Johannesburg" ;
 	lcc-cr:isPartOf	cc:ZA ;
-	rdfs:label	"Johannesburg" .
+	rdfs:label	"Johannesburg" ;
+	skos:closeMatch	<http://sws.geonames.org/993800/> .
 
 fibo-fbc-fct-bci:KENA
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -2209,45 +2356,52 @@ fibo-fbc-fct-bci:Kampala
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Kampala" ;
 	lcc-cr:isPartOf	cc:UG ;
-	rdfs:label	"Kampala" .
+	rdfs:label	"Kampala" ;
+	skos:closeMatch	<http://sws.geonames.org/232422/> .
 
 fibo-fbc-fct-bci:Kansas_City
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-MO , cc:US ;
-	rdfs:label	"Kansas City" .
+	rdfs:label	"Kansas City" ;
+	skos:closeMatch	<http://sws.geonames.org/4393217/> .
 
 fibo-fbc-fct-bci:Karachi
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Karachi" ;
 	lcc-cr:isPartOf	cc:PK ;
-	rdfs:label	"Karachi" .
+	rdfs:label	"Karachi" ;
+	skos:closeMatch	<http://sws.geonames.org/1174872/> .
 
 fibo-fbc-fct-bci:Kathmandu
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Kathmandu" ;
 	lcc-cr:isPartOf	cc:NP ;
-	rdfs:label	"Kathmandu" .
+	rdfs:label	"Kathmandu" ;
+	skos:closeMatch	<http://sws.geonames.org/1283240/> .
 
 fibo-fbc-fct-bci:Kharkov
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:UA ;
-	rdfs:label	"Kharkov" .
+	rdfs:label	"Kharkov" ;
+	skos:closeMatch	<http://sws.geonames.org/706483/> .
 
 fibo-fbc-fct-bci:Khartoum
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:SD ;
-	rdfs:label	"Khartoum" .
+	rdfs:label	"Khartoum" ;
+	skos:closeMatch	<http://sws.geonames.org/379252/> .
 
 fibo-fbc-fct-bci:Kiel
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Kiel" .
+	rdfs:label	"Kiel" ;
+	skos:closeMatch	<http://sws.geonames.org/2891122/> .
 
 fibo-fbc-fct-bci:Kiev
 	owl:sameAs	fibo-fbc-fct-bci:Kyiv .
@@ -2256,60 +2410,69 @@ fibo-fbc-fct-bci:Kigali
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:RW ;
-	rdfs:label	"Kigali" .
+	rdfs:label	"Kigali" ;
+	skos:closeMatch	<http://sws.geonames.org/202061/> .
 
 fibo-fbc-fct-bci:Kingston
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Kingston" ;
 	lcc-cr:isPartOf	cc:JM ;
-	rdfs:label	"Kingston" .
+	rdfs:label	"Kingston" ;
+	skos:closeMatch	<http://sws.geonames.org/3489854/> .
 
 fibo-fbc-fct-bci:Kingstown
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:VC ;
-	rdfs:label	"Kingstown" .
+	rdfs:label	"Kingstown" ;
+	skos:closeMatch	<http://sws.geonames.org/3577887/> .
 
 fibo-fbc-fct-bci:Klagenfurt_am_Woerthersee
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:AT ;
-	rdfs:label	"Klagenfurt Am Woerthersee" .
+	rdfs:label	"Klagenfurt Am Woerthersee" ;
+	skos:closeMatch	<http://sws.geonames.org/2774326/> .
 
 fibo-fbc-fct-bci:Kolkata
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Kolkata" ;
 	lcc-cr:isPartOf	cc:IN ;
-	rdfs:label	"Kolkata" .
+	rdfs:label	"Kolkata" ;
+	skos:closeMatch	<http://sws.geonames.org/1275004/> .
 
 fibo-fbc-fct-bci:Kongsvinger
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:NO ;
-	rdfs:label	"Kongsvinger" .
+	rdfs:label	"Kongsvinger" ;
+	skos:closeMatch	<http://sws.geonames.org/3149533/> .
 
 fibo-fbc-fct-bci:Kuala_Lumpur
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Kuala Lumpur" ;
 	lcc-cr:isPartOf	cc:MY ;
-	rdfs:label	"Kuala Lumpur" .
+	rdfs:label	"Kuala Lumpur" ;
+	skos:closeMatch	<http://sws.geonames.org/1735161/> .
 
 fibo-fbc-fct-bci:Kuwait_City
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Kuwait City" ;
 	lcc-cr:isPartOf	cc:KW ;
-	rdfs:label	"Kuwait City" .
+	rdfs:label	"Kuwait City" ;
+	skos:closeMatch	<http://sws.geonames.org/285787/> .
 
 fibo-fbc-fct-bci:Kyiv
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Kyiv" ;
 	lcc-cr:isPartOf	cc:UA ;
-	rdfs:label	"Kyiv" .
+	rdfs:label	"Kyiv" ;
+	skos:closeMatch	<http://sws.geonames.org/703448/> .
 
 fibo-fbc-fct-bci:LAVI
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -2366,72 +2529,83 @@ fibo-fbc-fct-bci:La_Paz
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of La Paz" ;
 	lcc-cr:isPartOf	cc:BO ;
-	rdfs:label	"La Paz" .
+	rdfs:label	"La Paz" ;
+	skos:closeMatch	<http://sws.geonames.org/3911925/> .
 
 fibo-fbc-fct-bci:Labuan
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Labuan" ;
 	lcc-cr:isPartOf	cc:MY ;
-	rdfs:label	"Labuan" .
+	rdfs:label	"Labuan" ;
+	skos:closeMatch	<http://sws.geonames.org/1733782/> .
 
 fibo-fbc-fct-bci:Lagos
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Lagos" ;
 	lcc-cr:isPartOf	cc:NEia , cc:NG ;
-	rdfs:label	"Lagos" .
+	rdfs:label	"Lagos" ;
+	skos:closeMatch	<http://sws.geonames.org/2332459/> .
 
 fibo-fbc-fct-bci:Lane_Cove
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:AU ;
-	rdfs:label	"Lane Cove" .
+	rdfs:label	"Lane Cove" ;
+	skos:closeMatch	<http://sws.geonames.org/2160625/> .
 
 fibo-fbc-fct-bci:Lao
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:LA ;
-	rdfs:label	"Lao" .
+	rdfs:label	"Lao" ;
+	skos:closeMatch	<http://sws.geonames.org/1655842/> .
 
 fibo-fbc-fct-bci:Larnaca
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:CY ;
-	rdfs:label	"Larnaca" .
+	rdfs:label	"Larnaca" ;
+	skos:closeMatch	<http://sws.geonames.org/146400/> .
 
 fibo-fbc-fct-bci:Leipzig
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Leipzig" ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Leipzig" .
+	rdfs:label	"Leipzig" ;
+	skos:closeMatch	<http://sws.geonames.org/2879139/> .
 
 fibo-fbc-fct-bci:Lilongwe
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Lilongwe" ;
 	lcc-cr:isPartOf	cc:MW ;
-	rdfs:label	"Lilongwe" .
+	rdfs:label	"Lilongwe" ;
+	skos:closeMatch	<http://sws.geonames.org/927967/> .
 
 fibo-fbc-fct-bci:Lima
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Lima" ;
 	lcc-cr:isPartOf	cc:PE ;
-	rdfs:label	"Lima" .
+	rdfs:label	"Lima" ;
+	skos:closeMatch	<http://sws.geonames.org/3936456/> .
 
 fibo-fbc-fct-bci:Limassol
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:CY ;
-	rdfs:label	"Limassol" .
+	rdfs:label	"Limassol" ;
+	skos:closeMatch	<http://sws.geonames.org/146384/> .
 
 fibo-fbc-fct-bci:Linz
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:AT ;
-	rdfs:label	"Linz" .
+	rdfs:label	"Linz" ;
+	skos:closeMatch	<http://sws.geonames.org/2772400/> .
 
 fibo-fbc-fct-bci:Lisboa
 	owl:sameAs	fibo-fbc-fct-bci:Lisbon .
@@ -2441,61 +2615,70 @@ fibo-fbc-fct-bci:Lisbon
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Lisbon" ;
 	lcc-cr:isPartOf	cc:PT ;
-	rdfs:label	"Lisbon" .
+	rdfs:label	"Lisbon" ;
+	skos:closeMatch	<http://sws.geonames.org/2267057/> .
 
 fibo-fbc-fct-bci:Ljubljana
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Ljubljana" ;
 	lcc-cr:isPartOf	cc:SI ;
-	rdfs:label	"Ljubljana" .
+	rdfs:label	"Ljubljana" ;
+	skos:closeMatch	<http://sws.geonames.org/3196359/> .
 
 fibo-fbc-fct-bci:London
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of London" ;
 	lcc-cr:isPartOf	cc:GB ;
-	rdfs:label	"London" .
+	rdfs:label	"London" ;
+	skos:closeMatch	<http://sws.geonames.org/2643743/> .
 
 fibo-fbc-fct-bci:Los_Angeles
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Los Angeles" ;
 	lcc-cr:isPartOf	cc2:US-CA , cc:US ;
-	rdfs:label	"Los Angeles" .
+	rdfs:label	"Los Angeles" ;
+	skos:closeMatch	<http://sws.geonames.org/5368361/> .
 
 fibo-fbc-fct-bci:Luanda
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Luanda" ;
 	lcc-cr:isPartOf	cc:AO ;
-	rdfs:label	"Luanda" .
+	rdfs:label	"Luanda" ;
+	skos:closeMatch	<http://sws.geonames.org/2240449/> .
 
 fibo-fbc-fct-bci:Lugano
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:CH ;
-	rdfs:label	"Lugano" .
+	rdfs:label	"Lugano" ;
+	skos:closeMatch	<http://sws.geonames.org/2659836/> .
 
 fibo-fbc-fct-bci:Lusaka
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Lusaka" ;
 	lcc-cr:isPartOf	cc:ZM ;
-	rdfs:label	"Lusaka" .
+	rdfs:label	"Lusaka" ;
+	skos:closeMatch	<http://sws.geonames.org/909137/> .
 
 fibo-fbc-fct-bci:Luxembourg
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Luxembourg" ;
 	lcc-cr:isPartOf	cc:LU ;
-	rdfs:label	"Luxembourg" .
+	rdfs:label	"Luxembourg" ;
+	skos:closeMatch	<http://sws.geonames.org/2960316/> .
 
 fibo-fbc-fct-bci:Luzern
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:CH ;
-	rdfs:label	"Luzern" .
+	rdfs:label	"Luzern" ;
+	skos:closeMatch	<http://sws.geonames.org/2659811/> .
 
 fibo-fbc-fct-bci:MACA
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -2632,27 +2815,31 @@ fibo-fbc-fct-bci:Macau
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Macau" ;
 	lcc-cr:isPartOf	cc:MO ;
-	rdfs:label	"Macau" .
+	rdfs:label	"Macau" ;
+	skos:closeMatch	<http://sws.geonames.org/1821274/> .
 
 fibo-fbc-fct-bci:Madras
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:IN ;
-	rdfs:label	"Madras" .
+	rdfs:label	"Madras" ;
+	skos:closeMatch	<http://sws.geonames.org/1264527/> .
 
 fibo-fbc-fct-bci:Madrid
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Madrid" ;
 	lcc-cr:isPartOf	cc:ES ;
-	rdfs:label	"Madrid" .
+	rdfs:label	"Madrid" ;
+	skos:closeMatch	<http://sws.geonames.org/3117735/> .
 
 fibo-fbc-fct-bci:Mainz
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Mainz" ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Mainz" .
+	rdfs:label	"Mainz" ;
+	skos:closeMatch	<http://sws.geonames.org/2874225/> .
 
 fibo-fbc-fct-bci:Makati
 	owl:sameAs	fibo-fbc-fct-bci:Makati_City .
@@ -2662,153 +2849,176 @@ fibo-fbc-fct-bci:Makati_City
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Makati" ;
 	lcc-cr:isPartOf	cc:PH ;
-	rdfs:label	"Makati City" .
+	rdfs:label	"Makati City" ;
+	skos:closeMatch	<http://sws.geonames.org/1703417/> .
 
 fibo-fbc-fct-bci:Male
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Male" ;
 	lcc-cr:isPartOf	cc:MV ;
-	rdfs:label	"Male" .
+	rdfs:label	"Male" ;
+	skos:closeMatch	<http://sws.geonames.org/1282027/> .
 
 fibo-fbc-fct-bci:Managua
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:NI ;
-	rdfs:label	"Managua" .
+	rdfs:label	"Managua" ;
+	skos:closeMatch	<http://sws.geonames.org/3617763/> .
 
 fibo-fbc-fct-bci:Manama
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Manama" ;
 	lcc-cr:isPartOf	cc:BH ;
-	rdfs:label	"Manama" .
+	rdfs:label	"Manama" ;
+	skos:closeMatch	<http://sws.geonames.org/290340/> .
 
 fibo-fbc-fct-bci:Manila
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Manila" ;
 	lcc-cr:isPartOf	cc:PH ;
-	rdfs:label	"Manila" .
+	rdfs:label	"Manila" ;
+	skos:closeMatch	<http://sws.geonames.org/1701668/> .
 
 fibo-fbc-fct-bci:Maputo
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Maputo" ;
 	lcc-cr:isPartOf	cc:MZ ;
-	rdfs:label	"Maputo" .
+	rdfs:label	"Maputo" ;
+	skos:closeMatch	<http://sws.geonames.org/1040652/> .
 
 fibo-fbc-fct-bci:Maringa
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:BR ;
-	rdfs:label	"Maringa" .
+	rdfs:label	"Maringa" ;
+	skos:closeMatch	<http://sws.geonames.org/3457671/> .
 
 fibo-fbc-fct-bci:Mbabane
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:SZ ;
-	rdfs:label	"Mbabane" .
+	rdfs:label	"Mbabane" ;
+	skos:closeMatch	<http://sws.geonames.org/934985/> .
 
 fibo-fbc-fct-bci:Melbourne
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Melbourne" ;
 	lcc-cr:isPartOf	cc:AU ;
-	rdfs:label	"Melbourne" .
+	rdfs:label	"Melbourne" ;
+	skos:closeMatch	<http://sws.geonames.org/2158177/> .
 
 fibo-fbc-fct-bci:Mendoza
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:AR ;
-	rdfs:label	"Mendoza" .
+	rdfs:label	"Mendoza" ;
+	skos:closeMatch	<http://sws.geonames.org/3844421/> .
 
 fibo-fbc-fct-bci:Mexico_City
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Mexico City" ;
 	lcc-cr:isPartOf	cc:MX ;
-	rdfs:label	"Mexico City" .
+	rdfs:label	"Mexico City" ;
+	skos:closeMatch	<http://sws.geonames.org/3530597/> .
 
 fibo-fbc-fct-bci:Miami
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-FL , cc:US ;
-	rdfs:label	"Miami" .
+	rdfs:label	"Miami" ;
+	skos:closeMatch	<http://sws.geonames.org/4164138/> .
 
 fibo-fbc-fct-bci:Milan
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Milan" ;
 	lcc-cr:isPartOf	cc:IT ;
-	rdfs:label	"Milan" .
+	rdfs:label	"Milan" ;
+	skos:closeMatch	<http://sws.geonames.org/3173435/> .
 
 fibo-fbc-fct-bci:Minneapolis
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Minneapolis" ;
 	lcc-cr:isPartOf	cc2:US-MN , cc:US ;
-	rdfs:label	"Minneapolis" .
+	rdfs:label	"Minneapolis" ;
+	skos:closeMatch	<http://sws.geonames.org/5037649/> .
 
 fibo-fbc-fct-bci:Minsk
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Minsk" ;
 	lcc-cr:isPartOf	cc:BY ;
-	rdfs:label	"Minsk" .
+	rdfs:label	"Minsk" ;
+	skos:closeMatch	<http://sws.geonames.org/625144/> .
 
 fibo-fbc-fct-bci:Mobile
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Mobile" ;
 	lcc-cr:isPartOf	cc2:US-AL , cc:US ;
-	rdfs:label	"Mobile" .
+	rdfs:label	"Mobile" ;
+	skos:closeMatch	<http://sws.geonames.org/4076598/> .
 
 fibo-fbc-fct-bci:Moka
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:MU ;
-	rdfs:label	"Moka" .
+	rdfs:label	"Moka" ;
+	skos:closeMatch	<http://sws.geonames.org/934277/> .
 
 fibo-fbc-fct-bci:Monaco
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Monaco" ;
 	lcc-cr:isPartOf	cc:MC ;
-	rdfs:label	"Monaco" .
+	rdfs:label	"Monaco" ;
+	skos:closeMatch	<http://sws.geonames.org/2993458/> .
 
 fibo-fbc-fct-bci:Montevideo
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Montevideo" ;
 	lcc-cr:isPartOf	cc:UY ;
-	rdfs:label	"Montevideo" .
+	rdfs:label	"Montevideo" ;
+	skos:closeMatch	<http://sws.geonames.org/3441575/> .
 
 fibo-fbc-fct-bci:Montreal
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Montreal" ;
 	lcc-cr:isPartOf	cc:CA ;
-	rdfs:label	"Montreal" .
+	rdfs:label	"Montreal" ;
+	skos:closeMatch	<http://sws.geonames.org/6077243/> .
 
 fibo-fbc-fct-bci:Moorpark
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-CA , cc:US ;
-	rdfs:label	"Moorpark" .
+	rdfs:label	"Moorpark" ;
+	skos:closeMatch	<http://sws.geonames.org/5374648/> .
 
 fibo-fbc-fct-bci:Moscow
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Moscow" ;
 	lcc-cr:isPartOf	cc:RU ;
-	rdfs:label	"Moscow" .
+	rdfs:label	"Moscow" ;
+	skos:closeMatch	<http://sws.geonames.org/524901/> .
 
 fibo-fbc-fct-bci:Mount_Pleasant
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-SC , cc:US ;
-	rdfs:label	"Mount Pleasant" .
+	rdfs:label	"Mount Pleasant" ;
+	skos:closeMatch	<http://sws.geonames.org/4588165/> .
 
 fibo-fbc-fct-bci:Muenchen
 	owl:sameAs	fibo-fbc-fct-bci:Munich .
@@ -2818,21 +3028,24 @@ fibo-fbc-fct-bci:Mumbai
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Mumbai" ;
 	lcc-cr:isPartOf	cc:IN ;
-	rdfs:label	"Mumbai" .
+	rdfs:label	"Mumbai" ;
+	skos:closeMatch	<http://sws.geonames.org/1275339/> .
 
 fibo-fbc-fct-bci:Munich
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Munich" ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Munich" .
+	rdfs:label	"Munich" ;
+	skos:closeMatch	<http://sws.geonames.org/2867714/> .
 
 fibo-fbc-fct-bci:Muscat
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Muscat" ;
 	lcc-cr:isPartOf	cc:OM ;
-	rdfs:label	"Muscat" .
+	rdfs:label	"Muscat" ;
+	skos:closeMatch	<http://sws.geonames.org/287286/> .
 
 fibo-fbc-fct-bci:NAWI
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -2948,32 +3161,37 @@ fibo-fbc-fct-bci:Nablus
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:PS ;
-	rdfs:label	"Nablus" .
+	rdfs:label	"Nablus" ;
+	skos:closeMatch	<http://sws.geonames.org/282615/> .
 
 fibo-fbc-fct-bci:Nacka
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:SE ;
-	rdfs:label	"Nacka" .
+	rdfs:label	"Nacka" ;
+	skos:closeMatch	<http://sws.geonames.org/2690580/> .
 
 fibo-fbc-fct-bci:Nagoya
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:JP ;
-	rdfs:label	"Nagoya" .
+	rdfs:label	"Nagoya" ;
+	skos:closeMatch	<http://sws.geonames.org/1856057/> .
 
 fibo-fbc-fct-bci:Nairobi
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Nairobi" ;
 	lcc-cr:isPartOf	cc:KE ;
-	rdfs:label	"Nairobi" .
+	rdfs:label	"Nairobi" ;
+	skos:closeMatch	<http://sws.geonames.org/184745/> .
 
 fibo-fbc-fct-bci:Narberth
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-PA , cc:US ;
-	rdfs:label	"Narberth" .
+	rdfs:label	"Narberth" ;
+	skos:closeMatch	<http://sws.geonames.org/5202869/> .
 
 fibo-fbc-fct-bci:Nasau
 	owl:sameAs	fibo-fbc-fct-bci:Nassau .
@@ -2983,7 +3201,8 @@ fibo-fbc-fct-bci:Nassau
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Nassau" ;
 	lcc-cr:isPartOf	cc:BS ;
-	rdfs:label	"Nassau" .
+	rdfs:label	"Nassau" ;
+	skos:closeMatch	<http://sws.geonames.org/3571824/> .
 
 fibo-fbc-fct-bci:NewYorkFederalReserveBusinessDay
 	a	fibo-fnd-dt-bd:BusinessDayAdjustment ;
@@ -3004,7 +3223,8 @@ fibo-fbc-fct-bci:New_Delhi
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of New Delhi" ;
 	lcc-cr:isPartOf	cc:IN ;
-	rdfs:label	"New Delhi" .
+	rdfs:label	"New Delhi" ;
+	skos:closeMatch	<http://sws.geonames.org/1261481/> .
 
 fibo-fbc-fct-bci:New_York
 	a	fibo-fnd-plc-loc:BusinessCenter ;
@@ -3012,38 +3232,44 @@ fibo-fbc-fct-bci:New_York
 	dct:description	"the international business center of New York" ;
 	fibo-fnd-utl-av:synonym	"New York City" ;
 	lcc-cr:isPartOf	cc2:US-NY , cc:US ;
-	rdfs:label	"New York" .
+	rdfs:label	"New York" ;
+	skos:closeMatch	<http://sws.geonames.org/5128581/> .
 
 fibo-fbc-fct-bci:Newcastle
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:AU ;
-	rdfs:label	"Newcastle" .
+	rdfs:label	"Newcastle" ;
+	skos:closeMatch	<http://sws.geonames.org/2155472/> .
 
 fibo-fbc-fct-bci:Nicosia
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Nicosia" ;
 	lcc-cr:isPartOf	cc:CY ;
-	rdfs:label	"Nicosia" .
+	rdfs:label	"Nicosia" ;
+	skos:closeMatch	<http://sws.geonames.org/146268/> .
 
 fibo-fbc-fct-bci:North_Bergen
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
-	rdfs:label	"North Bergen" .
+	rdfs:label	"North Bergen" ;
+	skos:closeMatch	<http://sws.geonames.org/5101879/> .
 
 fibo-fbc-fct-bci:Novosibirsk
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:RU ;
-	rdfs:label	"Novosibirsk" .
+	rdfs:label	"Novosibirsk" ;
+	skos:closeMatch	<http://sws.geonames.org/1496747/> .
 
 fibo-fbc-fct-bci:Nyon
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:CH ;
-	rdfs:label	"Nyon" .
+	rdfs:label	"Nyon" ;
+	skos:closeMatch	<http://sws.geonames.org/2659422/> .
 
 fibo-fbc-fct-bci:OMMU
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -3059,39 +3285,45 @@ fibo-fbc-fct-bci:Odessa
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:UA ;
-	rdfs:label	"Odessa" .
+	rdfs:label	"Odessa" ;
+	skos:closeMatch	<http://sws.geonames.org/698740/> .
 
 fibo-fbc-fct-bci:Oldenburg
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Oldenburg" .
+	rdfs:label	"Oldenburg" ;
+	skos:closeMatch	<http://sws.geonames.org/2857458/> .
 
 fibo-fbc-fct-bci:Osaka
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:JP ;
-	rdfs:label	"Osaka" .
+	rdfs:label	"Osaka" ;
+	skos:closeMatch	<http://sws.geonames.org/1853909/> .
 
 fibo-fbc-fct-bci:Oslo
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Oslo" ;
 	lcc-cr:isPartOf	cc:NO ;
-	rdfs:label	"Oslo" .
+	rdfs:label	"Oslo" ;
+	skos:closeMatch	<http://sws.geonames.org/3143244/> .
 
 fibo-fbc-fct-bci:Oststeinbek
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Oststeinbek" .
+	rdfs:label	"Oststeinbek" ;
+	skos:closeMatch	<http://sws.geonames.org/2856184/> .
 
 fibo-fbc-fct-bci:Ottawa
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Ottawa" ;
 	lcc-cr:isPartOf	cc:CA ;
-	rdfs:label	"Ottawa" .
+	rdfs:label	"Ottawa" ;
+	skos:closeMatch	<http://sws.geonames.org/6094817/> .
 
 fibo-fbc-fct-bci:PAPC
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -3177,129 +3409,149 @@ fibo-fbc-fct-bci:Padova
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:IT ;
-	rdfs:label	"Padova" .
+	rdfs:label	"Padova" ;
+	skos:closeMatch	<http://sws.geonames.org/3171728/> .
 
 fibo-fbc-fct-bci:PalmaDeMallorca
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:ES ;
-	rdfs:label	"Palma de Mallorca" .
+	rdfs:label	"Palma de Mallorca" ;
+	skos:closeMatch	<http://sws.geonames.org/2512989/> .
 
 fibo-fbc-fct-bci:Panama_City
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Panama City" ;
 	lcc-cr:isPartOf	cc:PA ;
-	rdfs:label	"Panama City" .
+	rdfs:label	"Panama City" ;
+	skos:closeMatch	<http://sws.geonames.org/3703443/> .
 
 fibo-fbc-fct-bci:Paris
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Paris" ;
 	lcc-cr:isPartOf	cc:FR ;
-	rdfs:label	"Paris" .
+	rdfs:label	"Paris" ;
+	skos:closeMatch	<http://sws.geonames.org/2988507/> .
 
 fibo-fbc-fct-bci:Pasig_City
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:PH ;
-	rdfs:label	"Pasig City" .
+	rdfs:label	"Pasig City" ;
+	skos:closeMatch	<http://sws.geonames.org/7290466/> .
 
 fibo-fbc-fct-bci:Perth
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Perth" ;
 	lcc-cr:isPartOf	cc:AU ;
-	rdfs:label	"Perth" .
+	rdfs:label	"Perth" ;
+	skos:closeMatch	<http://sws.geonames.org/2063523/> .
 
 fibo-fbc-fct-bci:Pfaffikon_SZ
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:CH-SZ , cc:CH ;
-	rdfs:label	"Pfäffikon SZ" .
+	rdfs:label	"Pfäffikon SZ" ;
+	skos:closeMatch	<http://sws.geonames.org/2659220/> .
 
 fibo-fbc-fct-bci:Philadelphia
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-PA , cc:US ;
-	rdfs:label	"Philadelphia" .
+	rdfs:label	"Philadelphia" ;
+	skos:closeMatch	<http://sws.geonames.org/4560349/> .
 
 fibo-fbc-fct-bci:Phnom_Penh
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Phnom Penh" ;
 	lcc-cr:isPartOf	cc:KH ;
-	rdfs:label	"Phnom Penh" .
+	rdfs:label	"Phnom Penh" ;
+	skos:closeMatch	<http://sws.geonames.org/1821306/> .
 
 fibo-fbc-fct-bci:Podgorica
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:ME ;
-	rdfs:label	"Podgorica" .
+	rdfs:label	"Podgorica" ;
+	skos:closeMatch	<http://sws.geonames.org/3193044/> .
 
 fibo-fbc-fct-bci:Port_Louis
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Port Louis" ;
 	lcc-cr:isPartOf	cc:MU ;
-	rdfs:label	"Port Louis" .
+	rdfs:label	"Port Louis" ;
+	skos:closeMatch	<http://sws.geonames.org/934154/> .
 
 fibo-fbc-fct-bci:Port_Moresby
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:PG ;
-	rdfs:label	"Port Moresby" .
+	rdfs:label	"Port Moresby" ;
+	skos:closeMatch	<http://sws.geonames.org/2088122/> .
 
 fibo-fbc-fct-bci:Port_Vila
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:VU ;
-	rdfs:label	"Port Vila" .
+	rdfs:label	"Port Vila" ;
+	skos:closeMatch	<http://sws.geonames.org/2135171/> .
 
 fibo-fbc-fct-bci:Port_of_Spain
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Port of Spain" ;
 	lcc-cr:isPartOf	cc:TT ;
-	rdfs:label	"Port of Spain" .
+	rdfs:label	"Port of Spain" ;
+	skos:closeMatch	<http://sws.geonames.org/3573890/> .
 
 fibo-fbc-fct-bci:Portland
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Portland" ;
 	lcc-cr:isPartOf	cc2:US-OR , cc:US ;
-	rdfs:label	"Portland" .
+	rdfs:label	"Portland" ;
+	skos:closeMatch	<http://sws.geonames.org/5746545/> .
 
 fibo-fbc-fct-bci:Porto
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:PT ;
-	rdfs:label	"Porto" .
+	rdfs:label	"Porto" ;
+	skos:closeMatch	<http://sws.geonames.org/2735943/> .
 
 fibo-fbc-fct-bci:Prague
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Prague" ;
 	lcc-cr:isPartOf	cc:CZ ;
-	rdfs:label	"Prague" .
+	rdfs:label	"Prague" ;
+	skos:closeMatch	<http://sws.geonames.org/3067696/> .
 
 fibo-fbc-fct-bci:Praia
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:CV ;
-	rdfs:label	"Praia" .
+	rdfs:label	"Praia" ;
+	skos:closeMatch	<http://sws.geonames.org/3374333/> .
 
 fibo-fbc-fct-bci:Princeton
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
-	rdfs:label	"Princeton" .
+	rdfs:label	"Princeton" ;
+	skos:closeMatch	<http://sws.geonames.org/5102922/> .
 
 fibo-fbc-fct-bci:Purchase
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-NY , cc:US ;
-	rdfs:label	"Purchase" .
+	rdfs:label	"Purchase" ;
+	skos:closeMatch	<http://sws.geonames.org/5133135/> .
 
 fibo-fbc-fct-bci:QADO
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -3315,7 +3567,8 @@ fibo-fbc-fct-bci:Quito
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:EC ;
-	rdfs:label	"Quito" .
+	rdfs:label	"Quito" ;
+	skos:closeMatch	<http://sws.geonames.org/3652462/> .
 
 fibo-fbc-fct-bci:ROBU
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -3352,72 +3605,83 @@ fibo-fbc-fct-bci:Rabat
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Rabat" ;
 	lcc-cr:isPartOf	cc:MA ;
-	rdfs:label	"Rabat" .
+	rdfs:label	"Rabat" ;
+	skos:closeMatch	<http://sws.geonames.org/2538475/> .
 
 fibo-fbc-fct-bci:Randers
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:DK ;
-	rdfs:label	"Randers" .
+	rdfs:label	"Randers" ;
+	skos:closeMatch	<http://sws.geonames.org/2615006/> .
 
 fibo-fbc-fct-bci:Red_Bank
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
-	rdfs:label	"Red Bank" .
+	rdfs:label	"Red Bank" ;
+	skos:closeMatch	<http://sws.geonames.org/5103159/> .
 
 fibo-fbc-fct-bci:Regensburg
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Regensburg" .
+	rdfs:label	"Regensburg" ;
+	skos:closeMatch	<http://sws.geonames.org/2849483/> .
 
 fibo-fbc-fct-bci:Reggio_Emilia
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:IT ;
-	rdfs:label	"Reggio Emilia" .
+	rdfs:label	"Reggio Emilia" ;
+	skos:closeMatch	<http://sws.geonames.org/3169522/> .
 
 fibo-fbc-fct-bci:Reykjavik
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Reykjavik" ;
 	lcc-cr:isPartOf	cc:IS ;
-	rdfs:label	"Reykjavik" .
+	rdfs:label	"Reykjavik" ;
+	skos:closeMatch	<http://sws.geonames.org/3413829/> .
 
 fibo-fbc-fct-bci:Riga
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Riga" ;
 	lcc-cr:isPartOf	cc:LV ;
-	rdfs:label	"Riga" .
+	rdfs:label	"Riga" ;
+	skos:closeMatch	<http://sws.geonames.org/456172/> .
 
 fibo-fbc-fct-bci:Rio_de_Janeiro
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Rio de Janeiro" ;
 	lcc-cr:isPartOf	cc:BR ;
-	rdfs:label	"Rio de Janeiro" .
+	rdfs:label	"Rio de Janeiro" ;
+	skos:closeMatch	<http://sws.geonames.org/3451190/> .
 
 fibo-fbc-fct-bci:Riyadh
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Riyadh" ;
 	lcc-cr:isPartOf	cc:SA ;
-	rdfs:label	"Riyadh" .
+	rdfs:label	"Riyadh" ;
+	skos:closeMatch	<http://sws.geonames.org/108410/> .
 
 fibo-fbc-fct-bci:Road_Town
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Road Town" ;
 	lcc-cr:isPartOf	cc:VG ;
-	rdfs:label	"Road Town" .
+	rdfs:label	"Road Town" ;
+	skos:closeMatch	<http://sws.geonames.org/3577430/> .
 
 fibo-fbc-fct-bci:Rodgau
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Rodgau" .
+	rdfs:label	"Rodgau" ;
+	skos:closeMatch	<http://sws.geonames.org/3336893/> .
 
 fibo-fbc-fct-bci:Roma
 	owl:sameAs	fibo-fbc-fct-bci:Rome .
@@ -3427,20 +3691,23 @@ fibo-fbc-fct-bci:Rome
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Rome" ;
 	lcc-cr:isPartOf	cc:IT ;
-	rdfs:label	"Rome" .
+	rdfs:label	"Rome" ;
+	skos:closeMatch	<http://sws.geonames.org/3169070/> .
 
 fibo-fbc-fct-bci:Rosario
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:AR ;
-	rdfs:label	"Rosario" .
+	rdfs:label	"Rosario" ;
+	skos:closeMatch	<http://sws.geonames.org/3838583/> .
 
 fibo-fbc-fct-bci:Rotterdam
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Rotterdam" ;
 	lcc-cr:isPartOf	cc:NL ;
-	rdfs:label	"Rotterdam" .
+	rdfs:label	"Rotterdam" ;
+	skos:closeMatch	<http://sws.geonames.org/2747891/> .
 
 fibo-fbc-fct-bci:SAAB
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -3546,21 +3813,24 @@ fibo-fbc-fct-bci:Sabadell
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:ES ;
-	rdfs:label	"Sabadell" .
+	rdfs:label	"Sabadell" ;
+	skos:closeMatch	<http://sws.geonames.org/3111199/> .
 
 fibo-fbc-fct-bci:Sacramento
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Sacramento" ;
 	lcc-cr:isPartOf	cc2:US-CA , cc:US ;
-	rdfs:label	"Sacramento" .
+	rdfs:label	"Sacramento" ;
+	skos:closeMatch	<http://sws.geonames.org/5389489/> .
 
 fibo-fbc-fct-bci:Saint-Petersburg
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	fibo-fnd-utl-av:synonym	"St. Petersburg" ;
 	lcc-cr:isPartOf	cc:RU ;
-	rdfs:label	"Saint Petersburg" .
+	rdfs:label	"Saint Petersburg" ;
+	skos:closeMatch	<http://sws.geonames.org/498817/> .
 
 fibo-fbc-fct-bci:Saint_Peter_Port
 	a	fibo-fnd-plc-loc:BusinessCenter ;
@@ -3568,228 +3838,263 @@ fibo-fbc-fct-bci:Saint_Peter_Port
 	dct:description	"the international business center of Saint Peter Port" ;
 	fibo-fnd-utl-av:synonym	"St. Peter Port" ;
 	lcc-cr:isPartOf	cc:GG ;
-	rdfs:label	"Saint Peter Port" .
+	rdfs:label	"Saint Peter Port" ;
+	skos:closeMatch	<http://sws.geonames.org/3042287/> .
 
 fibo-fbc-fct-bci:Salzburg
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:AT ;
-	rdfs:label	"Salzburg" .
+	rdfs:label	"Salzburg" ;
+	skos:closeMatch	<http://sws.geonames.org/2766824/> .
 
 fibo-fbc-fct-bci:Samara
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:RU ;
-	rdfs:label	"Samara" .
+	rdfs:label	"Samara" ;
+	skos:closeMatch	<http://sws.geonames.org/499099/> .
 
 fibo-fbc-fct-bci:San_Carlos
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-CA , cc:US ;
-	rdfs:label	"San Carlos" .
+	rdfs:label	"San Carlos" ;
+	skos:closeMatch	<http://sws.geonames.org/5391760/> .
 
 fibo-fbc-fct-bci:San_Francisco
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of San Francisco" ;
 	lcc-cr:isPartOf	cc2:US-CA , cc:US ;
-	rdfs:label	"San Francisco" .
+	rdfs:label	"San Francisco" ;
+	skos:closeMatch	<http://sws.geonames.org/5391959/> .
 
 fibo-fbc-fct-bci:San_Jose
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of San Jose" ;
 	lcc-cr:isPartOf	cc:CR ;
-	rdfs:label	"San Jose" .
+	rdfs:label	"San Jose" ;
+	skos:closeMatch	<http://sws.geonames.org/3621849/> .
 
 fibo-fbc-fct-bci:San_Juan
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of San Juan" ;
 	lcc-cr:isPartOf	cc:PR ;
-	rdfs:label	"San Juan" .
+	rdfs:label	"San Juan" ;
+	skos:closeMatch	<http://sws.geonames.org/4568127/> .
 
 fibo-fbc-fct-bci:San_Salvador
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of San Salvador" ;
 	lcc-cr:isPartOf	cc:SV ;
-	rdfs:label	"San Salvador" .
+	rdfs:label	"San Salvador" ;
+	skos:closeMatch	<http://sws.geonames.org/3583361/> .
 
 fibo-fbc-fct-bci:San_Sebastian
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of San Sebastian" ;
 	lcc-cr:isPartOf	cc:ES ;
-	rdfs:label	"San Sebastian" .
+	rdfs:label	"San Sebastian" ;
+	skos:closeMatch	<http://sws.geonames.org/3110044/> .
 
 fibo-fbc-fct-bci:Santa_Fe
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:AR ;
-	rdfs:label	"Santa Fe" .
+	rdfs:label	"Santa Fe" ;
+	skos:closeMatch	<http://sws.geonames.org/3836277/> .
 
 fibo-fbc-fct-bci:Santander
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:ES ;
-	rdfs:label	"Santander" .
+	rdfs:label	"Santander" ;
+	skos:closeMatch	<http://sws.geonames.org/3109718/> .
 
 fibo-fbc-fct-bci:Santiago
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Santiago" ;
 	lcc-cr:isPartOf	cc:CL ;
-	rdfs:label	"Santiago" .
+	rdfs:label	"Santiago" ;
+	skos:closeMatch	<http://sws.geonames.org/3871336/> .
 
 fibo-fbc-fct-bci:Santo_Domingo
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Santo Domingo" ;
 	lcc-cr:isPartOf	cc:DO ;
-	rdfs:label	"Santo Domingo" .
+	rdfs:label	"Santo Domingo" ;
+	skos:closeMatch	<http://sws.geonames.org/3492908/> .
 
 fibo-fbc-fct-bci:Sao_Paulo
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Sao Paulo" ;
 	lcc-cr:isPartOf	cc:BR ;
-	rdfs:label	"Sao Paulo" .
+	rdfs:label	"Sao Paulo" ;
+	skos:closeMatch	<http://sws.geonames.org/3448439/> .
 
 fibo-fbc-fct-bci:Sapporo
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:JP ;
-	rdfs:label	"Sapporo" .
+	rdfs:label	"Sapporo" ;
+	skos:closeMatch	<http://sws.geonames.org/2128295/> .
 
 fibo-fbc-fct-bci:Sarajevo
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:BA ;
-	rdfs:label	"Sarajevo" .
+	rdfs:label	"Sarajevo" ;
+	skos:closeMatch	<http://sws.geonames.org/3191281/> .
 
 fibo-fbc-fct-bci:SeaGirt
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
-	rdfs:label	"Sea Girt" .
+	rdfs:label	"Sea Girt" ;
+	skos:closeMatch	<http://sws.geonames.org/5104495/> .
 
 fibo-fbc-fct-bci:Seattle
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Seattle" ;
 	lcc-cr:isPartOf	cc2:US-WA , cc:US ;
-	rdfs:label	"Seattle" .
+	rdfs:label	"Seattle" ;
+	skos:closeMatch	<http://sws.geonames.org/5809844/> .
 
 fibo-fbc-fct-bci:Seoul
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Seoul" ;
 	lcc-cr:isPartOf	cc:KR ;
-	rdfs:label	"Seoul" .
+	rdfs:label	"Seoul" ;
+	skos:closeMatch	<http://sws.geonames.org/1835848/> .
 
 fibo-fbc-fct-bci:Shanghai
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Shanghai" ;
 	lcc-cr:isPartOf	cc:CN ;
-	rdfs:label	"Shanghai" .
+	rdfs:label	"Shanghai" ;
+	skos:closeMatch	<http://sws.geonames.org/1796236/> .
 
 fibo-fbc-fct-bci:Shenzhen
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:CN ;
-	rdfs:label	"Shenzhen" .
+	rdfs:label	"Shenzhen" ;
+	skos:closeMatch	<http://sws.geonames.org/1795565/> .
 
 fibo-fbc-fct-bci:Silkeborg
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:DK ;
-	rdfs:label	"Silkeborg" .
+	rdfs:label	"Silkeborg" ;
+	skos:closeMatch	<http://sws.geonames.org/2614030/> .
 
 fibo-fbc-fct-bci:Singapore
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Singapore" ;
 	lcc-cr:isPartOf	cc:SG ;
-	rdfs:label	"Singapore" .
+	rdfs:label	"Singapore" ;
+	skos:closeMatch	<http://sws.geonames.org/1880252/> .
 
 fibo-fbc-fct-bci:Skopje
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:MK ;
-	rdfs:label	"Skopje" .
+	rdfs:label	"Skopje" ;
+	skos:closeMatch	<http://sws.geonames.org/785842/> .
 
 fibo-fbc-fct-bci:Sliema
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:MT ;
-	rdfs:label	"Sliema" .
+	rdfs:label	"Sliema" ;
+	skos:closeMatch	<http://sws.geonames.org/2562501/> .
 
 fibo-fbc-fct-bci:Sofia
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Sofia" ;
 	lcc-cr:isPartOf	cc:BG ;
-	rdfs:label	"Sofia" .
+	rdfs:label	"Sofia" ;
+	skos:closeMatch	<http://sws.geonames.org/727011/> .
 
 fibo-fbc-fct-bci:Split
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:HR ;
-	rdfs:label	"Split" .
+	rdfs:label	"Split" ;
+	skos:closeMatch	<http://sws.geonames.org/3190261/> .
 
 fibo-fbc-fct-bci:StAlbans
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:GB ;
-	rdfs:label	"St. Albans" .
+	rdfs:label	"St. Albans" ;
+	skos:closeMatch	<http://sws.geonames.org/2638867/> .
 
 fibo-fbc-fct-bci:St_Helier
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of St. Helier" ;
 	lcc-cr:isPartOf	cc:JE ;
-	rdfs:label	"St. Helier" .
+	rdfs:label	"St. Helier" ;
+	skos:closeMatch	<http://sws.geonames.org/3042091/> .
 
 fibo-fbc-fct-bci:Stamford
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-CT , cc:US ;
-	rdfs:label	"Stamford" .
+	rdfs:label	"Stamford" ;
+	skos:closeMatch	<http://sws.geonames.org/4843564/> .
 
 fibo-fbc-fct-bci:Stockholm
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Stockholm" ;
 	lcc-cr:isPartOf	cc:SE ;
-	rdfs:label	"Stockholm" .
+	rdfs:label	"Stockholm" ;
+	skos:closeMatch	<http://sws.geonames.org/2673730/> .
 
 fibo-fbc-fct-bci:Stuttgart
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Stuttgart" ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Stuttgart" .
+	rdfs:label	"Stuttgart" ;
+	skos:closeMatch	<http://sws.geonames.org/2825297/> .
 
 fibo-fbc-fct-bci:Summit
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
-	rdfs:label	"Summit" .
+	rdfs:label	"Summit" ;
+	skos:closeMatch	<http://sws.geonames.org/5105127/> .
 
 fibo-fbc-fct-bci:Suva
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:FJ ;
-	rdfs:label	"Suva" .
+	rdfs:label	"Suva" ;
+	skos:closeMatch	<http://sws.geonames.org/2198148/> .
 
 fibo-fbc-fct-bci:Sydney
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Sydney" ;
 	lcc-cr:isPartOf	cc:AU ;
-	rdfs:label	"Sydney" .
+	rdfs:label	"Sydney" ;
+	skos:closeMatch	<http://sws.geonames.org/2147714/> .
 
 fibo-fbc-fct-bci:TARGETSettlementDay
 	a	fibo-fnd-dt-bd:BusinessDayAdjustment ;
@@ -3884,35 +4189,40 @@ fibo-fbc-fct-bci:Taipei
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Taipei" ;
 	lcc-cr:isPartOf	cc:TW ;
-	rdfs:label	"Taipei" .
+	rdfs:label	"Taipei" ;
+	skos:closeMatch	<http://sws.geonames.org/1668341/> .
 
 fibo-fbc-fct-bci:Tallinn
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Tallinn" ;
 	lcc-cr:isPartOf	cc:EE ;
-	rdfs:label	"Tallinn" .
+	rdfs:label	"Tallinn" ;
+	skos:closeMatch	<http://sws.geonames.org/588409/> .
 
 fibo-fbc-fct-bci:Tashkent
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Tashkent" ;
 	lcc-cr:isPartOf	cc:UZ ;
-	rdfs:label	"Tashkent" .
+	rdfs:label	"Tashkent" ;
+	skos:closeMatch	<http://sws.geonames.org/1512569/> .
 
 fibo-fbc-fct-bci:Tbilisi
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Tbilisi" ;
 	lcc-cr:isPartOf	cc:GE ;
-	rdfs:label	"Tbilisi" .
+	rdfs:label	"Tbilisi" ;
+	skos:closeMatch	<http://sws.geonames.org/611717/> .
 
 fibo-fbc-fct-bci:Tegucigalpa
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Tegucigalpa" ;
 	lcc-cr:isPartOf	cc:HN ;
-	rdfs:label	"Tegucigalpa" .
+	rdfs:label	"Tegucigalpa" ;
+	skos:closeMatch	<http://sws.geonames.org/3600949/> .
 
 fibo-fbc-fct-bci:Teheran
 	owl:sameAs	fibo-fbc-fct-bci:Tehran .
@@ -3922,96 +4232,111 @@ fibo-fbc-fct-bci:Tehran
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Tehran" ;
 	lcc-cr:isPartOf	cc:IR ;
-	rdfs:label	"Tehran" .
+	rdfs:label	"Tehran" ;
+	skos:closeMatch	<http://sws.geonames.org/112931/> .
 
 fibo-fbc-fct-bci:Tel_Aviv
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Tel Aviv" ;
 	lcc-cr:isPartOf	cc:IL ;
-	rdfs:label	"Tel Aviv" .
+	rdfs:label	"Tel Aviv" ;
+	skos:closeMatch	<http://sws.geonames.org/293397/> .
 
 fibo-fbc-fct-bci:TheWoodlands
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-TX , cc:US ;
-	rdfs:label	"The Woodlands" .
+	rdfs:label	"The Woodlands" ;
+	skos:closeMatch	<http://sws.geonames.org/4736476/> .
 
 fibo-fbc-fct-bci:The_Hague
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:NL ;
-	rdfs:label	"The Hague" .
+	rdfs:label	"The Hague" ;
+	skos:closeMatch	<http://sws.geonames.org/2747373/> .
 
 fibo-fbc-fct-bci:Tirana
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:AL ;
-	rdfs:label	"Tirana" .
+	rdfs:label	"Tirana" ;
+	skos:closeMatch	<http://sws.geonames.org/3183875/> .
 
 fibo-fbc-fct-bci:Tokyo
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Tokyo" ;
 	lcc-cr:isPartOf	cc:JP ;
-	rdfs:label	"Tokyo" .
+	rdfs:label	"Tokyo" ;
+	skos:closeMatch	<http://sws.geonames.org/1850147/> .
 
 fibo-fbc-fct-bci:Toronto
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Toronto" ;
 	lcc-cr:isPartOf	cc:CA ;
-	rdfs:label	"Toronto" .
+	rdfs:label	"Toronto" ;
+	skos:closeMatch	<http://sws.geonames.org/6167865/> .
 
 fibo-fbc-fct-bci:Torshavn
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:FO ;
-	rdfs:label	"Torshavn" .
+	rdfs:label	"Torshavn" ;
+	skos:closeMatch	<http://sws.geonames.org/2611396/> .
 
 fibo-fbc-fct-bci:Triesen
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:LI ;
-	rdfs:label	"Triesen" .
+	rdfs:label	"Triesen" ;
+	skos:closeMatch	<http://sws.geonames.org/3042035/> .
 
 fibo-fbc-fct-bci:Tripoli
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:LY ;
-	rdfs:label	"Tripoli" .
+	rdfs:label	"Tripoli" ;
+	skos:closeMatch	<http://sws.geonames.org/2210247/> .
 
 fibo-fbc-fct-bci:Tromso
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:NO ;
-	rdfs:label	"Tromso" .
+	rdfs:label	"Tromso" ;
+	skos:closeMatch	<http://sws.geonames.org/3133895/> .
 
 fibo-fbc-fct-bci:Trondheim
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:NO ;
-	rdfs:label	"Trondheim" .
+	rdfs:label	"Trondheim" ;
+	skos:closeMatch	<http://sws.geonames.org/3133880/> .
 
 fibo-fbc-fct-bci:Tucuman
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:AR ;
-	rdfs:label	"Tucuman" .
+	rdfs:label	"Tucuman" ;
+	skos:closeMatch	<http://sws.geonames.org/3836873/> .
 
 fibo-fbc-fct-bci:Tunis
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Tunis" ;
 	lcc-cr:isPartOf	cc:TN ;
-	rdfs:label	"Tunis" .
+	rdfs:label	"Tunis" ;
+	skos:closeMatch	<http://sws.geonames.org/2464470/> .
 
 fibo-fbc-fct-bci:Turin
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Turin" ;
 	lcc-cr:isPartOf	cc:IT ;
-	rdfs:label	"Turin" .
+	rdfs:label	"Turin" ;
+	skos:closeMatch	<http://sws.geonames.org/3165524/> .
 
 fibo-fbc-fct-bci:UAKI
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -4264,7 +4589,8 @@ fibo-fbc-fct-bci:Ulaanbaatar
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Ulanbaatar" ;
 	lcc-cr:isPartOf	cc:MN ;
-	rdfs:label	"Ulaanbaatar" .
+	rdfs:label	"Ulaanbaatar" ;
+	skos:closeMatch	<http://sws.geonames.org/2028462/> .
 
 fibo-fbc-fct-bci:Ulan_Bator
 	owl:sameAs	fibo-fbc-fct-bci:Ulaanbaatar .
@@ -4273,13 +4599,15 @@ fibo-fbc-fct-bci:Unterschleisshem
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Unterschleisshem" .
+	rdfs:label	"Unterschleisshem" ;
+	skos:closeMatch	<http://sws.geonames.org/2818766/> .
 
 fibo-fbc-fct-bci:Utrecht
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:NL ;
-	rdfs:label	"Utrecht" .
+	rdfs:label	"Utrecht" ;
+	skos:closeMatch	<http://sws.geonames.org/2745912/> .
 
 fibo-fbc-fct-bci:VECA
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -4325,72 +4653,83 @@ fibo-fbc-fct-bci:Vaduz
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:LI ;
-	rdfs:label	"Vaduz" .
+	rdfs:label	"Vaduz" ;
+	skos:closeMatch	<http://sws.geonames.org/3042030/> .
 
 fibo-fbc-fct-bci:Valencia
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:ES ;
-	rdfs:label	"Valencia" .
+	rdfs:label	"Valencia" ;
+	skos:closeMatch	<http://sws.geonames.org/2509954/> .
 
 fibo-fbc-fct-bci:Valletta
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Valletta" ;
 	lcc-cr:isPartOf	cc:MT ;
-	rdfs:label	"Valletta" .
+	rdfs:label	"Valletta" ;
+	skos:closeMatch	<http://sws.geonames.org/2562305/> .
 
 fibo-fbc-fct-bci:Valparaiso
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:CL ;
-	rdfs:label	"Valparaiso" .
+	rdfs:label	"Valparaiso" ;
+	skos:closeMatch	<http://sws.geonames.org/3868626/> .
 
 fibo-fbc-fct-bci:Vancouver
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Vancouver" ;
 	lcc-cr:isPartOf	cc:CA ;
-	rdfs:label	"Vancouver" .
+	rdfs:label	"Vancouver" ;
+	skos:closeMatch	<http://sws.geonames.org/6173331/> .
 
 fibo-fbc-fct-bci:Victoria
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:SC ;
-	rdfs:label	"Victoria" .
+	rdfs:label	"Victoria" ;
+	skos:closeMatch	<http://sws.geonames.org/241131/> .
 
 fibo-fbc-fct-bci:Vienna
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Vienna" ;
 	lcc-cr:isPartOf	cc:AT ;
-	rdfs:label	"Vienna" .
+	rdfs:label	"Vienna" ;
+	skos:closeMatch	<http://sws.geonames.org/2761369/> .
 
 fibo-fbc-fct-bci:Vientiane
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Vientiane" ;
 	lcc-cr:isPartOf	cc:LA ;
-	rdfs:label	"Vientiane" .
+	rdfs:label	"Vientiane" ;
+	skos:closeMatch	<http://sws.geonames.org/1651944/> .
 
 fibo-fbc-fct-bci:Vilnius
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:LT ;
-	rdfs:label	"Vilnius" .
+	rdfs:label	"Vilnius" ;
+	skos:closeMatch	<http://sws.geonames.org/593116/> .
 
 fibo-fbc-fct-bci:Vitoria
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:BR ;
-	rdfs:label	"Vitoria" .
+	rdfs:label	"Vitoria" ;
+	skos:closeMatch	<http://sws.geonames.org/3444924/> .
 
 fibo-fbc-fct-bci:Warsaw
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Warsaw" ;
 	lcc-cr:isPartOf	cc:PL ;
-	rdfs:label	"Warsaw" .
+	rdfs:label	"Warsaw" ;
+	skos:closeMatch	<http://sws.geonames.org/756135/> .
 
 fibo-fbc-fct-bci:Warszawa
 	owl:sameAs	fibo-fbc-fct-bci:Warsaw .
@@ -4400,60 +4739,69 @@ fibo-fbc-fct-bci:Washington
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Washington" ;
 	lcc-cr:isPartOf	cc2:US-DC , cc:US ;
-	rdfs:label	"Washington" .
+	rdfs:label	"Washington" ;
+	skos:closeMatch	<http://sws.geonames.org/4140963/> .
 
 fibo-fbc-fct-bci:Wellington
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Wellington" ;
 	lcc-cr:isPartOf	cc:NZ ;
-	rdfs:label	"Wellington" .
+	rdfs:label	"Wellington" ;
+	skos:closeMatch	<http://sws.geonames.org/2179537/> .
 
 fibo-fbc-fct-bci:Wichita
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Wichita" ;
 	lcc-cr:isPartOf	cc2:US-KS , cc:US ;
-	rdfs:label	"Wichita" .
+	rdfs:label	"Wichita" ;
+	skos:closeMatch	<http://sws.geonames.org/4281730/> .
 
 fibo-fbc-fct-bci:Willemstad
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Willemstad" ;
 	lcc-cr:isPartOf	cc:CW ;
-	rdfs:label	"Willemstad" .
+	rdfs:label	"Willemstad" ;
+	skos:closeMatch	<http://sws.geonames.org/3513090/> .
 
 fibo-fbc-fct-bci:Wilmington
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc2:US-DE , cc:US ;
-	rdfs:label	"Wilmington" .
+	rdfs:label	"Wilmington" ;
+	skos:closeMatch	<http://sws.geonames.org/4145381/> .
 
 fibo-fbc-fct-bci:Windhoek
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Windhoek" ;
 	lcc-cr:isPartOf	cc:NA ;
-	rdfs:label	"Windhoek" .
+	rdfs:label	"Windhoek" ;
+	skos:closeMatch	<http://sws.geonames.org/3352136/> .
 
 fibo-fbc-fct-bci:Winnipeg
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Winnipeg" ;
 	lcc-cr:isPartOf	cc:CA ;
-	rdfs:label	"Winnipeg" .
+	rdfs:label	"Winnipeg" ;
+	skos:closeMatch	<http://sws.geonames.org/6183235/> .
 
 fibo-fbc-fct-bci:Wroclaw
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:PL ;
-	rdfs:label	"Wroclaw" .
+	rdfs:label	"Wroclaw" ;
+	skos:closeMatch	<http://sws.geonames.org/3081368/> .
 
 fibo-fbc-fct-bci:Wuxi
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:CN ;
-	rdfs:label	"Wuxi" .
+	rdfs:label	"Wuxi" ;
+	skos:closeMatch	<http://sws.geonames.org/1790923/> .
 
 fibo-fbc-fct-bci:YEAD
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -4470,14 +4818,16 @@ fibo-fbc-fct-bci:Yaounde
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Yaounde" ;
 	lcc-cr:isPartOf	cc:CF ;
-	rdfs:label	"Yaounde" .
+	rdfs:label	"Yaounde" ;
+	skos:closeMatch	<http://sws.geonames.org/2220957/> .
 
 fibo-fbc-fct-bci:Yerevan
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Yerevan" ;
 	lcc-cr:isPartOf	cc:AM ;
-	rdfs:label	"Yerevan" .
+	rdfs:label	"Yerevan" ;
+	skos:closeMatch	<http://sws.geonames.org/616052/> .
 
 fibo-fbc-fct-bci:ZAJO
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -4514,32 +4864,37 @@ fibo-fbc-fct-bci:Zagreb
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Zagreb" ;
 	lcc-cr:isPartOf	cc:HR ;
-	rdfs:label	"Zagreb" .
+	rdfs:label	"Zagreb" ;
+	skos:closeMatch	<http://sws.geonames.org/3186886/> .
 
 fibo-fbc-fct-bci:Zaragoza
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:ES ;
-	rdfs:label	"Zaragoza" .
+	rdfs:label	"Zaragoza" ;
+	skos:closeMatch	<http://sws.geonames.org/3104324/> .
 
 fibo-fbc-fct-bci:Zhengzhou
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:CN ;
-	rdfs:label	"Zhengzhou" .
+	rdfs:label	"Zhengzhou" ;
+	skos:closeMatch	<http://sws.geonames.org/1784658/> .
 
 fibo-fbc-fct-bci:Zilina
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:SK ;
-	rdfs:label	"Zilina" .
+	rdfs:label	"Zilina" ;
+	skos:closeMatch	<http://sws.geonames.org/3056508/> .
 
 fibo-fbc-fct-bci:Zurich
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Zurich" ;
 	lcc-cr:isPartOf	cc:CH ;
-	rdfs:label	"Zurich" .
+	rdfs:label	"Zurich" ;
+	skos:closeMatch	<http://sws.geonames.org/2657896/> .
 
 fibo-fbc-fct-bci:s-Hertogenbosch
 	a	fibo-fnd-plc-loc:Municipality ;
