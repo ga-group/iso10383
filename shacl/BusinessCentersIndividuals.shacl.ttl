@@ -1,0 +1,91 @@
+@prefix cc: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fibo-fbc-fct-bc: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/> .
+@prefix fibo-fbc-fct-bci: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/> .
+@prefix fibo-fnd-dt-bd: <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/> .
+@prefix fibo-fnd-plc-loc: <https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/> .
+@prefix fibo-fnd-utl-av: <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> .
+@prefix gleif: <https://rdf.gleif.org/L1/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix tempo: <http://purl.org/tempo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+<> sh:entailment <http://www.w3.org/ns/entailment/RDFS> .
+
+## shapes
+fibo-fnd-plc-loc:BusinessCenter-shape a sh:NodeShape ;
+	sh:targetClass fibo-fnd-plc-loc:BusinessCenter ;
+	## tests
+	sh:property rdfs:label-property ;
+	sh:property dct:description-property ;
+	sh:property lcc-cr:isPartOf-property ;
+	.
+
+fibo-fnd-plc-loc:Municipality-shape a sh:NodeShape ;
+	sh:targetClass fibo-fnd-plc-loc:Municipality ;
+	## tests
+	sh:property rdfs:label-property ;
+	sh:property dct:description-property ;
+	sh:property lcc-cr:isPartOf-property ;
+	.
+
+fibo-fnd-dt-bd:BusinessDayAdjustment-property a sh:NodeShape ;
+	sh:targetClass fibo-fnd-dt-bd:BusinessDayAdjustment ;
+	## tests
+	sh:property rdfs:label-property ;
+	sh:property dct:description-property ;
+	.
+
+fibo-fbc-fct-bc:BusinessCenterCode-property a sh:NodeShape ;
+	sh:targetClass fibo-fbc-fct-bc:BusinessCenterCode ;
+	## tests
+	sh:property rdfs:label-property ;
+	sh:property dct:description-property ;
+	sh:property lcc-lr:denotes-property ;
+	sh:property lcc-lr:identifies-property ;
+	.
+
+## properties
+rdfs:label-property a sh:PropertyShape ;
+	sh:path rdfs:label ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:type xsd:string ;
+	sh:uniqueLang true ;
+	.
+
+dct:description-property a sh:PropertyShape ;
+	sh:path dct:description ;
+	sh:minCount 0 ;
+	sh:maxCount 1 ;
+	sh:type xsd:string ;
+	sh:uniqueLang true ;
+	.
+
+lcc-cr:isPartOf-property a sh:PropertyShape ;
+	sh:path lcc-cr:isPartOf ;
+	sh:minCount 1 ;
+	sh:maxCount 2 ;
+	.
+
+lcc-lr:denotes-property a sh:PropertyShape ;
+	sh:path lcc-lr:denotes ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	.
+
+lcc-lr:identifies-property a sh:PropertyShape ;
+	sh:path lcc-lr:identifies ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	.
