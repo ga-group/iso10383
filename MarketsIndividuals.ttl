@@ -3358,7 +3358,7 @@ fibo-fbc-fct-mkti:Exchange-BOVM
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BOLSA DE VALORES MINAS-ESPÍRITO SANTO-BRASÍLIA" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:BR ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Espirito_Santo ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Vitoria ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.bovmesb.com.br"^^xsd:anyURI ;
 	rdfs:label	"BOLSA DE VALORES MINAS-ESPÍRITO SANTO-BRASÍLIA" ;
 	skos:note	"COMMODITIES MARKET." ;
@@ -4609,7 +4609,7 @@ fibo-fbc-fct-mkti:Exchange-CETO-2011-03-28
 	a	owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BONDSPOT S.A." ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:PL ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Warszawa ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Warsaw ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XWAR ;
 	rdfs:label	"BONDSPOT S.A." ;
 	skos:note	"CETO WAS ONLY FOR BONDSPOT AS JOINT-STOCK COMPANY, NOT AS MARKET." ;
@@ -4770,7 +4770,7 @@ fibo-fbc-fct-mkti:Exchange-CFTW
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CROSSFINDER TAIWAN" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:TW ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Taiwan ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Taipei ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.credit-suisse.com/sites/aes/en/asia.html"^^xsd:anyURI ;
 	rdfs:label	"CROSSFINDER TAIWAN" ;
 	skos:note	"EQUITIES ALTERNATIVE LIQUIDITY POOL TAIWAN." ;
@@ -14651,7 +14651,7 @@ fibo-fbc-fct-mkti:Exchange-MBPL
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"MBANK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MBANK S.A. - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:PL ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Warszawa ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Warsaw ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.mbank.pl"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-259400DZXF7UJKK2AY35-LEI ;
 	rdfs:label	"MBANK S.A. - SYSTEMATIC INTERNALISER" ;
@@ -15945,7 +15945,7 @@ fibo-fbc-fct-mkti:Exchange-MTSP-2012-05-28
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MTS POLAND" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:PL ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Warszawa ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Warsaw ;
 	rdfs:label	"MTS POLAND" ;
 	skos:note	"WAS REPLACED BY TBS POLAND MARKET" ;
 	tempo:validFrom	"2003-04-01"^^xsd:date ;
@@ -17948,7 +17948,7 @@ fibo-fbc-fct-mkti:Exchange-PARK
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"PARKER POLAND SP. ZO.O." ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:PL ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Warszawa ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Warsaw ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.parker.com.pl"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-259400PAESKCK43LUT62-LEI ;
 	rdfs:label	"PARKER POLAND SP. ZO.O." ;
@@ -19909,7 +19909,7 @@ fibo-fbc-fct-mkti:Exchange-SIAB
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ALIOR BANK - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:PL ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Warszawa ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Warsaw ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.aliorbank.pl"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-259400QHDOZWMJ103294-LEI ;
 	rdfs:label	"ALIOR BANK - SYSTEMATIC INTERNALISER" ;
@@ -24336,7 +24336,7 @@ fibo-fbc-fct-mkti:Exchange-WBLC-2013-04-22
 	a	owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"WARSAW STOCK EXCHANGE/BONDS/CATALYST/LISTING" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:PL ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Warszawa ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Warsaw ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XWAR ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.gpwcatalyst.pl"^^xsd:anyURI ;
 	rdfs:label	"WARSAW STOCK EXCHANGE/BONDS/CATALYST/LISTING" ;
@@ -24718,7 +24718,7 @@ fibo-fbc-fct-mkti:Exchange-XADF
 	a	owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"FINRA ALTERNATIVE DISPLAY FACILITY (ADF)" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:US ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Washington_New_York ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:New_York , fibo-fbc-fct-bci:Washington ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-FINR ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.finra.org"^^xsd:anyURI ;
 	rdfs:label	"FINRA ALTERNATIVE DISPLAY FACILITY (ADF)" ;
@@ -25040,7 +25040,7 @@ fibo-fbc-fct-mkti:Exchange-XBAA
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BISX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BAHAMAS INTERNATIONAL SECURITIES EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:BS ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Nasau ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Nassau ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.bisxbahamas.com"^^xsd:anyURI ;
 	rdfs:label	"BAHAMAS INTERNATIONAL SECURITIES EXCHANGE" ;
 	skos:related	wd:Q4842346 ;
@@ -28907,7 +28907,7 @@ fibo-fbc-fct-mkti:Exchange-XMNX
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MONTENEGRO STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:ME ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Montenegro ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Podgorica ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.montenegroberza.com"^^xsd:anyURI ;
 	rdfs:label	"MONTENEGRO STOCK EXCHANGE" ;
 	skos:related	wd:Q4513926 ;
@@ -31166,7 +31166,7 @@ fibo-fbc-fct-mkti:Exchange-XSVA
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EL SALVADOR STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:SV ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:El_Salvador ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Antiguo_Cuscatlan ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.bves.com.sv"^^xsd:anyURI ;
 	rdfs:label	"EL SALVADOR STOCK EXCHANGE" ;
 	skos:related	wd:Q21071009 ;
@@ -31757,7 +31757,7 @@ fibo-fbc-fct-mkti:Exchange-XULA
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MONGOLIAN STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:MN ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Ulaan_Baatar ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Ulaanbaatar ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.mse.mn"^^xsd:anyURI ;
 	rdfs:label	"MONGOLIAN STOCK EXCHANGE" ;
 	skos:related	wd:Q1752885 ;

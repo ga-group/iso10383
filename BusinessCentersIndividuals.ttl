@@ -320,6 +320,12 @@ fibo-fbc-fct-bci:Antananarivo
 	lcc-cr:isPartOf	cc:MG ;
 	rdfs:label	"Antananarivo" .
 
+fibo-fbc-fct-bci:Antiguo_Cuscatlan
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:SV ;
+	rdfs:label	"Antiguo Cuscatlan" .
+
 fibo-fbc-fct-bci:Astana
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
@@ -1320,8 +1326,8 @@ fibo-fbc-fct-bci:Dublin
 fibo-fbc-fct-bci:Duesseldorf
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DE ;
 	dct:description	"the international business center of Dusseldorf" ;
+	lcc-cr:isPartOf	cc:DE ;
 	rdfs:label	"Duesseldorf" .
 
 fibo-fbc-fct-bci:Dusseldorf
@@ -1443,12 +1449,6 @@ fibo-fbc-fct-bci:Edinburgh
 	lcc-cr:isPartOf	cc:GB ;
 	rdfs:label	"Edinburgh" .
 
-fibo-fbc-fct-bci:El_Salvador
-	a	fibo-fnd-plc-loc:Municipality ;
-	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:SV ;
-	rdfs:label	"El Salvador" .
-
 fibo-fbc-fct-bci:Esch-sur-alzette
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
@@ -1466,12 +1466,6 @@ fibo-fbc-fct-bci:Eschenz
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:CH ;
 	rdfs:label	"Eschenz" .
-
-fibo-fbc-fct-bci:Espirito_Santo
-	a	fibo-fnd-plc-loc:Municipality ;
-	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:BR ;
-	rdfs:label	"Espirito Santo" .
 
 fibo-fbc-fct-bci:Espoo
 	a	fibo-fnd-plc-loc:Municipality ;
@@ -1676,11 +1670,14 @@ fibo-fbc-fct-bci:Geneva
 	lcc-cr:isPartOf	cc:CH ;
 	rdfs:label	"Geneva" .
 
-fibo-fbc-fct-bci:Genova
+fibo-fbc-fct-bci:Genoa
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:IT ;
-	rdfs:label	"Genova" .
+	rdfs:label	"Genoa" .
+
+fibo-fbc-fct-bci:Genova
+	owl:sameAs	fibo-fbc-fct-bci:Genoa .
 
 fibo-fbc-fct-bci:George_Town
 	a	fibo-fnd-plc-loc:BusinessCenter ;
@@ -1833,15 +1830,12 @@ fibo-fbc-fct-bci:Helsinki
 	rdfs:label	"Helsinki" .
 
 fibo-fbc-fct-bci:Ho_Chi_Minh
-	a	fibo-fnd-plc-loc:BusinessCenter ;
-	a	owl:NamedIndividual ;
-	dct:description	"the international business center of Ho Chi Minh (formerly Saigon)" ;
-	lcc-cr:isPartOf	cc:VN ;
-	rdfs:label	"Ho Chi Minh (formerly Saigon)" .
+	owl:sameAs	fibo-fbc-fct-bci:Ho_Chi_Minh_City .
 
 fibo-fbc-fct-bci:Ho_Chi_Minh_City
-	a	fibo-fnd-plc-loc:Municipality ;
-	a	owl:NamedIndividual ;
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
+	dct:description	"the international business center of Ho Chi Minh (formerly Saigon)" ;
 	lcc-cr:isPartOf	cc:VN ;
 	rdfs:label	"Ho Chi Minh City" .
 
@@ -2256,11 +2250,7 @@ fibo-fbc-fct-bci:Kiel
 	rdfs:label	"Kiel" .
 
 fibo-fbc-fct-bci:Kiev
-	a	fibo-fnd-plc-loc:BusinessCenter ;
-	a	owl:NamedIndividual ;
-	dct:description	"the international business center of Kiev" ;
-	lcc-cr:isPartOf	cc:UA ;
-	rdfs:label	"Kiev" .
+	owl:sameAs	fibo-fbc-fct-bci:Kyiv .
 
 fibo-fbc-fct-bci:Kigali
 	a	fibo-fnd-plc-loc:Municipality ;
@@ -2313,6 +2303,13 @@ fibo-fbc-fct-bci:Kuwait_City
 	dct:description	"the international business center of Kuwait City" ;
 	lcc-cr:isPartOf	cc:KW ;
 	rdfs:label	"Kuwait City" .
+
+fibo-fbc-fct-bci:Kyiv
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Kyiv" ;
+	lcc-cr:isPartOf	cc:UA ;
+	rdfs:label	"Kyiv" .
 
 fibo-fbc-fct-bci:LAVI
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -2437,10 +2434,7 @@ fibo-fbc-fct-bci:Linz
 	rdfs:label	"Linz" .
 
 fibo-fbc-fct-bci:Lisboa
-	a	fibo-fnd-plc-loc:Municipality ;
-	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:PT ;
-	rdfs:label	"Lisboa" .
+	owl:sameAs	fibo-fbc-fct-bci:Lisbon .
 
 fibo-fbc-fct-bci:Lisbon
 	a	fibo-fnd-plc-loc:BusinessCenter ;
@@ -2661,15 +2655,12 @@ fibo-fbc-fct-bci:Mainz
 	rdfs:label	"Mainz" .
 
 fibo-fbc-fct-bci:Makati
-	a	fibo-fnd-plc-loc:BusinessCenter ;
-	a	owl:NamedIndividual ;
-	dct:description	"the international business center of Makati" ;
-	lcc-cr:isPartOf	cc:PH ;
-	rdfs:label	"Makati" .
+	owl:sameAs	fibo-fbc-fct-bci:Makati_City .
 
 fibo-fbc-fct-bci:Makati_City
-	a	fibo-fnd-plc-loc:Municipality ;
-	a	owl:NamedIndividual ;
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
+	dct:description	"the international business center of Makati" ;
 	lcc-cr:isPartOf	cc:PH ;
 	rdfs:label	"Makati City" .
 
@@ -2786,12 +2777,6 @@ fibo-fbc-fct-bci:Monaco
 	lcc-cr:isPartOf	cc:MC ;
 	rdfs:label	"Monaco" .
 
-fibo-fbc-fct-bci:Montenegro
-	a	fibo-fnd-plc-loc:Municipality ;
-	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:ME ;
-	rdfs:label	"Montenegro" .
-
 fibo-fbc-fct-bci:Montevideo
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
@@ -2809,7 +2794,7 @@ fibo-fbc-fct-bci:Montreal
 fibo-fbc-fct-bci:Moorpark
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:US ;
+	lcc-cr:isPartOf	cc2:US-CA , cc:US ;
 	rdfs:label	"Moorpark" .
 
 fibo-fbc-fct-bci:Moscow
@@ -2826,10 +2811,7 @@ fibo-fbc-fct-bci:Mount_Pleasant
 	rdfs:label	"Mount Pleasant" .
 
 fibo-fbc-fct-bci:Muenchen
-	a	fibo-fnd-plc-loc:Municipality ;
-	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Muenchen" .
+	owl:sameAs	fibo-fbc-fct-bci:Munich .
 
 fibo-fbc-fct-bci:Mumbai
 	a	fibo-fnd-plc-loc:BusinessCenter ;
@@ -2994,10 +2976,7 @@ fibo-fbc-fct-bci:Narberth
 	rdfs:label	"Narberth" .
 
 fibo-fbc-fct-bci:Nasau
-	a	fibo-fnd-plc-loc:Municipality ;
-	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:BS ;
-	rdfs:label	"Nasau" .
+	owl:sameAs	fibo-fbc-fct-bci:Nassau .
 
 fibo-fbc-fct-bci:Nassau
 	a	fibo-fnd-plc-loc:BusinessCenter ;
@@ -3148,7 +3127,7 @@ fibo-fbc-fct-bci:PHMK
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	owl:NamedIndividual ;
 	dct:description	"the FpML business center code for Makati, Philippines" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci:Makati ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Makati_City ;
 	lcc-lr:hasTag	"PHMK" ;
 	lcc-lr:identifies	fibo-fbc-fct-bci:Makati ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
@@ -3251,6 +3230,12 @@ fibo-fbc-fct-bci:Phnom_Penh
 	dct:description	"the international business center of Phnom Penh" ;
 	lcc-cr:isPartOf	cc:KH ;
 	rdfs:label	"Phnom Penh" .
+
+fibo-fbc-fct-bci:Podgorica
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:ME ;
+	rdfs:label	"Podgorica" .
 
 fibo-fbc-fct-bci:Port_Louis
 	a	fibo-fnd-plc-loc:BusinessCenter ;
@@ -3661,7 +3646,7 @@ fibo-fbc-fct-bci:Santo_Domingo
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Santo Domingo" ;
-	lcc-cr:isPartOf	cc:DMnRepublic , cc:DO ;
+	lcc-cr:isPartOf	cc:DO ;
 	rdfs:label	"Santo Domingo" .
 
 fibo-fbc-fct-bci:Sao_Paulo
@@ -3686,7 +3671,7 @@ fibo-fbc-fct-bci:Sarajevo
 fibo-fbc-fct-bci:SeaGirt
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:US ;
+	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
 	rdfs:label	"Sea Girt" .
 
 fibo-fbc-fct-bci:Seattle
@@ -3901,12 +3886,6 @@ fibo-fbc-fct-bci:Taipei
 	lcc-cr:isPartOf	cc:TW ;
 	rdfs:label	"Taipei" .
 
-fibo-fbc-fct-bci:Taiwan
-	a	fibo-fnd-plc-loc:Municipality ;
-	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:TW ;
-	rdfs:label	"Taiwan" .
-
 fibo-fbc-fct-bci:Tallinn
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
@@ -3936,14 +3915,14 @@ fibo-fbc-fct-bci:Tegucigalpa
 	rdfs:label	"Tegucigalpa" .
 
 fibo-fbc-fct-bci:Teheran
-	a	fibo-fnd-plc-loc:BusinessCenter ;
-	a	owl:NamedIndividual ;
-	dct:description	"the international business center of Teheran" ;
-	lcc-cr:isPartOf	cc:IR ;
-	rdfs:label	"Teheran" .
+	owl:sameAs	fibo-fbc-fct-bci:Tehran .
 
 fibo-fbc-fct-bci:Tehran
-	owl:sameAs	fibo-fbc-fct-bci:Teheran .
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Tehran" ;
+	lcc-cr:isPartOf	cc:IR ;
+	rdfs:label	"Tehran" .
 
 fibo-fbc-fct-bci:Tel_Aviv
 	a	fibo-fnd-plc-loc:BusinessCenter ;
@@ -4400,6 +4379,12 @@ fibo-fbc-fct-bci:Vilnius
 	lcc-cr:isPartOf	cc:LT ;
 	rdfs:label	"Vilnius" .
 
+fibo-fbc-fct-bci:Vitoria
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	cc:BR ;
+	rdfs:label	"Vitoria" .
+
 fibo-fbc-fct-bci:Warsaw
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
@@ -4408,10 +4393,7 @@ fibo-fbc-fct-bci:Warsaw
 	rdfs:label	"Warsaw" .
 
 fibo-fbc-fct-bci:Warszawa
-	a	fibo-fnd-plc-loc:Municipality ;
-	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:PL ;
-	rdfs:label	"Warszawa" .
+	owl:sameAs	fibo-fbc-fct-bci:Warsaw .
 
 fibo-fbc-fct-bci:Washington
 	a	fibo-fnd-plc-loc:BusinessCenter ;
@@ -4419,12 +4401,6 @@ fibo-fbc-fct-bci:Washington
 	dct:description	"the international business center of Washington" ;
 	lcc-cr:isPartOf	cc2:US-DC , cc:US ;
 	rdfs:label	"Washington" .
-
-fibo-fbc-fct-bci:Washington_New_York
-	a	fibo-fnd-plc-loc:Municipality ;
-	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NY , cc:US ;
-	rdfs:label	"Washington, New York" .
 
 fibo-fbc-fct-bci:Wellington
 	a	fibo-fnd-plc-loc:BusinessCenter ;

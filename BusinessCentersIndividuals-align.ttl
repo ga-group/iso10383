@@ -1,0 +1,1065 @@
+@prefix fibo-fbc-fct-bci: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sws: <http://sws.geonames.org/> .
+
+fibo-fbc-fct-bci:Aabenraa
+	skos:closeMatch	<http://sws.geonames.org/2625070/> .
+
+fibo-fbc-fct-bci:Aalborg
+	skos:closeMatch	<http://sws.geonames.org/2624886/> .
+
+fibo-fbc-fct-bci:Abha
+	skos:closeMatch	<http://sws.geonames.org/110690/> .
+
+fibo-fbc-fct-bci:Abidjan
+	skos:closeMatch	<http://sws.geonames.org/2293538/> .
+
+fibo-fbc-fct-bci:Abu_Dhabi
+	skos:closeMatch	<http://sws.geonames.org/292968/> .
+
+fibo-fbc-fct-bci:Abuja
+	skos:closeMatch	<http://sws.geonames.org/2352778/> .
+
+fibo-fbc-fct-bci:Accra
+	skos:closeMatch	<http://sws.geonames.org/2306104/> .
+
+fibo-fbc-fct-bci:Addis_Ababa
+	skos:closeMatch	<http://sws.geonames.org/344979/> .
+
+fibo-fbc-fct-bci:Adelaide
+	skos:closeMatch	<http://sws.geonames.org/2078025/> .
+
+fibo-fbc-fct-bci:Aden
+	skos:closeMatch	<http://sws.geonames.org/415189/> .
+
+fibo-fbc-fct-bci:Ahmedabad
+	skos:closeMatch	<http://sws.geonames.org/1279233/> .
+
+fibo-fbc-fct-bci:Algiers
+	skos:closeMatch	<http://sws.geonames.org/2507480/> .
+
+fibo-fbc-fct-bci:Almaty
+	skos:closeMatch	<http://sws.geonames.org/1526384/> .
+
+fibo-fbc-fct-bci:Amman
+	skos:closeMatch	<http://sws.geonames.org/250441/> .
+
+fibo-fbc-fct-bci:Amsterdam
+	skos:closeMatch	<http://sws.geonames.org/2759794/> .
+
+fibo-fbc-fct-bci:Ankara
+	skos:closeMatch	<http://sws.geonames.org/323786/> .
+
+fibo-fbc-fct-bci:Antananarivo
+	skos:closeMatch	<http://sws.geonames.org/1070940/> .
+
+fibo-fbc-fct-bci:Antiguo_Cuscatlan
+	skos:closeMatch	<http://sws.geonames.org/3587362/> .
+
+fibo-fbc-fct-bci:Astana
+	skos:closeMatch	<http://sws.geonames.org/1526273/> .
+
+fibo-fbc-fct-bci:Asti
+	skos:closeMatch	<http://sws.geonames.org/3182714/> .
+
+fibo-fbc-fct-bci:Asuncion
+	skos:closeMatch	<http://sws.geonames.org/3439389/> .
+
+fibo-fbc-fct-bci:Athens
+	skos:closeMatch	<http://sws.geonames.org/264371/> .
+
+fibo-fbc-fct-bci:Atlanta
+	skos:closeMatch	<http://sws.geonames.org/4180439/> .
+
+fibo-fbc-fct-bci:Auckland
+	skos:closeMatch	<http://sws.geonames.org/2193733/> .
+
+fibo-fbc-fct-bci:Aylesbury
+	skos:closeMatch	<http://sws.geonames.org/2656719/> .
+
+fibo-fbc-fct-bci:Baghdad
+	skos:closeMatch	<http://sws.geonames.org/98182/> .
+
+fibo-fbc-fct-bci:Baku
+	skos:closeMatch	<http://sws.geonames.org/587084/> .
+
+fibo-fbc-fct-bci:Bandar_Seri_Begawan
+	skos:closeMatch	<http://sws.geonames.org/1820906/> .
+
+fibo-fbc-fct-bci:Bangalore
+	skos:closeMatch	<http://sws.geonames.org/1277333/> .
+
+fibo-fbc-fct-bci:Bangkok
+	skos:closeMatch	<http://sws.geonames.org/1609350/> .
+
+fibo-fbc-fct-bci:Banja_Luka
+	skos:closeMatch	<http://sws.geonames.org/3204541/> .
+
+fibo-fbc-fct-bci:Banjul
+	skos:closeMatch	<http://sws.geonames.org/2413876/> .
+
+fibo-fbc-fct-bci:Barcelona
+	skos:closeMatch	<http://sws.geonames.org/3128760/> .
+
+fibo-fbc-fct-bci:Basel
+	skos:closeMatch	<http://sws.geonames.org/2661604/> .
+
+fibo-fbc-fct-bci:Basseterre
+	skos:closeMatch	<http://sws.geonames.org/3575551/> .
+
+fibo-fbc-fct-bci:Bedminster
+	skos:closeMatch	<http://sws.geonames.org/5095528/> .
+
+fibo-fbc-fct-bci:Beijing
+	skos:closeMatch	<http://sws.geonames.org/1816670/> .
+
+fibo-fbc-fct-bci:Beirut
+	skos:closeMatch	<http://sws.geonames.org/276781/> .
+
+fibo-fbc-fct-bci:Belgrade
+	skos:closeMatch	<http://sws.geonames.org/792680/> .
+
+fibo-fbc-fct-bci:Bergamo
+	skos:closeMatch	<http://sws.geonames.org/3182164/> .
+
+fibo-fbc-fct-bci:Bergen
+	skos:closeMatch	<http://sws.geonames.org/3161732/> .
+
+fibo-fbc-fct-bci:Berlin
+	skos:closeMatch	<http://sws.geonames.org/2950159/> .
+
+fibo-fbc-fct-bci:Bermuda
+	skos:closeMatch	<http://sws.geonames.org/3573345/> .
+
+fibo-fbc-fct-bci:Bern
+	skos:closeMatch	<http://sws.geonames.org/2661552/> .
+
+fibo-fbc-fct-bci:Biella
+	skos:closeMatch	<http://sws.geonames.org/3182043/> .
+
+fibo-fbc-fct-bci:Bilbao
+	skos:closeMatch	<http://sws.geonames.org/3128026/> .
+
+fibo-fbc-fct-bci:Bishkek
+	skos:closeMatch	<http://sws.geonames.org/1528675/> .
+
+fibo-fbc-fct-bci:Blantyre
+	skos:closeMatch	<http://sws.geonames.org/931755/> .
+
+fibo-fbc-fct-bci:BocaRaton
+	skos:closeMatch	<http://sws.geonames.org/4148411/> .
+
+fibo-fbc-fct-bci:Bogota
+	skos:closeMatch	<http://sws.geonames.org/3688689/> .
+
+fibo-fbc-fct-bci:Bologna
+	skos:closeMatch	<http://sws.geonames.org/3181928/> .
+
+fibo-fbc-fct-bci:Boston
+	skos:closeMatch	<http://sws.geonames.org/4930956/> .
+
+fibo-fbc-fct-bci:Bradford
+	skos:closeMatch	<http://sws.geonames.org/2654993/> .
+
+fibo-fbc-fct-bci:Brasilia
+	skos:closeMatch	<http://sws.geonames.org/3469058/> .
+
+fibo-fbc-fct-bci:Bratislava
+	skos:closeMatch	<http://sws.geonames.org/3060972/> .
+
+fibo-fbc-fct-bci:Bridgetown
+	skos:closeMatch	<http://sws.geonames.org/3374036/> .
+
+fibo-fbc-fct-bci:Brisbane
+	skos:closeMatch	<http://sws.geonames.org/2174003/> .
+
+fibo-fbc-fct-bci:Brussels
+	skos:closeMatch	<http://sws.geonames.org/2800866/> .
+
+fibo-fbc-fct-bci:BryanstonSandton
+	skos:closeMatch	<http://sws.geonames.org/1015304/> .
+
+fibo-fbc-fct-bci:Bucharest
+	skos:closeMatch	<http://sws.geonames.org/683506/> .
+
+fibo-fbc-fct-bci:Budapest
+	skos:closeMatch	<http://sws.geonames.org/3054643/> .
+
+fibo-fbc-fct-bci:Buenos_Aires
+	skos:closeMatch	<http://sws.geonames.org/3435910/> .
+
+fibo-fbc-fct-bci:Cairo
+	skos:closeMatch	<http://sws.geonames.org/360630/> .
+
+fibo-fbc-fct-bci:Calgary
+	skos:closeMatch	<http://sws.geonames.org/5913490/> .
+
+fibo-fbc-fct-bci:Canberra
+	skos:closeMatch	<http://sws.geonames.org/2172517/> .
+
+fibo-fbc-fct-bci:Caracas
+	skos:closeMatch	<http://sws.geonames.org/3646738/> .
+
+fibo-fbc-fct-bci:Casablanca
+	skos:closeMatch	<http://sws.geonames.org/2553604/> .
+
+fibo-fbc-fct-bci:Charlotte
+	skos:closeMatch	<http://sws.geonames.org/4460243/> .
+
+fibo-fbc-fct-bci:Chatham
+	skos:closeMatch	<http://sws.geonames.org/4221552/> .
+
+fibo-fbc-fct-bci:Chennai
+	skos:closeMatch	<http://sws.geonames.org/1264527/> .
+
+fibo-fbc-fct-bci:Chicago
+	skos:closeMatch	<http://sws.geonames.org/4887398/> .
+
+fibo-fbc-fct-bci:Chisinau
+	skos:closeMatch	<http://sws.geonames.org/618426/> .
+
+fibo-fbc-fct-bci:Chittagong
+	skos:closeMatch	<http://sws.geonames.org/1205733/> .
+
+fibo-fbc-fct-bci:Chiyoda-ku
+	skos:closeMatch	<http://sws.geonames.org/1864529/> .
+
+fibo-fbc-fct-bci:ClujNapoca
+	skos:closeMatch	<http://sws.geonames.org/681290/> .
+
+fibo-fbc-fct-bci:Cologne
+	skos:closeMatch	<http://sws.geonames.org/2886242/> .
+
+fibo-fbc-fct-bci:Colombo
+	skos:closeMatch	<http://sws.geonames.org/1248991/> .
+
+fibo-fbc-fct-bci:Conakry
+	skos:closeMatch	<http://sws.geonames.org/2422465/> .
+
+fibo-fbc-fct-bci:Copenhagen
+	skos:closeMatch	<http://sws.geonames.org/2618425/> .
+
+fibo-fbc-fct-bci:Cordoba
+	skos:closeMatch	<http://sws.geonames.org/3860259/> .
+
+fibo-fbc-fct-bci:Corrientes
+	skos:closeMatch	<http://sws.geonames.org/3435217/> .
+
+fibo-fbc-fct-bci:Dakar
+	skos:closeMatch	<http://sws.geonames.org/2253354/> .
+
+fibo-fbc-fct-bci:Dalian
+	skos:closeMatch	<http://sws.geonames.org/1814087/> .
+
+fibo-fbc-fct-bci:Damascus
+	skos:closeMatch	<http://sws.geonames.org/170654/> .
+
+fibo-fbc-fct-bci:Dar_es_Salaam
+	skos:closeMatch	<http://sws.geonames.org/160263/> .
+
+fibo-fbc-fct-bci:Darwin
+	skos:closeMatch	<http://sws.geonames.org/2073124/> .
+
+fibo-fbc-fct-bci:Davos_Platz
+	skos:closeMatch	<http://sws.geonames.org/7669421/> .
+
+fibo-fbc-fct-bci:Denver
+	skos:closeMatch	<http://sws.geonames.org/5419384/> .
+
+fibo-fbc-fct-bci:Detroit
+	skos:closeMatch	<http://sws.geonames.org/4990729/> .
+
+fibo-fbc-fct-bci:Dhaka
+	skos:closeMatch	<http://sws.geonames.org/1185241/> .
+
+fibo-fbc-fct-bci:Dnipropetrovsk
+	skos:closeMatch	<http://sws.geonames.org/709930/> .
+
+fibo-fbc-fct-bci:Dodoma
+	skos:closeMatch	<http://sws.geonames.org/160196/> .
+
+fibo-fbc-fct-bci:Doha
+	skos:closeMatch	<http://sws.geonames.org/290030/> .
+
+fibo-fbc-fct-bci:Douala
+	skos:closeMatch	<http://sws.geonames.org/2232593/> .
+
+fibo-fbc-fct-bci:Dubai
+	skos:closeMatch	<http://sws.geonames.org/292223/> .
+
+fibo-fbc-fct-bci:Dublin
+	skos:closeMatch	<http://sws.geonames.org/2964574/> .
+
+fibo-fbc-fct-bci:Duesseldorf
+	skos:closeMatch	<http://sws.geonames.org/2934246/> .
+
+fibo-fbc-fct-bci:Ebene
+	skos:closeMatch	<http://sws.geonames.org/1106748/> .
+
+fibo-fbc-fct-bci:Eden_Island
+	skos:closeMatch	<http://sws.geonames.org/8693252/> .
+
+fibo-fbc-fct-bci:Edinburgh
+	skos:closeMatch	<http://sws.geonames.org/2650225/> .
+
+fibo-fbc-fct-bci:Esch-sur-alzette
+	skos:closeMatch	<http://sws.geonames.org/2960596/> .
+
+fibo-fbc-fct-bci:Eschborn
+	skos:closeMatch	<http://sws.geonames.org/2929134/> .
+
+fibo-fbc-fct-bci:Eschenz
+	skos:closeMatch	<http://sws.geonames.org/2660859/> .
+
+fibo-fbc-fct-bci:Espoo
+	skos:closeMatch	<http://sws.geonames.org/660158/> .
+
+fibo-fbc-fct-bci:Fiac
+	skos:closeMatch	<http://sws.geonames.org/3018542/> .
+
+fibo-fbc-fct-bci:Firenze
+	skos:closeMatch	<http://sws.geonames.org/3176959/> .
+
+fibo-fbc-fct-bci:Florence
+	skos:closeMatch	<http://sws.geonames.org/3176959/> .
+
+fibo-fbc-fct-bci:Frankfurt
+	skos:closeMatch	<http://sws.geonames.org/2925533/> .
+
+fibo-fbc-fct-bci:Fredericton
+	skos:closeMatch	<http://sws.geonames.org/5957776/> .
+
+fibo-fbc-fct-bci:Freetown
+	skos:closeMatch	<http://sws.geonames.org/2409306/> .
+
+fibo-fbc-fct-bci:Fukuoka
+	skos:closeMatch	<http://sws.geonames.org/1863967/> .
+
+fibo-fbc-fct-bci:Gaborone
+	skos:closeMatch	<http://sws.geonames.org/933773/> .
+
+fibo-fbc-fct-bci:Gandhinagar
+	skos:closeMatch	<http://sws.geonames.org/1271715/> .
+
+fibo-fbc-fct-bci:Geneva
+	skos:closeMatch	<http://sws.geonames.org/2660646/> .
+
+fibo-fbc-fct-bci:Genoa
+	skos:closeMatch	<http://sws.geonames.org/3176219/> .
+
+fibo-fbc-fct-bci:George_Town
+	skos:closeMatch	<http://sws.geonames.org/3580661/> .
+
+fibo-fbc-fct-bci:Georgetown
+	skos:closeMatch	<http://sws.geonames.org/3378644/> .
+
+fibo-fbc-fct-bci:Gibraltar
+	skos:closeMatch	<http://sws.geonames.org/2411585/> .
+
+fibo-fbc-fct-bci:Glenview
+	skos:closeMatch	<http://sws.geonames.org/4893886/> .
+
+fibo-fbc-fct-bci:Great_Neck
+	skos:closeMatch	<http://sws.geonames.org/5119218/> .
+
+fibo-fbc-fct-bci:Greenwich
+	skos:closeMatch	<http://sws.geonames.org/4835395/> .
+
+fibo-fbc-fct-bci:Grindsted
+	skos:closeMatch	<http://sws.geonames.org/2621192/> .
+
+fibo-fbc-fct-bci:Guatemala_City
+	skos:closeMatch	<http://sws.geonames.org/3598132/> .
+
+fibo-fbc-fct-bci:Guayaquil
+	skos:closeMatch	<http://sws.geonames.org/3657509/> .
+
+fibo-fbc-fct-bci:Guaynabo
+	skos:closeMatch	<http://sws.geonames.org/4565119/> .
+
+fibo-fbc-fct-bci:Guildford
+	skos:closeMatch	<http://sws.geonames.org/2647793/> .
+
+fibo-fbc-fct-bci:Hamburg
+	skos:closeMatch	<http://sws.geonames.org/2911298/> .
+
+fibo-fbc-fct-bci:Hamilton
+	skos:closeMatch	<http://sws.geonames.org/3573197/> .
+
+fibo-fbc-fct-bci:Hannover
+	skos:closeMatch	<http://sws.geonames.org/2910831/> .
+
+fibo-fbc-fct-bci:Hanoi
+	skos:closeMatch	<http://sws.geonames.org/1581130/> .
+
+fibo-fbc-fct-bci:Harare
+	skos:closeMatch	<http://sws.geonames.org/890299/> .
+
+fibo-fbc-fct-bci:Helsinki
+	skos:closeMatch	<http://sws.geonames.org/658225/> .
+
+fibo-fbc-fct-bci:Ho_Chi_Minh_City
+	skos:closeMatch	<http://sws.geonames.org/1566083/> .
+
+fibo-fbc-fct-bci:Hong_Kong
+	skos:closeMatch	<http://sws.geonames.org/1819729/> .
+
+fibo-fbc-fct-bci:Honolulu
+	skos:closeMatch	<http://sws.geonames.org/5856195/> .
+
+fibo-fbc-fct-bci:Horsens
+	skos:closeMatch	<http://sws.geonames.org/2619771/> .
+
+fibo-fbc-fct-bci:Houston
+	skos:closeMatch	<http://sws.geonames.org/4699066/> .
+
+fibo-fbc-fct-bci:Hove
+	skos:closeMatch	<http://sws.geonames.org/2646504/> .
+
+fibo-fbc-fct-bci:Hyderabad
+	skos:closeMatch	<http://sws.geonames.org/1269843/> .
+
+fibo-fbc-fct-bci:Indore_Madhya_Pradesh
+	skos:closeMatch	<http://sws.geonames.org/1269743/> .
+
+fibo-fbc-fct-bci:Istanbul
+	skos:closeMatch	<http://sws.geonames.org/745044/> .
+
+fibo-fbc-fct-bci:Jakarta
+	skos:closeMatch	<http://sws.geonames.org/1642911/> .
+
+fibo-fbc-fct-bci:Jeddah
+	skos:closeMatch	<http://sws.geonames.org/105343/> .
+
+fibo-fbc-fct-bci:Jersey_City
+	skos:closeMatch	<http://sws.geonames.org/5099836/> .
+
+fibo-fbc-fct-bci:Jerusalem
+	skos:closeMatch	<http://sws.geonames.org/7498240/> .
+
+fibo-fbc-fct-bci:Johannesburg
+	skos:closeMatch	<http://sws.geonames.org/993800/> .
+
+fibo-fbc-fct-bci:Kampala
+	skos:closeMatch	<http://sws.geonames.org/232422/> .
+
+fibo-fbc-fct-bci:Kansas_City
+	skos:closeMatch	<http://sws.geonames.org/4393217/> .
+
+fibo-fbc-fct-bci:Karachi
+	skos:closeMatch	<http://sws.geonames.org/1174872/> .
+
+fibo-fbc-fct-bci:Kathmandu
+	skos:closeMatch	<http://sws.geonames.org/1283240/> .
+
+fibo-fbc-fct-bci:Kharkov
+	skos:closeMatch	<http://sws.geonames.org/706483/> .
+
+fibo-fbc-fct-bci:Khartoum
+	skos:closeMatch	<http://sws.geonames.org/379252/> .
+
+fibo-fbc-fct-bci:Kiel
+	skos:closeMatch	<http://sws.geonames.org/2891122/> .
+
+fibo-fbc-fct-bci:Kigali
+	skos:closeMatch	<http://sws.geonames.org/202061/> .
+
+fibo-fbc-fct-bci:Kingston
+	skos:closeMatch	<http://sws.geonames.org/3489854/> .
+
+fibo-fbc-fct-bci:Kingstown
+	skos:closeMatch	<http://sws.geonames.org/3577887/> .
+
+fibo-fbc-fct-bci:Klagenfurt_am_Woerthersee
+	skos:closeMatch	<http://sws.geonames.org/2774326/> .
+
+fibo-fbc-fct-bci:Kolkata
+	skos:closeMatch	<http://sws.geonames.org/1275004/> .
+
+fibo-fbc-fct-bci:Kongsvinger
+	skos:closeMatch	<http://sws.geonames.org/3149533/> .
+
+fibo-fbc-fct-bci:Kuala_Lumpur
+	skos:closeMatch	<http://sws.geonames.org/1735161/> .
+
+fibo-fbc-fct-bci:Kuwait_City
+	skos:closeMatch	<http://sws.geonames.org/285787/> .
+
+fibo-fbc-fct-bci:Kyiv
+	skos:closeMatch	<http://sws.geonames.org/703448/> .
+
+fibo-fbc-fct-bci:La_Paz
+	skos:closeMatch	<http://sws.geonames.org/3911925/> .
+
+fibo-fbc-fct-bci:Labuan
+	skos:closeMatch	<http://sws.geonames.org/1733782/> .
+
+fibo-fbc-fct-bci:Lagos
+	skos:closeMatch	<http://sws.geonames.org/2332459/> .
+
+fibo-fbc-fct-bci:Lane_Cove
+	skos:closeMatch	<http://sws.geonames.org/2160625/> .
+
+fibo-fbc-fct-bci:Lao
+	skos:closeMatch	<http://sws.geonames.org/1655842/> .
+
+fibo-fbc-fct-bci:Larnaca
+	skos:closeMatch	<http://sws.geonames.org/146400/> .
+
+fibo-fbc-fct-bci:Leipzig
+	skos:closeMatch	<http://sws.geonames.org/2879139/> .
+
+fibo-fbc-fct-bci:Lilongwe
+	skos:closeMatch	<http://sws.geonames.org/927967/> .
+
+fibo-fbc-fct-bci:Lima
+	skos:closeMatch	<http://sws.geonames.org/3936456/> .
+
+fibo-fbc-fct-bci:Limassol
+	skos:closeMatch	<http://sws.geonames.org/146384/> .
+
+fibo-fbc-fct-bci:Linz
+	skos:closeMatch	<http://sws.geonames.org/2772400/> .
+
+fibo-fbc-fct-bci:Lisbon
+	skos:closeMatch	<http://sws.geonames.org/2267057/> .
+
+fibo-fbc-fct-bci:Ljubljana
+	skos:closeMatch	<http://sws.geonames.org/3196359/> .
+
+fibo-fbc-fct-bci:London
+	skos:closeMatch	<http://sws.geonames.org/2643743/> .
+
+fibo-fbc-fct-bci:Los_Angeles
+	skos:closeMatch	<http://sws.geonames.org/5368361/> .
+
+fibo-fbc-fct-bci:Luanda
+	skos:closeMatch	<http://sws.geonames.org/2240449/> .
+
+fibo-fbc-fct-bci:Lugano
+	skos:closeMatch	<http://sws.geonames.org/2659836/> .
+
+fibo-fbc-fct-bci:Lusaka
+	skos:closeMatch	<http://sws.geonames.org/909137/> .
+
+fibo-fbc-fct-bci:Luxembourg
+	skos:closeMatch	<http://sws.geonames.org/2960316/> .
+
+fibo-fbc-fct-bci:Luzern
+	skos:closeMatch	<http://sws.geonames.org/2659811/> .
+
+fibo-fbc-fct-bci:Macau
+	skos:closeMatch	<http://sws.geonames.org/1821274/> .
+
+fibo-fbc-fct-bci:Madras
+	skos:closeMatch	<http://sws.geonames.org/1264527/> .
+
+fibo-fbc-fct-bci:Madrid
+	skos:closeMatch	<http://sws.geonames.org/3117735/> .
+
+fibo-fbc-fct-bci:Mainz
+	skos:closeMatch	<http://sws.geonames.org/2874225/> .
+
+fibo-fbc-fct-bci:Makati_City
+	skos:closeMatch	<http://sws.geonames.org/1703417/> .
+
+fibo-fbc-fct-bci:Male
+	skos:closeMatch	<http://sws.geonames.org/1282027/> .
+
+fibo-fbc-fct-bci:Managua
+	skos:closeMatch	<http://sws.geonames.org/3617763/> .
+
+fibo-fbc-fct-bci:Manama
+	skos:closeMatch	<http://sws.geonames.org/290340/> .
+
+fibo-fbc-fct-bci:Manila
+	skos:closeMatch	<http://sws.geonames.org/1701668/> .
+
+fibo-fbc-fct-bci:Maputo
+	skos:closeMatch	<http://sws.geonames.org/1040652/> .
+
+fibo-fbc-fct-bci:Maringa
+	skos:closeMatch	<http://sws.geonames.org/3457671/> .
+
+fibo-fbc-fct-bci:Mbabane
+	skos:closeMatch	<http://sws.geonames.org/934985/> .
+
+fibo-fbc-fct-bci:Melbourne
+	skos:closeMatch	<http://sws.geonames.org/2158177/> .
+
+fibo-fbc-fct-bci:Mendoza
+	skos:closeMatch	<http://sws.geonames.org/3844421/> .
+
+fibo-fbc-fct-bci:Mexico_City
+	skos:closeMatch	<http://sws.geonames.org/3530597/> .
+
+fibo-fbc-fct-bci:Miami
+	skos:closeMatch	<http://sws.geonames.org/4164138/> .
+
+fibo-fbc-fct-bci:Milan
+	skos:closeMatch	<http://sws.geonames.org/3173435/> .
+
+fibo-fbc-fct-bci:Minneapolis
+	skos:closeMatch	<http://sws.geonames.org/5037649/> .
+
+fibo-fbc-fct-bci:Minsk
+	skos:closeMatch	<http://sws.geonames.org/625144/> .
+
+fibo-fbc-fct-bci:Mobile
+	skos:closeMatch	<http://sws.geonames.org/4076598/> .
+
+fibo-fbc-fct-bci:Moka
+	skos:closeMatch	<http://sws.geonames.org/934277/> .
+
+fibo-fbc-fct-bci:Monaco
+	skos:closeMatch	<http://sws.geonames.org/2993458/> .
+
+fibo-fbc-fct-bci:Montevideo
+	skos:closeMatch	<http://sws.geonames.org/3441575/> .
+
+fibo-fbc-fct-bci:Montreal
+	skos:closeMatch	<http://sws.geonames.org/6077243/> .
+
+fibo-fbc-fct-bci:Moorpark
+	skos:closeMatch	<http://sws.geonames.org/5374648/> .
+
+fibo-fbc-fct-bci:Moscow
+	skos:closeMatch	<http://sws.geonames.org/524901/> .
+
+fibo-fbc-fct-bci:Mount_Pleasant
+	skos:closeMatch	<http://sws.geonames.org/4588165/> .
+
+fibo-fbc-fct-bci:Mumbai
+	skos:closeMatch	<http://sws.geonames.org/1275339/> .
+
+fibo-fbc-fct-bci:Munich
+	skos:closeMatch	<http://sws.geonames.org/2867714/> .
+
+fibo-fbc-fct-bci:Muscat
+	skos:closeMatch	<http://sws.geonames.org/287286/> .
+
+fibo-fbc-fct-bci:Nablus
+	skos:closeMatch	<http://sws.geonames.org/282615/> .
+
+fibo-fbc-fct-bci:Nacka
+	skos:closeMatch	<http://sws.geonames.org/2690580/> .
+
+fibo-fbc-fct-bci:Nagoya
+	skos:closeMatch	<http://sws.geonames.org/1856057/> .
+
+fibo-fbc-fct-bci:Nairobi
+	skos:closeMatch	<http://sws.geonames.org/184745/> .
+
+fibo-fbc-fct-bci:Narberth
+	skos:closeMatch	<http://sws.geonames.org/5202869/> .
+
+fibo-fbc-fct-bci:Nassau
+	skos:closeMatch	<http://sws.geonames.org/3571824/> .
+
+fibo-fbc-fct-bci:New_Delhi
+	skos:closeMatch	<http://sws.geonames.org/1261481/> .
+
+fibo-fbc-fct-bci:New_York
+	skos:closeMatch	<http://sws.geonames.org/5128581/> .
+
+fibo-fbc-fct-bci:Newcastle
+	skos:closeMatch	<http://sws.geonames.org/2155472/> .
+
+fibo-fbc-fct-bci:Nicosia
+	skos:closeMatch	<http://sws.geonames.org/146268/> .
+
+fibo-fbc-fct-bci:North_Bergen
+	skos:closeMatch	<http://sws.geonames.org/5101879/> .
+
+fibo-fbc-fct-bci:Novosibirsk
+	skos:closeMatch	<http://sws.geonames.org/1496747/> .
+
+fibo-fbc-fct-bci:Nyon
+	skos:closeMatch	<http://sws.geonames.org/2659422/> .
+
+fibo-fbc-fct-bci:Odessa
+	skos:closeMatch	<http://sws.geonames.org/698740/> .
+
+fibo-fbc-fct-bci:Oldenburg
+	skos:closeMatch	<http://sws.geonames.org/2857458/> .
+
+fibo-fbc-fct-bci:Osaka
+	skos:closeMatch	<http://sws.geonames.org/1853909/> .
+
+fibo-fbc-fct-bci:Oslo
+	skos:closeMatch	<http://sws.geonames.org/3143244/> .
+
+fibo-fbc-fct-bci:Oststeinbek
+	skos:closeMatch	<http://sws.geonames.org/2856184/> .
+
+fibo-fbc-fct-bci:Ottawa
+	skos:closeMatch	<http://sws.geonames.org/6094817/> .
+
+fibo-fbc-fct-bci:Padova
+	skos:closeMatch	<http://sws.geonames.org/3171728/> .
+
+fibo-fbc-fct-bci:PalmaDeMallorca
+	skos:closeMatch	<http://sws.geonames.org/2512989/> .
+
+fibo-fbc-fct-bci:Panama_City
+	skos:closeMatch	<http://sws.geonames.org/3703443/> .
+
+fibo-fbc-fct-bci:Paris
+	skos:closeMatch	<http://sws.geonames.org/2988507/> .
+
+fibo-fbc-fct-bci:Pasig_City
+	skos:closeMatch	<http://sws.geonames.org/7290466/> .
+
+fibo-fbc-fct-bci:Perth
+	skos:closeMatch	<http://sws.geonames.org/2063523/> .
+
+fibo-fbc-fct-bci:Pfaffikon_SZ
+	skos:closeMatch	<http://sws.geonames.org/2659220/> .
+
+fibo-fbc-fct-bci:Philadelphia
+	skos:closeMatch	<http://sws.geonames.org/4560349/> .
+
+fibo-fbc-fct-bci:Phnom_Penh
+	skos:closeMatch	<http://sws.geonames.org/1821306/> .
+
+fibo-fbc-fct-bci:Podgorica
+	skos:closeMatch	<http://sws.geonames.org/3193044/> .
+
+fibo-fbc-fct-bci:Port_Louis
+	skos:closeMatch	<http://sws.geonames.org/934154/> .
+
+fibo-fbc-fct-bci:Port_Moresby
+	skos:closeMatch	<http://sws.geonames.org/2088122/> .
+
+fibo-fbc-fct-bci:Port_Vila
+	skos:closeMatch	<http://sws.geonames.org/2135171/> .
+
+fibo-fbc-fct-bci:Port_of_Spain
+	skos:closeMatch	<http://sws.geonames.org/3573890/> .
+
+fibo-fbc-fct-bci:Portland
+	skos:closeMatch	<http://sws.geonames.org/5746545/> .
+
+fibo-fbc-fct-bci:Porto
+	skos:closeMatch	<http://sws.geonames.org/2735943/> .
+
+fibo-fbc-fct-bci:Prague
+	skos:closeMatch	<http://sws.geonames.org/3067696/> .
+
+fibo-fbc-fct-bci:Praia
+	skos:closeMatch	<http://sws.geonames.org/3374333/> .
+
+fibo-fbc-fct-bci:Princeton
+	skos:closeMatch	<http://sws.geonames.org/5102922/> .
+
+fibo-fbc-fct-bci:Purchase
+	skos:closeMatch	<http://sws.geonames.org/5133135/> .
+
+fibo-fbc-fct-bci:Quito
+	skos:closeMatch	<http://sws.geonames.org/3652462/> .
+
+fibo-fbc-fct-bci:Rabat
+	skos:closeMatch	<http://sws.geonames.org/2538475/> .
+
+fibo-fbc-fct-bci:Randers
+	skos:closeMatch	<http://sws.geonames.org/2615006/> .
+
+fibo-fbc-fct-bci:Red_Bank
+	skos:closeMatch	<http://sws.geonames.org/5103159/> .
+
+fibo-fbc-fct-bci:Regensburg
+	skos:closeMatch	<http://sws.geonames.org/2849483/> .
+
+fibo-fbc-fct-bci:Reggio_Emilia
+	skos:closeMatch	<http://sws.geonames.org/3169522/> .
+
+fibo-fbc-fct-bci:Reykjavik
+	skos:closeMatch	<http://sws.geonames.org/3413829/> .
+
+fibo-fbc-fct-bci:Riga
+	skos:closeMatch	<http://sws.geonames.org/456172/> .
+
+fibo-fbc-fct-bci:Rio_de_Janeiro
+	skos:closeMatch	<http://sws.geonames.org/3451190/> .
+
+fibo-fbc-fct-bci:Riyadh
+	skos:closeMatch	<http://sws.geonames.org/108410/> .
+
+fibo-fbc-fct-bci:Road_Town
+	skos:closeMatch	<http://sws.geonames.org/3577430/> .
+
+fibo-fbc-fct-bci:Rodgau
+	skos:closeMatch	<http://sws.geonames.org/3336893/> .
+
+fibo-fbc-fct-bci:Rome
+	skos:closeMatch	<http://sws.geonames.org/3169070/> .
+
+fibo-fbc-fct-bci:Rosario
+	skos:closeMatch	<http://sws.geonames.org/3838583/> .
+
+fibo-fbc-fct-bci:Rotterdam
+	skos:closeMatch	<http://sws.geonames.org/2747891/> .
+
+fibo-fbc-fct-bci:Sabadell
+	skos:closeMatch	<http://sws.geonames.org/3111199/> .
+
+fibo-fbc-fct-bci:Sacramento
+	skos:closeMatch	<http://sws.geonames.org/5389489/> .
+
+fibo-fbc-fct-bci:Saint-Petersburg
+	skos:closeMatch	<http://sws.geonames.org/498817/> .
+
+fibo-fbc-fct-bci:Saint_Peter_Port
+	skos:closeMatch	<http://sws.geonames.org/3042287/> .
+
+fibo-fbc-fct-bci:Salzburg
+	skos:closeMatch	<http://sws.geonames.org/2766824/> .
+
+fibo-fbc-fct-bci:Samara
+	skos:closeMatch	<http://sws.geonames.org/499099/> .
+
+fibo-fbc-fct-bci:San_Carlos
+	skos:closeMatch	<http://sws.geonames.org/5391760/> .
+
+fibo-fbc-fct-bci:San_Francisco
+	skos:closeMatch	<http://sws.geonames.org/5391959/> .
+
+fibo-fbc-fct-bci:San_Jose
+	skos:closeMatch	<http://sws.geonames.org/3621849/> .
+
+fibo-fbc-fct-bci:San_Juan
+	skos:closeMatch	<http://sws.geonames.org/4568127/> .
+
+fibo-fbc-fct-bci:San_Salvador
+	skos:closeMatch	<http://sws.geonames.org/3583361/> .
+
+fibo-fbc-fct-bci:San_Sebastian
+	skos:closeMatch	<http://sws.geonames.org/3110044/> .
+
+fibo-fbc-fct-bci:Santa_Fe
+	skos:closeMatch	<http://sws.geonames.org/3836277/> .
+
+fibo-fbc-fct-bci:Santander
+	skos:closeMatch	<http://sws.geonames.org/3109718/> .
+
+fibo-fbc-fct-bci:Santiago
+	skos:closeMatch	<http://sws.geonames.org/3871336/> .
+
+fibo-fbc-fct-bci:Santo_Domingo
+	skos:closeMatch	<http://sws.geonames.org/3492908/> .
+
+fibo-fbc-fct-bci:Sao_Paulo
+	skos:closeMatch	<http://sws.geonames.org/3448439/> .
+
+fibo-fbc-fct-bci:Sapporo
+	skos:closeMatch	<http://sws.geonames.org/2128295/> .
+
+fibo-fbc-fct-bci:Sarajevo
+	skos:closeMatch	<http://sws.geonames.org/3191281/> .
+
+fibo-fbc-fct-bci:SeaGirt
+	skos:closeMatch	<http://sws.geonames.org/5104495/> .
+
+fibo-fbc-fct-bci:Seattle
+	skos:closeMatch	<http://sws.geonames.org/5809844/> .
+
+fibo-fbc-fct-bci:Seoul
+	skos:closeMatch	<http://sws.geonames.org/1835848/> .
+
+fibo-fbc-fct-bci:Shanghai
+	skos:closeMatch	<http://sws.geonames.org/1796236/> .
+
+fibo-fbc-fct-bci:Shenzhen
+	skos:closeMatch	<http://sws.geonames.org/1795565/> .
+
+fibo-fbc-fct-bci:Silkeborg
+	skos:closeMatch	<http://sws.geonames.org/2614030/> .
+
+fibo-fbc-fct-bci:Singapore
+	skos:closeMatch	<http://sws.geonames.org/1880252/> .
+
+fibo-fbc-fct-bci:Skopje
+	skos:closeMatch	<http://sws.geonames.org/785842/> .
+
+fibo-fbc-fct-bci:Sliema
+	skos:closeMatch	<http://sws.geonames.org/2562501/> .
+
+fibo-fbc-fct-bci:Sofia
+	skos:closeMatch	<http://sws.geonames.org/727011/> .
+
+fibo-fbc-fct-bci:Split
+	skos:closeMatch	<http://sws.geonames.org/3190261/> .
+
+fibo-fbc-fct-bci:StAlbans
+	skos:closeMatch	<http://sws.geonames.org/2638867/> .
+
+fibo-fbc-fct-bci:St_Helier
+	skos:closeMatch	<http://sws.geonames.org/3042091/> .
+
+fibo-fbc-fct-bci:Stamford
+	skos:closeMatch	<http://sws.geonames.org/4843564/> .
+
+fibo-fbc-fct-bci:Stockholm
+	skos:closeMatch	<http://sws.geonames.org/2673730/> .
+
+fibo-fbc-fct-bci:Stuttgart
+	skos:closeMatch	<http://sws.geonames.org/2825297/> .
+
+fibo-fbc-fct-bci:Summit
+	skos:closeMatch	<http://sws.geonames.org/5105127/> .
+
+fibo-fbc-fct-bci:Suva
+	skos:closeMatch	<http://sws.geonames.org/2198148/> .
+
+fibo-fbc-fct-bci:Sydney
+	skos:closeMatch	<http://sws.geonames.org/2147714/> .
+
+fibo-fbc-fct-bci:Taipei
+	skos:closeMatch	<http://sws.geonames.org/1668341/> .
+
+fibo-fbc-fct-bci:Tallinn
+	skos:closeMatch	<http://sws.geonames.org/588409/> .
+
+fibo-fbc-fct-bci:Tashkent
+	skos:closeMatch	<http://sws.geonames.org/1512569/> .
+
+fibo-fbc-fct-bci:Tbilisi
+	skos:closeMatch	<http://sws.geonames.org/611717/> .
+
+fibo-fbc-fct-bci:Tegucigalpa
+	skos:closeMatch	<http://sws.geonames.org/3600949/> .
+
+fibo-fbc-fct-bci:Tehran
+	skos:closeMatch	<http://sws.geonames.org/112931/> .
+
+fibo-fbc-fct-bci:Tel_Aviv
+	skos:closeMatch	<http://sws.geonames.org/293397/> .
+
+fibo-fbc-fct-bci:TheWoodlands
+	skos:closeMatch	<http://sws.geonames.org/4736476/> .
+
+fibo-fbc-fct-bci:The_Hague
+	skos:closeMatch	<http://sws.geonames.org/2747373/> .
+
+fibo-fbc-fct-bci:Tirana
+	skos:closeMatch	<http://sws.geonames.org/3183875/> .
+
+fibo-fbc-fct-bci:Tokyo
+	skos:closeMatch	<http://sws.geonames.org/1850147/> .
+
+fibo-fbc-fct-bci:Toronto
+	skos:closeMatch	<http://sws.geonames.org/6167865/> .
+
+fibo-fbc-fct-bci:Torshavn
+	skos:closeMatch	<http://sws.geonames.org/2611396/> .
+
+fibo-fbc-fct-bci:Triesen
+	skos:closeMatch	<http://sws.geonames.org/3042035/> .
+
+fibo-fbc-fct-bci:Tripoli
+	skos:closeMatch	<http://sws.geonames.org/2210247/> .
+
+fibo-fbc-fct-bci:Tromso
+	skos:closeMatch	<http://sws.geonames.org/3133895/> .
+
+fibo-fbc-fct-bci:Trondheim
+	skos:closeMatch	<http://sws.geonames.org/3133880/> .
+
+fibo-fbc-fct-bci:Tucuman
+	skos:closeMatch	<http://sws.geonames.org/3836873/> .
+
+fibo-fbc-fct-bci:Tunis
+	skos:closeMatch	<http://sws.geonames.org/2464470/> .
+
+fibo-fbc-fct-bci:Turin
+	skos:closeMatch	<http://sws.geonames.org/3165524/> .
+
+fibo-fbc-fct-bci:Ulaanbaatar
+	skos:closeMatch	<http://sws.geonames.org/2028462/> .
+
+fibo-fbc-fct-bci:Unterschleisshem
+	skos:closeMatch	<http://sws.geonames.org/2818766/> .
+
+fibo-fbc-fct-bci:Utrecht
+	skos:closeMatch	<http://sws.geonames.org/2745912/> .
+
+fibo-fbc-fct-bci:Vaduz
+	skos:closeMatch	<http://sws.geonames.org/3042030/> .
+
+fibo-fbc-fct-bci:Valencia
+	skos:closeMatch	<http://sws.geonames.org/2509954/> .
+
+fibo-fbc-fct-bci:Valletta
+	skos:closeMatch	<http://sws.geonames.org/2562305/> .
+
+fibo-fbc-fct-bci:Valparaiso
+	skos:closeMatch	<http://sws.geonames.org/3868626/> .
+
+fibo-fbc-fct-bci:Vancouver
+	skos:closeMatch	<http://sws.geonames.org/6173331/> .
+
+fibo-fbc-fct-bci:Victoria
+	skos:closeMatch	<http://sws.geonames.org/241131/> .
+
+fibo-fbc-fct-bci:Vienna
+	skos:closeMatch	<http://sws.geonames.org/2761369/> .
+
+fibo-fbc-fct-bci:Vientiane
+	skos:closeMatch	<http://sws.geonames.org/1651944/> .
+
+fibo-fbc-fct-bci:Vilnius
+	skos:closeMatch	<http://sws.geonames.org/593116/> .
+
+fibo-fbc-fct-bci:Vitoria
+	skos:closeMatch	<http://sws.geonames.org/3444924/> .
+
+fibo-fbc-fct-bci:Warsaw
+	skos:closeMatch	<http://sws.geonames.org/756135/> .
+
+fibo-fbc-fct-bci:Washington
+	skos:closeMatch	<http://sws.geonames.org/4140963/> .
+
+fibo-fbc-fct-bci:Wellington
+	skos:closeMatch	<http://sws.geonames.org/2179537/> .
+
+fibo-fbc-fct-bci:Wichita
+	skos:closeMatch	<http://sws.geonames.org/4281730/> .
+
+fibo-fbc-fct-bci:Willemstad
+	skos:closeMatch	<http://sws.geonames.org/3513090/> .
+
+fibo-fbc-fct-bci:Wilmington
+	skos:closeMatch	<http://sws.geonames.org/4145381/> .
+
+fibo-fbc-fct-bci:Windhoek
+	skos:closeMatch	<http://sws.geonames.org/3352136/> .
+
+fibo-fbc-fct-bci:Winnipeg
+	skos:closeMatch	<http://sws.geonames.org/6183235/> .
+
+fibo-fbc-fct-bci:Wroclaw
+	skos:closeMatch	<http://sws.geonames.org/3081368/> .
+
+fibo-fbc-fct-bci:Wuxi
+	skos:closeMatch	<http://sws.geonames.org/1790923/> .
+
+fibo-fbc-fct-bci:Yaounde
+	skos:closeMatch	<http://sws.geonames.org/2220957/> .
+
+fibo-fbc-fct-bci:Yerevan
+	skos:closeMatch	<http://sws.geonames.org/616052/> .
+
+fibo-fbc-fct-bci:Zagreb
+	skos:closeMatch	<http://sws.geonames.org/3186886/> .
+
+fibo-fbc-fct-bci:Zaragoza
+	skos:closeMatch	<http://sws.geonames.org/3104324/> .
+
+fibo-fbc-fct-bci:Zhengzhou
+	skos:closeMatch	<http://sws.geonames.org/1784658/> .
+
+fibo-fbc-fct-bci:Zilina
+	skos:closeMatch	<http://sws.geonames.org/3056508/> .
+
+fibo-fbc-fct-bci:Zurich
+	skos:closeMatch	<http://sws.geonames.org/2657896/> .
