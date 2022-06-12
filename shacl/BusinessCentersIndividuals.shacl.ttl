@@ -17,6 +17,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
 @prefix tempo: <http://purl.org/tempo/> .
+@prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 
@@ -29,6 +30,7 @@ fibo-fnd-plc-loc:BusinessCenter-shape a sh:NodeShape ;
 	sh:property rdfs:label-property ;
 	sh:property dct:description-property ;
 	sh:property lcc-cr:isPartOf-property ;
+	sh:property time:timeZone-property ;
 	.
 
 fibo-fnd-plc-loc:Municipality-shape a sh:NodeShape ;
@@ -37,6 +39,7 @@ fibo-fnd-plc-loc:Municipality-shape a sh:NodeShape ;
 	sh:property rdfs:label-property ;
 	sh:property dct:description-property ;
 	sh:property lcc-cr:isPartOf-property ;
+	sh:property time:timeZone-property ;
 	.
 
 fibo-fnd-dt-bd:BusinessDayAdjustment-property a sh:NodeShape ;
@@ -86,6 +89,12 @@ lcc-lr:denotes-property a sh:PropertyShape ;
 
 lcc-lr:identifies-property a sh:PropertyShape ;
 	sh:path lcc-lr:identifies ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	.
+
+time:timeZone-property a sh:PropertyShape ;
+	sh:path time:timeZone ;
 	sh:minCount 1 ;
 	sh:maxCount 1 ;
 	.
