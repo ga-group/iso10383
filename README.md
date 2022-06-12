@@ -27,3 +27,16 @@ a source as input, i.e. an ISO10383 xlsx file or an FpML business-center-x-y spe
 and enriching the file on the way using supplementary files (maintained in this repo).
 
 The supplementary files contain alignment data with wikidata, geonames, and dbpedia.
+
+
+Where?
+------
+
+The [official github repository](https://github.com/ga-group/iso10383/) contains the
+published datasets as well as separately maintained alignment and enrichment files.
+
+For ease of access the latest versions of the datasets can be downloaded here:
+
+- [MarketsIndividuals.ttl](/iso10383/MarketsIndividuals.ttl)
+- [BusinessCentersIndividuals.ttl](/iso10383/BusinessCentersIndividuals.ttl)
+
