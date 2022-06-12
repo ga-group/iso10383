@@ -1832,7 +1832,9 @@ fibo-fbc-fct-bci:GIFT_City
 	a	owl:NamedIndividual ;
 	fibo-fnd-utl-av:synonym	"Gujarat International Finance Tec-City" ;
 	lcc-cr:isPartOf	cc:IN ;
-	rdfs:label	"GIFT City" .
+	rdfs:label	"GIFT City" ;
+	skos:closeMatch	<http://dbpedia.org/resource/Gujarat_International_Finance_Tec-City> , <http://sws.geonames.org/11789136/> ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
 
 fibo-fbc-fct-bci:GMBA
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;

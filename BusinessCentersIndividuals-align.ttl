@@ -441,6 +441,10 @@ fibo-fbc-fct-bci:Fukuoka
 	skos:closeMatch	<http://dbpedia.org/resource/Fukuoka> ;
 	skos:closeMatch	<http://sws.geonames.org/1863967/> .
 
+fibo-fbc-fct-bci:GIFT_City
+	skos:closeMatch	<http://dbpedia.org/resource/Gujarat_International_Finance_Tec-City> ;
+	skos:closeMatch	<http://sws.geonames.org/11789136/> .
+
 fibo-fbc-fct-bci:Gaborone
 	skos:closeMatch	<http://dbpedia.org/resource/Gaborone> ;
 	skos:closeMatch	<http://sws.geonames.org/933773/> .

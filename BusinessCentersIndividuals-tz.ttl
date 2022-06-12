@@ -334,6 +334,9 @@ fibo-fbc-fct-bci:Freetown
 fibo-fbc-fct-bci:Fukuoka
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
 
+fibo-fbc-fct-bci:GIFT_City
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
 fibo-fbc-fct-bci:Gaborone
 	time:timeZone	<http://dbpedia.org/resource/Africa/Gaborone> .
 
