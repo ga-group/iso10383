@@ -1401,3 +1401,7 @@ fibo-fbc-fct-bci:Zilina
 fibo-fbc-fct-bci:Zurich
 	skos:closeMatch	<http://sws.geonames.org/2657896/> ;
 	skos:closeMatch	<https://dbpedia.org/resource/Z%C3%BCrich> .
+
+fibo-fbc-fct-bci:s-Hertogenbosch
+	skos:closeMatch <http://sws.geonames.org/2747351/> ;
+	skos:closeMatch <https://dbpedia.org/resource/%27s-Hertogenbosch> .

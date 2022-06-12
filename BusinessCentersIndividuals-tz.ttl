@@ -1062,3 +1062,6 @@ fibo-fbc-fct-bci:Zilina
 
 fibo-fbc-fct-bci:Zurich
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
+
+fibo-fbc-fct-bci:s-Hertogenbosch
+	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .

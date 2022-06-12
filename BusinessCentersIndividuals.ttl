@@ -5255,4 +5255,6 @@ fibo-fbc-fct-bci:s-Hertogenbosch
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:NL ;
-	rdfs:label	"s'-Hertogenbosch" .
+	rdfs:label	"s'-Hertogenbosch" ;
+	skos:closeMatch	<http://sws.geonames.org/2747351/> , <https://dbpedia.org/resource/%27s-Hertogenbosch> ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
