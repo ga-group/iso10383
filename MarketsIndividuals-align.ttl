@@ -3,5821 +3,5821 @@
 @prefix wd: <http://www.wikidata.org/entity/> .
 
 fibo-fbc-fct-mkti:Exchange-24EX
-	skos:related	wd:Q93361987 .
+	skos:closeMatch	wd:Q93361987 .
 
 fibo-fbc-fct-mkti:Exchange-3579
-	skos:related	wd:Q93359293 .
+	skos:closeMatch	wd:Q93359293 .
 
 fibo-fbc-fct-mkti:Exchange-360T
-	skos:related	wd:Q43236848 .
+	skos:closeMatch	wd:Q43236848 .
 
 fibo-fbc-fct-mkti:Exchange-4AXE
-	skos:related	wd:Q93359217 .
+	skos:closeMatch	wd:Q93359217 .
 
 fibo-fbc-fct-mkti:Exchange-A2XX
-	skos:related	wd:Q65058525 .
+	skos:closeMatch	wd:Q65058525 .
 
 fibo-fbc-fct-mkti:Exchange-AACA
-	skos:related	wd:Q93356474 .
+	skos:closeMatch	wd:Q93356474 .
 
 fibo-fbc-fct-mkti:Exchange-AAPA
-	skos:related	wd:Q93362938 .
+	skos:closeMatch	wd:Q93362938 .
 
 fibo-fbc-fct-mkti:Exchange-AATS
-	skos:related	wd:Q93355251 .
+	skos:closeMatch	wd:Q93355251 .
 
 fibo-fbc-fct-mkti:Exchange-ABAN
-	skos:related	wd:Q9598744 .
+	skos:closeMatch	wd:Q9598744 .
 
 fibo-fbc-fct-mkti:Exchange-ABFI
-	skos:related	wd:Q93363048 .
+	skos:closeMatch	wd:Q93363048 .
 
 fibo-fbc-fct-mkti:Exchange-ABNA
-	skos:related	wd:Q93358728 .
+	skos:closeMatch	wd:Q93358728 .
 
 fibo-fbc-fct-mkti:Exchange-ABSI
-	skos:related	wd:Q93356784 .
+	skos:closeMatch	wd:Q93356784 .
 
 fibo-fbc-fct-mkti:Exchange-ABUL
-	skos:related	wd:Q107188518 .
+	skos:closeMatch	wd:Q107188518 .
 
 fibo-fbc-fct-mkti:Exchange-ACEX
-	skos:related	wd:Q93355255 .
+	skos:closeMatch	wd:Q93355255 .
 
 fibo-fbc-fct-mkti:Exchange-ACKF
-	skos:related	wd:Q107223062 .
+	skos:closeMatch	wd:Q107223062 .
 
 fibo-fbc-fct-mkti:Exchange-ADVT
-	skos:related	wd:Q93356687 .
+	skos:closeMatch	wd:Q93356687 .
 
 fibo-fbc-fct-mkti:Exchange-AFDL
-	skos:related	wd:Q93356508 .
+	skos:closeMatch	wd:Q93356508 .
 
 fibo-fbc-fct-mkti:Exchange-AFET
-	skos:related	wd:Q93355259 .
+	skos:closeMatch	wd:Q93355259 .
 
 fibo-fbc-fct-mkti:Exchange-AFSA
-	skos:related	wd:Q93360844 .
+	skos:closeMatch	wd:Q93360844 .
 
 fibo-fbc-fct-mkti:Exchange-AFSE
-	skos:related	wd:Q93362152 .
+	skos:closeMatch	wd:Q93362152 .
 
 fibo-fbc-fct-mkti:Exchange-AFSI
-	skos:related	wd:Q107223078 .
+	skos:closeMatch	wd:Q107223078 .
 
 fibo-fbc-fct-mkti:Exchange-AFSL
-	skos:related	wd:Q107189203 .
+	skos:closeMatch	wd:Q107189203 .
 
 fibo-fbc-fct-mkti:Exchange-AFSO
-	skos:related	wd:Q107223085 .
+	skos:closeMatch	wd:Q107223085 .
 
 fibo-fbc-fct-mkti:Exchange-AFSX
-	skos:related	wd:Q107223067 .
+	skos:closeMatch	wd:Q107223067 .
 
 fibo-fbc-fct-mkti:Exchange-AGBP
-	skos:related	wd:Q93360927 .
+	skos:closeMatch	wd:Q93360927 .
 
 fibo-fbc-fct-mkti:Exchange-AIMX
-	skos:related	wd:Q438511 .
+	skos:closeMatch	wd:Q438511 .
 
 fibo-fbc-fct-mkti:Exchange-AIXK
-	skos:related	wd:Q93359852 .
+	skos:closeMatch	wd:Q93359852 .
 
 fibo-fbc-fct-mkti:Exchange-AKIS
-	skos:related	wd:Q93362822 .
+	skos:closeMatch	wd:Q93362822 .
 
 fibo-fbc-fct-mkti:Exchange-ALDP
-	skos:related	wd:Q107188676 .
+	skos:closeMatch	wd:Q107188676 .
 
 fibo-fbc-fct-mkti:Exchange-ALLT
-	skos:related	wd:Q93359797 .
+	skos:closeMatch	wd:Q93359797 .
 
 fibo-fbc-fct-mkti:Exchange-ALSI
-	skos:related	wd:Q93362795 .
+	skos:closeMatch	wd:Q93362795 .
 
 fibo-fbc-fct-mkti:Exchange-ALTX
-	skos:related	wd:Q107189222 .
+	skos:closeMatch	wd:Q107189222 .
 
 fibo-fbc-fct-mkti:Exchange-ALXB
-	skos:related	wd:Q107189147 .
+	skos:closeMatch	wd:Q107189147 .
 
 fibo-fbc-fct-mkti:Exchange-ALXL
-	skos:related	wd:Q107189158 .
+	skos:closeMatch	wd:Q107189158 .
 
 fibo-fbc-fct-mkti:Exchange-ALXP
-	skos:related	wd:Q107188657 .
+	skos:closeMatch	wd:Q107188657 .
 
 fibo-fbc-fct-mkti:Exchange-AMNL
-	skos:related	wd:Q107188844 .
+	skos:closeMatch	wd:Q107188844 .
 
 fibo-fbc-fct-mkti:Exchange-AMPX
-	skos:related	wd:Q93356772 .
+	skos:closeMatch	wd:Q93356772 .
 
 fibo-fbc-fct-mkti:Exchange-AMXO
-	skos:related	wd:Q107188677 .
+	skos:closeMatch	wd:Q107188677 .
 
 fibo-fbc-fct-mkti:Exchange-ANLP
-	skos:related	wd:Q107188635 .
+	skos:closeMatch	wd:Q107188635 .
 
 fibo-fbc-fct-mkti:Exchange-ANTS
-	skos:related	wd:Q93360836 .
+	skos:closeMatch	wd:Q93360836 .
 
 fibo-fbc-fct-mkti:Exchange-ANZL
-	skos:related	wd:Q93362069 .
+	skos:closeMatch	wd:Q93362069 .
 
 fibo-fbc-fct-mkti:Exchange-APAW
-	skos:related	wd:Q93358869 .
+	skos:closeMatch	wd:Q93358869 .
 
 fibo-fbc-fct-mkti:Exchange-APCL
-	skos:related	wd:Q107190252 .
+	skos:closeMatch	wd:Q107190252 .
 
 fibo-fbc-fct-mkti:Exchange-APEX
-	skos:related	wd:Q93358229 .
+	skos:closeMatch	wd:Q93358229 .
 
 fibo-fbc-fct-mkti:Exchange-AQEA
-	skos:related	wd:Q107227904 .
+	skos:closeMatch	wd:Q107227904 .
 
 fibo-fbc-fct-mkti:Exchange-AQEU
-	skos:related	wd:Q93362972 .
+	skos:closeMatch	wd:Q93362972 .
 
 fibo-fbc-fct-mkti:Exchange-AQUA
-	skos:related	wd:Q93355266 .
+	skos:closeMatch	wd:Q93355266 .
 
 fibo-fbc-fct-mkti:Exchange-AQXA
-	skos:related	wd:Q107189189 .
+	skos:closeMatch	wd:Q107189189 .
 
 fibo-fbc-fct-mkti:Exchange-AQXE
-	skos:related	wd:Q93358750 .
+	skos:closeMatch	wd:Q93358750 .
 
 fibo-fbc-fct-mkti:Exchange-ARAX
-	skos:related	wd:Q93360295 .
+	skos:closeMatch	wd:Q93360295 .
 
 fibo-fbc-fct-mkti:Exchange-ARCD
-	skos:related	wd:Q107188678 .
+	skos:closeMatch	wd:Q107188678 .
 
 fibo-fbc-fct-mkti:Exchange-ARCH
-	skos:related	wd:Q93360299 .
+	skos:closeMatch	wd:Q93360299 .
 
 fibo-fbc-fct-mkti:Exchange-ARCO
-	skos:related	wd:Q107188679 .
+	skos:closeMatch	wd:Q107188679 .
 
 fibo-fbc-fct-mkti:Exchange-ARCX
-	skos:related	wd:Q10593835 .
+	skos:closeMatch	wd:Q10593835 .
 
 fibo-fbc-fct-mkti:Exchange-AREX
-	skos:related	wd:Q93358736 .
+	skos:closeMatch	wd:Q93358736 .
 
 fibo-fbc-fct-mkti:Exchange-ARIA
-	skos:related	wd:Q93362930 .
+	skos:closeMatch	wd:Q93362930 .
 
 fibo-fbc-fct-mkti:Exchange-ARKX
-	skos:related	wd:Q93357828 .
+	skos:closeMatch	wd:Q93357828 .
 
 fibo-fbc-fct-mkti:Exchange-ASEX
-	skos:related	wd:Q755341 .
+	skos:closeMatch	wd:Q755341 .
 
 fibo-fbc-fct-mkti:Exchange-ASMT
-	skos:related	wd:Q107228019 .
+	skos:closeMatch	wd:Q107228019 .
 
 fibo-fbc-fct-mkti:Exchange-ASPI
-	skos:related	wd:Q107228018 .
+	skos:closeMatch	wd:Q107228018 .
 
 fibo-fbc-fct-mkti:Exchange-ASPN
-	skos:related	wd:Q107228020 .
+	skos:closeMatch	wd:Q107228020 .
 
 fibo-fbc-fct-mkti:Exchange-ASTR
-	skos:related	wd:Q107227961 .
+	skos:closeMatch	wd:Q107227961 .
 
 fibo-fbc-fct-mkti:Exchange-ASXB
-	skos:related	wd:Q107227903 .
+	skos:closeMatch	wd:Q107227903 .
 
 fibo-fbc-fct-mkti:Exchange-ASXC
-	skos:related	wd:Q107188627 .
+	skos:closeMatch	wd:Q107188627 .
 
 fibo-fbc-fct-mkti:Exchange-ASXP
-	skos:related	wd:Q107188684 .
+	skos:closeMatch	wd:Q107188684 .
 
 fibo-fbc-fct-mkti:Exchange-ASXT
-	skos:related	wd:Q107188685 .
+	skos:closeMatch	wd:Q107188685 .
 
 fibo-fbc-fct-mkti:Exchange-ASXV
-	skos:related	wd:Q107188687 .
+	skos:closeMatch	wd:Q107188687 .
 
 fibo-fbc-fct-mkti:Exchange-ATFX
-	skos:related	wd:Q107188864 .
+	skos:closeMatch	wd:Q107188864 .
 
 fibo-fbc-fct-mkti:Exchange-ATHL
-	skos:related	wd:Q93357871 .
+	skos:closeMatch	wd:Q93357871 .
 
 fibo-fbc-fct-mkti:Exchange-ATLB
-	skos:related	wd:Q93357356 .
+	skos:closeMatch	wd:Q93357356 .
 
 fibo-fbc-fct-mkti:Exchange-ATLN
-	skos:related	wd:Q93359258 .
+	skos:closeMatch	wd:Q93359258 .
 
 fibo-fbc-fct-mkti:Exchange-AURB
-	skos:related	wd:Q2871850 .
+	skos:closeMatch	wd:Q2871850 .
 
 fibo-fbc-fct-mkti:Exchange-AURO
-	skos:related	wd:Q107227821 .
+	skos:closeMatch	wd:Q107227821 .
 
 fibo-fbc-fct-mkti:Exchange-AUTB
-	skos:related	wd:Q107223128 .
+	skos:closeMatch	wd:Q107223128 .
 
 fibo-fbc-fct-mkti:Exchange-AUTO
-	skos:related	wd:Q107227959 .
+	skos:closeMatch	wd:Q107227959 .
 
 fibo-fbc-fct-mkti:Exchange-AUTP
-	skos:related	wd:Q107227870 .
+	skos:closeMatch	wd:Q107227870 .
 
 fibo-fbc-fct-mkti:Exchange-AUTX
-	skos:related	wd:Q93356498 .
+	skos:closeMatch	wd:Q93356498 .
 
 fibo-fbc-fct-mkti:Exchange-AWBX
-	skos:related	wd:Q93355269 .
+	skos:closeMatch	wd:Q93355269 .
 
 fibo-fbc-fct-mkti:Exchange-AWEX
-	skos:related	wd:Q93355272 .
+	skos:closeMatch	wd:Q93355272 .
 
 fibo-fbc-fct-mkti:Exchange-AXSI-2020-05-25
-	skos:related	wd:Q93358303 .
+	skos:closeMatch	wd:Q93358303 .
 
 fibo-fbc-fct-mkti:Exchange-BAAD
-	skos:related	wd:Q93360317 .
+	skos:closeMatch	wd:Q93360317 .
 
 fibo-fbc-fct-mkti:Exchange-BACE
-	skos:related	wd:Q93355277 .
+	skos:closeMatch	wd:Q93355277 .
 
 fibo-fbc-fct-mkti:Exchange-BAEP
-	skos:related	wd:Q107189204 .
+	skos:closeMatch	wd:Q107189204 .
 
 fibo-fbc-fct-mkti:Exchange-BAIP
-	skos:related	wd:Q93357837 .
+	skos:closeMatch	wd:Q93357837 .
 
 fibo-fbc-fct-mkti:Exchange-BAJD
-	skos:related	wd:Q93362803 .
+	skos:closeMatch	wd:Q93362803 .
 
 fibo-fbc-fct-mkti:Exchange-BAJM
-	skos:related	wd:Q107227819 .
+	skos:closeMatch	wd:Q107227819 .
 
 fibo-fbc-fct-mkti:Exchange-BALT
-	skos:related	wd:Q93355280 .
+	skos:closeMatch	wd:Q93355280 .
 
 fibo-fbc-fct-mkti:Exchange-BAML
-	skos:related	wd:Q93355287 .
+	skos:closeMatch	wd:Q93355287 .
 
 fibo-fbc-fct-mkti:Exchange-BAMX
-	skos:related	wd:Q93357279 .
+	skos:closeMatch	wd:Q93357279 .
 
 fibo-fbc-fct-mkti:Exchange-BANA
-	skos:related	wd:Q93358853 .
+	skos:closeMatch	wd:Q93358853 .
 
 fibo-fbc-fct-mkti:Exchange-BAPA
-	skos:related	wd:Q93360342 .
+	skos:closeMatch	wd:Q93360342 .
 
 fibo-fbc-fct-mkti:Exchange-BAPE
-	skos:related	wd:Q93360753 .
+	skos:closeMatch	wd:Q93360753 .
 
 fibo-fbc-fct-mkti:Exchange-BAPX
-	skos:related	wd:Q93355294 .
+	skos:closeMatch	wd:Q93355294 .
 
 fibo-fbc-fct-mkti:Exchange-BARD
-	skos:related	wd:Q107188454 .
+	skos:closeMatch	wd:Q107188454 .
 
 fibo-fbc-fct-mkti:Exchange-BARK
-	skos:related	wd:Q107223116 .
+	skos:closeMatch	wd:Q107223116 .
 
 fibo-fbc-fct-mkti:Exchange-BARL
-	skos:related	wd:Q107223079 .
+	skos:closeMatch	wd:Q107223079 .
 
 fibo-fbc-fct-mkti:Exchange-BARO
-	skos:related	wd:Q107223134 .
+	skos:closeMatch	wd:Q107223134 .
 
 fibo-fbc-fct-mkti:Exchange-BART
-	skos:related	wd:Q107227810 .
+	skos:closeMatch	wd:Q107227810 .
 
 fibo-fbc-fct-mkti:Exchange-BARU
-	skos:related	wd:Q107227722 .
+	skos:closeMatch	wd:Q107227722 .
 
 fibo-fbc-fct-mkti:Exchange-BARX
-	skos:related	wd:Q93355297 .
+	skos:closeMatch	wd:Q93355297 .
 
 fibo-fbc-fct-mkti:Exchange-BASE
-	skos:related	wd:Q93356514 .
+	skos:closeMatch	wd:Q93356514 .
 
 fibo-fbc-fct-mkti:Exchange-BASI
-	skos:related	wd:Q107228010 .
+	skos:closeMatch	wd:Q107228010 .
 
 fibo-fbc-fct-mkti:Exchange-BASX
-	skos:related	wd:Q93357818 .
+	skos:closeMatch	wd:Q93357818 .
 
 fibo-fbc-fct-mkti:Exchange-BATD
-	skos:related	wd:Q107227812 .
+	skos:closeMatch	wd:Q107227812 .
 
 fibo-fbc-fct-mkti:Exchange-BATE
-	skos:related	wd:Q107188455 .
+	skos:closeMatch	wd:Q107188455 .
 
 fibo-fbc-fct-mkti:Exchange-BATF
-	skos:related	wd:Q107188619 .
+	skos:closeMatch	wd:Q107188619 .
 
 fibo-fbc-fct-mkti:Exchange-BATO
-	skos:related	wd:Q107188456 .
+	skos:closeMatch	wd:Q107188456 .
 
 fibo-fbc-fct-mkti:Exchange-BATP
-	skos:related	wd:Q107188859 .
+	skos:closeMatch	wd:Q107188859 .
 
 fibo-fbc-fct-mkti:Exchange-BATS
-	skos:related	wd:Q107188457 .
+	skos:closeMatch	wd:Q107188457 .
 
 fibo-fbc-fct-mkti:Exchange-BATY
-	skos:related	wd:Q107188458 .
+	skos:closeMatch	wd:Q107188458 .
 
 fibo-fbc-fct-mkti:Exchange-BBIE
-	skos:related	wd:Q93357769 .
+	skos:closeMatch	wd:Q93357769 .
 
 fibo-fbc-fct-mkti:Exchange-BBIS
-	skos:related	wd:Q107188787 .
+	skos:closeMatch	wd:Q107188787 .
 
 fibo-fbc-fct-mkti:Exchange-BBSF
-	skos:related	wd:Q93357917 .
+	skos:closeMatch	wd:Q93357917 .
 
 fibo-fbc-fct-mkti:Exchange-BBSI
-	skos:related	wd:Q107223088 .
+	skos:closeMatch	wd:Q107223088 .
 
 fibo-fbc-fct-mkti:Exchange-BBSX
-	skos:related	wd:Q93362789 .
+	skos:closeMatch	wd:Q93362789 .
 
 fibo-fbc-fct-mkti:Exchange-BBVA
-	skos:related	wd:Q93359236 .
+	skos:closeMatch	wd:Q93359236 .
 
 fibo-fbc-fct-mkti:Exchange-BCDX
-	skos:related	wd:Q107189224 .
+	skos:closeMatch	wd:Q107189224 .
 
 fibo-fbc-fct-mkti:Exchange-BCEE
-	skos:related	wd:Q93362836 .
+	skos:closeMatch	wd:Q93362836 .
 
 fibo-fbc-fct-mkti:Exchange-BCFS
-	skos:related	wd:Q93355301 .
+	skos:closeMatch	wd:Q93355301 .
 
 fibo-fbc-fct-mkti:Exchange-BCMA
-	skos:related	wd:Q93359201 .
+	skos:closeMatch	wd:Q93359201 .
 
 fibo-fbc-fct-mkti:Exchange-BCMM
-	skos:related	wd:Q93355305 .
+	skos:closeMatch	wd:Q93355305 .
 
 fibo-fbc-fct-mkti:Exchange-BCRM
-	skos:related	wd:Q93359686 .
+	skos:closeMatch	wd:Q93359686 .
 
 fibo-fbc-fct-mkti:Exchange-BCSC
-	skos:related	wd:Q93357868 .
+	skos:closeMatch	wd:Q93357868 .
 
 fibo-fbc-fct-mkti:Exchange-BCSE
-	skos:related	wd:Q2068453 .
+	skos:closeMatch	wd:Q2068453 .
 
 fibo-fbc-fct-mkti:Exchange-BCSI
-	skos:related	wd:Q107228103 .
+	skos:closeMatch	wd:Q107228103 .
 
 fibo-fbc-fct-mkti:Exchange-BCSL
-	skos:related	wd:Q93357218 .
+	skos:closeMatch	wd:Q93357218 .
 
 fibo-fbc-fct-mkti:Exchange-BCXE
-	skos:related	wd:Q93355972 .
+	skos:closeMatch	wd:Q93355972 .
 
 fibo-fbc-fct-mkti:Exchange-BDEA
-	skos:related	wd:Q107188731 .
+	skos:closeMatch	wd:Q107188731 .
 
 fibo-fbc-fct-mkti:Exchange-BDSK
-	skos:related	wd:Q93363064 .
+	skos:closeMatch	wd:Q93363064 .
 
 fibo-fbc-fct-mkti:Exchange-BEAM
-	skos:related	wd:Q93358314 .
+	skos:closeMatch	wd:Q93358314 .
 
 fibo-fbc-fct-mkti:Exchange-BEEX
-	skos:related	wd:Q93355309 .
+	skos:closeMatch	wd:Q93355309 .
 
 fibo-fbc-fct-mkti:Exchange-BEIS
-	skos:related	wd:Q93358845 .
+	skos:closeMatch	wd:Q93358845 .
 
 fibo-fbc-fct-mkti:Exchange-BELB
-	skos:related	wd:Q93362068 .
+	skos:closeMatch	wd:Q93362068 .
 
 fibo-fbc-fct-mkti:Exchange-BELF
-	skos:related	wd:Q107228110 .
+	skos:closeMatch	wd:Q107228110 .
 
 fibo-fbc-fct-mkti:Exchange-BERA
-	skos:related	wd:Q107188528 .
+	skos:closeMatch	wd:Q107188528 .
 
 fibo-fbc-fct-mkti:Exchange-BERB
-	skos:related	wd:Q107188529 .
+	skos:closeMatch	wd:Q107188529 .
 
 fibo-fbc-fct-mkti:Exchange-BERC
-	skos:related	wd:Q107188530 .
+	skos:closeMatch	wd:Q107188530 .
 
 fibo-fbc-fct-mkti:Exchange-BETA
-	skos:related	wd:Q107188460 .
+	skos:closeMatch	wd:Q107188460 .
 
 fibo-fbc-fct-mkti:Exchange-BETP
-	skos:related	wd:Q93358310 .
+	skos:closeMatch	wd:Q93358310 .
 
 fibo-fbc-fct-mkti:Exchange-BETX
-	skos:related	wd:Q93360367 .
+	skos:closeMatch	wd:Q93360367 .
 
 fibo-fbc-fct-mkti:Exchange-BEUO
-	skos:related	wd:Q107227723 .
+	skos:closeMatch	wd:Q107227723 .
 
 fibo-fbc-fct-mkti:Exchange-BEUP
-	skos:related	wd:Q107190286 .
+	skos:closeMatch	wd:Q107190286 .
 
 fibo-fbc-fct-mkti:Exchange-BEUT
-	skos:related	wd:Q107227724 .
+	skos:closeMatch	wd:Q107227724 .
 
 fibo-fbc-fct-mkti:Exchange-BFEX
-	skos:related	wd:Q93355313 .
+	skos:closeMatch	wd:Q93355313 .
 
 fibo-fbc-fct-mkti:Exchange-BFPT
-	skos:related	wd:Q93362025 .
+	skos:closeMatch	wd:Q93362025 .
 
 fibo-fbc-fct-mkti:Exchange-BGCB
-	skos:related	wd:Q107228023 .
+	skos:closeMatch	wd:Q107228023 .
 
 fibo-fbc-fct-mkti:Exchange-BGCD
-	skos:related	wd:Q107227963 .
+	skos:closeMatch	wd:Q107227963 .
 
 fibo-fbc-fct-mkti:Exchange-BGCF
-	skos:related	wd:Q93355315 .
+	skos:closeMatch	wd:Q93355315 .
 
 fibo-fbc-fct-mkti:Exchange-BGCI
-	skos:related	wd:Q93355319 .
+	skos:closeMatch	wd:Q93355319 .
 
 fibo-fbc-fct-mkti:Exchange-BGCO
-	skos:related	wd:Q107190322 .
+	skos:closeMatch	wd:Q107190322 .
 
 fibo-fbc-fct-mkti:Exchange-BGFI
-	skos:related	wd:Q107190299 .
+	skos:closeMatch	wd:Q107190299 .
 
 fibo-fbc-fct-mkti:Exchange-BGFU
-	skos:related	wd:Q107188838 .
+	skos:closeMatch	wd:Q107188838 .
 
 fibo-fbc-fct-mkti:Exchange-BGFX
-	skos:related	wd:Q107190300 .
+	skos:closeMatch	wd:Q107190300 .
 
 fibo-fbc-fct-mkti:Exchange-BGHX
-	skos:related	wd:Q93362008 .
+	skos:closeMatch	wd:Q93362008 .
 
 fibo-fbc-fct-mkti:Exchange-BGSI
-	skos:related	wd:Q93361346 .
+	skos:closeMatch	wd:Q93361346 .
 
 fibo-fbc-fct-mkti:Exchange-BGUK
-	skos:related	wd:Q93357903 .
+	skos:closeMatch	wd:Q93357903 .
 
 fibo-fbc-fct-mkti:Exchange-BHSF
-	skos:related	wd:Q93359757 .
+	skos:closeMatch	wd:Q93359757 .
 
 fibo-fbc-fct-mkti:Exchange-BHWA
-	skos:related	wd:Q93362880 .
+	skos:closeMatch	wd:Q93362880 .
 
 fibo-fbc-fct-mkti:Exchange-BIDS
-	skos:related	wd:Q93355326 .
+	skos:closeMatch	wd:Q93355326 .
 
 fibo-fbc-fct-mkti:Exchange-BILT
-	skos:related	wd:Q66320 .
+	skos:closeMatch	wd:Q66320 .
 
 fibo-fbc-fct-mkti:Exchange-BILU
-	skos:related	wd:Q93357923 .
+	skos:closeMatch	wd:Q93357923 .
 
 fibo-fbc-fct-mkti:Exchange-BINV
-	skos:related	wd:Q93360834 .
+	skos:closeMatch	wd:Q93360834 .
 
 fibo-fbc-fct-mkti:Exchange-BISI
-	skos:related	wd:Q107188790 .
+	skos:closeMatch	wd:Q107188790 .
 
 fibo-fbc-fct-mkti:Exchange-BIVA
-	skos:related	wd:Q39059835 .
+	skos:closeMatch	wd:Q39059835 .
 
 fibo-fbc-fct-mkti:Exchange-BKBF
-	skos:related	wd:Q107188892 .
+	skos:closeMatch	wd:Q107188892 .
 
 fibo-fbc-fct-mkti:Exchange-BKBR
-	skos:related	wd:Q93357235 .
+	skos:closeMatch	wd:Q93357235 .
 
 fibo-fbc-fct-mkti:Exchange-BKDM
-	skos:related	wd:Q93358726 .
+	skos:closeMatch	wd:Q93358726 .
 
 fibo-fbc-fct-mkti:Exchange-BKKT
-	skos:related	wd:Q83768717 .
+	skos:closeMatch	wd:Q83768717 .
 
 fibo-fbc-fct-mkti:Exchange-BKLF
-	skos:related	wd:Q107228028 .
+	skos:closeMatch	wd:Q107228028 .
 
 fibo-fbc-fct-mkti:Exchange-BKLN
-	skos:related	wd:Q93362847 .
+	skos:closeMatch	wd:Q93362847 .
 
 fibo-fbc-fct-mkti:Exchange-BKSK
-	skos:related	wd:Q93356753 .
+	skos:closeMatch	wd:Q93356753 .
 
 fibo-fbc-fct-mkti:Exchange-BLBB
-	skos:related	wd:Q152106 .
+	skos:closeMatch	wd:Q152106 .
 
 fibo-fbc-fct-mkti:Exchange-BLBF
-	skos:related	wd:Q107188631 .
+	skos:closeMatch	wd:Q107188631 .
 
 fibo-fbc-fct-mkti:Exchange-BLBS
-	skos:related	wd:Q107188765 .
+	skos:closeMatch	wd:Q107188765 .
 
 fibo-fbc-fct-mkti:Exchange-BLEQ
-	skos:related	wd:Q107227832 .
+	skos:closeMatch	wd:Q107227832 .
 
 fibo-fbc-fct-mkti:Exchange-BLEV
-	skos:related	wd:Q93362838 .
+	skos:closeMatch	wd:Q93362838 .
 
 fibo-fbc-fct-mkti:Exchange-BLIQ
-	skos:related	wd:Q107227836 .
+	skos:closeMatch	wd:Q107227836 .
 
 fibo-fbc-fct-mkti:Exchange-BLKX
-	skos:related	wd:Q107227824 .
+	skos:closeMatch	wd:Q107227824 .
 
 fibo-fbc-fct-mkti:Exchange-BLNK
-	skos:related	wd:Q107188478 .
+	skos:closeMatch	wd:Q107188478 .
 
 fibo-fbc-fct-mkti:Exchange-BLOX
-	skos:related	wd:Q107188461 .
+	skos:closeMatch	wd:Q107188461 .
 
 fibo-fbc-fct-mkti:Exchange-BLPX
-	skos:related	wd:Q93355330 .
+	skos:closeMatch	wd:Q93355330 .
 
 fibo-fbc-fct-mkti:Exchange-BLTD
-	skos:related	wd:Q16246480 .
+	skos:closeMatch	wd:Q16246480 .
 
 fibo-fbc-fct-mkti:Exchange-BLTX
-	skos:related	wd:Q107227957 .
+	skos:closeMatch	wd:Q107227957 .
 
 fibo-fbc-fct-mkti:Exchange-BLUE
-	skos:related	wd:Q107186935 .
+	skos:closeMatch	wd:Q107186935 .
 
 fibo-fbc-fct-mkti:Exchange-BLUX
-	skos:related	wd:Q93359277 .
+	skos:closeMatch	wd:Q93359277 .
 
 fibo-fbc-fct-mkti:Exchange-BLXA
-	skos:related	wd:Q93362055 .
+	skos:closeMatch	wd:Q93362055 .
 
 fibo-fbc-fct-mkti:Exchange-BMCL
-	skos:related	wd:Q107223104 .
+	skos:closeMatch	wd:Q107223104 .
 
 fibo-fbc-fct-mkti:Exchange-BMCM
-	skos:related	wd:Q4835978 .
+	skos:closeMatch	wd:Q4835978 .
 
 fibo-fbc-fct-mkti:Exchange-BMEA
-	skos:related	wd:Q107188786 .
+	skos:closeMatch	wd:Q107188786 .
 
 fibo-fbc-fct-mkti:Exchange-BMEX
-	skos:related	wd:Q609159 .
+	skos:closeMatch	wd:Q609159 .
 
 fibo-fbc-fct-mkti:Exchange-BMLB
-	skos:related	wd:Q93357877 .
+	skos:closeMatch	wd:Q93357877 .
 
 fibo-fbc-fct-mkti:Exchange-BMLI
-	skos:related	wd:Q93360330 .
+	skos:closeMatch	wd:Q93360330 .
 
 fibo-fbc-fct-mkti:Exchange-BMLS
-	skos:related	wd:Q107227775 .
+	skos:closeMatch	wd:Q107227775 .
 
 fibo-fbc-fct-mkti:Exchange-BMTF
-	skos:related	wd:Q93359263 .
+	skos:closeMatch	wd:Q93359263 .
 
 fibo-fbc-fct-mkti:Exchange-BMTS
-	skos:related	wd:Q107188472 .
+	skos:closeMatch	wd:Q107188472 .
 
 fibo-fbc-fct-mkti:Exchange-BNDD
-	skos:related	wd:Q107188475 .
+	skos:closeMatch	wd:Q107188475 .
 
 fibo-fbc-fct-mkti:Exchange-BNLD
-	skos:related	wd:Q93358367 .
+	skos:closeMatch	wd:Q93358367 .
 
 fibo-fbc-fct-mkti:Exchange-BNPA
-	skos:related	wd:Q93361333 .
+	skos:closeMatch	wd:Q93361333 .
 
 fibo-fbc-fct-mkti:Exchange-BNPF
-	skos:related	wd:Q93360206 .
+	skos:closeMatch	wd:Q93360206 .
 
 fibo-fbc-fct-mkti:Exchange-BNPP
-	skos:related	wd:Q93360210 .
+	skos:closeMatch	wd:Q93360210 .
 
 fibo-fbc-fct-mkti:Exchange-BNPS
-	skos:related	wd:Q93361976 .
+	skos:closeMatch	wd:Q93361976 .
 
 fibo-fbc-fct-mkti:Exchange-BNSX
-	skos:related	wd:Q93359717 .
+	skos:closeMatch	wd:Q93359717 .
 
 fibo-fbc-fct-mkti:Exchange-BNTW
-	skos:related	wd:Q107189178 .
+	skos:closeMatch	wd:Q107189178 .
 
 fibo-fbc-fct-mkti:Exchange-BNYC
-	skos:related	wd:Q93355333 .
+	skos:closeMatch	wd:Q93355333 .
 
 fibo-fbc-fct-mkti:Exchange-BOAL
-	skos:related	wd:Q107190317 .
+	skos:closeMatch	wd:Q107190317 .
 
 fibo-fbc-fct-mkti:Exchange-BOAT
-	skos:related	wd:Q93355338 .
+	skos:closeMatch	wd:Q93355338 .
 
 fibo-fbc-fct-mkti:Exchange-BOFS
-	skos:related	wd:Q93359690 .
+	skos:closeMatch	wd:Q93359690 .
 
 fibo-fbc-fct-mkti:Exchange-BOSC
-	skos:related	wd:Q93355340 .
+	skos:closeMatch	wd:Q93355340 .
 
 fibo-fbc-fct-mkti:Exchange-BOSD
-	skos:related	wd:Q107228026 .
+	skos:closeMatch	wd:Q107228026 .
 
 fibo-fbc-fct-mkti:Exchange-BOSP
-	skos:related	wd:Q107188649 .
+	skos:closeMatch	wd:Q107188649 .
 
 fibo-fbc-fct-mkti:Exchange-BOTC
-	skos:related	wd:Q107188714 .
+	skos:closeMatch	wd:Q107188714 .
 
 fibo-fbc-fct-mkti:Exchange-BOTE
-	skos:related	wd:Q107228098 .
+	skos:closeMatch	wd:Q107228098 .
 
 fibo-fbc-fct-mkti:Exchange-BOTV
-	skos:related	wd:Q107228097 .
+	skos:closeMatch	wd:Q107228097 .
 
 fibo-fbc-fct-mkti:Exchange-BOVA
-	skos:related	wd:Q5731659 .
+	skos:closeMatch	wd:Q5731659 .
 
 fibo-fbc-fct-mkti:Exchange-BOVM
-	skos:related	wd:Q9660710 .
+	skos:closeMatch	wd:Q9660710 .
 
 fibo-fbc-fct-mkti:Exchange-BPKO
-	skos:related	wd:Q93360762 .
+	skos:closeMatch	wd:Q93360762 .
 
 fibo-fbc-fct-mkti:Exchange-BPLC
-	skos:related	wd:Q93360287 .
+	skos:closeMatch	wd:Q93360287 .
 
 fibo-fbc-fct-mkti:Exchange-BPOL
-	skos:related	wd:Q107188753 .
+	skos:closeMatch	wd:Q107188753 .
 
 fibo-fbc-fct-mkti:Exchange-BPSX
-	skos:related	wd:Q93359713 .
+	skos:closeMatch	wd:Q93359713 .
 
 fibo-fbc-fct-mkti:Exchange-BRDE
-	skos:related	wd:Q93362976 .
+	skos:closeMatch	wd:Q93362976 .
 
 fibo-fbc-fct-mkti:Exchange-BRDL
-	skos:related	wd:Q107227847 .
+	skos:closeMatch	wd:Q107227847 .
 
 fibo-fbc-fct-mkti:Exchange-BRDS
-	skos:related	wd:Q107228119 .
+	skos:closeMatch	wd:Q107228119 .
 
 fibo-fbc-fct-mkti:Exchange-BREA
-	skos:related	wd:Q93356766 .
+	skos:closeMatch	wd:Q93356766 .
 
 fibo-fbc-fct-mkti:Exchange-BRFQ
-	skos:related	wd:Q107189175 .
+	skos:closeMatch	wd:Q107189175 .
 
 fibo-fbc-fct-mkti:Exchange-BRGA
-	skos:related	wd:Q93362992 .
+	skos:closeMatch	wd:Q93362992 .
 
 fibo-fbc-fct-mkti:Exchange-BRIX
-	skos:related	wd:Q93355345 .
+	skos:closeMatch	wd:Q93355345 .
 
 fibo-fbc-fct-mkti:Exchange-BRNX
-	skos:related	wd:Q93356057 .
+	skos:closeMatch	wd:Q93356057 .
 
 fibo-fbc-fct-mkti:Exchange-BSEX
-	skos:related	wd:Q2480956 .
+	skos:closeMatch	wd:Q2480956 .
 
 fibo-fbc-fct-mkti:Exchange-BSFX
-	skos:related	wd:Q107227744 .
+	skos:closeMatch	wd:Q107227744 .
 
 fibo-fbc-fct-mkti:Exchange-BSLB
-	skos:related	wd:Q93356759 .
+	skos:closeMatch	wd:Q93356759 .
 
 fibo-fbc-fct-mkti:Exchange-BSME
-	skos:related	wd:Q107188618 .
+	skos:closeMatch	wd:Q107188618 .
 
 fibo-fbc-fct-mkti:Exchange-BTAM
-	skos:related	wd:Q93356801 .
+	skos:closeMatch	wd:Q93356801 .
 
 fibo-fbc-fct-mkti:Exchange-BTEC
-	skos:related	wd:Q93355348 .
+	skos:closeMatch	wd:Q93355348 .
 
 fibo-fbc-fct-mkti:Exchange-BTEE
-	skos:related	wd:Q93355965 .
+	skos:closeMatch	wd:Q93355965 .
 
 fibo-fbc-fct-mkti:Exchange-BTFE
-	skos:related	wd:Q93360757 .
+	skos:closeMatch	wd:Q93360757 .
 
 fibo-fbc-fct-mkti:Exchange-BTLX
-	skos:related	wd:Q93360369 .
+	skos:closeMatch	wd:Q93360369 .
 
 fibo-fbc-fct-mkti:Exchange-BTNL
-	skos:related	wd:Q93358746 .
+	skos:closeMatch	wd:Q93358746 .
 
 fibo-fbc-fct-mkti:Exchange-BTQE
-	skos:related	wd:Q107189221 .
+	skos:closeMatch	wd:Q107189221 .
 
 fibo-fbc-fct-mkti:Exchange-BTQG
-	skos:related	wd:Q107189219 .
+	skos:closeMatch	wd:Q107189219 .
 
 fibo-fbc-fct-mkti:Exchange-BULK-2017-04-24
-	skos:related	wd:Q107188893 .
+	skos:closeMatch	wd:Q107188893 .
 
 fibo-fbc-fct-mkti:Exchange-BUYN
-	skos:related	wd:Q107227857 .
+	skos:closeMatch	wd:Q107227857 .
 
 fibo-fbc-fct-mkti:Exchange-BVCA
-	skos:related	wd:Q891563 .
+	skos:closeMatch	wd:Q891563 .
 
 fibo-fbc-fct-mkti:Exchange-BVMF
-	skos:related	wd:Q796297 .
+	skos:closeMatch	wd:Q796297 .
 
 fibo-fbc-fct-mkti:Exchange-BVUK
-	skos:related	wd:Q107188876 .
+	skos:closeMatch	wd:Q107188876 .
 
 fibo-fbc-fct-mkti:Exchange-BVUR
-	skos:related	wd:Q93355351 .
+	skos:closeMatch	wd:Q93355351 .
 
 fibo-fbc-fct-mkti:Exchange-BVUS
-	skos:related	wd:Q107189231 .
+	skos:closeMatch	wd:Q107189231 .
 
 fibo-fbc-fct-mkti:Exchange-BYXD
-	skos:related	wd:Q107188672 .
+	skos:closeMatch	wd:Q107188672 .
 
 fibo-fbc-fct-mkti:Exchange-BZXD
-	skos:related	wd:Q107188671 .
+	skos:closeMatch	wd:Q107188671 .
 
 fibo-fbc-fct-mkti:Exchange-C2OX
-	skos:related	wd:Q107188694 .
+	skos:closeMatch	wd:Q107188694 .
 
 fibo-fbc-fct-mkti:Exchange-CABK
-	skos:related	wd:Q93358232 .
+	skos:closeMatch	wd:Q93358232 .
 
 fibo-fbc-fct-mkti:Exchange-CABV
-	skos:related	wd:Q93359315 .
+	skos:closeMatch	wd:Q93359315 .
 
 fibo-fbc-fct-mkti:Exchange-CAES
-	skos:related	wd:Q107188481 .
+	skos:closeMatch	wd:Q107188481 .
 
 fibo-fbc-fct-mkti:Exchange-CALH
-	skos:related	wd:Q93361995 .
+	skos:closeMatch	wd:Q93361995 .
 
 fibo-fbc-fct-mkti:Exchange-CAND
-	skos:related	wd:Q17152597 .
+	skos:closeMatch	wd:Q17152597 .
 
 fibo-fbc-fct-mkti:Exchange-CANX
-	skos:related	wd:Q93355355 .
+	skos:closeMatch	wd:Q93355355 .
 
 fibo-fbc-fct-mkti:Exchange-CAPA
-	skos:related	wd:Q107228058 .
+	skos:closeMatch	wd:Q107228058 .
 
 fibo-fbc-fct-mkti:Exchange-CAPI
-	skos:related	wd:Q93359240 .
+	skos:closeMatch	wd:Q93359240 .
 
 fibo-fbc-fct-mkti:Exchange-CASI
-	skos:related	wd:Q93360241 .
+	skos:closeMatch	wd:Q93360241 .
 
 fibo-fbc-fct-mkti:Exchange-CATS
-	skos:related	wd:Q93355362 .
+	skos:closeMatch	wd:Q93355362 .
 
 fibo-fbc-fct-mkti:Exchange-CAVD
-	skos:related	wd:Q93358361 .
+	skos:closeMatch	wd:Q93358361 .
 
 fibo-fbc-fct-mkti:Exchange-CAVE
-	skos:related	wd:Q107223115 .
+	skos:closeMatch	wd:Q107223115 .
 
 fibo-fbc-fct-mkti:Exchange-CBAL
-	skos:related	wd:Q93361337 .
+	skos:closeMatch	wd:Q93361337 .
 
 fibo-fbc-fct-mkti:Exchange-CBKA
-	skos:related	wd:Q157617 .
+	skos:closeMatch	wd:Q157617 .
 
 fibo-fbc-fct-mkti:Exchange-CBKC
-	skos:related	wd:Q107188782 .
+	skos:closeMatch	wd:Q107188782 .
 
 fibo-fbc-fct-mkti:Exchange-CBKD
-	skos:related	wd:Q107223126 .
+	skos:closeMatch	wd:Q107223126 .
 
 fibo-fbc-fct-mkti:Exchange-CBKE
-	skos:related	wd:Q107188872 .
+	skos:closeMatch	wd:Q107188872 .
 
 fibo-fbc-fct-mkti:Exchange-CBKF
-	skos:related	wd:Q107190231 .
+	skos:closeMatch	wd:Q107190231 .
 
 fibo-fbc-fct-mkti:Exchange-CBKG
-	skos:related	wd:Q107190233 .
+	skos:closeMatch	wd:Q107190233 .
 
 fibo-fbc-fct-mkti:Exchange-CBLC-2022-04-25
-	skos:related	wd:Q107223070 .
+	skos:closeMatch	wd:Q107223070 .
 
 fibo-fbc-fct-mkti:Exchange-CBNL
-	skos:related	wd:Q93362120 .
+	skos:closeMatch	wd:Q93362120 .
 
 fibo-fbc-fct-mkti:Exchange-CBOE
-	skos:related	wd:Q93360797 .
+	skos:closeMatch	wd:Q93360797 .
 
 fibo-fbc-fct-mkti:Exchange-CBSK
-	skos:related	wd:Q93357919 .
+	skos:closeMatch	wd:Q93357919 .
 
 fibo-fbc-fct-mkti:Exchange-CBSX
-	skos:related	wd:Q107188695 .
+	skos:closeMatch	wd:Q107188695 .
 
 fibo-fbc-fct-mkti:Exchange-CBTS
-	skos:related	wd:Q107188697 .
+	skos:closeMatch	wd:Q107188697 .
 
 fibo-fbc-fct-mkti:Exchange-CCEU
-	skos:related	wd:Q93357239 .
+	skos:closeMatch	wd:Q93357239 .
 
 fibo-fbc-fct-mkti:Exchange-CCEX
-	skos:related	wd:Q93357767 .
+	skos:closeMatch	wd:Q93357767 .
 
 fibo-fbc-fct-mkti:Exchange-CCFX
-	skos:related	wd:Q5099682 .
+	skos:closeMatch	wd:Q5099682 .
 
 fibo-fbc-fct-mkti:Exchange-CCLX
-	skos:related	wd:Q5450169 .
+	skos:closeMatch	wd:Q5450169 .
 
 fibo-fbc-fct-mkti:Exchange-CCML
-	skos:related	wd:Q93359284 .
+	skos:closeMatch	wd:Q93359284 .
 
 fibo-fbc-fct-mkti:Exchange-CCMS
-	skos:related	wd:Q93358238 .
+	skos:closeMatch	wd:Q93358238 .
 
 fibo-fbc-fct-mkti:Exchange-CCO2
-	skos:related	wd:Q93355365 .
+	skos:closeMatch	wd:Q93355365 .
 
 fibo-fbc-fct-mkti:Exchange-CCRM
-	skos:related	wd:Q93360896 .
+	skos:closeMatch	wd:Q93360896 .
 
 fibo-fbc-fct-mkti:Exchange-CCXE
-	skos:related	wd:Q93360871 .
+	skos:closeMatch	wd:Q93360871 .
 
 fibo-fbc-fct-mkti:Exchange-CDED
-	skos:related	wd:Q93355369 .
+	skos:closeMatch	wd:Q93355369 .
 
 fibo-fbc-fct-mkti:Exchange-CDSI
-	skos:related	wd:Q107227855 .
+	skos:closeMatch	wd:Q107227855 .
 
 fibo-fbc-fct-mkti:Exchange-CDSL
-	skos:related	wd:Q93356470 .
+	skos:closeMatch	wd:Q93356470 .
 
 fibo-fbc-fct-mkti:Exchange-CECS
-	skos:related	wd:Q107188698 .
+	skos:closeMatch	wd:Q107188698 .
 
 fibo-fbc-fct-mkti:Exchange-CELP
-	skos:related	wd:Q107227834 .
+	skos:closeMatch	wd:Q107227834 .
 
 fibo-fbc-fct-mkti:Exchange-CEPL
-	skos:related	wd:Q93362059 .
+	skos:closeMatch	wd:Q93362059 .
 
 fibo-fbc-fct-mkti:Exchange-CEPU
-	skos:related	wd:Q93359281 .
+	skos:closeMatch	wd:Q93359281 .
 
 fibo-fbc-fct-mkti:Exchange-CESI
-	skos:related	wd:Q107227943 .
+	skos:closeMatch	wd:Q107227943 .
 
 fibo-fbc-fct-mkti:Exchange-CETI
-	skos:related	wd:Q5065671 .
+	skos:closeMatch	wd:Q5065671 .
 
 fibo-fbc-fct-mkti:Exchange-CEUD
-	skos:related	wd:Q107190284 .
+	skos:closeMatch	wd:Q107190284 .
 
 fibo-fbc-fct-mkti:Exchange-CEUO
-	skos:related	wd:Q107223112 .
+	skos:closeMatch	wd:Q107223112 .
 
 fibo-fbc-fct-mkti:Exchange-CEUX
-	skos:related	wd:Q107223048 .
+	skos:closeMatch	wd:Q107223048 .
 
 fibo-fbc-fct-mkti:Exchange-CFAU
-	skos:related	wd:Q107189168 .
+	skos:closeMatch	wd:Q107189168 .
 
 fibo-fbc-fct-mkti:Exchange-CFBC
-	skos:related	wd:Q107223117 .
+	skos:closeMatch	wd:Q107223117 .
 
 fibo-fbc-fct-mkti:Exchange-CFHK
-	skos:related	wd:Q107228117 .
+	skos:closeMatch	wd:Q107228117 .
 
 fibo-fbc-fct-mkti:Exchange-CFIF
-	skos:related	wd:Q93359823 .
+	skos:closeMatch	wd:Q93359823 .
 
 fibo-fbc-fct-mkti:Exchange-CFIL
-	skos:related	wd:Q93356764 .
+	skos:closeMatch	wd:Q93356764 .
 
 fibo-fbc-fct-mkti:Exchange-CFJP
-	skos:related	wd:Q107228118 .
+	skos:closeMatch	wd:Q107228118 .
 
 fibo-fbc-fct-mkti:Exchange-CFTW
-	skos:related	wd:Q93360305 .
+	skos:closeMatch	wd:Q93360305 .
 
 fibo-fbc-fct-mkti:Exchange-CGCM
-	skos:related	wd:Q107188636 .
+	skos:closeMatch	wd:Q107188636 .
 
 fibo-fbc-fct-mkti:Exchange-CGDB
-	skos:related	wd:Q107188780 .
+	skos:closeMatch	wd:Q107188780 .
 
 fibo-fbc-fct-mkti:Exchange-CGEB
-	skos:related	wd:Q107188781 .
+	skos:closeMatch	wd:Q107188781 .
 
 fibo-fbc-fct-mkti:Exchange-CGEC
-	skos:related	wd:Q107188791 .
+	skos:closeMatch	wd:Q107188791 .
 
 fibo-fbc-fct-mkti:Exchange-CGEE
-	skos:related	wd:Q107188767 .
+	skos:closeMatch	wd:Q107188767 .
 
 fibo-fbc-fct-mkti:Exchange-CGET
-	skos:related	wd:Q107227942 .
+	skos:closeMatch	wd:Q107227942 .
 
 fibo-fbc-fct-mkti:Exchange-CGGD
-	skos:related	wd:Q107227921 .
+	skos:closeMatch	wd:Q107227921 .
 
 fibo-fbc-fct-mkti:Exchange-CGIT
-	skos:related	wd:Q3661907 .
+	skos:closeMatch	wd:Q3661907 .
 
 fibo-fbc-fct-mkti:Exchange-CGMA
-	skos:related	wd:Q93359826 .
+	skos:closeMatch	wd:Q93359826 .
 
 fibo-fbc-fct-mkti:Exchange-CGMC
-	skos:related	wd:Q107189198 .
+	skos:closeMatch	wd:Q107189198 .
 
 fibo-fbc-fct-mkti:Exchange-CGMD
-	skos:related	wd:Q93358266 .
+	skos:closeMatch	wd:Q93358266 .
 
 fibo-fbc-fct-mkti:Exchange-CGMG
-	skos:related	wd:Q93356756 .
+	skos:closeMatch	wd:Q93356756 .
 
 fibo-fbc-fct-mkti:Exchange-CGMH
-	skos:related	wd:Q93355375 .
+	skos:closeMatch	wd:Q93355375 .
 
 fibo-fbc-fct-mkti:Exchange-CGMI
-	skos:related	wd:Q93355376 .
+	skos:closeMatch	wd:Q93355376 .
 
 fibo-fbc-fct-mkti:Exchange-CGML
-	skos:related	wd:Q93361473 .
+	skos:closeMatch	wd:Q93361473 .
 
 fibo-fbc-fct-mkti:Exchange-CGMT
-	skos:related	wd:Q107189199 .
+	skos:closeMatch	wd:Q107189199 .
 
 fibo-fbc-fct-mkti:Exchange-CGMU
-	skos:related	wd:Q107188477 .
+	skos:closeMatch	wd:Q107188477 .
 
 fibo-fbc-fct-mkti:Exchange-CGMX
-	skos:related	wd:Q93355380 .
+	skos:closeMatch	wd:Q93355380 .
 
 fibo-fbc-fct-mkti:Exchange-CGND
-	skos:related	wd:Q107223038 .
+	skos:closeMatch	wd:Q107223038 .
 
 fibo-fbc-fct-mkti:Exchange-CGQD
-	skos:related	wd:Q107188796 .
+	skos:closeMatch	wd:Q107188796 .
 
 fibo-fbc-fct-mkti:Exchange-CGQT
-	skos:related	wd:Q107227815 .
+	skos:closeMatch	wd:Q107227815 .
 
 fibo-fbc-fct-mkti:Exchange-CGTR
-	skos:related	wd:Q107188783 .
+	skos:closeMatch	wd:Q107188783 .
 
 fibo-fbc-fct-mkti:Exchange-CHEV
-	skos:related	wd:Q93355382 .
+	skos:closeMatch	wd:Q93355382 .
 
 fibo-fbc-fct-mkti:Exchange-CHIA
-	skos:related	wd:Q93355385 .
+	skos:closeMatch	wd:Q93355385 .
 
 fibo-fbc-fct-mkti:Exchange-CHIC
-	skos:related	wd:Q93355391 .
+	skos:closeMatch	wd:Q93355391 .
 
 fibo-fbc-fct-mkti:Exchange-CHID
-	skos:related	wd:Q107227868 .
+	skos:closeMatch	wd:Q107227868 .
 
 fibo-fbc-fct-mkti:Exchange-CHIJ
-	skos:related	wd:Q93355395 .
+	skos:closeMatch	wd:Q93355395 .
 
 fibo-fbc-fct-mkti:Exchange-CHIO
-	skos:related	wd:Q107188620 .
+	skos:closeMatch	wd:Q107188620 .
 
 fibo-fbc-fct-mkti:Exchange-CHIS
-	skos:related	wd:Q107227915 .
+	skos:closeMatch	wd:Q107227915 .
 
 fibo-fbc-fct-mkti:Exchange-CHIV
-	skos:related	wd:Q107223043 .
+	skos:closeMatch	wd:Q107223043 .
 
 fibo-fbc-fct-mkti:Exchange-CHIX
-	skos:related	wd:Q107188479 .
+	skos:closeMatch	wd:Q107188479 .
 
 fibo-fbc-fct-mkti:Exchange-CIBC
-	skos:related	wd:Q93356731 .
+	skos:closeMatch	wd:Q93356731 .
 
 fibo-fbc-fct-mkti:Exchange-CIBH
-	skos:related	wd:Q93362842 .
+	skos:closeMatch	wd:Q93362842 .
 
 fibo-fbc-fct-mkti:Exchange-CIBP
-	skos:related	wd:Q93357895 .
+	skos:closeMatch	wd:Q93357895 .
 
 fibo-fbc-fct-mkti:Exchange-CIMA
-	skos:related	wd:Q107227861 .
+	skos:closeMatch	wd:Q107227861 .
 
 fibo-fbc-fct-mkti:Exchange-CIMB
-	skos:related	wd:Q107188776 .
+	skos:closeMatch	wd:Q107188776 .
 
 fibo-fbc-fct-mkti:Exchange-CIMD
-	skos:related	wd:Q93362018 .
+	skos:closeMatch	wd:Q93362018 .
 
 fibo-fbc-fct-mkti:Exchange-CIME
-	skos:related	wd:Q107227909 .
+	skos:closeMatch	wd:Q107227909 .
 
 fibo-fbc-fct-mkti:Exchange-CIMV
-	skos:related	wd:Q107227908 .
+	skos:closeMatch	wd:Q107227908 .
 
 fibo-fbc-fct-mkti:Exchange-CIOI
-	skos:related	wd:Q107188766 .
+	skos:closeMatch	wd:Q107188766 .
 
 fibo-fbc-fct-mkti:Exchange-CISD
-	skos:related	wd:Q107228021 .
+	skos:closeMatch	wd:Q107228021 .
 
 fibo-fbc-fct-mkti:Exchange-CITD
-	skos:related	wd:Q107188480 .
+	skos:closeMatch	wd:Q107188480 .
 
 fibo-fbc-fct-mkti:Exchange-CITX
-	skos:related	wd:Q93355399 .
+	skos:closeMatch	wd:Q93355399 .
 
 fibo-fbc-fct-mkti:Exchange-CLAU
-	skos:related	wd:Q93356567 .
+	skos:closeMatch	wd:Q93356567 .
 
 fibo-fbc-fct-mkti:Exchange-CLCH
-	skos:related	wd:Q107227856 .
+	skos:closeMatch	wd:Q107227856 .
 
 fibo-fbc-fct-mkti:Exchange-CLHK
-	skos:related	wd:Q2931701 .
+	skos:closeMatch	wd:Q2931701 .
 
 fibo-fbc-fct-mkti:Exchange-CLJP
-	skos:related	wd:Q93356561 .
+	skos:closeMatch	wd:Q93356561 .
 
 fibo-fbc-fct-mkti:Exchange-CLMX
-	skos:related	wd:Q5380042 .
+	skos:closeMatch	wd:Q5380042 .
 
 fibo-fbc-fct-mkti:Exchange-CLPH
-	skos:related	wd:Q93356570 .
+	skos:closeMatch	wd:Q93356570 .
 
 fibo-fbc-fct-mkti:Exchange-CLTD
-	skos:related	wd:Q93355403 .
+	skos:closeMatch	wd:Q93355403 .
 
 fibo-fbc-fct-mkti:Exchange-CLVE
-	skos:related	wd:Q93356728 .
+	skos:closeMatch	wd:Q93356728 .
 
 fibo-fbc-fct-mkti:Exchange-CMCI
-	skos:related	wd:Q93356749 .
+	skos:closeMatch	wd:Q93356749 .
 
 fibo-fbc-fct-mkti:Exchange-CMEC
-	skos:related	wd:Q107190245 .
+	skos:closeMatch	wd:Q107190245 .
 
 fibo-fbc-fct-mkti:Exchange-CMEE
-	skos:related	wd:Q1023876 .
+	skos:closeMatch	wd:Q1023876 .
 
 fibo-fbc-fct-mkti:Exchange-CMES
-	skos:related	wd:Q107188696 .
+	skos:closeMatch	wd:Q107188696 .
 
 fibo-fbc-fct-mkti:Exchange-CMET
-	skos:related	wd:Q93360326 .
+	skos:closeMatch	wd:Q93360326 .
 
 fibo-fbc-fct-mkti:Exchange-CMMT
-	skos:related	wd:Q93360323 .
+	skos:closeMatch	wd:Q93360323 .
 
 fibo-fbc-fct-mkti:Exchange-CMSF
-	skos:related	wd:Q93359195 .
+	skos:closeMatch	wd:Q93359195 .
 
 fibo-fbc-fct-mkti:Exchange-CNSI
-	skos:related	wd:Q93359722 .
+	skos:closeMatch	wd:Q93359722 .
 
 fibo-fbc-fct-mkti:Exchange-COAL
-	skos:related	wd:Q93355408 .
+	skos:closeMatch	wd:Q93355408 .
 
 fibo-fbc-fct-mkti:Exchange-CODA
-	skos:related	wd:Q93357220 .
+	skos:closeMatch	wd:Q93357220 .
 
 fibo-fbc-fct-mkti:Exchange-COHR
-	skos:related	wd:Q93360798 .
+	skos:closeMatch	wd:Q93360798 .
 
 fibo-fbc-fct-mkti:Exchange-COMG
-	skos:related	wd:Q93357801 .
+	skos:closeMatch	wd:Q93357801 .
 
 fibo-fbc-fct-mkti:Exchange-COMM
-	skos:related	wd:Q93357797 .
+	skos:closeMatch	wd:Q93357797 .
 
 fibo-fbc-fct-mkti:Exchange-CONC
-	skos:related	wd:Q93357900 .
+	skos:closeMatch	wd:Q93357900 .
 
 fibo-fbc-fct-mkti:Exchange-CORE-2022-01-24
-	skos:related	wd:Q107227757 .
+	skos:closeMatch	wd:Q107227757 .
 
 fibo-fbc-fct-mkti:Exchange-COTC
-	skos:related	wd:Q107232468 .
+	skos:closeMatch	wd:Q107232468 .
 
 fibo-fbc-fct-mkti:Exchange-CPGX
-	skos:related	wd:Q93362763 .
+	skos:closeMatch	wd:Q93362763 .
 
 fibo-fbc-fct-mkti:Exchange-CPTX
-	skos:related	wd:Q93360351 .
+	skos:closeMatch	wd:Q93360351 .
 
 fibo-fbc-fct-mkti:Exchange-CRED
-	skos:related	wd:Q93355411 .
+	skos:closeMatch	wd:Q93355411 .
 
 fibo-fbc-fct-mkti:Exchange-CREM
-	skos:related	wd:Q93360901 .
+	skos:closeMatch	wd:Q93360901 .
 
 fibo-fbc-fct-mkti:Exchange-CRYD
-	skos:related	wd:Q93361302 .
+	skos:closeMatch	wd:Q93361302 .
 
 fibo-fbc-fct-mkti:Exchange-CRYP
-	skos:related	wd:Q93362028 .
+	skos:closeMatch	wd:Q93362028 .
 
 fibo-fbc-fct-mkti:Exchange-CRYX
-	skos:related	wd:Q93359268 .
+	skos:closeMatch	wd:Q93359268 .
 
 fibo-fbc-fct-mkti:Exchange-CSAG
-	skos:related	wd:Q93357808 .
+	skos:closeMatch	wd:Q93357808 .
 
 fibo-fbc-fct-mkti:Exchange-CSAS
-	skos:related	wd:Q341100 .
+	skos:closeMatch	wd:Q341100 .
 
 fibo-fbc-fct-mkti:Exchange-CSAU
-	skos:related	wd:Q93356072 .
+	skos:closeMatch	wd:Q93356072 .
 
 fibo-fbc-fct-mkti:Exchange-CSBX
-	skos:related	wd:Q107188730 .
+	skos:closeMatch	wd:Q107188730 .
 
 fibo-fbc-fct-mkti:Exchange-CSCF
-	skos:related	wd:Q107227739 .
+	skos:closeMatch	wd:Q107227739 .
 
 fibo-fbc-fct-mkti:Exchange-CSCL
-	skos:related	wd:Q107188771 .
+	skos:closeMatch	wd:Q107188771 .
 
 fibo-fbc-fct-mkti:Exchange-CSDA
-	skos:related	wd:Q93362895 .
+	skos:closeMatch	wd:Q93362895 .
 
 fibo-fbc-fct-mkti:Exchange-CSEC
-	skos:related	wd:Q93358747 .
+	skos:closeMatch	wd:Q93358747 .
 
 fibo-fbc-fct-mkti:Exchange-CSEU
-	skos:related	wd:Q93358758 .
+	skos:closeMatch	wd:Q93358758 .
 
 fibo-fbc-fct-mkti:Exchange-CSGI
-	skos:related	wd:Q93358337 .
+	skos:closeMatch	wd:Q93358337 .
 
 fibo-fbc-fct-mkti:Exchange-CSHK
-	skos:related	wd:Q93361291 .
+	skos:closeMatch	wd:Q93361291 .
 
 fibo-fbc-fct-mkti:Exchange-CSIN
-	skos:related	wd:Q93356455 .
+	skos:closeMatch	wd:Q93356455 .
 
 fibo-fbc-fct-mkti:Exchange-CSJP
-	skos:related	wd:Q93356077 .
+	skos:closeMatch	wd:Q93356077 .
 
 fibo-fbc-fct-mkti:Exchange-CSLB
-	skos:related	wd:Q93357285 .
+	skos:closeMatch	wd:Q93357285 .
 
 fibo-fbc-fct-mkti:Exchange-CSMD
-	skos:related	wd:Q93361391 .
+	skos:closeMatch	wd:Q93361391 .
 
 fibo-fbc-fct-mkti:Exchange-CSOB
-	skos:related	wd:Q46078814 .
+	skos:closeMatch	wd:Q46078814 .
 
 fibo-fbc-fct-mkti:Exchange-CSOT
-	skos:related	wd:Q107190318 .
+	skos:closeMatch	wd:Q107190318 .
 
 fibo-fbc-fct-mkti:Exchange-CSSI
-	skos:related	wd:Q107188625 .
+	skos:closeMatch	wd:Q107188625 .
 
 fibo-fbc-fct-mkti:Exchange-CSSX
-	skos:related	wd:Q93355414 .
+	skos:closeMatch	wd:Q93355414 .
 
 fibo-fbc-fct-mkti:Exchange-CSTO
-	skos:related	wd:Q107190282 .
+	skos:closeMatch	wd:Q107190282 .
 
 fibo-fbc-fct-mkti:Exchange-CSVW
-	skos:related	wd:Q107188772 .
+	skos:closeMatch	wd:Q107188772 .
 
 fibo-fbc-fct-mkti:Exchange-CSZH
-	skos:related	wd:Q93358306 .
+	skos:closeMatch	wd:Q93358306 .
 
 fibo-fbc-fct-mkti:Exchange-CURX
-	skos:related	wd:Q93362079 .
+	skos:closeMatch	wd:Q93362079 .
 
 fibo-fbc-fct-mkti:Exchange-CXAC
-	skos:related	wd:Q107228115 .
+	skos:closeMatch	wd:Q107228115 .
 
 fibo-fbc-fct-mkti:Exchange-CXAF
-	skos:related	wd:Q107189165 .
+	skos:closeMatch	wd:Q107189165 .
 
 fibo-fbc-fct-mkti:Exchange-CXAM
-	skos:related	wd:Q107228042 .
+	skos:closeMatch	wd:Q107228042 .
 
 fibo-fbc-fct-mkti:Exchange-CXAN
-	skos:related	wd:Q107228055 .
+	skos:closeMatch	wd:Q107228055 .
 
 fibo-fbc-fct-mkti:Exchange-CXAP
-	skos:related	wd:Q107188866 .
+	skos:closeMatch	wd:Q107188866 .
 
 fibo-fbc-fct-mkti:Exchange-CXAQ
-	skos:related	wd:Q107188741 .
+	skos:closeMatch	wd:Q107188741 .
 
 fibo-fbc-fct-mkti:Exchange-CXAR
-	skos:related	wd:Q107190310 .
+	skos:closeMatch	wd:Q107190310 .
 
 fibo-fbc-fct-mkti:Exchange-CXAV
-	skos:related	wd:Q107228041 .
+	skos:closeMatch	wd:Q107228041 .
 
 fibo-fbc-fct-mkti:Exchange-CXAW
-	skos:related	wd:Q107188628 .
+	skos:closeMatch	wd:Q107188628 .
 
 fibo-fbc-fct-mkti:Exchange-CXOT
-	skos:related	wd:Q107188642 .
+	skos:closeMatch	wd:Q107188642 .
 
 fibo-fbc-fct-mkti:Exchange-CXRT
-	skos:related	wd:Q107188495 .
+	skos:closeMatch	wd:Q107188495 .
 
 fibo-fbc-fct-mkti:Exchange-DAIW
-	skos:related	wd:Q93359792 .
+	skos:closeMatch	wd:Q93359792 .
 
 fibo-fbc-fct-mkti:Exchange-DAPA
-	skos:related	wd:Q93358867 .
+	skos:closeMatch	wd:Q93358867 .
 
 fibo-fbc-fct-mkti:Exchange-DASH
-	skos:related	wd:Q93363050 .
+	skos:closeMatch	wd:Q93363050 .
 
 fibo-fbc-fct-mkti:Exchange-DASI
-	skos:related	wd:Q93356501 .
+	skos:closeMatch	wd:Q93356501 .
 
 fibo-fbc-fct-mkti:Exchange-DAVY
-	skos:related	wd:Q93362943 .
+	skos:closeMatch	wd:Q93362943 .
 
 fibo-fbc-fct-mkti:Exchange-DBAB
-	skos:related	wd:Q93359280 .
+	skos:closeMatch	wd:Q93359280 .
 
 fibo-fbc-fct-mkti:Exchange-DBAG
-	skos:related	wd:Q66048 .
+	skos:closeMatch	wd:Q66048 .
 
 fibo-fbc-fct-mkti:Exchange-DBCR-2020-12-28
-	skos:related	wd:Q107223071 .
+	skos:closeMatch	wd:Q107223071 .
 
 fibo-fbc-fct-mkti:Exchange-DBCX-2020-12-28
-	skos:related	wd:Q107228027 .
+	skos:closeMatch	wd:Q107228027 .
 
 fibo-fbc-fct-mkti:Exchange-DBDC-2020-12-28
-	skos:related	wd:Q107228112 .
+	skos:closeMatch	wd:Q107228112 .
 
 fibo-fbc-fct-mkti:Exchange-DBES
-	skos:related	wd:Q107188626 .
+	skos:closeMatch	wd:Q107188626 .
 
 fibo-fbc-fct-mkti:Exchange-DBHK
-	skos:related	wd:Q93355417 .
+	skos:closeMatch	wd:Q93355417 .
 
 fibo-fbc-fct-mkti:Exchange-DBIX-2021-04-26
-	skos:related	wd:Q93360878 .
+	skos:closeMatch	wd:Q93360878 .
 
 fibo-fbc-fct-mkti:Exchange-DBLN
-	skos:related	wd:Q107188752 .
+	skos:closeMatch	wd:Q107188752 .
 
 fibo-fbc-fct-mkti:Exchange-DBLX
-	skos:related	wd:Q93356585 .
+	skos:closeMatch	wd:Q93356585 .
 
 fibo-fbc-fct-mkti:Exchange-DBMO
-	skos:related	wd:Q107227956 .
+	skos:closeMatch	wd:Q107227956 .
 
 fibo-fbc-fct-mkti:Exchange-DBOX
-	skos:related	wd:Q93355421 .
+	skos:closeMatch	wd:Q93355421 .
 
 fibo-fbc-fct-mkti:Exchange-DBSE-2020-12-28
-	skos:related	wd:Q107227944 .
+	skos:closeMatch	wd:Q107227944 .
 
 fibo-fbc-fct-mkti:Exchange-DBSX-2021-10-25
-	skos:related	wd:Q93355424 .
+	skos:closeMatch	wd:Q93355424 .
 
 fibo-fbc-fct-mkti:Exchange-DCSE
-	skos:related	wd:Q107188843 .
+	skos:closeMatch	wd:Q107188843 .
 
 fibo-fbc-fct-mkti:Exchange-DCSX
-	skos:related	wd:Q16834116 .
+	skos:closeMatch	wd:Q16834116 .
 
 fibo-fbc-fct-mkti:Exchange-DDTX
-	skos:related	wd:Q93357843 .
+	skos:closeMatch	wd:Q93357843 .
 
 fibo-fbc-fct-mkti:Exchange-DEAL
-	skos:related	wd:Q93355431 .
+	skos:closeMatch	wd:Q93355431 .
 
 fibo-fbc-fct-mkti:Exchange-DEKA
-	skos:related	wd:Q1183542 .
+	skos:closeMatch	wd:Q1183542 .
 
 fibo-fbc-fct-mkti:Exchange-DEXE
-	skos:related	wd:Q93363054 .
+	skos:closeMatch	wd:Q93363054 .
 
 fibo-fbc-fct-mkti:Exchange-DGCX
-	skos:related	wd:Q17002324 .
+	skos:closeMatch	wd:Q17002324 .
 
 fibo-fbc-fct-mkti:Exchange-DHEL
-	skos:related	wd:Q107223091 .
+	skos:closeMatch	wd:Q107223091 .
 
 fibo-fbc-fct-mkti:Exchange-DHLX
-	skos:related	wd:Q93356588 .
+	skos:closeMatch	wd:Q93356588 .
 
 fibo-fbc-fct-mkti:Exchange-DICE
-	skos:related	wd:Q107189187 .
+	skos:closeMatch	wd:Q107189187 .
 
 fibo-fbc-fct-mkti:Exchange-DIFX
-	skos:related	wd:Q6952530 .
+	skos:closeMatch	wd:Q6952530 .
 
 fibo-fbc-fct-mkti:Exchange-DKED
-	skos:related	wd:Q107188734 .
+	skos:closeMatch	wd:Q107188734 .
 
 fibo-fbc-fct-mkti:Exchange-DKFI
-	skos:related	wd:Q107228053 .
+	skos:closeMatch	wd:Q107228053 .
 
 fibo-fbc-fct-mkti:Exchange-DKTC
-	skos:related	wd:Q93355436 .
+	skos:closeMatch	wd:Q93355436 .
 
 fibo-fbc-fct-mkti:Exchange-DNDK
-	skos:related	wd:Q107227954 .
+	skos:closeMatch	wd:Q107227954 .
 
 fibo-fbc-fct-mkti:Exchange-DNFI
-	skos:related	wd:Q107223092 .
+	skos:closeMatch	wd:Q107223092 .
 
 fibo-fbc-fct-mkti:Exchange-DNIS
-	skos:related	wd:Q107189188 .
+	skos:closeMatch	wd:Q107189188 .
 
 fibo-fbc-fct-mkti:Exchange-DNSE
-	skos:related	wd:Q107190250 .
+	skos:closeMatch	wd:Q107190250 .
 
 fibo-fbc-fct-mkti:Exchange-DOSE
-	skos:related	wd:Q107189191 .
+	skos:closeMatch	wd:Q107189191 .
 
 fibo-fbc-fct-mkti:Exchange-DOTS
-	skos:related	wd:Q93359752 .
+	skos:closeMatch	wd:Q93359752 .
 
 fibo-fbc-fct-mkti:Exchange-DOWE
-	skos:related	wd:Q107228007 .
+	skos:closeMatch	wd:Q107228007 .
 
 fibo-fbc-fct-mkti:Exchange-DOWG
-	skos:related	wd:Q93362877 .
+	skos:closeMatch	wd:Q93362877 .
 
 fibo-fbc-fct-mkti:Exchange-DOWM
-	skos:related	wd:Q93362909 .
+	skos:closeMatch	wd:Q93362909 .
 
 fibo-fbc-fct-mkti:Exchange-DRCT
-	skos:related	wd:Q93355968 .
+	skos:closeMatch	wd:Q93355968 .
 
 fibo-fbc-fct-mkti:Exchange-DSMD
-	skos:related	wd:Q1648198 .
+	skos:closeMatch	wd:Q1648198 .
 
 fibo-fbc-fct-mkti:Exchange-DSME
-	skos:related	wd:Q107227745 .
+	skos:closeMatch	wd:Q107227745 .
 
 fibo-fbc-fct-mkti:Exchange-DSTO
-	skos:related	wd:Q107188674 .
+	skos:closeMatch	wd:Q107188674 .
 
 fibo-fbc-fct-mkti:Exchange-DUMX
-	skos:related	wd:Q1262903 .
+	skos:closeMatch	wd:Q1262903 .
 
 fibo-fbc-fct-mkti:Exchange-DUSA
-	skos:related	wd:Q107188709 .
+	skos:closeMatch	wd:Q107188709 .
 
 fibo-fbc-fct-mkti:Exchange-DUSB
-	skos:related	wd:Q107188710 .
+	skos:closeMatch	wd:Q107188710 .
 
 fibo-fbc-fct-mkti:Exchange-DUSC
-	skos:related	wd:Q107188711 .
+	skos:closeMatch	wd:Q107188711 .
 
 fibo-fbc-fct-mkti:Exchange-DUSD
-	skos:related	wd:Q107188712 .
+	skos:closeMatch	wd:Q107188712 .
 
 fibo-fbc-fct-mkti:Exchange-DVFX
-	skos:related	wd:Q93360840 .
+	skos:closeMatch	wd:Q93360840 .
 
 fibo-fbc-fct-mkti:Exchange-DWFI
-	skos:related	wd:Q93358752 .
+	skos:closeMatch	wd:Q93358752 .
 
 fibo-fbc-fct-mkti:Exchange-DWSF
-	skos:related	wd:Q107227737 .
+	skos:closeMatch	wd:Q107227737 .
 
 fibo-fbc-fct-mkti:Exchange-DZBK
-	skos:related	wd:Q93358755 .
+	skos:closeMatch	wd:Q93358755 .
 
 fibo-fbc-fct-mkti:Exchange-EBHU
-	skos:related	wd:Q93359210 .
+	skos:closeMatch	wd:Q93359210 .
 
 fibo-fbc-fct-mkti:Exchange-EBMX
-	skos:related	wd:Q107190329 .
+	skos:closeMatch	wd:Q107190329 .
 
 fibo-fbc-fct-mkti:Exchange-EBON
-	skos:related	wd:Q107223055 .
+	skos:closeMatch	wd:Q107223055 .
 
 fibo-fbc-fct-mkti:Exchange-EBRA
-	skos:related	wd:Q107227773 .
+	skos:closeMatch	wd:Q107227773 .
 
 fibo-fbc-fct-mkti:Exchange-EBSC
-	skos:related	wd:Q107188849 .
+	skos:closeMatch	wd:Q107188849 .
 
 fibo-fbc-fct-mkti:Exchange-EBSF
-	skos:related	wd:Q107228093 .
+	skos:closeMatch	wd:Q107228093 .
 
 fibo-fbc-fct-mkti:Exchange-EBSM-2021-11-22
-	skos:related	wd:Q107227823 .
+	skos:closeMatch	wd:Q107227823 .
 
 fibo-fbc-fct-mkti:Exchange-EBSN
-	skos:related	wd:Q93357803 .
+	skos:closeMatch	wd:Q93357803 .
 
 fibo-fbc-fct-mkti:Exchange-EBSS
-	skos:related	wd:Q93360191 .
+	skos:closeMatch	wd:Q93360191 .
 
 fibo-fbc-fct-mkti:Exchange-ECAG
-	skos:related	wd:Q3060505 .
+	skos:closeMatch	wd:Q3060505 .
 
 fibo-fbc-fct-mkti:Exchange-ECAL
-	skos:related	wd:Q93356603 .
+	skos:closeMatch	wd:Q93356603 .
 
 fibo-fbc-fct-mkti:Exchange-ECEU
-	skos:related	wd:Q93356799 .
+	skos:closeMatch	wd:Q93356799 .
 
 fibo-fbc-fct-mkti:Exchange-ECGS
-	skos:related	wd:Q107227950 .
+	skos:closeMatch	wd:Q107227950 .
 
 fibo-fbc-fct-mkti:Exchange-ECSL
-	skos:related	wd:Q93357908 .
+	skos:closeMatch	wd:Q93357908 .
 
 fibo-fbc-fct-mkti:Exchange-EDDP
-	skos:related	wd:Q107188482 .
+	skos:closeMatch	wd:Q107188482 .
 
 fibo-fbc-fct-mkti:Exchange-EDGA
-	skos:related	wd:Q107188484 .
+	skos:closeMatch	wd:Q107188484 .
 
 fibo-fbc-fct-mkti:Exchange-EDGD
-	skos:related	wd:Q107188485 .
+	skos:closeMatch	wd:Q107188485 .
 
 fibo-fbc-fct-mkti:Exchange-EDGO
-	skos:related	wd:Q107223052 .
+	skos:closeMatch	wd:Q107223052 .
 
 fibo-fbc-fct-mkti:Exchange-EDGX
-	skos:related	wd:Q107188486 .
+	skos:closeMatch	wd:Q107188486 .
 
 fibo-fbc-fct-mkti:Exchange-EDRF
-	skos:related	wd:Q93359313 .
+	skos:closeMatch	wd:Q93359313 .
 
 fibo-fbc-fct-mkti:Exchange-EEAL
-	skos:related	wd:Q93361363 .
+	skos:closeMatch	wd:Q93361363 .
 
 fibo-fbc-fct-mkti:Exchange-EESE
-	skos:related	wd:Q93355439 .
+	skos:closeMatch	wd:Q93355439 .
 
 fibo-fbc-fct-mkti:Exchange-EGMT
-	skos:related	wd:Q93358828 .
+	skos:closeMatch	wd:Q93358828 .
 
 fibo-fbc-fct-mkti:Exchange-EGSI
-	skos:related	wd:Q93357795 .
+	skos:closeMatch	wd:Q93357795 .
 
 fibo-fbc-fct-mkti:Exchange-EIXE
-	skos:related	wd:Q107188777 .
+	skos:closeMatch	wd:Q107188777 .
 
 fibo-fbc-fct-mkti:Exchange-ELEU
-	skos:related	wd:Q107223080 .
+	skos:closeMatch	wd:Q107223080 .
 
 fibo-fbc-fct-mkti:Exchange-ELIX
-	skos:related	wd:Q107190275 .
+	skos:closeMatch	wd:Q107190275 .
 
 fibo-fbc-fct-mkti:Exchange-ELNO
-	skos:related	wd:Q107223083 .
+	skos:closeMatch	wd:Q107223083 .
 
 fibo-fbc-fct-mkti:Exchange-ELSE
-	skos:related	wd:Q107223081 .
+	skos:closeMatch	wd:Q107223081 .
 
 fibo-fbc-fct-mkti:Exchange-ELUK
-	skos:related	wd:Q107223056 .
+	skos:closeMatch	wd:Q107223056 .
 
 fibo-fbc-fct-mkti:Exchange-ELXE
-	skos:related	wd:Q93358719 .
+	skos:closeMatch	wd:Q93358719 .
 
 fibo-fbc-fct-mkti:Exchange-EMBX
-	skos:related	wd:Q93358777 .
+	skos:closeMatch	wd:Q93358777 .
 
 fibo-fbc-fct-mkti:Exchange-EMDR
-	skos:related	wd:Q107188487 .
+	skos:closeMatch	wd:Q107188487 .
 
 fibo-fbc-fct-mkti:Exchange-EMIB
-	skos:related	wd:Q107223105 .
+	skos:closeMatch	wd:Q107223105 .
 
 fibo-fbc-fct-mkti:Exchange-EMID
-	skos:related	wd:Q3717073 .
+	skos:closeMatch	wd:Q3717073 .
 
 fibo-fbc-fct-mkti:Exchange-EMIR
-	skos:related	wd:Q107188488 .
+	skos:closeMatch	wd:Q107188488 .
 
 fibo-fbc-fct-mkti:Exchange-EMLD
-	skos:related	wd:Q107223109 .
+	skos:closeMatch	wd:Q107223109 .
 
 fibo-fbc-fct-mkti:Exchange-EMTF
-	skos:related	wd:Q107190285 .
+	skos:closeMatch	wd:Q107190285 .
 
 fibo-fbc-fct-mkti:Exchange-ENAX
-	skos:related	wd:Q107188450 .
+	skos:closeMatch	wd:Q107188450 .
 
 fibo-fbc-fct-mkti:Exchange-ENCL
-	skos:related	wd:Q93357186 .
+	skos:closeMatch	wd:Q93357186 .
 
 fibo-fbc-fct-mkti:Exchange-ENSY-2021-10-25
-	skos:related	wd:Q107223063 .
+	skos:closeMatch	wd:Q107223063 .
 
 fibo-fbc-fct-mkti:Exchange-ENXL
-	skos:related	wd:Q107188857 .
+	skos:closeMatch	wd:Q107188857 .
 
 fibo-fbc-fct-mkti:Exchange-EOTC
-	skos:related	wd:Q93355892 .
+	skos:closeMatch	wd:Q93355892 .
 
 fibo-fbc-fct-mkti:Exchange-EPEX
-	skos:related	wd:Q1275627 .
+	skos:closeMatch	wd:Q1275627 .
 
 fibo-fbc-fct-mkti:Exchange-EPRL
-	skos:related	wd:Q107227864 .
+	skos:closeMatch	wd:Q107227864 .
 
 fibo-fbc-fct-mkti:Exchange-EQIE
-	skos:related	wd:Q21072594 .
+	skos:closeMatch	wd:Q21072594 .
 
 fibo-fbc-fct-mkti:Exchange-EQLD
-	skos:related	wd:Q21072594 .
+	skos:closeMatch	wd:Q21072594 .
 
 fibo-fbc-fct-mkti:Exchange-EQSL
-	skos:related	wd:Q107228123 .
+	skos:closeMatch	wd:Q107228123 .
 
 fibo-fbc-fct-mkti:Exchange-EQTA
-	skos:related	wd:Q107188531 .
+	skos:closeMatch	wd:Q107188531 .
 
 fibo-fbc-fct-mkti:Exchange-EQTB
-	skos:related	wd:Q107188532 .
+	skos:closeMatch	wd:Q107188532 .
 
 fibo-fbc-fct-mkti:Exchange-EQTC
-	skos:related	wd:Q107188534 .
+	skos:closeMatch	wd:Q107188534 .
 
 fibo-fbc-fct-mkti:Exchange-EQTD
-	skos:related	wd:Q107188614 .
+	skos:closeMatch	wd:Q107188614 .
 
 fibo-fbc-fct-mkti:Exchange-ERBX
-	skos:related	wd:Q93362800 .
+	skos:closeMatch	wd:Q93362800 .
 
 fibo-fbc-fct-mkti:Exchange-ERIS
-	skos:related	wd:Q93355895 .
+	skos:closeMatch	wd:Q93355895 .
 
 fibo-fbc-fct-mkti:Exchange-ERST
-	skos:related	wd:Q93356606 .
+	skos:closeMatch	wd:Q93356606 .
 
 fibo-fbc-fct-mkti:Exchange-ESTO
-	skos:related	wd:Q107188862 .
+	skos:closeMatch	wd:Q107188862 .
 
 fibo-fbc-fct-mkti:Exchange-ETFP
-	skos:related	wd:Q107190313 .
+	skos:closeMatch	wd:Q107190313 .
 
 fibo-fbc-fct-mkti:Exchange-ETLX
-	skos:related	wd:Q3734661 .
+	skos:closeMatch	wd:Q3734661 .
 
 fibo-fbc-fct-mkti:Exchange-ETPA
-	skos:related	wd:Q93356613 .
+	skos:closeMatch	wd:Q93356613 .
 
 fibo-fbc-fct-mkti:Exchange-ETSC
-	skos:related	wd:Q93355897 .
+	skos:closeMatch	wd:Q93355897 .
 
 fibo-fbc-fct-mkti:Exchange-EUCC
-	skos:related	wd:Q93361360 .
+	skos:closeMatch	wd:Q93361360 .
 
 fibo-fbc-fct-mkti:Exchange-EUWA
-	skos:related	wd:Q93362016 .
+	skos:closeMatch	wd:Q93362016 .
 
 fibo-fbc-fct-mkti:Exchange-EUWB
-	skos:related	wd:Q107228050 .
+	skos:closeMatch	wd:Q107228050 .
 
 fibo-fbc-fct-mkti:Exchange-EUWX
-	skos:related	wd:Q107188658 .
+	skos:closeMatch	wd:Q107188658 .
 
 fibo-fbc-fct-mkti:Exchange-EXAA
-	skos:related	wd:Q107188489 .
+	skos:closeMatch	wd:Q107188489 .
 
 fibo-fbc-fct-mkti:Exchange-EXBO
-	skos:related	wd:Q107188448 .
+	skos:closeMatch	wd:Q107188448 .
 
 fibo-fbc-fct-mkti:Exchange-EXCP
-	skos:related	wd:Q107223058 .
+	skos:closeMatch	wd:Q107223058 .
 
 fibo-fbc-fct-mkti:Exchange-EXDC
-	skos:related	wd:Q107227945 .
+	skos:closeMatch	wd:Q107227945 .
 
 fibo-fbc-fct-mkti:Exchange-EXEU
-	skos:related	wd:Q3061761 .
+	skos:closeMatch	wd:Q3061761 .
 
 fibo-fbc-fct-mkti:Exchange-EXLP
-	skos:related	wd:Q107188769 .
+	skos:closeMatch	wd:Q107188769 .
 
 fibo-fbc-fct-mkti:Exchange-EXMP
-	skos:related	wd:Q107188445 .
+	skos:closeMatch	wd:Q107188445 .
 
 fibo-fbc-fct-mkti:Exchange-EXOR
-	skos:related	wd:Q107188446 .
+	skos:closeMatch	wd:Q107188446 .
 
 fibo-fbc-fct-mkti:Exchange-EXOT
-	skos:related	wd:Q93357255 .
+	skos:closeMatch	wd:Q93357255 .
 
 fibo-fbc-fct-mkti:Exchange-EXPM
-	skos:related	wd:Q107227852 .
+	skos:closeMatch	wd:Q107227852 .
 
 fibo-fbc-fct-mkti:Exchange-EXSB
-	skos:related	wd:Q107223037 .
+	skos:closeMatch	wd:Q107223037 .
 
 fibo-fbc-fct-mkti:Exchange-EXSD
-	skos:related	wd:Q107227726 .
+	skos:closeMatch	wd:Q107227726 .
 
 fibo-fbc-fct-mkti:Exchange-EXSE
-	skos:related	wd:Q93362798 .
+	skos:closeMatch	wd:Q93362798 .
 
 fibo-fbc-fct-mkti:Exchange-EXSF
-	skos:related	wd:Q107227910 .
+	skos:closeMatch	wd:Q107227910 .
 
 fibo-fbc-fct-mkti:Exchange-EXSH
-	skos:related	wd:Q107227913 .
+	skos:closeMatch	wd:Q107227913 .
 
 fibo-fbc-fct-mkti:Exchange-EXSI
-	skos:related	wd:Q107227941 .
+	skos:closeMatch	wd:Q107227941 .
 
 fibo-fbc-fct-mkti:Exchange-EXSP
-	skos:related	wd:Q107227911 .
+	skos:closeMatch	wd:Q107227911 .
 
 fibo-fbc-fct-mkti:Exchange-EXSY
-	skos:related	wd:Q93359761 .
+	skos:closeMatch	wd:Q93359761 .
 
 fibo-fbc-fct-mkti:Exchange-EXTR
-	skos:related	wd:Q93362980 .
+	skos:closeMatch	wd:Q93362980 .
 
 fibo-fbc-fct-mkti:Exchange-EXVP
-	skos:related	wd:Q107188447 .
+	skos:closeMatch	wd:Q107188447 .
 
 fibo-fbc-fct-mkti:Exchange-EXYY
-	skos:related	wd:Q107223036 .
+	skos:closeMatch	wd:Q107223036 .
 
 fibo-fbc-fct-mkti:Exchange-FAIR
-	skos:related	wd:Q93355901 .
+	skos:closeMatch	wd:Q93355901 .
 
 fibo-fbc-fct-mkti:Exchange-FAST
-	skos:related	wd:Q93355904 .
+	skos:closeMatch	wd:Q93355904 .
 
 fibo-fbc-fct-mkti:Exchange-FBSI
-	skos:related	wd:Q93362998 .
+	skos:closeMatch	wd:Q93362998 .
 
 fibo-fbc-fct-mkti:Exchange-FCBT
-	skos:related	wd:Q107189164 .
+	skos:closeMatch	wd:Q107189164 .
 
 fibo-fbc-fct-mkti:Exchange-FCME
-	skos:related	wd:Q107190247 .
+	skos:closeMatch	wd:Q107190247 .
 
 fibo-fbc-fct-mkti:Exchange-FGEX
-	skos:related	wd:Q93361312 .
+	skos:closeMatch	wd:Q93361312 .
 
 fibo-fbc-fct-mkti:Exchange-FICO
-	skos:related	wd:Q93356841 .
+	skos:closeMatch	wd:Q93356841 .
 
 fibo-fbc-fct-mkti:Exchange-FICX
-	skos:related	wd:Q93356038 .
+	skos:closeMatch	wd:Q93356038 .
 
 fibo-fbc-fct-mkti:Exchange-FIED
-	skos:related	wd:Q107188663 .
+	skos:closeMatch	wd:Q107188663 .
 
 fibo-fbc-fct-mkti:Exchange-FINC
-	skos:related	wd:Q107188863 .
+	skos:closeMatch	wd:Q107188863 .
 
 fibo-fbc-fct-mkti:Exchange-FINN
-	skos:related	wd:Q107188850 .
+	skos:closeMatch	wd:Q107188850 .
 
 fibo-fbc-fct-mkti:Exchange-FINO
-	skos:related	wd:Q107188851 .
+	skos:closeMatch	wd:Q107188851 .
 
 fibo-fbc-fct-mkti:Exchange-FINR
-	skos:related	wd:Q387071 .
+	skos:closeMatch	wd:Q387071 .
 
 fibo-fbc-fct-mkti:Exchange-FINY
-	skos:related	wd:Q107188852 .
+	skos:closeMatch	wd:Q107188852 .
 
 fibo-fbc-fct-mkti:Exchange-FISH
-	skos:related	wd:Q1385602 .
+	skos:closeMatch	wd:Q1385602 .
 
 fibo-fbc-fct-mkti:Exchange-FISU
-	skos:related	wd:Q93359672 .
+	skos:closeMatch	wd:Q93359672 .
 
 fibo-fbc-fct-mkti:Exchange-FLTB
-	skos:related	wd:Q107227867 .
+	skos:closeMatch	wd:Q107227867 .
 
 fibo-fbc-fct-mkti:Exchange-FLTR
-	skos:related	wd:Q107227839 .
+	skos:closeMatch	wd:Q107227839 .
 
 fibo-fbc-fct-mkti:Exchange-FLWX
-	skos:related	wd:Q21009903 .
+	skos:closeMatch	wd:Q21009903 .
 
 fibo-fbc-fct-mkti:Exchange-FMTS
-	skos:related	wd:Q93355908 .
+	skos:closeMatch	wd:Q93355908 .
 
 fibo-fbc-fct-mkti:Exchange-FNCS
-	skos:related	wd:Q107223127 .
+	skos:closeMatch	wd:Q107223127 .
 
 fibo-fbc-fct-mkti:Exchange-FNDK
-	skos:related	wd:Q107227952 .
+	skos:closeMatch	wd:Q107227952 .
 
 fibo-fbc-fct-mkti:Exchange-FNEE
-	skos:related	wd:Q107188834 .
+	skos:closeMatch	wd:Q107188834 .
 
 fibo-fbc-fct-mkti:Exchange-FNFI
-	skos:related	wd:Q107223130 .
+	skos:closeMatch	wd:Q107223130 .
 
 fibo-fbc-fct-mkti:Exchange-FNIS
-	skos:related	wd:Q107189186 .
+	skos:closeMatch	wd:Q107189186 .
 
 fibo-fbc-fct-mkti:Exchange-FNIX
-	skos:related	wd:Q93361998 .
+	skos:closeMatch	wd:Q93361998 .
 
 fibo-fbc-fct-mkti:Exchange-FNLT
-	skos:related	wd:Q107223032 .
+	skos:closeMatch	wd:Q107223032 .
 
 fibo-fbc-fct-mkti:Exchange-FNLV
-	skos:related	wd:Q107188842 .
+	skos:closeMatch	wd:Q107188842 .
 
 fibo-fbc-fct-mkti:Exchange-FNSE
-	skos:related	wd:Q107188728 .
+	skos:closeMatch	wd:Q107188728 .
 
 fibo-fbc-fct-mkti:Exchange-FNUK
-	skos:related	wd:Q93359207 .
+	skos:closeMatch	wd:Q93359207 .
 
 fibo-fbc-fct-mkti:Exchange-FRAA
-	skos:related	wd:Q151139 .
+	skos:closeMatch	wd:Q151139 .
 
 fibo-fbc-fct-mkti:Exchange-FRAB
-	skos:related	wd:Q107188745 .
+	skos:closeMatch	wd:Q107188745 .
 
 fibo-fbc-fct-mkti:Exchange-FRAS
-	skos:related	wd:Q107228033 .
+	skos:closeMatch	wd:Q107228033 .
 
 fibo-fbc-fct-mkti:Exchange-FRAU
-	skos:related	wd:Q107189212 .
+	skos:closeMatch	wd:Q107189212 .
 
 fibo-fbc-fct-mkti:Exchange-FRAV
-	skos:related	wd:Q107228005 .
+	skos:closeMatch	wd:Q107228005 .
 
 fibo-fbc-fct-mkti:Exchange-FRAW
-	skos:related	wd:Q107228006 .
+	skos:closeMatch	wd:Q107228006 .
 
 fibo-fbc-fct-mkti:Exchange-FREI
-	skos:related	wd:Q107188793 .
+	skos:closeMatch	wd:Q107188793 .
 
 fibo-fbc-fct-mkti:Exchange-FRTE
-	skos:related	wd:Q93360336 .
+	skos:closeMatch	wd:Q93360336 .
 
 fibo-fbc-fct-mkti:Exchange-FSEF
-	skos:related	wd:Q93358831 .
+	skos:closeMatch	wd:Q93358831 .
 
 fibo-fbc-fct-mkti:Exchange-FSHX
-	skos:related	wd:Q93355910 .
+	skos:closeMatch	wd:Q93355910 .
 
 fibo-fbc-fct-mkti:Exchange-FSME
-	skos:related	wd:Q107227746 .
+	skos:closeMatch	wd:Q107227746 .
 
 fibo-fbc-fct-mkti:Exchange-FTFM
-	skos:related	wd:Q107189230 .
+	skos:closeMatch	wd:Q107189230 .
 
 fibo-fbc-fct-mkti:Exchange-FTFS
-	skos:related	wd:Q67812730 .
+	skos:closeMatch	wd:Q67812730 .
 
 fibo-fbc-fct-mkti:Exchange-FTUS
-	skos:related	wd:Q21009903 .
+	skos:closeMatch	wd:Q21009903 .
 
 fibo-fbc-fct-mkti:Exchange-FXAL
-	skos:related	wd:Q18150157 .
+	skos:closeMatch	wd:Q18150157 .
 
 fibo-fbc-fct-mkti:Exchange-FXCL
-	skos:related	wd:Q107227841 .
+	skos:closeMatch	wd:Q107227841 .
 
 fibo-fbc-fct-mkti:Exchange-FXCM
-	skos:related	wd:Q5973741 .
+	skos:closeMatch	wd:Q5973741 .
 
 fibo-fbc-fct-mkti:Exchange-FXFM
-	skos:related	wd:Q107227764 .
+	skos:closeMatch	wd:Q107227764 .
 
 fibo-fbc-fct-mkti:Exchange-FXGB
-	skos:related	wd:Q5973741 .
+	skos:closeMatch	wd:Q5973741 .
 
 fibo-fbc-fct-mkti:Exchange-FXOP
-	skos:related	wd:Q93360221 .
+	skos:closeMatch	wd:Q93360221 .
 
 fibo-fbc-fct-mkti:Exchange-FXRQ
-	skos:related	wd:Q107189192 .
+	skos:closeMatch	wd:Q107189192 .
 
 fibo-fbc-fct-mkti:Exchange-FXSW
-	skos:related	wd:Q107190326 .
+	skos:closeMatch	wd:Q107190326 .
 
 fibo-fbc-fct-mkti:Exchange-G1XX
-	skos:related	wd:Q93357196 .
+	skos:closeMatch	wd:Q93357196 .
 
 fibo-fbc-fct-mkti:Exchange-GBOT
-	skos:related	wd:Q93355914 .
+	skos:closeMatch	wd:Q93355914 .
 
 fibo-fbc-fct-mkti:Exchange-GBUL
-	skos:related	wd:Q69322780 .
+	skos:closeMatch	wd:Q69322780 .
 
 fibo-fbc-fct-mkti:Exchange-GBWB
-	skos:related	wd:Q107227759 .
+	skos:closeMatch	wd:Q107227759 .
 
 fibo-fbc-fct-mkti:Exchange-GEMX
-	skos:related	wd:Q93355919 .
+	skos:closeMatch	wd:Q93355919 .
 
 fibo-fbc-fct-mkti:Exchange-GETB
-	skos:related	wd:Q93359259 .
+	skos:closeMatch	wd:Q93359259 .
 
 fibo-fbc-fct-mkti:Exchange-GFBM
-	skos:related	wd:Q107190243 .
+	skos:closeMatch	wd:Q107190243 .
 
 fibo-fbc-fct-mkti:Exchange-GFBO
-	skos:related	wd:Q107228104 .
+	skos:closeMatch	wd:Q107228104 .
 
 fibo-fbc-fct-mkti:Exchange-GFIB
-	skos:related	wd:Q1328736 .
+	skos:closeMatch	wd:Q1328736 .
 
 fibo-fbc-fct-mkti:Exchange-GFIC
-	skos:related	wd:Q93355927 .
+	skos:closeMatch	wd:Q93355927 .
 
 fibo-fbc-fct-mkti:Exchange-GFIF
-	skos:related	wd:Q107188490 .
+	skos:closeMatch	wd:Q107188490 .
 
 fibo-fbc-fct-mkti:Exchange-GFIN
-	skos:related	wd:Q107188491 .
+	skos:closeMatch	wd:Q107188491 .
 
 fibo-fbc-fct-mkti:Exchange-GFIR
-	skos:related	wd:Q107188492 .
+	skos:closeMatch	wd:Q107188492 .
 
 fibo-fbc-fct-mkti:Exchange-GFKS
-	skos:related	wd:Q93359681 .
+	skos:closeMatch	wd:Q93359681 .
 
 fibo-fbc-fct-mkti:Exchange-GFPO
-	skos:related	wd:Q107223033 .
+	skos:closeMatch	wd:Q107223033 .
 
 fibo-fbc-fct-mkti:Exchange-GFSM
-	skos:related	wd:Q107190321 .
+	skos:closeMatch	wd:Q107190321 .
 
 fibo-fbc-fct-mkti:Exchange-GFSO
-	skos:related	wd:Q107188719 .
+	skos:closeMatch	wd:Q107188719 .
 
 fibo-fbc-fct-mkti:Exchange-GIPB
-	skos:related	wd:Q93358352 .
+	skos:closeMatch	wd:Q93358352 .
 
 fibo-fbc-fct-mkti:Exchange-GLBX
-	skos:related	wd:Q107190248 .
+	skos:closeMatch	wd:Q107190248 .
 
 fibo-fbc-fct-mkti:Exchange-GLLC
-	skos:related	wd:Q93355931 .
+	skos:closeMatch	wd:Q93355931 .
 
 fibo-fbc-fct-mkti:Exchange-GLMX
-	skos:related	wd:Q93356484 .
+	skos:closeMatch	wd:Q93356484 .
 
 fibo-fbc-fct-mkti:Exchange-GLOM
-	skos:related	wd:Q93360805 .
+	skos:closeMatch	wd:Q93360805 .
 
 fibo-fbc-fct-mkti:Exchange-GLPS
-	skos:related	wd:Q93357193 .
+	skos:closeMatch	wd:Q93357193 .
 
 fibo-fbc-fct-mkti:Exchange-GLPX
-	skos:related	wd:Q93361471 .
+	skos:closeMatch	wd:Q93361471 .
 
 fibo-fbc-fct-mkti:Exchange-GMEG
-	skos:related	wd:Q93356044 .
+	skos:closeMatch	wd:Q93356044 .
 
 fibo-fbc-fct-mkti:Exchange-GMEO
-	skos:related	wd:Q107227933 .
+	skos:closeMatch	wd:Q107227933 .
 
 fibo-fbc-fct-mkti:Exchange-GMES
-	skos:related	wd:Q93363041 .
+	skos:closeMatch	wd:Q93363041 .
 
 fibo-fbc-fct-mkti:Exchange-GMGD
-	skos:related	wd:Q93356840 .
+	skos:closeMatch	wd:Q93356840 .
 
 fibo-fbc-fct-mkti:Exchange-GMGL
-	skos:related	wd:Q93361405 .
+	skos:closeMatch	wd:Q93361405 .
 
 fibo-fbc-fct-mkti:Exchange-GMNI
-	skos:related	wd:Q107188903 .
+	skos:closeMatch	wd:Q107188903 .
 
 fibo-fbc-fct-mkti:Exchange-GMTF
-	skos:related	wd:Q18157247 .
+	skos:closeMatch	wd:Q18157247 .
 
 fibo-fbc-fct-mkti:Exchange-GOTC
-	skos:related	wd:Q93359851 .
+	skos:closeMatch	wd:Q93359851 .
 
 fibo-fbc-fct-mkti:Exchange-GOVX
-	skos:related	wd:Q93355932 .
+	skos:closeMatch	wd:Q93355932 .
 
 fibo-fbc-fct-mkti:Exchange-GPBC
-	skos:related	wd:Q93362866 .
+	skos:closeMatch	wd:Q93362866 .
 
 fibo-fbc-fct-mkti:Exchange-GREE
-	skos:related	wd:Q93355937 .
+	skos:closeMatch	wd:Q93355937 .
 
 fibo-fbc-fct-mkti:Exchange-GRIF
-	skos:related	wd:Q93357259 .
+	skos:closeMatch	wd:Q93357259 .
 
 fibo-fbc-fct-mkti:Exchange-GRIO
-	skos:related	wd:Q107223096 .
+	skos:closeMatch	wd:Q107223096 .
 
 fibo-fbc-fct-mkti:Exchange-GRSE
-	skos:related	wd:Q93358236 .
+	skos:closeMatch	wd:Q93358236 .
 
 fibo-fbc-fct-mkti:Exchange-GSAL
-	skos:related	wd:Q93359308 .
+	skos:closeMatch	wd:Q93359308 .
 
 fibo-fbc-fct-mkti:Exchange-GSBE
-	skos:related	wd:Q93362966 .
+	skos:closeMatch	wd:Q93362966 .
 
 fibo-fbc-fct-mkti:Exchange-GSCI
-	skos:related	wd:Q5622746 .
+	skos:closeMatch	wd:Q5622746 .
 
 fibo-fbc-fct-mkti:Exchange-GSCO
-	skos:related	wd:Q193326 .
+	skos:closeMatch	wd:Q193326 .
 
 fibo-fbc-fct-mkti:Exchange-GSEF
-	skos:related	wd:Q93356697 .
+	skos:closeMatch	wd:Q93356697 .
 
 fibo-fbc-fct-mkti:Exchange-GSEI
-	skos:related	wd:Q107228090 .
+	skos:closeMatch	wd:Q107228090 .
 
 fibo-fbc-fct-mkti:Exchange-GSIB
-	skos:related	wd:Q93359257 .
+	skos:closeMatch	wd:Q93359257 .
 
 fibo-fbc-fct-mkti:Exchange-GSIL
-	skos:related	wd:Q93356575 .
+	skos:closeMatch	wd:Q93356575 .
 
 fibo-fbc-fct-mkti:Exchange-GSPX
-	skos:related	wd:Q107190271 .
+	skos:closeMatch	wd:Q107190271 .
 
 fibo-fbc-fct-mkti:Exchange-GSSI
-	skos:related	wd:Q107223101 .
+	skos:closeMatch	wd:Q107223101 .
 
 fibo-fbc-fct-mkti:Exchange-GSXC
-	skos:related	wd:Q93362906 .
+	skos:closeMatch	wd:Q93362906 .
 
 fibo-fbc-fct-mkti:Exchange-GSXH
-	skos:related	wd:Q107227756 .
+	skos:closeMatch	wd:Q107227756 .
 
 fibo-fbc-fct-mkti:Exchange-GSXK
-	skos:related	wd:Q93362902 .
+	skos:closeMatch	wd:Q93362902 .
 
 fibo-fbc-fct-mkti:Exchange-GSXL
-	skos:related	wd:Q4137946 .
+	skos:closeMatch	wd:Q4137946 .
 
 fibo-fbc-fct-mkti:Exchange-GSXT
-	skos:related	wd:Q93362904 .
+	skos:closeMatch	wd:Q93362904 .
 
 fibo-fbc-fct-mkti:Exchange-GTCO
-	skos:related	wd:Q93355941 .
+	skos:closeMatch	wd:Q93355941 .
 
 fibo-fbc-fct-mkti:Exchange-GTSX
-	skos:related	wd:Q93362105 .
+	skos:closeMatch	wd:Q93362105 .
 
 fibo-fbc-fct-mkti:Exchange-GTXE
-	skos:related	wd:Q93362747 .
+	skos:closeMatch	wd:Q93362747 .
 
 fibo-fbc-fct-mkti:Exchange-GTXS
-	skos:related	wd:Q93358826 .
+	skos:closeMatch	wd:Q93358826 .
 
 fibo-fbc-fct-mkti:Exchange-GXMA
-	skos:related	wd:Q93355946 .
+	skos:closeMatch	wd:Q93355946 .
 
 fibo-fbc-fct-mkti:Exchange-HAMA
-	skos:related	wd:Q107188748 .
+	skos:closeMatch	wd:Q107188748 .
 
 fibo-fbc-fct-mkti:Exchange-HAMB
-	skos:related	wd:Q107188749 .
+	skos:closeMatch	wd:Q107188749 .
 
 fibo-fbc-fct-mkti:Exchange-HAML
-	skos:related	wd:Q107227829 .
+	skos:closeMatch	wd:Q107227829 .
 
 fibo-fbc-fct-mkti:Exchange-HAMM
-	skos:related	wd:Q107189185 .
+	skos:closeMatch	wd:Q107189185 .
 
 fibo-fbc-fct-mkti:Exchange-HAMN
-	skos:related	wd:Q107188792 .
+	skos:closeMatch	wd:Q107188792 .
 
 fibo-fbc-fct-mkti:Exchange-HANA
-	skos:related	wd:Q107188750 .
+	skos:closeMatch	wd:Q107188750 .
 
 fibo-fbc-fct-mkti:Exchange-HANB
-	skos:related	wd:Q107188751 .
+	skos:closeMatch	wd:Q107188751 .
 
 fibo-fbc-fct-mkti:Exchange-HBFR
-	skos:related	wd:Q93360279 .
+	skos:closeMatch	wd:Q93360279 .
 
 fibo-fbc-fct-mkti:Exchange-HBPL
-	skos:related	wd:Q93362032 .
+	skos:closeMatch	wd:Q93362032 .
 
 fibo-fbc-fct-mkti:Exchange-HCHC
-	skos:related	wd:Q93357857 .
+	skos:closeMatch	wd:Q93357857 .
 
 fibo-fbc-fct-mkti:Exchange-HDAT
-	skos:related	wd:Q93355947 .
+	skos:closeMatch	wd:Q93355947 .
 
 fibo-fbc-fct-mkti:Exchange-HEDE
-	skos:related	wd:Q107227863 .
+	skos:closeMatch	wd:Q107227863 .
 
 fibo-fbc-fct-mkti:Exchange-HEGX
-	skos:related	wd:Q6957592 .
+	skos:closeMatch	wd:Q6957592 .
 
 fibo-fbc-fct-mkti:Exchange-HELA
-	skos:related	wd:Q93359298 .
+	skos:closeMatch	wd:Q93359298 .
 
 fibo-fbc-fct-mkti:Exchange-HEMO
-	skos:related	wd:Q93361415 .
+	skos:closeMatch	wd:Q93361415 .
 
 fibo-fbc-fct-mkti:Exchange-HESP
-	skos:related	wd:Q107227858 .
+	skos:closeMatch	wd:Q107227858 .
 
 fibo-fbc-fct-mkti:Exchange-HMOD
-	skos:related	wd:Q107188493 .
+	skos:closeMatch	wd:Q107188493 .
 
 fibo-fbc-fct-mkti:Exchange-HMTF
-	skos:related	wd:Q93355951 .
+	skos:closeMatch	wd:Q93355951 .
 
 fibo-fbc-fct-mkti:Exchange-HOTC
-	skos:related	wd:Q107188451 .
+	skos:closeMatch	wd:Q107188451 .
 
 fibo-fbc-fct-mkti:Exchange-HPCO
-	skos:related	wd:Q107188894 .
+	skos:closeMatch	wd:Q107188894 .
 
 fibo-fbc-fct-mkti:Exchange-HPCS
-	skos:related	wd:Q107227916 .
+	skos:closeMatch	wd:Q107227916 .
 
 fibo-fbc-fct-mkti:Exchange-HPCV
-	skos:related	wd:Q107188761 .
+	skos:closeMatch	wd:Q107188761 .
 
 fibo-fbc-fct-mkti:Exchange-HPCX
-	skos:related	wd:Q93357210 .
+	skos:closeMatch	wd:Q93357210 .
 
 fibo-fbc-fct-mkti:Exchange-HPPO
-	skos:related	wd:Q93357190 .
+	skos:closeMatch	wd:Q93357190 .
 
 fibo-fbc-fct-mkti:Exchange-HREU
-	skos:related	wd:Q93362963 .
+	skos:closeMatch	wd:Q93362963 .
 
 fibo-fbc-fct-mkti:Exchange-HRFQ
-	skos:related	wd:Q107190235 .
+	skos:closeMatch	wd:Q107190235 .
 
 fibo-fbc-fct-mkti:Exchange-HRSI
-	skos:related	wd:Q93360760 .
+	skos:closeMatch	wd:Q93360760 .
 
 fibo-fbc-fct-mkti:Exchange-HRTF
-	skos:related	wd:Q25245262 .
+	skos:closeMatch	wd:Q25245262 .
 
 fibo-fbc-fct-mkti:Exchange-HRTX
-	skos:related	wd:Q25245262 .
+	skos:closeMatch	wd:Q25245262 .
 
 fibo-fbc-fct-mkti:Exchange-HSBC
-	skos:related	wd:Q93362995 .
+	skos:closeMatch	wd:Q93362995 .
 
 fibo-fbc-fct-mkti:Exchange-HSBT
-	skos:related	wd:Q93360946 .
+	skos:closeMatch	wd:Q93360946 .
 
 fibo-fbc-fct-mkti:Exchange-HSFX
-	skos:related	wd:Q93355954 .
+	skos:closeMatch	wd:Q93355954 .
 
 fibo-fbc-fct-mkti:Exchange-HSTC
-	skos:related	wd:Q2227403 .
+	skos:closeMatch	wd:Q2227403 .
 
 fibo-fbc-fct-mkti:Exchange-HSXA
-	skos:related	wd:Q93355962 .
+	skos:closeMatch	wd:Q93355962 .
 
 fibo-fbc-fct-mkti:Exchange-HUDX
-	skos:related	wd:Q93361303 .
+	skos:closeMatch	wd:Q93361303 .
 
 fibo-fbc-fct-mkti:Exchange-HUPX
-	skos:related	wd:Q22909085 .
+	skos:closeMatch	wd:Q22909085 .
 
 fibo-fbc-fct-mkti:Exchange-IATS
-	skos:related	wd:Q3901581 .
+	skos:closeMatch	wd:Q3901581 .
 
 fibo-fbc-fct-mkti:Exchange-IBAL
-	skos:related	wd:Q93357320 .
+	skos:closeMatch	wd:Q93357320 .
 
 fibo-fbc-fct-mkti:Exchange-IBEQ
-	skos:related	wd:Q107223110 .
+	skos:closeMatch	wd:Q107223110 .
 
 fibo-fbc-fct-mkti:Exchange-IBER
-	skos:related	wd:Q5907815 .
+	skos:closeMatch	wd:Q5907815 .
 
 fibo-fbc-fct-mkti:Exchange-IBEX
-	skos:related	wd:Q93357334 .
+	skos:closeMatch	wd:Q93357334 .
 
 fibo-fbc-fct-mkti:Exchange-IBGH
-	skos:related	wd:Q93356609 .
+	skos:closeMatch	wd:Q93356609 .
 
 fibo-fbc-fct-mkti:Exchange-IBIS
-	skos:related	wd:Q93359678 .
+	skos:closeMatch	wd:Q93359678 .
 
 fibo-fbc-fct-mkti:Exchange-IBUL
-	skos:related	wd:Q107228016 .
+	skos:closeMatch	wd:Q107228016 .
 
 fibo-fbc-fct-mkti:Exchange-ICBX
-	skos:related	wd:Q107228035 .
+	skos:closeMatch	wd:Q107228035 .
 
 fibo-fbc-fct-mkti:Exchange-ICDX
-	skos:related	wd:Q17051501 .
+	skos:closeMatch	wd:Q17051501 .
 
 fibo-fbc-fct-mkti:Exchange-ICEL
-	skos:related	wd:Q17058909 .
+	skos:closeMatch	wd:Q17058909 .
 
 fibo-fbc-fct-mkti:Exchange-ICEO
-	skos:related	wd:Q93362984 .
+	skos:closeMatch	wd:Q93362984 .
 
 fibo-fbc-fct-mkti:Exchange-ICES
-	skos:related	wd:Q107190266 .
+	skos:closeMatch	wd:Q107190266 .
 
 fibo-fbc-fct-mkti:Exchange-ICOT
-	skos:related	wd:Q93363006 .
+	skos:closeMatch	wd:Q93363006 .
 
 fibo-fbc-fct-mkti:Exchange-ICPM
-	skos:related	wd:Q93358733 .
+	skos:closeMatch	wd:Q93358733 .
 
 fibo-fbc-fct-mkti:Exchange-ICRO
-	skos:related	wd:Q107189214 .
+	skos:closeMatch	wd:Q107189214 .
 
 fibo-fbc-fct-mkti:Exchange-ICSU
-	skos:related	wd:Q107227742 .
+	skos:closeMatch	wd:Q107227742 .
 
 fibo-fbc-fct-mkti:Exchange-ICUR
-	skos:related	wd:Q93362084 .
+	skos:closeMatch	wd:Q93362084 .
 
 fibo-fbc-fct-mkti:Exchange-ICXL
-	skos:related	wd:Q93355974 .
+	skos:closeMatch	wd:Q93355974 .
 
 fibo-fbc-fct-mkti:Exchange-ICXR
-	skos:related	wd:Q107227951 .
+	skos:closeMatch	wd:Q107227951 .
 
 fibo-fbc-fct-mkti:Exchange-IEBS
-	skos:related	wd:Q107228094 .
+	skos:closeMatch	wd:Q107228094 .
 
 fibo-fbc-fct-mkti:Exchange-IECL
-	skos:related	wd:Q107227918 .
+	skos:closeMatch	wd:Q107227918 .
 
 fibo-fbc-fct-mkti:Exchange-IEPA
-	skos:related	wd:Q107188496 .
+	skos:closeMatch	wd:Q107188496 .
 
 fibo-fbc-fct-mkti:Exchange-IEXD
-	skos:related	wd:Q107228096 .
+	skos:closeMatch	wd:Q107228096 .
 
 fibo-fbc-fct-mkti:Exchange-IEXG
-	skos:related	wd:Q16846407 .
+	skos:closeMatch	wd:Q16846407 .
 
 fibo-fbc-fct-mkti:Exchange-IFAD
-	skos:related	wd:Q93362788 .
+	skos:closeMatch	wd:Q93362788 .
 
 fibo-fbc-fct-mkti:Exchange-IFBX
-	skos:related	wd:Q5961076 .
+	skos:closeMatch	wd:Q5961076 .
 
 fibo-fbc-fct-mkti:Exchange-IFCA
-	skos:related	wd:Q8025740 .
+	skos:closeMatch	wd:Q8025740 .
 
 fibo-fbc-fct-mkti:Exchange-IFED
-	skos:related	wd:Q107223046 .
+	skos:closeMatch	wd:Q107223046 .
 
 fibo-fbc-fct-mkti:Exchange-IFEN
-	skos:related	wd:Q107227766 .
+	skos:closeMatch	wd:Q107227766 .
 
 fibo-fbc-fct-mkti:Exchange-IFEU
-	skos:related	wd:Q93355979 .
+	skos:closeMatch	wd:Q93355979 .
 
 fibo-fbc-fct-mkti:Exchange-IFLL
-	skos:related	wd:Q107188656 .
+	skos:closeMatch	wd:Q107188656 .
 
 fibo-fbc-fct-mkti:Exchange-IFLO
-	skos:related	wd:Q107188655 .
+	skos:closeMatch	wd:Q107188655 .
 
 fibo-fbc-fct-mkti:Exchange-IFLS
-	skos:related	wd:Q93360199 .
+	skos:closeMatch	wd:Q93360199 .
 
 fibo-fbc-fct-mkti:Exchange-IFLX
-	skos:related	wd:Q107227920 .
+	skos:closeMatch	wd:Q107227920 .
 
 fibo-fbc-fct-mkti:Exchange-IFSG
-	skos:related	wd:Q93358760 .
+	skos:closeMatch	wd:Q93358760 .
 
 fibo-fbc-fct-mkti:Exchange-IFSM
-	skos:related	wd:Q107188923 .
+	skos:closeMatch	wd:Q107188923 .
 
 fibo-fbc-fct-mkti:Exchange-IFUS
-	skos:related	wd:Q1519402 .
+	skos:closeMatch	wd:Q1519402 .
 
 fibo-fbc-fct-mkti:Exchange-IFUT
-	skos:related	wd:Q107223124 .
+	skos:closeMatch	wd:Q107223124 .
 
 fibo-fbc-fct-mkti:Exchange-IFXA
-	skos:related	wd:Q107190328 .
+	skos:closeMatch	wd:Q107190328 .
 
 fibo-fbc-fct-mkti:Exchange-IFXC
-	skos:related	wd:Q93360234 .
+	skos:closeMatch	wd:Q93360234 .
 
 fibo-fbc-fct-mkti:Exchange-IFXR
-	skos:related	wd:Q107190327 .
+	skos:closeMatch	wd:Q107190327 .
 
 fibo-fbc-fct-mkti:Exchange-IGDL
-	skos:related	wd:Q93362926 .
+	skos:closeMatch	wd:Q93362926 .
 
 fibo-fbc-fct-mkti:Exchange-IINX
-	skos:related	wd:Q28419378 .
+	skos:closeMatch	wd:Q28419378 .
 
 fibo-fbc-fct-mkti:Exchange-IKBS
-	skos:related	wd:Q93359831 .
+	skos:closeMatch	wd:Q93359831 .
 
 fibo-fbc-fct-mkti:Exchange-IMAG
-	skos:related	wd:Q107188498 .
+	skos:closeMatch	wd:Q107188498 .
 
 fibo-fbc-fct-mkti:Exchange-IMBD
-	skos:related	wd:Q107188499 .
+	skos:closeMatch	wd:Q107188499 .
 
 fibo-fbc-fct-mkti:Exchange-IMCC
-	skos:related	wd:Q107227816 .
+	skos:closeMatch	wd:Q107227816 .
 
 fibo-fbc-fct-mkti:Exchange-IMCE
-	skos:related	wd:Q107188755 .
+	skos:closeMatch	wd:Q107188755 .
 
 fibo-fbc-fct-mkti:Exchange-IMCG
-	skos:related	wd:Q107188860 .
+	skos:closeMatch	wd:Q107188860 .
 
 fibo-fbc-fct-mkti:Exchange-IMCO
-	skos:related	wd:Q107188500 .
+	skos:closeMatch	wd:Q107188500 .
 
 fibo-fbc-fct-mkti:Exchange-IMCR
-	skos:related	wd:Q107188501 .
+	skos:closeMatch	wd:Q107188501 .
 
 fibo-fbc-fct-mkti:Exchange-IMCS
-	skos:related	wd:Q16920292 .
+	skos:closeMatch	wd:Q16920292 .
 
 fibo-fbc-fct-mkti:Exchange-IMCT
-	skos:related	wd:Q93360922 .
+	skos:closeMatch	wd:Q93360922 .
 
 fibo-fbc-fct-mkti:Exchange-IMED
-	skos:related	wd:Q107228048 .
+	skos:closeMatch	wd:Q107228048 .
 
 fibo-fbc-fct-mkti:Exchange-IMEN
-	skos:related	wd:Q107188502 .
+	skos:closeMatch	wd:Q107188502 .
 
 fibo-fbc-fct-mkti:Exchange-IMEQ
-	skos:related	wd:Q107188503 .
+	skos:closeMatch	wd:Q107188503 .
 
 fibo-fbc-fct-mkti:Exchange-IMET
-	skos:related	wd:Q107223125 .
+	skos:closeMatch	wd:Q107223125 .
 
 fibo-fbc-fct-mkti:Exchange-IMEX
-	skos:related	wd:Q6066844 .
+	skos:closeMatch	wd:Q6066844 .
 
 fibo-fbc-fct-mkti:Exchange-IMFD
-	skos:related	wd:Q107228036 .
+	skos:closeMatch	wd:Q107228036 .
 
 fibo-fbc-fct-mkti:Exchange-IMFX
-	skos:related	wd:Q107188497 .
+	skos:closeMatch	wd:Q107188497 .
 
 fibo-fbc-fct-mkti:Exchange-IMGB
-	skos:related	wd:Q107227845 .
+	skos:closeMatch	wd:Q107227845 .
 
 fibo-fbc-fct-mkti:Exchange-IMGI
-	skos:related	wd:Q107223053 .
+	skos:closeMatch	wd:Q107223053 .
 
 fibo-fbc-fct-mkti:Exchange-IMIR
-	skos:related	wd:Q107188504 .
+	skos:closeMatch	wd:Q107188504 .
 
 fibo-fbc-fct-mkti:Exchange-IMMH
-	skos:related	wd:Q93356814 .
+	skos:closeMatch	wd:Q93356814 .
 
 fibo-fbc-fct-mkti:Exchange-IMMM
-	skos:related	wd:Q107227814 .
+	skos:closeMatch	wd:Q107227814 .
 
 fibo-fbc-fct-mkti:Exchange-IMRD
-	skos:related	wd:Q107227813 .
+	skos:closeMatch	wd:Q107227813 .
 
 fibo-fbc-fct-mkti:Exchange-IMSB
-	skos:related	wd:Q107188718 .
+	skos:closeMatch	wd:Q107188718 .
 
 fibo-fbc-fct-mkti:Exchange-IMTF
-	skos:related	wd:Q93362123 .
+	skos:closeMatch	wd:Q93362123 .
 
 fibo-fbc-fct-mkti:Exchange-INCA
-	skos:related	wd:Q107188905 .
+	skos:closeMatch	wd:Q107188905 .
 
 fibo-fbc-fct-mkti:Exchange-INCR
-	skos:related	wd:Q93360212 .
+	skos:closeMatch	wd:Q93360212 .
 
 fibo-fbc-fct-mkti:Exchange-INGB
-	skos:related	wd:Q93356582 .
+	skos:closeMatch	wd:Q93356582 .
 
 fibo-fbc-fct-mkti:Exchange-INGE
-	skos:related	wd:Q107188775 .
+	skos:closeMatch	wd:Q107188775 .
 
 fibo-fbc-fct-mkti:Exchange-INGF
-	skos:related	wd:Q107188788 .
+	skos:closeMatch	wd:Q107188788 .
 
 fibo-fbc-fct-mkti:Exchange-INGW
-	skos:related	wd:Q93358812 .
+	skos:closeMatch	wd:Q93358812 .
 
 fibo-fbc-fct-mkti:Exchange-INSE
-	skos:related	wd:Q107189229 .
+	skos:closeMatch	wd:Q107189229 .
 
 fibo-fbc-fct-mkti:Exchange-INVE
-	skos:related	wd:Q93359775 .
+	skos:closeMatch	wd:Q93359775 .
 
 fibo-fbc-fct-mkti:Exchange-IOCD
-	skos:related	wd:Q107188736 .
+	skos:closeMatch	wd:Q107188736 .
 
 fibo-fbc-fct-mkti:Exchange-IOED
-	skos:related	wd:Q107188739 .
+	skos:closeMatch	wd:Q107188739 .
 
 fibo-fbc-fct-mkti:Exchange-IOFI
-	skos:related	wd:Q107228032 .
+	skos:closeMatch	wd:Q107228032 .
 
 fibo-fbc-fct-mkti:Exchange-IOFX
-	skos:related	wd:Q107188527 .
+	skos:closeMatch	wd:Q107188527 .
 
 fibo-fbc-fct-mkti:Exchange-IOGB
-	skos:related	wd:Q107188740 .
+	skos:closeMatch	wd:Q107188740 .
 
 fibo-fbc-fct-mkti:Exchange-IOGI
-	skos:related	wd:Q107188737 .
+	skos:closeMatch	wd:Q107188737 .
 
 fibo-fbc-fct-mkti:Exchange-IOIR
-	skos:related	wd:Q107188525 .
+	skos:closeMatch	wd:Q107188525 .
 
 fibo-fbc-fct-mkti:Exchange-IOMM
-	skos:related	wd:Q107188526 .
+	skos:closeMatch	wd:Q107188526 .
 
 fibo-fbc-fct-mkti:Exchange-IOTC
-	skos:related	wd:Q107189177 .
+	skos:closeMatch	wd:Q107189177 .
 
 fibo-fbc-fct-mkti:Exchange-IOTF
-	skos:related	wd:Q93363024 .
+	skos:closeMatch	wd:Q93363024 .
 
 fibo-fbc-fct-mkti:Exchange-IPSX
-	skos:related	wd:Q93359233 .
+	skos:closeMatch	wd:Q93359233 .
 
 fibo-fbc-fct-mkti:Exchange-IPXP
-	skos:related	wd:Q107190257 .
+	skos:closeMatch	wd:Q107190257 .
 
 fibo-fbc-fct-mkti:Exchange-IPXW
-	skos:related	wd:Q107188778 .
+	skos:closeMatch	wd:Q107188778 .
 
 fibo-fbc-fct-mkti:Exchange-ISBA-2021-12-27
-	skos:related	wd:Q93357184 .
+	skos:closeMatch	wd:Q93357184 .
 
 fibo-fbc-fct-mkti:Exchange-ISBV
-	skos:related	wd:Q93361297 .
+	skos:closeMatch	wd:Q93361297 .
 
 fibo-fbc-fct-mkti:Exchange-ISDA
-	skos:related	wd:Q16215229 .
+	skos:closeMatch	wd:Q16215229 .
 
 fibo-fbc-fct-mkti:Exchange-ISEX
-	skos:related	wd:Q17050115 .
+	skos:closeMatch	wd:Q17050115 .
 
 fibo-fbc-fct-mkti:Exchange-ISSI
-	skos:related	wd:Q93356600 .
+	skos:closeMatch	wd:Q93356600 .
 
 fibo-fbc-fct-mkti:Exchange-ISWA
-	skos:related	wd:Q93355980 .
+	skos:closeMatch	wd:Q93355980 .
 
 fibo-fbc-fct-mkti:Exchange-ISWB
-	skos:related	wd:Q107227743 .
+	skos:closeMatch	wd:Q107227743 .
 
 fibo-fbc-fct-mkti:Exchange-ISWC
-	skos:related	wd:Q107228049 .
+	skos:closeMatch	wd:Q107228049 .
 
 fibo-fbc-fct-mkti:Exchange-ISWE
-	skos:related	wd:Q107190283 .
+	skos:closeMatch	wd:Q107190283 .
 
 fibo-fbc-fct-mkti:Exchange-ISWN
-	skos:related	wd:Q107188846 .
+	skos:closeMatch	wd:Q107188846 .
 
 fibo-fbc-fct-mkti:Exchange-ISWO
-	skos:related	wd:Q107223076 .
+	skos:closeMatch	wd:Q107223076 .
 
 fibo-fbc-fct-mkti:Exchange-ISWP
-	skos:related	wd:Q93360346 .
+	skos:closeMatch	wd:Q93360346 .
 
 fibo-fbc-fct-mkti:Exchange-ISWR
-	skos:related	wd:Q107188519 .
+	skos:closeMatch	wd:Q107188519 .
 
 fibo-fbc-fct-mkti:Exchange-ISWT
-	skos:related	wd:Q107227827 .
+	skos:closeMatch	wd:Q107227827 .
 
 fibo-fbc-fct-mkti:Exchange-ISWV
-	skos:related	wd:Q107190281 .
+	skos:closeMatch	wd:Q107190281 .
 
 fibo-fbc-fct-mkti:Exchange-ITGI
-	skos:related	wd:Q93355986 .
+	skos:closeMatch	wd:Q93355986 .
 
 fibo-fbc-fct-mkti:Exchange-ITGL
-	skos:related	wd:Q107186932 .
+	skos:closeMatch	wd:Q107186932 .
 
 fibo-fbc-fct-mkti:Exchange-IUOB
-	skos:related	wd:Q107227808 .
+	skos:closeMatch	wd:Q107227808 .
 
 fibo-fbc-fct-mkti:Exchange-IVZX
-	skos:related	wd:Q93360231 .
+	skos:closeMatch	wd:Q93360231 .
 
 fibo-fbc-fct-mkti:Exchange-JADX
-	skos:related	wd:Q93355988 .
+	skos:closeMatch	wd:Q93355988 .
 
 fibo-fbc-fct-mkti:Exchange-JBSI
-	skos:related	wd:Q93362093 .
+	skos:closeMatch	wd:Q93362093 .
 
 fibo-fbc-fct-mkti:Exchange-JBUL
-	skos:related	wd:Q107188713 .
+	skos:closeMatch	wd:Q107188713 .
 
 fibo-fbc-fct-mkti:Exchange-JEFE
-	skos:related	wd:Q93360911 .
+	skos:closeMatch	wd:Q93360911 .
 
 fibo-fbc-fct-mkti:Exchange-JEFS
-	skos:related	wd:Q107188908 .
+	skos:closeMatch	wd:Q107188908 .
 
 fibo-fbc-fct-mkti:Exchange-JEFX
-	skos:related	wd:Q93361416 .
+	skos:closeMatch	wd:Q93361416 .
 
 fibo-fbc-fct-mkti:Exchange-JESI
-	skos:related	wd:Q107227936 .
+	skos:closeMatch	wd:Q107227936 .
 
 fibo-fbc-fct-mkti:Exchange-JISI
-	skos:related	wd:Q93360275 .
+	skos:closeMatch	wd:Q93360275 .
 
 fibo-fbc-fct-mkti:Exchange-JLEU
-	skos:related	wd:Q93358355 .
+	skos:closeMatch	wd:Q93358355 .
 
 fibo-fbc-fct-mkti:Exchange-JLQD
-	skos:related	wd:Q93358279 .
+	skos:closeMatch	wd:Q93358279 .
 
 fibo-fbc-fct-mkti:Exchange-JNST
-	skos:related	wd:Q17630723 .
+	skos:closeMatch	wd:Q17630723 .
 
 fibo-fbc-fct-mkti:Exchange-JPBX
-	skos:related	wd:Q93360264 .
+	skos:closeMatch	wd:Q93360264 .
 
 fibo-fbc-fct-mkti:Exchange-JPCB
-	skos:related	wd:Q93360769 .
+	skos:closeMatch	wd:Q93360769 .
 
 fibo-fbc-fct-mkti:Exchange-JPEU
-	skos:related	wd:Q93360203 .
+	skos:closeMatch	wd:Q93360203 .
 
 fibo-fbc-fct-mkti:Exchange-JPMI
-	skos:related	wd:Q93356034 .
+	skos:closeMatch	wd:Q93356034 .
 
 fibo-fbc-fct-mkti:Exchange-JPMS
-	skos:related	wd:Q93359215 .
+	skos:closeMatch	wd:Q93359215 .
 
 fibo-fbc-fct-mkti:Exchange-JPMX
-	skos:related	wd:Q93355994 .
+	skos:closeMatch	wd:Q93355994 .
 
 fibo-fbc-fct-mkti:Exchange-JPSI
-	skos:related	wd:Q93360262 .
+	skos:closeMatch	wd:Q93360262 .
 
 fibo-fbc-fct-mkti:Exchange-JSEB
-	skos:related	wd:Q107188722 .
+	skos:closeMatch	wd:Q107188722 .
 
 fibo-fbc-fct-mkti:Exchange-JSER
-	skos:related	wd:Q107228124 .
+	skos:closeMatch	wd:Q107228124 .
 
 fibo-fbc-fct-mkti:Exchange-JSES
-	skos:related	wd:Q107232463 .
+	skos:closeMatch	wd:Q107232463 .
 
 fibo-fbc-fct-mkti:Exchange-JSJX
-	skos:related	wd:Q107232464 .
+	skos:closeMatch	wd:Q107232464 .
 
 fibo-fbc-fct-mkti:Exchange-JSSI
-	skos:related	wd:Q93361407 .
+	skos:closeMatch	wd:Q93361407 .
 
 fibo-fbc-fct-mkti:Exchange-JYSI
-	skos:related	wd:Q93362739 .
+	skos:closeMatch	wd:Q93362739 .
 
 fibo-fbc-fct-mkti:Exchange-KBCB
-	skos:related	wd:Q93357181 .
+	skos:closeMatch	wd:Q93357181 .
 
 fibo-fbc-fct-mkti:Exchange-KBLC
-	skos:related	wd:Q107188661 .
+	skos:closeMatch	wd:Q107188661 .
 
 fibo-fbc-fct-mkti:Exchange-KBLL
-	skos:related	wd:Q6326005 .
+	skos:closeMatch	wd:Q6326005 .
 
 fibo-fbc-fct-mkti:Exchange-KBLM
-	skos:related	wd:Q93360883 .
+	skos:closeMatch	wd:Q93360883 .
 
 fibo-fbc-fct-mkti:Exchange-KBLS
-	skos:related	wd:Q107188660 .
+	skos:closeMatch	wd:Q107188660 .
 
 fibo-fbc-fct-mkti:Exchange-KBLT
-	skos:related	wd:Q107188659 .
+	skos:closeMatch	wd:Q107188659 .
 
 fibo-fbc-fct-mkti:Exchange-KCCP
-	skos:related	wd:Q93361394 .
+	skos:closeMatch	wd:Q93361394 .
 
 fibo-fbc-fct-mkti:Exchange-KELR
-	skos:related	wd:Q93357268 .
+	skos:closeMatch	wd:Q93357268 .
 
 fibo-fbc-fct-mkti:Exchange-KHHU
-	skos:related	wd:Q93359276 .
+	skos:closeMatch	wd:Q93359276 .
 
 fibo-fbc-fct-mkti:Exchange-KLEU
-	skos:related	wd:Q93355997 .
+	skos:closeMatch	wd:Q93355997 .
 
 fibo-fbc-fct-mkti:Exchange-KMUX
-	skos:related	wd:Q107188668 .
+	skos:closeMatch	wd:Q107188668 .
 
 fibo-fbc-fct-mkti:Exchange-KNCM
-	skos:related	wd:Q107188506 .
+	skos:closeMatch	wd:Q107188506 .
 
 fibo-fbc-fct-mkti:Exchange-KNEM
-	skos:related	wd:Q107188507 .
+	skos:closeMatch	wd:Q107188507 .
 
 fibo-fbc-fct-mkti:Exchange-KNIG
-	skos:related	wd:Q93356001 .
+	skos:closeMatch	wd:Q93356001 .
 
 fibo-fbc-fct-mkti:Exchange-KNLI
-	skos:related	wd:Q107188508 .
+	skos:closeMatch	wd:Q107188508 .
 
 fibo-fbc-fct-mkti:Exchange-KOME
-	skos:related	wd:Q93362969 .
+	skos:closeMatch	wd:Q93362969 .
 
 fibo-fbc-fct-mkti:Exchange-KOTF
-	skos:related	wd:Q2374114 .
+	skos:closeMatch	wd:Q2374114 .
 
 fibo-fbc-fct-mkti:Exchange-KRME
-	skos:related	wd:Q22906202 .
+	skos:closeMatch	wd:Q22906202 .
 
 fibo-fbc-fct-mkti:Exchange-LAMP
-	skos:related	wd:Q93362784 .
+	skos:closeMatch	wd:Q93362784 .
 
 fibo-fbc-fct-mkti:Exchange-LASF
-	skos:related	wd:Q93358239 .
+	skos:closeMatch	wd:Q93358239 .
 
 fibo-fbc-fct-mkti:Exchange-LASP
-	skos:related	wd:Q93361453 .
+	skos:closeMatch	wd:Q93361453 .
 
 fibo-fbc-fct-mkti:Exchange-LBBW
-	skos:related	wd:Q451814 .
+	skos:closeMatch	wd:Q451814 .
 
 fibo-fbc-fct-mkti:Exchange-LBCM
-	skos:related	wd:Q93360237 .
+	skos:closeMatch	wd:Q93360237 .
 
 fibo-fbc-fct-mkti:Exchange-LBCW
-	skos:related	wd:Q93357807 .
+	skos:closeMatch	wd:Q93357807 .
 
 fibo-fbc-fct-mkti:Exchange-LBWL
-	skos:related	wd:Q107223098 .
+	skos:closeMatch	wd:Q107223098 .
 
 fibo-fbc-fct-mkti:Exchange-LBWS
-	skos:related	wd:Q107188716 .
+	skos:closeMatch	wd:Q107188716 .
 
 fibo-fbc-fct-mkti:Exchange-LCHC
-	skos:related	wd:Q93361343 .
+	skos:closeMatch	wd:Q93361343 .
 
 fibo-fbc-fct-mkti:Exchange-LCUR
-	skos:related	wd:Q93359248 .
+	skos:closeMatch	wd:Q93359248 .
 
 fibo-fbc-fct-mkti:Exchange-LEDG
-	skos:related	wd:Q93363004 .
+	skos:closeMatch	wd:Q93363004 .
 
 fibo-fbc-fct-mkti:Exchange-LEUE
-	skos:related	wd:Q93359301 .
+	skos:closeMatch	wd:Q93359301 .
 
 fibo-fbc-fct-mkti:Exchange-LEUF
-	skos:related	wd:Q107223064 .
+	skos:closeMatch	wd:Q107223064 .
 
 fibo-fbc-fct-mkti:Exchange-LEVL
-	skos:related	wd:Q93356007 .
+	skos:closeMatch	wd:Q93356007 .
 
 fibo-fbc-fct-mkti:Exchange-LICA
-	skos:related	wd:Q93356009 .
+	skos:closeMatch	wd:Q93356009 .
 
 fibo-fbc-fct-mkti:Exchange-LIFI
-	skos:related	wd:Q107188641 .
+	skos:closeMatch	wd:Q107188641 .
 
 fibo-fbc-fct-mkti:Exchange-LIGA
-	skos:related	wd:Q93362939 .
+	skos:closeMatch	wd:Q93362939 .
 
 fibo-fbc-fct-mkti:Exchange-LIQF
-	skos:related	wd:Q107227964 .
+	skos:closeMatch	wd:Q107227964 .
 
 fibo-fbc-fct-mkti:Exchange-LIQH
-	skos:related	wd:Q107188510 .
+	skos:closeMatch	wd:Q107188510 .
 
 fibo-fbc-fct-mkti:Exchange-LIQU
-	skos:related	wd:Q93356013 .
+	skos:closeMatch	wd:Q93356013 .
 
 fibo-fbc-fct-mkti:Exchange-LISX
-	skos:related	wd:Q107227946 .
+	skos:closeMatch	wd:Q107227946 .
 
 fibo-fbc-fct-mkti:Exchange-LISZ
-	skos:related	wd:Q107227932 .
+	skos:closeMatch	wd:Q107227932 .
 
 fibo-fbc-fct-mkti:Exchange-LIUH
-	skos:related	wd:Q107188867 .
+	skos:closeMatch	wd:Q107188867 .
 
 fibo-fbc-fct-mkti:Exchange-LIUS
-	skos:related	wd:Q6557516 .
+	skos:closeMatch	wd:Q6557516 .
 
 fibo-fbc-fct-mkti:Exchange-LMAD
-	skos:related	wd:Q107188509 .
+	skos:closeMatch	wd:Q107188509 .
 
 fibo-fbc-fct-mkti:Exchange-LMAE
-	skos:related	wd:Q107188511 .
+	skos:closeMatch	wd:Q107188511 .
 
 fibo-fbc-fct-mkti:Exchange-LMAF
-	skos:related	wd:Q107188512 .
+	skos:closeMatch	wd:Q107188512 .
 
 fibo-fbc-fct-mkti:Exchange-LMAO
-	skos:related	wd:Q107188513 .
+	skos:closeMatch	wd:Q107188513 .
 
 fibo-fbc-fct-mkti:Exchange-LMAX
-	skos:related	wd:Q93356017 .
+	skos:closeMatch	wd:Q93356017 .
 
 fibo-fbc-fct-mkti:Exchange-LMEC
-	skos:related	wd:Q107232467 .
+	skos:closeMatch	wd:Q107232467 .
 
 fibo-fbc-fct-mkti:Exchange-LMNR
-	skos:related	wd:Q93360866 .
+	skos:closeMatch	wd:Q93360866 .
 
 fibo-fbc-fct-mkti:Exchange-LMNX
-	skos:related	wd:Q107188899 .
+	skos:closeMatch	wd:Q107188899 .
 
 fibo-fbc-fct-mkti:Exchange-LOTC
-	skos:related	wd:Q93363010 .
+	skos:closeMatch	wd:Q93363010 .
 
 fibo-fbc-fct-mkti:Exchange-LOUI
-	skos:related	wd:Q93358317 .
+	skos:closeMatch	wd:Q93358317 .
 
 fibo-fbc-fct-mkti:Exchange-LOYD
-	skos:related	wd:Q93356685 .
+	skos:closeMatch	wd:Q93356685 .
 
 fibo-fbc-fct-mkti:Exchange-LPPM
-	skos:related	wd:Q1868997 .
+	skos:closeMatch	wd:Q1868997 .
 
 fibo-fbc-fct-mkti:Exchange-LQED
-	skos:related	wd:Q93356460 .
+	skos:closeMatch	wd:Q93356460 .
 
 fibo-fbc-fct-mkti:Exchange-LQFI
-	skos:related	wd:Q107223118 .
+	skos:closeMatch	wd:Q107223118 .
 
 fibo-fbc-fct-mkti:Exchange-LSSI
-	skos:related	wd:Q93361344 .
+	skos:closeMatch	wd:Q93361344 .
 
 fibo-fbc-fct-mkti:Exchange-LTAA
-	skos:related	wd:Q93359749 .
+	skos:closeMatch	wd:Q93359749 .
 
 fibo-fbc-fct-mkti:Exchange-LTSE
-	skos:related	wd:Q65069286 .
+	skos:closeMatch	wd:Q65069286 .
 
 fibo-fbc-fct-mkti:Exchange-LXJP
-	skos:related	wd:Q93360893 .
+	skos:closeMatch	wd:Q93360893 .
 
 fibo-fbc-fct-mkti:Exchange-LYNX
-	skos:related	wd:Q107189235 .
+	skos:closeMatch	wd:Q107189235 .
 
 fibo-fbc-fct-mkti:Exchange-MABX
-	skos:related	wd:Q107188462 .
+	skos:closeMatch	wd:Q107188462 .
 
 fibo-fbc-fct-mkti:Exchange-MACB
-	skos:related	wd:Q107188841 .
+	skos:closeMatch	wd:Q107188841 .
 
 fibo-fbc-fct-mkti:Exchange-MAEL
-	skos:related	wd:Q93356021 .
+	skos:closeMatch	wd:Q93356021 .
 
 fibo-fbc-fct-mkti:Exchange-MAGM
-	skos:related	wd:Q93362063 .
+	skos:closeMatch	wd:Q93362063 .
 
 fibo-fbc-fct-mkti:Exchange-MAKX
-	skos:related	wd:Q93362750 .
+	skos:closeMatch	wd:Q93362750 .
 
 fibo-fbc-fct-mkti:Exchange-MALM
-	skos:related	wd:Q107188774 .
+	skos:closeMatch	wd:Q107188774 .
 
 fibo-fbc-fct-mkti:Exchange-MALX
-	skos:related	wd:Q6742812 .
+	skos:closeMatch	wd:Q6742812 .
 
 fibo-fbc-fct-mkti:Exchange-MANL
-	skos:related	wd:Q93357773 .
+	skos:closeMatch	wd:Q93357773 .
 
 fibo-fbc-fct-mkti:Exchange-MAQE
-	skos:related	wd:Q93362832 .
+	skos:closeMatch	wd:Q93362832 .
 
 fibo-fbc-fct-mkti:Exchange-MAQH
-	skos:related	wd:Q93359309 .
+	skos:closeMatch	wd:Q93359309 .
 
 fibo-fbc-fct-mkti:Exchange-MAQI
-	skos:related	wd:Q93358330 .
+	skos:closeMatch	wd:Q93358330 .
 
 fibo-fbc-fct-mkti:Exchange-MAQJ
-	skos:related	wd:Q93359787 .
+	skos:closeMatch	wd:Q93359787 .
 
 fibo-fbc-fct-mkti:Exchange-MAQL
-	skos:related	wd:Q93360349 .
+	skos:closeMatch	wd:Q93360349 .
 
 fibo-fbc-fct-mkti:Exchange-MAQU
-	skos:related	wd:Q93360774 .
+	skos:closeMatch	wd:Q93360774 .
 
 fibo-fbc-fct-mkti:Exchange-MAQX
-	skos:related	wd:Q93356031 .
+	skos:closeMatch	wd:Q93356031 .
 
 fibo-fbc-fct-mkti:Exchange-MARF
-	skos:related	wd:Q107227958 .
+	skos:closeMatch	wd:Q107227958 .
 
 fibo-fbc-fct-mkti:Exchange-MASG
-	skos:related	wd:Q93360359 .
+	skos:closeMatch	wd:Q93360359 .
 
 fibo-fbc-fct-mkti:Exchange-MATN
-	skos:related	wd:Q93356025 .
+	skos:closeMatch	wd:Q93356025 .
 
 fibo-fbc-fct-mkti:Exchange-MBPL
-	skos:related	wd:Q93359302 .
+	skos:closeMatch	wd:Q93359302 .
 
 fibo-fbc-fct-mkti:Exchange-MBUL
-	skos:related	wd:Q93358834 .
+	skos:closeMatch	wd:Q93358834 .
 
 fibo-fbc-fct-mkti:Exchange-MCAD
-	skos:related	wd:Q107190331 .
+	skos:closeMatch	wd:Q107190331 .
 
 fibo-fbc-fct-mkti:Exchange-MCID
-	skos:related	wd:Q93359274 .
+	skos:closeMatch	wd:Q93359274 .
 
 fibo-fbc-fct-mkti:Exchange-MCRY
-	skos:related	wd:Q107228089 .
+	skos:closeMatch	wd:Q107228089 .
 
 fibo-fbc-fct-mkti:Exchange-MCSE
-	skos:related	wd:Q107188715 .
+	skos:closeMatch	wd:Q107188715 .
 
 fibo-fbc-fct-mkti:Exchange-MCUR
-	skos:related	wd:Q93356833 .
+	skos:closeMatch	wd:Q93356833 .
 
 fibo-fbc-fct-mkti:Exchange-MCXR
-	skos:related	wd:Q107227725 .
+	skos:closeMatch	wd:Q107227725 .
 
 fibo-fbc-fct-mkti:Exchange-MCXS
-	skos:related	wd:Q107223131 .
+	skos:closeMatch	wd:Q107223131 .
 
 fibo-fbc-fct-mkti:Exchange-MCXX
-	skos:related	wd:Q43080281 .
+	skos:closeMatch	wd:Q43080281 .
 
 fibo-fbc-fct-mkti:Exchange-MDRV
-	skos:related	wd:Q107188895 .
+	skos:closeMatch	wd:Q107188895 .
 
 fibo-fbc-fct-mkti:Exchange-MELO
-	skos:related	wd:Q107227937 .
+	skos:closeMatch	wd:Q107227937 .
 
 fibo-fbc-fct-mkti:Exchange-MEMX
-	skos:related	wd:Q93360814 .
+	skos:closeMatch	wd:Q93360814 .
 
 fibo-fbc-fct-mkti:Exchange-MERD
-	skos:related	wd:Q107190301 .
+	skos:closeMatch	wd:Q107190301 .
 
 fibo-fbc-fct-mkti:Exchange-MERF
-	skos:related	wd:Q107227738 .
+	skos:closeMatch	wd:Q107227738 .
 
 fibo-fbc-fct-mkti:Exchange-MERK
-	skos:related	wd:Q107190302 .
+	skos:closeMatch	wd:Q107190302 .
 
 fibo-fbc-fct-mkti:Exchange-MESI
-	skos:related	wd:Q107189215 .
+	skos:closeMatch	wd:Q107189215 .
 
 fibo-fbc-fct-mkti:Exchange-MESQ
-	skos:related	wd:Q107189200 .
+	skos:closeMatch	wd:Q107189200 .
 
 fibo-fbc-fct-mkti:Exchange-METZ
-	skos:related	wd:Q93361306 .
+	skos:closeMatch	wd:Q93361306 .
 
 fibo-fbc-fct-mkti:Exchange-MFGL
-	skos:related	wd:Q1339791 .
+	skos:closeMatch	wd:Q1339791 .
 
 fibo-fbc-fct-mkti:Exchange-MFOX
-	skos:related	wd:Q107188858 .
+	skos:closeMatch	wd:Q107188858 .
 
 fibo-fbc-fct-mkti:Exchange-MFXA
-	skos:related	wd:Q107188879 .
+	skos:closeMatch	wd:Q107188879 .
 
 fibo-fbc-fct-mkti:Exchange-MFXC
-	skos:related	wd:Q93358308 .
+	skos:closeMatch	wd:Q93358308 .
 
 fibo-fbc-fct-mkti:Exchange-MFXR
-	skos:related	wd:Q107188881 .
+	skos:closeMatch	wd:Q107188881 .
 
 fibo-fbc-fct-mkti:Exchange-MHBD
-	skos:related	wd:Q93356747 .
+	skos:closeMatch	wd:Q93356747 .
 
 fibo-fbc-fct-mkti:Exchange-MHBE
-	skos:related	wd:Q93358339 .
+	skos:closeMatch	wd:Q93358339 .
 
 fibo-fbc-fct-mkti:Exchange-MHBL
-	skos:related	wd:Q93359734 .
+	skos:closeMatch	wd:Q93359734 .
 
 fibo-fbc-fct-mkti:Exchange-MHBP
-	skos:related	wd:Q93363038 .
+	skos:closeMatch	wd:Q93363038 .
 
 fibo-fbc-fct-mkti:Exchange-MHEL
-	skos:related	wd:Q107227730 .
+	skos:closeMatch	wd:Q107227730 .
 
 fibo-fbc-fct-mkti:Exchange-MHEU
-	skos:related	wd:Q93362873 .
+	skos:closeMatch	wd:Q93362873 .
 
 fibo-fbc-fct-mkti:Exchange-MHIP
-	skos:related	wd:Q93361324 .
+	skos:closeMatch	wd:Q93361324 .
 
 fibo-fbc-fct-mkti:Exchange-MIBG
-	skos:related	wd:Q56418319 .
+	skos:closeMatch	wd:Q56418319 .
 
 fibo-fbc-fct-mkti:Exchange-MICE
-	skos:related	wd:Q107190307 .
+	skos:closeMatch	wd:Q107190307 .
 
 fibo-fbc-fct-mkti:Exchange-MIHI
-	skos:related	wd:Q93361969 .
+	skos:closeMatch	wd:Q93361969 .
 
 fibo-fbc-fct-mkti:Exchange-MISX
-	skos:related	wd:Q2632892 .
+	skos:closeMatch	wd:Q2632892 .
 
 fibo-fbc-fct-mkti:Exchange-MIVX
-	skos:related	wd:Q107227914 .
+	skos:closeMatch	wd:Q107227914 .
 
 fibo-fbc-fct-mkti:Exchange-MIZX
-	skos:related	wd:Q93361326 .
+	skos:closeMatch	wd:Q93361326 .
 
 fibo-fbc-fct-mkti:Exchange-MKAA
-	skos:related	wd:Q107228040 .
+	skos:closeMatch	wd:Q107228040 .
 
 fibo-fbc-fct-mkti:Exchange-MKAP
-	skos:related	wd:Q93359696 .
+	skos:closeMatch	wd:Q93359696 .
 
 fibo-fbc-fct-mkti:Exchange-MKTF
-	skos:related	wd:Q93360791 .
+	skos:closeMatch	wd:Q93360791 .
 
 fibo-fbc-fct-mkti:Exchange-MLCO
-	skos:related	wd:Q107190332 .
+	skos:closeMatch	wd:Q107190332 .
 
 fibo-fbc-fct-mkti:Exchange-MLER
-	skos:related	wd:Q107228000 .
+	skos:closeMatch	wd:Q107228000 .
 
 fibo-fbc-fct-mkti:Exchange-MLES
-	skos:related	wd:Q107228001 .
+	skos:closeMatch	wd:Q107228001 .
 
 fibo-fbc-fct-mkti:Exchange-MLEX
-	skos:related	wd:Q93362766 .
+	skos:closeMatch	wd:Q93362766 .
 
 fibo-fbc-fct-mkti:Exchange-MLIX
-	skos:related	wd:Q93362744 .
+	skos:closeMatch	wd:Q93362744 .
 
 fibo-fbc-fct-mkti:Exchange-MLRQ
-	skos:related	wd:Q107227931 .
+	skos:closeMatch	wd:Q107227931 .
 
 fibo-fbc-fct-mkti:Exchange-MLSI
-	skos:related	wd:Q107227929 .
+	skos:closeMatch	wd:Q107227929 .
 
 fibo-fbc-fct-mkti:Exchange-MLVX
-	skos:related	wd:Q107188669 .
+	skos:closeMatch	wd:Q107188669 .
 
 fibo-fbc-fct-mkti:Exchange-MLXB
-	skos:related	wd:Q107189150 .
+	skos:closeMatch	wd:Q107189150 .
 
 fibo-fbc-fct-mkti:Exchange-MNDK
-	skos:related	wd:Q107188717 .
+	skos:closeMatch	wd:Q107188717 .
 
 fibo-fbc-fct-mkti:Exchange-MNFI
-	skos:related	wd:Q107188912 .
+	skos:closeMatch	wd:Q107188912 .
 
 fibo-fbc-fct-mkti:Exchange-MNIS
-	skos:related	wd:Q107190306 .
+	skos:closeMatch	wd:Q107190306 .
 
 fibo-fbc-fct-mkti:Exchange-MNSE
-	skos:related	wd:Q107223066 .
+	skos:closeMatch	wd:Q107223066 .
 
 fibo-fbc-fct-mkti:Exchange-MOCX
-	skos:related	wd:Q107188670 .
+	skos:closeMatch	wd:Q107188670 .
 
 fibo-fbc-fct-mkti:Exchange-MOSE
-	skos:related	wd:Q107188797 .
+	skos:closeMatch	wd:Q107188797 .
 
 fibo-fbc-fct-mkti:Exchange-MOTX
-	skos:related	wd:Q107228102 .
+	skos:closeMatch	wd:Q107228102 .
 
 fibo-fbc-fct-mkti:Exchange-MPRL
-	skos:related	wd:Q107227771 .
+	skos:closeMatch	wd:Q107227771 .
 
 fibo-fbc-fct-mkti:Exchange-MSAL
-	skos:related	wd:Q93356457 .
+	skos:closeMatch	wd:Q93356457 .
 
 fibo-fbc-fct-mkti:Exchange-MSAX-2021-10-25
-	skos:related	wd:Q93360783 .
+	skos:closeMatch	wd:Q93360783 .
 
 fibo-fbc-fct-mkti:Exchange-MSCO
-	skos:related	wd:Q93357256 .
+	skos:closeMatch	wd:Q93357256 .
 
 fibo-fbc-fct-mkti:Exchange-MSCX-2021-10-25
-	skos:related	wd:Q107227849 .
+	skos:closeMatch	wd:Q107227849 .
 
 fibo-fbc-fct-mkti:Exchange-MSEL
-	skos:related	wd:Q93361389 .
+	skos:closeMatch	wd:Q93361389 .
 
 fibo-fbc-fct-mkti:Exchange-MSEU
-	skos:related	wd:Q93356795 .
+	skos:closeMatch	wd:Q93356795 .
 
 fibo-fbc-fct-mkti:Exchange-MSIP
-	skos:related	wd:Q93362932 .
+	skos:closeMatch	wd:Q93362932 .
 
 fibo-fbc-fct-mkti:Exchange-MSMS
-	skos:related	wd:Q17230560 .
+	skos:closeMatch	wd:Q17230560 .
 
 fibo-fbc-fct-mkti:Exchange-MSNT-2021-10-25
-	skos:related	wd:Q107227851 .
+	skos:closeMatch	wd:Q107227851 .
 
 fibo-fbc-fct-mkti:Exchange-MSPL
-	skos:related	wd:Q107188514 .
+	skos:closeMatch	wd:Q107188514 .
 
 fibo-fbc-fct-mkti:Exchange-MSRP
-	skos:related	wd:Q107188515 .
+	skos:closeMatch	wd:Q107188515 .
 
 fibo-fbc-fct-mkti:Exchange-MSSI
-	skos:related	wd:Q107223045 .
+	skos:closeMatch	wd:Q107223045 .
 
 fibo-fbc-fct-mkti:Exchange-MSTO
-	skos:related	wd:Q107223106 .
+	skos:closeMatch	wd:Q107223106 .
 
 fibo-fbc-fct-mkti:Exchange-MSTX
-	skos:related	wd:Q107190323 .
+	skos:closeMatch	wd:Q107190323 .
 
 fibo-fbc-fct-mkti:Exchange-MTAA
-	skos:related	wd:Q107228046 .
+	skos:closeMatch	wd:Q107228046 .
 
 fibo-fbc-fct-mkti:Exchange-MTAH
-	skos:related	wd:Q107188516 .
+	skos:closeMatch	wd:Q107188516 .
 
 fibo-fbc-fct-mkti:Exchange-MTCH
-	skos:related	wd:Q107190268 .
+	skos:closeMatch	wd:Q107190268 .
 
 fibo-fbc-fct-mkti:Exchange-MTSB
-	skos:related	wd:Q107227751 .
+	skos:closeMatch	wd:Q107227751 .
 
 fibo-fbc-fct-mkti:Exchange-MTSC
-	skos:related	wd:Q107188703 .
+	skos:closeMatch	wd:Q107188703 .
 
 fibo-fbc-fct-mkti:Exchange-MTSD
-	skos:related	wd:Q107188473 .
+	skos:closeMatch	wd:Q107188473 .
 
 fibo-fbc-fct-mkti:Exchange-MTSF
-	skos:related	wd:Q107188474 .
+	skos:closeMatch	wd:Q107188474 .
 
 fibo-fbc-fct-mkti:Exchange-MTSO
-	skos:related	wd:Q93359255 .
+	skos:closeMatch	wd:Q93359255 .
 
 fibo-fbc-fct-mkti:Exchange-MTUS
-	skos:related	wd:Q93362884 .
+	skos:closeMatch	wd:Q93362884 .
 
 fibo-fbc-fct-mkti:Exchange-MTXA
-	skos:related	wd:Q107227768 .
+	skos:closeMatch	wd:Q107227768 .
 
 fibo-fbc-fct-mkti:Exchange-MTXC
-	skos:related	wd:Q107227905 .
+	skos:closeMatch	wd:Q107227905 .
 
 fibo-fbc-fct-mkti:Exchange-MTXM
-	skos:related	wd:Q107188910 .
+	skos:closeMatch	wd:Q107188910 .
 
 fibo-fbc-fct-mkti:Exchange-MTXS
-	skos:related	wd:Q107189217 .
+	skos:closeMatch	wd:Q107189217 .
 
 fibo-fbc-fct-mkti:Exchange-MTXX
-	skos:related	wd:Q93358291 .
+	skos:closeMatch	wd:Q93358291 .
 
 fibo-fbc-fct-mkti:Exchange-MUBE
-	skos:related	wd:Q93359838 .
+	skos:closeMatch	wd:Q93359838 .
 
 fibo-fbc-fct-mkti:Exchange-MUBL
-	skos:related	wd:Q93359841 .
+	skos:closeMatch	wd:Q93359841 .
 
 fibo-fbc-fct-mkti:Exchange-MUBM
-	skos:related	wd:Q93358843 .
+	skos:closeMatch	wd:Q93358843 .
 
 fibo-fbc-fct-mkti:Exchange-MUBP
-	skos:related	wd:Q93358841 .
+	skos:closeMatch	wd:Q93358841 .
 
 fibo-fbc-fct-mkti:Exchange-MUFP
-	skos:related	wd:Q93360193 .
+	skos:closeMatch	wd:Q93360193 .
 
 fibo-fbc-fct-mkti:Exchange-MUNA
-	skos:related	wd:Q107228113 .
+	skos:closeMatch	wd:Q107228113 .
 
 fibo-fbc-fct-mkti:Exchange-MUNB
-	skos:related	wd:Q107228114 .
+	skos:closeMatch	wd:Q107228114 .
 
 fibo-fbc-fct-mkti:Exchange-MUNC
-	skos:related	wd:Q107189167 .
+	skos:closeMatch	wd:Q107189167 .
 
 fibo-fbc-fct-mkti:Exchange-MUND
-	skos:related	wd:Q107188726 .
+	skos:closeMatch	wd:Q107188726 .
 
 fibo-fbc-fct-mkti:Exchange-MUSE
-	skos:related	wd:Q93361432 .
+	skos:closeMatch	wd:Q93361432 .
 
 fibo-fbc-fct-mkti:Exchange-MUSN
-	skos:related	wd:Q93362913 .
+	skos:closeMatch	wd:Q93362913 .
 
 fibo-fbc-fct-mkti:Exchange-MUTI
-	skos:related	wd:Q93359808 .
+	skos:closeMatch	wd:Q93359808 .
 
 fibo-fbc-fct-mkti:Exchange-MVCX
-	skos:related	wd:Q107188847 .
+	skos:closeMatch	wd:Q107188847 .
 
 fibo-fbc-fct-mkti:Exchange-MXLM
-	skos:related	wd:Q107227865 .
+	skos:closeMatch	wd:Q107227865 .
 
 fibo-fbc-fct-mkti:Exchange-MXNL
-	skos:related	wd:Q107227866 .
+	skos:closeMatch	wd:Q107227866 .
 
 fibo-fbc-fct-mkti:Exchange-MYTR
-	skos:related	wd:Q93356720 .
+	skos:closeMatch	wd:Q93356720 .
 
 fibo-fbc-fct-mkti:Exchange-N2EX
-	skos:related	wd:Q93356722 .
+	skos:closeMatch	wd:Q93356722 .
 
 fibo-fbc-fct-mkti:Exchange-NABA
-	skos:related	wd:Q107188673 .
+	skos:closeMatch	wd:Q107188673 .
 
 fibo-fbc-fct-mkti:Exchange-NABE-2022-04-25
-	skos:related	wd:Q93362918 .
+	skos:closeMatch	wd:Q93362918 .
 
 fibo-fbc-fct-mkti:Exchange-NABL
-	skos:related	wd:Q93361435 .
+	skos:closeMatch	wd:Q93361435 .
 
 fibo-fbc-fct-mkti:Exchange-NABU-2022-04-25
-	skos:related	wd:Q107188836 .
+	skos:closeMatch	wd:Q107188836 .
 
 fibo-fbc-fct-mkti:Exchange-NAMX
-	skos:related	wd:Q93356727 .
+	skos:closeMatch	wd:Q93356727 .
 
 fibo-fbc-fct-mkti:Exchange-NAPA
-	skos:related	wd:Q93362853 .
+	skos:closeMatch	wd:Q93362853 .
 
 fibo-fbc-fct-mkti:Exchange-NASD
-	skos:related	wd:Q107188732 .
+	skos:closeMatch	wd:Q107188732 .
 
 fibo-fbc-fct-mkti:Exchange-NASX
-	skos:related	wd:Q93358816 .
+	skos:closeMatch	wd:Q93358816 .
 
 fibo-fbc-fct-mkti:Exchange-NATX
-	skos:related	wd:Q93356518 .
+	skos:closeMatch	wd:Q93356518 .
 
 fibo-fbc-fct-mkti:Exchange-NBLX
-	skos:related	wd:Q93356559 .
+	skos:closeMatch	wd:Q93356559 .
 
 fibo-fbc-fct-mkti:Exchange-NBOT
-	skos:related	wd:Q93359710 .
+	skos:closeMatch	wd:Q93359710 .
 
 fibo-fbc-fct-mkti:Exchange-NCEL
-	skos:related	wd:Q7125628 .
+	skos:closeMatch	wd:Q7125628 .
 
 fibo-fbc-fct-mkti:Exchange-NCME
-	skos:related	wd:Q17227817 .
+	skos:closeMatch	wd:Q17227817 .
 
 fibo-fbc-fct-mkti:Exchange-NCML
-	skos:related	wd:Q93359296 .
+	skos:closeMatch	wd:Q93359296 .
 
 fibo-fbc-fct-mkti:Exchange-NDCM
-	skos:related	wd:Q93356495 .
+	skos:closeMatch	wd:Q93356495 .
 
 fibo-fbc-fct-mkti:Exchange-NDEX
-	skos:related	wd:Q93356837 .
+	skos:closeMatch	wd:Q93356837 .
 
 fibo-fbc-fct-mkti:Exchange-NDXS
-	skos:related	wd:Q107227871 .
+	skos:closeMatch	wd:Q107227871 .
 
 fibo-fbc-fct-mkti:Exchange-NEOC
-	skos:related	wd:Q107189216 .
+	skos:closeMatch	wd:Q107189216 .
 
 fibo-fbc-fct-mkti:Exchange-NEOD
-	skos:related	wd:Q107223093 .
+	skos:closeMatch	wd:Q107223093 .
 
 fibo-fbc-fct-mkti:Exchange-NEOE
-	skos:related	wd:Q39052382 .
+	skos:closeMatch	wd:Q39052382 .
 
 fibo-fbc-fct-mkti:Exchange-NEON
-	skos:related	wd:Q107190256 .
+	skos:closeMatch	wd:Q107190256 .
 
 fibo-fbc-fct-mkti:Exchange-NESI
-	skos:related	wd:Q93361298 .
+	skos:closeMatch	wd:Q93361298 .
 
 fibo-fbc-fct-mkti:Exchange-NEXD
-	skos:related	wd:Q107223132 .
+	skos:closeMatch	wd:Q107223132 .
 
 fibo-fbc-fct-mkti:Exchange-NEXF
-	skos:related	wd:Q107189159 .
+	skos:closeMatch	wd:Q107189159 .
 
 fibo-fbc-fct-mkti:Exchange-NEXG
-	skos:related	wd:Q107188723 .
+	skos:closeMatch	wd:Q107188723 .
 
 fibo-fbc-fct-mkti:Exchange-NEXL
-	skos:related	wd:Q107223133 .
+	skos:closeMatch	wd:Q107223133 .
 
 fibo-fbc-fct-mkti:Exchange-NEXN
-	skos:related	wd:Q107188869 .
+	skos:closeMatch	wd:Q107188869 .
 
 fibo-fbc-fct-mkti:Exchange-NEXO
-	skos:related	wd:Q93362180 .
+	skos:closeMatch	wd:Q93362180 .
 
 fibo-fbc-fct-mkti:Exchange-NEXS
-	skos:related	wd:Q93357792 .
+	skos:closeMatch	wd:Q93357792 .
 
 fibo-fbc-fct-mkti:Exchange-NEXT
-	skos:related	wd:Q107188868 .
+	skos:closeMatch	wd:Q107188868 .
 
 fibo-fbc-fct-mkti:Exchange-NEXX
-	skos:related	wd:Q4491711 .
+	skos:closeMatch	wd:Q4491711 .
 
 fibo-fbc-fct-mkti:Exchange-NFSA
-	skos:related	wd:Q107188861 .
+	skos:closeMatch	wd:Q107188861 .
 
 fibo-fbc-fct-mkti:Exchange-NFSC
-	skos:related	wd:Q93358243 .
+	skos:closeMatch	wd:Q93358243 .
 
 fibo-fbc-fct-mkti:Exchange-NFSD
-	skos:related	wd:Q107189233 .
+	skos:closeMatch	wd:Q107189233 .
 
 fibo-fbc-fct-mkti:Exchange-NGXC
-	skos:related	wd:Q93358246 .
+	skos:closeMatch	wd:Q93358246 .
 
 fibo-fbc-fct-mkti:Exchange-NIBC
-	skos:related	wd:Q93360310 .
+	skos:closeMatch	wd:Q93360310 .
 
 fibo-fbc-fct-mkti:Exchange-NILX
-	skos:related	wd:Q93358254 .
+	skos:closeMatch	wd:Q93358254 .
 
 fibo-fbc-fct-mkti:Exchange-NLAX
-	skos:related	wd:Q107227999 .
+	skos:closeMatch	wd:Q107227999 .
 
 fibo-fbc-fct-mkti:Exchange-NLBX
-	skos:related	wd:Q93356479 .
+	skos:closeMatch	wd:Q93356479 .
 
 fibo-fbc-fct-mkti:Exchange-NLPX
-	skos:related	wd:Q93358255 .
+	skos:closeMatch	wd:Q93358255 .
 
 fibo-fbc-fct-mkti:Exchange-NMCE
-	skos:related	wd:Q93358258 .
+	skos:closeMatch	wd:Q93358258 .
 
 fibo-fbc-fct-mkti:Exchange-NMRJ
-	skos:related	wd:Q843944 .
+	skos:closeMatch	wd:Q843944 .
 
 fibo-fbc-fct-mkti:Exchange-NMSX
-	skos:related	wd:Q107228012 .
+	skos:closeMatch	wd:Q107228012 .
 
 fibo-fbc-fct-mkti:Exchange-NMTF
-	skos:related	wd:Q107189209 .
+	skos:closeMatch	wd:Q107189209 .
 
 fibo-fbc-fct-mkti:Exchange-NOCO-2020-12-28
-	skos:related	wd:Q107188873 .
+	skos:closeMatch	wd:Q107188873 .
 
 fibo-fbc-fct-mkti:Exchange-NODX
-	skos:related	wd:Q93358260 .
+	skos:closeMatch	wd:Q93358260 .
 
 fibo-fbc-fct-mkti:Exchange-NOED
-	skos:related	wd:Q107227935 .
+	skos:closeMatch	wd:Q107227935 .
 
 fibo-fbc-fct-mkti:Exchange-NOFF
-	skos:related	wd:Q93358261 .
+	skos:closeMatch	wd:Q93358261 .
 
 fibo-fbc-fct-mkti:Exchange-NOFI
-	skos:related	wd:Q107190272 .
+	skos:closeMatch	wd:Q107190272 .
 
 fibo-fbc-fct-mkti:Exchange-NOPS
-	skos:related	wd:Q7050551 .
+	skos:closeMatch	wd:Q7050551 .
 
 fibo-fbc-fct-mkti:Exchange-NORD
-	skos:related	wd:Q93356489 .
+	skos:closeMatch	wd:Q93356489 .
 
 fibo-fbc-fct-mkti:Exchange-NORX
-	skos:related	wd:Q1997526 .
+	skos:closeMatch	wd:Q1997526 .
 
 fibo-fbc-fct-mkti:Exchange-NOSC
-	skos:related	wd:Q93362960 .
+	skos:closeMatch	wd:Q93362960 .
 
 fibo-fbc-fct-mkti:Exchange-NOSI
-	skos:related	wd:Q93358732 .
+	skos:closeMatch	wd:Q93358732 .
 
 fibo-fbc-fct-mkti:Exchange-NOTC
-	skos:related	wd:Q12005867 .
+	skos:closeMatch	wd:Q12005867 .
 
 fibo-fbc-fct-mkti:Exchange-NOWX
-	skos:related	wd:Q93357864 .
+	skos:closeMatch	wd:Q93357864 .
 
 fibo-fbc-fct-mkti:Exchange-NPEX
-	skos:related	wd:Q93360859 .
+	skos:closeMatch	wd:Q93360859 .
 
 fibo-fbc-fct-mkti:Exchange-NPGA
-	skos:related	wd:Q93359241 .
+	skos:closeMatch	wd:Q93359241 .
 
 fibo-fbc-fct-mkti:Exchange-NSME
-	skos:related	wd:Q107227840 .
+	skos:closeMatch	wd:Q107227840 .
 
 fibo-fbc-fct-mkti:Exchange-NSXB
-	skos:related	wd:Q4887097 .
+	skos:closeMatch	wd:Q4887097 .
 
 fibo-fbc-fct-mkti:Exchange-NWMS
-	skos:related	wd:Q93357913 .
+	skos:closeMatch	wd:Q93357913 .
 
 fibo-fbc-fct-mkti:Exchange-NWNV
-	skos:related	wd:Q28963183 .
+	skos:closeMatch	wd:Q28963183 .
 
 fibo-fbc-fct-mkti:Exchange-NXEU
-	skos:related	wd:Q93359246 .
+	skos:closeMatch	wd:Q93359246 .
 
 fibo-fbc-fct-mkti:Exchange-NXJP
-	skos:related	wd:Q107188909 .
+	skos:closeMatch	wd:Q107188909 .
 
 fibo-fbc-fct-mkti:Exchange-NXSE
-	skos:related	wd:Q107190255 .
+	skos:closeMatch	wd:Q107190255 .
 
 fibo-fbc-fct-mkti:Exchange-NXUS
-	skos:related	wd:Q93359247 .
+	skos:closeMatch	wd:Q93359247 .
 
 fibo-fbc-fct-mkti:Exchange-NXVW
-	skos:related	wd:Q107227749 .
+	skos:closeMatch	wd:Q107227749 .
 
 fibo-fbc-fct-mkti:Exchange-NYFX
-	skos:related	wd:Q107223040 .
+	skos:closeMatch	wd:Q107223040 .
 
 fibo-fbc-fct-mkti:Exchange-NYMS
-	skos:related	wd:Q107188896 .
+	skos:closeMatch	wd:Q107188896 .
 
 fibo-fbc-fct-mkti:Exchange-NYPC
-	skos:related	wd:Q93356734 .
+	skos:closeMatch	wd:Q93356734 .
 
 fibo-fbc-fct-mkti:Exchange-NYSD
-	skos:related	wd:Q107188906 .
+	skos:closeMatch	wd:Q107188906 .
 
 fibo-fbc-fct-mkti:Exchange-NYSI
-	skos:related	wd:Q93356594 .
+	skos:closeMatch	wd:Q93356594 .
 
 fibo-fbc-fct-mkti:Exchange-NZFX
-	skos:related	wd:Q93356737 .
+	skos:closeMatch	wd:Q93356737 .
 
 fibo-fbc-fct-mkti:Exchange-OAPA
-	skos:related	wd:Q93360861 .
+	skos:closeMatch	wd:Q93360861 .
 
 fibo-fbc-fct-mkti:Exchange-OBKL
-	skos:related	wd:Q93362921 .
+	skos:closeMatch	wd:Q93362921 .
 
 fibo-fbc-fct-mkti:Exchange-OCSI
-	skos:related	wd:Q93358836 .
+	skos:closeMatch	wd:Q93358836 .
 
 fibo-fbc-fct-mkti:Exchange-ODDO
-	skos:related	wd:Q795936 .
+	skos:closeMatch	wd:Q795936 .
 
 fibo-fbc-fct-mkti:Exchange-ODOC
-	skos:related	wd:Q795936 .
+	skos:closeMatch	wd:Q795936 .
 
 fibo-fbc-fct-mkti:Exchange-OHVO
-	skos:related	wd:Q93362859 .
+	skos:closeMatch	wd:Q93362859 .
 
 fibo-fbc-fct-mkti:Exchange-OLLC
-	skos:related	wd:Q107186936 .
+	skos:closeMatch	wd:Q107186936 .
 
 fibo-fbc-fct-mkti:Exchange-OMEL
-	skos:related	wd:Q93356738 .
+	skos:closeMatch	wd:Q93356738 .
 
 fibo-fbc-fct-mkti:Exchange-OMGA
-	skos:related	wd:Q93356741 .
+	skos:closeMatch	wd:Q93356741 .
 
 fibo-fbc-fct-mkti:Exchange-OMIC
-	skos:related	wd:Q93356046 .
+	skos:closeMatch	wd:Q93356046 .
 
 fibo-fbc-fct-mkti:Exchange-OMIP
-	skos:related	wd:Q93359203 .
+	skos:closeMatch	wd:Q93359203 .
 
 fibo-fbc-fct-mkti:Exchange-ONSE
-	skos:related	wd:Q107228029 .
+	skos:closeMatch	wd:Q107228029 .
 
 fibo-fbc-fct-mkti:Exchange-OOTC
-	skos:related	wd:Q107188900 .
+	skos:closeMatch	wd:Q107188900 .
 
 fibo-fbc-fct-mkti:Exchange-OPCO
-	skos:related	wd:Q93357774 .
+	skos:closeMatch	wd:Q93357774 .
 
 fibo-fbc-fct-mkti:Exchange-OPEX
-	skos:related	wd:Q7072823 .
+	skos:closeMatch	wd:Q7072823 .
 
 fibo-fbc-fct-mkti:Exchange-OPRA
-	skos:related	wd:Q7099028 .
+	skos:closeMatch	wd:Q7099028 .
 
 fibo-fbc-fct-mkti:Exchange-OSLC
-	skos:related	wd:Q93358754 .
+	skos:closeMatch	wd:Q93358754 .
 
 fibo-fbc-fct-mkti:Exchange-OTCB
-	skos:related	wd:Q107188705 .
+	skos:closeMatch	wd:Q107188705 .
 
 fibo-fbc-fct-mkti:Exchange-OTCE
-	skos:related	wd:Q93360942 .
+	skos:closeMatch	wd:Q93360942 .
 
 fibo-fbc-fct-mkti:Exchange-OTCM
-	skos:related	wd:Q1930860 .
+	skos:closeMatch	wd:Q1930860 .
 
 fibo-fbc-fct-mkti:Exchange-OTCN
-	skos:related	wd:Q107232675 .
+	skos:closeMatch	wd:Q107232675 .
 
 fibo-fbc-fct-mkti:Exchange-OTCQ
-	skos:related	wd:Q107188706 .
+	skos:closeMatch	wd:Q107188706 .
 
 fibo-fbc-fct-mkti:Exchange-OTCX
-	skos:related	wd:Q7073080 .
+	skos:closeMatch	wd:Q7073080 .
 
 fibo-fbc-fct-mkti:Exchange-OTPB
-	skos:related	wd:Q93358865 .
+	skos:closeMatch	wd:Q93358865 .
 
 fibo-fbc-fct-mkti:Exchange-OTPR
-	skos:related	wd:Q93363058 .
+	skos:closeMatch	wd:Q93363058 .
 
 fibo-fbc-fct-mkti:Exchange-OTXB
-	skos:related	wd:Q93356493 .
+	skos:closeMatch	wd:Q93356493 .
 
 fibo-fbc-fct-mkti:Exchange-PARK
-	skos:related	wd:Q93360823 .
+	skos:closeMatch	wd:Q93360823 .
 
 fibo-fbc-fct-mkti:Exchange-PARX
-	skos:related	wd:Q107190309 .
+	skos:closeMatch	wd:Q107190309 .
 
 fibo-fbc-fct-mkti:Exchange-PAVE
-	skos:related	wd:Q93356524 .
+	skos:closeMatch	wd:Q93356524 .
 
 fibo-fbc-fct-mkti:Exchange-PBGR
-	skos:related	wd:Q93363043 .
+	skos:closeMatch	wd:Q93363043 .
 
 fibo-fbc-fct-mkti:Exchange-PBUL
-	skos:related	wd:Q69324839 .
+	skos:closeMatch	wd:Q69324839 .
 
 fibo-fbc-fct-mkti:Exchange-PDEX
-	skos:related	wd:Q93356526 .
+	skos:closeMatch	wd:Q93356526 .
 
 fibo-fbc-fct-mkti:Exchange-PEEL
-	skos:related	wd:Q93362987 .
+	skos:closeMatch	wd:Q93362987 .
 
 fibo-fbc-fct-mkti:Exchange-PFTQ
-	skos:related	wd:Q107188646 .
+	skos:closeMatch	wd:Q107188646 .
 
 fibo-fbc-fct-mkti:Exchange-PFTS
-	skos:related	wd:Q1984912 .
+	skos:closeMatch	wd:Q1984912 .
 
 fibo-fbc-fct-mkti:Exchange-PFXD
-	skos:related	wd:Q107227833 .
+	skos:closeMatch	wd:Q107227833 .
 
 fibo-fbc-fct-mkti:Exchange-PIEU
-	skos:related	wd:Q93356528 .
+	skos:closeMatch	wd:Q93356528 .
 
 fibo-fbc-fct-mkti:Exchange-PINC
-	skos:related	wd:Q107188700 .
+	skos:closeMatch	wd:Q107188700 .
 
 fibo-fbc-fct-mkti:Exchange-PINI
-	skos:related	wd:Q107188701 .
+	skos:closeMatch	wd:Q107188701 .
 
 fibo-fbc-fct-mkti:Exchange-PINL
-	skos:related	wd:Q107188702 .
+	skos:closeMatch	wd:Q107188702 .
 
 fibo-fbc-fct-mkti:Exchange-PINX
-	skos:related	wd:Q107188644 .
+	skos:closeMatch	wd:Q107188644 .
 
 fibo-fbc-fct-mkti:Exchange-PIPE
-	skos:related	wd:Q93356531 .
+	skos:closeMatch	wd:Q93356531 .
 
 fibo-fbc-fct-mkti:Exchange-PIPR
-	skos:related	wd:Q93361991 .
+	skos:closeMatch	wd:Q93361991 .
 
 fibo-fbc-fct-mkti:Exchange-PIRM
-	skos:related	wd:Q21597594 .
+	skos:closeMatch	wd:Q21597594 .
 
 fibo-fbc-fct-mkti:Exchange-PJCX
-	skos:related	wd:Q107188773 .
+	skos:closeMatch	wd:Q107188773 .
 
 fibo-fbc-fct-mkti:Exchange-PKOP
-	skos:related	wd:Q806642 .
+	skos:closeMatch	wd:Q806642 .
 
 fibo-fbc-fct-mkti:Exchange-PLDX
-	skos:related	wd:Q107190274 .
+	skos:closeMatch	wd:Q107190274 .
 
 fibo-fbc-fct-mkti:Exchange-PLPD
-	skos:related	wd:Q107223051 .
+	skos:closeMatch	wd:Q107223051 .
 
 fibo-fbc-fct-mkti:Exchange-PLPO
-	skos:related	wd:Q107188798 .
+	skos:closeMatch	wd:Q107188798 .
 
 fibo-fbc-fct-mkti:Exchange-PLPS
-	skos:related	wd:Q107227949 .
+	skos:closeMatch	wd:Q107227949 .
 
 fibo-fbc-fct-mkti:Exchange-PNED
-	skos:related	wd:Q107228043 .
+	skos:closeMatch	wd:Q107228043 .
 
 fibo-fbc-fct-mkti:Exchange-POTC
-	skos:related	wd:Q93357862 .
+	skos:closeMatch	wd:Q93357862 .
 
 fibo-fbc-fct-mkti:Exchange-PPEX
-	skos:related	wd:Q93357874 .
+	skos:closeMatch	wd:Q93357874 .
 
 fibo-fbc-fct-mkti:Exchange-PROS
-	skos:related	wd:Q107190308 .
+	skos:closeMatch	wd:Q107190308 .
 
 fibo-fbc-fct-mkti:Exchange-PRSE
-	skos:related	wd:Q93356533 .
+	skos:closeMatch	wd:Q93356533 .
 
 fibo-fbc-fct-mkti:Exchange-PSGM
-	skos:related	wd:Q107188645 .
+	skos:closeMatch	wd:Q107188645 .
 
 fibo-fbc-fct-mkti:Exchange-PSXD
-	skos:related	wd:Q107188845 .
+	skos:closeMatch	wd:Q107188845 .
 
 fibo-fbc-fct-mkti:Exchange-PTPG
-	skos:related	wd:Q93356811 .
+	skos:closeMatch	wd:Q93356811 .
 
 fibo-fbc-fct-mkti:Exchange-PUMA
-	skos:related	wd:Q93359220 .
+	skos:closeMatch	wd:Q93359220 .
 
 fibo-fbc-fct-mkti:Exchange-PUMX
-	skos:related	wd:Q107189197 .
+	skos:closeMatch	wd:Q107189197 .
 
 fibo-fbc-fct-mkti:Exchange-PURE
-	skos:related	wd:Q107188681 .
+	skos:closeMatch	wd:Q107188681 .
 
 fibo-fbc-fct-mkti:Exchange-PVMF
-	skos:related	wd:Q93360258 .
+	skos:closeMatch	wd:Q93360258 .
 
 fibo-fbc-fct-mkti:Exchange-PXIL
-	skos:related	wd:Q93356536 .
+	skos:closeMatch	wd:Q93356536 .
 
 fibo-fbc-fct-mkti:Exchange-QWIX
-	skos:related	wd:Q93356541 .
+	skos:closeMatch	wd:Q93356541 .
 
 fibo-fbc-fct-mkti:Exchange-R5FX
-	skos:related	wd:Q93360269 .
+	skos:closeMatch	wd:Q93360269 .
 
 fibo-fbc-fct-mkti:Exchange-RABO
-	skos:related	wd:Q93358315 .
+	skos:closeMatch	wd:Q93358315 .
 
 fibo-fbc-fct-mkti:Exchange-RBCB
-	skos:related	wd:Q93361984 .
+	skos:closeMatch	wd:Q93361984 .
 
 fibo-fbc-fct-mkti:Exchange-RBCC
-	skos:related	wd:Q93357336 .
+	skos:closeMatch	wd:Q93357336 .
 
 fibo-fbc-fct-mkti:Exchange-RBCE
-	skos:related	wd:Q93357241 .
+	skos:closeMatch	wd:Q93357241 .
 
 fibo-fbc-fct-mkti:Exchange-RBCG
-	skos:related	wd:Q93362862 .
+	skos:closeMatch	wd:Q93362862 .
 
 fibo-fbc-fct-mkti:Exchange-RBCM
-	skos:related	wd:Q93360829 .
+	skos:closeMatch	wd:Q93360829 .
 
 fibo-fbc-fct-mkti:Exchange-RBCT
-	skos:related	wd:Q93361980 .
+	skos:closeMatch	wd:Q93361980 .
 
 fibo-fbc-fct-mkti:Exchange-RBHU
-	skos:related	wd:Q93362167 .
+	skos:closeMatch	wd:Q93362167 .
 
 fibo-fbc-fct-mkti:Exchange-RBIV
-	skos:related	wd:Q93359223 .
+	skos:closeMatch	wd:Q93359223 .
 
 fibo-fbc-fct-mkti:Exchange-RBSI
-	skos:related	wd:Q107227763 .
+	skos:closeMatch	wd:Q107227763 .
 
 fibo-fbc-fct-mkti:Exchange-RBSX
-	skos:related	wd:Q93356545 .
+	skos:closeMatch	wd:Q93356545 .
 
 fibo-fbc-fct-mkti:Exchange-RCMA
-	skos:related	wd:Q93360793 .
+	skos:closeMatch	wd:Q93360793 .
 
 fibo-fbc-fct-mkti:Exchange-RENC
-	skos:related	wd:Q93362076 .
+	skos:closeMatch	wd:Q93362076 .
 
 fibo-fbc-fct-mkti:Exchange-RESF
-	skos:related	wd:Q107188757 .
+	skos:closeMatch	wd:Q107188757 .
 
 fibo-fbc-fct-mkti:Exchange-REST
-	skos:related	wd:Q107188633 .
+	skos:closeMatch	wd:Q107188633 .
 
 fibo-fbc-fct-mkti:Exchange-RFBK
-	skos:related	wd:Q93360361 .
+	skos:closeMatch	wd:Q93360361 .
 
 fibo-fbc-fct-mkti:Exchange-RICD
-	skos:related	wd:Q107188648 .
+	skos:closeMatch	wd:Q107188648 .
 
 fibo-fbc-fct-mkti:Exchange-RICX
-	skos:related	wd:Q93356546 .
+	skos:closeMatch	wd:Q93356546 .
 
 fibo-fbc-fct-mkti:Exchange-RLBO
-	skos:related	wd:Q93360914 .
+	skos:closeMatch	wd:Q93360914 .
 
 fibo-fbc-fct-mkti:Exchange-RMTF
-	skos:related	wd:Q93359261 .
+	skos:closeMatch	wd:Q93359261 .
 
 fibo-fbc-fct-mkti:Exchange-ROCO
-	skos:related	wd:Q5598539 .
+	skos:closeMatch	wd:Q5598539 .
 
 fibo-fbc-fct-mkti:Exchange-ROFX
-	skos:related	wd:Q93356548 .
+	skos:closeMatch	wd:Q93356548 .
 
 fibo-fbc-fct-mkti:Exchange-ROSR
-	skos:related	wd:Q93361449 .
+	skos:closeMatch	wd:Q93361449 .
 
 fibo-fbc-fct-mkti:Exchange-ROTC
-	skos:related	wd:Q93357263 .
+	skos:closeMatch	wd:Q93357263 .
 
 fibo-fbc-fct-mkti:Exchange-RPDX
-	skos:related	wd:Q93356552 .
+	skos:closeMatch	wd:Q93356552 .
 
 fibo-fbc-fct-mkti:Exchange-RPWC
-	skos:related	wd:Q107188650 .
+	skos:closeMatch	wd:Q107188650 .
 
 fibo-fbc-fct-mkti:Exchange-RSEX
-	skos:related	wd:Q7383727 .
+	skos:closeMatch	wd:Q7383727 .
 
 fibo-fbc-fct-mkti:Exchange-RTSI
-	skos:related	wd:Q107227772 .
+	skos:closeMatch	wd:Q107227772 .
 
 fibo-fbc-fct-mkti:Exchange-RTSL
-	skos:related	wd:Q93356554 .
+	skos:closeMatch	wd:Q93356554 .
 
 fibo-fbc-fct-mkti:Exchange-RTSX
-	skos:related	wd:Q107190294 .
+	skos:closeMatch	wd:Q107190294 .
 
 fibo-fbc-fct-mkti:Exchange-RUSX
-	skos:related	wd:Q93357331 .
+	skos:closeMatch	wd:Q93357331 .
 
 fibo-fbc-fct-mkti:Exchange-S3FM
-	skos:related	wd:Q93358276 .
+	skos:closeMatch	wd:Q93358276 .
 
 fibo-fbc-fct-mkti:Exchange-SAGE
-	skos:related	wd:Q93359820 .
+	skos:closeMatch	wd:Q93359820 .
 
 fibo-fbc-fct-mkti:Exchange-SANT
-	skos:related	wd:Q93356487 .
+	skos:closeMatch	wd:Q93356487 .
 
 fibo-fbc-fct-mkti:Exchange-SB1M
-	skos:related	wd:Q93358739 .
+	skos:closeMatch	wd:Q93358739 .
 
 fibo-fbc-fct-mkti:Exchange-SBAR
-	skos:related	wd:Q107190240 .
+	skos:closeMatch	wd:Q107190240 .
 
 fibo-fbc-fct-mkti:Exchange-SBEX
-	skos:related	wd:Q93362039 .
+	skos:closeMatch	wd:Q93362039 .
 
 fibo-fbc-fct-mkti:Exchange-SBIJ
-	skos:related	wd:Q69477964 .
+	skos:closeMatch	wd:Q69477964 .
 
 fibo-fbc-fct-mkti:Exchange-SBIL
-	skos:related	wd:Q107188795 .
+	skos:closeMatch	wd:Q107188795 .
 
 fibo-fbc-fct-mkti:Exchange-SBIU
-	skos:related	wd:Q107188921 .
+	skos:closeMatch	wd:Q107188921 .
 
 fibo-fbc-fct-mkti:Exchange-SBIV
-	skos:related	wd:Q107188666 .
+	skos:closeMatch	wd:Q107188666 .
 
 fibo-fbc-fct-mkti:Exchange-SBSI
-	skos:related	wd:Q93358297 .
+	skos:closeMatch	wd:Q93358297 .
 
 fibo-fbc-fct-mkti:Exchange-SCAG
-	skos:related	wd:Q93358374 .
+	skos:closeMatch	wd:Q93358374 .
 
 fibo-fbc-fct-mkti:Exchange-SCOT
-	skos:related	wd:Q17079610 .
+	skos:closeMatch	wd:Q17079610 .
 
 fibo-fbc-fct-mkti:Exchange-SCXA
-	skos:related	wd:Q107188837 .
+	skos:closeMatch	wd:Q107188837 .
 
 fibo-fbc-fct-mkti:Exchange-SCXF
-	skos:related	wd:Q107223086 .
+	skos:closeMatch	wd:Q107223086 .
 
 fibo-fbc-fct-mkti:Exchange-SCXM
-	skos:related	wd:Q107227906 .
+	skos:closeMatch	wd:Q107227906 .
 
 fibo-fbc-fct-mkti:Exchange-SCXO
-	skos:related	wd:Q93359694 .
+	skos:closeMatch	wd:Q93359694 .
 
 fibo-fbc-fct-mkti:Exchange-SCXS
-	skos:related	wd:Q107188517 .
+	skos:closeMatch	wd:Q107188517 .
 
 fibo-fbc-fct-mkti:Exchange-SEBL
-	skos:related	wd:Q93356787 .
+	skos:closeMatch	wd:Q93356787 .
 
 fibo-fbc-fct-mkti:Exchange-SEBS
-	skos:related	wd:Q93359807 .
+	skos:closeMatch	wd:Q93359807 .
 
 fibo-fbc-fct-mkti:Exchange-SECC
-	skos:related	wd:Q93362138 .
+	skos:closeMatch	wd:Q93362138 .
 
 fibo-fbc-fct-mkti:Exchange-SECD
-	skos:related	wd:Q93362141 .
+	skos:closeMatch	wd:Q93362141 .
 
 fibo-fbc-fct-mkti:Exchange-SECE
-	skos:related	wd:Q93362128 .
+	skos:closeMatch	wd:Q93362128 .
 
 fibo-fbc-fct-mkti:Exchange-SECF
-	skos:related	wd:Q7442849 .
+	skos:closeMatch	wd:Q7442849 .
 
 fibo-fbc-fct-mkti:Exchange-SEDC
-	skos:related	wd:Q93362145 .
+	skos:closeMatch	wd:Q93362145 .
 
 fibo-fbc-fct-mkti:Exchange-SEDX
-	skos:related	wd:Q107188754 .
+	skos:closeMatch	wd:Q107188754 .
 
 fibo-fbc-fct-mkti:Exchange-SEED
-	skos:related	wd:Q107223084 .
+	skos:closeMatch	wd:Q107223084 .
 
 fibo-fbc-fct-mkti:Exchange-SELC
-	skos:related	wd:Q93358789 .
+	skos:closeMatch	wd:Q93358789 .
 
 fibo-fbc-fct-mkti:Exchange-SEMX
-	skos:related	wd:Q93362035 .
+	skos:closeMatch	wd:Q93362035 .
 
 fibo-fbc-fct-mkti:Exchange-SEND
-	skos:related	wd:Q107188463 .
+	skos:closeMatch	wd:Q107188463 .
 
 fibo-fbc-fct-mkti:Exchange-SEPE
-	skos:related	wd:Q12165943 .
+	skos:closeMatch	wd:Q12165943 .
 
 fibo-fbc-fct-mkti:Exchange-SFCL
-	skos:related	wd:Q1249498 .
+	skos:closeMatch	wd:Q1249498 .
 
 fibo-fbc-fct-mkti:Exchange-SGAS
-	skos:related	wd:Q93358372 .
+	skos:closeMatch	wd:Q93358372 .
 
 fibo-fbc-fct-mkti:Exchange-SGEX
-	skos:related	wd:Q30009 .
+	skos:closeMatch	wd:Q30009 .
 
 fibo-fbc-fct-mkti:Exchange-SGMA
-	skos:related	wd:Q93358798 .
+	skos:closeMatch	wd:Q93358798 .
 
 fibo-fbc-fct-mkti:Exchange-SGMT
-	skos:related	wd:Q107223095 .
+	skos:closeMatch	wd:Q107223095 .
 
 fibo-fbc-fct-mkti:Exchange-SGMX
-	skos:related	wd:Q93358800 .
+	skos:closeMatch	wd:Q93358800 .
 
 fibo-fbc-fct-mkti:Exchange-SGMY
-	skos:related	wd:Q107188725 .
+	skos:closeMatch	wd:Q107188725 .
 
 fibo-fbc-fct-mkti:Exchange-SGMZ
-	skos:related	wd:Q107227774 .
+	skos:closeMatch	wd:Q107227774 .
 
 fibo-fbc-fct-mkti:Exchange-SGOE
-	skos:related	wd:Q93359683 .
+	skos:closeMatch	wd:Q93359683 .
 
 fibo-fbc-fct-mkti:Exchange-SHAD
-	skos:related	wd:Q107190296 .
+	skos:closeMatch	wd:Q107190296 .
 
 fibo-fbc-fct-mkti:Exchange-SHAR
-	skos:related	wd:Q93358803 .
+	skos:closeMatch	wd:Q93358803 .
 
 fibo-fbc-fct-mkti:Exchange-SHAW
-	skos:related	wd:Q1151402 .
+	skos:closeMatch	wd:Q1151402 .
 
 fibo-fbc-fct-mkti:Exchange-SHSC
-	skos:related	wd:Q107188917 .
+	skos:closeMatch	wd:Q107188917 .
 
 fibo-fbc-fct-mkti:Exchange-SIAB
-	skos:related	wd:Q93359804 .
+	skos:closeMatch	wd:Q93359804 .
 
 fibo-fbc-fct-mkti:Exchange-SIBC
-	skos:related	wd:Q93359731 .
+	skos:closeMatch	wd:Q93359731 .
 
 fibo-fbc-fct-mkti:Exchange-SICS
-	skos:related	wd:Q107190288 .
+	skos:closeMatch	wd:Q107190288 .
 
 fibo-fbc-fct-mkti:Exchange-SIGA
-	skos:related	wd:Q93358805 .
+	skos:closeMatch	wd:Q93358805 .
 
 fibo-fbc-fct-mkti:Exchange-SIGH
-	skos:related	wd:Q107190236 .
+	skos:closeMatch	wd:Q107190236 .
 
 fibo-fbc-fct-mkti:Exchange-SIGJ
-	skos:related	wd:Q93358807 .
+	skos:closeMatch	wd:Q93358807 .
 
 fibo-fbc-fct-mkti:Exchange-SIMD
-	skos:related	wd:Q107228025 .
+	skos:closeMatch	wd:Q107228025 .
 
 fibo-fbc-fct-mkti:Exchange-SIMV
-	skos:related	wd:Q93356701 .
+	skos:closeMatch	wd:Q93356701 .
 
 fibo-fbc-fct-mkti:Exchange-SISI
-	skos:related	wd:Q93360751 .
+	skos:closeMatch	wd:Q93360751 .
 
 fibo-fbc-fct-mkti:Exchange-SKBB
-	skos:related	wd:Q93363069 .
+	skos:closeMatch	wd:Q93363069 .
 
 fibo-fbc-fct-mkti:Exchange-SKSI
-	skos:related	wd:Q93359252 .
+	skos:closeMatch	wd:Q93359252 .
 
 fibo-fbc-fct-mkti:Exchange-SKYX
-	skos:related	wd:Q93360819 .
+	skos:closeMatch	wd:Q93360819 .
 
 fibo-fbc-fct-mkti:Exchange-SLHB
-	skos:related	wd:Q93362752 .
+	skos:closeMatch	wd:Q93362752 .
 
 fibo-fbc-fct-mkti:Exchange-SMBB
-	skos:related	wd:Q93360244 .
+	skos:closeMatch	wd:Q93360244 .
 
 fibo-fbc-fct-mkti:Exchange-SMBD
-	skos:related	wd:Q93361424 .
+	skos:closeMatch	wd:Q93361424 .
 
 fibo-fbc-fct-mkti:Exchange-SMBE
-	skos:related	wd:Q93357328 .
+	skos:closeMatch	wd:Q93357328 .
 
 fibo-fbc-fct-mkti:Exchange-SMBG
-	skos:related	wd:Q93362169 .
+	skos:closeMatch	wd:Q93362169 .
 
 fibo-fbc-fct-mkti:Exchange-SMBP
-	skos:related	wd:Q93361428 .
+	skos:closeMatch	wd:Q93361428 .
 
 fibo-fbc-fct-mkti:Exchange-SMEX
-	skos:related	wd:Q17125759 .
+	skos:closeMatch	wd:Q17125759 .
 
 fibo-fbc-fct-mkti:Exchange-SMFE
-	skos:related	wd:Q93358349 .
+	skos:closeMatch	wd:Q93358349 .
 
 fibo-fbc-fct-mkti:Exchange-SMFF
-	skos:related	wd:Q93358358 .
+	skos:closeMatch	wd:Q93358358 .
 
 fibo-fbc-fct-mkti:Exchange-SNSI
-	skos:related	wd:Q93359729 .
+	skos:closeMatch	wd:Q93359729 .
 
 fibo-fbc-fct-mkti:Exchange-SNUK
-	skos:related	wd:Q93357832 .
+	skos:closeMatch	wd:Q93357832 .
 
 fibo-fbc-fct-mkti:Exchange-SOHO
-	skos:related	wd:Q107186934 .
+	skos:closeMatch	wd:Q107186934 .
 
 fibo-fbc-fct-mkti:Exchange-SPBE
-	skos:related	wd:Q2306284 .
+	skos:closeMatch	wd:Q2306284 .
 
 fibo-fbc-fct-mkti:Exchange-SPDX
-	skos:related	wd:Q7580277 .
+	skos:closeMatch	wd:Q7580277 .
 
 fibo-fbc-fct-mkti:Exchange-SPEC
-	skos:related	wd:Q6759012 .
+	skos:closeMatch	wd:Q6759012 .
 
 fibo-fbc-fct-mkti:Exchange-SPEX
-	skos:related	wd:Q93360748 .
+	skos:closeMatch	wd:Q93360748 .
 
 fibo-fbc-fct-mkti:Exchange-SPIM
-	skos:related	wd:Q93356704 .
+	skos:closeMatch	wd:Q93356704 .
 
 fibo-fbc-fct-mkti:Exchange-SPRZ
-	skos:related	wd:Q93356707 .
+	skos:closeMatch	wd:Q93356707 .
 
 fibo-fbc-fct-mkti:Exchange-SPTR
-	skos:related	wd:Q93358345 .
+	skos:closeMatch	wd:Q93358345 .
 
 fibo-fbc-fct-mkti:Exchange-SPXE
-	skos:related	wd:Q93359265 .
+	skos:closeMatch	wd:Q93359265 .
 
 fibo-fbc-fct-mkti:Exchange-SQUA
-	skos:related	wd:Q93359270 .
+	skos:closeMatch	wd:Q93359270 .
 
 fibo-fbc-fct-mkti:Exchange-SSBI
-	skos:related	wd:Q93360332 .
+	skos:closeMatch	wd:Q93360332 .
 
 fibo-fbc-fct-mkti:Exchange-SSBM
-	skos:related	wd:Q107227826 .
+	skos:closeMatch	wd:Q107227826 .
 
 fibo-fbc-fct-mkti:Exchange-SSBT
-	skos:related	wd:Q7603549 .
+	skos:closeMatch	wd:Q7603549 .
 
 fibo-fbc-fct-mkti:Exchange-SSEX
-	skos:related	wd:Q93362184 .
+	skos:closeMatch	wd:Q93362184 .
 
 fibo-fbc-fct-mkti:Exchange-SSFX
-	skos:related	wd:Q107190319 .
+	skos:closeMatch	wd:Q107190319 .
 
 fibo-fbc-fct-mkti:Exchange-SSIL
-	skos:related	wd:Q93360371 .
+	skos:closeMatch	wd:Q93360371 .
 
 fibo-fbc-fct-mkti:Exchange-SSME
-	skos:related	wd:Q107190298 .
+	skos:closeMatch	wd:Q107190298 .
 
 fibo-fbc-fct-mkti:Exchange-SSOB
-	skos:related	wd:Q107188704 .
+	skos:closeMatch	wd:Q107188704 .
 
 fibo-fbc-fct-mkti:Exchange-SSTX
-	skos:related	wd:Q93356710 .
+	skos:closeMatch	wd:Q93356710 .
 
 fibo-fbc-fct-mkti:Exchange-SSWM-2017-11-27
-	skos:related	wd:Q93360228 .
+	skos:closeMatch	wd:Q93360228 .
 
 fibo-fbc-fct-mkti:Exchange-STAN
-	skos:related	wd:Q93362950 .
+	skos:closeMatch	wd:Q93362950 .
 
 fibo-fbc-fct-mkti:Exchange-STEE-2017-04-24
-	skos:related	wd:Q107227752 .
+	skos:closeMatch	wd:Q107227752 .
 
 fibo-fbc-fct-mkti:Exchange-STFL
-	skos:related	wd:Q93358809 .
+	skos:closeMatch	wd:Q93358809 .
 
 fibo-fbc-fct-mkti:Exchange-STFX
-	skos:related	wd:Q93360800 .
+	skos:closeMatch	wd:Q93360800 .
 
 fibo-fbc-fct-mkti:Exchange-STOX
-	skos:related	wd:Q681317 .
+	skos:closeMatch	wd:Q681317 .
 
 fibo-fbc-fct-mkti:Exchange-STUA
-	skos:related	wd:Q107190238 .
+	skos:closeMatch	wd:Q107190238 .
 
 fibo-fbc-fct-mkti:Exchange-STUB
-	skos:related	wd:Q107190239 .
+	skos:closeMatch	wd:Q107190239 .
 
 fibo-fbc-fct-mkti:Exchange-STUC
-	skos:related	wd:Q107189226 .
+	skos:closeMatch	wd:Q107189226 .
 
 fibo-fbc-fct-mkti:Exchange-STUD
-	skos:related	wd:Q107188640 .
+	skos:closeMatch	wd:Q107188640 .
 
 fibo-fbc-fct-mkti:Exchange-SUNB-2022-01-24
-	skos:related	wd:Q93361295 .
+	skos:closeMatch	wd:Q93361295 .
 
 fibo-fbc-fct-mkti:Exchange-SUNO
-	skos:related	wd:Q107227927 .
+	skos:closeMatch	wd:Q107227927 .
 
 fibo-fbc-fct-mkti:Exchange-SUNT
-	skos:related	wd:Q93361397 .
+	skos:closeMatch	wd:Q93361397 .
 
 fibo-fbc-fct-mkti:Exchange-SVES
-	skos:related	wd:Q107227767 .
+	skos:closeMatch	wd:Q107227767 .
 
 fibo-fbc-fct-mkti:Exchange-SVEX
-	skos:related	wd:Q1421630 .
+	skos:closeMatch	wd:Q1421630 .
 
 fibo-fbc-fct-mkti:Exchange-SVXI
-	skos:related	wd:Q85847135 .
+	skos:closeMatch	wd:Q85847135 .
 
 fibo-fbc-fct-mkti:Exchange-SWAP
-	skos:related	wd:Q93357296 .
+	skos:closeMatch	wd:Q93357296 .
 
 fibo-fbc-fct-mkti:Exchange-SWBI
-	skos:related	wd:Q93361355 .
+	skos:closeMatch	wd:Q93361355 .
 
 fibo-fbc-fct-mkti:Exchange-SWEE
-	skos:related	wd:Q93356512 .
+	skos:closeMatch	wd:Q93356512 .
 
 fibo-fbc-fct-mkti:Exchange-SWLT
-	skos:related	wd:Q93356462 .
+	skos:closeMatch	wd:Q93356462 .
 
 fibo-fbc-fct-mkti:Exchange-SWLV
-	skos:related	wd:Q93362945 .
+	skos:closeMatch	wd:Q93362945 .
 
 fibo-fbc-fct-mkti:Exchange-SXSI
-	skos:related	wd:Q1325291 .
+	skos:closeMatch	wd:Q1325291 .
 
 fibo-fbc-fct-mkti:Exchange-SYFX
-	skos:related	wd:Q93357898 .
+	skos:closeMatch	wd:Q93357898 .
 
 fibo-fbc-fct-mkti:Exchange-SZSC
-	skos:related	wd:Q107223072 .
+	skos:closeMatch	wd:Q107223072 .
 
 fibo-fbc-fct-mkti:Exchange-TBSP
-	skos:related	wd:Q107188651 .
+	skos:closeMatch	wd:Q107188651 .
 
 fibo-fbc-fct-mkti:Exchange-TCDS
-	skos:related	wd:Q107188855 .
+	skos:closeMatch	wd:Q107188855 .
 
 fibo-fbc-fct-mkti:Exchange-TCML
-	skos:related	wd:Q93358283 .
+	skos:closeMatch	wd:Q93358283 .
 
 fibo-fbc-fct-mkti:Exchange-TDBL
-	skos:related	wd:Q93358294 .
+	skos:closeMatch	wd:Q93358294 .
 
 fibo-fbc-fct-mkti:Exchange-TDGF
-	skos:related	wd:Q7669903 .
+	skos:closeMatch	wd:Q7669903 .
 
 fibo-fbc-fct-mkti:Exchange-TDON
-	skos:related	wd:Q93357778 .
+	skos:closeMatch	wd:Q93357778 .
 
 fibo-fbc-fct-mkti:Exchange-TECO
-	skos:related	wd:Q107223068 .
+	skos:closeMatch	wd:Q107223068 .
 
 fibo-fbc-fct-mkti:Exchange-TEFD
-	skos:related	wd:Q107227760 .
+	skos:closeMatch	wd:Q107227760 .
 
 fibo-fbc-fct-mkti:Exchange-TEFX
-	skos:related	wd:Q107190264 .
+	skos:closeMatch	wd:Q107190264 .
 
 fibo-fbc-fct-mkti:Exchange-TEGB
-	skos:related	wd:Q107190276 .
+	skos:closeMatch	wd:Q107190276 .
 
 fibo-fbc-fct-mkti:Exchange-TEGI
-	skos:related	wd:Q107188764 .
+	skos:closeMatch	wd:Q107188764 .
 
 fibo-fbc-fct-mkti:Exchange-TEIR
-	skos:related	wd:Q107227825 .
+	skos:closeMatch	wd:Q107227825 .
 
 fibo-fbc-fct-mkti:Exchange-TEMB
-	skos:related	wd:Q107190320 .
+	skos:closeMatch	wd:Q107190320 .
 
 fibo-fbc-fct-mkti:Exchange-TEMF
-	skos:related	wd:Q107228056 .
+	skos:closeMatch	wd:Q107228056 .
 
 fibo-fbc-fct-mkti:Exchange-TEMI
-	skos:related	wd:Q107227919 .
+	skos:closeMatch	wd:Q107227919 .
 
 fibo-fbc-fct-mkti:Exchange-TEMM
-	skos:related	wd:Q107188630 .
+	skos:closeMatch	wd:Q107188630 .
 
 fibo-fbc-fct-mkti:Exchange-TEMR
-	skos:related	wd:Q107188729 .
+	skos:closeMatch	wd:Q107188729 .
 
 fibo-fbc-fct-mkti:Exchange-TERA
-	skos:related	wd:Q93357265 .
+	skos:closeMatch	wd:Q93357265 .
 
 fibo-fbc-fct-mkti:Exchange-TERE
-	skos:related	wd:Q107190254 .
+	skos:closeMatch	wd:Q107190254 .
 
 fibo-fbc-fct-mkti:Exchange-TFEX
-	skos:related	wd:Q93357301 .
+	skos:closeMatch	wd:Q93357301 .
 
 fibo-fbc-fct-mkti:Exchange-TFSA
-	skos:related	wd:Q93357302 .
+	skos:closeMatch	wd:Q93357302 .
 
 fibo-fbc-fct-mkti:Exchange-TFSD
-	skos:related	wd:Q93359767 .
+	skos:closeMatch	wd:Q93359767 .
 
 fibo-fbc-fct-mkti:Exchange-TFSU
-	skos:related	wd:Q93357305 .
+	skos:closeMatch	wd:Q93357305 .
 
 fibo-fbc-fct-mkti:Exchange-TGAT
-	skos:related	wd:Q1305960 .
+	skos:closeMatch	wd:Q1305960 .
 
 fibo-fbc-fct-mkti:Exchange-TGSI
-	skos:related	wd:Q107189227 .
+	skos:closeMatch	wd:Q107189227 .
 
 fibo-fbc-fct-mkti:Exchange-THEM
-	skos:related	wd:Q93359272 .
+	skos:closeMatch	wd:Q93359272 .
 
 fibo-fbc-fct-mkti:Exchange-THRE
-	skos:related	wd:Q93357789 .
+	skos:closeMatch	wd:Q93357789 .
 
 fibo-fbc-fct-mkti:Exchange-TIRD
-	skos:related	wd:Q107227761 .
+	skos:closeMatch	wd:Q107227761 .
 
 fibo-fbc-fct-mkti:Exchange-TMCC
-	skos:related	wd:Q107227777 .
+	skos:closeMatch	wd:Q107227777 .
 
 fibo-fbc-fct-mkti:Exchange-TMID
-	skos:related	wd:Q93356504 .
+	skos:closeMatch	wd:Q93356504 .
 
 fibo-fbc-fct-mkti:Exchange-TNLA
-	skos:related	wd:Q107188654 .
+	skos:closeMatch	wd:Q107188654 .
 
 fibo-fbc-fct-mkti:Exchange-TNLB
-	skos:related	wd:Q107189149 .
+	skos:closeMatch	wd:Q107189149 .
 
 fibo-fbc-fct-mkti:Exchange-TNLK
-	skos:related	wd:Q107223114 .
+	skos:closeMatch	wd:Q107223114 .
 
 fibo-fbc-fct-mkti:Exchange-TNLL-2021-10-25
-	skos:related	wd:Q107188664 .
+	skos:closeMatch	wd:Q107188664 .
 
 fibo-fbc-fct-mkti:Exchange-TOCP
-	skos:related	wd:Q93357307 .
+	skos:closeMatch	wd:Q93357307 .
 
 fibo-fbc-fct-mkti:Exchange-TOMG-2021-11-22
-	skos:related	wd:Q107188629 .
+	skos:closeMatch	wd:Q107188629 .
 
 fibo-fbc-fct-mkti:Exchange-TOWR
-	skos:related	wd:Q93359317 .
+	skos:closeMatch	wd:Q93359317 .
 
 fibo-fbc-fct-mkti:Exchange-TPEL
-	skos:related	wd:Q93361463 .
+	skos:closeMatch	wd:Q93361463 .
 
 fibo-fbc-fct-mkti:Exchange-TPEO
-	skos:related	wd:Q1637548 .
+	skos:closeMatch	wd:Q1637548 .
 
 fibo-fbc-fct-mkti:Exchange-TPES-2021-11-22
-	skos:related	wd:Q93360224 .
+	skos:closeMatch	wd:Q93360224 .
 
 fibo-fbc-fct-mkti:Exchange-TPEU
-	skos:related	wd:Q93358234 .
+	skos:closeMatch	wd:Q93358234 .
 
 fibo-fbc-fct-mkti:Exchange-TPIC
-	skos:related	wd:Q93361340 .
+	skos:closeMatch	wd:Q93361340 .
 
 fibo-fbc-fct-mkti:Exchange-TPIE
-	skos:related	wd:Q93359855 .
+	skos:closeMatch	wd:Q93359855 .
 
 fibo-fbc-fct-mkti:Exchange-TPIO
-	skos:related	wd:Q107190325 .
+	skos:closeMatch	wd:Q107190325 .
 
 fibo-fbc-fct-mkti:Exchange-TPIR
-	skos:related	wd:Q107190324 .
+	skos:closeMatch	wd:Q107190324 .
 
 fibo-fbc-fct-mkti:Exchange-TPSE
-	skos:related	wd:Q93361330 .
+	skos:closeMatch	wd:Q93361330 .
 
 fibo-fbc-fct-mkti:Exchange-TPSL
-	skos:related	wd:Q107232461 .
+	skos:closeMatch	wd:Q107232461 .
 
 fibo-fbc-fct-mkti:Exchange-TPSO
-	skos:related	wd:Q93358772 .
+	skos:closeMatch	wd:Q93358772 .
 
 fibo-fbc-fct-mkti:Exchange-TQEA
-	skos:related	wd:Q107223120 .
+	skos:closeMatch	wd:Q107223120 .
 
 fibo-fbc-fct-mkti:Exchange-TQEB
-	skos:related	wd:Q107223122 .
+	skos:closeMatch	wd:Q107223122 .
 
 fibo-fbc-fct-mkti:Exchange-TQEM
-	skos:related	wd:Q107223121 .
+	skos:closeMatch	wd:Q107223121 .
 
 fibo-fbc-fct-mkti:Exchange-TQEX
-	skos:related	wd:Q93359835 .
+	skos:closeMatch	wd:Q93359835 .
 
 fibo-fbc-fct-mkti:Exchange-TRAI
-	skos:related	wd:Q93360807 .
+	skos:closeMatch	wd:Q93360807 .
 
 fibo-fbc-fct-mkti:Exchange-TRAL
-	skos:related	wd:Q107227758 .
+	skos:closeMatch	wd:Q107227758 .
 
 fibo-fbc-fct-mkti:Exchange-TRAS
-	skos:related	wd:Q93359771 .
+	skos:closeMatch	wd:Q93359771 .
 
 fibo-fbc-fct-mkti:Exchange-TRAX
-	skos:related	wd:Q93357222 .
+	skos:closeMatch	wd:Q93357222 .
 
 fibo-fbc-fct-mkti:Exchange-TRCK
-	skos:related	wd:Q93356832 .
+	skos:closeMatch	wd:Q93356832 .
 
 fibo-fbc-fct-mkti:Exchange-TRCX
-	skos:related	wd:Q7829724 .
+	skos:closeMatch	wd:Q7829724 .
 
 fibo-fbc-fct-mkti:Exchange-TRDE
-	skos:related	wd:Q93357780 .
+	skos:closeMatch	wd:Q93357780 .
 
 fibo-fbc-fct-mkti:Exchange-TRDX
-	skos:related	wd:Q107189184 .
+	skos:closeMatch	wd:Q107189184 .
 
 fibo-fbc-fct-mkti:Exchange-TREA
-	skos:related	wd:Q107228002 .
+	skos:closeMatch	wd:Q107228002 .
 
 fibo-fbc-fct-mkti:Exchange-TREO
-	skos:related	wd:Q107223113 .
+	skos:closeMatch	wd:Q107223113 .
 
 fibo-fbc-fct-mkti:Exchange-TREU
-	skos:related	wd:Q93358740 .
+	skos:closeMatch	wd:Q93358740 .
 
 fibo-fbc-fct-mkti:Exchange-TRFW
-	skos:related	wd:Q107188760 .
+	skos:closeMatch	wd:Q107188760 .
 
 fibo-fbc-fct-mkti:Exchange-TRNL
-	skos:related	wd:Q93362049 .
+	skos:closeMatch	wd:Q93362049 .
 
 fibo-fbc-fct-mkti:Exchange-TRPX
-	skos:related	wd:Q25212170 .
+	skos:closeMatch	wd:Q25212170 .
 
 fibo-fbc-fct-mkti:Exchange-TRQA
-	skos:related	wd:Q107227740 .
+	skos:closeMatch	wd:Q107227740 .
 
 fibo-fbc-fct-mkti:Exchange-TRQB
-	skos:related	wd:Q107223089 .
+	skos:closeMatch	wd:Q107223089 .
 
 fibo-fbc-fct-mkti:Exchange-TRQC
-	skos:related	wd:Q107188735 .
+	skos:closeMatch	wd:Q107188735 .
 
 fibo-fbc-fct-mkti:Exchange-TRQM
-	skos:related	wd:Q107189193 .
+	skos:closeMatch	wd:Q107189193 .
 
 fibo-fbc-fct-mkti:Exchange-TRQX
-	skos:related	wd:Q774731 .
+	skos:closeMatch	wd:Q774731 .
 
 fibo-fbc-fct-mkti:Exchange-TRSI
-	skos:related	wd:Q7829724 .
+	skos:closeMatch	wd:Q7829724 .
 
 fibo-fbc-fct-mkti:Exchange-TRU1
-	skos:related	wd:Q107189232 .
+	skos:closeMatch	wd:Q107189232 .
 
 fibo-fbc-fct-mkti:Exchange-TRU2
-	skos:related	wd:Q107188915 .
+	skos:closeMatch	wd:Q107188915 .
 
 fibo-fbc-fct-mkti:Exchange-TRUX
-	skos:related	wd:Q7847316 .
+	skos:closeMatch	wd:Q7847316 .
 
 fibo-fbc-fct-mkti:Exchange-TRWB
-	skos:related	wd:Q18754966 .
+	skos:closeMatch	wd:Q18754966 .
 
 fibo-fbc-fct-mkti:Exchange-TRXE
-	skos:related	wd:Q93358721 .
+	skos:closeMatch	wd:Q93358721 .
 
 fibo-fbc-fct-mkti:Exchange-TSAD
-	skos:related	wd:Q93360189 .
+	skos:closeMatch	wd:Q93360189 .
 
 fibo-fbc-fct-mkti:Exchange-TSAF
-	skos:related	wd:Q93357288 .
+	skos:closeMatch	wd:Q93357288 .
 
 fibo-fbc-fct-mkti:Exchange-TSBX
-	skos:related	wd:Q93360312 .
+	skos:closeMatch	wd:Q93360312 .
 
 fibo-fbc-fct-mkti:Exchange-TSCB
-	skos:related	wd:Q107188520 .
+	skos:closeMatch	wd:Q107188520 .
 
 fibo-fbc-fct-mkti:Exchange-TSCD
-	skos:related	wd:Q107227754 .
+	skos:closeMatch	wd:Q107227754 .
 
 fibo-fbc-fct-mkti:Exchange-TSED
-	skos:related	wd:Q107227765 .
+	skos:closeMatch	wd:Q107227765 .
 
 fibo-fbc-fct-mkti:Exchange-TSEF
-	skos:related	wd:Q93357249 .
+	skos:closeMatch	wd:Q93357249 .
 
 fibo-fbc-fct-mkti:Exchange-TSFI
-	skos:related	wd:Q107223054 .
+	skos:closeMatch	wd:Q107223054 .
 
 fibo-fbc-fct-mkti:Exchange-TSGB
-	skos:related	wd:Q107188856 .
+	skos:closeMatch	wd:Q107188856 .
 
 fibo-fbc-fct-mkti:Exchange-TSGI
-	skos:related	wd:Q107232466 .
+	skos:closeMatch	wd:Q107232466 .
 
 fibo-fbc-fct-mkti:Exchange-TSIG
-	skos:related	wd:Q93359764 .
+	skos:closeMatch	wd:Q93359764 .
 
 fibo-fbc-fct-mkti:Exchange-TSMM
-	skos:related	wd:Q107188756 .
+	skos:closeMatch	wd:Q107188756 .
 
 fibo-fbc-fct-mkti:Exchange-TSMR
-	skos:related	wd:Q107228108 .
+	skos:closeMatch	wd:Q107228108 .
 
 fibo-fbc-fct-mkti:Exchange-TSRE
-	skos:related	wd:Q107228011 .
+	skos:closeMatch	wd:Q107228011 .
 
 fibo-fbc-fct-mkti:Exchange-TUOB
-	skos:related	wd:Q107190258 .
+	skos:closeMatch	wd:Q107190258 .
 
 fibo-fbc-fct-mkti:Exchange-TWEA
-	skos:related	wd:Q107190273 .
+	skos:closeMatch	wd:Q107190273 .
 
 fibo-fbc-fct-mkti:Exchange-TWEM
-	skos:related	wd:Q107188720 .
+	skos:closeMatch	wd:Q107188720 .
 
 fibo-fbc-fct-mkti:Exchange-TWEO
-	skos:related	wd:Q107188721 .
+	skos:closeMatch	wd:Q107188721 .
 
 fibo-fbc-fct-mkti:Exchange-TWEU
-	skos:related	wd:Q93361309 .
+	skos:closeMatch	wd:Q93361309 .
 
 fibo-fbc-fct-mkti:Exchange-TWGP
-	skos:related	wd:Q93357851 .
+	skos:closeMatch	wd:Q93357851 .
 
 fibo-fbc-fct-mkti:Exchange-TWHK
-	skos:related	wd:Q93359800 .
+	skos:closeMatch	wd:Q93359800 .
 
 fibo-fbc-fct-mkti:Exchange-TWJP
-	skos:related	wd:Q93360255 .
+	skos:closeMatch	wd:Q93360255 .
 
 fibo-fbc-fct-mkti:Exchange-TWJT
-	skos:related	wd:Q107227731 .
+	skos:closeMatch	wd:Q107227731 .
 
 fibo-fbc-fct-mkti:Exchange-TWSF
-	skos:related	wd:Q107227735 .
+	skos:closeMatch	wd:Q107227735 .
 
 fibo-fbc-fct-mkti:Exchange-TWSG
-	skos:related	wd:Q93362158 .
+	skos:closeMatch	wd:Q93362158 .
 
 fibo-fbc-fct-mkti:Exchange-UBCZ
-	skos:related	wd:Q93362870 .
+	skos:closeMatch	wd:Q93362870 .
 
 fibo-fbc-fct-mkti:Exchange-UBIM-2021-04-26
-	skos:related	wd:Q93357324 .
+	skos:closeMatch	wd:Q93357324 .
 
 fibo-fbc-fct-mkti:Exchange-UBIN
-	skos:related	wd:Q93360766 .
+	skos:closeMatch	wd:Q93360766 .
 
 fibo-fbc-fct-mkti:Exchange-UBIS
-	skos:related	wd:Q93361458 .
+	skos:closeMatch	wd:Q93361458 .
 
 fibo-fbc-fct-mkti:Exchange-UBSA
-	skos:related	wd:Q93358230 .
+	skos:closeMatch	wd:Q93358230 .
 
 fibo-fbc-fct-mkti:Exchange-UBSB
-	skos:related	wd:Q93356769 .
+	skos:closeMatch	wd:Q93356769 .
 
 fibo-fbc-fct-mkti:Exchange-UBSC
-	skos:related	wd:Q107227925 .
+	skos:closeMatch	wd:Q107227925 .
 
 fibo-fbc-fct-mkti:Exchange-UBSF
-	skos:related	wd:Q107188667 .
+	skos:closeMatch	wd:Q107188667 .
 
 fibo-fbc-fct-mkti:Exchange-UBSG
-	skos:related	wd:Q93359229 .
+	skos:closeMatch	wd:Q93359229 .
 
 fibo-fbc-fct-mkti:Exchange-UBSI
-	skos:related	wd:Q107228095 .
+	skos:closeMatch	wd:Q107228095 .
 
 fibo-fbc-fct-mkti:Exchange-UBSL
-	skos:related	wd:Q93362176 .
+	skos:closeMatch	wd:Q93362176 .
 
 fibo-fbc-fct-mkti:Exchange-UBSP
-	skos:related	wd:Q107188768 .
+	skos:closeMatch	wd:Q107188768 .
 
 fibo-fbc-fct-mkti:Exchange-UBSS
-	skos:related	wd:Q93359844 .
+	skos:closeMatch	wd:Q93359844 .
 
 fibo-fbc-fct-mkti:Exchange-UBSX
-	skos:related	wd:Q93357824 .
+	skos:closeMatch	wd:Q93357824 .
 
 fibo-fbc-fct-mkti:Exchange-UBSY
-	skos:related	wd:Q107227820 .
+	skos:closeMatch	wd:Q107227820 .
 
 fibo-fbc-fct-mkti:Exchange-UCBA
-	skos:related	wd:Q93360920 .
+	skos:closeMatch	wd:Q93360920 .
 
 fibo-fbc-fct-mkti:Exchange-UCDE
-	skos:related	wd:Q93359273 .
+	skos:closeMatch	wd:Q93359273 .
 
 fibo-fbc-fct-mkti:Exchange-UCHU
-	skos:related	wd:Q93357905 .
+	skos:closeMatch	wd:Q93357905 .
 
 fibo-fbc-fct-mkti:Exchange-UCIT
-	skos:related	wd:Q93363032 .
+	skos:closeMatch	wd:Q93363032 .
 
 fibo-fbc-fct-mkti:Exchange-UFEX
-	skos:related	wd:Q93360290 .
+	skos:closeMatch	wd:Q93360290 .
 
 fibo-fbc-fct-mkti:Exchange-UICE
-	skos:related	wd:Q93358774 .
+	skos:closeMatch	wd:Q93358774 .
 
 fibo-fbc-fct-mkti:Exchange-UKEX
-	skos:related	wd:Q4470480 .
+	skos:closeMatch	wd:Q4470480 .
 
 fibo-fbc-fct-mkti:Exchange-UKGD
-	skos:related	wd:Q107189194 .
+	skos:closeMatch	wd:Q107189194 .
 
 fibo-fbc-fct-mkti:Exchange-UKOR
-	skos:related	wd:Q107227778 .
+	skos:closeMatch	wd:Q107227778 .
 
 fibo-fbc-fct-mkti:Exchange-UKPX
-	skos:related	wd:Q93357174 .
+	skos:closeMatch	wd:Q93357174 .
 
 fibo-fbc-fct-mkti:Exchange-UKRE
-	skos:related	wd:Q107227807 .
+	skos:closeMatch	wd:Q107227807 .
 
 fibo-fbc-fct-mkti:Exchange-ULTX
-	skos:related	wd:Q93357788 .
+	skos:closeMatch	wd:Q93357788 .
 
 fibo-fbc-fct-mkti:Exchange-USWB
-	skos:related	wd:Q107228051 .
+	skos:closeMatch	wd:Q107228051 .
 
 fibo-fbc-fct-mkti:Exchange-UTSL
-	skos:related	wd:Q93363018 .
+	skos:closeMatch	wd:Q93363018 .
 
 fibo-fbc-fct-mkti:Exchange-VABD
-	skos:related	wd:Q107188840 .
+	skos:closeMatch	wd:Q107188840 .
 
 fibo-fbc-fct-mkti:Exchange-VAGL
-	skos:related	wd:Q93356041 .
+	skos:closeMatch	wd:Q93356041 .
 
 fibo-fbc-fct-mkti:Exchange-VAGM
-	skos:related	wd:Q93362899 .
+	skos:closeMatch	wd:Q93362899 .
 
 fibo-fbc-fct-mkti:Exchange-VALX
-	skos:related	wd:Q107188789 .
+	skos:closeMatch	wd:Q107188789 .
 
 fibo-fbc-fct-mkti:Exchange-VCMO
-	skos:related	wd:Q93356519 .
+	skos:closeMatch	wd:Q93356519 .
 
 fibo-fbc-fct-mkti:Exchange-VCRS
-	skos:related	wd:Q107223035 .
+	skos:closeMatch	wd:Q107223035 .
 
 fibo-fbc-fct-mkti:Exchange-VDRK
-	skos:related	wd:Q107227854 .
+	skos:closeMatch	wd:Q107227854 .
 
 fibo-fbc-fct-mkti:Exchange-VEGA
-	skos:related	wd:Q3555202 .
+	skos:closeMatch	wd:Q3555202 .
 
 fibo-fbc-fct-mkti:Exchange-VERT
-	skos:related	wd:Q93357226 .
+	skos:closeMatch	wd:Q93357226 .
 
 fibo-fbc-fct-mkti:Exchange-VFCM
-	skos:related	wd:Q93360939 .
+	skos:closeMatch	wd:Q93360939 .
 
 fibo-fbc-fct-mkti:Exchange-VFGB
-	skos:related	wd:Q93356793 .
+	skos:closeMatch	wd:Q93356793 .
 
 fibo-fbc-fct-mkti:Exchange-VFIL
-	skos:related	wd:Q93360951 .
+	skos:closeMatch	wd:Q93360951 .
 
 fibo-fbc-fct-mkti:Exchange-VFMI
-	skos:related	wd:Q107190234 .
+	skos:closeMatch	wd:Q107190234 .
 
 fibo-fbc-fct-mkti:Exchange-VFSI
-	skos:related	wd:Q107228057 .
+	skos:closeMatch	wd:Q107228057 .
 
 fibo-fbc-fct-mkti:Exchange-VFXO
-	skos:related	wd:Q107227837 .
+	skos:closeMatch	wd:Q107227837 .
 
 fibo-fbc-fct-mkti:Exchange-VIRT
-	skos:related	wd:Q93359287 .
+	skos:closeMatch	wd:Q93359287 .
 
 fibo-fbc-fct-mkti:Exchange-VIUK
-	skos:related	wd:Q93356791 .
+	skos:closeMatch	wd:Q93356791 .
 
 fibo-fbc-fct-mkti:Exchange-VLEX
-	skos:related	wd:Q502421 .
+	skos:closeMatch	wd:Q502421 .
 
 fibo-fbc-fct-mkti:Exchange-VMFX
-	skos:related	wd:Q5436092 .
+	skos:closeMatch	wd:Q5436092 .
 
 fibo-fbc-fct-mkti:Exchange-VONT
-	skos:related	wd:Q93363013 .
+	skos:closeMatch	wd:Q93363013 .
 
 fibo-fbc-fct-mkti:Exchange-VPXB
-	skos:related	wd:Q107189153 .
+	skos:closeMatch	wd:Q107189153 .
 
 fibo-fbc-fct-mkti:Exchange-VTBC
-	skos:related	wd:Q93358273 .
+	skos:closeMatch	wd:Q93358273 .
 
 fibo-fbc-fct-mkti:Exchange-VTEX
-	skos:related	wd:Q107188476 .
+	skos:closeMatch	wd:Q107188476 .
 
 fibo-fbc-fct-mkti:Exchange-VTLS
-	skos:related	wd:Q107188904 .
+	skos:closeMatch	wd:Q107188904 .
 
 fibo-fbc-fct-mkti:Exchange-VTPS
-	skos:related	wd:Q107188907 .
+	skos:closeMatch	wd:Q107188907 .
 
 fibo-fbc-fct-mkti:Exchange-VUSA
-	skos:related	wd:Q93358269 .
+	skos:closeMatch	wd:Q93358269 .
 
 fibo-fbc-fct-mkti:Exchange-VWDA
-	skos:related	wd:Q107188839 .
+	skos:closeMatch	wd:Q107188839 .
 
 fibo-fbc-fct-mkti:Exchange-VWDX
-	skos:related	wd:Q93360235 .
+	skos:closeMatch	wd:Q93360235 .
 
 fibo-fbc-fct-mkti:Exchange-WBAH
-	skos:related	wd:Q107188785 .
+	skos:closeMatch	wd:Q107188785 .
 
 fibo-fbc-fct-mkti:Exchange-WBCL
-	skos:related	wd:Q107188621 .
+	skos:closeMatch	wd:Q107188621 .
 
 fibo-fbc-fct-mkti:Exchange-WBDM
-	skos:related	wd:Q107223107 .
+	skos:closeMatch	wd:Q107223107 .
 
 fibo-fbc-fct-mkti:Exchange-WBKP
-	skos:related	wd:Q93361354 .
+	skos:closeMatch	wd:Q93361354 .
 
 fibo-fbc-fct-mkti:Exchange-WBON
-	skos:related	wd:Q107188662 .
+	skos:closeMatch	wd:Q107188662 .
 
 fibo-fbc-fct-mkti:Exchange-WDER
-	skos:related	wd:Q107188521 .
+	skos:closeMatch	wd:Q107188521 .
 
 fibo-fbc-fct-mkti:Exchange-WELN
-	skos:related	wd:Q93362760 .
+	skos:closeMatch	wd:Q93362760 .
 
 fibo-fbc-fct-mkti:Exchange-WELS
-	skos:related	wd:Q93357836 .
+	skos:closeMatch	wd:Q93357836 .
 
 fibo-fbc-fct-mkti:Exchange-WETP
-	skos:related	wd:Q107188522 .
+	skos:closeMatch	wd:Q107188522 .
 
 fibo-fbc-fct-mkti:Exchange-WIND
-	skos:related	wd:Q107188523 .
+	skos:closeMatch	wd:Q107188523 .
 
 fibo-fbc-fct-mkti:Exchange-WINS
-	skos:related	wd:Q93360875 .
+	skos:closeMatch	wd:Q93360875 .
 
 fibo-fbc-fct-mkti:Exchange-WINX
-	skos:related	wd:Q107223097 .
+	skos:closeMatch	wd:Q107223097 .
 
 fibo-fbc-fct-mkti:Exchange-WIPO
-	skos:related	wd:Q107223050 .
+	skos:closeMatch	wd:Q107223050 .
 
 fibo-fbc-fct-mkti:Exchange-WMTF
-	skos:related	wd:Q107188524 .
+	skos:closeMatch	wd:Q107188524 .
 
 fibo-fbc-fct-mkti:Exchange-WOOD
-	skos:related	wd:Q93360302 .
+	skos:closeMatch	wd:Q93360302 .
 
 fibo-fbc-fct-mkti:Exchange-WQXL
-	skos:related	wd:Q107223031 .
+	skos:closeMatch	wd:Q107223031 .
 
 fibo-fbc-fct-mkti:Exchange-WSAG
-	skos:related	wd:Q93356596 .
+	skos:closeMatch	wd:Q93356596 .
 
 fibo-fbc-fct-mkti:Exchange-WSIL
-	skos:related	wd:Q93361423 .
+	skos:closeMatch	wd:Q93361423 .
 
 fibo-fbc-fct-mkti:Exchange-WSIN
-	skos:related	wd:Q93362755 .
+	skos:closeMatch	wd:Q93362755 .
 
 fibo-fbc-fct-mkti:Exchange-XABC
-	skos:related	wd:Q93357272 .
+	skos:closeMatch	wd:Q93357272 .
 
 fibo-fbc-fct-mkti:Exchange-XABG
-	skos:related	wd:Q93362814 .
+	skos:closeMatch	wd:Q93362814 .
 
 fibo-fbc-fct-mkti:Exchange-XADE
-	skos:related	wd:Q107188452 .
+	skos:closeMatch	wd:Q107188452 .
 
 fibo-fbc-fct-mkti:Exchange-XADF
-	skos:related	wd:Q107188853 .
+	skos:closeMatch	wd:Q107188853 .
 
 fibo-fbc-fct-mkti:Exchange-XADS
-	skos:related	wd:Q4119825 .
+	skos:closeMatch	wd:Q4119825 .
 
 fibo-fbc-fct-mkti:Exchange-XAFR
-	skos:related	wd:Q93356826 .
+	skos:closeMatch	wd:Q93356826 .
 
 fibo-fbc-fct-mkti:Exchange-XAFX
-	skos:related	wd:Q93362186 .
+	skos:closeMatch	wd:Q93362186 .
 
 fibo-fbc-fct-mkti:Exchange-XAIM-2021-10-25
-	skos:related	wd:Q107188874 .
+	skos:closeMatch	wd:Q107188874 .
 
 fibo-fbc-fct-mkti:Exchange-XALG
-	skos:related	wd:Q2922433 .
+	skos:closeMatch	wd:Q2922433 .
 
 fibo-fbc-fct-mkti:Exchange-XALS
-	skos:related	wd:Q76186164 .
+	skos:closeMatch	wd:Q76186164 .
 
 fibo-fbc-fct-mkti:Exchange-XALT
-	skos:related	wd:Q93357200 .
+	skos:closeMatch	wd:Q93357200 .
 
 fibo-fbc-fct-mkti:Exchange-XAMM
-	skos:related	wd:Q2122308 .
+	skos:closeMatch	wd:Q2122308 .
 
 fibo-fbc-fct-mkti:Exchange-XAMS
-	skos:related	wd:Q478720 .
+	skos:closeMatch	wd:Q478720 .
 
 fibo-fbc-fct-mkti:Exchange-XAPA
-	skos:related	wd:Q107188634 .
+	skos:closeMatch	wd:Q107188634 .
 
 fibo-fbc-fct-mkti:Exchange-XAQS
-	skos:related	wd:Q17146849 .
+	skos:closeMatch	wd:Q17146849 .
 
 fibo-fbc-fct-mkti:Exchange-XARM
-	skos:related	wd:Q683787 .
+	skos:closeMatch	wd:Q683787 .
 
 fibo-fbc-fct-mkti:Exchange-XASE
-	skos:related	wd:Q846626 .
+	skos:closeMatch	wd:Q846626 .
 
 fibo-fbc-fct-mkti:Exchange-XASX
-	skos:related	wd:Q732670 .
+	skos:closeMatch	wd:Q732670 .
 
 fibo-fbc-fct-mkti:Exchange-XATH
-	skos:related	wd:Q107188453 .
+	skos:closeMatch	wd:Q107188453 .
 
 fibo-fbc-fct-mkti:Exchange-XATL
-	skos:related	wd:Q107228106 .
+	skos:closeMatch	wd:Q107228106 .
 
 fibo-fbc-fct-mkti:Exchange-XATS
-	skos:related	wd:Q93356691 .
+	skos:closeMatch	wd:Q93356691 .
 
 fibo-fbc-fct-mkti:Exchange-XBAA
-	skos:related	wd:Q4842346 .
+	skos:closeMatch	wd:Q4842346 .
 
 fibo-fbc-fct-mkti:Exchange-XBAB
-	skos:related	wd:Q4858621 .
+	skos:closeMatch	wd:Q4858621 .
 
 fibo-fbc-fct-mkti:Exchange-XBAH
-	skos:related	wd:Q1972649 .
+	skos:closeMatch	wd:Q1972649 .
 
 fibo-fbc-fct-mkti:Exchange-XBAN
-	skos:related	wd:Q4077204 .
+	skos:closeMatch	wd:Q4077204 .
 
 fibo-fbc-fct-mkti:Exchange-XBAR
-	skos:related	wd:Q107188464 .
+	skos:closeMatch	wd:Q107188464 .
 
 fibo-fbc-fct-mkti:Exchange-XBBJ
-	skos:related	wd:Q12478018 .
+	skos:closeMatch	wd:Q12478018 .
 
 fibo-fbc-fct-mkti:Exchange-XBBK
-	skos:related	wd:Q93356816 .
+	skos:closeMatch	wd:Q93356816 .
 
 fibo-fbc-fct-mkti:Exchange-XBCC
-	skos:related	wd:Q93356820 .
+	skos:closeMatch	wd:Q93356820 .
 
 fibo-fbc-fct-mkti:Exchange-XBCL
-	skos:related	wd:Q5731645 .
+	skos:closeMatch	wd:Q5731645 .
 
 fibo-fbc-fct-mkti:Exchange-XBCM
-	skos:related	wd:Q93356821 .
+	skos:closeMatch	wd:Q93356821 .
 
 fibo-fbc-fct-mkti:Exchange-XBCV
-	skos:related	wd:Q5731643 .
+	skos:closeMatch	wd:Q5731643 .
 
 fibo-fbc-fct-mkti:Exchange-XBCX
-	skos:related	wd:Q107188848 .
+	skos:closeMatch	wd:Q107188848 .
 
 fibo-fbc-fct-mkti:Exchange-XBDA
-	skos:related	wd:Q2382352 .
+	skos:closeMatch	wd:Q2382352 .
 
 fibo-fbc-fct-mkti:Exchange-XBDV
-	skos:related	wd:Q93360273 .
+	skos:closeMatch	wd:Q93360273 .
 
 fibo-fbc-fct-mkti:Exchange-XBEL
-	skos:related	wd:Q550050 .
+	skos:closeMatch	wd:Q550050 .
 
 fibo-fbc-fct-mkti:Exchange-XBER
-	skos:related	wd:Q571760 .
+	skos:closeMatch	wd:Q571760 .
 
 fibo-fbc-fct-mkti:Exchange-XBES
-	skos:related	wd:Q107188889 .
+	skos:closeMatch	wd:Q107188889 .
 
 fibo-fbc-fct-mkti:Exchange-XBEY
-	skos:related	wd:Q4081230 .
+	skos:closeMatch	wd:Q4081230 .
 
 fibo-fbc-fct-mkti:Exchange-XBIL
-	skos:related	wd:Q107188465 .
+	skos:closeMatch	wd:Q107188465 .
 
 fibo-fbc-fct-mkti:Exchange-XBKF
-	skos:related	wd:Q107188616 .
+	skos:closeMatch	wd:Q107188616 .
 
 fibo-fbc-fct-mkti:Exchange-XBKK
-	skos:related	wd:Q1330208 .
+	skos:closeMatch	wd:Q1330208 .
 
 fibo-fbc-fct-mkti:Exchange-XBLB
-	skos:related	wd:Q2384000 .
+	skos:closeMatch	wd:Q2384000 .
 
 fibo-fbc-fct-mkti:Exchange-XBLK
-	skos:related	wd:Q107223059 .
+	skos:closeMatch	wd:Q107223059 .
 
 fibo-fbc-fct-mkti:Exchange-XBLN
-	skos:related	wd:Q2907289 .
+	skos:closeMatch	wd:Q2907289 .
 
 fibo-fbc-fct-mkti:Exchange-XBND
-	skos:related	wd:Q107189218 .
+	skos:closeMatch	wd:Q107189218 .
 
 fibo-fbc-fct-mkti:Exchange-XBNV
-	skos:related	wd:Q93356061 .
+	skos:closeMatch	wd:Q93356061 .
 
 fibo-fbc-fct-mkti:Exchange-XBOG
-	skos:related	wd:Q2387368 .
+	skos:closeMatch	wd:Q2387368 .
 
 fibo-fbc-fct-mkti:Exchange-XBOL
-	skos:related	wd:Q16538401 .
+	skos:closeMatch	wd:Q16538401 .
 
 fibo-fbc-fct-mkti:Exchange-XBOM
-	skos:related	wd:Q638398 .
+	skos:closeMatch	wd:Q638398 .
 
 fibo-fbc-fct-mkti:Exchange-XBOS
-	skos:related	wd:Q107188901 .
+	skos:closeMatch	wd:Q107188901 .
 
 fibo-fbc-fct-mkti:Exchange-XBOT
-	skos:related	wd:Q2380000 .
+	skos:closeMatch	wd:Q2380000 .
 
 fibo-fbc-fct-mkti:Exchange-XBOX
-	skos:related	wd:Q4948015 .
+	skos:closeMatch	wd:Q4948015 .
 
 fibo-fbc-fct-mkti:Exchange-XBRA
-	skos:related	wd:Q74603 .
+	skos:closeMatch	wd:Q74603 .
 
 fibo-fbc-fct-mkti:Exchange-XBRD
-	skos:related	wd:Q107189154 .
+	skos:closeMatch	wd:Q107189154 .
 
 fibo-fbc-fct-mkti:Exchange-XBRM
-	skos:related	wd:Q12723070 .
+	skos:closeMatch	wd:Q12723070 .
 
 fibo-fbc-fct-mkti:Exchange-XBRN
-	skos:related	wd:Q824533 .
+	skos:closeMatch	wd:Q824533 .
 
 fibo-fbc-fct-mkti:Exchange-XBRT
-	skos:related	wd:Q107188733 .
+	skos:closeMatch	wd:Q107188733 .
 
 fibo-fbc-fct-mkti:Exchange-XBRU
-	skos:related	wd:Q1146518 .
+	skos:closeMatch	wd:Q1146518 .
 
 fibo-fbc-fct-mkti:Exchange-XBRV
-	skos:related	wd:Q491031 .
+	skos:closeMatch	wd:Q491031 .
 
 fibo-fbc-fct-mkti:Exchange-XBSD
-	skos:related	wd:Q107190293 .
+	skos:closeMatch	wd:Q107190293 .
 
 fibo-fbc-fct-mkti:Exchange-XBSE
-	skos:related	wd:Q93358786 .
+	skos:closeMatch	wd:Q93358786 .
 
 fibo-fbc-fct-mkti:Exchange-XBTR
-	skos:related	wd:Q107188665 .
+	skos:closeMatch	wd:Q107188665 .
 
 fibo-fbc-fct-mkti:Exchange-XBUD
-	skos:related	wd:Q851259 .
+	skos:closeMatch	wd:Q851259 .
 
 fibo-fbc-fct-mkti:Exchange-XBUE
-	skos:related	wd:Q891560 .
+	skos:closeMatch	wd:Q891560 .
 
 fibo-fbc-fct-mkti:Exchange-XBUL
-	skos:related	wd:Q1003968 .
+	skos:closeMatch	wd:Q1003968 .
 
 fibo-fbc-fct-mkti:Exchange-XBVC
-	skos:related	wd:Q2381261 .
+	skos:closeMatch	wd:Q2381261 .
 
 fibo-fbc-fct-mkti:Exchange-XBVM
-	skos:related	wd:Q4281000 .
+	skos:closeMatch	wd:Q4281000 .
 
 fibo-fbc-fct-mkti:Exchange-XBVR
-	skos:related	wd:Q93356693 .
+	skos:closeMatch	wd:Q93356693 .
 
 fibo-fbc-fct-mkti:Exchange-XBXO
-	skos:related	wd:Q107189146 .
+	skos:closeMatch	wd:Q107189146 .
 
 fibo-fbc-fct-mkti:Exchange-XCAI
-	skos:related	wd:Q2509254 .
+	skos:closeMatch	wd:Q2509254 .
 
 fibo-fbc-fct-mkti:Exchange-XCAL
-	skos:related	wd:Q2997295 .
+	skos:closeMatch	wd:Q2997295 .
 
 fibo-fbc-fct-mkti:Exchange-XCAN
-	skos:related	wd:Q107188689 .
+	skos:closeMatch	wd:Q107188689 .
 
 fibo-fbc-fct-mkti:Exchange-XCAS
-	skos:related	wd:Q2602796 .
+	skos:closeMatch	wd:Q2602796 .
 
 fibo-fbc-fct-mkti:Exchange-XCAY
-	skos:related	wd:Q5055359 .
+	skos:closeMatch	wd:Q5055359 .
 
 fibo-fbc-fct-mkti:Exchange-XCBF
-	skos:related	wd:Q107190278 .
+	skos:closeMatch	wd:Q107190278 .
 
 fibo-fbc-fct-mkti:Exchange-XCBO
-	skos:related	wd:Q93357759 .
+	skos:closeMatch	wd:Q93357759 .
 
 fibo-fbc-fct-mkti:Exchange-XCBT
-	skos:related	wd:Q1071867 .
+	skos:closeMatch	wd:Q1071867 .
 
 fibo-fbc-fct-mkti:Exchange-XCDE
-	skos:related	wd:Q93357762 .
+	skos:closeMatch	wd:Q93357762 .
 
 fibo-fbc-fct-mkti:Exchange-XCEC
-	skos:related	wd:Q107188652 .
+	skos:closeMatch	wd:Q107188652 .
 
 fibo-fbc-fct-mkti:Exchange-XCET
-	skos:related	wd:Q93357765 .
+	skos:closeMatch	wd:Q93357765 .
 
 fibo-fbc-fct-mkti:Exchange-XCFE
-	skos:related	wd:Q61161720 .
+	skos:closeMatch	wd:Q61161720 .
 
 fibo-fbc-fct-mkti:Exchange-XCFF
-	skos:related	wd:Q93356828 .
+	skos:closeMatch	wd:Q93356828 .
 
 fibo-fbc-fct-mkti:Exchange-XCGS
-	skos:related	wd:Q15143739 .
+	skos:closeMatch	wd:Q15143739 .
 
 fibo-fbc-fct-mkti:Exchange-XCHG
-	skos:related	wd:Q3349831 .
+	skos:closeMatch	wd:Q3349831 .
 
 fibo-fbc-fct-mkti:Exchange-XCHI
-	skos:related	wd:Q107188854 .
+	skos:closeMatch	wd:Q107188854 .
 
 fibo-fbc-fct-mkti:Exchange-XCIE
-	skos:related	wd:Q15675825 .
+	skos:closeMatch	wd:Q15675825 .
 
 fibo-fbc-fct-mkti:Exchange-XCIS
-	skos:related	wd:Q107190244 .
+	skos:closeMatch	wd:Q107190244 .
 
 fibo-fbc-fct-mkti:Exchange-XCME
-	skos:related	wd:Q1071967 .
+	skos:closeMatch	wd:Q1071967 .
 
 fibo-fbc-fct-mkti:Exchange-XCNF
-	skos:related	wd:Q93356689 .
+	skos:closeMatch	wd:Q93356689 .
 
 fibo-fbc-fct-mkti:Exchange-XCNQ
-	skos:related	wd:Q5013179 .
+	skos:closeMatch	wd:Q5013179 .
 
 fibo-fbc-fct-mkti:Exchange-XCOL
-	skos:related	wd:Q2359996 .
+	skos:closeMatch	wd:Q2359996 .
 
 fibo-fbc-fct-mkti:Exchange-XCOR
-	skos:related	wd:Q1516125 .
+	skos:closeMatch	wd:Q1516125 .
 
 fibo-fbc-fct-mkti:Exchange-XCRO
-	skos:related	wd:Q93356467 .
+	skos:closeMatch	wd:Q93356467 .
 
 fibo-fbc-fct-mkti:Exchange-XCSE
-	skos:related	wd:Q1019983 .
+	skos:closeMatch	wd:Q1019983 .
 
 fibo-fbc-fct-mkti:Exchange-XCSX
-	skos:related	wd:Q5025115 .
+	skos:closeMatch	wd:Q5025115 .
 
 fibo-fbc-fct-mkti:Exchange-XCUE
-	skos:related	wd:Q93358227 .
+	skos:closeMatch	wd:Q93358227 .
 
 fibo-fbc-fct-mkti:Exchange-XCUR
-	skos:related	wd:Q93357387 .
+	skos:closeMatch	wd:Q93357387 .
 
 fibo-fbc-fct-mkti:Exchange-XCX2
-	skos:related	wd:Q107188449 .
+	skos:closeMatch	wd:Q107188449 .
 
 fibo-fbc-fct-mkti:Exchange-XCXD
-	skos:related	wd:Q93362191 .
+	skos:closeMatch	wd:Q93362191 .
 
 fibo-fbc-fct-mkti:Exchange-XCYO
-	skos:related	wd:Q107189162 .
+	skos:closeMatch	wd:Q107189162 .
 
 fibo-fbc-fct-mkti:Exchange-XCYS
-	skos:related	wd:Q2888321 .
+	skos:closeMatch	wd:Q2888321 .
 
 fibo-fbc-fct-mkti:Exchange-XDAR
-	skos:related	wd:Q490028 .
+	skos:closeMatch	wd:Q490028 .
 
 fibo-fbc-fct-mkti:Exchange-XDCE
-	skos:related	wd:Q5210917 .
+	skos:closeMatch	wd:Q5210917 .
 
 fibo-fbc-fct-mkti:Exchange-XDES
-	skos:related	wd:Q4251268 .
+	skos:closeMatch	wd:Q4251268 .
 
 fibo-fbc-fct-mkti:Exchange-XDEX
-	skos:related	wd:Q107228008 .
+	skos:closeMatch	wd:Q107228008 .
 
 fibo-fbc-fct-mkti:Exchange-XDFB
-	skos:related	wd:Q93356063 .
+	skos:closeMatch	wd:Q93356063 .
 
 fibo-fbc-fct-mkti:Exchange-XDFM
-	skos:related	wd:Q1973019 .
+	skos:closeMatch	wd:Q1973019 .
 
 fibo-fbc-fct-mkti:Exchange-XDHA
-	skos:related	wd:Q1974408 .
+	skos:closeMatch	wd:Q1974408 .
 
 fibo-fbc-fct-mkti:Exchange-XDMI
-	skos:related	wd:Q107188875 .
+	skos:closeMatch	wd:Q107188875 .
 
 fibo-fbc-fct-mkti:Exchange-XDNB
-	skos:related	wd:Q93359784 .
+	skos:closeMatch	wd:Q93359784 .
 
 fibo-fbc-fct-mkti:Exchange-XDPA
-	skos:related	wd:Q93356069 .
+	skos:closeMatch	wd:Q93356069 .
 
 fibo-fbc-fct-mkti:Exchange-XDRF
-	skos:related	wd:Q107188466 .
+	skos:closeMatch	wd:Q107188466 .
 
 fibo-fbc-fct-mkti:Exchange-XDRK
-	skos:related	wd:Q107228038 .
+	skos:closeMatch	wd:Q107228038 .
 
 fibo-fbc-fct-mkti:Exchange-XDSE
-	skos:related	wd:Q12217405 .
+	skos:closeMatch	wd:Q12217405 .
 
 fibo-fbc-fct-mkti:Exchange-XDSM
-	skos:related	wd:Q107223087 .
+	skos:closeMatch	wd:Q107223087 .
 
 fibo-fbc-fct-mkti:Exchange-XDSX
-	skos:related	wd:Q2381309 .
+	skos:closeMatch	wd:Q2381309 .
 
 fibo-fbc-fct-mkti:Exchange-XDUB
-	skos:related	wd:Q144458 .
+	skos:closeMatch	wd:Q144458 .
 
 fibo-fbc-fct-mkti:Exchange-XDUS
-	skos:related	wd:Q1019978 .
+	skos:closeMatch	wd:Q1019978 .
 
 fibo-fbc-fct-mkti:Exchange-XEBI
-	skos:related	wd:Q93362891 .
+	skos:closeMatch	wd:Q93362891 .
 
 fibo-fbc-fct-mkti:Exchange-XECB
-	skos:related	wd:Q93358288 .
+	skos:closeMatch	wd:Q93358288 .
 
 fibo-fbc-fct-mkti:Exchange-XECC
-	skos:related	wd:Q1376458 .
+	skos:closeMatch	wd:Q1376458 .
 
 fibo-fbc-fct-mkti:Exchange-XECM
-	skos:related	wd:Q107189163 .
+	skos:closeMatch	wd:Q107189163 .
 
 fibo-fbc-fct-mkti:Exchange-XECS
-	skos:related	wd:Q5330044 .
+	skos:closeMatch	wd:Q5330044 .
 
 fibo-fbc-fct-mkti:Exchange-XEDA
-	skos:related	wd:Q107227720 .
+	skos:closeMatch	wd:Q107227720 .
 
 fibo-fbc-fct-mkti:Exchange-XEEE
-	skos:related	wd:Q876111 .
+	skos:closeMatch	wd:Q876111 .
 
 fibo-fbc-fct-mkti:Exchange-XEEO
-	skos:related	wd:Q107190303 .
+	skos:closeMatch	wd:Q107190303 .
 
 fibo-fbc-fct-mkti:Exchange-XEER
-	skos:related	wd:Q107190305 .
+	skos:closeMatch	wd:Q107190305 .
 
 fibo-fbc-fct-mkti:Exchange-XEHQ
-	skos:related	wd:Q107223049 .
+	skos:closeMatch	wd:Q107223049 .
 
 fibo-fbc-fct-mkti:Exchange-XEID
-	skos:related	wd:Q107227718 .
+	skos:closeMatch	wd:Q107227718 .
 
 fibo-fbc-fct-mkti:Exchange-XELX
-	skos:related	wd:Q1275141 .
+	skos:closeMatch	wd:Q1275141 .
 
 fibo-fbc-fct-mkti:Exchange-XEMD
-	skos:related	wd:Q6825762 .
+	skos:closeMatch	wd:Q6825762 .
 
 fibo-fbc-fct-mkti:Exchange-XEMS
-	skos:related	wd:Q93363029 .
+	skos:closeMatch	wd:Q93363029 .
 
 fibo-fbc-fct-mkti:Exchange-XEQT
-	skos:related	wd:Q107188533 .
+	skos:closeMatch	wd:Q107188533 .
 
 fibo-fbc-fct-mkti:Exchange-XEQY
-	skos:related	wd:Q107223060 .
+	skos:closeMatch	wd:Q107223060 .
 
 fibo-fbc-fct-mkti:Exchange-XERE
-	skos:related	wd:Q107188865 .
+	skos:closeMatch	wd:Q107188865 .
 
 fibo-fbc-fct-mkti:Exchange-XERT
-	skos:related	wd:Q107227729 .
+	skos:closeMatch	wd:Q107227729 .
 
 fibo-fbc-fct-mkti:Exchange-XESM
-	skos:related	wd:Q107228013 .
+	skos:closeMatch	wd:Q107228013 .
 
 fibo-fbc-fct-mkti:Exchange-XETA
-	skos:related	wd:Q107188746 .
+	skos:closeMatch	wd:Q107188746 .
 
 fibo-fbc-fct-mkti:Exchange-XETB
-	skos:related	wd:Q107188747 .
+	skos:closeMatch	wd:Q107188747 .
 
 fibo-fbc-fct-mkti:Exchange-XETF
-	skos:related	wd:Q107228091 .
+	skos:closeMatch	wd:Q107228091 .
 
 fibo-fbc-fct-mkti:Exchange-XETR
-	skos:related	wd:Q819468 .
+	skos:closeMatch	wd:Q819468 .
 
 fibo-fbc-fct-mkti:Exchange-XETS
-	skos:related	wd:Q107228034 .
+	skos:closeMatch	wd:Q107228034 .
 
 fibo-fbc-fct-mkti:Exchange-XETU
-	skos:related	wd:Q107228121 .
+	skos:closeMatch	wd:Q107228121 .
 
 fibo-fbc-fct-mkti:Exchange-XETV
-	skos:related	wd:Q107228120 .
+	skos:closeMatch	wd:Q107228120 .
 
 fibo-fbc-fct-mkti:Exchange-XETW
-	skos:related	wd:Q107188770 .
+	skos:closeMatch	wd:Q107188770 .
 
 fibo-fbc-fct-mkti:Exchange-XEUC
-	skos:related	wd:Q107188870 .
+	skos:closeMatch	wd:Q107188870 .
 
 fibo-fbc-fct-mkti:Exchange-XEUE
-	skos:related	wd:Q107188871 .
+	skos:closeMatch	wd:Q107188871 .
 
 fibo-fbc-fct-mkti:Exchange-XEUI
-	skos:related	wd:Q107227728 .
+	skos:closeMatch	wd:Q107227728 .
 
 fibo-fbc-fct-mkti:Exchange-XEUM
-	skos:related	wd:Q107188742 .
+	skos:closeMatch	wd:Q107188742 .
 
 fibo-fbc-fct-mkti:Exchange-XEUP
-	skos:related	wd:Q93361368 .
+	skos:closeMatch	wd:Q93361368 .
 
 fibo-fbc-fct-mkti:Exchange-XEUR
-	skos:related	wd:Q93361375 .
+	skos:closeMatch	wd:Q93361375 .
 
 fibo-fbc-fct-mkti:Exchange-XEYE
-	skos:related	wd:Q107227948 .
+	skos:closeMatch	wd:Q107227948 .
 
 fibo-fbc-fct-mkti:Exchange-XFCI
-	skos:related	wd:Q107188743 .
+	skos:closeMatch	wd:Q107188743 .
 
 fibo-fbc-fct-mkti:Exchange-XFDA
-	skos:related	wd:Q107189169 .
+	skos:closeMatch	wd:Q107189169 .
 
 fibo-fbc-fct-mkti:Exchange-XFEX
-	skos:related	wd:Q93359283 .
+	skos:closeMatch	wd:Q93359283 .
 
 fibo-fbc-fct-mkti:Exchange-XFKA
-	skos:related	wd:Q5507703 .
+	skos:closeMatch	wd:Q5507703 .
 
 fibo-fbc-fct-mkti:Exchange-XFNO
-	skos:related	wd:Q107227811 .
+	skos:closeMatch	wd:Q107227811 .
 
 fibo-fbc-fct-mkti:Exchange-XFRA
-	skos:related	wd:Q157852 .
+	skos:closeMatch	wd:Q157852 .
 
 fibo-fbc-fct-mkti:Exchange-XGAS
-	skos:related	wd:Q25452293 .
+	skos:closeMatch	wd:Q25452293 .
 
 fibo-fbc-fct-mkti:Exchange-XGAT
-	skos:related	wd:Q107188914 .
+	skos:closeMatch	wd:Q107188914 .
 
 fibo-fbc-fct-mkti:Exchange-XGCL
-	skos:related	wd:Q93356577 .
+	skos:closeMatch	wd:Q93356577 .
 
 fibo-fbc-fct-mkti:Exchange-XGCX
-	skos:related	wd:Q107227818 .
+	skos:closeMatch	wd:Q107227818 .
 
 fibo-fbc-fct-mkti:Exchange-XGDX
-	skos:related	wd:Q107188638 .
+	skos:closeMatch	wd:Q107188638 .
 
 fibo-fbc-fct-mkti:Exchange-XGEM
-	skos:related	wd:Q107188794 .
+	skos:closeMatch	wd:Q107188794 .
 
 fibo-fbc-fct-mkti:Exchange-XGHA
-	skos:related	wd:Q1521374 .
+	skos:closeMatch	wd:Q1521374 .
 
 fibo-fbc-fct-mkti:Exchange-XGME
-	skos:related	wd:Q93361378 .
+	skos:closeMatch	wd:Q93361378 .
 
 fibo-fbc-fct-mkti:Exchange-XGMX
-	skos:related	wd:Q93358251 .
+	skos:closeMatch	wd:Q93358251 .
 
 fibo-fbc-fct-mkti:Exchange-XGRM
-	skos:related	wd:Q107188916 .
+	skos:closeMatch	wd:Q107188916 .
 
 fibo-fbc-fct-mkti:Exchange-XGSE
-	skos:related	wd:Q1975312 .
+	skos:closeMatch	wd:Q1975312 .
 
 fibo-fbc-fct-mkti:Exchange-XGSX
-	skos:related	wd:Q107188639 .
+	skos:closeMatch	wd:Q107188639 .
 
 fibo-fbc-fct-mkti:Exchange-XGTG
-	skos:related	wd:Q5672209 .
+	skos:closeMatch	wd:Q5672209 .
 
 fibo-fbc-fct-mkti:Exchange-XGUA
-	skos:related	wd:Q6397522 .
+	skos:closeMatch	wd:Q6397522 .
 
 fibo-fbc-fct-mkti:Exchange-XHAM
-	skos:related	wd:Q93361383 .
+	skos:closeMatch	wd:Q93361383 .
 
 fibo-fbc-fct-mkti:Exchange-XHAN
-	skos:related	wd:Q93361385 .
+	skos:closeMatch	wd:Q93361385 .
 
 fibo-fbc-fct-mkti:Exchange-XHEL
-	skos:related	wd:Q581755 .
+	skos:closeMatch	wd:Q581755 .
 
 fibo-fbc-fct-mkti:Exchange-XHKF
-	skos:related	wd:Q5894594 .
+	skos:closeMatch	wd:Q5894594 .
 
 fibo-fbc-fct-mkti:Exchange-XHKG
-	skos:related	wd:Q496672 .
+	skos:closeMatch	wd:Q496672 .
 
 fibo-fbc-fct-mkti:Exchange-XHNF
-	skos:related	wd:Q107228014 .
+	skos:closeMatch	wd:Q107228014 .
 
 fibo-fbc-fct-mkti:Exchange-XHNX
-	skos:related	wd:Q107188494 .
+	skos:closeMatch	wd:Q107188494 .
 
 fibo-fbc-fct-mkti:Exchange-XIBE
-	skos:related	wd:Q93362827 .
+	skos:closeMatch	wd:Q93362827 .
 
 fibo-fbc-fct-mkti:Exchange-XICE
-	skos:related	wd:Q1674303 .
+	skos:closeMatch	wd:Q1674303 .
 
 fibo-fbc-fct-mkti:Exchange-XICX
-	skos:related	wd:Q93362103 .
+	skos:closeMatch	wd:Q93362103 .
 
 fibo-fbc-fct-mkti:Exchange-XIDX
-	skos:related	wd:Q1661737 .
+	skos:closeMatch	wd:Q1661737 .
 
 fibo-fbc-fct-mkti:Exchange-XIEL
-	skos:related	wd:Q93357293 .
+	skos:closeMatch	wd:Q93357293 .
 
 fibo-fbc-fct-mkti:Exchange-XIHK
-	skos:related	wd:Q93359289 .
+	skos:closeMatch	wd:Q93359289 .
 
 fibo-fbc-fct-mkti:Exchange-XIMA
-	skos:related	wd:Q6003405 .
+	skos:closeMatch	wd:Q6003405 .
 
 fibo-fbc-fct-mkti:Exchange-XIMC
-	skos:related	wd:Q6934544 .
+	skos:closeMatch	wd:Q6934544 .
 
 fibo-fbc-fct-mkti:Exchange-XIMM
-	skos:related	wd:Q107190249 .
+	skos:closeMatch	wd:Q107190249 .
 
 fibo-fbc-fct-mkti:Exchange-XINE
-	skos:related	wd:Q107190253 .
+	skos:closeMatch	wd:Q107190253 .
 
 fibo-fbc-fct-mkti:Exchange-XINS
-	skos:related	wd:Q1651946 .
+	skos:closeMatch	wd:Q1651946 .
 
 fibo-fbc-fct-mkti:Exchange-XINV
-	skos:related	wd:Q93362782 .
+	skos:closeMatch	wd:Q93362782 .
 
 fibo-fbc-fct-mkti:Exchange-XIOM
-	skos:related	wd:Q107188682 .
+	skos:closeMatch	wd:Q107188682 .
 
 fibo-fbc-fct-mkti:Exchange-XIPO
-	skos:related	wd:Q107228044 .
+	skos:closeMatch	wd:Q107228044 .
 
 fibo-fbc-fct-mkti:Exchange-XIQS
-	skos:related	wd:Q1369913 .
+	skos:closeMatch	wd:Q1369913 .
 
 fibo-fbc-fct-mkti:Exchange-XISA
-	skos:related	wd:Q107190333 .
+	skos:closeMatch	wd:Q107190333 .
 
 fibo-fbc-fct-mkti:Exchange-XISE
-	skos:related	wd:Q107189220 .
+	skos:closeMatch	wd:Q107189220 .
 
 fibo-fbc-fct-mkti:Exchange-XIST
-	skos:related	wd:Q1407995 .
+	skos:closeMatch	wd:Q1407995 .
 
 fibo-fbc-fct-mkti:Exchange-XISX
-	skos:related	wd:Q1494605 .
+	skos:closeMatch	wd:Q1494605 .
 
 fibo-fbc-fct-mkti:Exchange-XJAM
-	skos:related	wd:Q16948316 .
+	skos:closeMatch	wd:Q16948316 .
 
 fibo-fbc-fct-mkti:Exchange-XJAS-2022-04-04
-	skos:related	wd:Q1683760 .
+	skos:closeMatch	wd:Q1683760 .
 
 fibo-fbc-fct-mkti:Exchange-XJNB
-	skos:related	wd:Q93357924 .
+	skos:closeMatch	wd:Q93357924 .
 
 fibo-fbc-fct-mkti:Exchange-XJPX
-	skos:related	wd:Q11507487 .
+	skos:closeMatch	wd:Q11507487 .
 
 fibo-fbc-fct-mkti:Exchange-XJSE
-	skos:related	wd:Q627514 .
+	skos:closeMatch	wd:Q627514 .
 
 fibo-fbc-fct-mkti:Exchange-XKAC
-	skos:related	wd:Q6364444 .
+	skos:closeMatch	wd:Q6364444 .
 
 fibo-fbc-fct-mkti:Exchange-XKAR
-	skos:related	wd:Q1977283 .
+	skos:closeMatch	wd:Q1977283 .
 
 fibo-fbc-fct-mkti:Exchange-XKAZ
-	skos:related	wd:Q1734773 .
+	skos:closeMatch	wd:Q1734773 .
 
 fibo-fbc-fct-mkti:Exchange-XKBT
-	skos:related	wd:Q107223100 .
+	skos:closeMatch	wd:Q107223100 .
 
 fibo-fbc-fct-mkti:Exchange-XKCE
-	skos:related	wd:Q93359745 .
+	skos:closeMatch	wd:Q93359745 .
 
 fibo-fbc-fct-mkti:Exchange-XKCM
-	skos:related	wd:Q107227830 .
+	skos:closeMatch	wd:Q107227830 .
 
 fibo-fbc-fct-mkti:Exchange-XKEM
-	skos:related	wd:Q107227732 .
+	skos:closeMatch	wd:Q107227732 .
 
 fibo-fbc-fct-mkti:Exchange-XKFB
-	skos:related	wd:Q93357314 .
+	skos:closeMatch	wd:Q93357314 .
 
 fibo-fbc-fct-mkti:Exchange-XKFE
-	skos:related	wd:Q107189201 .
+	skos:closeMatch	wd:Q107189201 .
 
 fibo-fbc-fct-mkti:Exchange-XKHA
-	skos:related	wd:Q17062148 .
+	skos:closeMatch	wd:Q17062148 .
 
 fibo-fbc-fct-mkti:Exchange-XKHR
-	skos:related	wd:Q93356050 .
+	skos:closeMatch	wd:Q93356050 .
 
 fibo-fbc-fct-mkti:Exchange-XKIE
-	skos:related	wd:Q93356054 .
+	skos:closeMatch	wd:Q93356054 .
 
 fibo-fbc-fct-mkti:Exchange-XKIS
-	skos:related	wd:Q93357840 .
+	skos:closeMatch	wd:Q93357840 .
 
 fibo-fbc-fct-mkti:Exchange-XKLS
-	skos:related	wd:Q43335 .
+	skos:closeMatch	wd:Q43335 .
 
 fibo-fbc-fct-mkti:Exchange-XKON
-	skos:related	wd:Q107190314 .
+	skos:closeMatch	wd:Q107190314 .
 
 fibo-fbc-fct-mkti:Exchange-XKOS
-	skos:related	wd:Q491503 .
+	skos:closeMatch	wd:Q491503 .
 
 fibo-fbc-fct-mkti:Exchange-XKRX
-	skos:related	wd:Q495364 .
+	skos:closeMatch	wd:Q495364 .
 
 fibo-fbc-fct-mkti:Exchange-XKSE
-	skos:related	wd:Q4221187 .
+	skos:closeMatch	wd:Q4221187 .
 
 fibo-fbc-fct-mkti:Exchange-XKUW
-	skos:related	wd:Q4164626 .
+	skos:closeMatch	wd:Q4164626 .
 
 fibo-fbc-fct-mkti:Exchange-XLAO
-	skos:related	wd:Q2922448 .
+	skos:closeMatch	wd:Q2922448 .
 
 fibo-fbc-fct-mkti:Exchange-XLAT
-	skos:related	wd:Q107188467 .
+	skos:closeMatch	wd:Q107188467 .
 
 fibo-fbc-fct-mkti:Exchange-XLBM
-	skos:related	wd:Q55648272 .
+	skos:closeMatch	wd:Q55648272 .
 
 fibo-fbc-fct-mkti:Exchange-XLCH
-	skos:related	wd:Q1797919 .
+	skos:closeMatch	wd:Q1797919 .
 
 fibo-fbc-fct-mkti:Exchange-XLDN-2021-10-25
-	skos:related	wd:Q93357361 .
+	skos:closeMatch	wd:Q93357361 .
 
 fibo-fbc-fct-mkti:Exchange-XLDX
-	skos:related	wd:Q107188637 .
+	skos:closeMatch	wd:Q107188637 .
 
 fibo-fbc-fct-mkti:Exchange-XLFX
-	skos:related	wd:Q93357386 .
+	skos:closeMatch	wd:Q93357386 .
 
 fibo-fbc-fct-mkti:Exchange-XLGT
-	skos:related	wd:Q93362111 .
+	skos:closeMatch	wd:Q93362111 .
 
 fibo-fbc-fct-mkti:Exchange-XLIM
-	skos:related	wd:Q2380045 .
+	skos:closeMatch	wd:Q2380045 .
 
 fibo-fbc-fct-mkti:Exchange-XLIS
-	skos:related	wd:Q2415561 .
+	skos:closeMatch	wd:Q2415561 .
 
 fibo-fbc-fct-mkti:Exchange-XLIT
-	skos:related	wd:Q600958 .
+	skos:closeMatch	wd:Q600958 .
 
 fibo-fbc-fct-mkti:Exchange-XLJM
-	skos:related	wd:Q107228037 .
+	skos:closeMatch	wd:Q107228037 .
 
 fibo-fbc-fct-mkti:Exchange-XLJU
-	skos:related	wd:Q1866749 .
+	skos:closeMatch	wd:Q1866749 .
 
 fibo-fbc-fct-mkti:Exchange-XLLB
-	skos:related	wd:Q93362115 .
+	skos:closeMatch	wd:Q93362115 .
 
 fibo-fbc-fct-mkti:Exchange-XLME
-	skos:related	wd:Q952937 .
+	skos:closeMatch	wd:Q952937 .
 
 fibo-fbc-fct-mkti:Exchange-XLOD
-	skos:related	wd:Q107190279 .
+	skos:closeMatch	wd:Q107190279 .
 
 fibo-fbc-fct-mkti:Exchange-XLOM
-	skos:related	wd:Q107227842 .
+	skos:closeMatch	wd:Q107227842 .
 
 fibo-fbc-fct-mkti:Exchange-XLON
-	skos:related	wd:Q171240 .
+	skos:closeMatch	wd:Q171240 .
 
 fibo-fbc-fct-mkti:Exchange-XLSM
-	skos:related	wd:Q6542917 .
+	skos:closeMatch	wd:Q6542917 .
 
 fibo-fbc-fct-mkti:Exchange-XLUS
-	skos:related	wd:Q1877680 .
+	skos:closeMatch	wd:Q1877680 .
 
 fibo-fbc-fct-mkti:Exchange-XLUX
-	skos:related	wd:Q74662 .
+	skos:closeMatch	wd:Q74662 .
 
 fibo-fbc-fct-mkti:Exchange-XMAB
-	skos:related	wd:Q11692068 .
+	skos:closeMatch	wd:Q11692068 .
 
 fibo-fbc-fct-mkti:Exchange-XMAD
-	skos:related	wd:Q617426 .
+	skos:closeMatch	wd:Q617426 .
 
 fibo-fbc-fct-mkti:Exchange-XMAE
-	skos:related	wd:Q2073220 .
+	skos:closeMatch	wd:Q2073220 .
 
 fibo-fbc-fct-mkti:Exchange-XMAI
-	skos:related	wd:Q6578261 .
+	skos:closeMatch	wd:Q6578261 .
 
 fibo-fbc-fct-mkti:Exchange-XMAL
-	skos:related	wd:Q2922440 .
+	skos:closeMatch	wd:Q2922440 .
 
 fibo-fbc-fct-mkti:Exchange-XMAN
-	skos:related	wd:Q4491712 .
+	skos:closeMatch	wd:Q4491712 .
 
 fibo-fbc-fct-mkti:Exchange-XMAT
-	skos:related	wd:Q107190269 .
+	skos:closeMatch	wd:Q107190269 .
 
 fibo-fbc-fct-mkti:Exchange-XMAU
-	skos:related	wd:Q4491713 .
+	skos:closeMatch	wd:Q4491713 .
 
 fibo-fbc-fct-mkti:Exchange-XMDG
-	skos:related	wd:Q93360886 .
+	skos:closeMatch	wd:Q93360886 .
 
 fibo-fbc-fct-mkti:Exchange-XMDS
-	skos:related	wd:Q3633944 .
+	skos:closeMatch	wd:Q3633944 .
 
 fibo-fbc-fct-mkti:Exchange-XMER
-	skos:related	wd:Q93358838 .
+	skos:closeMatch	wd:Q93358838 .
 
 fibo-fbc-fct-mkti:Exchange-XMEV
-	skos:related	wd:Q107188693 .
+	skos:closeMatch	wd:Q107188693 .
 
 fibo-fbc-fct-mkti:Exchange-XMEX
-	skos:related	wd:Q891559 .
+	skos:closeMatch	wd:Q891559 .
 
 fibo-fbc-fct-mkti:Exchange-XMFX
-	skos:related	wd:Q107189213 .
+	skos:closeMatch	wd:Q107189213 .
 
 fibo-fbc-fct-mkti:Exchange-XMGE
-	skos:related	wd:Q1540984 .
+	skos:closeMatch	wd:Q1540984 .
 
 fibo-fbc-fct-mkti:Exchange-XMIL
-	skos:related	wd:Q936563 .
+	skos:closeMatch	wd:Q936563 .
 
 fibo-fbc-fct-mkti:Exchange-XMIO
-	skos:related	wd:Q107189157 .
+	skos:closeMatch	wd:Q107189157 .
 
 fibo-fbc-fct-mkti:Exchange-XMLI
-	skos:related	wd:Q107190270 .
+	skos:closeMatch	wd:Q107190270 .
 
 fibo-fbc-fct-mkti:Exchange-XMNT
-	skos:related	wd:Q16538405 .
+	skos:closeMatch	wd:Q16538405 .
 
 fibo-fbc-fct-mkti:Exchange-XMNX
-	skos:related	wd:Q4513926 .
+	skos:closeMatch	wd:Q4513926 .
 
 fibo-fbc-fct-mkti:Exchange-XMOC
-	skos:related	wd:Q93362819 .
+	skos:closeMatch	wd:Q93362819 .
 
 fibo-fbc-fct-mkti:Exchange-XMOD
-	skos:related	wd:Q1019990 .
+	skos:closeMatch	wd:Q1019990 .
 
 fibo-fbc-fct-mkti:Exchange-XMOL
-	skos:related	wd:Q4491710 .
+	skos:closeMatch	wd:Q4491710 .
 
 fibo-fbc-fct-mkti:Exchange-XMON
-	skos:related	wd:Q107228004 .
+	skos:closeMatch	wd:Q107228004 .
 
 fibo-fbc-fct-mkti:Exchange-XMOT
-	skos:related	wd:Q107188877 .
+	skos:closeMatch	wd:Q107188877 .
 
 fibo-fbc-fct-mkti:Exchange-XMPW
-	skos:related	wd:Q107188922 .
+	skos:closeMatch	wd:Q107188922 .
 
 fibo-fbc-fct-mkti:Exchange-XMRV
-	skos:related	wd:Q107188470 .
+	skos:closeMatch	wd:Q107188470 .
 
 fibo-fbc-fct-mkti:Exchange-XMSM
-	skos:related	wd:Q107188622 .
+	skos:closeMatch	wd:Q107188622 .
 
 fibo-fbc-fct-mkti:Exchange-XMSW
-	skos:related	wd:Q1976933 .
+	skos:closeMatch	wd:Q1976933 .
 
 fibo-fbc-fct-mkti:Exchange-XMTB
-	skos:related	wd:Q6010503 .
+	skos:closeMatch	wd:Q6010503 .
 
 fibo-fbc-fct-mkti:Exchange-XMTS
-	skos:related	wd:Q93359675 .
+	skos:closeMatch	wd:Q93359675 .
 
 fibo-fbc-fct-mkti:Exchange-XMUN
-	skos:related	wd:Q681683 .
+	skos:closeMatch	wd:Q681683 .
 
 fibo-fbc-fct-mkti:Exchange-XMUS
-	skos:related	wd:Q4117996 .
+	skos:closeMatch	wd:Q4117996 .
 
 fibo-fbc-fct-mkti:Exchange-XMVL
-	skos:related	wd:Q107188459 .
+	skos:closeMatch	wd:Q107188459 .
 
 fibo-fbc-fct-mkti:Exchange-XNAF
-	skos:related	wd:Q93358286 .
+	skos:closeMatch	wd:Q93358286 .
 
 fibo-fbc-fct-mkti:Exchange-XNAI
-	skos:related	wd:Q2384385 .
+	skos:closeMatch	wd:Q2384385 .
 
 fibo-fbc-fct-mkti:Exchange-XNAM
-	skos:related	wd:Q1019981 .
+	skos:closeMatch	wd:Q1019981 .
 
 fibo-fbc-fct-mkti:Exchange-XNAS
-	skos:related	wd:Q82059 .
+	skos:closeMatch	wd:Q82059 .
 
 fibo-fbc-fct-mkti:Exchange-XNCD
-	skos:related	wd:Q93357887 .
+	skos:closeMatch	wd:Q93357887 .
 
 fibo-fbc-fct-mkti:Exchange-XNCM
-	skos:related	wd:Q107188880 .
+	skos:closeMatch	wd:Q107188880 .
 
 fibo-fbc-fct-mkti:Exchange-XNCO
-	skos:related	wd:Q107189208 .
+	skos:closeMatch	wd:Q107189208 .
 
 fibo-fbc-fct-mkti:Exchange-XNDQ
-	skos:related	wd:Q107188882 .
+	skos:closeMatch	wd:Q107188882 .
 
 fibo-fbc-fct-mkti:Exchange-XNDU
-	skos:related	wd:Q12132906 .
+	skos:closeMatch	wd:Q12132906 .
 
 fibo-fbc-fct-mkti:Exchange-XNDX-2020-06-22
-	skos:related	wd:Q107189210 .
+	skos:closeMatch	wd:Q107189210 .
 
 fibo-fbc-fct-mkti:Exchange-XNEC
-	skos:related	wd:Q6978710 .
+	skos:closeMatch	wd:Q6978710 .
 
 fibo-fbc-fct-mkti:Exchange-XNEP
-	skos:related	wd:Q6529599 .
+	skos:closeMatch	wd:Q6529599 .
 
 fibo-fbc-fct-mkti:Exchange-XNFI
-	skos:related	wd:Q107190297 .
+	skos:closeMatch	wd:Q107190297 .
 
 fibo-fbc-fct-mkti:Exchange-XNGM
-	skos:related	wd:Q6857641 .
+	skos:closeMatch	wd:Q6857641 .
 
 fibo-fbc-fct-mkti:Exchange-XNGO
-	skos:related	wd:Q1188840 .
+	skos:closeMatch	wd:Q1188840 .
 
 fibo-fbc-fct-mkti:Exchange-XNGS
-	skos:related	wd:Q69336177 .
+	skos:closeMatch	wd:Q69336177 .
 
 fibo-fbc-fct-mkti:Exchange-XNIM
-	skos:related	wd:Q107188884 .
+	skos:closeMatch	wd:Q107188884 .
 
 fibo-fbc-fct-mkti:Exchange-XNKS
-	skos:related	wd:Q4504097 .
+	skos:closeMatch	wd:Q4504097 .
 
 fibo-fbc-fct-mkti:Exchange-XNLI
-	skos:related	wd:Q107223042 .
+	skos:closeMatch	wd:Q107223042 .
 
 fibo-fbc-fct-mkti:Exchange-XNMR-2020-06-22
-	skos:related	wd:Q107189211 .
+	skos:closeMatch	wd:Q107189211 .
 
 fibo-fbc-fct-mkti:Exchange-XNMS
-	skos:related	wd:Q107188885 .
+	skos:closeMatch	wd:Q107188885 .
 
 fibo-fbc-fct-mkti:Exchange-XNOR
-	skos:related	wd:Q93359668 .
+	skos:closeMatch	wd:Q93359668 .
 
 fibo-fbc-fct-mkti:Exchange-XNSA
-	skos:related	wd:Q838766 .
+	skos:closeMatch	wd:Q838766 .
 
 fibo-fbc-fct-mkti:Exchange-XNSE
-	skos:related	wd:Q638740 .
+	skos:closeMatch	wd:Q638740 .
 
 fibo-fbc-fct-mkti:Exchange-XNXC
-	skos:related	wd:Q89211279 .
+	skos:closeMatch	wd:Q89211279 .
 
 fibo-fbc-fct-mkti:Exchange-XNXD
-	skos:related	wd:Q107227747 .
+	skos:closeMatch	wd:Q107227747 .
 
 fibo-fbc-fct-mkti:Exchange-XNYE
-	skos:related	wd:Q107188653 .
+	skos:closeMatch	wd:Q107188653 .
 
 fibo-fbc-fct-mkti:Exchange-XNYL
-	skos:related	wd:Q107188675 .
+	skos:closeMatch	wd:Q107188675 .
 
 fibo-fbc-fct-mkti:Exchange-XNYM
-	skos:related	wd:Q120233 .
+	skos:closeMatch	wd:Q120233 .
 
 fibo-fbc-fct-mkti:Exchange-XNYS
-	skos:related	wd:Q13677 .
+	skos:closeMatch	wd:Q13677 .
 
 fibo-fbc-fct-mkti:Exchange-XNZE
-	skos:related	wd:Q627019 .
+	skos:closeMatch	wd:Q627019 .
 
 fibo-fbc-fct-mkti:Exchange-XOAA
-	skos:related	wd:Q107227923 .
+	skos:closeMatch	wd:Q107227923 .
 
 fibo-fbc-fct-mkti:Exchange-XOAD
-	skos:related	wd:Q107228022 .
+	skos:closeMatch	wd:Q107228022 .
 
 fibo-fbc-fct-mkti:Exchange-XOAM
-	skos:related	wd:Q107190277 .
+	skos:closeMatch	wd:Q107190277 .
 
 fibo-fbc-fct-mkti:Exchange-XOAS
-	skos:related	wd:Q107188683 .
+	skos:closeMatch	wd:Q107188683 .
 
 fibo-fbc-fct-mkti:Exchange-XOBD
-	skos:related	wd:Q107227860 .
+	skos:closeMatch	wd:Q107227860 .
 
 fibo-fbc-fct-mkti:Exchange-XOCH-2021-08-23
-	skos:related	wd:Q7092371 .
+	skos:closeMatch	wd:Q7092371 .
 
 fibo-fbc-fct-mkti:Exchange-XODE
-	skos:related	wd:Q93360852 .
+	skos:closeMatch	wd:Q93360852 .
 
 fibo-fbc-fct-mkti:Exchange-XOFF
-	skos:related	wd:Q66320 .
+	skos:closeMatch	wd:Q66320 .
 
 fibo-fbc-fct-mkti:Exchange-XOPV
-	skos:related	wd:Q107188727 .
+	skos:closeMatch	wd:Q107188727 .
 
 fibo-fbc-fct-mkti:Exchange-XOSA
-	skos:related	wd:Q107223090 .
+	skos:closeMatch	wd:Q107223090 .
 
 fibo-fbc-fct-mkti:Exchange-XOSC
-	skos:related	wd:Q107188902 .
+	skos:closeMatch	wd:Q107188902 .
 
 fibo-fbc-fct-mkti:Exchange-XOSD
-	skos:related	wd:Q107227922 .
+	skos:closeMatch	wd:Q107227922 .
 
 fibo-fbc-fct-mkti:Exchange-XOSE
-	skos:related	wd:Q107188919 .
+	skos:closeMatch	wd:Q107188919 .
 
 fibo-fbc-fct-mkti:Exchange-XOSJ
-	skos:related	wd:Q107188920 .
+	skos:closeMatch	wd:Q107188920 .
 
 fibo-fbc-fct-mkti:Exchange-XOSL
-	skos:related	wd:Q909158 .
+	skos:closeMatch	wd:Q909158 .
 
 fibo-fbc-fct-mkti:Exchange-XOTC-2021-12-27
-	skos:related	wd:Q1391676 .
+	skos:closeMatch	wd:Q1391676 .
 
 fibo-fbc-fct-mkti:Exchange-XOTP
-	skos:related	wd:Q31198593 .
+	skos:closeMatch	wd:Q31198593 .
 
 fibo-fbc-fct-mkti:Exchange-XPAC
-	skos:related	wd:Q107188758 .
+	skos:closeMatch	wd:Q107188758 .
 
 fibo-fbc-fct-mkti:Exchange-XPAE
-	skos:related	wd:Q4992224 .
+	skos:closeMatch	wd:Q4992224 .
 
 fibo-fbc-fct-mkti:Exchange-XPAL
-	skos:related	wd:Q107189196 .
+	skos:closeMatch	wd:Q107189196 .
 
 fibo-fbc-fct-mkti:Exchange-XPAR
-	skos:related	wd:Q2385849 .
+	skos:closeMatch	wd:Q2385849 .
 
 fibo-fbc-fct-mkti:Exchange-XPBT
-	skos:related	wd:Q107188886 .
+	skos:closeMatch	wd:Q107188886 .
 
 fibo-fbc-fct-mkti:Exchange-XPHL
-	skos:related	wd:Q1976792 .
+	skos:closeMatch	wd:Q1976792 .
 
 fibo-fbc-fct-mkti:Exchange-XPHO
-	skos:related	wd:Q107189205 .
+	skos:closeMatch	wd:Q107189205 .
 
 fibo-fbc-fct-mkti:Exchange-XPHS
-	skos:related	wd:Q1526647 .
+	skos:closeMatch	wd:Q1526647 .
 
 fibo-fbc-fct-mkti:Exchange-XPHX
-	skos:related	wd:Q107189182 .
+	skos:closeMatch	wd:Q107189182 .
 
 fibo-fbc-fct-mkti:Exchange-XPIC
-	skos:related	wd:Q93359291 .
+	skos:closeMatch	wd:Q93359291 .
 
 fibo-fbc-fct-mkti:Exchange-XPMS
-	skos:related	wd:Q107227721 .
+	skos:closeMatch	wd:Q107227721 .
 
 fibo-fbc-fct-mkti:Exchange-XPOL
-	skos:related	wd:Q107189195 .
+	skos:closeMatch	wd:Q107189195 .
 
 fibo-fbc-fct-mkti:Exchange-XPOM
-	skos:related	wd:Q1568967 .
+	skos:closeMatch	wd:Q1568967 .
 
 fibo-fbc-fct-mkti:Exchange-XPOR
-	skos:related	wd:Q107189207 .
+	skos:closeMatch	wd:Q107189207 .
 
 fibo-fbc-fct-mkti:Exchange-XPOS
-	skos:related	wd:Q107188505 .
+	skos:closeMatch	wd:Q107188505 .
 
 fibo-fbc-fct-mkti:Exchange-XPOT
-	skos:related	wd:Q107223103 .
+	skos:closeMatch	wd:Q107223103 .
 
 fibo-fbc-fct-mkti:Exchange-XPOW
-	skos:related	wd:Q612617 .
+	skos:closeMatch	wd:Q612617 .
 
 fibo-fbc-fct-mkti:Exchange-XPRA
-	skos:related	wd:Q1752646 .
+	skos:closeMatch	wd:Q1752646 .
 
 fibo-fbc-fct-mkti:Exchange-XPRI
-	skos:related	wd:Q93362161 .
+	skos:closeMatch	wd:Q93362161 .
 
 fibo-fbc-fct-mkti:Exchange-XPRM
-	skos:related	wd:Q107228107 .
+	skos:closeMatch	wd:Q107228107 .
 
 fibo-fbc-fct-mkti:Exchange-XPSF
-	skos:related	wd:Q107188724 .
+	skos:closeMatch	wd:Q107188724 .
 
 fibo-fbc-fct-mkti:Exchange-XPST
-	skos:related	wd:Q93358858 .
+	skos:closeMatch	wd:Q93358858 .
 
 fibo-fbc-fct-mkti:Exchange-XPSX
-	skos:related	wd:Q107227940 .
+	skos:closeMatch	wd:Q107227940 .
 
 fibo-fbc-fct-mkti:Exchange-XPTY
-	skos:related	wd:Q93358861 .
+	skos:closeMatch	wd:Q93358861 .
 
 fibo-fbc-fct-mkti:Exchange-XPUK
-	skos:related	wd:Q93357909 .
+	skos:closeMatch	wd:Q93357909 .
 
 fibo-fbc-fct-mkti:Exchange-XPUS
-	skos:related	wd:Q93359815 .
+	skos:closeMatch	wd:Q93359815 .
 
 fibo-fbc-fct-mkti:Exchange-XPXE
-	skos:related	wd:Q54983063 .
+	skos:closeMatch	wd:Q54983063 .
 
 fibo-fbc-fct-mkti:Exchange-XQMH
-	skos:related	wd:Q107227753 .
+	skos:closeMatch	wd:Q107227753 .
 
 fibo-fbc-fct-mkti:Exchange-XQTX
-	skos:related	wd:Q107190312 .
+	skos:closeMatch	wd:Q107190312 .
 
 fibo-fbc-fct-mkti:Exchange-XQUI
-	skos:related	wd:Q12156180 .
+	skos:closeMatch	wd:Q12156180 .
 
 fibo-fbc-fct-mkti:Exchange-XRAS
-	skos:related	wd:Q107188691 .
+	skos:closeMatch	wd:Q107188691 .
 
 fibo-fbc-fct-mkti:Exchange-XRBM
-	skos:related	wd:Q93360267 .
+	skos:closeMatch	wd:Q93360267 .
 
 fibo-fbc-fct-mkti:Exchange-XRCB
-	skos:related	wd:Q93357858 .
+	skos:closeMatch	wd:Q93357858 .
 
 fibo-fbc-fct-mkti:Exchange-XREP
-	skos:related	wd:Q107223123 .
+	skos:closeMatch	wd:Q107223123 .
 
 fibo-fbc-fct-mkti:Exchange-XRFQ
-	skos:related	wd:Q107188759 .
+	skos:closeMatch	wd:Q107188759 .
 
 fibo-fbc-fct-mkti:Exchange-XRIS
-	skos:related	wd:Q1624698 .
+	skos:closeMatch	wd:Q1624698 .
 
 fibo-fbc-fct-mkti:Exchange-XRMO
-	skos:related	wd:Q107227750 .
+	skos:closeMatch	wd:Q107227750 .
 
 fibo-fbc-fct-mkti:Exchange-XRMZ
-	skos:related	wd:Q12048417 .
+	skos:closeMatch	wd:Q12048417 .
 
 fibo-fbc-fct-mkti:Exchange-XROS
-	skos:related	wd:Q7367381 .
+	skos:closeMatch	wd:Q7367381 .
 
 fibo-fbc-fct-mkti:Exchange-XROT
-	skos:related	wd:Q107188632 .
+	skos:closeMatch	wd:Q107188632 .
 
 fibo-fbc-fct-mkti:Exchange-XROX
-	skos:related	wd:Q107190290 .
+	skos:closeMatch	wd:Q107190290 .
 
 fibo-fbc-fct-mkti:Exchange-XRPM
-	skos:related	wd:Q18544563 .
+	skos:closeMatch	wd:Q18544563 .
 
 fibo-fbc-fct-mkti:Exchange-XRSP
-	skos:related	wd:Q107189183 .
+	skos:closeMatch	wd:Q107189183 .
 
 fibo-fbc-fct-mkti:Exchange-XRUS
-	skos:related	wd:Q93358779 .
+	skos:closeMatch	wd:Q93358779 .
 
 fibo-fbc-fct-mkti:Exchange-XSAF
-	skos:related	wd:Q107188888 .
+	skos:closeMatch	wd:Q107188888 .
 
 fibo-fbc-fct-mkti:Exchange-XSAM
-	skos:related	wd:Q93358782 .
+	skos:closeMatch	wd:Q93358782 .
 
 fibo-fbc-fct-mkti:Exchange-XSAP
-	skos:related	wd:Q11093491 .
+	skos:closeMatch	wd:Q11093491 .
 
 fibo-fbc-fct-mkti:Exchange-XSAT
-	skos:related	wd:Q93360933 .
+	skos:closeMatch	wd:Q93360933 .
 
 fibo-fbc-fct-mkti:Exchange-XSAU
-	skos:related	wd:Q2006583 .
+	skos:closeMatch	wd:Q2006583 .
 
 fibo-fbc-fct-mkti:Exchange-XSBI
-	skos:related	wd:Q107190295 .
+	skos:closeMatch	wd:Q107190295 .
 
 fibo-fbc-fct-mkti:Exchange-XSBT
-	skos:related	wd:Q107223074 .
+	skos:closeMatch	wd:Q107223074 .
 
 fibo-fbc-fct-mkti:Exchange-XSC1
-	skos:related	wd:Q107189170 .
+	skos:closeMatch	wd:Q107189170 .
 
 fibo-fbc-fct-mkti:Exchange-XSC2
-	skos:related	wd:Q107189228 .
+	skos:closeMatch	wd:Q107189228 .
 
 fibo-fbc-fct-mkti:Exchange-XSC3
-	skos:related	wd:Q107188762 .
+	skos:closeMatch	wd:Q107188762 .
 
 fibo-fbc-fct-mkti:Exchange-XSCA
-	skos:related	wd:Q107188763 .
+	skos:closeMatch	wd:Q107188763 .
 
 fibo-fbc-fct-mkti:Exchange-XSCE
-	skos:related	wd:Q107227947 .
+	skos:closeMatch	wd:Q107227947 .
 
 fibo-fbc-fct-mkti:Exchange-XSCO
-	skos:related	wd:Q93359303 .
+	skos:closeMatch	wd:Q93359303 .
 
 fibo-fbc-fct-mkti:Exchange-XSCU
-	skos:related	wd:Q107188699 .
+	skos:closeMatch	wd:Q107188699 .
 
 fibo-fbc-fct-mkti:Exchange-XSDX
-	skos:related	wd:Q107227998 .
+	skos:closeMatch	wd:Q107227998 .
 
 fibo-fbc-fct-mkti:Exchange-XSEB
-	skos:related	wd:Q107228105 .
+	skos:closeMatch	wd:Q107228105 .
 
 fibo-fbc-fct-mkti:Exchange-XSEC
-	skos:related	wd:Q107227926 .
+	skos:closeMatch	wd:Q107227926 .
 
 fibo-fbc-fct-mkti:Exchange-XSEF
-	skos:related	wd:Q93361440 .
+	skos:closeMatch	wd:Q93361440 .
 
 fibo-fbc-fct-mkti:Exchange-XSES
-	skos:related	wd:Q1515558 .
+	skos:closeMatch	wd:Q1515558 .
 
 fibo-fbc-fct-mkti:Exchange-XSFA
-	skos:related	wd:Q107188890 .
+	skos:closeMatch	wd:Q107188890 .
 
 fibo-fbc-fct-mkti:Exchange-XSFE
-	skos:related	wd:Q107188686 .
+	skos:closeMatch	wd:Q107188686 .
 
 fibo-fbc-fct-mkti:Exchange-XSGA
-	skos:related	wd:Q93359795 .
+	skos:closeMatch	wd:Q93359795 .
 
 fibo-fbc-fct-mkti:Exchange-XSGB
-	skos:related	wd:Q93362910 .
+	skos:closeMatch	wd:Q93362910 .
 
 fibo-fbc-fct-mkti:Exchange-XSGE
-	skos:related	wd:Q7488449 .
+	skos:closeMatch	wd:Q7488449 .
 
 fibo-fbc-fct-mkti:Exchange-XSGO
-	skos:related	wd:Q891561 .
+	skos:closeMatch	wd:Q891561 .
 
 fibo-fbc-fct-mkti:Exchange-XSHE
-	skos:related	wd:Q517750 .
+	skos:closeMatch	wd:Q517750 .
 
 fibo-fbc-fct-mkti:Exchange-XSHG
-	skos:related	wd:Q739514 .
+	skos:closeMatch	wd:Q739514 .
 
 fibo-fbc-fct-mkti:Exchange-XSIB
-	skos:related	wd:Q93361461 .
+	skos:closeMatch	wd:Q93361461 .
 
 fibo-fbc-fct-mkti:Exchange-XSIM
-	skos:related	wd:Q107188898 .
+	skos:closeMatch	wd:Q107188898 .
 
 fibo-fbc-fct-mkti:Exchange-XSMP-2021-10-25
-	skos:related	wd:Q107188784 .
+	skos:closeMatch	wd:Q107188784 .
 
 fibo-fbc-fct-mkti:Exchange-XSOP
-	skos:related	wd:Q61356408 .
+	skos:closeMatch	wd:Q61356408 .
 
 fibo-fbc-fct-mkti:Exchange-XSPM
-	skos:related	wd:Q107228015 .
+	skos:closeMatch	wd:Q107228015 .
 
 fibo-fbc-fct-mkti:Exchange-XSPS
-	skos:related	wd:Q2386780 .
+	skos:closeMatch	wd:Q2386780 .
 
 fibo-fbc-fct-mkti:Exchange-XSSC
-	skos:related	wd:Q107189223 .
+	skos:closeMatch	wd:Q107189223 .
 
 fibo-fbc-fct-mkti:Exchange-XSSE
-	skos:related	wd:Q47057 .
+	skos:closeMatch	wd:Q47057 .
 
 fibo-fbc-fct-mkti:Exchange-XSTC
-	skos:related	wd:Q2922455 .
+	skos:closeMatch	wd:Q2922455 .
 
 fibo-fbc-fct-mkti:Exchange-XSTE
-	skos:related	wd:Q93363016 .
+	skos:closeMatch	wd:Q93363016 .
 
 fibo-fbc-fct-mkti:Exchange-XSTF
-	skos:related	wd:Q107189225 .
+	skos:closeMatch	wd:Q107189225 .
 
 fibo-fbc-fct-mkti:Exchange-XSTM
-	skos:related	wd:Q107190289 .
+	skos:closeMatch	wd:Q107190289 .
 
 fibo-fbc-fct-mkti:Exchange-XSTO
-	skos:related	wd:Q1019992 .
+	skos:closeMatch	wd:Q1019992 .
 
 fibo-fbc-fct-mkti:Exchange-XSTU
-	skos:related	wd:Q558524 .
+	skos:closeMatch	wd:Q558524 .
 
 fibo-fbc-fct-mkti:Exchange-XSTV
-	skos:related	wd:Q107188911 .
+	skos:closeMatch	wd:Q107188911 .
 
 fibo-fbc-fct-mkti:Exchange-XSTX
-	skos:related	wd:Q107188913 .
+	skos:closeMatch	wd:Q107188913 .
 
 fibo-fbc-fct-mkti:Exchange-XSVA
-	skos:related	wd:Q21071009 .
+	skos:closeMatch	wd:Q21071009 .
 
 fibo-fbc-fct-mkti:Exchange-XSWA
-	skos:related	wd:Q4409921 .
+	skos:closeMatch	wd:Q4409921 .
 
 fibo-fbc-fct-mkti:Exchange-XSWB
-	skos:related	wd:Q107232462 .
+	skos:closeMatch	wd:Q107232462 .
 
 fibo-fbc-fct-mkti:Exchange-XSWM
-	skos:related	wd:Q107188779 .
+	skos:closeMatch	wd:Q107188779 .
 
 fibo-fbc-fct-mkti:Exchange-XSWX
-	skos:related	wd:Q661834 .
+	skos:closeMatch	wd:Q661834 .
 
 fibo-fbc-fct-mkti:Exchange-XTAE
-	skos:related	wd:Q1507974 .
+	skos:closeMatch	wd:Q1507974 .
 
 fibo-fbc-fct-mkti:Exchange-XTAF
-	skos:related	wd:Q7676538 .
+	skos:closeMatch	wd:Q7676538 .
 
 fibo-fbc-fct-mkti:Exchange-XTAI
-	skos:related	wd:Q548621 .
+	skos:closeMatch	wd:Q548621 .
 
 fibo-fbc-fct-mkti:Exchange-XTAL
-	skos:related	wd:Q1433248 .
+	skos:closeMatch	wd:Q1433248 .
 
 fibo-fbc-fct-mkti:Exchange-XTAM
-	skos:related	wd:Q11249728 .
+	skos:closeMatch	wd:Q11249728 .
 
 fibo-fbc-fct-mkti:Exchange-XTEH
-	skos:related	wd:Q1805567 .
+	skos:closeMatch	wd:Q1805567 .
 
 fibo-fbc-fct-mkti:Exchange-XTFF
-	skos:related	wd:Q7813878 .
+	skos:closeMatch	wd:Q7813878 .
 
 fibo-fbc-fct-mkti:Exchange-XTIR
-	skos:related	wd:Q2024538 .
+	skos:closeMatch	wd:Q2024538 .
 
 fibo-fbc-fct-mkti:Exchange-XTK1
-	skos:related	wd:Q107190259 .
+	skos:closeMatch	wd:Q107190259 .
 
 fibo-fbc-fct-mkti:Exchange-XTK2
-	skos:related	wd:Q107190260 .
+	skos:closeMatch	wd:Q107190260 .
 
 fibo-fbc-fct-mkti:Exchange-XTK3
-	skos:related	wd:Q107190261 .
+	skos:closeMatch	wd:Q107190261 .
 
 fibo-fbc-fct-mkti:Exchange-XTKS
-	skos:related	wd:Q217475 .
+	skos:closeMatch	wd:Q217475 .
 
 fibo-fbc-fct-mkti:Exchange-XTKT
-	skos:related	wd:Q4459560 .
+	skos:closeMatch	wd:Q4459560 .
 
 fibo-fbc-fct-mkti:Exchange-XTND
-	skos:related	wd:Q107223065 .
+	skos:closeMatch	wd:Q107223065 .
 
 fibo-fbc-fct-mkti:Exchange-XTNX
-	skos:related	wd:Q107190263 .
+	skos:closeMatch	wd:Q107190263 .
 
 fibo-fbc-fct-mkti:Exchange-XTRD
-	skos:related	wd:Q93359726 .
+	skos:closeMatch	wd:Q93359726 .
 
 fibo-fbc-fct-mkti:Exchange-XTRN
-	skos:related	wd:Q4491717 .
+	skos:closeMatch	wd:Q4491717 .
 
 fibo-fbc-fct-mkti:Exchange-XTRZ
-	skos:related	wd:Q93358321 .
+	skos:closeMatch	wd:Q93358321 .
 
 fibo-fbc-fct-mkti:Exchange-XTSE
-	skos:related	wd:Q818723 .
+	skos:closeMatch	wd:Q818723 .
 
 fibo-fbc-fct-mkti:Exchange-XTSX
-	skos:related	wd:Q7671764 .
+	skos:closeMatch	wd:Q7671764 .
 
 fibo-fbc-fct-mkti:Exchange-XTUC
-	skos:related	wd:Q107190292 .
+	skos:closeMatch	wd:Q107190292 .
 
 fibo-fbc-fct-mkti:Exchange-XTUN
-	skos:related	wd:Q2380163 .
+	skos:closeMatch	wd:Q2380163 .
 
 fibo-fbc-fct-mkti:Exchange-XTXE
-	skos:related	wd:Q60742651 .
+	skos:closeMatch	wd:Q60742651 .
 
 fibo-fbc-fct-mkti:Exchange-XTXM
-	skos:related	wd:Q60742651 .
+	skos:closeMatch	wd:Q60742651 .
 
 fibo-fbc-fct-mkti:Exchange-XUAX
-	skos:related	wd:Q93358770 .
+	skos:closeMatch	wd:Q93358770 .
 
 fibo-fbc-fct-mkti:Exchange-XUBS
-	skos:related	wd:Q93361972 .
+	skos:closeMatch	wd:Q93361972 .
 
 fibo-fbc-fct-mkti:Exchange-XUGA
-	skos:related	wd:Q492316 .
+	skos:closeMatch	wd:Q492316 .
 
 fibo-fbc-fct-mkti:Exchange-XUKR
-	skos:related	wd:Q93358764 .
+	skos:closeMatch	wd:Q93358764 .
 
 fibo-fbc-fct-mkti:Exchange-XULA
-	skos:related	wd:Q1752885 .
+	skos:closeMatch	wd:Q1752885 .
 
 fibo-fbc-fct-mkti:Exchange-XUMP-2022-04-25
-	skos:related	wd:Q107190241 .
+	skos:closeMatch	wd:Q107190241 .
 
 fibo-fbc-fct-mkti:Exchange-XUNI
-	skos:related	wd:Q93358768 .
+	skos:closeMatch	wd:Q93358768 .
 
 fibo-fbc-fct-mkti:Exchange-XUSE
-	skos:related	wd:Q7893570 .
+	skos:closeMatch	wd:Q7893570 .
 
 fibo-fbc-fct-mkti:Exchange-XVAL
-	skos:related	wd:Q107188471 .
+	skos:closeMatch	wd:Q107188471 .
 
 fibo-fbc-fct-mkti:Exchange-XVES
-	skos:related	wd:Q93356590 .
+	skos:closeMatch	wd:Q93356590 .
 
 fibo-fbc-fct-mkti:Exchange-XVIE
-	skos:related	wd:Q107223108 .
+	skos:closeMatch	wd:Q107223108 .
 
 fibo-fbc-fct-mkti:Exchange-XVPA
-	skos:related	wd:Q8250595 .
+	skos:closeMatch	wd:Q8250595 .
 
 fibo-fbc-fct-mkti:Exchange-XVPB
-	skos:related	wd:Q93356781 .
+	skos:closeMatch	wd:Q93356781 .
 
 fibo-fbc-fct-mkti:Exchange-XVTX-2020-12-07
-	skos:related	wd:Q107188833 .
+	skos:closeMatch	wd:Q107188833 .
 
 fibo-fbc-fct-mkti:Exchange-XWAR
-	skos:related	wd:Q59551 .
+	skos:closeMatch	wd:Q59551 .
 
 fibo-fbc-fct-mkti:Exchange-XWBO
-	skos:related	wd:Q698535 .
+	skos:closeMatch	wd:Q698535 .
 
 fibo-fbc-fct-mkti:Exchange-XXSC
-	skos:related	wd:Q93357350 .
+	skos:closeMatch	wd:Q93357350 .
 
 fibo-fbc-fct-mkti:Exchange-XYIE
-	skos:related	wd:Q93357178 .
+	skos:closeMatch	wd:Q93357178 .
 
 fibo-fbc-fct-mkti:Exchange-XZAG
-	skos:related	wd:Q140388 .
+	skos:closeMatch	wd:Q140388 .
 
 fibo-fbc-fct-mkti:Exchange-XZAP
-	skos:related	wd:Q107232469 .
+	skos:closeMatch	wd:Q107232469 .
 
 fibo-fbc-fct-mkti:Exchange-XZCE
-	skos:related	wd:Q8070776 .
+	skos:closeMatch	wd:Q8070776 .
 
 fibo-fbc-fct-mkti:Exchange-XZIM
-	skos:related	wd:Q4191917 .
+	skos:closeMatch	wd:Q4191917 .
 
 fibo-fbc-fct-mkti:Exchange-YKNA
-	skos:related	wd:Q93360787 .
+	skos:closeMatch	wd:Q93360787 .
 
 fibo-fbc-fct-mkti:Exchange-YLDX
-	skos:related	wd:Q107188891 .
+	skos:closeMatch	wd:Q107188891 .
 
 fibo-fbc-fct-mkti:Exchange-ZAPA
-	skos:related	wd:Q107188643 .
+	skos:closeMatch	wd:Q107188643 .
 
 fibo-fbc-fct-mkti:Exchange-ZARX
-	skos:related	wd:Q93360200 .
+	skos:closeMatch	wd:Q93360200 .
 
 fibo-fbc-fct-mkti:Exchange-ZBUL
-	skos:related	wd:Q107228100 .
+	skos:closeMatch	wd:Q107228100 .
 
 fibo-fbc-fct-mkti:Exchange-ZERO
-	skos:related	wd:Q107227770 .
+	skos:closeMatch	wd:Q107227770 .
 
 fibo-fbc-fct-mkti:Exchange-ZFXM
-	skos:related	wd:Q107227838 .
+	skos:closeMatch	wd:Q107227838 .
 
 fibo-fbc-fct-mkti:Exchange-ZKBX
-	skos:related	wd:Q93362777 .
+	skos:closeMatch	wd:Q93362777 .
 
 fibo-fbc-fct-mkti:Exchange-ZOBX
-	skos:related	wd:Q107188615 .
+	skos:closeMatch	wd:Q107188615 .
