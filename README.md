@@ -16,6 +16,14 @@ Why?
 FIBO's official ontology lacks historical identifiers and, consequently, annotations
 about their temporal validity.
 
-The business centres are reduced to distinctive entities, duplicates are owl:sameAs'd,
-and erroneous resources have been purged altogether.  Furthermore, business centres
-are aligned with geonames resources.
+FIBO's business centres are not distictive.
+
+
+How?
+----
+
+The Makefile contains some recipes to assemble a file that resembles FIBO's, taking
+a source as input, i.e. an ISO10383 xlsx file or an FpML business-center-x-y spec file,
+and enriching the file on the way using supplementary files (maintained in this repo).
+
+The supplementary files contain alignment data with wikidata, geonames, and dbpedia.
