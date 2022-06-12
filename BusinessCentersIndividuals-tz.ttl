@@ -1,0 +1,1064 @@
+@prefix fibo-fbc-fct-bci: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+
+fibo-fbc-fct-bci:Aabenraa
+	time:timeZone	<http://dbpedia.org/resource/Europe/Copenhagen> .
+
+fibo-fbc-fct-bci:Aalborg
+	time:timeZone	<http://dbpedia.org/resource/Europe/Copenhagen> .
+
+fibo-fbc-fct-bci:Abha
+	time:timeZone	<http://dbpedia.org/resource/Asia/Riyadh> .
+
+fibo-fbc-fct-bci:Abidjan
+	time:timeZone	<http://dbpedia.org/resource/Africa/Abidjan> .
+
+fibo-fbc-fct-bci:Abu_Dhabi
+	time:timeZone	<http://dbpedia.org/resource/Asia/Dubai> .
+
+fibo-fbc-fct-bci:Abuja
+	time:timeZone	<http://dbpedia.org/resource/Africa/Lagos> .
+
+fibo-fbc-fct-bci:Accra
+	time:timeZone	<http://dbpedia.org/resource/Africa/Accra> .
+
+fibo-fbc-fct-bci:Addis_Ababa
+	time:timeZone	<http://dbpedia.org/resource/Africa/Addis_Ababa> .
+
+fibo-fbc-fct-bci:Adelaide
+	time:timeZone	<http://dbpedia.org/resource/Australia/Adelaide> .
+
+fibo-fbc-fct-bci:Aden
+	time:timeZone	<http://dbpedia.org/resource/Asia/Aden> .
+
+fibo-fbc-fct-bci:Ahmedabad
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
+fibo-fbc-fct-bci:Algiers
+	time:timeZone	<http://dbpedia.org/resource/Africa/Algiers> .
+
+fibo-fbc-fct-bci:Almaty
+	time:timeZone	<http://dbpedia.org/resource/Asia/Almaty> .
+
+fibo-fbc-fct-bci:Amman
+	time:timeZone	<http://dbpedia.org/resource/Asia/Amman> .
+
+fibo-fbc-fct-bci:Amsterdam
+	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
+
+fibo-fbc-fct-bci:Ankara
+	time:timeZone	<http://dbpedia.org/resource/Europe/Istanbul> .
+
+fibo-fbc-fct-bci:Antananarivo
+	time:timeZone	<http://dbpedia.org/resource/Indian/Antananarivo> .
+
+fibo-fbc-fct-bci:Antiguo_Cuscatlan
+	time:timeZone	<http://dbpedia.org/resource/America/El_Salvador> .
+
+fibo-fbc-fct-bci:Astana
+	time:timeZone	<http://dbpedia.org/resource/Asia/Almaty> .
+
+fibo-fbc-fct-bci:Asti
+	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
+
+fibo-fbc-fct-bci:Asuncion
+	time:timeZone	<http://dbpedia.org/resource/America/Asuncion> .
+
+fibo-fbc-fct-bci:Athens
+	time:timeZone	<http://dbpedia.org/resource/Europe/Athens> .
+
+fibo-fbc-fct-bci:Atlanta
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Auckland
+	time:timeZone	<http://dbpedia.org/resource/Pacific/Auckland> .
+
+fibo-fbc-fct-bci:Aylesbury
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+fibo-fbc-fct-bci:Baghdad
+	time:timeZone	<http://dbpedia.org/resource/Asia/Baghdad> .
+
+fibo-fbc-fct-bci:Baku
+	time:timeZone	<http://dbpedia.org/resource/Asia/Baku> .
+
+fibo-fbc-fct-bci:Bandar_Seri_Begawan
+	time:timeZone	<http://dbpedia.org/resource/Asia/Brunei> .
+
+fibo-fbc-fct-bci:Bangalore
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
+fibo-fbc-fct-bci:Bangkok
+	time:timeZone	<http://dbpedia.org/resource/Asia/Bangkok> .
+
+fibo-fbc-fct-bci:Banja_Luka
+	time:timeZone	<http://dbpedia.org/resource/Europe/Sarajevo> .
+
+fibo-fbc-fct-bci:Banjul
+	time:timeZone	<http://dbpedia.org/resource/Africa/Banjul> .
+
+fibo-fbc-fct-bci:Barcelona
+	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
+
+fibo-fbc-fct-bci:Basel
+	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
+
+fibo-fbc-fct-bci:Basseterre
+	time:timeZone	<http://dbpedia.org/resource/America/St_Kitts> .
+
+fibo-fbc-fct-bci:Bedminster
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Beijing
+	time:timeZone	<http://dbpedia.org/resource/Asia/Shanghai> .
+
+fibo-fbc-fct-bci:Beirut
+	time:timeZone	<http://dbpedia.org/resource/Asia/Beirut> .
+
+fibo-fbc-fct-bci:Belgrade
+	time:timeZone	<http://dbpedia.org/resource/Europe/Belgrade> .
+
+fibo-fbc-fct-bci:Bergamo
+	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
+
+fibo-fbc-fct-bci:Bergen
+	time:timeZone	<http://dbpedia.org/resource/Europe/Oslo> .
+
+fibo-fbc-fct-bci:Berlin
+	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
+
+fibo-fbc-fct-bci:Bermuda
+	time:timeZone	<http://dbpedia.org/resource/Atlantic/Bermuda> .
+
+fibo-fbc-fct-bci:Bern
+	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
+
+fibo-fbc-fct-bci:Biella
+	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
+
+fibo-fbc-fct-bci:Bilbao
+	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
+
+fibo-fbc-fct-bci:Bishkek
+	time:timeZone	<http://dbpedia.org/resource/Asia/Bishkek> .
+
+fibo-fbc-fct-bci:Blantyre
+	time:timeZone	<http://dbpedia.org/resource/Africa/Blantyre> .
+
+fibo-fbc-fct-bci:BocaRaton
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Bogota
+	time:timeZone	<http://dbpedia.org/resource/America/Bogota> .
+
+fibo-fbc-fct-bci:Bologna
+	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
+
+fibo-fbc-fct-bci:Boston
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Bradford
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+fibo-fbc-fct-bci:Brasilia
+	time:timeZone	<http://dbpedia.org/resource/America/Sao_Paulo> .
+
+fibo-fbc-fct-bci:Bratislava
+	time:timeZone	<http://dbpedia.org/resource/Europe/Bratislava> .
+
+fibo-fbc-fct-bci:Bridgetown
+	time:timeZone	<http://dbpedia.org/resource/America/Barbados> .
+
+fibo-fbc-fct-bci:Brisbane
+	time:timeZone	<http://dbpedia.org/resource/Australia/Brisbane> .
+
+fibo-fbc-fct-bci:Brussels
+	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
+
+fibo-fbc-fct-bci:BryanstonSandton
+	time:timeZone	<http://dbpedia.org/resource/Africa/Johannesburg> .
+
+fibo-fbc-fct-bci:Bucharest
+	time:timeZone	<http://dbpedia.org/resource/Europe/Bucharest> .
+
+fibo-fbc-fct-bci:Budapest
+	time:timeZone	<http://dbpedia.org/resource/Europe/Budapest> .
+
+fibo-fbc-fct-bci:Buenos_Aires
+	time:timeZone	<http://dbpedia.org/resource/America/Argentina/Buenos_Aires> .
+
+fibo-fbc-fct-bci:Cairo
+	time:timeZone	<http://dbpedia.org/resource/Africa/Cairo> .
+
+fibo-fbc-fct-bci:Calgary
+	time:timeZone	<http://dbpedia.org/resource/America/Edmonton> .
+
+fibo-fbc-fct-bci:Canberra
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+fibo-fbc-fct-bci:Caracas
+	time:timeZone	<http://dbpedia.org/resource/America/Caracas> .
+
+fibo-fbc-fct-bci:Casablanca
+	time:timeZone	<http://dbpedia.org/resource/Africa/Casablanca> .
+
+fibo-fbc-fct-bci:Charlotte
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Chatham
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Chennai
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
+fibo-fbc-fct-bci:Chicago
+	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
+
+fibo-fbc-fct-bci:Chisinau
+	time:timeZone	<http://dbpedia.org/resource/Europe/Chisinau> .
+
+fibo-fbc-fct-bci:Chittagong
+	time:timeZone	<http://dbpedia.org/resource/Asia/Dhaka> .
+
+fibo-fbc-fct-bci:Chiyoda-ku
+	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
+
+fibo-fbc-fct-bci:ClujNapoca
+	time:timeZone	<http://dbpedia.org/resource/Europe/Bucharest> .
+
+fibo-fbc-fct-bci:Cologne
+	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
+
+fibo-fbc-fct-bci:Colombo
+	time:timeZone	<http://dbpedia.org/resource/Asia/Colombo> .
+
+fibo-fbc-fct-bci:Conakry
+	time:timeZone	<http://dbpedia.org/resource/Africa/Conakry> .
+
+fibo-fbc-fct-bci:Copenhagen
+	time:timeZone	<http://dbpedia.org/resource/Europe/Copenhagen> .
+
+fibo-fbc-fct-bci:Cordoba
+	time:timeZone	<http://dbpedia.org/resource/America/Argentina/Cordoba> .
+
+fibo-fbc-fct-bci:Corrientes
+	time:timeZone	<http://dbpedia.org/resource/America/Argentina/Cordoba> .
+
+fibo-fbc-fct-bci:Dakar
+	time:timeZone	<http://dbpedia.org/resource/Africa/Dakar> .
+
+fibo-fbc-fct-bci:Dalian
+	time:timeZone	<http://dbpedia.org/resource/Asia/Shanghai> .
+
+fibo-fbc-fct-bci:Damascus
+	time:timeZone	<http://dbpedia.org/resource/Asia/Damascus> .
+
+fibo-fbc-fct-bci:Dar_es_Salaam
+	time:timeZone	<http://dbpedia.org/resource/Africa/Dar_es_Salaam> .
+
+fibo-fbc-fct-bci:Darwin
+	time:timeZone	<http://dbpedia.org/resource/Australia/Darwin> .
+
+fibo-fbc-fct-bci:Davos_Platz
+	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
+
+fibo-fbc-fct-bci:Denver
+	time:timeZone	<http://dbpedia.org/resource/America/Denver> .
+
+fibo-fbc-fct-bci:Detroit
+	time:timeZone	<http://dbpedia.org/resource/America/Detroit> .
+
+fibo-fbc-fct-bci:Dhaka
+	time:timeZone	<http://dbpedia.org/resource/Asia/Dhaka> .
+
+fibo-fbc-fct-bci:Dnipropetrovsk
+	time:timeZone	<http://dbpedia.org/resource/Europe/Kiev> .
+
+fibo-fbc-fct-bci:Dodoma
+	time:timeZone	<http://dbpedia.org/resource/Africa/Dar_es_Salaam> .
+
+fibo-fbc-fct-bci:Doha
+	time:timeZone	<http://dbpedia.org/resource/Asia/Qatar> .
+
+fibo-fbc-fct-bci:Douala
+	time:timeZone	<http://dbpedia.org/resource/Africa/Douala> .
+
+fibo-fbc-fct-bci:Dubai
+	time:timeZone	<http://dbpedia.org/resource/Asia/Dubai> .
+
+fibo-fbc-fct-bci:Dublin
+	time:timeZone	<http://dbpedia.org/resource/Europe/Dublin> .
+
+fibo-fbc-fct-bci:Duesseldorf
+	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
+
+fibo-fbc-fct-bci:Ebene
+	time:timeZone	<http://dbpedia.org/resource/Indian/Mauritius> .
+
+fibo-fbc-fct-bci:Eden_Island
+	time:timeZone	<http://dbpedia.org/resource/Indian/Mahe> .
+
+fibo-fbc-fct-bci:Edinburgh
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+fibo-fbc-fct-bci:Esch-sur-alzette
+	time:timeZone	<http://dbpedia.org/resource/Europe/Luxembourg> .
+
+fibo-fbc-fct-bci:Eschborn
+	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
+
+fibo-fbc-fct-bci:Eschenz
+	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
+
+fibo-fbc-fct-bci:Espoo
+	time:timeZone	<http://dbpedia.org/resource/Europe/Helsinki> .
+
+fibo-fbc-fct-bci:Fiac
+	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
+
+fibo-fbc-fct-bci:Firenze
+	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
+
+fibo-fbc-fct-bci:Florence
+	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
+
+fibo-fbc-fct-bci:Frankfurt
+	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
+
+fibo-fbc-fct-bci:Fredericton
+	time:timeZone	<http://dbpedia.org/resource/America/Moncton> .
+
+fibo-fbc-fct-bci:Freetown
+	time:timeZone	<http://dbpedia.org/resource/Africa/Freetown> .
+
+fibo-fbc-fct-bci:Fukuoka
+	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
+
+fibo-fbc-fct-bci:Gaborone
+	time:timeZone	<http://dbpedia.org/resource/Africa/Gaborone> .
+
+fibo-fbc-fct-bci:Gandhinagar
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
+fibo-fbc-fct-bci:Geneva
+	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
+
+fibo-fbc-fct-bci:Genoa
+	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
+
+fibo-fbc-fct-bci:George_Town
+	time:timeZone	<http://dbpedia.org/resource/America/Cayman> .
+
+fibo-fbc-fct-bci:Georgetown
+	time:timeZone	<http://dbpedia.org/resource/America/Guyana> .
+
+fibo-fbc-fct-bci:Gibraltar
+	time:timeZone	<http://dbpedia.org/resource/Europe/Gibraltar> .
+
+fibo-fbc-fct-bci:Glenview
+	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
+
+fibo-fbc-fct-bci:Great_Neck
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Greenwich
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Grindsted
+	time:timeZone	<http://dbpedia.org/resource/Europe/Copenhagen> .
+
+fibo-fbc-fct-bci:Guatemala_City
+	time:timeZone	<http://dbpedia.org/resource/America/Guatemala> .
+
+fibo-fbc-fct-bci:Guayaquil
+	time:timeZone	<http://dbpedia.org/resource/America/Guayaquil> .
+
+fibo-fbc-fct-bci:Guaynabo
+	time:timeZone	<http://dbpedia.org/resource/America/Puerto_Rico> .
+
+fibo-fbc-fct-bci:Guildford
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+fibo-fbc-fct-bci:Hamburg
+	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
+
+fibo-fbc-fct-bci:Hamilton
+	time:timeZone	<http://dbpedia.org/resource/Atlantic/Bermuda> .
+
+fibo-fbc-fct-bci:Hannover
+	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
+
+fibo-fbc-fct-bci:Hanoi
+	time:timeZone	<http://dbpedia.org/resource/Asia/Bangkok> .
+
+fibo-fbc-fct-bci:Harare
+	time:timeZone	<http://dbpedia.org/resource/Africa/Harare> .
+
+fibo-fbc-fct-bci:Helsinki
+	time:timeZone	<http://dbpedia.org/resource/Europe/Helsinki> .
+
+fibo-fbc-fct-bci:Ho_Chi_Minh_City
+	time:timeZone	<http://dbpedia.org/resource/Asia/Ho_Chi_Minh> .
+
+fibo-fbc-fct-bci:Hong_Kong
+	time:timeZone	<http://dbpedia.org/resource/Asia/Hong_Kong> .
+
+fibo-fbc-fct-bci:Honolulu
+	time:timeZone	<http://dbpedia.org/resource/Pacific/Honolulu> .
+
+fibo-fbc-fct-bci:Horsens
+	time:timeZone	<http://dbpedia.org/resource/Europe/Copenhagen> .
+
+fibo-fbc-fct-bci:Houston
+	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
+
+fibo-fbc-fct-bci:Hove
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+fibo-fbc-fct-bci:Hyderabad
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
+fibo-fbc-fct-bci:Indore_Madhya_Pradesh
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
+fibo-fbc-fct-bci:Istanbul
+	time:timeZone	<http://dbpedia.org/resource/Europe/Istanbul> .
+
+fibo-fbc-fct-bci:Jakarta
+	time:timeZone	<http://dbpedia.org/resource/Asia/Jakarta> .
+
+fibo-fbc-fct-bci:Jeddah
+	time:timeZone	<http://dbpedia.org/resource/Asia/Riyadh> .
+
+fibo-fbc-fct-bci:Jersey_City
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Jerusalem
+	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
+
+fibo-fbc-fct-bci:Johannesburg
+	time:timeZone	<http://dbpedia.org/resource/Africa/Johannesburg> .
+
+fibo-fbc-fct-bci:Kampala
+	time:timeZone	<http://dbpedia.org/resource/Africa/Kampala> .
+
+fibo-fbc-fct-bci:Kansas_City
+	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
+
+fibo-fbc-fct-bci:Karachi
+	time:timeZone	<http://dbpedia.org/resource/Asia/Karachi> .
+
+fibo-fbc-fct-bci:Kathmandu
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kathmandu> .
+
+fibo-fbc-fct-bci:Kharkov
+	time:timeZone	<http://dbpedia.org/resource/Europe/Kiev> .
+
+fibo-fbc-fct-bci:Khartoum
+	time:timeZone	<http://dbpedia.org/resource/Africa/Khartoum> .
+
+fibo-fbc-fct-bci:Kiel
+	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
+
+fibo-fbc-fct-bci:Kigali
+	time:timeZone	<http://dbpedia.org/resource/Africa/Kigali> .
+
+fibo-fbc-fct-bci:Kingston
+	time:timeZone	<http://dbpedia.org/resource/America/Jamaica> .
+
+fibo-fbc-fct-bci:Kingstown
+	time:timeZone	<http://dbpedia.org/resource/America/St_Vincent> .
+
+fibo-fbc-fct-bci:Klagenfurt_am_Woerthersee
+	time:timeZone	<http://dbpedia.org/resource/Europe/Vienna> .
+
+fibo-fbc-fct-bci:Kolkata
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
+fibo-fbc-fct-bci:Kongsvinger
+	time:timeZone	<http://dbpedia.org/resource/Europe/Oslo> .
+
+fibo-fbc-fct-bci:Kuala_Lumpur
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kuala_Lumpur> .
+
+fibo-fbc-fct-bci:Kuwait_City
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kuwait> .
+
+fibo-fbc-fct-bci:Kyiv
+	time:timeZone	<http://dbpedia.org/resource/Europe/Kiev> .
+
+fibo-fbc-fct-bci:La_Paz
+	time:timeZone	<http://dbpedia.org/resource/America/La_Paz> .
+
+fibo-fbc-fct-bci:Labuan
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kuala_Lumpur> .
+
+fibo-fbc-fct-bci:Lagos
+	time:timeZone	<http://dbpedia.org/resource/Africa/Lagos> .
+
+fibo-fbc-fct-bci:Lane_Cove
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+fibo-fbc-fct-bci:Lao
+	time:timeZone	<http://dbpedia.org/resource/Asia/Vientiane> .
+
+fibo-fbc-fct-bci:Larnaca
+	time:timeZone	<http://dbpedia.org/resource/Asia/Nicosia> .
+
+fibo-fbc-fct-bci:Leipzig
+	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
+
+fibo-fbc-fct-bci:Lilongwe
+	time:timeZone	<http://dbpedia.org/resource/Africa/Blantyre> .
+
+fibo-fbc-fct-bci:Lima
+	time:timeZone	<http://dbpedia.org/resource/America/Lima> .
+
+fibo-fbc-fct-bci:Limassol
+	time:timeZone	<http://dbpedia.org/resource/Asia/Nicosia> .
+
+fibo-fbc-fct-bci:Linz
+	time:timeZone	<http://dbpedia.org/resource/Europe/Vienna> .
+
+fibo-fbc-fct-bci:Lisbon
+	time:timeZone	<http://dbpedia.org/resource/Europe/Lisbon> .
+
+fibo-fbc-fct-bci:Ljubljana
+	time:timeZone	<http://dbpedia.org/resource/Europe/Ljubljana> .
+
+fibo-fbc-fct-bci:London
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+fibo-fbc-fct-bci:Los_Angeles
+	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
+
+fibo-fbc-fct-bci:Luanda
+	time:timeZone	<http://dbpedia.org/resource/Africa/Luanda> .
+
+fibo-fbc-fct-bci:Lugano
+	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
+
+fibo-fbc-fct-bci:Lusaka
+	time:timeZone	<http://dbpedia.org/resource/Africa/Lusaka> .
+
+fibo-fbc-fct-bci:Luxembourg
+	time:timeZone	<http://dbpedia.org/resource/Europe/Luxembourg> .
+
+fibo-fbc-fct-bci:Luzern
+	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
+
+fibo-fbc-fct-bci:Macau
+	time:timeZone	<http://dbpedia.org/resource/Asia/Macau> .
+
+fibo-fbc-fct-bci:Madras
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
+fibo-fbc-fct-bci:Madrid
+	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
+
+fibo-fbc-fct-bci:Mainz
+	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
+
+fibo-fbc-fct-bci:Makati_City
+	time:timeZone	<http://dbpedia.org/resource/Asia/Manila> .
+
+fibo-fbc-fct-bci:Male
+	time:timeZone	<http://dbpedia.org/resource/Indian/Maldives> .
+
+fibo-fbc-fct-bci:Managua
+	time:timeZone	<http://dbpedia.org/resource/America/Managua> .
+
+fibo-fbc-fct-bci:Manama
+	time:timeZone	<http://dbpedia.org/resource/Asia/Bahrain> .
+
+fibo-fbc-fct-bci:Manila
+	time:timeZone	<http://dbpedia.org/resource/Asia/Manila> .
+
+fibo-fbc-fct-bci:Maputo
+	time:timeZone	<http://dbpedia.org/resource/Africa/Maputo> .
+
+fibo-fbc-fct-bci:Maringa
+	time:timeZone	<http://dbpedia.org/resource/America/Sao_Paulo> .
+
+fibo-fbc-fct-bci:Mbabane
+	time:timeZone	<http://dbpedia.org/resource/Africa/Mbabane> .
+
+fibo-fbc-fct-bci:Melbourne
+	time:timeZone	<http://dbpedia.org/resource/Australia/Melbourne> .
+
+fibo-fbc-fct-bci:Mendoza
+	time:timeZone	<http://dbpedia.org/resource/America/Argentina/Mendoza> .
+
+fibo-fbc-fct-bci:Mexico_City
+	time:timeZone	<http://dbpedia.org/resource/America/Mexico_City> .
+
+fibo-fbc-fct-bci:Miami
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Milan
+	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
+
+fibo-fbc-fct-bci:Minneapolis
+	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
+
+fibo-fbc-fct-bci:Minsk
+	time:timeZone	<http://dbpedia.org/resource/Europe/Minsk> .
+
+fibo-fbc-fct-bci:Mobile
+	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
+
+fibo-fbc-fct-bci:Moka
+	time:timeZone	<http://dbpedia.org/resource/Indian/Mauritius> .
+
+fibo-fbc-fct-bci:Monaco
+	time:timeZone	<http://dbpedia.org/resource/Europe/Monaco> .
+
+fibo-fbc-fct-bci:Montevideo
+	time:timeZone	<http://dbpedia.org/resource/America/Montevideo> .
+
+fibo-fbc-fct-bci:Montreal
+	time:timeZone	<http://dbpedia.org/resource/America/Toronto> .
+
+fibo-fbc-fct-bci:Moorpark
+	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
+
+fibo-fbc-fct-bci:Moscow
+	time:timeZone	<http://dbpedia.org/resource/Europe/Moscow> .
+
+fibo-fbc-fct-bci:Mount_Pleasant
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Mumbai
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
+fibo-fbc-fct-bci:Munich
+	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
+
+fibo-fbc-fct-bci:Muscat
+	time:timeZone	<http://dbpedia.org/resource/Asia/Muscat> .
+
+fibo-fbc-fct-bci:Nablus
+	time:timeZone	<http://dbpedia.org/resource/Asia/Hebron> .
+
+fibo-fbc-fct-bci:Nacka
+	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
+
+fibo-fbc-fct-bci:Nagoya
+	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
+
+fibo-fbc-fct-bci:Nairobi
+	time:timeZone	<http://dbpedia.org/resource/Africa/Nairobi> .
+
+fibo-fbc-fct-bci:Narberth
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Nassau
+	time:timeZone	<http://dbpedia.org/resource/America/Nassau> .
+
+fibo-fbc-fct-bci:New_Delhi
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
+fibo-fbc-fct-bci:New_York
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Newcastle
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+fibo-fbc-fct-bci:Nicosia
+	time:timeZone	<http://dbpedia.org/resource/Asia/Nicosia> .
+
+fibo-fbc-fct-bci:North_Bergen
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Novosibirsk
+	time:timeZone	<http://dbpedia.org/resource/Asia/Novosibirsk> .
+
+fibo-fbc-fct-bci:Nyon
+	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
+
+fibo-fbc-fct-bci:Odessa
+	time:timeZone	<http://dbpedia.org/resource/Europe/Kiev> .
+
+fibo-fbc-fct-bci:Oldenburg
+	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
+
+fibo-fbc-fct-bci:Osaka
+	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
+
+fibo-fbc-fct-bci:Oslo
+	time:timeZone	<http://dbpedia.org/resource/Europe/Oslo> .
+
+fibo-fbc-fct-bci:Oststeinbek
+	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
+
+fibo-fbc-fct-bci:Ottawa
+	time:timeZone	<http://dbpedia.org/resource/America/Toronto> .
+
+fibo-fbc-fct-bci:Padova
+	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
+
+fibo-fbc-fct-bci:PalmaDeMallorca
+	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
+
+fibo-fbc-fct-bci:Panama_City
+	time:timeZone	<http://dbpedia.org/resource/America/Panama> .
+
+fibo-fbc-fct-bci:Paris
+	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
+
+fibo-fbc-fct-bci:Pasig_City
+	time:timeZone	<http://dbpedia.org/resource/Asia/Manila> .
+
+fibo-fbc-fct-bci:Perth
+	time:timeZone	<http://dbpedia.org/resource/Australia/Perth> .
+
+fibo-fbc-fct-bci:Pfaffikon_SZ
+	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
+
+fibo-fbc-fct-bci:Philadelphia
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Phnom_Penh
+	time:timeZone	<http://dbpedia.org/resource/Asia/Phnom_Penh> .
+
+fibo-fbc-fct-bci:Podgorica
+	time:timeZone	<http://dbpedia.org/resource/Europe/Podgorica> .
+
+fibo-fbc-fct-bci:Port_Louis
+	time:timeZone	<http://dbpedia.org/resource/Indian/Mauritius> .
+
+fibo-fbc-fct-bci:Port_Moresby
+	time:timeZone	<http://dbpedia.org/resource/Pacific/Port_Moresby> .
+
+fibo-fbc-fct-bci:Port_Vila
+	time:timeZone	<http://dbpedia.org/resource/Pacific/Efate> .
+
+fibo-fbc-fct-bci:Port_of_Spain
+	time:timeZone	<http://dbpedia.org/resource/America/Port_of_Spain> .
+
+fibo-fbc-fct-bci:Portland
+	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
+
+fibo-fbc-fct-bci:Porto
+	time:timeZone	<http://dbpedia.org/resource/Europe/Lisbon> .
+
+fibo-fbc-fct-bci:Prague
+	time:timeZone	<http://dbpedia.org/resource/Europe/Prague> .
+
+fibo-fbc-fct-bci:Praia
+	time:timeZone	<http://dbpedia.org/resource/Atlantic/Cape_Verde> .
+
+fibo-fbc-fct-bci:Princeton
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Purchase
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Quito
+	time:timeZone	<http://dbpedia.org/resource/America/Guayaquil> .
+
+fibo-fbc-fct-bci:Rabat
+	time:timeZone	<http://dbpedia.org/resource/Africa/Casablanca> .
+
+fibo-fbc-fct-bci:Randers
+	time:timeZone	<http://dbpedia.org/resource/Europe/Copenhagen> .
+
+fibo-fbc-fct-bci:Red_Bank
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Regensburg
+	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
+
+fibo-fbc-fct-bci:Reggio_Emilia
+	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
+
+fibo-fbc-fct-bci:Reykjavik
+	time:timeZone	<http://dbpedia.org/resource/Atlantic/Reykjavik> .
+
+fibo-fbc-fct-bci:Riga
+	time:timeZone	<http://dbpedia.org/resource/Europe/Riga> .
+
+fibo-fbc-fct-bci:Rio_de_Janeiro
+	time:timeZone	<http://dbpedia.org/resource/America/Sao_Paulo> .
+
+fibo-fbc-fct-bci:Riyadh
+	time:timeZone	<http://dbpedia.org/resource/Asia/Riyadh> .
+
+fibo-fbc-fct-bci:Road_Town
+	time:timeZone	<http://dbpedia.org/resource/America/Tortola> .
+
+fibo-fbc-fct-bci:Rodgau
+	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
+
+fibo-fbc-fct-bci:Rome
+	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
+
+fibo-fbc-fct-bci:Rosario
+	time:timeZone	<http://dbpedia.org/resource/America/Argentina/Cordoba> .
+
+fibo-fbc-fct-bci:Rotterdam
+	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
+
+fibo-fbc-fct-bci:Sabadell
+	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
+
+fibo-fbc-fct-bci:Sacramento
+	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
+
+fibo-fbc-fct-bci:Saint-Petersburg
+	time:timeZone	<http://dbpedia.org/resource/Europe/Moscow> .
+
+fibo-fbc-fct-bci:Saint_Peter_Port
+	time:timeZone	<http://dbpedia.org/resource/Europe/Guernsey> .
+
+fibo-fbc-fct-bci:Salzburg
+	time:timeZone	<http://dbpedia.org/resource/Europe/Vienna> .
+
+fibo-fbc-fct-bci:Samara
+	time:timeZone	<http://dbpedia.org/resource/Europe/Samara> .
+
+fibo-fbc-fct-bci:San_Carlos
+	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
+
+fibo-fbc-fct-bci:San_Francisco
+	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
+
+fibo-fbc-fct-bci:San_Jose
+	time:timeZone	<http://dbpedia.org/resource/America/Costa_Rica> .
+
+fibo-fbc-fct-bci:San_Juan
+	time:timeZone	<http://dbpedia.org/resource/America/Puerto_Rico> .
+
+fibo-fbc-fct-bci:San_Salvador
+	time:timeZone	<http://dbpedia.org/resource/America/El_Salvador> .
+
+fibo-fbc-fct-bci:San_Sebastian
+	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
+
+fibo-fbc-fct-bci:Santa_Fe
+	time:timeZone	<http://dbpedia.org/resource/America/Argentina/Cordoba> .
+
+fibo-fbc-fct-bci:Santander
+	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
+
+fibo-fbc-fct-bci:Santiago
+	time:timeZone	<http://dbpedia.org/resource/America/Santiago> .
+
+fibo-fbc-fct-bci:Santo_Domingo
+	time:timeZone	<http://dbpedia.org/resource/America/Santo_Domingo> .
+
+fibo-fbc-fct-bci:Sao_Paulo
+	time:timeZone	<http://dbpedia.org/resource/America/Sao_Paulo> .
+
+fibo-fbc-fct-bci:Sapporo
+	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
+
+fibo-fbc-fct-bci:Sarajevo
+	time:timeZone	<http://dbpedia.org/resource/Europe/Sarajevo> .
+
+fibo-fbc-fct-bci:SeaGirt
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Seattle
+	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
+
+fibo-fbc-fct-bci:Seoul
+	time:timeZone	<http://dbpedia.org/resource/Asia/Seoul> .
+
+fibo-fbc-fct-bci:Shanghai
+	time:timeZone	<http://dbpedia.org/resource/Asia/Shanghai> .
+
+fibo-fbc-fct-bci:Shenzhen
+	time:timeZone	<http://dbpedia.org/resource/Asia/Shanghai> .
+
+fibo-fbc-fct-bci:Silkeborg
+	time:timeZone	<http://dbpedia.org/resource/Europe/Copenhagen> .
+
+fibo-fbc-fct-bci:Singapore
+	time:timeZone	<http://dbpedia.org/resource/Asia/Singapore> .
+
+fibo-fbc-fct-bci:Skopje
+	time:timeZone	<http://dbpedia.org/resource/Europe/Skopje> .
+
+fibo-fbc-fct-bci:Sliema
+	time:timeZone	<http://dbpedia.org/resource/Europe/Malta> .
+
+fibo-fbc-fct-bci:Sofia
+	time:timeZone	<http://dbpedia.org/resource/Europe/Sofia> .
+
+fibo-fbc-fct-bci:Split
+	time:timeZone	<http://dbpedia.org/resource/Europe/Zagreb> .
+
+fibo-fbc-fct-bci:StAlbans
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+fibo-fbc-fct-bci:St_Helier
+	time:timeZone	<http://dbpedia.org/resource/Europe/Jersey> .
+
+fibo-fbc-fct-bci:Stamford
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Stockholm
+	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
+
+fibo-fbc-fct-bci:Stuttgart
+	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
+
+fibo-fbc-fct-bci:Summit
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Suva
+	time:timeZone	<http://dbpedia.org/resource/Pacific/Fiji> .
+
+fibo-fbc-fct-bci:Sydney
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+fibo-fbc-fct-bci:Taipei
+	time:timeZone	<http://dbpedia.org/resource/Asia/Taipei> .
+
+fibo-fbc-fct-bci:Tallinn
+	time:timeZone	<http://dbpedia.org/resource/Europe/Tallinn> .
+
+fibo-fbc-fct-bci:Tashkent
+	time:timeZone	<http://dbpedia.org/resource/Asia/Tashkent> .
+
+fibo-fbc-fct-bci:Tbilisi
+	time:timeZone	<http://dbpedia.org/resource/Asia/Tbilisi> .
+
+fibo-fbc-fct-bci:Tegucigalpa
+	time:timeZone	<http://dbpedia.org/resource/America/Tegucigalpa> .
+
+fibo-fbc-fct-bci:Tehran
+	time:timeZone	<http://dbpedia.org/resource/Asia/Tehran> .
+
+fibo-fbc-fct-bci:Tel_Aviv
+	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
+
+fibo-fbc-fct-bci:TheWoodlands
+	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
+
+fibo-fbc-fct-bci:The_Hague
+	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
+
+fibo-fbc-fct-bci:Tirana
+	time:timeZone	<http://dbpedia.org/resource/Europe/Tirane> .
+
+fibo-fbc-fct-bci:Tokyo
+	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
+
+fibo-fbc-fct-bci:Toronto
+	time:timeZone	<http://dbpedia.org/resource/America/Toronto> .
+
+fibo-fbc-fct-bci:Torshavn
+	time:timeZone	<http://dbpedia.org/resource/Atlantic/Faroe> .
+
+fibo-fbc-fct-bci:Triesen
+	time:timeZone	<http://dbpedia.org/resource/Europe/Vaduz> .
+
+fibo-fbc-fct-bci:Tripoli
+	time:timeZone	<http://dbpedia.org/resource/Africa/Tripoli> .
+
+fibo-fbc-fct-bci:Tromso
+	time:timeZone	<http://dbpedia.org/resource/Europe/Oslo> .
+
+fibo-fbc-fct-bci:Trondheim
+	time:timeZone	<http://dbpedia.org/resource/Europe/Oslo> .
+
+fibo-fbc-fct-bci:Tucuman
+	time:timeZone	<http://dbpedia.org/resource/America/Argentina/Tucuman> .
+
+fibo-fbc-fct-bci:Tunis
+	time:timeZone	<http://dbpedia.org/resource/Africa/Tunis> .
+
+fibo-fbc-fct-bci:Turin
+	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
+
+fibo-fbc-fct-bci:Ulaanbaatar
+	time:timeZone	<http://dbpedia.org/resource/Asia/Ulaanbaatar> .
+
+fibo-fbc-fct-bci:Unterschleisshem
+	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
+
+fibo-fbc-fct-bci:Utrecht
+	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
+
+fibo-fbc-fct-bci:Vaduz
+	time:timeZone	<http://dbpedia.org/resource/Europe/Vaduz> .
+
+fibo-fbc-fct-bci:Valencia
+	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
+
+fibo-fbc-fct-bci:Valletta
+	time:timeZone	<http://dbpedia.org/resource/Europe/Malta> .
+
+fibo-fbc-fct-bci:Valparaiso
+	time:timeZone	<http://dbpedia.org/resource/America/Santiago> .
+
+fibo-fbc-fct-bci:Vancouver
+	time:timeZone	<http://dbpedia.org/resource/America/Vancouver> .
+
+fibo-fbc-fct-bci:Victoria
+	time:timeZone	<http://dbpedia.org/resource/Indian/Mahe> .
+
+fibo-fbc-fct-bci:Vienna
+	time:timeZone	<http://dbpedia.org/resource/Europe/Vienna> .
+
+fibo-fbc-fct-bci:Vientiane
+	time:timeZone	<http://dbpedia.org/resource/Asia/Vientiane> .
+
+fibo-fbc-fct-bci:Vilnius
+	time:timeZone	<http://dbpedia.org/resource/Europe/Vilnius> .
+
+fibo-fbc-fct-bci:Vitoria
+	time:timeZone	<http://dbpedia.org/resource/America/Sao_Paulo> .
+
+fibo-fbc-fct-bci:Warsaw
+	time:timeZone	<http://dbpedia.org/resource/Europe/Warsaw> .
+
+fibo-fbc-fct-bci:Washington
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Wellington
+	time:timeZone	<http://dbpedia.org/resource/Pacific/Auckland> .
+
+fibo-fbc-fct-bci:Wichita
+	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
+
+fibo-fbc-fct-bci:Willemstad
+	time:timeZone	<http://dbpedia.org/resource/America/Curacao> .
+
+fibo-fbc-fct-bci:Wilmington
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+fibo-fbc-fct-bci:Windhoek
+	time:timeZone	<http://dbpedia.org/resource/Africa/Windhoek> .
+
+fibo-fbc-fct-bci:Winnipeg
+	time:timeZone	<http://dbpedia.org/resource/America/Winnipeg> .
+
+fibo-fbc-fct-bci:Wroclaw
+	time:timeZone	<http://dbpedia.org/resource/Europe/Warsaw> .
+
+fibo-fbc-fct-bci:Wuxi
+	time:timeZone	<http://dbpedia.org/resource/Asia/Shanghai> .
+
+fibo-fbc-fct-bci:Yaounde
+	time:timeZone	<http://dbpedia.org/resource/Africa/Douala> .
+
+fibo-fbc-fct-bci:Yerevan
+	time:timeZone	<http://dbpedia.org/resource/Asia/Yerevan> .
+
+fibo-fbc-fct-bci:Zagreb
+	time:timeZone	<http://dbpedia.org/resource/Europe/Zagreb> .
+
+fibo-fbc-fct-bci:Zaragoza
+	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
+
+fibo-fbc-fct-bci:Zhengzhou
+	time:timeZone	<http://dbpedia.org/resource/Asia/Shanghai> .
+
+fibo-fbc-fct-bci:Zilina
+	time:timeZone	<http://dbpedia.org/resource/Europe/Bratislava> .
+
+fibo-fbc-fct-bci:Zurich
+	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .

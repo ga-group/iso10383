@@ -39,7 +39,7 @@ MarketsIndividuals.ttl: download/ISO10383_MIC_latest.xlsx MarketsIndividuals-aux
 	>> $@.t && mv $@.t $@
 	$(MAKE) $@.canon
 
-BusinessCentersIndividuals.ttl: download/business-center-latest.xml BusinessCentersIndividuals-aux.ttl BusinessCentersIndividuals-align.ttl
+BusinessCentersIndividuals.ttl: download/business-center-latest.xml BusinessCentersIndividuals-aux.ttl BusinessCentersIndividuals-align.ttl BusinessCentersIndividuals-tz.ttl
 	ttl2ttl --sortable $(filter %.ttl, $^) \
 	> $@.t
 	-cat $@ >> $@.t
