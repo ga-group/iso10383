@@ -4817,7 +4817,7 @@ fibo-fbc-fct-bci:Yaounde
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Yaounde" ;
-	lcc-cr:isPartOf	cc:CF ;
+	lcc-cr:isPartOf	cc:CM ;
 	rdfs:label	"Yaounde" ;
 	skos:closeMatch	<http://sws.geonames.org/2220957/> .
 
