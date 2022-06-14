@@ -75,6 +75,10 @@ fibo-fbc-fct-bci:Antiguo_Cuscatlan
 	skos:closeMatch	<http://dbpedia.org/resource/Antiguo_Cuscatl%C3%A1n> ;
 	skos:closeMatch	<http://sws.geonames.org/3587362/> .
 
+fibo-fbc-fct-bci:Antwerp
+	skos:closeMatch	<http://dbpedia.org/resource/Antwerp> ;
+	skos:closeMatch	<http://sws.geonames.org/2803138/> .
+
 fibo-fbc-fct-bci:Astana
 	skos:closeMatch	<http://dbpedia.org/resource/Nur-Sultan> ;
 	skos:closeMatch	<http://sws.geonames.org/1526273/> , wd:Q1520 .
@@ -221,6 +225,10 @@ fibo-fbc-fct-bci:Bratislava
 	skos:closeMatch	<http://dbpedia.org/resource/Bratislava> ;
 	skos:closeMatch	<http://sws.geonames.org/3060972/> .
 
+fibo-fbc-fct-bci:Bremen
+	skos:closeMatch	<http://sws.geonames.org/2944388/> ;
+	skos:closeMatch	wd:Q24879 .
+
 fibo-fbc-fct-bci:Bridgetown
 	skos:closeMatch	<http://dbpedia.org/resource/Bridgetown> ;
 	skos:closeMatch	<http://sws.geonames.org/3374036/> .
@@ -240,6 +248,10 @@ fibo-fbc-fct-bci:BryanstonSandton
 fibo-fbc-fct-bci:Bucharest
 	skos:closeMatch	<http://dbpedia.org/resource/Bucharest> ;
 	skos:closeMatch	<http://sws.geonames.org/683506/> .
+
+fibo-fbc-fct-bci:Budaors
+	skos:closeMatch	<http://dbpedia.org/resource/Buda%C3%B6rs> ;
+	skos:closeMatch	<http://sws.geonames.org/3054646/> , wd:Q755691 .
 
 fibo-fbc-fct-bci:Budapest
 	skos:closeMatch	<http://dbpedia.org/resource/Budapest> ;
@@ -324,6 +336,10 @@ fibo-fbc-fct-bci:Cordoba
 fibo-fbc-fct-bci:Corrientes
 	skos:closeMatch	<http://dbpedia.org/resource/Corrientes> ;
 	skos:closeMatch	<http://sws.geonames.org/3435217/> .
+
+fibo-fbc-fct-bci:Curitiba
+	skos:closeMatch	<http://dbpedia.org/resource/Curitiba> ;
+	skos:closeMatch	<http://sws.geonames.org/3464975/> , wd:Q4361 .
 
 fibo-fbc-fct-bci:Dakar
 	skos:closeMatch	<http://dbpedia.org/resource/Dakar> ;
@@ -528,6 +544,10 @@ fibo-fbc-fct-bci:Helsinki
 	skos:closeMatch	<http://dbpedia.org/resource/Helsinki> ;
 	skos:closeMatch	<http://sws.geonames.org/658225/> .
 
+fibo-fbc-fct-bci:Hiroshima
+	skos:closeMatch	<http://dbpedia.org/resource/Hiroshima> ;
+	skos:closeMatch	<http://sws.geonames.org/1862415/> , wd:Q34664 .
+
 fibo-fbc-fct-bci:Ho_Chi_Minh_City
 	skos:closeMatch	<http://dbpedia.org/resource/Ho_Chi_Minh_City> ;
 	skos:closeMatch	<http://sws.geonames.org/1566083/> .
@@ -560,9 +580,21 @@ fibo-fbc-fct-bci:Indore_Madhya_Pradesh
 	skos:closeMatch	<http://dbpedia.org/resource/Indore> ;
 	skos:closeMatch	<http://sws.geonames.org/1269743/> .
 
+fibo-fbc-fct-bci:Islamabad
+	skos:closeMatch	<http://dbpedia.org/resource/Islamabad> ;
+	skos:closeMatch	<http://sws.geonames.org/1176615/> , wd:Q1362 .
+
 fibo-fbc-fct-bci:Istanbul
 	skos:closeMatch	<http://dbpedia.org/resource/Istanbul> ;
 	skos:closeMatch	<http://sws.geonames.org/745044/> .
+
+fibo-fbc-fct-bci:Izmir
+	skos:closeMatch	<http://dbpedia.org/resource/Smyrna> ;
+	skos:closeMatch	<http://sws.geonames.org/311046/> , wd:Q35997 .
+
+fibo-fbc-fct-bci:Jaen
+	skos:closeMatch	<http://dbpedia.org/resource/Ja%C3%A9n%2C_Spain> ;
+	skos:closeMatch	<http://sws.geonames.org/2516395/> , wd:Q15681 .
 
 fibo-fbc-fct-bci:Jakarta
 	skos:closeMatch	<http://dbpedia.org/resource/Jakarta> ;
@@ -628,6 +660,10 @@ fibo-fbc-fct-bci:Klagenfurt_am_Woerthersee
 	skos:closeMatch	<http://dbpedia.org/resource/Klagenfurt> ;
 	skos:closeMatch	<http://sws.geonames.org/2774326/> .
 
+fibo-fbc-fct-bci:Kobe
+	skos:closeMatch	<http://dbpedia.org/resource/Kobe> ;
+	skos:closeMatch	<http://sws.geonames.org/1859171/> , wd:Q48320 .
+
 fibo-fbc-fct-bci:Kolkata
 	skos:closeMatch	<http://dbpedia.org/resource/Kolkata> ;
 	skos:closeMatch	<http://sws.geonames.org/1275004/> , wd:Q52162031 .
@@ -648,6 +684,10 @@ fibo-fbc-fct-bci:Kyiv
 	skos:closeMatch	<http://dbpedia.org/resource/Kyiv> ;
 	skos:closeMatch	<http://sws.geonames.org/703448/> , wd:Q1899 .
 
+fibo-fbc-fct-bci:Kyoto
+	skos:closeMatch	<http://dbpedia.org/resource/Kyoto> ;
+	skos:closeMatch	<http://sws.geonames.org/1857910/> , wd:Q34600 .
+
 fibo-fbc-fct-bci:La_Paz
 	skos:closeMatch	<http://dbpedia.org/resource/La_Paz> ;
 	skos:closeMatch	<http://sws.geonames.org/3911925/> .
@@ -659,6 +699,10 @@ fibo-fbc-fct-bci:Labuan
 fibo-fbc-fct-bci:Lagos
 	skos:closeMatch	<http://dbpedia.org/resource/Lagos> ;
 	skos:closeMatch	<http://sws.geonames.org/2332459/> , wd:Q8673 .
+
+fibo-fbc-fct-bci:Lahore
+	skos:closeMatch	<http://dbpedia.org/resource/Lahore> ;
+	skos:closeMatch	<http://sws.geonames.org/1172451/> , wd:Q11739 .
 
 fibo-fbc-fct-bci:Lane_Cove
 	skos:closeMatch	<http://dbpedia.org/resource/Lane_Cove%2C_New_South_Wales> ;
@@ -675,6 +719,14 @@ fibo-fbc-fct-bci:Larnaca
 fibo-fbc-fct-bci:Leipzig
 	skos:closeMatch	<http://dbpedia.org/resource/Leipzig> ;
 	skos:closeMatch	<http://sws.geonames.org/2879139/> .
+
+fibo-fbc-fct-bci:Lenexa
+	skos:closeMatch	<http://dbpedia.org/resource/Lenexa%2C_Kansas> ;
+	skos:closeMatch	<http://sws.geonames.org/4274356/> , wd:Q992536 .
+
+fibo-fbc-fct-bci:Leuven
+	skos:closeMatch	<http://dbpedia.org/resource/Leuven> ;
+	skos:closeMatch	<http://sws.geonames.org/2792482/> , wd:Q21765562 .
 
 fibo-fbc-fct-bci:Lilongwe
 	skos:closeMatch	<http://dbpedia.org/resource/Lilongwe> ;
@@ -887,6 +939,14 @@ fibo-fbc-fct-bci:Nicosia
 	skos:closeMatch	<http://dbpedia.org/resource/Nicosia> ;
 	skos:closeMatch	<http://sws.geonames.org/146268/> .
 
+fibo-fbc-fct-bci:Niigata
+	skos:closeMatch	<http://dbpedia.org/resource/Niigata_%28city%29> ;
+	skos:closeMatch	<http://sws.geonames.org/1855431/> , wd:Q179691 .
+
+fibo-fbc-fct-bci:Nizhny_Novgorod
+	skos:closeMatch	<http://dbpedia.org/resource/Nizhny_Novgorod> ;
+	skos:closeMatch	<http://sws.geonames.org/520555/> , wd:Q891 .
+
 fibo-fbc-fct-bci:North_Bergen
 	skos:closeMatch	<http://dbpedia.org/resource/North_Bergen%2C_New_Jersey> ;
 	skos:closeMatch	<http://sws.geonames.org/5101879/> .
@@ -957,6 +1017,10 @@ fibo-fbc-fct-bci:Philadelphia
 fibo-fbc-fct-bci:Phnom_Penh
 	skos:closeMatch	<http://dbpedia.org/resource/Phnom_Penh> ;
 	skos:closeMatch	<http://sws.geonames.org/1821306/> .
+
+fibo-fbc-fct-bci:Phoenix
+	skos:closeMatch	<http://dbpedia.org/resource/Phoenix%2C_Arizona> ;
+	skos:closeMatch	<http://sws.geonames.org/5308655/> , wd:Q16556 .
 
 fibo-fbc-fct-bci:Podgorica
 	skos:closeMatch	<http://dbpedia.org/resource/Podgorica> ;
@@ -1056,6 +1120,10 @@ fibo-fbc-fct-bci:Rosario
 	skos:closeMatch	<http://dbpedia.org/resource/Rosario%2C_Santa_Fe> ;
 	skos:closeMatch	<http://sws.geonames.org/3838583/> .
 
+fibo-fbc-fct-bci:Rostov-on-Don
+	skos:closeMatch	<http://dbpedia.org/resource/Rostov-on-Don> ;
+	skos:closeMatch	<http://sws.geonames.org/501175/> , wd:Q908 .
+
 fibo-fbc-fct-bci:Rotterdam
 	skos:closeMatch	<http://dbpedia.org/resource/Rotterdam> ;
 	skos:closeMatch	<http://sws.geonames.org/2747891/> , wd:Q34370 .
@@ -1100,6 +1168,10 @@ fibo-fbc-fct-bci:San_Juan
 	skos:closeMatch	<http://dbpedia.org/resource/San_Juan%2C_Puerto_Rico> ;
 	skos:closeMatch	<http://sws.geonames.org/4568127/> .
 
+fibo-fbc-fct-bci:San_Pedro_Sula
+	skos:closeMatch	<http://dbpedia.org/resource/San_Pedro_Sula> ;
+	skos:closeMatch	<http://sws.geonames.org/3601782/> , wd:Q274584 .
+
 fibo-fbc-fct-bci:San_Salvador
 	skos:closeMatch	<http://dbpedia.org/resource/San_Salvador> ;
 	skos:closeMatch	<http://sws.geonames.org/3583361/> .
@@ -1135,6 +1207,9 @@ fibo-fbc-fct-bci:Sarajevo
 	skos:closeMatch	<http://dbpedia.org/resource/Sarajevo> ;
 	skos:closeMatch	<http://sws.geonames.org/3191281/> .
 
+fibo-fbc-fct-bci:Schwerin
+	skos:closeMatch	<http://sws.geonames.org/2834282/> .
+
 fibo-fbc-fct-bci:SeaGirt
 	skos:closeMatch	<http://dbpedia.org/resource/Sea_Girt%2C_New_Jersey> ;
 	skos:closeMatch	<http://sws.geonames.org/5104495/> .
@@ -1154,6 +1229,14 @@ fibo-fbc-fct-bci:Shanghai
 fibo-fbc-fct-bci:Shenzhen
 	skos:closeMatch	<http://dbpedia.org/resource/Shenzhen> ;
 	skos:closeMatch	<http://sws.geonames.org/1795565/> .
+
+fibo-fbc-fct-bci:Shimonoseki
+	skos:closeMatch	<http://dbpedia.org/resource/Shimonoseki> ;
+	skos:closeMatch	<http://sws.geonames.org/1852225/> , wd:Q203308 .
+
+fibo-fbc-fct-bci:Sibiu
+	skos:closeMatch	<http://dbpedia.org/resource/Szeben_County> ;
+	skos:closeMatch	<http://sws.geonames.org/667268/> , wd:Q16898517 .
 
 fibo-fbc-fct-bci:Silkeborg
 	skos:closeMatch	<http://dbpedia.org/resource/Silkeborg> ;
@@ -1187,6 +1270,10 @@ fibo-fbc-fct-bci:St_Helier
 	skos:closeMatch	<http://dbpedia.org/resource/Saint_Helier> ;
 	skos:closeMatch	<http://sws.geonames.org/3042091/> .
 
+fibo-fbc-fct-bci:St_Johns
+	skos:closeMatch	<http://dbpedia.org/resource/St._John%27s%2C_Antigua_and_Barbuda> ;
+	skos:closeMatch	<http://sws.geonames.org/3576022/> , wd:Q36262 .
+
 fibo-fbc-fct-bci:Stamford
 	skos:closeMatch	<http://dbpedia.org/resource/Stamford%2C_Connecticut> ;
 	skos:closeMatch	<http://sws.geonames.org/4843564/> .
@@ -1202,6 +1289,10 @@ fibo-fbc-fct-bci:Stuttgart
 fibo-fbc-fct-bci:Summit
 	skos:closeMatch	<http://dbpedia.org/resource/Summit%2C_New_Jersey> ;
 	skos:closeMatch	<http://sws.geonames.org/5105127/> , wd:Q1000642 .
+
+fibo-fbc-fct-bci:Surabaya
+	skos:closeMatch	<http://dbpedia.org/resource/Surabaya> ;
+	skos:closeMatch	<http://sws.geonames.org/1625822/> , wd:Q11462 .
 
 fibo-fbc-fct-bci:Suva
 	skos:closeMatch	<http://dbpedia.org/resource/Suva> ;
@@ -1323,9 +1414,17 @@ fibo-fbc-fct-bci:Vancouver
 	skos:closeMatch	<http://dbpedia.org/resource/Vancouver> ;
 	skos:closeMatch	<http://sws.geonames.org/6173331/> .
 
+fibo-fbc-fct-bci:Varazdin
+	skos:closeMatch	<http://dbpedia.org/resource/Vara%C5%BEdin_County_%28former%29> ;
+	skos:closeMatch	<http://sws.geonames.org/3188383/> , wd:Q5420 .
+
 fibo-fbc-fct-bci:Victoria
 	skos:closeMatch	<http://dbpedia.org/resource/Victoria%2C_Seychelles> ;
 	skos:closeMatch	<http://sws.geonames.org/241131/> , wd:Q3940 .
+
+fibo-fbc-fct-bci:Victoria_Falls
+	skos:closeMatch	<http://dbpedia.org/resource/Victoria_Falls%2C_Zimbabwe> ;
+	skos:closeMatch	<http://sws.geonames.org/879431/> , wd:Q1393804 .
 
 fibo-fbc-fct-bci:Vienna
 	skos:closeMatch	<http://dbpedia.org/resource/Vienna> ;
@@ -1342,6 +1441,10 @@ fibo-fbc-fct-bci:Vilnius
 fibo-fbc-fct-bci:Vitoria
 	skos:closeMatch	<http://dbpedia.org/resource/Vitoria> ;
 	skos:closeMatch	<http://sws.geonames.org/3444924/> .
+
+fibo-fbc-fct-bci:Vladivostok
+	skos:closeMatch	<http://dbpedia.org/resource/Vladivostok> ;
+	skos:closeMatch	<http://sws.geonames.org/2013348/> , wd:Q959 .
 
 fibo-fbc-fct-bci:Warsaw
 	skos:closeMatch	<http://dbpedia.org/resource/Warsaw> ;
@@ -1386,6 +1489,10 @@ fibo-fbc-fct-bci:Wuxi
 fibo-fbc-fct-bci:Yaounde
 	skos:closeMatch	<http://dbpedia.org/resource/Yaound%C3%A9> ;
 	skos:closeMatch	<http://sws.geonames.org/2220957/> .
+
+fibo-fbc-fct-bci:Yekaterinburg
+	skos:closeMatch	<http://dbpedia.org/resource/Yekaterinburg> ;
+	skos:closeMatch	<http://sws.geonames.org/1486209/> , wd:Q887 .
 
 fibo-fbc-fct-bci:Yerevan
 	skos:closeMatch	<http://dbpedia.org/resource/Yerevan> ;

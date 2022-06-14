@@ -17180,7 +17180,7 @@ fibo-fbc-fct-mkti:Exchange-NNCS
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"NCSE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"REGIONAL EXCHANGE CENTRE - MICEX VOLGA REGION" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:RU ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Nizhniy_Novgorod ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Nizhny_Novgorod ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.micex-pfo.ru"^^xsd:anyURI ;
 	rdfs:label	"REGIONAL EXCHANGE CENTRE - MICEX VOLGA REGION" ;
 	skos:note	"NNCS ORGANIZES THE TRADING (AND REPORTING) ON THE COMMODITY SESSION WHERE TRADES ARE EXECUTED SEPARATELY FROM THE MOSCOW OFFICE." ;
@@ -18205,7 +18205,7 @@ fibo-fbc-fct-mkti:Exchange-PDQD
 	a	owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CODA MARKETS ATS DARK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:US ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Illinois ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Glenview ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-PDQX ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.pdqenterprises.com"^^xsd:anyURI ;
 	rdfs:label	"CODA MARKETS ATS DARK" ;
@@ -21612,7 +21612,7 @@ fibo-fbc-fct-mkti:Exchange-TERA
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TERAEXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:US ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:New_Jersey ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Summit ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.teraexchange.com"^^xsd:anyURI ;
 	rdfs:label	"TERAEXCHANGE" ;
 	skos:closeMatch	wd:Q93357265 ;
@@ -23916,7 +23916,7 @@ fibo-fbc-fct-mkti:Exchange-URCE
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"REGIONAL EXCHANGE CENTRE - MICEX URAL" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:RU ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Ekaterinburg ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Yekaterinburg ;
 	rdfs:label	"REGIONAL EXCHANGE CENTRE - MICEX URAL" ;
 	skos:note	"THE MICEX REGIONAL EXCHANGE CENTRES ONLY INITIATE TRADE BUSINESS, I.E. THERE IS NO TRADE THERE." ;
 	tempo:validFrom	"2003-04-01"^^xsd:date ;
@@ -24974,7 +24974,7 @@ fibo-fbc-fct-mkti:Exchange-XALB
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ALBERTA STOCK EXCHANGE, THE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:CA ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Alberta ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Calgary ;
 	rdfs:label	"ALBERTA STOCK EXCHANGE, THE" ;
 	tempo:validFrom	"2003-04-01"^^xsd:date ;
 	tempo:validTill	"2003-04-28"^^xsd:date .
@@ -25042,7 +25042,7 @@ fibo-fbc-fct-mkti:Exchange-XANT
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BEURS VAN ANTWERPEN (ANTWERP STOCK EXCHANGE)" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:BE ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Antwerpen ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Antwerp ;
 	rdfs:label	"BEURS VAN ANTWERPEN (ANTWERP STOCK EXCHANGE)" ;
 	tempo:validFrom	"2003-04-01"^^xsd:date ;
 	tempo:validTill	"2003-04-28"^^xsd:date .
@@ -27381,7 +27381,7 @@ fibo-fbc-fct-mkti:Exchange-XFTX
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"FTX" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:AG ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:St_John ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:St_Johns ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.ftx.com"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-894500686R5LFMX57208-LEI ;
 	rdfs:label	"FTX" ;
@@ -27577,7 +27577,7 @@ fibo-fbc-fct-mkti:Exchange-XGTG
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BOLSA DE VALORES NACIONAL SA" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:GT ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Guatemala ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Guatemala_City ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.bvnsa.com.gt"^^xsd:anyURI ;
 	rdfs:label	"BOLSA DE VALORES NACIONAL SA" ;
 	skos:closeMatch	wd:Q5672209 ;
@@ -29516,7 +29516,7 @@ fibo-fbc-fct-mkti:Exchange-XNII
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"NIIGATA STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:JP ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Nigita ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Niigata ;
 	rdfs:label	"NIIGATA STOCK EXCHANGE" ;
 	tempo:validFrom	"2003-04-01"^^xsd:date ;
 	tempo:validTill	"2003-04-28"^^xsd:date .
@@ -30643,7 +30643,7 @@ fibo-fbc-fct-mkti:Exchange-XROV
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"REGIONAL EXCHANGE CENTRE - MICEX SOUTH" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:RU ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Rostov ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Rostov-on-Don ;
 	rdfs:label	"REGIONAL EXCHANGE CENTRE - MICEX SOUTH" ;
 	skos:note	"XROV ONLY ORGANIZES THE ACCESS TO THE MOSCOW TRADING SYSTEM AND SIGNS AGREEMENTS FOR THIS ACCESS WITH REGIONAL PARTICIPANTS OF THE MOSCOW TRADING SYSTEM. XROV IS NOT A PLATFORM WHERE TRADES ARE EXECUTED SEPARATELY FROM THE MOSCOW OFFICE." ;
 	tempo:validFrom	"2003-04-01"^^xsd:date ;
@@ -31621,7 +31621,7 @@ fibo-fbc-fct-mkti:Exchange-XTKA
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TOYOHASHI KANKEN TORIHIKIJO (DRIED COCOON EXCHANGE) - CHUBU COMMODITY EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:JP ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Aichi ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Nagoya ;
 	rdfs:label	"TOYOHASHI KANKEN TORIHIKIJO (DRIED COCOON EXCHANGE) - CHUBU COMMODITY EXCHANGE" ;
 	tempo:validFrom	"2003-04-01"^^xsd:date ;
 	tempo:validTill	"2004-08-23"^^xsd:date .
