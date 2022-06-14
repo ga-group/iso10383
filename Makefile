@@ -1,5 +1,5 @@
 sparql := /home/freundt/usr/apache-jena/bin/sparql
-stardog := STARDOG_CLIENT_JAVA_ARGS='-Dstardog.default.cli.server=http://plutos:5820' /home/freundt/usr/stardog/bin/stardog
+stardog := STARDOG_JAVA_ARGS='-Dstardog.default.cli.server=http://plutos:5820' /home/freundt/usr/stardog/bin/stardog
 
 all:
 
@@ -53,5 +53,8 @@ BusinessCentersIndividuals.ttl: download/business-center-latest.xml BusinessCent
 	$(MAKE) $@.canon
 
 setup-stardog:                                                                                                                                                                                          
+	$(stardog)-admin db create -o reasoning.sameas=FULL -n iso
 	$(stardog) namespace add --prefix fibo-fbc-fct-mkt --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/ iso
 	$(stardog) namespace add --prefix fibo-fbc-fct-mkti --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/ iso
+	$(stardog) namespace add --prefix fibo-fbc-fct-bc --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/ iso
+	$(stardog) namespace add --prefix fibo-fbc-fct-bci --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/ iso
