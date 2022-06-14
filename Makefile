@@ -17,9 +17,11 @@ download/ISO10383_MIC_latest.xlsx:
 	| ttl2ttl -B \
 	> $@ && mv $@ $<
 
+check.MarketsIndividuals: ADDITIONAL = BusinessCentersIndividuals.ttl onto/fibo-fnd-plc-loc.ttl
+
 check.%: %.ttl shacl/%.shacl.ttl
 	truncate -s 0 /tmp/$@.ttl
-	$(stardog) data add --remove-all -g "http://data.ga-group.nl/iso10383/" iso $<
+	$(stardog) data add --remove-all -g "http://data.ga-group.nl/iso10383/" iso $< $(ADDITIONAL)
 	$(stardog) icv report --output-format PRETTY_TURTLE -g "http://data.ga-group.nl/iso10383/" -r -l -1 iso shacl/$*.shacl.ttl \
         >> /tmp/$@.ttl || true
 	$(MAKE) $*.rpt

@@ -6,6 +6,7 @@
 @prefix fibo-fbc-fct-mkti: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/> .
 @prefix fibo-fbc-pas-fpas: <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/> .
 @prefix fibo-fnd-arr-arr: <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/> .
+@prefix fibo-fnd-plc-loc: <https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/> .
 @prefix fibo-fnd-plc-vrt: <https://spec.edmcouncil.org/fibo/ontology/FND/Places/VirtualPlaces/> .
 @prefix fibo-fnd-utl-av: <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> .
 @prefix gleif: <https://rdf.gleif.org/L1/> .
@@ -109,6 +110,7 @@ fibo-fbc-fct-mkt:operatesInMunicipality-property a sh:PropertyShape ;
 	sh:path fibo-fbc-fct-mkt:operatesInMunicipality ;
 	sh:minCount 1 ;
 	sh:maxCount 1 ;
+	sh:class fibo-fnd-plc-loc:Municipality ;
 	.
 
 tempo:validFrom-property a sh:PropertyShape ;
