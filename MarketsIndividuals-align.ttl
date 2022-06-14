@@ -239,7 +239,7 @@ fibo-fbc-fct-mkti:Exchange-AWBX
 fibo-fbc-fct-mkti:Exchange-AWEX
 	skos:closeMatch	wd:Q93355272 .
 
-fibo-fbc-fct-mkti:Exchange-AXSI-2020-05-25
+fibo-fbc-fct-mkti:Exchange-AXSI
 	skos:closeMatch	wd:Q93358303 .
 
 fibo-fbc-fct-mkti:Exchange-BAAD
@@ -719,7 +719,7 @@ fibo-fbc-fct-mkti:Exchange-BTQE
 fibo-fbc-fct-mkti:Exchange-BTQG
 	skos:closeMatch	wd:Q107189219 .
 
-fibo-fbc-fct-mkti:Exchange-BULK-2017-04-24
+fibo-fbc-fct-mkti:Exchange-BULK
 	skos:closeMatch	wd:Q107188893 .
 
 fibo-fbc-fct-mkti:Exchange-BUYN
@@ -806,7 +806,7 @@ fibo-fbc-fct-mkti:Exchange-CBKF
 fibo-fbc-fct-mkti:Exchange-CBKG
 	skos:closeMatch	wd:Q107190233 .
 
-fibo-fbc-fct-mkti:Exchange-CBLC-2022-04-25
+fibo-fbc-fct-mkti:Exchange-CBLC
 	skos:closeMatch	wd:Q107223070 .
 
 fibo-fbc-fct-mkti:Exchange-CBNL
@@ -1103,7 +1103,7 @@ fibo-fbc-fct-mkti:Exchange-COMM
 fibo-fbc-fct-mkti:Exchange-CONC
 	skos:closeMatch	wd:Q93357900 .
 
-fibo-fbc-fct-mkti:Exchange-CORE-2022-01-24
+fibo-fbc-fct-mkti:Exchange-CORE
 	skos:closeMatch	wd:Q107227757 .
 
 fibo-fbc-fct-mkti:Exchange-COTC
@@ -1253,13 +1253,13 @@ fibo-fbc-fct-mkti:Exchange-DBAB
 fibo-fbc-fct-mkti:Exchange-DBAG
 	skos:closeMatch	wd:Q66048 .
 
-fibo-fbc-fct-mkti:Exchange-DBCR-2020-12-28
+fibo-fbc-fct-mkti:Exchange-DBCR
 	skos:closeMatch	wd:Q107223071 .
 
-fibo-fbc-fct-mkti:Exchange-DBCX-2020-12-28
+fibo-fbc-fct-mkti:Exchange-DBCX
 	skos:closeMatch	wd:Q107228027 .
 
-fibo-fbc-fct-mkti:Exchange-DBDC-2020-12-28
+fibo-fbc-fct-mkti:Exchange-DBDC
 	skos:closeMatch	wd:Q107228112 .
 
 fibo-fbc-fct-mkti:Exchange-DBES
@@ -1268,7 +1268,7 @@ fibo-fbc-fct-mkti:Exchange-DBES
 fibo-fbc-fct-mkti:Exchange-DBHK
 	skos:closeMatch	wd:Q93355417 .
 
-fibo-fbc-fct-mkti:Exchange-DBIX-2021-04-26
+fibo-fbc-fct-mkti:Exchange-DBIX
 	skos:closeMatch	wd:Q93360878 .
 
 fibo-fbc-fct-mkti:Exchange-DBLN
@@ -1283,10 +1283,10 @@ fibo-fbc-fct-mkti:Exchange-DBMO
 fibo-fbc-fct-mkti:Exchange-DBOX
 	skos:closeMatch	wd:Q93355421 .
 
-fibo-fbc-fct-mkti:Exchange-DBSE-2020-12-28
+fibo-fbc-fct-mkti:Exchange-DBSE
 	skos:closeMatch	wd:Q107227944 .
 
-fibo-fbc-fct-mkti:Exchange-DBSX-2021-10-25
+fibo-fbc-fct-mkti:Exchange-DBSX
 	skos:closeMatch	wd:Q93355424 .
 
 fibo-fbc-fct-mkti:Exchange-DCSE
@@ -1415,7 +1415,7 @@ fibo-fbc-fct-mkti:Exchange-EBSC
 fibo-fbc-fct-mkti:Exchange-EBSF
 	skos:closeMatch	wd:Q107228093 .
 
-fibo-fbc-fct-mkti:Exchange-EBSM-2021-11-22
+fibo-fbc-fct-mkti:Exchange-EBSM
 	skos:closeMatch	wd:Q107227823 .
 
 fibo-fbc-fct-mkti:Exchange-EBSN
@@ -1517,7 +1517,7 @@ fibo-fbc-fct-mkti:Exchange-ENAX
 fibo-fbc-fct-mkti:Exchange-ENCL
 	skos:closeMatch	wd:Q93357186 .
 
-fibo-fbc-fct-mkti:Exchange-ENSY-2021-10-25
+fibo-fbc-fct-mkti:Exchange-ENSY
 	skos:closeMatch	wd:Q107223063 .
 
 fibo-fbc-fct-mkti:Exchange-ENXL
@@ -2360,7 +2360,7 @@ fibo-fbc-fct-mkti:Exchange-IPXP
 fibo-fbc-fct-mkti:Exchange-IPXW
 	skos:closeMatch	wd:Q107188778 .
 
-fibo-fbc-fct-mkti:Exchange-ISBA-2021-12-27
+fibo-fbc-fct-mkti:Exchange-ISBA
 	skos:closeMatch	wd:Q93357184 .
 
 fibo-fbc-fct-mkti:Exchange-ISBV
@@ -2900,13 +2900,13 @@ fibo-fbc-fct-mkti:Exchange-MPRL
 fibo-fbc-fct-mkti:Exchange-MSAL
 	skos:closeMatch	wd:Q93356457 .
 
-fibo-fbc-fct-mkti:Exchange-MSAX-2021-10-25
+fibo-fbc-fct-mkti:Exchange-MSAX
 	skos:closeMatch	wd:Q93360783 .
 
 fibo-fbc-fct-mkti:Exchange-MSCO
 	skos:closeMatch	wd:Q93357256 .
 
-fibo-fbc-fct-mkti:Exchange-MSCX-2021-10-25
+fibo-fbc-fct-mkti:Exchange-MSCX
 	skos:closeMatch	wd:Q107227849 .
 
 fibo-fbc-fct-mkti:Exchange-MSEL
@@ -2921,7 +2921,7 @@ fibo-fbc-fct-mkti:Exchange-MSIP
 fibo-fbc-fct-mkti:Exchange-MSMS
 	skos:closeMatch	wd:Q17230560 .
 
-fibo-fbc-fct-mkti:Exchange-MSNT-2021-10-25
+fibo-fbc-fct-mkti:Exchange-MSNT
 	skos:closeMatch	wd:Q107227851 .
 
 fibo-fbc-fct-mkti:Exchange-MSPL
@@ -3035,13 +3035,13 @@ fibo-fbc-fct-mkti:Exchange-N2EX
 fibo-fbc-fct-mkti:Exchange-NABA
 	skos:closeMatch	wd:Q107188673 .
 
-fibo-fbc-fct-mkti:Exchange-NABE-2022-04-25
+fibo-fbc-fct-mkti:Exchange-NABE
 	skos:closeMatch	wd:Q93362918 .
 
 fibo-fbc-fct-mkti:Exchange-NABL
 	skos:closeMatch	wd:Q93361435 .
 
-fibo-fbc-fct-mkti:Exchange-NABU-2022-04-25
+fibo-fbc-fct-mkti:Exchange-NABU
 	skos:closeMatch	wd:Q107188836 .
 
 fibo-fbc-fct-mkti:Exchange-NAMX
@@ -3164,7 +3164,7 @@ fibo-fbc-fct-mkti:Exchange-NMSX
 fibo-fbc-fct-mkti:Exchange-NMTF
 	skos:closeMatch	wd:Q107189209 .
 
-fibo-fbc-fct-mkti:Exchange-NOCO-2020-12-28
+fibo-fbc-fct-mkti:Exchange-NOCO
 	skos:closeMatch	wd:Q107188873 .
 
 fibo-fbc-fct-mkti:Exchange-NODX
@@ -3797,13 +3797,13 @@ fibo-fbc-fct-mkti:Exchange-SSOB
 fibo-fbc-fct-mkti:Exchange-SSTX
 	skos:closeMatch	wd:Q93356710 .
 
-fibo-fbc-fct-mkti:Exchange-SSWM-2017-11-27
+fibo-fbc-fct-mkti:Exchange-SSWM
 	skos:closeMatch	wd:Q93360228 .
 
 fibo-fbc-fct-mkti:Exchange-STAN
 	skos:closeMatch	wd:Q93362950 .
 
-fibo-fbc-fct-mkti:Exchange-STEE-2017-04-24
+fibo-fbc-fct-mkti:Exchange-STEE
 	skos:closeMatch	wd:Q107227752 .
 
 fibo-fbc-fct-mkti:Exchange-STFL
@@ -3827,7 +3827,7 @@ fibo-fbc-fct-mkti:Exchange-STUC
 fibo-fbc-fct-mkti:Exchange-STUD
 	skos:closeMatch	wd:Q107188640 .
 
-fibo-fbc-fct-mkti:Exchange-SUNB-2022-01-24
+fibo-fbc-fct-mkti:Exchange-SUNB
 	skos:closeMatch	wd:Q93361295 .
 
 fibo-fbc-fct-mkti:Exchange-SUNO
@@ -3968,13 +3968,13 @@ fibo-fbc-fct-mkti:Exchange-TNLB
 fibo-fbc-fct-mkti:Exchange-TNLK
 	skos:closeMatch	wd:Q107223114 .
 
-fibo-fbc-fct-mkti:Exchange-TNLL-2021-10-25
+fibo-fbc-fct-mkti:Exchange-TNLL
 	skos:closeMatch	wd:Q107188664 .
 
 fibo-fbc-fct-mkti:Exchange-TOCP
 	skos:closeMatch	wd:Q93357307 .
 
-fibo-fbc-fct-mkti:Exchange-TOMG-2021-11-22
+fibo-fbc-fct-mkti:Exchange-TOMG
 	skos:closeMatch	wd:Q107188629 .
 
 fibo-fbc-fct-mkti:Exchange-TOWR
@@ -3986,7 +3986,7 @@ fibo-fbc-fct-mkti:Exchange-TPEL
 fibo-fbc-fct-mkti:Exchange-TPEO
 	skos:closeMatch	wd:Q1637548 .
 
-fibo-fbc-fct-mkti:Exchange-TPES-2021-11-22
+fibo-fbc-fct-mkti:Exchange-TPES
 	skos:closeMatch	wd:Q93360224 .
 
 fibo-fbc-fct-mkti:Exchange-TPEU
@@ -4178,7 +4178,7 @@ fibo-fbc-fct-mkti:Exchange-TWSG
 fibo-fbc-fct-mkti:Exchange-UBCZ
 	skos:closeMatch	wd:Q93362870 .
 
-fibo-fbc-fct-mkti:Exchange-UBIM-2021-04-26
+fibo-fbc-fct-mkti:Exchange-UBIM
 	skos:closeMatch	wd:Q93357324 .
 
 fibo-fbc-fct-mkti:Exchange-UBIN
@@ -4424,7 +4424,7 @@ fibo-fbc-fct-mkti:Exchange-XAFR
 fibo-fbc-fct-mkti:Exchange-XAFX
 	skos:closeMatch	wd:Q93362186 .
 
-fibo-fbc-fct-mkti:Exchange-XAIM-2021-10-25
+fibo-fbc-fct-mkti:Exchange-XAIM
 	skos:closeMatch	wd:Q107188874 .
 
 fibo-fbc-fct-mkti:Exchange-XALG
@@ -5003,7 +5003,7 @@ fibo-fbc-fct-mkti:Exchange-XISX
 fibo-fbc-fct-mkti:Exchange-XJAM
 	skos:closeMatch	wd:Q16948316 .
 
-fibo-fbc-fct-mkti:Exchange-XJAS-2022-04-04
+fibo-fbc-fct-mkti:Exchange-XJAS
 	skos:closeMatch	wd:Q1683760 .
 
 fibo-fbc-fct-mkti:Exchange-XJNB
@@ -5084,7 +5084,7 @@ fibo-fbc-fct-mkti:Exchange-XLBM
 fibo-fbc-fct-mkti:Exchange-XLCH
 	skos:closeMatch	wd:Q1797919 .
 
-fibo-fbc-fct-mkti:Exchange-XLDN-2021-10-25
+fibo-fbc-fct-mkti:Exchange-XLDN
 	skos:closeMatch	wd:Q93357361 .
 
 fibo-fbc-fct-mkti:Exchange-XLDX
@@ -5264,7 +5264,7 @@ fibo-fbc-fct-mkti:Exchange-XNDQ
 fibo-fbc-fct-mkti:Exchange-XNDU
 	skos:closeMatch	wd:Q12132906 .
 
-fibo-fbc-fct-mkti:Exchange-XNDX-2020-06-22
+fibo-fbc-fct-mkti:Exchange-XNDX
 	skos:closeMatch	wd:Q107189210 .
 
 fibo-fbc-fct-mkti:Exchange-XNEC
@@ -5294,7 +5294,7 @@ fibo-fbc-fct-mkti:Exchange-XNKS
 fibo-fbc-fct-mkti:Exchange-XNLI
 	skos:closeMatch	wd:Q107223042 .
 
-fibo-fbc-fct-mkti:Exchange-XNMR-2020-06-22
+fibo-fbc-fct-mkti:Exchange-XNMR
 	skos:closeMatch	wd:Q107189211 .
 
 fibo-fbc-fct-mkti:Exchange-XNMS
@@ -5345,7 +5345,7 @@ fibo-fbc-fct-mkti:Exchange-XOAS
 fibo-fbc-fct-mkti:Exchange-XOBD
 	skos:closeMatch	wd:Q107227860 .
 
-fibo-fbc-fct-mkti:Exchange-XOCH-2021-08-23
+fibo-fbc-fct-mkti:Exchange-XOCH
 	skos:closeMatch	wd:Q7092371 .
 
 fibo-fbc-fct-mkti:Exchange-XODE
@@ -5375,7 +5375,7 @@ fibo-fbc-fct-mkti:Exchange-XOSJ
 fibo-fbc-fct-mkti:Exchange-XOSL
 	skos:closeMatch	wd:Q909158 .
 
-fibo-fbc-fct-mkti:Exchange-XOTC-2021-12-27
+fibo-fbc-fct-mkti:Exchange-XOTC
 	skos:closeMatch	wd:Q1391676 .
 
 fibo-fbc-fct-mkti:Exchange-XOTP
@@ -5600,7 +5600,7 @@ fibo-fbc-fct-mkti:Exchange-XSIB
 fibo-fbc-fct-mkti:Exchange-XSIM
 	skos:closeMatch	wd:Q107188898 .
 
-fibo-fbc-fct-mkti:Exchange-XSMP-2021-10-25
+fibo-fbc-fct-mkti:Exchange-XSMP
 	skos:closeMatch	wd:Q107188784 .
 
 fibo-fbc-fct-mkti:Exchange-XSOP
@@ -5744,7 +5744,7 @@ fibo-fbc-fct-mkti:Exchange-XUKR
 fibo-fbc-fct-mkti:Exchange-XULA
 	skos:closeMatch	wd:Q1752885 .
 
-fibo-fbc-fct-mkti:Exchange-XUMP-2022-04-25
+fibo-fbc-fct-mkti:Exchange-XUMP
 	skos:closeMatch	wd:Q107190241 .
 
 fibo-fbc-fct-mkti:Exchange-XUNI
@@ -5768,7 +5768,7 @@ fibo-fbc-fct-mkti:Exchange-XVPA
 fibo-fbc-fct-mkti:Exchange-XVPB
 	skos:closeMatch	wd:Q93356781 .
 
-fibo-fbc-fct-mkti:Exchange-XVTX-2020-12-07
+fibo-fbc-fct-mkti:Exchange-XVTX
 	skos:closeMatch	wd:Q107188833 .
 
 fibo-fbc-fct-mkti:Exchange-XWAR

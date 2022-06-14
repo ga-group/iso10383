@@ -31,7 +31,7 @@ CONSTRUCT {
 		lcc-lr:isIdentifiedBy ?_lei ;
 		rdfs:label	?NAME_INSTITUTION_DESCRIPTION ;
 		skos:note	?COMMENTS ;
-		tempo:validFrom	?from .
+		tempo:validFrom	?_from .
 
 	?micedge
 		a	?mic_opsg ;
@@ -48,7 +48,6 @@ CONSTRUCT {
 }
 WHERE {
 	BIND(NOW() AS ?now)
-	BIND(IF(BOUND(?EXPIRY_DATE),?null,?_modf) AS ?_from)
 	BIND(URI(CONCAT(STR(fibo-fbc-fct-mkti:),'Exchange-',?MIC)) AS ?exedge)
 	BIND(URI(CONCAT(STR(fibo-fbc-fct-mkti:),'MIC-',?MIC)) AS ?micedge)
 	BIND(IF(?MIC != ?OPERATING_MIC,URI(CONCAT(STR(fibo-fbc-fct-mkti:),'Exchange-',?OPERATING_MIC)),?null) AS ?sgop)
@@ -101,5 +100,6 @@ WHERE {
 	BIND(xsd:anyURI(?WEBSITE) AS ?_web)
 	BIND(xsd:date(?CREATION_ISO_DATE) AS ?_crea)
 	BIND(xsd:date(?MODIF_ISO_DATE) AS ?_modf)
+	BIND(IF(!BOUND(?EXPIRY_DATE), COALESCE(?_modf, ?_crea), ?null) AS ?_from)
 	BIND(xsd:date(?EXPIRY_DATE) AS ?_expd)
 }
