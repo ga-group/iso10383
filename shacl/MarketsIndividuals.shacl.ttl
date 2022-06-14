@@ -52,20 +52,22 @@ fibo-fbc-fct-mkt:OperatingLevelMarket-shape a sh:NodeShape ;
 	.
 
 fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier-shape a sh:NodeShape ;
-	sh:targetClass fibo-fbc-fct-mkt:OperatingLevelMarket ;
+	sh:targetClass fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	## tests
 	sh:property rdfs:label-property ;
 	sh:property tempo:validFrom-property ;
 	sh:property tempo:validTill-property ;
+	sh:property lcc-lr:identifies-MSL-property ;
 	sh:sparql tempo:validFrom-validTill-cons ;
 	.
 
 fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier-shape a sh:NodeShape ;
-	sh:targetClass fibo-fbc-fct-mkt:OperatingLevelMarket ;
+	sh:targetClass fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	## tests
 	sh:property rdfs:label-property ;
 	sh:property tempo:validFrom-property ;
 	sh:property tempo:validTill-property ;
+	sh:property lcc-lr:identifies-OL-property ;
 	sh:sparql tempo:validFrom-validTill-cons ;
 	.
 
@@ -121,6 +123,20 @@ tempo:validTill-property a sh:PropertyShape ;
 	sh:minCount 0 ;
 	sh:maxCount 1 ;
 	sh:type xsd:date ;
+	.
+
+lcc-lr:identifies-OL-property a sh:PropertyShape ;
+	sh:path lcc-lr:identifies ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:class fibo-fbc-fct-mkt:OperatingLevelMarket ;
+	.
+
+lcc-lr:identifies-MSL-property a sh:PropertyShape ;
+	sh:path lcc-lr:identifies ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:class fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	.
 
 tempo:validFrom-validTill-cons
