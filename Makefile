@@ -53,8 +53,11 @@ BusinessCentersIndividuals.ttl: download/business-center-latest.xml BusinessCent
 	$(MAKE) $@.canon
 
 setup-stardog:                                                                                                                                                                                          
-	$(stardog)-admin db create -o reasoning.sameas=FULL -n iso
+	$(stardog)-admin db create -o reasoning.sameas=OFF -n iso
 	$(stardog) namespace add --prefix fibo-fbc-fct-mkt --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/ iso
 	$(stardog) namespace add --prefix fibo-fbc-fct-mkti --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/ iso
 	$(stardog) namespace add --prefix fibo-fbc-fct-bc --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/ iso
 	$(stardog) namespace add --prefix fibo-fbc-fct-bci --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/ iso
+
+unsetup-stardog:
+	$(stardog)-admin db drop iso
