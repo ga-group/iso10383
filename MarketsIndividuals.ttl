@@ -3370,7 +3370,7 @@ fibo-fbc-fct-mkti:Exchange-BPAS
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BANCA PASSADORE - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:IT ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Genova ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Genoa ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.bancapassadore.it"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-815600EB9E6DCD050385-LEI ;
 	rdfs:label	"BANCA PASSADORE - SYSTEMATIC INTERNALISER" ;
@@ -3436,7 +3436,7 @@ fibo-fbc-fct-mkti:Exchange-BRDE
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BRD - GROUPE SOCIETE GENERALE S.A." ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:RO ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucarest ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucharest ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.brd.ro"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-5493008QRHH0XCLJ4238-LEI ;
 	rdfs:label	"BRD - GROUPE SOCIETE GENERALE S.A." ;
@@ -3449,7 +3449,7 @@ fibo-fbc-fct-mkti:Exchange-BRDL
 	a	owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BRD - GROUPE SOCIETE GENERALE S.A. - LIQUIDITY PROVIDER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:RO ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucarest ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucharest ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-BRDE ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.brd.ro"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-5493008QRHH0XCLJ4238-LEI ;
@@ -3463,7 +3463,7 @@ fibo-fbc-fct-mkti:Exchange-BRDS
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BRD - GROUPE SOCIETE GENERALE S.A. - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:RO ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucarest ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucharest ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-BRDE ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.brd.ro"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-5493008QRHH0XCLJ4238-LEI ;
@@ -6736,7 +6736,7 @@ fibo-fbc-fct-mkti:Exchange-DDTX
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"DDT" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"DEAL DONE TRADING - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:IT ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Firenze ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Florence ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.mpscapitalservices.it"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-V3Z6EZ8Z6KSBJBFBIC58-LEI ;
 	rdfs:label	"DEAL DONE TRADING - SYSTEMATIC INTERNALISER" ;
@@ -7104,7 +7104,7 @@ fibo-fbc-fct-mkti:Exchange-DUSA
 	a	owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BOERSE DUESSELDORF - REGULIERTER MARKT" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:DE ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Dusseldorf ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Duesseldorf ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XDUS ;
 	lcc-lr:isIdentifiedBy	gleif:L-529900HTWYRE4BD0GQ69-LEI ;
 	rdfs:label	"BOERSE DUESSELDORF - REGULIERTER MARKT" ;
@@ -7116,7 +7116,7 @@ fibo-fbc-fct-mkti:Exchange-DUSB
 	a	owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BOERSE DUESSELDORF - FREIVERKEHR" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:DE ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Dusseldorf ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Duesseldorf ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XDUS ;
 	rdfs:label	"BOERSE DUESSELDORF - FREIVERKEHR" ;
 	skos:closeMatch	wd:Q107188710 ;
@@ -7127,7 +7127,7 @@ fibo-fbc-fct-mkti:Exchange-DUSC
 	a	owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BOERSE DUESSELDORF - QUOTRIX - REGULIERTER MARKT" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:DE ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Dusseldorf ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Duesseldorf ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XDUS ;
 	lcc-lr:isIdentifiedBy	gleif:L-529900HTWYRE4BD0GQ69-LEI ;
 	rdfs:label	"BOERSE DUESSELDORF - QUOTRIX - REGULIERTER MARKT" ;
@@ -7139,7 +7139,7 @@ fibo-fbc-fct-mkti:Exchange-DUSD
 	a	owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BOERSE DUESSELDORF - QUOTRIX MTF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:DE ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Dusseldorf ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Duesseldorf ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XDUS ;
 	rdfs:label	"BOERSE DUESSELDORF - QUOTRIX MTF" ;
 	skos:closeMatch	wd:Q107188712 ;
@@ -7630,7 +7630,7 @@ fibo-fbc-fct-mkti:Exchange-EESE
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EAST EUROPEAN STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:UA ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kiev ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kyiv ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.eese.com.ua"^^xsd:anyURI ;
 	rdfs:label	"EAST EUROPEAN STOCK EXCHANGE" ;
 	skos:closeMatch	wd:Q93355439 ;
@@ -7820,7 +7820,7 @@ fibo-fbc-fct-mkti:Exchange-EMCE
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BRM" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ROMANIAN COMMODITIES EXCHANGE - OTF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:RO ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucarest ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucharest ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XBRM ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.brm.ro"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-2594004XQ58NIEX1Y444-LEI ;
@@ -11120,7 +11120,7 @@ fibo-fbc-fct-mkti:Exchange-HSBT
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"HSBC TRINKAUS AND BURKHARDT AG - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:DE ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Dusseldorf ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Duesseldorf ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.hsbc.de"^^xsd:anyURI ;
 	rdfs:label	"HSBC TRINKAUS AND BURKHARDT AG - SYSTEMATIC INTERNALISER" ;
 	skos:closeMatch	wd:Q93360946 ;
@@ -12053,7 +12053,7 @@ fibo-fbc-fct-mkti:Exchange-IKBS
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"IKB DEUTSCHE INDUSTRIEBANK AG - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:DE ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Dusseldorf ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Duesseldorf ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.ikb.de"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-PWEFG14QWWESISQ84C69-LEI ;
 	rdfs:label	"IKB DEUTSCHE INDUSTRIEBANK AG - SYSTEMATIC INTERNALISER" ;
@@ -14445,7 +14445,7 @@ fibo-fbc-fct-mkti:Exchange-LSSI
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"LANG AND SCHWARZ TRADE CENTER - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:DE ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Dusseldorf ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Duesseldorf ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.ls-tc.de"^^xsd:anyURI ;
 	rdfs:label	"LANG AND SCHWARZ TRADE CENTER - SYSTEMATIC INTERNALISER" ;
 	skos:closeMatch	wd:Q93361344 ;
@@ -15192,7 +15192,7 @@ fibo-fbc-fct-mkti:Exchange-MHBD
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MIZUHO BANK, LTD. DUESSELDORF BRANCH - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:DE ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Dusseldorf ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Duesseldorf ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.mizuho-emea.com"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-549300VHOWSD9OG7S547-LEI ;
 	rdfs:label	"MIZUHO BANK, LTD. DUESSELDORF BRANCH - SYSTEMATIC INTERNALISER" ;
@@ -18070,7 +18070,7 @@ fibo-fbc-fct-mkti:Exchange-OTPR
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"OTP BANK ROMANIA SA" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:RO ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucarest ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucharest ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.otpbank.ro"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-5299003TM0P7W8DNUF61-LEI ;
 	rdfs:label	"OTP BANK ROMANIA SA" ;
@@ -18307,7 +18307,7 @@ fibo-fbc-fct-mkti:Exchange-PFTQ
 	a	fibo-fbc-fct-mkt:QuoteDrivenMarket , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"PFTS QUOTE DRIVEN" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:UA ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kiev ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kyiv ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-PFTS ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.pfts.com"^^xsd:anyURI ;
 	rdfs:label	"PFTS QUOTE DRIVEN" ;
@@ -18321,7 +18321,7 @@ fibo-fbc-fct-mkti:Exchange-PFTS
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"PFTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"PFTS STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:UA ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kiev ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kyiv ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.pfts.com"^^xsd:anyURI ;
 	rdfs:label	"PFTS STOCK EXCHANGE" ;
 	skos:closeMatch	wd:Q1984912 ;
@@ -20343,7 +20343,7 @@ fibo-fbc-fct-mkti:Exchange-SMBD
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"SUMITOMO MITSUI BANKING CORPORATION - DUESSELDORF BRANCH - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:DE ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Dusseldorf ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Duesseldorf ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.smbcgroup.com"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-5U0XI89JRFVHWIBS4F54-LEI ;
 	rdfs:label	"SUMITOMO MITSUI BANKING CORPORATION - DUESSELDORF BRANCH - SYSTEMATIC INTERNALISER" ;
@@ -23793,7 +23793,7 @@ fibo-fbc-fct-mkti:Exchange-UICE
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"UICE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"UKRAINIAN INTERBANK CURRENCY EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:UA ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kiev ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kyiv ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.uicegroup.com"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-894500C5FJGWR7DWUN92-LEI ;
 	rdfs:label	"UKRAINIAN INTERBANK CURRENCY EXCHANGE" ;
@@ -23819,7 +23819,7 @@ fibo-fbc-fct-mkti:Exchange-UKEX
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"UKRAINIAN EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:UA ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kiev ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kyiv ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.ux.ua"^^xsd:anyURI ;
 	rdfs:label	"UKRAINIAN EXCHANGE" ;
 	skos:closeMatch	wd:Q4470480 ;
@@ -25721,7 +25721,7 @@ fibo-fbc-fct-mkti:Exchange-XBRM
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BRM" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ROMANIAN COMMODITIES EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:RO ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucarest ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucharest ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.brm.ro"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-2594004XQ58NIEX1Y444-LEI ;
 	rdfs:label	"ROMANIAN COMMODITIES EXCHANGE" ;
@@ -25783,7 +25783,7 @@ fibo-fbc-fct-mkti:Exchange-XBSD
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"REGF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"DERIVATIVES REGULATED MARKET - BVB" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:RO ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucarest ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucharest ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XBSE ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.bvb.ro"^^xsd:anyURI ;
 	rdfs:label	"DERIVATIVES REGULATED MARKET - BVB" ;
@@ -25796,7 +25796,7 @@ fibo-fbc-fct-mkti:Exchange-XBSE
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"REGS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"SPOT REGULATED MARKET - BVB" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:RO ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucarest ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucharest ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.bvb.ro"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-254900LXHEVKYGERER05-LEI ;
 	rdfs:label	"SPOT REGULATED MARKET - BVB" ;
@@ -25953,7 +25953,7 @@ fibo-fbc-fct-mkti:Exchange-XCAL
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CALCUTTA STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:IN ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Calcutta ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kolkata ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.cse-india.com"^^xsd:anyURI ;
 	rdfs:label	"CALCUTTA STOCK EXCHANGE" ;
 	skos:closeMatch	wd:Q2997295 ;
@@ -25964,7 +25964,7 @@ fibo-fbc-fct-mkti:Exchange-XCAN
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CAN - ATS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:RO ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucarest ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucharest ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XBSE ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.bvb.ro"^^xsd:anyURI ;
 	rdfs:label	"CAN - ATS" ;
@@ -26485,7 +26485,7 @@ fibo-fbc-fct-mkti:Exchange-XDFB
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"JOINT-STOCK COMPANY “STOCK EXCHANGE INNEX”" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:UA ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kiev ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kyiv ;
 	rdfs:label	"JOINT-STOCK COMPANY “STOCK EXCHANGE INNEX”" ;
 	skos:closeMatch	wd:Q93356063 ;
 	tempo:validFrom	"2010-05-24"^^xsd:date .
@@ -26656,7 +26656,7 @@ fibo-fbc-fct-mkti:Exchange-XDUS
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BOERSE DUESSELDORF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:DE ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Dusseldorf ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Duesseldorf ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.boerse-duesseldorf.de"^^xsd:anyURI ;
 	rdfs:label	"BOERSE DUESSELDORF" ;
 	skos:closeMatch	wd:Q1019978 ;
@@ -28176,7 +28176,7 @@ fibo-fbc-fct-mkti:Exchange-XKAZ
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"KAZE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"KAZAKHSTAN STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:KZ ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Alma-ata ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Almaty ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.kase.kz"^^xsd:anyURI ;
 	rdfs:label	"KAZAKHSTAN STOCK EXCHANGE" ;
 	skos:closeMatch	wd:Q1734773 ;
@@ -28295,7 +28295,7 @@ fibo-fbc-fct-mkti:Exchange-XKIE
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"KIEV UNIVERSAL EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:UA ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kiev ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kyiv ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.kue.kiev.ua"^^xsd:anyURI ;
 	rdfs:label	"KIEV UNIVERSAL EXCHANGE" ;
 	skos:closeMatch	wd:Q93356054 ;
@@ -28307,7 +28307,7 @@ fibo-fbc-fct-mkti:Exchange-XKIS
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"KISE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"KIEV INTERNATIONAL STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:UA ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kiev ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kyiv ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.kise-ua.com"^^xsd:anyURI ;
 	rdfs:label	"KIEV INTERNATIONAL STOCK EXCHANGE" ;
 	skos:closeMatch	wd:Q93357840 ;
@@ -28914,7 +28914,7 @@ fibo-fbc-fct-mkti:Exchange-XMDS
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MADRAS STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:IN ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Madras ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Chennai ;
 	rdfs:label	"MADRAS STOCK EXCHANGE" ;
 	skos:closeMatch	wd:Q3633944 ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
@@ -29393,7 +29393,7 @@ fibo-fbc-fct-mkti:Exchange-XNDU
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"PJSC NDU" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"PJSC NATIONAL DEPOSITORY OF UKRAINE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:UA ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kiev ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kyiv ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.csd.ua"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-894500QCRQPZUXB7U963-LEI ;
 	rdfs:label	"PJSC NATIONAL DEPOSITORY OF UKRAINE" ;
@@ -30464,7 +30464,7 @@ fibo-fbc-fct-mkti:Exchange-XQTX
 	a	owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BOERSE DUESSELDORF - QUOTRIX" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:DE ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Dusseldorf ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Duesseldorf ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XDUS ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.boerse-duesseldorf.de"^^xsd:anyURI ;
 	rdfs:label	"BOERSE DUESSELDORF - QUOTRIX" ;
@@ -30489,7 +30489,7 @@ fibo-fbc-fct-mkti:Exchange-XRAS
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"RASDAQ" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"RASDAQ" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:RO ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucarest ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucharest ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XBSE ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.bvb.ro"^^xsd:anyURI ;
 	rdfs:label	"RASDAQ" ;
@@ -30667,7 +30667,7 @@ fibo-fbc-fct-mkti:Exchange-XRPM
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ROMANIAN POWER MARKET" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:RO ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucarest ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucharest ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.opcom.ro"^^xsd:anyURI ;
 	rdfs:label	"ROMANIAN POWER MARKET" ;
 	skos:closeMatch	wd:Q18544563 ;
@@ -31914,7 +31914,7 @@ fibo-fbc-fct-mkti:Exchange-XUAX
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"UKRSE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"UKRAINIAN STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:UA ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kiev ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kyiv ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.ukrse.kiev.ua"^^xsd:anyURI ;
 	rdfs:label	"UKRAINIAN STOCK EXCHANGE" ;
 	skos:closeMatch	wd:Q93358770 ;
@@ -31959,7 +31959,7 @@ fibo-fbc-fct-mkti:Exchange-XUKR
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"UKRAINIAN UNIVERSAL COMMODITY EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:UA ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kiev ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Kyiv ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.uutb.com.ua"^^xsd:anyURI ;
 	rdfs:label	"UKRAINIAN UNIVERSAL COMMODITY EXCHANGE" ;
 	skos:closeMatch	wd:Q93358764 ;
