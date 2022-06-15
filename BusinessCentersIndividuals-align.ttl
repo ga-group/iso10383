@@ -434,10 +434,6 @@ fibo-fbc-fct-bci:Espoo
 fibo-fbc-fct-bci:Fiac
 	skos:closeMatch	<http://sws.geonames.org/3018542/> .
 
-fibo-fbc-fct-bci:Firenze
-	skos:closeMatch	<http://dbpedia.org/resource/Florence> ;
-	skos:closeMatch	<http://sws.geonames.org/3176959/> .
-
 fibo-fbc-fct-bci:Florence
 	skos:closeMatch	<http://dbpedia.org/resource/Florence> ;
 	skos:closeMatch	<http://sws.geonames.org/3176959/> .
@@ -783,10 +779,6 @@ fibo-fbc-fct-bci:Luzern
 fibo-fbc-fct-bci:Macau
 	skos:closeMatch	<http://dbpedia.org/resource/Macau> ;
 	skos:closeMatch	<http://sws.geonames.org/1821274/> .
-
-fibo-fbc-fct-bci:Madras
-	skos:closeMatch	<http://dbpedia.org/resource/Chennai> ;
-	skos:closeMatch	<http://sws.geonames.org/1264527/> , wd:Q1352 .
 
 fibo-fbc-fct-bci:Madrid
 	skos:closeMatch	<http://dbpedia.org/resource/Madrid> ;

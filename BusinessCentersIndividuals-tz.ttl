@@ -328,9 +328,6 @@ fibo-fbc-fct-bci:Espoo
 fibo-fbc-fct-bci:Fiac
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
 
-fibo-fbc-fct-bci:Firenze
-	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
-
 fibo-fbc-fct-bci:Florence
 	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
 
@@ -591,9 +588,6 @@ fibo-fbc-fct-bci:Luzern
 
 fibo-fbc-fct-bci:Macau
 	time:timeZone	<http://dbpedia.org/resource/Asia/Macau> .
-
-fibo-fbc-fct-bci:Madras
-	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
 
 fibo-fbc-fct-bci:Madrid
 	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .

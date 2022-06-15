@@ -1745,12 +1745,7 @@ fibo-fbc-fct-bci:Fiac
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
 
 fibo-fbc-fct-bci:Firenze
-	a	fibo-fnd-plc-loc:Municipality ;
-	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:IT ;
-	rdfs:label	"Firenze" ;
-	skos:closeMatch	<http://dbpedia.org/resource/Florence> , <http://sws.geonames.org/3176959/> ;
-	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
+	owl:sameAs	fibo-fbc-fct-bci:Florence .
 
 fibo-fbc-fct-bci:Florence
 	a	fibo-fnd-plc-loc:Municipality ;
@@ -3110,12 +3105,7 @@ fibo-fbc-fct-bci:Macau
 	time:timeZone	<http://dbpedia.org/resource/Asia/Macau> .
 
 fibo-fbc-fct-bci:Madras
-	a	fibo-fnd-plc-loc:Municipality ;
-	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:IN ;
-	rdfs:label	"Madras" ;
-	skos:closeMatch	<http://dbpedia.org/resource/Chennai> , <http://sws.geonames.org/1264527/> , wd:Q1352 ;
-	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+	owl:sameAs	fibo-fbc-fct-bci:Chennai .
 
 fibo-fbc-fct-bci:Madrid
 	a	fibo-fnd-plc-loc:BusinessCenter ;
