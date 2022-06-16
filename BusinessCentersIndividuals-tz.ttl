@@ -130,9 +130,6 @@ fibo-fbc-fct-bci:Bergen
 fibo-fbc-fct-bci:Berlin
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
-fibo-fbc-fct-bci:Bermuda
-	time:timeZone	<http://dbpedia.org/resource/Atlantic/Bermuda> .
-
 fibo-fbc-fct-bci:Bern
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
 

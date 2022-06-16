@@ -174,10 +174,6 @@ fibo-fbc-fct-bci:Berlin
 	skos:closeMatch	<http://dbpedia.org/resource/Berlin> ;
 	skos:closeMatch	<http://sws.geonames.org/2950159/> .
 
-fibo-fbc-fct-bci:Bermuda
-	skos:closeMatch	<http://dbpedia.org/resource/Bermuda> ;
-	skos:closeMatch	<http://sws.geonames.org/3573345/> .
-
 fibo-fbc-fct-bci:Bern
 	skos:closeMatch	<http://dbpedia.org/resource/Bern> ;
 	skos:closeMatch	<http://sws.geonames.org/2661552/> .

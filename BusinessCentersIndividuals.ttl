@@ -728,14 +728,6 @@ fibo-fbc-fct-bci:Berlin
 	skos:closeMatch	<http://dbpedia.org/resource/Berlin> , <http://sws.geonames.org/2950159/> ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
-fibo-fbc-fct-bci:Bermuda
-	a	fibo-fnd-plc-loc:Municipality ;
-	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:BM ;
-	rdfs:label	"Bermuda" ;
-	skos:closeMatch	<http://dbpedia.org/resource/Bermuda> , <http://sws.geonames.org/3573345/> ;
-	time:timeZone	<http://dbpedia.org/resource/Atlantic/Bermuda> .
-
 fibo-fbc-fct-bci:Bern
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;

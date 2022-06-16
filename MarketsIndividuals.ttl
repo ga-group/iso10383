@@ -47,7 +47,7 @@ fibo-fbc-fct-mkti:Exchange-24EX
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"24EX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"24 EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:BM ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bermuda ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Hamilton ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.24exchange.net"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-213800YXBUZH7G3NDC51-LEI ;
 	rdfs:label	"24 EXCHANGE" ;
