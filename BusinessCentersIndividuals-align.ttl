@@ -1370,7 +1370,7 @@ fibo-fbc-fct-bci:Ulaanbaatar
 	skos:closeMatch	<http://dbpedia.org/resource/Ulan_Bator> ;
 	skos:closeMatch	<http://sws.geonames.org/2028462/> .
 
-fibo-fbc-fct-bci:Unterschleisshem
+fibo-fbc-fct-bci:Unterschleissheim
 	skos:closeMatch	<http://sws.geonames.org/2818766/> ;
 	skos:closeMatch	wd:Q33510649 .
 

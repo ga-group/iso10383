@@ -1036,7 +1036,7 @@ fibo-fbc-fct-bci:Turin
 fibo-fbc-fct-bci:Ulaanbaatar
 	time:timeZone	<http://dbpedia.org/resource/Asia/Ulaanbaatar> .
 
-fibo-fbc-fct-bci:Unterschleisshem
+fibo-fbc-fct-bci:Unterschleissheim
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 fibo-fbc-fct-bci:Utrecht

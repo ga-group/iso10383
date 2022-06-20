@@ -1279,7 +1279,7 @@ fibo-fbc-fct-mkti:Exchange-BAAD
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BAADER BANK - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:DE ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Unterschleisshem ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Unterschleissheim ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.baaderbank.de"^^xsd:anyURI ;
 	rdfs:label	"BAADER BANK - SYSTEMATIC INTERNALISER" ;
 	skos:closeMatch	wd:Q93360317 ;

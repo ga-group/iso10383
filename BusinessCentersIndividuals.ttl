@@ -5082,11 +5082,11 @@ fibo-fbc-fct-bci:Ulaanbaatar
 fibo-fbc-fct-bci:Ulan_Bator
 	owl:sameAs	fibo-fbc-fct-bci:Ulaanbaatar .
 
-fibo-fbc-fct-bci:Unterschleisshem
+fibo-fbc-fct-bci:Unterschleissheim
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	lcc-cr:isPartOf	cc:DE ;
-	rdfs:label	"Unterschleisshem" ;
+	rdfs:label	"Unterschleissheim" ;
 	skos:closeMatch	<http://sws.geonames.org/2818766/> , wd:Q33510649 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
