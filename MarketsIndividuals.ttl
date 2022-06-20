@@ -28444,7 +28444,7 @@ fibo-fbc-fct-mkti:Exchange-XLAO
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"LSX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"LAO SECURITIES EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:LA ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Lao ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Vientiane ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.lsx.com.la"^^xsd:anyURI ;
 	rdfs:label	"LAO SECURITIES EXCHANGE" ;
 	skos:closeMatch	wd:Q2922448 ;

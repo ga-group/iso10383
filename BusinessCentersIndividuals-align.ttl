@@ -700,10 +700,6 @@ fibo-fbc-fct-bci:Lane_Cove
 	skos:closeMatch	<http://dbpedia.org/resource/Lane_Cove%2C_New_South_Wales> ;
 	skos:closeMatch	<http://sws.geonames.org/2160625/> , wd:Q930009 .
 
-fibo-fbc-fct-bci:Lao
-	skos:closeMatch	<http://dbpedia.org/resource/Laos> ;
-	skos:closeMatch	<http://sws.geonames.org/1655842/> .
-
 fibo-fbc-fct-bci:Larnaca
 	skos:closeMatch	<http://dbpedia.org/resource/Larnaca> ;
 	skos:closeMatch	<http://sws.geonames.org/146400/> .

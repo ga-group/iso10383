@@ -529,9 +529,6 @@ fibo-fbc-fct-bci:Lahore
 fibo-fbc-fct-bci:Lane_Cove
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
-fibo-fbc-fct-bci:Lao
-	time:timeZone	<http://dbpedia.org/resource/Asia/Vientiane> .
-
 fibo-fbc-fct-bci:Larnaca
 	time:timeZone	<http://dbpedia.org/resource/Asia/Nicosia> .
 
