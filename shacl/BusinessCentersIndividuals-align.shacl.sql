@@ -55,3 +55,32 @@ WHERE {
 	}
 	FILTER(!BOUND(?value) || ?value != 1)
 }
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX un-loc: <http://data.ga-group.nl/un-locode/>
+PREFIX : <local#>
+
+CONSTRUCT {
+:cons.un-loc-align.rpt
+	a sh:ValidationReport ;
+	sh:conforms false ;
+	sh:result [
+		a sh:ValidationResult ;
+		sh:focusNode ?this ;
+		sh:resultMessage "there must be exactly one alignment with UN/LOCODE" ;
+		sh:resultSeverity sh:Violation ;
+		sh:sourceShape :cons.un-loc-align ;
+		sh:value ?value ;
+	] .
+}
+WHERE {
+	?this skos:closeMatch ?anything .
+	OPTIONAL {
+	SELECT ?this (COUNT(?x) AS ?value) WHERE {
+	?this skos:closeMatch ?x .
+	FILTER(STRSTARTS(STR(?x), STR(un-loc:)))
+	} GROUP BY ?this
+	}
+	FILTER(!BOUND(?value) || ?value != 1)
+}
