@@ -15,13 +15,13 @@
 This set of markets and MIC codes is current with respect to the published ISO 10383 data as of the dct:issued date, as processed for FIBO on the dct:modified date."""@en ;
 	dct:issued	"2022-05-31T02:25:19Z"^^xsd:dateTime ;
 	dct:license	"http://opensource.org/licenses/MIT"^^xsd:anyURI ;
-	dct:modified	"2022-05-31T06:51:08Z"^^xsd:dateTime ;
+	dct:modified	"2022-07-20T06:51:08Z"^^xsd:dateTime ;
 	dct:source	"https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.xml"^^xsd:anyURI ;
 	fibo-fnd-utl-av:hasMaturityLevel	fibo-fnd-utl-av:Release ;
 	owl:imports	<https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/> , <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/> , <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/> , <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Places/VirtualPlaces/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> , <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> , <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> ;
 	owl:versionIRI	<https://spec.edmcouncil.org/fibo/ontology/FBC/20220301/FunctionalEntities/MarketsIndividuals/> ;
 	rdfs:label	"Markets Individuals" ;
-	skos:changeNote	"The https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/ version of this ontology was modified to include the MIC codes as of May 2022 using ISO10383's new format." ;
+	skos:changeNote	"The https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/ version of this ontology was modified to include the MIC codes as of May 2022 to July 2022 using ISO10383's new format." ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
 	sm:contributor	"Thematix Partners LLC" , "agnos.ai UK Ltd." , "GA Financial Solutions GmbH" ;
 	sm:copyright	"Copyright (c) 2018-2022 EDM Council, Inc." , "Copyright (c) 2018-2022 Object Management Group, Inc." , "Copyright (c) 2018-2022 Thematix Partners LLC" , "Copyright (c) 2020-2022 agnos.ai, UK Ltd." , "Copyright (c) 2022 GA Financial Solutions GmbH" ;
