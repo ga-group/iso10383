@@ -3,7 +3,9 @@ SHELL := /bin/zsh
 sparql := /home/freundt/usr/apache-jena/bin/sparql
 stardog := STARDOG_JAVA_ARGS='-Dstardog.default.cli.server=http://plutos:5820' /home/freundt/usr/stardog/bin/stardog
 
-all:
+all: MarketsIndividuals.ttl BusinessCentersIndividuals.ttl
+canon: MarketsIndividuals.ttl.canon BusinessCentersIndividuals.ttl.canon
+check: check.MarketsIndividuals check.BusinessCentersIndividuals
 
 download: download/ISO10383_MIC_latest.xlsx
 
