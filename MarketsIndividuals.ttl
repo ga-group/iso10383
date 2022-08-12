@@ -233,7 +233,7 @@ fibo-fbc-fct-mkti:Exchange-ABXX
 	rdfs:label	"YOSHI MARKETS LIMITED" ;
 	tempo:validFrom	"2022-04-25"^^xsd:date .
 
-fibo-fbc-fct-mkti:Exchange-ABXX-A
+fibo-fbc-fct-mkti:Exchange-ABXX_A
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"YOSHI" ;
@@ -244,7 +244,7 @@ fibo-fbc-fct-mkti:Exchange-ABXX-A
 	lcc-lr:isIdentifiedBy	gleif:L-984500DT1B79C9A7B343-LEI ;
 	rdfs:label	"YOSHI MARKETS LIMITED" .
 
-fibo-fbc-fct-mkti:Exchange-ABXX-old
+fibo-fbc-fct-mkti:Exchange-ABXX_old
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"ABX" ;
