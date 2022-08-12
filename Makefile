@@ -44,16 +44,42 @@ check.%: %.ttl shacl/%.shacl.sql
 %.rpt: /tmp/check.%.ttl
 	$(sparql) --results text --data $< --query sql/valrpt.sql
 
+tmp/MarketsIndividuals-tempo.ttl: download/ISO10383_MIC_latest.xlsx
+	# rescue validity, efficacy, and modification dates of active nodes
+	-ttl2ttl --sortable MarketsIndividuals.ttl \
+	| grep -F $$'tempo:valid\ntempo:efficacious\ndct:modified' \
+	> $@
 
-MarketsIndividuals.ttl: download/ISO10383_MIC_latest.xlsx MarketsIndividuals-aux.ttl MarketsIndividuals-align.ttl
-	ttl2ttl --sortable $(filter %.ttl, $^) \
-	> $@.t
-	-cat $@ >> $@.t
+tmp/MarketsIndividuals-type.ttl: download/ISO10383_MIC_latest.xlsx
+	# rescue types of active nodes
+	-ttl2ttl --sortable MarketsIndividuals.ttl \
+	| grep -F $$'\ta\t' \
+	> $@
+
+tmp/MarketsIndividuals-label.ttl: download/ISO10383_MIC_latest.xlsx
+	# rescue labels and names of active nodes
+	-ttl2ttl --sortable MarketsIndividuals.ttl \
+	| grep -F $$'rdfs:label\ndbp:formerLabel' \
+	| mawk -F'\t' '$$2="dbp:formerLabel"' \
+	> $@
+
+tmp/MarketsIndividuals-name.ttl: download/ISO10383_MIC_latest.xlsx
+	# rescue labels and names of active nodes
+	-ttl2ttl --sortable MarketsIndividuals.ttl \
+	| grep -F $$'fibo-fbc-fct-mkt:hasExchangeName\ndbp:formerName' \
+	| mawk -F'\t' '$$2="dbp:formerName"' \
+	> $@
+
+tmp/MarketsIndividuals.ttl: download/ISO10383_MIC_latest.xlsx
 	scripts/rdISO10383.R $< \
 	| tarql -t --stdin sql/ISO10383.tarql \
 	| grep -vF 'lcc-3166-1:' \
 	| sed 's@rdf:type@a@; s@  *@ @g' \
-	>> $@.t && mv $@.t $@
+	> $@.t && mv $@.t $@
+
+MarketsIndividuals.ttl: tmp/MarketsIndividuals.ttl MarketsIndividuals-aux.ttl MarketsIndividuals-align.ttl MarketsIndividuals-hist.ttl tmp/MarketsIndividuals-tempo.ttl tmp/MarketsIndividuals-type.ttl tmp/MarketsIndividuals-label.ttl tmp/MarketsIndividuals-name.ttl
+	cat $^ \
+	> $@.t && mv $@.t $@
 	$(MAKE) $@.canon
 
 BusinessCentersIndividuals.ttl: download/business-center-latest.xml BusinessCentersIndividuals-aux.ttl BusinessCentersIndividuals-align.ttl BusinessCentersIndividuals-tz.ttl

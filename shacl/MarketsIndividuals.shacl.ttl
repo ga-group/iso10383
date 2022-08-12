@@ -83,6 +83,7 @@ fibo-fbc-fct-mkt:hasExchangeName-property a sh:PropertyShape ;
 rdfs:label-property a sh:PropertyShape ;
 	sh:path rdfs:label ;
 	sh:minCount 1 ;
+	sh:maxCount 1 ;
 	sh:type xsd:string ;
 	sh:uniqueLang true ;
 	.
