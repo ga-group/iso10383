@@ -612,3 +612,30 @@ index 6a0a089..aef4bff 100644
  	fibo-fnd-plc-vrt:hasWebsite	"http://www.lsx.com.la"^^xsd:anyURI ;
  	rdfs:label	"LAO SECURITIES EXCHANGE" ;
  	skos:closeMatch	wd:Q2922448 ;
+@@ -30081,7 +30082,7 @@ fibo-fbc-fct-mkti:Exchange-XBRN
+ 	fibo-fbc-fct-mkt:hasExchangeName	"BX SWISS AG" ;
+ 	fibo-fbc-fct-mkt:operatesInCountry	cc:CH ;
+ 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bern ;
+-	fibo-fnd-plc-vrt:hasWebsite	"http://www.berne-x.com"^^xsd:anyURI , "http://www.bxswiss.com" ;
++	fibo-fnd-plc-vrt:hasWebsite	"http://www.bxswiss.com, www.berne-x.com"^^xsd:anyURI ;
+ 	rdfs:label	"BX SWISS AG" ;
+ 	skos:closeMatch	wd:Q824533 ;
+ 	skos:note	"BX WORLDCAPS, BX LOCAL SHARES" ;
+@@ -58967,7 +58967,7 @@ fibo-fbc-fct-mkti:MIC-SSWM
+ 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-SSWM ;
+ 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+ 	rdfs:label	"SSW MARKET MAKING - SYSTEMATIC INTERNALISER operating-level market identifier" ;
+-	tempo:validFrom	"2017-11"^^xsd:gYearMonth ;
++	tempo:validFrom	"2017-11"^^xsd:gYearMonth , "2017-11-27"^^xsd:date ;
+ 	tempo:validTill	"2017-11-27"^^xsd:date .
+ 
+ fibo-fbc-fct-mkti:MIC-STAL
+@@ -59008,7 +59008,7 @@ fibo-fbc-fct-mkti:MIC-STEE
+ 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-STEE ;
+ 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+ 	rdfs:label	"NASDAQ COMMODITIES - STEEL COMMODITY market segment-level market identifier" ;
+-	tempo:validFrom	"2017-04"^^xsd:gYearMonth ;
++	tempo:validFrom	"2017-04"^^xsd:gYearMonth , "2017-04-24"^^xsd:date ;
+ 	tempo:validTill	"2017-04-24"^^xsd:date .
+ 
+ fibo-fbc-fct-mkti:MIC-STFL

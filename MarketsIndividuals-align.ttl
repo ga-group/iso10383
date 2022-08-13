@@ -470,7 +470,7 @@ fibo-fbc-fct-mkti:Exchange-BGSI
 fibo-fbc-fct-mkti:Exchange-BGUK
 	skos:closeMatch	wd:Q93357903 .
 
-fibo-fbc-fct-mkti:Exchange-BHSF
+fibo-fbc-fct-mkti:Exchange-BHSF_2022-08-22
 	skos:closeMatch	wd:Q93359757 .
 
 fibo-fbc-fct-mkti:Exchange-BHWA

@@ -12,10 +12,10 @@
 <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/>
 	a	owl:Ontology ;
 	dct:abstract	"""This ontology includes individuals representing the set of markets and exchanges corresponding to the ISO 10383 Codes for exchanges and market identification (MIC) standard.
-This set of markets and MIC codes is current with respect to the published ISO 10383 data as of the dct:issued date, as processed for FIBO on the dct:modified date."""@en ;
+This set of markets and MIC codes is current with respect to the published ISO 10383 data as of the dct:modified date."""@en ;
 	dct:issued	"2022-05-31T02:25:19Z"^^xsd:dateTime ;
 	dct:license	"http://opensource.org/licenses/MIT"^^xsd:anyURI ;
-	dct:modified	"2022-07-20T06:51:08Z"^^xsd:dateTime ;
+	dct:modified	"2022-08-13T06:51:08Z"^^xsd:dateTime ;
 	dct:source	"https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.xml"^^xsd:anyURI ;
 	fibo-fnd-utl-av:hasMaturityLevel	fibo-fnd-utl-av:Release ;
 	owl:imports	<https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/> , <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/> , <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/> , <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Places/VirtualPlaces/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> , <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> , <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> ;

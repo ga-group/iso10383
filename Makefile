@@ -77,7 +77,13 @@ tmp/MarketsIndividuals.ttl: download/ISO10383_MIC_latest.xlsx
 	| sed 's@rdf:type@a@; s@  *@ @g' \
 	> $@.t && mv $@.t $@
 
-MarketsIndividuals.ttl: tmp/MarketsIndividuals.ttl MarketsIndividuals-aux.ttl MarketsIndividuals-align.ttl MarketsIndividuals-hist.ttl tmp/MarketsIndividuals-tempo.ttl tmp/MarketsIndividuals-type.ttl tmp/MarketsIndividuals-label.ttl tmp/MarketsIndividuals-name.ttl
+MarketsIndividuals-chronic.ttl.symm: MarketsIndividuals-chronic.ttl
+	ttl2ttl --sortable $< \
+	| scripts/symm-replaces.awk \
+	> $@ && mv $@ $<
+	$(MAKE) $<.canon
+
+MarketsIndividuals.ttl: tmp/MarketsIndividuals.ttl MarketsIndividuals-aux.ttl MarketsIndividuals-align.ttl MarketsIndividuals-hist.ttl MarketsIndividuals-chronic.ttl tmp/MarketsIndividuals-tempo.ttl tmp/MarketsIndividuals-type.ttl tmp/MarketsIndividuals-label.ttl tmp/MarketsIndividuals-name.ttl
 	cat $^ \
 	> $@.t && mv $@.t $@
 	$(MAKE) $@.canon

@@ -1,0 +1,24 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fibo-fbc-fct-mkti: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/> .
+
+fibo-fbc-fct-mkti:Exchange-BHSF
+	dct:replaces	fibo-fbc-fct-mkti:Exchange-BHSF_2022-08-22 .
+
+fibo-fbc-fct-mkti:Exchange-BHSF_2022-08-22
+	dct:isReplacedBy	fibo-fbc-fct-mkti:Exchange-BHSF ;
+	dct:replaces	fibo-fbc-fct-mkti:Exchange-JSEF .
+
+fibo-fbc-fct-mkti:Exchange-CITX
+	dct:replaces	fibo-fbc-fct-mkti:Exchange-CITX_2022-07-25 .
+
+fibo-fbc-fct-mkti:Exchange-CITX_2022-07-25
+	dct:isReplacedBy	fibo-fbc-fct-mkti:Exchange-CITX .
+
+fibo-fbc-fct-mkti:Exchange-IFCA
+	dct:replaces	fibo-fbc-fct-mkti:Exchange-XWCE .
+
+fibo-fbc-fct-mkti:Exchange-JSEF
+	dct:isReplacedBy	fibo-fbc-fct-mkti:Exchange-BHSF_2022-08-22 .
+
+fibo-fbc-fct-mkti:Exchange-XWCE
+	dct:isReplacedBy	fibo-fbc-fct-mkti:Exchange-IFCA .
