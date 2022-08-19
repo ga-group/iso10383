@@ -49,13 +49,6 @@ This set of business centers is current with respect to the FpML published XML d
 	lcc-cr:isPartOf	cc:VN ;
 	rdfs:label	"Ho Chi Minh (formerly Saigon)" .
 
-fibo-fbc-fct-bci:
-	a	fibo-fnd-plc-loc:BusinessCenter ;
-	a	owl:NamedIndividual ;
-	dct:description	"the international business center of " ;
-	lcc-cr:isPartOf	cc:BR , cc:ES , cc:EU , cc:GB , cc:IL , cc:NY , cc:US ;
-	rdfs:label	"" .
-
 fibo-fbc-fct-bci:AEAB
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
