@@ -37,6 +37,6 @@ published datasets as well as separately maintained alignment and enrichment fil
 
 For ease of access the latest versions of the datasets can be downloaded here:
 
-- [MarketsIndividuals.ttl](/iso10383/MarketsIndividuals.ttl)
-- [BusinessCentersIndividuals.ttl](/iso10383/BusinessCentersIndividuals.ttl)
+- [MarketsIndividuals.ttl](MarketsIndividuals.ttl)
+- [BusinessCentersIndividuals.ttl](BusinessCentersIndividuals.ttl)
 
