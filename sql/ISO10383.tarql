@@ -1,5 +1,5 @@
 PREFIX cc: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/>
-PREFIX dbp: <https://dbpedia.org/property/>
+PREFIX dbo: <https://dbpedia.org/ontology/>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX fibo-fbc-fct-bci: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/>
 PREFIX fibo-fbc-fct-mkt: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/>
@@ -23,8 +23,7 @@ CONSTRUCT {
 		a	?ex_opsg ;
 		a	?_fsp ;
 		a	owl:NamedIndividual ;
-		dbp:formerLabel	?NAME_INSTITUTION_DESCRIPTION ;
-		dbp:formerName	?NAME_INSTITUTION_DESCRIPTION ;
+		dbo:formerName	?NAME_INSTITUTION_DESCRIPTION ;
 		fibo-fbc-fct-mkt:hasExchangeName	?NAME_INSTITUTION_DESCRIPTION ;
 		fibo-fbc-fct-mkt:hasExchangeAcronym	?ACRONYM ;
 		fibo-fnd-plc-vrt:hasWebsite	?_web ;
@@ -45,7 +44,7 @@ CONSTRUCT {
 		lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 		fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus ?_status ;
 		rdfs:label	?_miclbl ;
-		dbp:formerLabel	?_miclbl ;
+		dbo:formerName	?_miclbl ;
 		dct:created ?_crea ;
 		dct:modified ?_modf ;
 		tempo:validFrom ?_crea ;
