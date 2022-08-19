@@ -58,11 +58,11 @@ WHERE {
 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX sh: <http://www.w3.org/ns/shacl#>
-PREFIX un-loc: <http://data.ga-group.nl/un-locode/>
+PREFIX unlcd: <https://github.com/uncefact/codes-locode/blob/main/vocab/unlocode/>
 PREFIX : <local#>
 
 CONSTRUCT {
-:cons.un-loc-align.rpt
+:cons.unlcd-align.rpt
 	a sh:ValidationReport ;
 	sh:conforms false ;
 	sh:result [
@@ -70,7 +70,7 @@ CONSTRUCT {
 		sh:focusNode ?this ;
 		sh:resultMessage "there must be exactly one alignment with UN/LOCODE" ;
 		sh:resultSeverity sh:Violation ;
-		sh:sourceShape :cons.un-loc-align ;
+		sh:sourceShape :cons.unlcd-align ;
 		sh:value ?value ;
 	] .
 }
@@ -79,7 +79,7 @@ WHERE {
 	OPTIONAL {
 	SELECT ?this (COUNT(?x) AS ?value) WHERE {
 	?this skos:closeMatch ?x .
-	FILTER(STRSTARTS(STR(?x), STR(un-loc:)))
+	FILTER(STRSTARTS(STR(?x), STR(unlcd:)))
 	} GROUP BY ?this
 	}
 	FILTER(!BOUND(?value) || ?value != 1)
