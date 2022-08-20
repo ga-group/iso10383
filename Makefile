@@ -56,18 +56,11 @@ tmp/MarketsIndividuals-type.ttl: download/ISO10383_MIC_latest.xlsx
 	| grep -F $$'\ta\t' \
 	> $@
 
-tmp/MarketsIndividuals-label.ttl: download/ISO10383_MIC_latest.xlsx
-	# rescue labels and names of active nodes
-	-ttl2ttl --sortable MarketsIndividuals.ttl \
-	| grep -F $$'rdfs:label\ndbp:formerLabel' \
-	| mawk -F'\t' '$$2="dbp:formerLabel"' \
-	> $@
-
 tmp/MarketsIndividuals-name.ttl: download/ISO10383_MIC_latest.xlsx
 	# rescue labels and names of active nodes
 	-ttl2ttl --sortable MarketsIndividuals.ttl \
-	| grep -F $$'fibo-fbc-fct-mkt:hasExchangeName\ndbp:formerName' \
-	| mawk -F'\t' '$$2="dbp:formerName"' \
+	| grep -F $$'fibo-fbc-fct-mkt:hasExchangeName\ndbo:formerName' \
+	| mawk -F'\t' '$$2="dbo:formerName"' \
 	> $@
 
 tmp/MarketsIndividuals.ttl: download/ISO10383_MIC_latest.xlsx
@@ -83,7 +76,7 @@ MarketsIndividuals-chronic.ttl.symm: MarketsIndividuals-chronic.ttl
 	> $@ && mv $@ $<
 	$(MAKE) $<.canon
 
-MarketsIndividuals.ttl: tmp/MarketsIndividuals.ttl MarketsIndividuals-aux.ttl MarketsIndividuals-align.ttl MarketsIndividuals-hist.ttl MarketsIndividuals-chronic.ttl tmp/MarketsIndividuals-tempo.ttl tmp/MarketsIndividuals-type.ttl tmp/MarketsIndividuals-label.ttl tmp/MarketsIndividuals-name.ttl
+MarketsIndividuals.ttl: tmp/MarketsIndividuals.ttl MarketsIndividuals-aux.ttl MarketsIndividuals-align.ttl MarketsIndividuals-hist.ttl MarketsIndividuals-chronic.ttl tmp/MarketsIndividuals-tempo.ttl tmp/MarketsIndividuals-type.ttl tmp/MarketsIndividuals-name.ttl
 	cat $^ \
 	> $@.t && mv $@.t $@
 	$(MAKE) $@.canon
