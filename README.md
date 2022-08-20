@@ -6,8 +6,10 @@ ISO10383 (MIC)
 This repository is an RDF view on ISO10383's MICs in the [fibo-fbc-fct-mkti namespace](https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/).
 Business centres have been taken from the ISDA/FpML business centre specification in the [fibo-fbc-fct-bci namespace](https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/).
 
-See https://spec.edmcouncil.org/fibo/
-or https://github.com/edmcouncil/fibo
+See [https://spec.edmcouncil.org/fibo/]
+or [https://github.com/edmcouncil/fibo]
+
+The project's canonical home is [http://data.ga-group.nl/iso10383/].
 
 
 Why?
@@ -22,9 +24,16 @@ FIBO's business centres are not distictive.
 How?
 ----
 
-The Makefile contains some recipes to assemble a file that resembles FIBO's, taking
-a source as input, i.e. an ISO10383 xlsx file or an FpML business-center-x-y spec file,
-and enriching the file on the way using supplementary files (maintained in this repo).
+The Makefile contains some recipes to assemble a file that resembles FIBO's.
+
+For MarketsIndividuals the primary source is the latest list of Market Identifier Codes
+in the new data structure and format, to be obtained here:
+[https://www.iso20022.org/market-identifier-codes]
+
+For BusinessCentersIndividuals the primary source is the latest business-center spec
+file as published by FpML working group: [https://www.fpml.org/coding-scheme/]
+
+The resulting files are then enriched using supplementary files (maintained in this repo).
 
 The supplementary files contain alignment data with wikidata, geonames, and dbpedia.
 
