@@ -862,6 +862,19 @@ fibo-fbc-fct-mkti:Exchange-AQXA
 	skos:closeMatch	wd:Q107189189 ;
 	tempo:validFrom	"2019-02-25"^^xsd:date .
 
+fibo-fbc-fct-mkti:Exchange-AQXD
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
+	a	owl:NamedIndividual ;
+	dbo:formerName	"AQUIS EXCHANGE PLC AMP NON DISPLAY ORDER BOOK" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"AQUIS EXCHANGE PLC AMP NON DISPLAY ORDER BOOK" ;
+	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
+	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-AQXE ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.aquis.eu"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-213800IXJSF5E1SIW150-LEI ;
+	rdfs:label	"AQUIS EXCHANGE PLC AMP NON DISPLAY ORDER BOOK" ;
+	tempo:validFrom	"2022-08-22"^^xsd:date .
+
 fibo-fbc-fct-mkti:Exchange-AQXE
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
@@ -13929,14 +13942,14 @@ fibo-fbc-fct-mkti:Exchange-IOTC
 fibo-fbc-fct-mkti:Exchange-IOTF
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"ICAP SECURITIES - OTF" ;
+	dbo:formerName	"ICAP SECURITIES - OTF" , "ICAP UK OTF" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"ISL OTF" ;
-	fibo-fbc-fct-mkt:hasExchangeName	"ICAP SECURITIES - OTF" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"ICAP UK OTF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.tpicap.com/tpicap/regulatory-hub"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-549300BMVW85YF9FGN67-LEI ;
-	rdfs:label	"ICAP SECURITIES - OTF" ;
+	rdfs:label	"ICAP UK OTF" ;
 	skos:closeMatch	wd:Q93363024 ;
 	tempo:validFrom	"2022-08-22"^^xsd:date .
 
@@ -14704,7 +14717,7 @@ fibo-fbc-fct-mkti:Exchange-JSEF
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	dbo:formerName	"JAVELIN SEF, LLC" ;
-	dct:isReplacedBy	fibo-fbc-fct-mkti:Exchange-BHSF ;
+	dct:isReplacedBy	fibo-fbc-fct-mkti:Exchange-BHSF_2022-08-22 ;
 	fibo-fbc-fct-mkt:hasExchangeName	"JAVELIN SEF, LLC" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:New_York ;
@@ -26110,7 +26123,7 @@ fibo-fbc-fct-mkti:Exchange-USWP
 	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XMTS ;
-	fibo-fnd-plc-vrt:hasWebsite	"https://www.mtsmarkets.com/"^^xsd:anyURI ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.mtsmarkets.com"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-213800OANOWGT2KW8O63-LEI ;
 	rdfs:label	"EUROMTS LIMITED" ;
 	tempo:validFrom	"2022-08-03"^^xsd:date .
@@ -28060,7 +28073,7 @@ fibo-fbc-fct-mkti:Exchange-XBRN
 	fibo-fbc-fct-mkt:hasExchangeName	"BX SWISS AG" ;
 	fibo-fbc-fct-mkt:operatesInCountry	cc:CH ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bern ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://www.berne-x.com"^^xsd:anyURI , "http://www.bxswiss.com" ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.berne-x.com"^^xsd:anyURI , "http://www.bxswiss.com"^^xsd:anyURI ;
 	rdfs:label	"BX SWISS AG" ;
 	skos:closeMatch	wd:Q824533 ;
 	skos:note	"BX WORLDCAPS, BX LOCAL SHARES" ;
@@ -36044,6 +36057,19 @@ fibo-fbc-fct-mkti:MIC-AQXA
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"AQUIS EXCHANGE PLC AUCTION ON DEMAND (AOD) market segment-level market identifier" ;
 	tempo:validFrom	"2018-03-26"^^xsd:date .
+
+fibo-fbc-fct-mkti:MIC-AQXD
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dbo:formerName	"AQUIS EXCHANGE PLC AMP NON DISPLAY ORDER BOOK market segment-level market identifier" ;
+	dct:created	"2022-08-22"^^xsd:date ;
+	dct:modified	"2022-08-22"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"AQXD" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-AQXD ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"AQUIS EXCHANGE PLC AMP NON DISPLAY ORDER BOOK market segment-level market identifier" ;
+	tempo:validFrom	"2022-08-22"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-AQXE
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
@@ -47494,7 +47520,7 @@ fibo-fbc-fct-mkti:MIC-ILCM
 	a	owl:NamedIndividual ;
 	dbo:formerName	"LOUIS CAPITAL MARKETS UK market segment-level market identifier" ;
 	dct:created	"2020-07-27"^^xsd:date ;
-	dct:modified	"2020-07-27"^^xsd:date , "2022-08-04"^^xsd:date ;
+	dct:modified	"2020-07-27"^^xsd:date , "2022-08-04"^^xsd:date , "2022-08-22"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"ILCM" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-ILCM ;
@@ -47978,7 +48004,7 @@ fibo-fbc-fct-mkti:MIC-IOCD
 	a	owl:NamedIndividual ;
 	dbo:formerName	"ICAP SECURITIES OTF - CREDIT DERIVATIVES market segment-level market identifier" , "ICAP UK OTF - CREDIT DERIVATIVES market segment-level market identifier" ;
 	dct:created	"2017-11-27"^^xsd:date ;
-	dct:modified	"2017-11-27"^^xsd:date , "2022-08-04"^^xsd:date ;
+	dct:modified	"2017-11-27"^^xsd:date , "2022-08-04"^^xsd:date , "2022-08-22"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"IOCD" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-IOCD ;
@@ -47991,7 +48017,7 @@ fibo-fbc-fct-mkti:MIC-IOED
 	a	owl:NamedIndividual ;
 	dbo:formerName	"ICAP SECURITIES OTF - EQUITY DERIVATIVES market segment-level market identifier" , "ICAP UK OTF - EQUITY DERIVATIVES market segment-level market identifier" ;
 	dct:created	"2017-11-27"^^xsd:date ;
-	dct:modified	"2017-11-27"^^xsd:date , "2022-08-04"^^xsd:date ;
+	dct:modified	"2017-11-27"^^xsd:date , "2022-08-04"^^xsd:date , "2022-08-22"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"IOED" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-IOED ;
@@ -48018,7 +48044,7 @@ fibo-fbc-fct-mkti:MIC-IOFI
 	a	owl:NamedIndividual ;
 	dbo:formerName	"ICAP SECURITIES OTF - CORPORATE BONDS AND SECURITISED DEBT market segment-level market identifier" , "ICAP UK OTF - CORPORATE BONDS AND SECURITISED DEBT market segment-level market identifier" ;
 	dct:created	"2017-11-27"^^xsd:date ;
-	dct:modified	"2017-11-27"^^xsd:date , "2022-08-04"^^xsd:date ;
+	dct:modified	"2017-11-27"^^xsd:date , "2022-08-04"^^xsd:date , "2022-08-22"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"IOFI" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-IOFI ;
@@ -48031,7 +48057,7 @@ fibo-fbc-fct-mkti:MIC-IOFX
 	a	owl:NamedIndividual ;
 	dbo:formerName	"ICAP SECURITIES OTF - FX DERIVATIVES market segment-level market identifier" , "ICAP UK OTF - FX DERIVATIVES market segment-level market identifier" ;
 	dct:created	"2017-11-27"^^xsd:date ;
-	dct:modified	"2017-11-27"^^xsd:date , "2022-08-04"^^xsd:date ;
+	dct:modified	"2017-11-27"^^xsd:date , "2022-08-04"^^xsd:date , "2022-08-22"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"IOFX" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-IOFX ;
@@ -48044,7 +48070,7 @@ fibo-fbc-fct-mkti:MIC-IOGB
 	a	owl:NamedIndividual ;
 	dbo:formerName	"ICAP SECURITIES OTF - GOVERNMENT BONDS EXCLUDING UK GILTS market segment-level market identifier" , "ICAP UK OTF - GOVERNMENT BONDS EXCLUDING UK GILTS market segment-level market identifier" ;
 	dct:created	"2017-11-27"^^xsd:date ;
-	dct:modified	"2017-11-27"^^xsd:date , "2022-08-04"^^xsd:date ;
+	dct:modified	"2017-11-27"^^xsd:date , "2022-08-04"^^xsd:date , "2022-08-22"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"IOGB" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-IOGB ;
@@ -48057,7 +48083,7 @@ fibo-fbc-fct-mkti:MIC-IOGI
 	a	owl:NamedIndividual ;
 	dbo:formerName	"ICAP SECURITIES OTF - GOVERNMENT BONDS - UK GILTS market segment-level market identifier" , "ICAP UK OTF - GOVERNMENT BONDS - UK GILTS market segment-level market identifier" ;
 	dct:created	"2017-11-27"^^xsd:date ;
-	dct:modified	"2017-11-27"^^xsd:date , "2022-08-04"^^xsd:date ;
+	dct:modified	"2017-11-27"^^xsd:date , "2022-08-04"^^xsd:date , "2022-08-22"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"IOGI" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-IOGI ;
@@ -48070,7 +48096,7 @@ fibo-fbc-fct-mkti:MIC-IOIR
 	a	owl:NamedIndividual ;
 	dbo:formerName	"ICAP SECURITIES OTF - INTEREST RATE DERIVATIVES market segment-level market identifier" , "ICAP UK OTF - INTEREST RATE DERIVATIVES market segment-level market identifier" ;
 	dct:created	"2017-11-27"^^xsd:date ;
-	dct:modified	"2017-11-27"^^xsd:date , "2022-08-04"^^xsd:date ;
+	dct:modified	"2017-11-27"^^xsd:date , "2022-08-04"^^xsd:date , "2022-08-22"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"IOIR" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-IOIR ;
@@ -48083,7 +48109,7 @@ fibo-fbc-fct-mkti:MIC-IOMM
 	a	owl:NamedIndividual ;
 	dbo:formerName	"ICAP SECURITIES OTF - MONEY MARKET INSTRUMENTS market segment-level market identifier" , "ICAP UK OTF - MONEY MARKET INSTRUMENTS market segment-level market identifier" ;
 	dct:created	"2017-11-27"^^xsd:date ;
-	dct:modified	"2017-11-27"^^xsd:date , "2022-08-04"^^xsd:date ;
+	dct:modified	"2017-11-27"^^xsd:date , "2022-08-04"^^xsd:date , "2022-08-22"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"IOMM" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-IOMM ;
@@ -48107,14 +48133,14 @@ fibo-fbc-fct-mkti:MIC-IOTC
 fibo-fbc-fct-mkti:MIC-IOTF
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"ICAP SECURITIES - OTF operating-level market identifier" ;
+	dbo:formerName	"ICAP SECURITIES - OTF operating-level market identifier" , "ICAP UK OTF operating-level market identifier" ;
 	dct:created	"2017-11-27"^^xsd:date ;
-	dct:modified	"2021-04-26"^^xsd:date ;
+	dct:modified	"2021-04-26"^^xsd:date , "2022-08-22"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"IOTF" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-IOTF ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
-	rdfs:label	"ICAP SECURITIES - OTF operating-level market identifier" ;
+	rdfs:label	"ICAP UK OTF operating-level market identifier" ;
 	tempo:validFrom	"2017-11-27"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-IPNL
@@ -48439,7 +48465,7 @@ fibo-fbc-fct-mkti:MIC-IUOB
 	a	owl:NamedIndividual ;
 	dbo:formerName	"ICAP UK OTF - ORDERBOOK market segment-level market identifier" ;
 	dct:created	"2019-11-25"^^xsd:date ;
-	dct:modified	"2019-11-25"^^xsd:date , "2022-08-04"^^xsd:date ;
+	dct:modified	"2019-11-25"^^xsd:date , "2022-08-04"^^xsd:date , "2022-08-22"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"IUOB" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-IUOB ;
@@ -59532,7 +59558,7 @@ fibo-fbc-fct-mkti:MIC-USWP
 	a	owl:NamedIndividual ;
 	dbo:formerName	"EUROMTS LIMITED market segment-level market identifier" ;
 	dct:created	"2022-08-03"^^xsd:date ;
-	dct:modified	"2022-08-03"^^xsd:date ;
+	dct:modified	"2022-08-03"^^xsd:date , "2022-08-22"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"USWP" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-USWP ;

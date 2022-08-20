@@ -616,7 +616,7 @@ index 6a0a089..aef4bff 100644
  	fibo-fbc-fct-mkt:hasExchangeName	"BX SWISS AG" ;
  	fibo-fbc-fct-mkt:operatesInCountry	cc:CH ;
  	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bern ;
--	fibo-fnd-plc-vrt:hasWebsite	"http://www.berne-x.com"^^xsd:anyURI , "http://www.bxswiss.com" ;
+-	fibo-fnd-plc-vrt:hasWebsite	"http://www.berne-x.com"^^xsd:anyURI , "http://www.bxswiss.com"^^xsd:anyURI ;
 +	fibo-fnd-plc-vrt:hasWebsite	"http://www.bxswiss.com, www.berne-x.com"^^xsd:anyURI ;
  	rdfs:label	"BX SWISS AG" ;
  	skos:closeMatch	wd:Q824533 ;
