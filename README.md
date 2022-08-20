@@ -9,8 +9,6 @@ Business centres have been taken from the ISDA/FpML business centre specificatio
 See <https://spec.edmcouncil.org/fibo/>
 or <https://github.com/edmcouncil/fibo>
 
-The project's canonical home is <http://data.ga-group.nl/iso10383/>.
-
 
 Why?
 ----
@@ -43,6 +41,8 @@ Where?
 
 The [official github repository](https://github.com/ga-group/iso10383/) contains the
 published datasets as well as separately maintained alignment and enrichment files.
+
+The project's canonical home is <http://data.ga-group.nl/iso10383/>.
 
 For ease of access the latest versions of the datasets can be downloaded here:
 
