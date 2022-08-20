@@ -7,10 +7,17 @@ all: MarketsIndividuals.ttl BusinessCentersIndividuals.ttl
 canon: MarketsIndividuals.ttl.canon BusinessCentersIndividuals.ttl.canon
 check: check.MarketsIndividuals check.BusinessCentersIndividuals
 
-download: download/ISO10383_MIC_latest.xlsx
+TODAY := $(shell dateconv today)
 
-download/ISO10383_MIC_latest.xlsx:
+download: download/ISO10383_MIC_$(TODAY).xlsx
+
+download/ISO10383_MIC_$(TODAY).xlsx:
 	curl -L -o $@ 'https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC_NewFormat.xlsx'
+	if diff -q $@ download/ISO10383_MIC_latest.xlsx; then \
+		$(RM) $@; \
+	else; \
+		ln -f $@ download/ISO10383_MIC_latest.xlsx; \
+	fi
 
 %.ttl.canon: %.ttl
 	rapper -i turtle $< >/dev/null
