@@ -16,7 +16,7 @@ Why?
 FIBO's official ontology lacks historical identifiers and, consequently, annotations
 about their temporal validity.
 
-FIBO's business centres are not distictive.
+FIBO's business centres are not distinctive.
 
 
 How?
