@@ -588,7 +588,7 @@ fibo-fbc-fct-mkti:Exchange-ALXA
 fibo-fbc-fct-mkti:Exchange-ALXB
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"EURONEXT GROWTH BRUSSELS" ;
+	dbo:formerName	"EURONEXT - ALTERNEXT BRUSSELS" , "EURONEXT GROWTH BRUSSELS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EURONEXT GROWTH BRUSSELS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:BE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Brussels ;
@@ -601,7 +601,7 @@ fibo-fbc-fct-mkti:Exchange-ALXB
 fibo-fbc-fct-mkti:Exchange-ALXL
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"EURONEXT GROWTH LISBON" ;
+	dbo:formerName	"EURONEXT - ALTERNEXT LISBON" , "EURONEXT GROWTH LISBON" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EURONEXT GROWTH LISBON" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:PT ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Lisbon ;
@@ -614,7 +614,7 @@ fibo-fbc-fct-mkti:Exchange-ALXL
 fibo-fbc-fct-mkti:Exchange-ALXP
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"EURONEXT GROWTH PARIS" ;
+	dbo:formerName	"EURONEXT - ALTERNEXT PARIS" , "EURONEXT GROWTH PARIS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EURONEXT GROWTH PARIS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:FR ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Paris ;
@@ -878,7 +878,7 @@ fibo-fbc-fct-mkti:Exchange-AQXD
 fibo-fbc-fct-mkti:Exchange-AQXE
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"AQUIS EXCHANGE PLC" ;
+	dbo:formerName	"AQUIS EXCHANGE PLC" , "AQUIS EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"AQX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"AQUIS EXCHANGE PLC" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -893,7 +893,7 @@ fibo-fbc-fct-mkti:Exchange-AQXE
 fibo-fbc-fct-mkti:Exchange-ARAX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"ARRACO GLOBAL MARKETS LTD" ;
+	dbo:formerName	"ARAX COMMODITIES LTD" , "ARRACO GLOBAL MARKETS LTD" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ARRACO GLOBAL MARKETS LTD" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -1113,7 +1113,7 @@ fibo-fbc-fct-mkti:Exchange-ASXB
 fibo-fbc-fct-mkti:Exchange-ASXC
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"ASX - CENTRE POINT" ;
+	dbo:formerName	"ASX - CENTER POINT" , "ASX - CENTRE POINT" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"ASX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ASX - CENTRE POINT" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
@@ -1217,7 +1217,7 @@ fibo-fbc-fct-mkti:Exchange-ATHL
 fibo-fbc-fct-mkti:Exchange-ATLB
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"BRAEMAR ATLANTIC SECURITIES LTD" ;
+	dbo:formerName	"ATLANTIC BROKERS LTD" , "BRAEMAR ATLANTIC SECURITIES LTD" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BRAEMAR ATLANTIC SECURITIES LTD" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -1324,7 +1324,7 @@ fibo-fbc-fct-mkti:Exchange-AUTP
 fibo-fbc-fct-mkti:Exchange-AUTX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"AUTILLA" ;
+	dbo:formerName	"AUTILLA BULLION" , "AUTILLA" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"AUTILLA" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -1605,7 +1605,7 @@ fibo-fbc-fct-mkti:Exchange-BARD
 fibo-fbc-fct-mkti:Exchange-BARK
 	a	fibo-fbc-fct-mkt:DarkPool ;
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
-	dbo:formerName	"CBOE EUROPE - REGULATED MARKET DARK BOOK" ;
+	dbo:formerName	"BATS EUROPE - REGULATED MARKET DARK BOOK" , "CBOE EUROPE - REGULATED MARKET DARK BOOK" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CBOE REGM DARK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EUROPE - REGULATED MARKET DARK BOOK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -1633,7 +1633,7 @@ fibo-fbc-fct-mkti:Exchange-BARL
 fibo-fbc-fct-mkti:Exchange-BARO
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	fibo-fbc-fct-mkt:OffMarketFacility , owl:NamedIndividual ;
-	dbo:formerName	"CBOE EUROPE - REGULATED MARKET OFF BOOK" ;
+	dbo:formerName	"BATS EUROPE - REGULATED MARKET OFF BOOK" , "CBOE EUROPE - REGULATED MARKET OFF BOOK" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CBOE REGM OFF BOOK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EUROPE - REGULATED MARKET OFF BOOK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -1648,7 +1648,7 @@ fibo-fbc-fct-mkti:Exchange-BARO
 fibo-fbc-fct-mkti:Exchange-BART
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE EUROPE - REGULATED MARKET INTEGRATED BOOK" ;
+	dbo:formerName	"BATS EUROPE - REGULATED MARKET INTEGRATED BOOK" , "CBOE EUROPE - REGULATED MARKET INTEGRATED BOOK" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CBOE REGM LIT" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EUROPE - REGULATED MARKET INTEGRATED BOOK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -1749,7 +1749,7 @@ fibo-fbc-fct-mkti:Exchange-BASX
 fibo-fbc-fct-mkti:Exchange-BATD
 	a	fibo-fbc-fct-mkt:DarkPool ;
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
-	dbo:formerName	"CBOE EUROPE - BXE DARK ORDER BOOK" ;
+	dbo:formerName	"BATS EUROPE -BXE DARK ORDER BOOK" , "CBOE EUROPE - BXE DARK ORDER BOOK" , "CBOE EUROPE -BXE DARK ORDER BOOK" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CBOE DARK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EUROPE - BXE DARK ORDER BOOK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -1764,7 +1764,7 @@ fibo-fbc-fct-mkti:Exchange-BATD
 fibo-fbc-fct-mkti:Exchange-BATE
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE EUROPE - BXE ORDER BOOKS" ;
+	dbo:formerName	"BATS EUROPE -BXE ORDER BOOKS" , "CBOE EUROPE - BXE ORDER BOOKS" , "CBOE EUROPE -BXE ORDER BOOKS" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CBOE EUROPE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EUROPE - BXE ORDER BOOKS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -1779,7 +1779,7 @@ fibo-fbc-fct-mkti:Exchange-BATE
 fibo-fbc-fct-mkti:Exchange-BATF
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	fibo-fbc-fct-mkt:OffMarketFacility , owl:NamedIndividual ;
-	dbo:formerName	"CBOE EUROPE - BXE OFF-BOOK" ;
+	dbo:formerName	"BATS EUROPE - BATS OFF-BOOK" , "CBOE EUROPE - BXE OFF-BOOK" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CBOE OFF-BOOK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EUROPE - BXE OFF-BOOK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -1794,7 +1794,7 @@ fibo-fbc-fct-mkti:Exchange-BATF
 fibo-fbc-fct-mkti:Exchange-BATO
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE BZX OPTIONS EXCHANGE" ;
+	dbo:formerName	"BZX OPTIONS MARKET" , "CBOE BZX OPTIONS EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BATO" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE BZX OPTIONS EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -1809,7 +1809,7 @@ fibo-fbc-fct-mkti:Exchange-BATO
 fibo-fbc-fct-mkti:Exchange-BATP
 	a	fibo-fbc-fct-mkt:AuctionMarket ;
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
-	dbo:formerName	"CBOE EUROPE - BXE PERIODIC" ;
+	dbo:formerName	"BATS EUROPE - BXE PERIODIC" , "CBOE EUROPE - BXE PERIODIC" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BXE PERIODIC" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EUROPE - BXE PERIODIC" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -1824,7 +1824,7 @@ fibo-fbc-fct-mkti:Exchange-BATP
 fibo-fbc-fct-mkti:Exchange-BATS
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE BZX U.S. EQUITIES EXCHANGE" ;
+	dbo:formerName	"BATS Z-EXCHANGE" , "CBOE BZX U.S. EQUITIES EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BATS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE BZX U.S. EQUITIES EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -1839,7 +1839,7 @@ fibo-fbc-fct-mkti:Exchange-BATS
 fibo-fbc-fct-mkti:Exchange-BATY
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE BYX U.S. EQUITIES EXCHANGE" ;
+	dbo:formerName	"BATS Y-EXCHANGE, INC." , "CBOE BYX U.S. EQUITIES EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BYXX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE BYX U.S. EQUITIES EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -2051,7 +2051,7 @@ fibo-fbc-fct-mkti:Exchange-BCMM
 fibo-fbc-fct-mkti:Exchange-BCRM
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"CBOE EUROPE REGULATED MARKETS" ;
+	dbo:formerName	"BATS EUROPE REGULATED MARKETS" , "CBOE EUROPE REGULATED MARKETS" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CBOE EUROPE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EUROPE REGULATED MARKETS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -2123,7 +2123,7 @@ fibo-fbc-fct-mkti:Exchange-BCSL
 fibo-fbc-fct-mkti:Exchange-BCXE
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"CBOE EUROPE EQUITIES" ;
+	dbo:formerName	"BATS EUROPE" , "CBOE EUROPE EQUITIES" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CBOE EUROPE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EUROPE EQUITIES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -2984,7 +2984,7 @@ fibo-fbc-fct-mkti:Exchange-BLIQ
 fibo-fbc-fct-mkti:Exchange-BLKX
 	a	fibo-fbc-fct-mkt:AlternativeTradingSystem ;
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
-	dbo:formerName	"INSTINET BLOCKCROSS ATS" ;
+	dbo:formerName	"INSTINET BLOCKCROSS ATS" , "INSTINET BLOCKCROSS" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BLKX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"INSTINET BLOCKCROSS ATS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -3013,7 +3013,7 @@ fibo-fbc-fct-mkti:Exchange-BLNK
 fibo-fbc-fct-mkti:Exchange-BLOX
 	a	fibo-fbc-fct-mkt:DarkPool ;
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
-	dbo:formerName	"BLOCKMATCH DARK" ;
+	dbo:formerName	"BLOCKMATCH DARK" , "BLOCKMATCH MTF DARK" , "BLOCKMATCH" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BLOCKMATCH DARK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -3249,7 +3249,7 @@ fibo-fbc-fct-mkti:Exchange-BMLS
 fibo-fbc-fct-mkti:Exchange-BMLX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"BANK OF AMERICA MERRILL LYNCH INTERNATIONAL BANK DESIGNATED ACTIVITY COMPANY" ;
+	dbo:formerName	"BANK OF AMERICA MERRILL LYNCH INTERNATIONAL BANK DESIGNATED ACTIVITY COMPANY" , "BANK OF AMERICA MERRILL LYNCH INTERNATIONAL LIMITED" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BAMLI" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BANK OF AMERICA MERRILL LYNCH INTERNATIONAL BANK DESIGNATED ACTIVITY COMPANY" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:IE ;
@@ -3263,7 +3263,7 @@ fibo-fbc-fct-mkti:Exchange-BMLX
 fibo-fbc-fct-mkti:Exchange-BMSI
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"BANK OF AMERICA MERRILL LYNCH INTERNATIONAL BANK DESIGNATED ACTIVITY COMPANY - SYSTEMATIC INTERNALISER" ;
+	dbo:formerName	"BANK OF AMERICA MERRILL LYNCH INTERNATIONAL BANK DESIGNATED ACTIVITY COMPANY - SYSTEMATIC INTERNALISER" , "BANK OF AMERICA MERRILL LYNCH INTERNATIONAL LIMITED - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BAMLI" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BANK OF AMERICA MERRILL LYNCH INTERNATIONAL BANK DESIGNATED ACTIVITY COMPANY - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:IE ;
@@ -3579,7 +3579,7 @@ fibo-fbc-fct-mkti:Exchange-BOSP
 fibo-fbc-fct-mkti:Exchange-BOTC
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	fibo-fbc-fct-mkt:OffMarketFacility , owl:NamedIndividual ;
-	dbo:formerName	"OFF EXCHANGE IDENTIFIER FOR OTC TRADES REPORTED TO CBOE EUROPE" ;
+	dbo:formerName	"OFF EXCHANGE IDENTIFIER FOR OTC TRADES REPORTED TO BATS EUROPE" , "OFF EXCHANGE IDENTIFIER FOR OTC TRADES REPORTED TO CBOE EUROPE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CBOE OFF EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"OFF EXCHANGE IDENTIFIER FOR OTC TRADES REPORTED TO CBOE EUROPE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -3704,7 +3704,7 @@ fibo-fbc-fct-mkti:Exchange-BPOL
 fibo-fbc-fct-mkti:Exchange-BPSX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"BNP PARIBAS SECURITIES SERVICES - SYSTEMATIC INTERNALISER" ;
+	dbo:formerName	"BNP PARIBAS SECURITIES SERVICES - SYSTEMATIC INTERNALISER" , "BNP PARIBAS SECURITIES SERVICES" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BP2S" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BNP PARIBAS SECURITIES SERVICES - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:FR ;
@@ -3978,7 +3978,7 @@ fibo-fbc-fct-mkti:Exchange-BTEC
 fibo-fbc-fct-mkti:Exchange-BTEE
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"BROKERTEC EUROPE LIMITED - ALL MARKETS" ;
+	dbo:formerName	"BROKERTEC EUROPE LIMITED - ALL MARKETS" , "BROKERTEC" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BEM" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BROKERTEC EUROPE LIMITED - ALL MARKETS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -4173,7 +4173,7 @@ fibo-fbc-fct-mkti:Exchange-BVCA
 fibo-fbc-fct-mkti:Exchange-BVMF
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"B3 S.A. - BRASIL BOLSA BALCAO" ;
+	dbo:formerName	"B3 S.A. - BRASIL BOLSA BALCAO" , "BM&FBOVESPA S.A. - BOLSA DE VALORES, MERCADORIAS E FUTUROS" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"B3" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"B3 S.A. - BRASIL BOLSA BALCAO" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:BR ;
@@ -4229,7 +4229,7 @@ fibo-fbc-fct-mkti:Exchange-BVUS
 fibo-fbc-fct-mkti:Exchange-BYXD
 	a	fibo-fbc-fct-mkt:DarkPool ;
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
-	dbo:formerName	"CBOE BYX U.S. EQUITIES EXCHANGE DARK" ;
+	dbo:formerName	"BATS Y-EXCHANGE DARK" , "CBOE BYX U.S. EQUITIES EXCHANGE DARK" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BYXDARK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE BYX U.S. EQUITIES EXCHANGE DARK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -4245,7 +4245,7 @@ fibo-fbc-fct-mkti:Exchange-BYXD
 fibo-fbc-fct-mkti:Exchange-BZXD
 	a	fibo-fbc-fct-mkt:DarkPool ;
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
-	dbo:formerName	"CBOE BZX U.S. EQUITIES EXCHANGE DARK" ;
+	dbo:formerName	"BATS Z-EXCHANGE DARK" , "CBOE BZX U.S. EQUITIES EXCHANGE DARK" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BZXDARK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE BZX U.S. EQUITIES EXCHANGE DARK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -4261,7 +4261,7 @@ fibo-fbc-fct-mkti:Exchange-BZXD
 fibo-fbc-fct-mkti:Exchange-C2OX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE C2 OPTIONS EXCHANGE" ;
+	dbo:formerName	"C2 OPTIONS EXCHANGE INC." , "CBOE C2 OPTIONS EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"C2OX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE C2 OPTIONS EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -4545,7 +4545,7 @@ fibo-fbc-fct-mkti:Exchange-CBKE
 fibo-fbc-fct-mkti:Exchange-CBKF
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , owl:NamedIndividual ;
-	dbo:formerName	"COMMERZBANK COMMANDER - SYSTEMATIC INTERNALISER" ;
+	dbo:formerName	"COMMERZBANK COMMANDER (NON-SI)" , "COMMERZBANK COMMANDER - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"COMMERZBANK COMMANDER - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:DE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Frankfurt ;
@@ -4606,7 +4606,7 @@ fibo-fbc-fct-mkti:Exchange-CBLC
 fibo-fbc-fct-mkti:Exchange-CBNL
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"CITIBANK N.A. LONDON" ;
+	dbo:formerName	"CITIBANK N.A. - LONDON BRANCH" , "CITIBANK N.A. LONDON" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CITIBANK N.A. LONDON" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -5313,7 +5313,7 @@ fibo-fbc-fct-mkti:Exchange-CGMA
 fibo-fbc-fct-mkti:Exchange-CGMC
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CITIGROUP GLOBAL MARKETS LIMITED - EMEA LIQUIDITY HUB" ;
+	dbo:formerName	"CITIGROUP GLOBAL MARKETS LIMITED - CENTRAL RISK DESK" , "CITIGROUP GLOBAL MARKETS LIMITED - EMEA LIQUIDITY HUB" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CITIGROUP GLOBAL MARKETS LIMITED - EMEA LIQUIDITY HUB" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -5328,7 +5328,7 @@ fibo-fbc-fct-mkti:Exchange-CGMC
 fibo-fbc-fct-mkti:Exchange-CGMD
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"CITIGROUP GLOBAL MARKETS EUROPE AG - SYSTEMATIC INTERNALISER" ;
+	dbo:formerName	"CITIGROUP GLOBAL MARKETS DEUTSCHLAND AG - SYSTEMATIC INTERNALISER" , "CITIGROUP GLOBAL MARKETS EUROPE AG - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CITIGROUP GLOBAL MARKETS EUROPE AG - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:DE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Frankfurt ;
@@ -5342,7 +5342,7 @@ fibo-fbc-fct-mkti:Exchange-CGMD
 fibo-fbc-fct-mkti:Exchange-CGME
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CITI MATCH - GB" ;
+	dbo:formerName	"CITI MATCH - GB" , "CITI MATCH" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CITI MATCH - GB" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -5370,7 +5370,7 @@ fibo-fbc-fct-mkti:Exchange-CGMG
 fibo-fbc-fct-mkti:Exchange-CGMH
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"CITI MATCH - HK" ;
+	dbo:formerName	"CITI MATCH - HK" , "CITI MATCH" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CITI MATCH - HK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:HK ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Hong_Kong ;
@@ -5532,7 +5532,7 @@ fibo-fbc-fct-mkti:Exchange-CHEV
 fibo-fbc-fct-mkti:Exchange-CHIA
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"CBOE AUSTRALIA" ;
+	dbo:formerName	"CBOE AUSTRALIA" , "CHI-X AUSTRALIA" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE AUSTRALIA" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
@@ -5557,7 +5557,7 @@ fibo-fbc-fct-mkti:Exchange-CHIC
 fibo-fbc-fct-mkti:Exchange-CHID
 	a	fibo-fbc-fct-mkt:DarkPool ;
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
-	dbo:formerName	"CBOE EUROPE - CXE DARK ORDER BOOK" ;
+	dbo:formerName	"BATS EUROPE - CXE DARK ORDER BOOK" , "CBOE EUROPE - CXE DARK ORDER BOOK" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CXE DARK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EUROPE - CXE DARK ORDER BOOK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -5598,7 +5598,7 @@ fibo-fbc-fct-mkti:Exchange-CHIJ
 fibo-fbc-fct-mkti:Exchange-CHIO
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	fibo-fbc-fct-mkt:OffMarketFacility , owl:NamedIndividual ;
-	dbo:formerName	"CBOE EUROPE - CXE OFF-BOOK" ;
+	dbo:formerName	"BATS EUROPE - CXE - OFF-BOOK" , "CBOE EUROPE - CXE OFF-BOOK" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CXE OFF-BOOK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EUROPE - CXE OFF-BOOK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -5642,7 +5642,7 @@ fibo-fbc-fct-mkti:Exchange-CHIV
 fibo-fbc-fct-mkti:Exchange-CHIX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE EUROPE - CXE ORDER BOOKS" ;
+	dbo:formerName	"BATS EUROPE - CXE ORDER BOOKS" , "CBOE EUROPE - CXE ORDER BOOKS" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CBOE EUROPE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EUROPE - CXE ORDER BOOKS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -5862,7 +5862,7 @@ fibo-fbc-fct-mkti:Exchange-CITD
 fibo-fbc-fct-mkti:Exchange-CITX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"CITI MATCH - JP" ;
+	dbo:formerName	"CITI MATCH - JP" , "CITI MATCH" ;
 	dct:replaces	fibo-fbc-fct-mkti:Exchange-CITX_2022-07-25 ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CM" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CITI MATCH - JP" ;
@@ -6293,7 +6293,7 @@ fibo-fbc-fct-mkti:Exchange-CONE
 fibo-fbc-fct-mkti:Exchange-CORE
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CITIGROUP AGENCY OPTION AND EQUITIES ROUTING ENGINE" ;
+	dbo:formerName	"ATD - CITIGROUP AGENCY OPTION AND EQUITIES ROUTING ENGINE" , "CITIGROUP AGENCY OPTION AND EQUITIES ROUTING ENGINE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CITIGROUP AGENCY OPTION AND EQUITIES ROUTING ENGINE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Mount_Pleasant ;
@@ -6796,7 +6796,7 @@ fibo-fbc-fct-mkti:Exchange-CURX
 fibo-fbc-fct-mkti:Exchange-CXAC
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE AUSTRALIA - LIMIT VENUE" ;
+	dbo:formerName	"CBOE AUSTRALIA - LIMIT VENUE" , "CHI-X MARKET AUSTRALIA - LIMIT VENUE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CXA" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE AUSTRALIA - LIMIT VENUE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
@@ -6811,7 +6811,7 @@ fibo-fbc-fct-mkti:Exchange-CXAC
 fibo-fbc-fct-mkti:Exchange-CXAF
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE AUSTRALIA MARKET PEG (FARPOINT) VENUE" ;
+	dbo:formerName	"CBOE AUSTRALIA MARKET PEG (FARPOINT) VENUE" , "CHI-X AUSTRALIA MARKET PEG (FARPOINT) VENUE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CXA" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE AUSTRALIA MARKET PEG (FARPOINT) VENUE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
@@ -6826,7 +6826,7 @@ fibo-fbc-fct-mkti:Exchange-CXAF
 fibo-fbc-fct-mkti:Exchange-CXAM
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE AUSTRALIA MOC" ;
+	dbo:formerName	"CBOE AUSTRALIA MOC" , "CHI-X MOC" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE AUSTRALIA MOC" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
@@ -6840,7 +6840,7 @@ fibo-fbc-fct-mkti:Exchange-CXAM
 fibo-fbc-fct-mkti:Exchange-CXAN
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE AUSTRALIA PRIMARY PEG (NEARPOINT) VENUE" ;
+	dbo:formerName	"CBOE AUSTRALIA PRIMARY PEG (NEARPOINT) VENUE" , "CHI-X AUSTRALIA PRIMARY PEG (NEARPOINT) VENUE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CXA" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE AUSTRALIA PRIMARY PEG (NEARPOINT) VENUE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
@@ -6855,7 +6855,7 @@ fibo-fbc-fct-mkti:Exchange-CXAN
 fibo-fbc-fct-mkti:Exchange-CXAP
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE AUSTRALIA MID-POINT VENUE" ;
+	dbo:formerName	"CBOE AUSTRALIA MID-POINT VENUE" , "CHI-X AUSTRALIA MID-POINT VENUE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CXA" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE AUSTRALIA MID-POINT VENUE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
@@ -6870,7 +6870,7 @@ fibo-fbc-fct-mkti:Exchange-CXAP
 fibo-fbc-fct-mkti:Exchange-CXAQ
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	fibo-fbc-fct-mkt:QuoteDrivenMarket , owl:NamedIndividual ;
-	dbo:formerName	"CBOE AUSTRALIA - QUOTED MANAGED FUNDS" ;
+	dbo:formerName	"CBOE AUSTRALIA - QUOTED MANAGED FUNDS" , "CHI-X AUSTRALIA -QUOTED MANAGED FUNDS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE AUSTRALIA - QUOTED MANAGED FUNDS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
@@ -6884,7 +6884,7 @@ fibo-fbc-fct-mkti:Exchange-CXAQ
 fibo-fbc-fct-mkti:Exchange-CXAR
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE AUSTRALIA - TRANSFERABLE CUSTODY RECEIPT MARKET" ;
+	dbo:formerName	"CBOE AUSTRALIA - TRANSFERABLE CUSTODY RECEIPT MARKET" , "CHI-X AUSTRALIA - TRANSFERABLE CUSTODY RECEIPT MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CHI-X" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE AUSTRALIA - TRANSFERABLE CUSTODY RECEIPT MARKET" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
@@ -6899,7 +6899,7 @@ fibo-fbc-fct-mkti:Exchange-CXAR
 fibo-fbc-fct-mkti:Exchange-CXAV
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE AUSTRALIA VWAP" ;
+	dbo:formerName	"CBOE AUSTRALIA VWAP" , "CHI-X VWAP" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE AUSTRALIA VWAP" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
@@ -6913,7 +6913,7 @@ fibo-fbc-fct-mkti:Exchange-CXAV
 fibo-fbc-fct-mkti:Exchange-CXAW
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE AUSTRALIA - WARRANTS" ;
+	dbo:formerName	"CBOE AUSTRALIA - WARRANTS" , "CHI-X AUSTRALIA - WARRANTS" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CXA" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE AUSTRALIA - WARRANTS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
@@ -6942,7 +6942,7 @@ fibo-fbc-fct-mkti:Exchange-CXOT
 fibo-fbc-fct-mkti:Exchange-CXRT
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CREDITEX BROKERAGE LLP - MTF" ;
+	dbo:formerName	"CREDITEX BROKERAGE LLP - MTF" , "CREDITEX BROKERAGE LLP" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CREDITEX BROKERAGE LLP - MTF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -6981,7 +6981,7 @@ fibo-fbc-fct-mkti:Exchange-DAMP
 fibo-fbc-fct-mkti:Exchange-DAPA
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"DEUTSCHE BOERSE AG - APA SERVICE" ;
+	dbo:formerName	"DEUTSCHE BOERSE AG - APA SERVICE" , "DEUTSCHE BOERSE AG APA SERVICE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"DEUTSCHE BOERSE AG - APA SERVICE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:DE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Frankfurt ;
@@ -7134,7 +7134,7 @@ fibo-fbc-fct-mkti:Exchange-DBDX
 fibo-fbc-fct-mkti:Exchange-DBES
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , owl:NamedIndividual ;
-	dbo:formerName	"DEUTSCHE BANK AG - SYSTEMATIC INTERNALISER" ;
+	dbo:formerName	"DEUTSCHE BANK AG - SYSTEMATIC INTERNALISER" , "DEUTSCHE BANK AG OPERATING MARKET CODE FOR EU SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"DBES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"DEUTSCHE BANK AG - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:DE ;
@@ -7162,7 +7162,7 @@ fibo-fbc-fct-mkti:Exchange-DBHK
 fibo-fbc-fct-mkti:Exchange-DBIX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"DEUTSCHE BANK AG - LONDON" ;
+	dbo:formerName	"DEUTSCHE BANK AG - LONDON" , "DEUTSCHE BANK INTERNALISATION" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"DEUTSCHE BANK AG - LONDON" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -7882,7 +7882,7 @@ fibo-fbc-fct-mkti:Exchange-EBON
 fibo-fbc-fct-mkti:Exchange-EBRA
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"BRATISLAVA STOCK EXCHANGE - MTF" ;
+	dbo:formerName	"BRATISLAVA STOCK EXCHANGE - MTF" , "BRATISLAVA STOCK EXCHANGE-MTF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BRATISLAVA STOCK EXCHANGE - MTF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:SK ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bratislava ;
@@ -8154,7 +8154,7 @@ fibo-fbc-fct-mkti:Exchange-EDBT
 fibo-fbc-fct-mkti:Exchange-EDDP
 	a	fibo-fbc-fct-mkt:DarkPool ;
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
-	dbo:formerName	"CBOE EDGX U.S. EQUITIES EXCHANGE DARK" ;
+	dbo:formerName	"CBOE EDGX U.S. EQUITIES EXCHANGE DARK" , "EDGX EXCHANGE DARK" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"EDGXDARK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EDGX U.S. EQUITIES EXCHANGE DARK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -8170,7 +8170,7 @@ fibo-fbc-fct-mkti:Exchange-EDDP
 fibo-fbc-fct-mkti:Exchange-EDGA
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE EDGA U.S. EQUITIES EXCHANGE" ;
+	dbo:formerName	"CBOE EDGA U.S. EQUITIES EXCHANGE" , "EDGA EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"EDGA" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EDGA U.S. EQUITIES EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -8185,7 +8185,7 @@ fibo-fbc-fct-mkti:Exchange-EDGA
 fibo-fbc-fct-mkti:Exchange-EDGD
 	a	fibo-fbc-fct-mkt:DarkPool ;
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
-	dbo:formerName	"CBOE EDGA U.S. EQUITIES EXCHANGE DARK" ;
+	dbo:formerName	"CBOE EDGA U.S. EQUITIES EXCHANGE DARK" , "EDGA EXCHANGE DARK" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"EDGADARK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EDGA U.S. EQUITIES EXCHANGE DARK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -8226,7 +8226,7 @@ fibo-fbc-fct-mkti:Exchange-EDGL
 fibo-fbc-fct-mkti:Exchange-EDGO
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE EDGX OPTIONS EXCHANGE" ;
+	dbo:formerName	"CBOE EDGX OPTIONS EXCHANGE" , "EDGX OPTIONS MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"EDGO" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EDGX OPTIONS EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -8242,7 +8242,7 @@ fibo-fbc-fct-mkti:Exchange-EDGO
 fibo-fbc-fct-mkti:Exchange-EDGX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE EDGX U.S. EQUITIES EXCHANGE" ;
+	dbo:formerName	"CBOE EDGX U.S. EQUITIES EXCHANGE" , "EDGX EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"EDGX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EDGX U.S. EQUITIES EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -8352,7 +8352,7 @@ fibo-fbc-fct-mkti:Exchange-EIXE
 fibo-fbc-fct-mkti:Exchange-ELEU
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"NASDAQ OSLO ASA - EUROPEAN POWER AND GAS DERIVATIVES" ;
+	dbo:formerName	"NASDAQ COMMODITIES - EUR POWER/ENERGY" , "NASDAQ OSLO ASA - EUROPEAN POWER AND GAS DERIVATIVES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"NASDAQ OSLO ASA - EUROPEAN POWER AND GAS DERIVATIVES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NO ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Oslo ;
@@ -8394,7 +8394,7 @@ fibo-fbc-fct-mkti:Exchange-ELIX
 fibo-fbc-fct-mkti:Exchange-ELNO
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"NASDAQ OSLO ASA - NORDIC POWER DERIVATIVES AND EUROPEAN UNION ALLOWANCES" ;
+	dbo:formerName	"NASDAQ COMMODITIES - NOK POWER/ENERGY" , "NASDAQ OSLO ASA - NORDIC POWER DERIVATIVES AND EUROPEAN UNION ALLOWANCES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"NASDAQ OSLO ASA - NORDIC POWER DERIVATIVES AND EUROPEAN UNION ALLOWANCES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NO ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Oslo ;
@@ -8420,7 +8420,7 @@ fibo-fbc-fct-mkti:Exchange-ELNO_2022-05-23
 fibo-fbc-fct-mkti:Exchange-ELSE
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"NASDAQ OSLO ASA - SWEDISH ELECTRICITY CERTIFICATE" ;
+	dbo:formerName	"NASDAQ COMMODITIES - SEK POWER/ENERGY" , "NASDAQ OSLO ASA - SWEDISH ELECTRICITY CERTIFICATE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"NASDAQ OSLO ASA - SWEDISH ELECTRICITY CERTIFICATE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NO ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Oslo ;
@@ -8600,7 +8600,7 @@ fibo-fbc-fct-mkti:Exchange-EMTF
 fibo-fbc-fct-mkti:Exchange-EMTS
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"EBM" ;
+	dbo:formerName	"EBM" , "EUROMTS" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"EMTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EBM" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -8727,7 +8727,7 @@ fibo-fbc-fct-mkti:Exchange-ENXB
 fibo-fbc-fct-mkti:Exchange-ENXL
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"EURONEXT ACCESS LISBON" ;
+	dbo:formerName	"EURONEXT - EASYNEXT LISBON" , "EURONEXT ACCESS LISBON" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EURONEXT ACCESS LISBON" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:PT ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Lisbon ;
@@ -9010,7 +9010,7 @@ fibo-fbc-fct-mkti:Exchange-ERFQ
 fibo-fbc-fct-mkti:Exchange-ERIS
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"ERSX" ;
+	dbo:formerName	"ERIS EXCHANGE" , "ERSX" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"ERSX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ERSX" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -9079,7 +9079,7 @@ fibo-fbc-fct-mkti:Exchange-ESTO
 fibo-fbc-fct-mkti:Exchange-ETFP
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"ELECTRONIC ETF, ETC/ETN AND OPEN-END FUNDS MARKET" ;
+	dbo:formerName	"ELECTRONIC ETF, ETC/ETN AND OPEN-END FUNDS MARKET" , "ELECTRONIC OPEN-END FUNDS AND ETC MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"ETFPLUS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ELECTRONIC ETF, ETC/ETN AND OPEN-END FUNDS MARKET" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:IT ;
@@ -9570,7 +9570,7 @@ fibo-fbc-fct-mkti:Exchange-EXSH
 fibo-fbc-fct-mkti:Exchange-EXSI
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , owl:NamedIndividual ;
-	dbo:formerName	"EXANE BNP PARIBAS - GB - SYSTEMATIC INTERNALISER" ;
+	dbo:formerName	"EXANE BNP PARIBAS - GB - SYSTEMATIC INTERNALISER" , "EXANE BNP PARIBAS - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EXANE BNP PARIBAS - GB - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -9669,7 +9669,7 @@ fibo-fbc-fct-mkti:Exchange-FAIR
 fibo-fbc-fct-mkti:Exchange-FAST
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"EURONEXT FX" ;
+	dbo:formerName	"EURONEXT FX" , "FASTMATCH" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EURONEXT FX" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:New_York ;
@@ -9793,7 +9793,7 @@ fibo-fbc-fct-mkti:Exchange-FINC
 fibo-fbc-fct-mkti:Exchange-FINN
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"FINRA/NASDAQ TRF CARTERET (TRADE REPORTING FACILITY)" ;
+	dbo:formerName	"FINRA/NASDAQ TRF CARTERET (TRADE REPORTING FACILITY)" , "FINRA/NASDAQ TRF(TRADE REPORTING FACILITY)" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"FINN" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"FINRA/NASDAQ TRF CARTERET (TRADE REPORTING FACILITY)" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -10766,7 +10766,7 @@ fibo-fbc-fct-mkti:Exchange-GFIB
 fibo-fbc-fct-mkti:Exchange-GFIC
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"GFI SECURITIES LTD" ;
+	dbo:formerName	"GFI CREDITMATCH" , "GFI SECURITIES LTD" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"GFI SECURITIES LTD" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -11694,7 +11694,7 @@ fibo-fbc-fct-mkti:Exchange-HANB
 fibo-fbc-fct-mkti:Exchange-HBFR
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"HSBC CONTINENTAL EUROPE - SYSTEMATIC INTERNALISER" ;
+	dbo:formerName	"HSBC CONTINENTAL EUROPE - SYSTEMATIC INTERNALISER" , "HSBC FRANCE - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"HSBC CONTINENTAL EUROPE - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:FR ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Paris ;
@@ -11804,7 +11804,7 @@ fibo-fbc-fct-mkti:Exchange-HELA
 fibo-fbc-fct-mkti:Exchange-HEMO
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"HENEX S.A." ;
+	dbo:formerName	"HENEX S.A." , "LAGIE - OPERATOR OF THE ENERGY MARKET S.A." ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"HENEX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"HENEX S.A." ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GR ;
@@ -11903,7 +11903,7 @@ fibo-fbc-fct-mkti:Exchange-HOTC
 fibo-fbc-fct-mkti:Exchange-HPCO
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"HPC ETRADING" ;
+	dbo:formerName	"HPC ETRADING" , "HPC SA - PARIS - OTF" , "HPC SA - PARIS" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"HPC" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"HPC ETRADING" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:FR ;
@@ -11919,7 +11919,7 @@ fibo-fbc-fct-mkti:Exchange-HPCO
 fibo-fbc-fct-mkti:Exchange-HPCS
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"HPC ENERGY TRADING" ;
+	dbo:formerName	"HPC ENERGY TRADING" , "HPC SA" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"HPC" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"HPC ENERGY TRADING" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:FR ;
@@ -12534,7 +12534,7 @@ fibo-fbc-fct-mkti:Exchange-ICOT
 fibo-fbc-fct-mkti:Exchange-ICPM
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"TP ICAP UK MTF" ;
+	dbo:formerName	"ICAP MTF" , "TP ICAP UK MTF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP ICAP UK MTF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -13082,7 +13082,7 @@ fibo-fbc-fct-mkti:Exchange-IIDX
 fibo-fbc-fct-mkti:Exchange-IINX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"INDIA INTERNATIONAL EXCHANGE (IFSC) LIMITED" ;
+	dbo:formerName	"INDIA INTERNATIONAL EXCHANGE (IFSC) LIMITED" , "INDIA INX - GLOBAL SECURITIES MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"INDIA INX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"INDIA INTERNATIONAL EXCHANGE (IFSC) LIMITED" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:IN ;
@@ -13167,7 +13167,7 @@ fibo-fbc-fct-mkti:Exchange-IMBD
 fibo-fbc-fct-mkti:Exchange-IMCC
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"ICE CREDIT TRADE" ;
+	dbo:formerName	"CREDITEX SECURITIES CORPORATION" , "ICE CREDIT TRADE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ICE CREDIT TRADE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:New_York ;
@@ -13197,7 +13197,7 @@ fibo-fbc-fct-mkti:Exchange-IMCD
 fibo-fbc-fct-mkti:Exchange-IMCE
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP ICAP UK MTF - CASH EQUITY" ;
+	dbo:formerName	"ICAP MTF - CASH EQUITY" , "TP ICAP UK MTF - CASH EQUITY" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP ICAP UK MTF - CASH EQUITY" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -13241,7 +13241,7 @@ fibo-fbc-fct-mkti:Exchange-IMCM
 fibo-fbc-fct-mkti:Exchange-IMCO
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"ICE ENDEX OTF FUTURES" ;
+	dbo:formerName	"ICE ENDEX OTF FUTURES" , "ICE ENDEX PHYSICAL FORWARDS" , "ICE MARKETS COMMODITIES" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"ICE ENDEX OTF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ICE ENDEX OTF FUTURES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NL ;
@@ -13298,7 +13298,7 @@ fibo-fbc-fct-mkti:Exchange-IMCT
 fibo-fbc-fct-mkti:Exchange-IMED
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP ICAP UK MTF - EQUITY DERIVATIVES" ;
+	dbo:formerName	"ICAP MTF - EQUITY DERIVATIVES" , "TP ICAP UK MTF - EQUITY DERIVATIVES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP ICAP UK MTF - EQUITY DERIVATIVES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -13343,7 +13343,7 @@ fibo-fbc-fct-mkti:Exchange-IMEQ
 fibo-fbc-fct-mkti:Exchange-IMET
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP ICAP UK MTF - EXCHANGE TRADED PRODUCTS" ;
+	dbo:formerName	"ICAP MTF - ETFS" , "TP ICAP UK MTF - EXCHANGE TRADED PRODUCTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP ICAP UK MTF - EXCHANGE TRADED PRODUCTS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -13371,7 +13371,7 @@ fibo-fbc-fct-mkti:Exchange-IMEX
 fibo-fbc-fct-mkti:Exchange-IMFD
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP ICAP UK MTF - FX DERIVATIVES" ;
+	dbo:formerName	"ICAP MTF - FX DERIVATIVES" , "TP ICAP UK MTF - FX DERIVATIVES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP ICAP UK MTF - FX DERIVATIVES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -13400,7 +13400,7 @@ fibo-fbc-fct-mkti:Exchange-IMFX
 fibo-fbc-fct-mkti:Exchange-IMGB
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP ICAP UK MTF - GOVERNMENT BONDS EXCLUDING GILTS" ;
+	dbo:formerName	"ICAP MTF - GOVERNMENT BONDS EXCLUDING GILTS" , "TP ICAP UK MTF - GOVERNMENT BONDS EXCLUDING GILTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP ICAP UK MTF - GOVERNMENT BONDS EXCLUDING GILTS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -13415,7 +13415,7 @@ fibo-fbc-fct-mkti:Exchange-IMGB
 fibo-fbc-fct-mkti:Exchange-IMGI
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP ICAP UK MTF - GILTS" ;
+	dbo:formerName	"ICAP MTF - GILTS" , "TP ICAP UK MTF - GILTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP ICAP UK MTF - GILTS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -13458,7 +13458,7 @@ fibo-fbc-fct-mkti:Exchange-IMMH
 fibo-fbc-fct-mkti:Exchange-IMMM
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP ICAP UK MTF - MONEY MARKET INSTRUMENTS" ;
+	dbo:formerName	"ICAP MTF - MONEY MARKET INSTRUMENTS" , "TP ICAP UK MTF - MONEY MARKET INSTRUMENTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP ICAP UK MTF - MONEY MARKET INSTRUMENTS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -13473,7 +13473,7 @@ fibo-fbc-fct-mkti:Exchange-IMMM
 fibo-fbc-fct-mkti:Exchange-IMRD
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP ICAP UK MTF - INTEREST RATE DERIVATIVES" ;
+	dbo:formerName	"ICAP MTF - INTEREST RATE DERIVATIVES" , "TP ICAP UK MTF - INTEREST RATE DERIVATIVES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP ICAP UK MTF - INTEREST RATE DERIVATIVES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -13488,7 +13488,7 @@ fibo-fbc-fct-mkti:Exchange-IMRD
 fibo-fbc-fct-mkti:Exchange-IMSB
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP ICAP UK MTF - CORPORATE BONDS AND SECURITIES DEBT" ;
+	dbo:formerName	"ICAP MTF - CORPORATE BONDS AND SECURITIES DEBT" , "TP ICAP UK MTF - CORPORATE BONDS AND SECURITIES DEBT" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP ICAP UK MTF - CORPORATE BONDS AND SECURITIES DEBT" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -13531,7 +13531,7 @@ fibo-fbc-fct-mkti:Exchange-IMTS
 fibo-fbc-fct-mkti:Exchange-INCA
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"INSTINET DESK CROSS" ;
+	dbo:formerName	"INSTINET DESCK CROSS" , "INSTINET DESK CROSS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"INSTINET DESK CROSS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:New_York ;
@@ -14130,7 +14130,7 @@ fibo-fbc-fct-mkti:Exchange-ISSI
 fibo-fbc-fct-mkti:Exchange-ISWA
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"ISWAP UK MTF" ;
+	dbo:formerName	"I-SWAP" , "ISWAP UK MTF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ISWAP UK MTF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -14144,7 +14144,7 @@ fibo-fbc-fct-mkti:Exchange-ISWA
 fibo-fbc-fct-mkti:Exchange-ISWB
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	fibo-fbc-fct-mkt:OffMarketFacility , owl:NamedIndividual ;
-	dbo:formerName	"ISWAP UK MTF - TRADE REGISTRATION" ;
+	dbo:formerName	"I-SWAP - TRADE REGISTRATION" , "ISWAP UK MTF - TRADE REGISTRATION" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ISWAP UK MTF - TRADE REGISTRATION" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -14159,7 +14159,7 @@ fibo-fbc-fct-mkti:Exchange-ISWB
 fibo-fbc-fct-mkti:Exchange-ISWC
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"ISWAP UK MTF ORDER BOOK" ;
+	dbo:formerName	"I-SWAP ORDER BOOK" , "ISWAP UK MTF ORDER BOOK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ISWAP UK MTF ORDER BOOK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -14182,7 +14182,7 @@ fibo-fbc-fct-mkti:Exchange-ISWE
 	lcc-lr:isIdentifiedBy	gleif:L-213800C2MCT5QBE5VW36-LEI ;
 	rdfs:label	"ICAP GLOBAL DERIVATIVES LIMITED - ELECTRONIC" ;
 	skos:closeMatch	wd:Q107190283 ;
-	skos:note	"MTF/SEF FOR THE TRADING OF INTEREST RATE DERIVATIVES – CLOB." ;
+	skos:note	"MTF/SEF FOR THE TRADING OF INTEREST RATE DERIVATIVES - CLOB." ;
 	tempo:validFrom	"2018-02-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-ISWN
@@ -14232,7 +14232,7 @@ fibo-fbc-fct-mkti:Exchange-ISWP
 fibo-fbc-fct-mkti:Exchange-ISWR
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"ISWAP UK MTF TARGETED STREAMING/RFQ" ;
+	dbo:formerName	"I-SWAP TARGETED STREAMING/RFQ" , "ISWAP UK MTF TARGETED STREAMING/RFQ" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ISWAP UK MTF TARGETED STREAMING/RFQ" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -14270,7 +14270,7 @@ fibo-fbc-fct-mkti:Exchange-ISWV
 	lcc-lr:isIdentifiedBy	gleif:L-213800C2MCT5QBE5VW36-LEI ;
 	rdfs:label	"ICAP GLOBAL DERIVATIVES LIMITED - VOICE" ;
 	skos:closeMatch	wd:Q107190281 ;
-	skos:note	"MTF/SEF FOR THE TRADING OF INTEREST RATE DERIVATIVES – VOICE / RFQ." ;
+	skos:note	"MTF/SEF FOR THE TRADING OF INTEREST RATE DERIVATIVES - VOICE / RFQ." ;
 	tempo:validFrom	"2018-02-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-ITGI
@@ -14289,7 +14289,7 @@ fibo-fbc-fct-mkti:Exchange-ITGI
 fibo-fbc-fct-mkti:Exchange-ITGL
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"POSIT MTF" ;
+	dbo:formerName	"ITG - POSIT MTF" , "POSIT MTF" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"POSIT" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"POSIT MTF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:IE ;
@@ -14479,7 +14479,7 @@ fibo-fbc-fct-mkti:Exchange-JESI
 fibo-fbc-fct-mkti:Exchange-JISI
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"JEFFERIES INTERNATIONAL" ;
+	dbo:formerName	"JEFFERIES INTERNATIONAL - SYSTEMATIC INTERNALISER" , "JEFFERIES INTERNATIONAL" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"JEFFERIES INTERNATIONAL" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -14536,7 +14536,7 @@ fibo-fbc-fct-mkti:Exchange-JLEU_2022-06-27
 fibo-fbc-fct-mkti:Exchange-JLQD
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"JUMP LIQUIDITY - MULTI-ASSET PLATFORM" ;
+	dbo:formerName	"JUMP LIQUIDITY - MULTI-ASSET PLATFORM" , "JUMP LIQUIDITY" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"JLQD" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"JUMP LIQUIDITY - MULTI-ASSET PLATFORM" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -14622,7 +14622,7 @@ fibo-fbc-fct-mkti:Exchange-JPBX
 fibo-fbc-fct-mkti:Exchange-JPCB
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"JPMORGAN CHASE BANK N.A. LONDON BRANCH" ;
+	dbo:formerName	"JPMORGAN CHASE BANK N.A. LONDON BRANCH" , "JPMORGAN CHASE BANK N.A." ;
 	fibo-fbc-fct-mkt:hasExchangeName	"JPMORGAN CHASE BANK N.A. LONDON BRANCH" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -15520,7 +15520,7 @@ fibo-fbc-fct-mkti:Exchange-LIQU
 fibo-fbc-fct-mkti:Exchange-LISX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE EUROPE - LIS SERVICE" ;
+	dbo:formerName	"BATS EUROPE - LIS SERVICE" , "CBOE EUROPE - LIS SERVICE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CBOE LIS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EUROPE - LIS SERVICE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -15908,7 +15908,7 @@ fibo-fbc-fct-mkti:Exchange-LYNX
 fibo-fbc-fct-mkti:Exchange-MABX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"BME MTF EQUITY (IIC AND ECR SEGMENTS)" ;
+	dbo:formerName	"BME MTF EQUITY (IIC AND ECR SEGMENTS)" , "MERCADO ALTERNATIVO BURSATIL" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"MAB" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BME MTF EQUITY (IIC AND ECR SEGMENTS)" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:ES ;
@@ -16355,7 +16355,7 @@ fibo-fbc-fct-mkti:Exchange-MCXS
 fibo-fbc-fct-mkti:Exchange-MCXX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"METROPOLITAN STOCK EXCHANGE OF INDIA LIMITED" ;
+	dbo:formerName	"MCX STOCK EXCHANGE LTD" , "METROPOLITAN STOCK EXCHANGE OF INDIA LIMITED" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"METROPOLITAN STOCK EXCHANGE OF INDIA LIMITED" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:IN ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Mumbai ;
@@ -16523,7 +16523,7 @@ fibo-fbc-fct-mkti:Exchange-MERF
 fibo-fbc-fct-mkti:Exchange-MERK
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"EURONEXT GROWTH - OSLO" ;
+	dbo:formerName	"EURONEXT GROWTH - OSLO" , "MERKUR MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EURONEXT GROWTH - OSLO" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NO ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Oslo ;
@@ -16812,7 +16812,7 @@ fibo-fbc-fct-mkti:Exchange-MIHI
 fibo-fbc-fct-mkti:Exchange-MISX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"MOSCOW EXCHANGE - ALL MARKETS" ;
+	dbo:formerName	"MOSCOW EXCHANGE - ALL MARKETS" , "MOSCOW EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"MOEX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MOSCOW EXCHANGE - ALL MARKETS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:RU ;
@@ -17072,7 +17072,7 @@ fibo-fbc-fct-mkti:Exchange-MLVX
 fibo-fbc-fct-mkti:Exchange-MLXB
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"EURONEXT ACCESS BRUSSELS" ;
+	dbo:formerName	"EURONEXT - MARCHE LIBRE BRUSSELS" , "EURONEXT ACCESS BRUSSELS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EURONEXT ACCESS BRUSSELS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:BE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Brussels ;
@@ -17385,7 +17385,7 @@ fibo-fbc-fct-mkti:Exchange-MSPL
 fibo-fbc-fct-mkti:Exchange-MSRP
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"MS RPOOL" ;
+	dbo:formerName	"MS RETAIL POOL" , "MS RPOOL" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MS RPOOL" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:New_York ;
@@ -17679,7 +17679,7 @@ fibo-fbc-fct-mkti:Exchange-MTSW
 fibo-fbc-fct-mkti:Exchange-MTUS
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"MTS MARKETS INTERNATIONAL INC." ;
+	dbo:formerName	"MTS MARKETS INTERNATIONAL INC." , "MTS US" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MTS MARKETS INTERNATIONAL INC." ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:New_York ;
@@ -17876,7 +17876,7 @@ fibo-fbc-fct-mkti:Exchange-MUNB
 fibo-fbc-fct-mkti:Exchange-MUNC
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"BOERSE MUENCHEN - GETTEX - REGULIERTER MARKT" ;
+	dbo:formerName	"BOERSE MUENCHEN - GETTEX - REGULIERTER MARKT" , "BOERSE MUENCHEN - MARKET MAKER MUNICH - REGULIERTER MARKT" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BOERSE MUENCHEN - GETTEX - REGULIERTER MARKT" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:DE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Munich ;
@@ -17890,7 +17890,7 @@ fibo-fbc-fct-mkti:Exchange-MUNC
 fibo-fbc-fct-mkti:Exchange-MUND
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"BOERSE MUENCHEN - GETTEX - FREIVERKEHR" ;
+	dbo:formerName	"BOERSE MUENCHEN - GETTEX - FREIVERKEHR" , "BOERSE MUENCHEN - MARKET MAKER MUNICH - FREIVERKEHR MARKT" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BOERSE MUENCHEN - GETTEX - FREIVERKEHR" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:DE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Munich ;
@@ -17931,7 +17931,7 @@ fibo-fbc-fct-mkti:Exchange-MUSN
 fibo-fbc-fct-mkti:Exchange-MUTI
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"MITSUBISHI UFJ TRUST INTERNATIONAL LIMITED" ;
+	dbo:formerName	"MITSUBISHI UFJ TRUST INTERNATIONAL LIMITED - SYSTEMATIC INTERNALISER" , "MITSUBISHI UFJ TRUST INTERNATIONAL LIMITED" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"MUTI" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MITSUBISHI UFJ TRUST INTERNATIONAL LIMITED" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -18305,7 +18305,7 @@ fibo-fbc-fct-mkti:Exchange-NCML
 fibo-fbc-fct-mkti:Exchange-NDCM
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"ICE ENDEX UK OCM GAS SPOT" ;
+	dbo:formerName	"ICE ENDEX GAS SPOT LTD" , "ICE ENDEX UK OCM GAS SPOT" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"ICE ENDEX OCM" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ICE ENDEX UK OCM GAS SPOT" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -18319,7 +18319,7 @@ fibo-fbc-fct-mkti:Exchange-NDCM
 fibo-fbc-fct-mkti:Exchange-NDEX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"ICE ENDEX FUTURES" ;
+	dbo:formerName	"ICE ENDEX DERIVATIVES B.V." , "ICE ENDEX FUTURES" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"ICE ENDEX RM" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ICE ENDEX FUTURES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NL ;
@@ -18334,7 +18334,7 @@ fibo-fbc-fct-mkti:Exchange-NDEX
 fibo-fbc-fct-mkti:Exchange-NDXS
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"ICE ENDEX EUROPEAN GAS SPOT" ;
+	dbo:formerName	"ICE ENDEX EUROPEAN GAS SPOT" , "ICE ENDEX GAS B.V." ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"ICE ENDEX SPOT" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ICE ENDEX EUROPEAN GAS SPOT" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NL ;
@@ -18402,7 +18402,7 @@ fibo-fbc-fct-mkti:Exchange-NEOD
 fibo-fbc-fct-mkti:Exchange-NEOE
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"NEO EXCHANGE - NEO-L (MARKET BY ORDER)" ;
+	dbo:formerName	"AEQUITAS NEO EXCHANGE" , "NEO EXCHANGE - NEO-L (MARKET BY ORDER)" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"NEO-L" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"NEO EXCHANGE - NEO-L (MARKET BY ORDER)" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:CA ;
@@ -18443,7 +18443,7 @@ fibo-fbc-fct-mkti:Exchange-NESI
 fibo-fbc-fct-mkti:Exchange-NEXD
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"AQSE MAIN MARKET (NON-EQUITY)" ;
+	dbo:formerName	"AQSE MAIN MARKET (NON-EQUITY)" , "NEX EXCHANGE MAIN BOARD (NON-EQUITY)" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"AQSE MAIN MARKET (NON-EQUITY)" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -18457,7 +18457,7 @@ fibo-fbc-fct-mkti:Exchange-NEXD
 fibo-fbc-fct-mkti:Exchange-NEXF
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"AQSE GROWTH MARKET (NON-EQUITY)" ;
+	dbo:formerName	"AQSE GROWTH MARKET (NON-EQUITY)" , "NEX EXCHANGE GROWTH (NON-EQUITY)" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"AQSE GROWTH MARKET (NON-EQUITY)" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -18471,7 +18471,7 @@ fibo-fbc-fct-mkti:Exchange-NEXF
 fibo-fbc-fct-mkti:Exchange-NEXG
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"AQSE GROWTH MARKET (EQUITY)" ;
+	dbo:formerName	"AQSE GROWTH MARKET (EQUITY)" , "NEX EXCHANGE GROWTH (EQUITY)" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"AQSE GROWTH MARKET (EQUITY)" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -18485,7 +18485,7 @@ fibo-fbc-fct-mkti:Exchange-NEXG
 fibo-fbc-fct-mkti:Exchange-NEXL
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"AQSE MAIN MARKET (EQUITY)" ;
+	dbo:formerName	"AQSE MAIN MARKET (EQUITY)" , "NEX EXCHANGE MAIN BOARD (EQUITY)" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"AQSE MAIN MARKET (EQUITY)" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -18499,7 +18499,7 @@ fibo-fbc-fct-mkti:Exchange-NEXL
 fibo-fbc-fct-mkti:Exchange-NEXN
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"AQSE TRADING (NON-EQUITY)" ;
+	dbo:formerName	"AQSE TRADING (NON-EQUITY)" , "NEX EXCHANGE TRADING (NON-EQUITY)" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"AQSE TRADING (NON-EQUITY)" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -18528,7 +18528,7 @@ fibo-fbc-fct-mkti:Exchange-NEXO
 fibo-fbc-fct-mkti:Exchange-NEXS
 	a	fibo-fbc-fct-mkt:ElectronicCommunicationNetwork ;
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"NEX SEF" ;
+	dbo:formerName	"NEX SEF LIMITED" , "NEX SEF" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"NSL" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"NEX SEF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -18542,7 +18542,7 @@ fibo-fbc-fct-mkti:Exchange-NEXS
 fibo-fbc-fct-mkti:Exchange-NEXT
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"AQSE TRADING (EQUITY)" ;
+	dbo:formerName	"AQSE TRADING (EQUITY)" , "NEX EXCHANGE TRADING (EQUITY)" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"AQSE TRADING (EQUITY)" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -18556,7 +18556,7 @@ fibo-fbc-fct-mkti:Exchange-NEXT
 fibo-fbc-fct-mkti:Exchange-NEXX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"AQUIS STOCK EXCHANGE" ;
+	dbo:formerName	"AQUIS STOCK EXCHANGE" , "NEX EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"AQUIS STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -18935,7 +18935,7 @@ fibo-fbc-fct-mkti:Exchange-NORD
 fibo-fbc-fct-mkti:Exchange-NORX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"NASDAQ OSLO ASA" ;
+	dbo:formerName	"NASDAQ OMX COMMODITIES" , "NASDAQ OSLO ASA" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"NASDAQ OSLO ASA" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NO ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Oslo ;
@@ -18962,7 +18962,7 @@ fibo-fbc-fct-mkti:Exchange-NOSC
 fibo-fbc-fct-mkti:Exchange-NOSI
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"NOMURA - SYSTEMATIC INTERNALISER" ;
+	dbo:formerName	"NOMURA - SYSTEMATIC INTERNALISER" , "NOMURA SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"NOMURA - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -19303,7 +19303,7 @@ fibo-fbc-fct-mkti:Exchange-NYSI
 fibo-fbc-fct-mkti:Exchange-NZFX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"ASX - NEW ZEALAND FUTURES & OPTIONS" ;
+	dbo:formerName	"ASX - NEW ZEALAND FUTURES & OPTIONS" , "NEW ZEALAND FUTURES & OPTIONS" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"ASX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ASX - NEW ZEALAND FUTURES & OPTIONS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
@@ -19359,7 +19359,7 @@ fibo-fbc-fct-mkti:Exchange-OCEA
 fibo-fbc-fct-mkti:Exchange-OCSI
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"SOVA CAPITAL - SYSTEMATIC INTERNALISER" ;
+	dbo:formerName	"OTKRITIE-CAPITAL - SYSTEMATIC INTERNALISER" , "SOVA CAPITAL - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"SOVA CAPITAL - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -19517,7 +19517,7 @@ fibo-fbc-fct-mkti:Exchange-OMIC
 fibo-fbc-fct-mkti:Exchange-OMIP
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"OMIP - POLO PORTUGUES, S.G.M.R., S.A. / OMIP DERIVATIVES MARKET" ;
+	dbo:formerName	"OMIP - POLO PORTUGUES, S.G.M.R., S.A. / OMIP DERIVATIVES MARKET" , "OPERADOR DE MERCADO IBERICO DE ENERGIA - PORTUGAL" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"OMIP" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"OMIP - POLO PORTUGUES, S.G.M.R., S.A. / OMIP DERIVATIVES MARKET" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:PT ;
@@ -19694,7 +19694,7 @@ fibo-fbc-fct-mkti:Exchange-OTCI
 fibo-fbc-fct-mkti:Exchange-OTCM
 	a	fibo-fbc-fct-mkt:AlternativeTradingSystem ;
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"OTC LINK ATS - OTC MARKETS" ;
+	dbo:formerName	"OTC LINK ATS - OTC MARKETS" , "OTC MARKETS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"OTC LINK ATS - OTC MARKETS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:New_York ;
@@ -19908,7 +19908,7 @@ fibo-fbc-fct-mkti:Exchange-PDEX
 fibo-fbc-fct-mkti:Exchange-PDQD
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CODA MARKETS ATS DARK" ;
+	dbo:formerName	"CODA MARKETS ATS DARK" , "PDQ ATS DARK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CODA MARKETS ATS DARK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Glenview ;
@@ -19922,7 +19922,7 @@ fibo-fbc-fct-mkti:Exchange-PDQD
 fibo-fbc-fct-mkti:Exchange-PDQX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"CODA MARKETS" ;
+	dbo:formerName	"CODA MARKETS" , "PDQ ATS" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"PDQX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CODA MARKETS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -20209,7 +20209,7 @@ fibo-fbc-fct-mkti:Exchange-PLDX
 fibo-fbc-fct-mkti:Exchange-PLPD
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"WARSAW STOCK EXCHANGE/POLISH POWER EXCHANGE/REGULATED MARKET" ;
+	dbo:formerName	"WARSAW STOCK EXCHANGE/COMMODITIES/POLISH POWER EXCHANGE/COMMODITY DERIVATIVES" , "WARSAW STOCK EXCHANGE/POLISH POWER EXCHANGE/REGULATED MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"WSE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"WARSAW STOCK EXCHANGE/POLISH POWER EXCHANGE/REGULATED MARKET" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:PL ;
@@ -20474,7 +20474,7 @@ fibo-fbc-fct-mkti:Exchange-PTPG
 fibo-fbc-fct-mkti:Exchange-PULX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"INSTINET BLOCKCROSS ATS" ;
+	dbo:formerName	"BLOCKCROSS ATS" , "INSTINET BLOCKCROSS ATS" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BLKX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"INSTINET BLOCKCROSS ATS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -20531,7 +20531,7 @@ fibo-fbc-fct-mkti:Exchange-PUND
 fibo-fbc-fct-mkti:Exchange-PURE
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CANADIAN SECURITIES EXCHANGE - PURE" ;
+	dbo:formerName	"CANADIAN SECURITIES EXCHANGE - PURE" , "PURE TRADING" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CSE-PURE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CANADIAN SECURITIES EXCHANGE - PURE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:CA ;
@@ -20674,7 +20674,7 @@ fibo-fbc-fct-mkti:Exchange-RBCB
 fibo-fbc-fct-mkti:Exchange-RBCC
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"RBC - PARIS BRANCH - SYSTEMATIC INTERNALISER" ;
+	dbo:formerName	"RBC - LONDON BRANCH" , "RBC - PARIS BRANCH - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"RBC - PARIS BRANCH - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:FR ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Paris ;
@@ -21129,7 +21129,7 @@ fibo-fbc-fct-mkti:Exchange-RTSI
 fibo-fbc-fct-mkti:Exchange-RTSL
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"REFINITIV TRANSACTIONS SERVICES LIMITED" ;
+	dbo:formerName	"REFINITIV TRANSACTIONS SERVICES LIMITED" , "REUTERS TRANSACTION SERVICES LIMITED" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"RTSL" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"REFINITIV TRANSACTIONS SERVICES LIMITED" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -21156,7 +21156,7 @@ fibo-fbc-fct-mkti:Exchange-RTSP
 fibo-fbc-fct-mkti:Exchange-RTSX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"MOSCOW EXCHANGE - DERIVATIVES MARKET" ;
+	dbo:formerName	"MOSCOW EXCHANGE - DERIVATIVES MARKET" , "MOSCOW EXCHANGE-DERIVATIVES AND CLASSICA MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"MOEX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MOSCOW EXCHANGE - DERIVATIVES MARKET" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:RU ;
@@ -21271,7 +21271,7 @@ fibo-fbc-fct-mkti:Exchange-SBEX
 fibo-fbc-fct-mkti:Exchange-SBIJ
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"JAPANNEXT - J - MARKET" ;
+	dbo:formerName	"JAPANNEXT - J - MARKET" , "SBI JAPANNEXT-J-MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"JAPANNEXT - J - MARKET" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:JP ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Tokyo ;
@@ -21298,7 +21298,7 @@ fibo-fbc-fct-mkti:Exchange-SBIL
 fibo-fbc-fct-mkti:Exchange-SBIU
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"JAPANNEXT - U - MARKET" ;
+	dbo:formerName	"JAPANNEXT - U - MARKET" , "SBI JAPANNEXT - U - MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"JAPANNEXT - U - MARKET" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:JP ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Tokyo ;
@@ -21312,7 +21312,7 @@ fibo-fbc-fct-mkti:Exchange-SBIU
 fibo-fbc-fct-mkti:Exchange-SBIV
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"JAPANNEXT - VWAP CROSSING" ;
+	dbo:formerName	"JAPANNEXT - VWAP CROSSING" , "SBI JAPANNEXT - VWAP CROSSING" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"JAPANNEXT - VWAP CROSSING" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:JP ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Tokyo ;
@@ -21409,7 +21409,7 @@ fibo-fbc-fct-mkti:Exchange-SCXF
 fibo-fbc-fct-mkti:Exchange-SCXM
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"SEED DIGITAL COMMODITIES MARKET" ;
+	dbo:formerName	"SEED DIGITAL COMMODITIES MARKET" , "SEED MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"SEED DIGITAL COMMODITIES MARKET" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Chicago ;
@@ -21438,7 +21438,7 @@ fibo-fbc-fct-mkti:Exchange-SCXO
 fibo-fbc-fct-mkti:Exchange-SCXS
 	a	fibo-fbc-fct-mkt:ElectronicCommunicationNetwork ;
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
-	dbo:formerName	"SEED SEF" ;
+	dbo:formerName	"SEED SEF LLC" , "SEED SEF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"SEED SEF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Chicago ;
@@ -22435,7 +22435,7 @@ fibo-fbc-fct-mkti:Exchange-SPDX
 fibo-fbc-fct-mkti:Exchange-SPEC
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"MAREX SPECTRON INTERNATIONAL LIMITED OTF" ;
+	dbo:formerName	"MAREX SPECTRON INTERNATIONAL LIMITED OTF" , "SPECTRONLIVE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"MSIL OTF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MAREX SPECTRON INTERNATIONAL LIMITED OTF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -22648,7 +22648,7 @@ fibo-fbc-fct-mkti:Exchange-SSME
 fibo-fbc-fct-mkti:Exchange-SSOB
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"BONDVISION EUROPE MTF" ;
+	dbo:formerName	"BONDVISION EUROPE MTF" , "BONDVISION ITALIA MTF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BONDVISION EUROPE MTF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:IT ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Rome ;
@@ -23198,7 +23198,7 @@ fibo-fbc-fct-mkti:Exchange-TBSP
 fibo-fbc-fct-mkti:Exchange-TCDS
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TRADITION OTF" ;
+	dbo:formerName	"TRADITION CDS" , "TRADITION OTF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TRADITION OTF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -23294,7 +23294,7 @@ fibo-fbc-fct-mkti:Exchange-TECO
 fibo-fbc-fct-mkti:Exchange-TEEG
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TULLETT PREBON SECURITIES - OTF - EUROPEAN GOVERNMENT BONDS" ;
+	dbo:formerName	"TULLETT PREBON EUROPE - MTF - EUROPEAN GOVERNMENT BONDS" , "TULLETT PREBON SECURITIES - OTF - EUROPEAN GOVERNMENT BONDS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON SECURITIES - OTF - EUROPEAN GOVERNMENT BONDS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -23504,7 +23504,7 @@ fibo-fbc-fct-mkti:Exchange-TEOF
 fibo-fbc-fct-mkti:Exchange-TEPF
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TULLETT PREBON EUROPE - OTF - PARIS - CORPORATE BONDS AND SECURITISED DEBT" ;
+	dbo:formerName	"TULLET PREBON EUROPE - OTF - PARIS - CORPORATE BONDS AND SECURITISED DEBT" , "TULLETT PREBON EUROPE - OTF - PARIS - CORPORATE BONDS AND SECURITISED DEBT" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON EUROPE - OTF - PARIS - CORPORATE BONDS AND SECURITISED DEBT" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:FR ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Paris ;
@@ -23519,7 +23519,7 @@ fibo-fbc-fct-mkti:Exchange-TEPF
 fibo-fbc-fct-mkti:Exchange-TEPG
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TULLETT PREBON EUROPE - OTF - PARIS - GOVERNMENT BONDS - EXCLUDING GILTS" ;
+	dbo:formerName	"TULLET PREBON EUROPE - OTF - PARIS - GOVERNMENT BONDS - EXCLUDING GILTS" , "TULLETT PREBON EUROPE - OTF - PARIS - GOVERNMENT BONDS - EXCLUDING GILTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON EUROPE - OTF - PARIS - GOVERNMENT BONDS - EXCLUDING GILTS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:FR ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Paris ;
@@ -23534,7 +23534,7 @@ fibo-fbc-fct-mkti:Exchange-TEPG
 fibo-fbc-fct-mkti:Exchange-TEPI
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TULLETT PREBON EUROPE - OTF - PARIS - INTEREST RATE DERIVATIVES" ;
+	dbo:formerName	"TULLET PREBON EUROPE - OTF - PARIS - INTEREST RATE DERIVATIVES" , "TULLETT PREBON EUROPE - OTF - PARIS - INTEREST RATE DERIVATIVES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON EUROPE - OTF - PARIS - INTEREST RATE DERIVATIVES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:FR ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Paris ;
@@ -23579,7 +23579,7 @@ fibo-fbc-fct-mkti:Exchange-TEPR
 fibo-fbc-fct-mkti:Exchange-TEPX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TULLETT PREBON EUROPE - OTF - PARIS - FX DERIVATIVES" ;
+	dbo:formerName	"TULLET PREBON EUROPE - OTF - PARIS - FX DERIVATIVES" , "TULLETT PREBON EUROPE - OTF - PARIS - FX DERIVATIVES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON EUROPE - OTF - PARIS - FX DERIVATIVES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:FR ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Paris ;
@@ -23823,7 +23823,7 @@ fibo-fbc-fct-mkti:Exchange-THRD
 fibo-fbc-fct-mkti:Exchange-THRE
 	a	fibo-fbc-fct-mkt:ElectronicCommunicationNetwork ;
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"REFINITIV US SEF LLC" ;
+	dbo:formerName	"REFINITIV US SEF LLC" , "THOMSON REUTERS (SEF) LLC" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"RSEF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"REFINITIV US SEF LLC" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -24042,7 +24042,7 @@ fibo-fbc-fct-mkti:Exchange-TOMD
 fibo-fbc-fct-mkti:Exchange-TOMF
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TULLETT PREBON EUROPE - OTF - MADRID - CORPORATE BONDS AND SECURITISED DEBT" ;
+	dbo:formerName	"TULLET PREBON EUROPE - OTF - MADRID - CORPORATE BONDS AND SECURITISED DEBT" , "TULLETT PREBON EUROPE - OTF - MADRID - CORPORATE BONDS AND SECURITISED DEBT" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON EUROPE - OTF - MADRID - CORPORATE BONDS AND SECURITISED DEBT" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:ES ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Madrid ;
@@ -24057,7 +24057,7 @@ fibo-fbc-fct-mkti:Exchange-TOMF
 fibo-fbc-fct-mkti:Exchange-TOMG
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TULLETT PREBON EUROPE - OTF - MADRID - GOVERNMENT BONDS - EXCLUDING GILTS" ;
+	dbo:formerName	"TULLET PREBON EUROPE - OTF - MADRID - GOVERNMENT BONDS - EXCLUDING GILTS" , "TULLETT PREBON EUROPE - OTF - MADRID - GOVERNMENT BONDS - EXCLUDING GILTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON EUROPE - OTF - MADRID - GOVERNMENT BONDS - EXCLUDING GILTS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:ES ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Madrid ;
@@ -24141,7 +24141,7 @@ fibo-fbc-fct-mkti:Exchange-TPEE
 fibo-fbc-fct-mkti:Exchange-TPEL
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"TULLETT PREBON (EUROPE) LIMITED" ;
+	dbo:formerName	"TULLETT PREBON (EUROPE) LIMITED" , "TULLETT PREBON PLC - TULLETT PREBON (EUROPE) LIMITED" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON (EUROPE) LIMITED" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -24432,7 +24432,7 @@ fibo-fbc-fct-mkti:Exchange-TPSE
 fibo-fbc-fct-mkti:Exchange-TPSL
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"TULLETT PREBON SECURITIES - MTF" ;
+	dbo:formerName	"TULLETT PREBON PLC - TULLETT PREBON (SECURITIES) LIMITED" , "TULLETT PREBON SECURITIES - MTF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON SECURITIES - MTF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -24446,7 +24446,7 @@ fibo-fbc-fct-mkti:Exchange-TPSL
 fibo-fbc-fct-mkti:Exchange-TPSO
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"TP UK OTF" ;
+	dbo:formerName	"TP UK OTF" , "TULLETT PREBON SECURITIES - OTF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP UK OTF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -24581,7 +24581,7 @@ fibo-fbc-fct-mkti:Exchange-TRAI
 fibo-fbc-fct-mkti:Exchange-TRAL
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	fibo-fbc-fct-mkt:QuoteDrivenMarket , owl:NamedIndividual ;
-	dbo:formerName	"REFINITIV TRANSACTIONS SERVICES LIMITED - FXALL RFQ" ;
+	dbo:formerName	"REFINITIV TRANSACTIONS SERVICES LIMITED - FXALL RFQ" , "REUTERS TRANSACTION SERVICES LIMITED - FXALL RFQ" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"REFINITIV TRANSACTIONS SERVICES LIMITED - FXALL RFQ" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -24609,7 +24609,7 @@ fibo-fbc-fct-mkti:Exchange-TRAS
 fibo-fbc-fct-mkti:Exchange-TRAX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"MARKETAXESS POST-TRADE LIMITED - APA" ;
+	dbo:formerName	"MARKETAXESS POST-TRADE LIMITED - APA" , "TRAX APA" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MARKETAXESS POST-TRADE LIMITED - APA" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -24649,7 +24649,7 @@ fibo-fbc-fct-mkti:Exchange-TRCX
 fibo-fbc-fct-mkti:Exchange-TRDE
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"TRADITION" ;
+	dbo:formerName	"TRADITION ELECTRONIC TRADING PLATFORM" , "TRADITION" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TRADITION" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -24719,7 +24719,7 @@ fibo-fbc-fct-mkti:Exchange-TREU
 fibo-fbc-fct-mkti:Exchange-TRFW
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"REFINITIV TRANSACTION SERVICES LIMITED - FORWARDS MATCHING" ;
+	dbo:formerName	"REFINITIV TRANSACTION SERVICES LIMITED - FORWARDS MATCHING" , "REUTERS TRANSACTION SERVICES LIMITED - FORWARDS MATCHING" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"REFINITIV TRANSACTION SERVICES LIMITED - FORWARDS MATCHING" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -24762,7 +24762,7 @@ fibo-fbc-fct-mkti:Exchange-TRNL
 fibo-fbc-fct-mkti:Exchange-TRPX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"MERJ EXCHANGE LIMITED" ;
+	dbo:formerName	"MERJ EXCHANGE LIMITED" , "TROP-X" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"MERJ" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MERJ EXCHANGE LIMITED" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:SC ;
@@ -24836,7 +24836,7 @@ fibo-fbc-fct-mkti:Exchange-TRQD
 fibo-fbc-fct-mkti:Exchange-TRQM
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TURQUOISE PLATO" ;
+	dbo:formerName	"TURQUOISE DARK" , "TURQUOISE PLATO" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TURQUOISE PLATO" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -24996,7 +24996,7 @@ fibo-fbc-fct-mkti:Exchange-TSAF
 fibo-fbc-fct-mkti:Exchange-TSBX
 	a	fibo-fbc-fct-mkt:AlternativeTradingSystem ;
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"DBOT ATS, LLC" ;
+	dbo:formerName	"DBOT ATS, LLC" , "TRIPLESHOT" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"DBOT" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"DBOT ATS, LLC" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -25010,7 +25010,7 @@ fibo-fbc-fct-mkti:Exchange-TSBX
 fibo-fbc-fct-mkti:Exchange-TSCB
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP UK OTF - CORPORATE BONDS" ;
+	dbo:formerName	"TP UK OTF - CORPORATE BONDS" , "TULLETT PREBON SECURITIES - OTF - CORPORATE BONDS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP UK OTF - CORPORATE BONDS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -25040,7 +25040,7 @@ fibo-fbc-fct-mkti:Exchange-TSCB_2022-05-23
 fibo-fbc-fct-mkti:Exchange-TSCD
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP UK OTF - CREDIT DERIVATIVES" ;
+	dbo:formerName	"TP UK OTF - CREDIT DERIVATIVES" , "TULLETT PREBON SECURITIES - OTF - CREDIT DERIVATIVES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP UK OTF - CREDIT DERIVATIVES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -25070,7 +25070,7 @@ fibo-fbc-fct-mkti:Exchange-TSCD_2022-05-23
 fibo-fbc-fct-mkti:Exchange-TSED
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP UK OTF - EQUITY DERIVATIVES" ;
+	dbo:formerName	"TP UK OTF - EQUITY DERIVATIVES" , "TULLETT PREBON SECURITIES - OTF - EQUITY DERIVATIVES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP UK OTF - EQUITY DERIVATIVES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -25143,7 +25143,7 @@ fibo-fbc-fct-mkti:Exchange-TSFG
 fibo-fbc-fct-mkti:Exchange-TSFI
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP UK OTF - CORPORATE BONDS AND SECURITISED DEBT" ;
+	dbo:formerName	"TP UK OTF - CORPORATE BONDS AND SECURITISED DEBT" , "TULLETT PREBON SECURITIES - OTF - CORPORATE BONDS AND SECURITISED DEBT" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP UK OTF - CORPORATE BONDS AND SECURITISED DEBT" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -25201,7 +25201,7 @@ fibo-fbc-fct-mkti:Exchange-TSFX_2022-05-23
 fibo-fbc-fct-mkti:Exchange-TSGB
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP UK OTF - GOVERNMENT BONDS EXCLUDING UK GILTS" ;
+	dbo:formerName	"TP UK OTF - GOVERNMENT BONDS EXCLUDING UK GILTS" , "TULLETT PREBON SECURITIES - OTF - GOVERNMENT BONDS EXCLUDING UK GILTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP UK OTF - GOVERNMENT BONDS EXCLUDING UK GILTS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -25231,7 +25231,7 @@ fibo-fbc-fct-mkti:Exchange-TSGB_2022-05-23
 fibo-fbc-fct-mkti:Exchange-TSGI
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP UK OTF - GOVERNMENT BONDS - UK GILTS" ;
+	dbo:formerName	"TP UK OTF - GOVERNMENT BONDS - UK GILTS" , "TULLETT PREBON SECURITIES - OTF - GOVERNMENT BONDS - UK GILTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP UK OTF - GOVERNMENT BONDS - UK GILTS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -25348,7 +25348,7 @@ fibo-fbc-fct-mkti:Exchange-TSMI
 fibo-fbc-fct-mkti:Exchange-TSMM
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP UK OTF - MONEY MARKET INSTRUMENTS" ;
+	dbo:formerName	"TP UK OTF - MONEY MARKET INSTRUMENTS" , "TULLETT PREBON SECURITIES - OTF - MONEY MARKET INSTRUMENTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP UK OTF - MONEY MARKET INSTRUMENTS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -25393,7 +25393,7 @@ fibo-fbc-fct-mkti:Exchange-TSMR
 fibo-fbc-fct-mkti:Exchange-TSRE
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP UK OTF - REPOS" ;
+	dbo:formerName	"TP UK OTF - REPOS" , "TULLETT PREBON SECURITIES - OTF - REPOS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP UK OTF - REPOS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -25533,7 +25533,7 @@ fibo-fbc-fct-mkti:Exchange-TWHK
 fibo-fbc-fct-mkti:Exchange-TWJP
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"TRADEWEB JAPAN KK - PTS" ;
+	dbo:formerName	"TRADEWEB EUROPE LIMITED - JAPAN - PTS" , "TRADEWEB JAPAN KK - PTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TRADEWEB JAPAN KK - PTS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:JP ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Tokyo ;
@@ -25547,7 +25547,7 @@ fibo-fbc-fct-mkti:Exchange-TWJP
 fibo-fbc-fct-mkti:Exchange-TWJT
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TRADEWEB JAPAN KK - ETP" ;
+	dbo:formerName	"TRADEWEB EUROPE LIMITED - JAPAN - ETP" , "TRADEWEB JAPAN KK - ETP" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TRADEWEB JAPAN KK - ETP" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:JP ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Tokyo ;
@@ -25674,7 +25674,7 @@ fibo-fbc-fct-mkti:Exchange-UBSA
 fibo-fbc-fct-mkti:Exchange-UBSB
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"UBS AG LONDON BRANCH - TRADING" ;
+	dbo:formerName	"UBS AG LONDON BRANCH - TRADING" , "UBS AG LONDON BRANCH EMEA TRADING" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"UBS AG LONDON BRANCH - TRADING" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -25756,7 +25756,7 @@ fibo-fbc-fct-mkti:Exchange-UBSG
 fibo-fbc-fct-mkti:Exchange-UBSI
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , owl:NamedIndividual ;
-	dbo:formerName	"UBS EUROPE SE - SYSTEMATIC INTERNALISER" ;
+	dbo:formerName	"UBS EUROPE SE - SYSTEMATIC INTERNALISER" , "UBS LIMITED EMEA TRADING - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"UBS EUROPE SE - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:DE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Frankfurt ;
@@ -25770,7 +25770,7 @@ fibo-fbc-fct-mkti:Exchange-UBSI
 fibo-fbc-fct-mkti:Exchange-UBSL
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"UBS EUROPE SE - TRADING" ;
+	dbo:formerName	"UBS EMEA EQUITIES TRADING" , "UBS EUROPE SE - TRADING" , "UBS LIMITED EMEA TRADING" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"UBS EUROPE SE - TRADING" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:DE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Frankfurt ;
@@ -25987,7 +25987,7 @@ fibo-fbc-fct-mkti:Exchange-UKEX
 fibo-fbc-fct-mkti:Exchange-UKGD
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"MTS UK" ;
+	dbo:formerName	"MTS UK" , "UK GILTS MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MTS UK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -26144,7 +26144,7 @@ fibo-fbc-fct-mkti:Exchange-UTSL
 fibo-fbc-fct-mkti:Exchange-VABD
 	a	fibo-fbc-fct-mkt:AlternativeTradingSystem ;
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
-	dbo:formerName	"ICE BONDPOINT" ;
+	dbo:formerName	"BONDPOINT" , "ICE BONDPOINT" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ICE BONDPOINT" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:New_York ;
@@ -26628,7 +26628,7 @@ fibo-fbc-fct-mkti:Exchange-VWDA
 fibo-fbc-fct-mkti:Exchange-VWDX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"VWD TRANSACTIONSOLUTIONS AG" ;
+	dbo:formerName	"TRADEPLUS" , "VWD TRANSACTIONSOLUTIONS AG" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"VWD TRANSACTIONSOLUTIONS AG" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:DE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Frankfurt ;
@@ -26684,7 +26684,7 @@ fibo-fbc-fct-mkti:Exchange-WBCL
 fibo-fbc-fct-mkti:Exchange-WBDM
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"WIENER BOERSE AG VIENNA MTF (VIENNA MTF)" ;
+	dbo:formerName	"WIENER BOERSE AG DRITTER MARKT (THIRD MARKET)" , "WIENER BOERSE AG VIENNA MTF (VIENNA MTF)" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"WIENER BOERSE AG VIENNA MTF (VIENNA MTF)" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AT ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Vienna ;
@@ -26934,7 +26934,7 @@ fibo-fbc-fct-mkti:Exchange-WIND
 fibo-fbc-fct-mkti:Exchange-WINS
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"WINTERFLOOD SECURITIES LIMITED - ELECTRONIC PLATFORM" ;
+	dbo:formerName	"WINTERFLOOD SECURITIES LIMITED - ELECTRONIC PLATFORM" , "WINTERFLOOD SECURITIES LIMITED" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"WINS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"WINTERFLOOD SECURITIES LIMITED - ELECTRONIC PLATFORM" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -26942,7 +26942,7 @@ fibo-fbc-fct-mkti:Exchange-WINS
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.winterflood.com"^^xsd:anyURI ;
 	rdfs:label	"WINTERFLOOD SECURITIES LIMITED - ELECTRONIC PLATFORM" ;
 	skos:closeMatch	wd:Q93360875 ;
-	skos:note	"REGISTERED MARKET MAKER – ELECTRONIC PLATFORM" ;
+	skos:note	"REGISTERED MARKET MAKER - ELECTRONIC PLATFORM" ;
 	tempo:validFrom	"2017-06-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-WINX
@@ -26962,7 +26962,7 @@ fibo-fbc-fct-mkti:Exchange-WINX
 fibo-fbc-fct-mkti:Exchange-WIPO
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"WARSAW STOCK EXCHANGE - OTHER THAN XOFF OR XXXX" ;
+	dbo:formerName	"WARSAW STOCK EXCHANGE - IPO BOOK BUILDING - LISTED INSTRUMENTS" , "WARSAW STOCK EXCHANGE - IPO BOOK BUILDING" , "WARSAW STOCK EXCHANGE - OTHER THAN XOFF OR XXXX" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"WSE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"WARSAW STOCK EXCHANGE - OTHER THAN XOFF OR XXXX" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:PL ;
@@ -27005,7 +27005,7 @@ fibo-fbc-fct-mkti:Exchange-WOOD
 fibo-fbc-fct-mkti:Exchange-WOPO
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"WARSAW STOCK EXCHANGE - SPO BOOK BUILDING" ;
+	dbo:formerName	"WARSAW STOCK EXCHANGE - IPO BOOK BUILDING - UNLISTED INSTRUMENTS" , "WARSAW STOCK EXCHANGE - SPO BOOK BUILDING" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"WSE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"WARSAW STOCK EXCHANGE - SPO BOOK BUILDING" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:PL ;
@@ -27282,7 +27282,7 @@ fibo-fbc-fct-mkti:Exchange-XALS
 fibo-fbc-fct-mkti:Exchange-XALT
 	a	fibo-fbc-fct-mkt:AlternativeTradingSystem ;
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"ALTEX - ATS" ;
+	dbo:formerName	"ALTEX - ATS" , "ALTEX-ATS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ALTEX - ATS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -27395,7 +27395,7 @@ fibo-fbc-fct-mkti:Exchange-XARC
 fibo-fbc-fct-mkti:Exchange-XARM
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"ARMENIA SECURITIES EXCHANGE" ;
+	dbo:formerName	"ARMENIA SECURITIES EXCHANGE" , "NASDAQ OMX ARMENIA" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"AMX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ARMENIA SECURITIES EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AM ;
@@ -27763,7 +27763,7 @@ fibo-fbc-fct-mkti:Exchange-XBES
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.jse.co.za"^^xsd:anyURI ;
 	rdfs:label	"JSE CASH BOND MARKET" ;
 	skos:closeMatch	wd:Q107188889 ;
-	skos:note	"JSE – FORMER BOND EXCHANGE OF SOUTH AFRICA." ;
+	skos:note	"JSE - FORMER BOND EXCHANGE OF SOUTH AFRICA." ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-XBEY
@@ -28003,7 +28003,7 @@ fibo-fbc-fct-mkti:Exchange-XBOT
 fibo-fbc-fct-mkti:Exchange-XBOX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"BOX OPTIONS EXCHANGE" ;
+	dbo:formerName	"BOSTON OPTIONS EXCHANGE" , "BOX OPTIONS EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BOX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BOX OPTIONS EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -28319,7 +28319,7 @@ fibo-fbc-fct-mkti:Exchange-XCAL
 fibo-fbc-fct-mkti:Exchange-XCAN
 	a	fibo-fbc-fct-mkt:AlternativeTradingSystem ;
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
-	dbo:formerName	"CAN - ATS" ;
+	dbo:formerName	"CAN - ATS" , "CAN-ATS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CAN - ATS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:RO ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucharest ;
@@ -28386,7 +28386,7 @@ fibo-fbc-fct-mkti:Exchange-XCBF
 fibo-fbc-fct-mkti:Exchange-XCBO
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"CBOE GLOBAL MARKETS INC." ;
+	dbo:formerName	"CBOE GLOBAL MARKETS INC." , "CHICAGO BOARD OPTIONS EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CBOE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE GLOBAL MARKETS INC." ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -28546,7 +28546,7 @@ fibo-fbc-fct-mkti:Exchange-XCHG
 fibo-fbc-fct-mkti:Exchange-XCHI
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"NYSE CHICAGO, INC." ;
+	dbo:formerName	"CHICAGO STOCK EXCHANGE, INC" , "NYSE CHICAGO, INC." ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CHX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"NYSE CHICAGO, INC." ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -28560,7 +28560,7 @@ fibo-fbc-fct-mkti:Exchange-XCHI
 fibo-fbc-fct-mkti:Exchange-XCIE
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"THE INTERNATIONAL STOCK EXCHANGE" ;
+	dbo:formerName	"CHANNEL ISLANDS STOCK EXCHANGE" , "THE INTERNATIONAL STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"TISE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"THE INTERNATIONAL STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GG ;
@@ -28574,7 +28574,7 @@ fibo-fbc-fct-mkti:Exchange-XCIE
 fibo-fbc-fct-mkti:Exchange-XCIS
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"NYSE NATIONAL, INC." ;
+	dbo:formerName	"NATIONAL STOCK EXCHANGE, INC." , "NYSE NATIONAL, INC." ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"NSX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"NYSE NATIONAL, INC." ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -28614,7 +28614,7 @@ fibo-fbc-fct-mkti:Exchange-XCNF
 fibo-fbc-fct-mkti:Exchange-XCNQ
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"CANADIAN SECURITIES EXCHANGE" ;
+	dbo:formerName	"CANADIAN NATIONAL STOCK EXCHANGE" , "CANADIAN SECURITIES EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CSE LISTED" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CANADIAN SECURITIES EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:CA ;
@@ -29380,7 +29380,7 @@ fibo-fbc-fct-mkti:Exchange-XERT
 fibo-fbc-fct-mkti:Exchange-XESM
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"EURONEXT GROWTH DUBLIN" ;
+	dbo:formerName	"DUBLIN - IRISH STOCK EXCHANGE - ENTREPRISE SECURITIES MARKET (ESM)- ISE XETRA" , "EURONEXT GROWTH DUBLIN" , "IRISH STOCK EXCHANGE - ENTREPRISE SECURITIES MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EURONEXT GROWTH DUBLIN" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:IE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Dublin ;
@@ -29678,7 +29678,7 @@ fibo-fbc-fct-mkti:Exchange-XEUS
 fibo-fbc-fct-mkti:Exchange-XEYE
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"IRISH STOCK EXCHANGE - GLOBAL EXCHANGE MARKET" ;
+	dbo:formerName	"IRISH STOCK EXCHANGE - GEM - XETRA" , "IRISH STOCK EXCHANGE - GLOBAL EXCHANGE MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"ISE GEM" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"IRISH STOCK EXCHANGE - GLOBAL EXCHANGE MARKET" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:IE ;
@@ -29692,7 +29692,7 @@ fibo-fbc-fct-mkti:Exchange-XEYE
 fibo-fbc-fct-mkti:Exchange-XFCI
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"FINANCIALCONTENT - INDEXES" ;
+	dbo:formerName	"FINANCIALCONTENT - INDEXES" , "FINANCIALCONTENT INDEXES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"FINANCIALCONTENT - INDEXES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:San_Carlos ;
@@ -29730,7 +29730,7 @@ fibo-fbc-fct-mkti:Exchange-XFDA
 fibo-fbc-fct-mkti:Exchange-XFEX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"FEX GLOBAL" ;
+	dbo:formerName	"FEX GLOBAL" , "FINANCIAL AND ENERGY EXCHANGE GROUP" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"FEX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"FEX GLOBAL" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
@@ -30683,7 +30683,7 @@ fibo-fbc-fct-mkti:Exchange-XJWY
 fibo-fbc-fct-mkti:Exchange-XKAC
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"OSAKA DOJIMA COMMODITY EXCHANGE" ;
+	dbo:formerName	"KANSAI COMMODITIES EXCHANGE" , "OSAKA DOJIMA COMMODITY EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"ODE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"OSAKA DOJIMA COMMODITY EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:JP ;
@@ -31051,7 +31051,7 @@ fibo-fbc-fct-mkti:Exchange-XLCE
 fibo-fbc-fct-mkti:Exchange-XLCH
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"LCH LTD" ;
+	dbo:formerName	"LCH LTD" , "LCH.CLEARNET LTD" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"LCH LTD" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -31241,7 +31241,7 @@ fibo-fbc-fct-mkti:Exchange-XLME
 fibo-fbc-fct-mkti:Exchange-XLOD
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"LONDON STOCK EXCHANGE - CURVEGLOBAL MARKETS" ;
+	dbo:formerName	"LONDON STOCK EXCHANGE - CURVEGLOBAL MARKETS" , "LONDON STOCK EXCHANGE - DERIVATIVES MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"LSE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"LONDON STOCK EXCHANGE - CURVEGLOBAL MARKETS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -31665,7 +31665,7 @@ fibo-fbc-fct-mkti:Exchange-XMIO
 fibo-fbc-fct-mkti:Exchange-XMLI
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"EURONEXT ACCESS PARIS" ;
+	dbo:formerName	"EURONEXT - MARCHE LIBRE PARIS" , "EURONEXT ACCESS PARIS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EURONEXT ACCESS PARIS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:FR ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Paris ;
@@ -31776,7 +31776,7 @@ fibo-fbc-fct-mkti:Exchange-XMOO
 fibo-fbc-fct-mkti:Exchange-XMOS
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"CENTRAL COUNTERPARTY CLEARING CENTER MFB - JOINT-STOCK COMPANY" ;
+	dbo:formerName	"CENTRAL COUNTERPARTY CLEARING CENTER MFB - JOINT-STOCK COMPANY" , "MOSCOW STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"MFB" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CENTRAL COUNTERPARTY CLEARING CENTER MFB - JOINT-STOCK COMPANY" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:RU ;
@@ -31836,7 +31836,7 @@ fibo-fbc-fct-mkti:Exchange-XMRV
 fibo-fbc-fct-mkti:Exchange-XMSM
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"EURONEXT DUBLIN" ;
+	dbo:formerName	"DUBLIN - IRISH STOCK EXCHANGE - MAIN SECURITIES MARKET (MSM)- ISE XETRA" , "EURONEXT DUBLIN" , "IRISH STOCK EXCHANGE - MAIN SECURITIES MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EURONEXT DUBLIN" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:IE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Dublin ;
@@ -31875,7 +31875,7 @@ fibo-fbc-fct-mkti:Exchange-XMTB
 fibo-fbc-fct-mkti:Exchange-XMTS
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"EUROMTS LTD" ;
+	dbo:formerName	"EUROMTS LTD" , "MTS MARKETS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EUROMTS LTD" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -32003,7 +32003,7 @@ fibo-fbc-fct-mkti:Exchange-XNCM
 fibo-fbc-fct-mkti:Exchange-XNCO
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"WARSAW STOCK EXCHANGE/ EQUITIES/NEW CONNECT - MTF" ;
+	dbo:formerName	"WARSAW STOCK EXCHANGE/ EQUITIES/NEW CONNECT - MTF" , "WARSAW STOCK EXCHANGE/ EQUITIES/NEW CONNECT-MTF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"WARSAW STOCK EXCHANGE/ EQUITIES/NEW CONNECT - MTF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:PL ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Warsaw ;
@@ -32500,7 +32500,7 @@ fibo-fbc-fct-mkti:Exchange-XOAM
 fibo-fbc-fct-mkti:Exchange-XOAS
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"EURONEXT EXPAND OSLO" ;
+	dbo:formerName	"EURONEXT EXPAND OSLO" , "OSLO AXESS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EURONEXT EXPAND OSLO" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NO ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Oslo ;
@@ -32659,7 +32659,7 @@ fibo-fbc-fct-mkti:Exchange-XOSJ
 fibo-fbc-fct-mkti:Exchange-XOSL
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"OSLO BORS" ;
+	dbo:formerName	"OSLO BORS ASA" , "OSLO BORS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"OSLO BORS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NO ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Oslo ;
@@ -32800,7 +32800,7 @@ fibo-fbc-fct-mkti:Exchange-XPBT
 fibo-fbc-fct-mkti:Exchange-XPET
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"STOCK EXCHANGE SAINT PETERSBURG" ;
+	dbo:formerName	"SAINT PETERSBURG EXCHANGE" , "STOCK EXCHANGE SAINT PETERSBURG" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"SPBEX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"STOCK EXCHANGE SAINT PETERSBURG" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:RU ;
@@ -32934,7 +32934,7 @@ fibo-fbc-fct-mkti:Exchange-XPOL
 fibo-fbc-fct-mkti:Exchange-XPOM
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"PNGX MARKETS LIMITED" ;
+	dbo:formerName	"PNGX MARKETS LIMITED" , "PORT MORESBY STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"PNGX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"PNGX MARKETS LIMITED" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:PG ;
@@ -32960,7 +32960,7 @@ fibo-fbc-fct-mkti:Exchange-XPOR
 fibo-fbc-fct-mkti:Exchange-XPOS
 	a	fibo-fbc-fct-mkt:DarkPool ;
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
-	dbo:formerName	"POSIT DARK" ;
+	dbo:formerName	"POSIT DARK" , "POSIT" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"DARK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"POSIT DARK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:IE ;
@@ -32974,7 +32974,7 @@ fibo-fbc-fct-mkti:Exchange-XPOS
 fibo-fbc-fct-mkti:Exchange-XPOT
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"EUROPEAN ENERGY EXCHANGE - OTF GAS MARKET" ;
+	dbo:formerName	"EUROPEAN ENERGY EXCHANGE - OTF GAS MARKET" , "POWERNEXT - OTF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EUROPEAN ENERGY EXCHANGE - OTF GAS MARKET" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:DE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Leipzig ;
@@ -33051,7 +33051,7 @@ fibo-fbc-fct-mkti:Exchange-XPSE
 fibo-fbc-fct-mkti:Exchange-XPSF
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"EUROPEAN ENERGY EXCHANGE - REGULATED GAS MARKET" ;
+	dbo:formerName	"EUROPEAN ENERGY EXCHANGE - REGULATED GAS MARKET" , "POWERNEXT - GAS SPOT AND FUTURES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EUROPEAN ENERGY EXCHANGE - REGULATED GAS MARKET" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:DE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Leipzig ;
@@ -33158,7 +33158,7 @@ fibo-fbc-fct-mkti:Exchange-XQLX
 fibo-fbc-fct-mkti:Exchange-XQMH
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"SIX SWISS EXCHANGE - STRUCTURED PRODUCTS" ;
+	dbo:formerName	"SIX STRUCTURED PRODUCTS EXCHANGE" , "SIX SWISS EXCHANGE - STRUCTURED PRODUCTS" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"SIX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"SIX SWISS EXCHANGE - STRUCTURED PRODUCTS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:CH ;
@@ -33312,7 +33312,7 @@ fibo-fbc-fct-mkti:Exchange-XRIS
 fibo-fbc-fct-mkti:Exchange-XRMO
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"RM-SYSTEM CZECH STOCK EXCHANGE - MTF" ;
+	dbo:formerName	"RM-SYSTEM CZECH STOCK EXCHANGE (MTF)" , "RM-SYSTEM CZECH STOCK EXCHANGE - MTF" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"RMS CZ" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"RM-SYSTEM CZECH STOCK EXCHANGE - MTF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:CZ ;
@@ -33499,7 +33499,7 @@ fibo-fbc-fct-mkti:Exchange-XSAP
 fibo-fbc-fct-mkti:Exchange-XSAT
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"SPOTLIGHT STOCK MARKET AB" ;
+	dbo:formerName	"AKTIETORGET" , "SPOTLIGHT STOCK MARKET AB" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"SPOTLIGHT STOCK MARKET AB" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:SE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Stockholm ;
@@ -33538,7 +33538,7 @@ fibo-fbc-fct-mkti:Exchange-XSAU
 fibo-fbc-fct-mkti:Exchange-XSBI
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"JAPANNEXT - X - MARKET" ;
+	dbo:formerName	"JAPANNEXT - X - MARKET" , "SBI JAPANNEXT - X - MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"JAPANNEXT - X - MARKET" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:JP ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Tokyo ;
@@ -33776,7 +33776,7 @@ fibo-fbc-fct-mkti:Exchange-XSFE
 fibo-fbc-fct-mkti:Exchange-XSGA
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"SOCIETE GENERALE - SYSTEMATIC INTERNALISER" ;
+	dbo:formerName	"ALPHA Y" , "SOCIETE GENERALE - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"SG SI" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"SOCIETE GENERALE - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:FR ;
@@ -33920,7 +33920,7 @@ fibo-fbc-fct-mkti:Exchange-XSME
 fibo-fbc-fct-mkti:Exchange-XSMP
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"EURONEXT BLOCK" ;
+	dbo:formerName	"EURONEXT BLOCK" , "SMARTPOOL" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"EURONEXT BLOCK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -34659,7 +34659,7 @@ fibo-fbc-fct-mkti:Exchange-XTUC
 fibo-fbc-fct-mkti:Exchange-XTUN
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"TUNIS STOCK EXCHANGE (BOURSE DE TUNIS)" ;
+	dbo:formerName	"BOURSE DE TUNIS" , "TUNIS STOCK EXCHANGE (BOURSE DE TUNIS)" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BVMT" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TUNIS STOCK EXCHANGE (BOURSE DE TUNIS)" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:TN ;
@@ -34767,7 +34767,7 @@ fibo-fbc-fct-mkti:Exchange-XUAX
 fibo-fbc-fct-mkti:Exchange-XUBS
 	a	fibo-fbc-fct-mkt:DarkPool ;
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"AQUIS EXCHANGE PLC - AMP - DARK ORDER BOOK" ;
+	dbo:formerName	"AQUIS EXCHANGE PLC - AMP - DARK ORDER BOOK" , "UBS MTF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"AQUIS EXCHANGE PLC - AMP - DARK ORDER BOOK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -34827,7 +34827,7 @@ fibo-fbc-fct-mkti:Exchange-XULA
 fibo-fbc-fct-mkti:Exchange-XUMP
 	a	fibo-fbc-fct-mkt:AuctionMarket ;
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
-	dbo:formerName	"UBS MTF LIMITED - PERIODIC AUCTION ORDER BOOK" ;
+	dbo:formerName	"UBS MTF - PERIODIC AUCTION" , "UBS MTF LIMITED - PERIODIC AUCTION ORDER BOOK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"UBS MTF LIMITED - PERIODIC AUCTION ORDER BOOK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
