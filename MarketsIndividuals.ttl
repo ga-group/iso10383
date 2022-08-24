@@ -5057,7 +5057,7 @@ fibo-fbc-fct-mkti:Exchange-CEUO
 fibo-fbc-fct-mkti:Exchange-CEUX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE EUROPE - DXE ORDER BOOKS (NL)" ;
+	dbo:formerName	"CBOE EUROPE - CXE ORDER BOOKS (NL)" , "CBOE EUROPE - DXE ORDER BOOKS (NL)" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CBOE EU DXE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EUROPE - DXE ORDER BOOKS (NL)" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NL ;
@@ -6211,7 +6211,7 @@ fibo-fbc-fct-mkti:Exchange-COAL
 fibo-fbc-fct-mkti:Exchange-CODA
 	a	fibo-fbc-fct-mkt:AlternativeTradingSystem ;
 	a	fibo-fbc-fct-mkt:AuctionMarket , fibo-fbc-fct-mkt:DarkPool , fibo-fbc-fct-mkt:OperatingLevelMarket , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"CODA MARKETS - MICRO AND BLOCK" ;
+	dbo:formerName	"CODA MARKETS - MICRO AND BLOCK" , "CODA MICRO AND BLOCK" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CODA" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CODA MARKETS - MICRO AND BLOCK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -6654,7 +6654,7 @@ fibo-fbc-fct-mkti:Exchange-CSLP
 fibo-fbc-fct-mkti:Exchange-CSMD
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"CREDIT SUISSE BANK (EUROPE), S.A." ;
+	dbo:formerName	"CREDIT SUISSE BANK (EUROPE), S.A." , "CREDIT SUISSE SECURITIES SOCIEDAD DE VALORES, S.A." ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CSEB" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CREDIT SUISSE BANK (EUROPE), S.A." ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:ES ;
@@ -8336,7 +8336,7 @@ fibo-fbc-fct-mkti:Exchange-EGSI
 fibo-fbc-fct-mkti:Exchange-EIXE
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"AQUIS EXCHANGE PLC AQUIS - EIX INFRASTRUCTURE BOND MARKET" ;
+	dbo:formerName	"AQUIS EXCHANGE PLC AQUIS - EIX INFRASTRUCTURE BOND MARKET" , "ESTATES AND INFRASTRUCTURE EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"AQUIS-EIX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"AQUIS EXCHANGE PLC AQUIS - EIX INFRASTRUCTURE BOND MARKET" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
@@ -10209,7 +10209,7 @@ fibo-fbc-fct-mkti:Exchange-FRAU
 fibo-fbc-fct-mkti:Exchange-FRAV
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"BOERSE FRANKFURT - FREIVERKEHR - OFF-BOOK" ;
+	dbo:formerName	"BOERSE FRANKFURT - FREIVERKEHR - OFF-BOOK" , "BOERSE FRANKFURT - FREIVERKEHR- OFF-BOOK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BOERSE FRANKFURT - FREIVERKEHR - OFF-BOOK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:DE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Frankfurt ;
@@ -14507,7 +14507,7 @@ fibo-fbc-fct-mkti:Exchange-JLEQ
 fibo-fbc-fct-mkti:Exchange-JLEU
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"JUMP LIQUIDITY EU EQUITY PLATFORM" ;
+	dbo:formerName	"JUMP LIQUIDITY EU EQUITY PLATFORM" , "JUMP TRADING EUROPE - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"JUMP LIQUIDITY EU EQUITY PLATFORM" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NL ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Amsterdam ;
@@ -16032,7 +16032,7 @@ fibo-fbc-fct-mkti:Exchange-MANL
 fibo-fbc-fct-mkti:Exchange-MAQE
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"MACQUARIE BANK EUROPE DESIGNATED ACTIVITY COMPANY - SYSTEMATIC INTERNALISER" ;
+	dbo:formerName	"MACQUARIE BANK EUROPE DESIGNATED ACTIVITY COMPANY - SYSTEMATIC INTERNALISER" , "MBE OPERATING COMPANY DESIGNATED ACTIVITY COMPANY - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MACQUARIE BANK EUROPE DESIGNATED ACTIVITY COMPANY - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:IE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Dublin ;
@@ -20045,7 +20045,7 @@ fibo-fbc-fct-mkti:Exchange-PFTS
 fibo-fbc-fct-mkti:Exchange-PFXD
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"PARNDF" ;
+	dbo:formerName	"PARFX DERIVATIVES" , "PARNDF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"PARNDF" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -22066,7 +22066,7 @@ fibo-fbc-fct-mkti:Exchange-SIGX
 fibo-fbc-fct-mkti:Exchange-SIMD
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , owl:NamedIndividual ;
-	dbo:formerName	"CREDIT SUISSE BANK (EUROPE), S.A. - SYSTEMATIC INTERNALISER" ;
+	dbo:formerName	"CREDIT SUISSE BANK (EUROPE), S.A. - SYSTEMATIC INTERNALISER" , "CREDIT SUISSE EU - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CREDIT SUISSE BANK (EUROPE), S.A. - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:ES ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Madrid ;
@@ -29532,7 +29532,7 @@ fibo-fbc-fct-mkti:Exchange-XETU
 fibo-fbc-fct-mkti:Exchange-XETV
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"XETRA - FREIVERKEHR - OFF-BOOK" ;
+	dbo:formerName	"XETRA - FREIVERKEHR - OFF-BOOK" , "XETRA - FREIVERKEHR- OFF-BOOK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"XETRA - FREIVERKEHR - OFF-BOOK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:DE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Frankfurt ;
