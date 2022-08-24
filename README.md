@@ -32,7 +32,10 @@ ISO 3166-1 codes per means of [ISO3166-1-CountryCodes-Adjunct](https://www.omg.o
 i.e. `lcc-3166-1-adj:BM` is used instead of `lcc-3166-1:Bermuda`.
 
 For BusinessCentersIndividuals the primary source is the latest business-center spec
-file as published by FpML working group: <https://www.fpml.org/coding-scheme/>.
+file as published by FpML working group: <https://www.fpml.org/coding-scheme/>. The
+choice of vocabulary is largely identical to FIBO's, except for `lcc-cr:isPartOf`
+which refers to ISO 3166-1 and 3166-2 codes per means of [ISO3166-1-CountryCodes-Adjunct](https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/)
+and [ISO3166-2-SubdivisionCodes-Adjunct/](https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes-Adjunct/).
 
 The resulting files are then enriched using supplementary files (maintained in this repo).
 

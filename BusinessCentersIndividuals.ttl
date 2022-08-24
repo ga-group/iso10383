@@ -1,4 +1,3 @@
-@prefix cc2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes-Adjunct/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix fibo-fbc-fct-bc: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/> .
 @prefix fibo-fbc-fct-bci: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/> .
@@ -8,6 +7,7 @@
 @prefix gleif: <https://rdf.gleif.org/L1/> .
 @prefix gn: <http://sws.geonames.org/> .
 @prefix lcc-3166-1-adj: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
+@prefix lcc-3166-2-adj: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes-Adjunct/> .
 @prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
 @prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -418,7 +418,7 @@ fibo-fbc-fct-bci:Athens
 fibo-fbc-fct-bci:Atlanta
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-GA , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-GA ;
 	rdfs:label	"Atlanta" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Atlanta> , <http://sws.geonames.org/4180439/> , unlcd:USATL , wd:Q23556 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -681,7 +681,7 @@ fibo-fbc-fct-bci:Basseterre
 fibo-fbc-fct-bci:Bedminster
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NJ , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-NJ ;
 	rdfs:label	"Bedminster" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bedminster%2C_New_Jersey> , <http://sws.geonames.org/5095528/> , unlcd:USBCD , wd:Q813922 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -780,7 +780,7 @@ fibo-fbc-fct-bci:Blantyre
 fibo-fbc-fct-bci:BocaRaton
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-FL , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-FL ;
 	rdfs:label	"Boca Raton" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Boca_Raton%2C_Florida> , <http://sws.geonames.org/4148411/> , unlcd:USBCT , wd:Q29422 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -806,7 +806,7 @@ fibo-fbc-fct-bci:Boston
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Boston" ;
-	lcc-cr:isPartOf	cc2:US-MA , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-MA ;
 	rdfs:label	"Boston" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Boston> , <http://sws.geonames.org/4930956/> , unlcd:USBOS , wd:Q100 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -1187,7 +1187,7 @@ fibo-fbc-fct-bci:Charlotte
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Charlotte" ;
-	lcc-cr:isPartOf	cc2:US-NC , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-NC ;
 	rdfs:label	"Charlotte" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Charlotte%2C_North_Carolina> , <http://sws.geonames.org/4460243/> , unlcd:USCLT , wd:Q16565 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -1195,7 +1195,7 @@ fibo-fbc-fct-bci:Charlotte
 fibo-fbc-fct-bci:Chatham
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:MA , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:MA ;
 	rdfs:label	"Chatham" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Savannah%2C_Georgia> , <http://sws.geonames.org/4221552/> , unlcd:USSAV , wd:Q83813 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -1213,7 +1213,7 @@ fibo-fbc-fct-bci:Chicago
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Chicago" ;
-	lcc-cr:isPartOf	cc2:US-IL , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-IL ;
 	rdfs:label	"Chicago" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Chicago> , <http://sws.geonames.org/4887398/> , unlcd:USCHI , wd:Q1297 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -1486,7 +1486,7 @@ fibo-fbc-fct-bci:Denver
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Denver" ;
-	lcc-cr:isPartOf	cc2:US-CO , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-CO ;
 	rdfs:label	"Denver" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Denver> , <http://sws.geonames.org/5419384/> , unlcd:USDEN , wd:Q16554 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Denver> .
@@ -1495,7 +1495,7 @@ fibo-fbc-fct-bci:Detroit
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Detroit" ;
-	lcc-cr:isPartOf	cc2:US-MI , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-MI ;
 	rdfs:label	"Detroit" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Detroit> , <http://sws.geonames.org/4990729/> , unlcd:USDET , wd:Q12439 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Detroit> .
@@ -1989,7 +1989,7 @@ fibo-fbc-fct-bci:Gibraltar
 fibo-fbc-fct-bci:Glenview
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-IL , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-IL ;
 	rdfs:label	"Glenview" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Glenview%2C_Illinois> , <http://sws.geonames.org/4893886/> , unlcd:USNBU , wd:Q33438705 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -1997,7 +1997,7 @@ fibo-fbc-fct-bci:Glenview
 fibo-fbc-fct-bci:Great_Neck
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NY , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-NY ;
 	rdfs:label	"Great Neck" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Great_Neck_%28village%29%2C_New_York> , <http://sws.geonames.org/5119218/> , unlcd:USGNK , wd:Q3115965 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -2005,7 +2005,7 @@ fibo-fbc-fct-bci:Great_Neck
 fibo-fbc-fct-bci:Greenwich
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-CT , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-CT ;
 	rdfs:label	"Greenwich" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Greenwich%2C_Connecticut> , <http://sws.geonames.org/4835395/> , unlcd:USGRH , wd:Q5885280 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -2038,7 +2038,7 @@ fibo-fbc-fct-bci:Guayaquil
 fibo-fbc-fct-bci:Guaynabo
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-PR , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-PR ;
 	rdfs:label	"Guaynabo" ;
 	skos:closeMatch	<http://sws.geonames.org/4565119/> , unlcd:PRGUO , wd:Q590060 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Puerto_Rico> .
@@ -2178,7 +2178,7 @@ fibo-fbc-fct-bci:Honolulu
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Honolulu" ;
-	lcc-cr:isPartOf	cc2:US-HI , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-HI ;
 	rdfs:label	"Honolulu" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Honolulu> , <http://sws.geonames.org/5856195/> , unlcd:USHNL , wd:Q18094 ;
 	time:timeZone	<http://dbpedia.org/resource/Pacific/Honolulu> .
@@ -2195,7 +2195,7 @@ fibo-fbc-fct-bci:Houston
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Houston" ;
-	lcc-cr:isPartOf	cc2:US-TX , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-TX ;
 	rdfs:label	"Houston" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Houston> , <http://sws.geonames.org/4699066/> , unlcd:USHOU , wd:Q16555 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -2499,7 +2499,7 @@ fibo-fbc-fct-bci:Jeddah
 fibo-fbc-fct-bci:Jersey_City
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NJ , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-NJ ;
 	rdfs:label	"Jersey City" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Jersey_City%2C_New_Jersey> , <http://sws.geonames.org/5099836/> , unlcd:USJEC , wd:Q26339 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -2594,7 +2594,7 @@ fibo-fbc-fct-bci:Kampala
 fibo-fbc-fct-bci:Kansas_City
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-MO , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-MO ;
 	rdfs:label	"Kansas City" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Kansas_City%2C_Missouri> , <http://sws.geonames.org/4393217/> , unlcd:USMKC , wd:Q41819 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -2855,7 +2855,7 @@ fibo-fbc-fct-bci:Leipzig
 fibo-fbc-fct-bci:Lenexa
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-KS , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-KS ;
 	rdfs:label	"Lenexa" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Lenexa%2C_Kansas> , <http://sws.geonames.org/4274356/> , unlcd:USLXA , wd:Q992536 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -2936,7 +2936,7 @@ fibo-fbc-fct-bci:Los_Angeles
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Los Angeles" ;
-	lcc-cr:isPartOf	cc2:US-CA , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-CA ;
 	rdfs:label	"Los Angeles" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Los_Angeles> , <http://sws.geonames.org/5368361/> , unlcd:USLAX , wd:Q65 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
@@ -3250,7 +3250,7 @@ fibo-fbc-fct-bci:Mexico_City
 fibo-fbc-fct-bci:Miami
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-FL , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-FL ;
 	rdfs:label	"Miami" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Miami> , <http://sws.geonames.org/4164138/> , unlcd:USMIA , wd:Q8652 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -3268,7 +3268,7 @@ fibo-fbc-fct-bci:Minneapolis
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Minneapolis" ;
-	lcc-cr:isPartOf	cc2:US-MN , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-MN ;
 	rdfs:label	"Minneapolis" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Minneapolis> , <http://sws.geonames.org/5037649/> , unlcd:USMES , wd:Q36091 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -3286,7 +3286,7 @@ fibo-fbc-fct-bci:Mobile
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Mobile" ;
-	lcc-cr:isPartOf	cc2:US-AL , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-AL ;
 	rdfs:label	"Mobile" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Mobile%2C_Alabama> , <http://sws.geonames.org/4076598/> , unlcd:USMOB , wd:Q79875 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -3329,7 +3329,7 @@ fibo-fbc-fct-bci:Montreal
 fibo-fbc-fct-bci:Moorpark
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-CA , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-CA ;
 	rdfs:label	"Moorpark" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Moorpark%2C_California> , <http://sws.geonames.org/5374648/> , unlcd:USMQK , wd:Q983829 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
@@ -3346,7 +3346,7 @@ fibo-fbc-fct-bci:Moscow
 fibo-fbc-fct-bci:Mount_Pleasant
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-SC , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-SC ;
 	rdfs:label	"Mount Pleasant" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Mount_Pleasant%2C_South_Carolina> , <http://sws.geonames.org/4588165/> , unlcd:USMPH , wd:Q1010216 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -3527,7 +3527,7 @@ fibo-fbc-fct-bci:Nairobi
 fibo-fbc-fct-bci:Narberth
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-PA , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-PA ;
 	rdfs:label	"Narberth" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Narberth%2C_Pennsylvania> , <http://sws.geonames.org/5202869/> , unlcd:USN84 , wd:Q1186079 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -3572,7 +3572,7 @@ fibo-fbc-fct-bci:New_York
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of New York" ;
 	fibo-fnd-utl-av:synonym	"New York City" ;
-	lcc-cr:isPartOf	cc2:US-NY , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-NY ;
 	rdfs:label	"New York" ;
 	skos:closeMatch	<http://dbpedia.org/resource/New_York_City> , <http://sws.geonames.org/5128581/> , unlcd:USNYC , wd:Q60 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -3613,7 +3613,7 @@ fibo-fbc-fct-bci:Nizhny_Novgorod
 fibo-fbc-fct-bci:North_Bergen
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NJ , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-NJ ;
 	rdfs:label	"North Bergen" ;
 	skos:closeMatch	<http://dbpedia.org/resource/North_Bergen%2C_New_Jersey> , <http://sws.geonames.org/5101879/> , unlcd:USNBN , wd:Q2000528 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -3828,7 +3828,7 @@ fibo-fbc-fct-bci:Perth
 fibo-fbc-fct-bci:Pfaffikon_SZ
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:CH-SZ , lcc-3166-1-adj:CH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CH , lcc-3166-2-adj:CH-SZ ;
 	rdfs:label	"Pfäffikon SZ" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Pf%C3%A4ffikon%2C_Schwyz> , <http://sws.geonames.org/2659220/> , unlcd:CHPFK , wd:Q671010 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
@@ -3836,7 +3836,7 @@ fibo-fbc-fct-bci:Pfaffikon_SZ
 fibo-fbc-fct-bci:Philadelphia
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-PA , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-PA ;
 	rdfs:label	"Philadelphia" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Philadelphia> , <http://sws.geonames.org/4560349/> , unlcd:USPHL , wd:Q1345 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -3853,7 +3853,7 @@ fibo-fbc-fct-bci:Phnom_Penh
 fibo-fbc-fct-bci:Phoenix
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-AZ , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-AZ ;
 	rdfs:label	"Phoenix" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Phoenix%2C_Arizona> , <http://sws.geonames.org/5308655/> , unlcd:USPHX , wd:Q16556 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Phoenix> .
@@ -3904,7 +3904,7 @@ fibo-fbc-fct-bci:Portland
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Portland" ;
-	lcc-cr:isPartOf	cc2:US-OR , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-OR ;
 	rdfs:label	"Portland" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Portland%2C_Oregon> , <http://sws.geonames.org/5746545/> , unlcd:USPDX , wd:Q6106 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
@@ -3937,7 +3937,7 @@ fibo-fbc-fct-bci:Praia
 fibo-fbc-fct-bci:Princeton
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NJ , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-NJ ;
 	rdfs:label	"Princeton" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Princeton%2C_New_Jersey> , <http://sws.geonames.org/5102922/> , unlcd:USPCT , wd:Q138518 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -3945,7 +3945,7 @@ fibo-fbc-fct-bci:Princeton
 fibo-fbc-fct-bci:Purchase
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NY , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-NY ;
 	rdfs:label	"Purchase" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Purchase%2C_New_York> , <http://sws.geonames.org/5133135/> , unlcd:USYP5 , wd:Q642275 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -4018,7 +4018,7 @@ fibo-fbc-fct-bci:Randers
 fibo-fbc-fct-bci:Red_Bank
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NJ , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-NJ ;
 	rdfs:label	"Red Bank" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Red_Bank%2C_New_Jersey> , <http://sws.geonames.org/5103159/> , unlcd:USREN , wd:Q1010539 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -4241,7 +4241,7 @@ fibo-fbc-fct-bci:Sacramento
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Sacramento" ;
-	lcc-cr:isPartOf	cc2:US-CA , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-CA ;
 	rdfs:label	"Sacramento" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Sacramento%2C_California> , <http://sws.geonames.org/5389489/> , unlcd:USSAC , wd:Q18013 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
@@ -4284,7 +4284,7 @@ fibo-fbc-fct-bci:Samara
 fibo-fbc-fct-bci:San_Carlos
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-CA , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-CA ;
 	rdfs:label	"San Carlos" ;
 	skos:closeMatch	<http://dbpedia.org/resource/San_Carlos%2C_California> , <http://sws.geonames.org/5391760/> , unlcd:USSQL , wd:Q383234 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
@@ -4293,7 +4293,7 @@ fibo-fbc-fct-bci:San_Francisco
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of San Francisco" ;
-	lcc-cr:isPartOf	cc2:US-CA , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-CA ;
 	rdfs:label	"San Francisco" ;
 	skos:closeMatch	<http://dbpedia.org/resource/San_Francisco> , <http://sws.geonames.org/5391959/> , unlcd:USSFO , wd:Q62 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
@@ -4412,7 +4412,7 @@ fibo-fbc-fct-bci:Schwerin
 fibo-fbc-fct-bci:SeaGirt
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NJ , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-NJ ;
 	rdfs:label	"Sea Girt" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Sea_Girt%2C_New_Jersey> , <http://sws.geonames.org/5104495/> , unlcd:USGXI , wd:Q1088151 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -4421,7 +4421,7 @@ fibo-fbc-fct-bci:Seattle
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Seattle" ;
-	lcc-cr:isPartOf	cc2:US-WA , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-WA ;
 	rdfs:label	"Seattle" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Seattle> , <http://sws.geonames.org/5809844/> , unlcd:USSEA , wd:Q5083 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
@@ -4546,7 +4546,7 @@ fibo-fbc-fct-bci:St_Johns
 fibo-fbc-fct-bci:Stamford
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-CT , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-CT ;
 	rdfs:label	"Stamford" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Stamford%2C_Connecticut> , <http://sws.geonames.org/4843564/> , unlcd:USXLX , wd:Q49169 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -4572,7 +4572,7 @@ fibo-fbc-fct-bci:Stuttgart
 fibo-fbc-fct-bci:Summit
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NJ , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-NJ ;
 	rdfs:label	"Summit" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Summit%2C_New_Jersey> , <http://sws.geonames.org/5105127/> , unlcd:USUYX , wd:Q1000642 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -4764,7 +4764,7 @@ fibo-fbc-fct-bci:Tel_Aviv
 fibo-fbc-fct-bci:TheWoodlands
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-TX , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-TX ;
 	rdfs:label	"The Woodlands" ;
 	skos:closeMatch	<http://dbpedia.org/resource/The_Woodlands%2C_Texas> , <http://sws.geonames.org/4736476/> , unlcd:USTHW , wd:Q982421 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -5316,7 +5316,7 @@ fibo-fbc-fct-bci:Washington
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Washington" ;
-	lcc-cr:isPartOf	cc2:US-DC , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-DC ;
 	rdfs:label	"Washington" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Washington%2C_D.C.> , <http://sws.geonames.org/4140963/> , unlcd:USWAS , wd:Q61 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -5334,7 +5334,7 @@ fibo-fbc-fct-bci:Wichita
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Wichita" ;
-	lcc-cr:isPartOf	cc2:US-KS , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-KS ;
 	rdfs:label	"Wichita" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Wichita%2C_Kansas> , <http://sws.geonames.org/4281730/> , unlcd:USICT , wd:Q49266 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -5351,7 +5351,7 @@ fibo-fbc-fct-bci:Willemstad
 fibo-fbc-fct-bci:Wilmington
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-DE , lcc-3166-1-adj:US ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US , lcc-3166-2-adj:US-DE ;
 	rdfs:label	"Wilmington" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Wilmington%2C_Delaware> , <http://sws.geonames.org/4145381/> , unlcd:USILG , wd:Q174224 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
