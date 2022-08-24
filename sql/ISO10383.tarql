@@ -44,7 +44,6 @@ CONSTRUCT {
 		lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 		fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus ?_status ;
 		rdfs:label	?_miclbl ;
-		dbo:formerName	?_miclbl ;
 		dct:created ?_crea ;
 		dct:modified ?_modf ;
 		tempo:validFrom ?_crea ;
