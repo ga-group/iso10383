@@ -10,14 +10,14 @@ index a0b4c78..6992a4e 100644
 +	a	fibo-fnd-plc-loc:BusinessCenter ;
 +	a	owl:NamedIndividual ;
 +	dct:description	"the international business center of Ho Chi Minh (formerly Saigon)" ;
-+	lcc-cr:isPartOf	cc:VN ;
++	lcc-cr:isPartOf	lcc-3166-1-adj:VN ;
 +	rdfs:label	"Ho Chi Minh (formerly Saigon)" .
 +
 +fibo-fbc-fct-bci:
 +	a	fibo-fnd-plc-loc:BusinessCenter ;
 +	a	owl:NamedIndividual ;
 +	dct:description	"the international business center of " ;
-+	lcc-cr:isPartOf	cc:BR , cc:ES , cc:EU , cc:GB , cc:IL , cc:NY , cc:US ;
++	lcc-cr:isPartOf	lcc-3166-1-adj:BR , lcc-3166-1-adj:ES , lcc-3166-1-adj:EU , lcc-3166-1-adj:GB , lcc-3166-1-adj:IL , lcc-3166-1-adj:NY , lcc-3166-1-adj:US ;
 +	rdfs:label	"" .
 +
  fibo-fbc-fct-bci:AEAB
@@ -104,7 +104,7 @@ index a0b4c78..6992a4e 100644
 +	a	fibo-fnd-plc-loc:BusinessCenter ;
 +	a	owl:NamedIndividual ;
 +	dct:description	"the international business center of Dusseldorf" ;
-+	lcc-cr:isPartOf	cc:DE ;
++	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 +	owl:sameAs	fibo-fbc-fct-bci:Duesseldorf ;
 +	rdfs:label	"Dusseldorf" .
  
@@ -159,8 +159,8 @@ index a0b4c78..6992a4e 100644
  	a	fibo-fnd-plc-loc:BusinessCenter ;
  	a	owl:NamedIndividual ;
  	dct:description	"the international business center of Guatemala City" ;
--	lcc-cr:isPartOf	cc:GT ;
-+	lcc-cr:isPartOf	cc:GT , cc:GU ;
+-	lcc-cr:isPartOf	lcc-3166-1-adj:GT ;
++	lcc-cr:isPartOf	lcc-3166-1-adj:GT , lcc-3166-1-adj:GU ;
  	rdfs:label	"Guatemala City" ;
  	skos:closeMatch	<http://dbpedia.org/resource/Guatemala_City> , <http://sws.geonames.org/3598132/> ;
  	time:timeZone	<http://dbpedia.org/resource/America/Guatemala> .
@@ -182,7 +182,7 @@ index a0b4c78..6992a4e 100644
 +	a	fibo-fnd-plc-loc:BusinessCenter ;
 +	a	owl:NamedIndividual ;
 +	dct:description	"the international business center of Kiev" ;
-+	lcc-cr:isPartOf	cc:UA ;
++	lcc-cr:isPartOf	lcc-3166-1-adj:UA ;
 +	owl:sameAs	fibo-fbc-fct-bci:Kyiv ;
 +	rdfs:label	"Kiev" .
  
@@ -208,7 +208,7 @@ index a0b4c78..6992a4e 100644
 +	a	fibo-fnd-plc-loc:BusinessCenter ;
 +	a	owl:NamedIndividual ;
 +	dct:description	"the international business center of Makati" ;
-+	lcc-cr:isPartOf	cc:PH ;
++	lcc-cr:isPartOf	lcc-3166-1-adj:PH ;
 +	owl:sameAs	fibo-fbc-fct-bci:Makati_City ;
 +	rdfs:label	"Makati" .
  
@@ -255,7 +255,7 @@ index a0b4c78..6992a4e 100644
 +	a	fibo-fnd-plc-loc:BusinessCenter ;
 +	a	owl:NamedIndividual ;
 +	dct:description	"the international business center of Teheran" ;
-+	lcc-cr:isPartOf	cc:IR ;
++	lcc-cr:isPartOf	lcc-3166-1-adj:IR ;
 +	owl:sameAs	fibo-fbc-fct-bci:Tehran ;
 +	rdfs:label	"Teheran" .
  
@@ -301,7 +301,7 @@ index a0b4c78..6992a4e 100644
 +	a	fibo-fnd-plc-loc:BusinessCenter ;
 +	a	owl:NamedIndividual ;
 +	dct:description	"the international business center of Ulan Bator" ;
-+	lcc-cr:isPartOf	cc:MN ;
++	lcc-cr:isPartOf	lcc-3166-1-adj:MN ;
 +	owl:sameAs	fibo-fbc-fct-bci:Ulaanbaatar ;
 +	rdfs:label	"Ulan Bator" .
  

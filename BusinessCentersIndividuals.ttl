@@ -1,5 +1,5 @@
 @prefix cc2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes-Adjunct/> .
-@prefix cc: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
+@prefix lcc-3166-1-adj: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix fibo-fbc-fct-bc: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/> .
 @prefix fibo-fbc-fct-bci: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/> .
@@ -46,7 +46,7 @@ This set of business centers is current with respect to the FpML published XML d
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Ho Chi Minh (formerly Saigon)" ;
-	lcc-cr:isPartOf	cc:VN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:VN ;
 	rdfs:label	"Ho Chi Minh (formerly Saigon)" .
 
 fibo-fbc-fct-bci:AEAB
@@ -202,7 +202,7 @@ fibo-fbc-fct-bci:AZBA
 fibo-fbc-fct-bci:Aabenraa
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DK ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DK ;
 	rdfs:label	"Aabenraa" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Aabenraa> , <http://sws.geonames.org/2625070/> , unlcd:DKAAB , wd:Q154897 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Copenhagen> .
@@ -210,7 +210,7 @@ fibo-fbc-fct-bci:Aabenraa
 fibo-fbc-fct-bci:Aalborg
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DK ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DK ;
 	rdfs:label	"Aalborg" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Aalborg> , <http://sws.geonames.org/2624886/> , unlcd:DKAAL , wd:Q25410 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Copenhagen> .
@@ -219,7 +219,7 @@ fibo-fbc-fct-bci:Abha
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Abha" ;
-	lcc-cr:isPartOf	cc:SA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SA ;
 	rdfs:label	"Abha" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Abha> , <http://sws.geonames.org/110690/> , unlcd:SAAHB , wd:Q190948 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Riyadh> .
@@ -228,7 +228,7 @@ fibo-fbc-fct-bci:Abidjan
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Abidjan" ;
-	lcc-cr:isPartOf	cc:CI ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CI ;
 	rdfs:label	"Abidjan" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Abidjan> , <http://sws.geonames.org/2293538/> , unlcd:CIABJ , wd:Q1515 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Abidjan> .
@@ -251,7 +251,7 @@ fibo-fbc-fct-bci:Abu_Dhabi
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Abu Dhabi" ;
-	lcc-cr:isPartOf	cc:AE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AE ;
 	rdfs:label	"Abu Dhabi" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Abu_Dhabi> , <http://sws.geonames.org/292968/> , unlcd:AEAUH , wd:Q1519 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Dubai> .
@@ -260,7 +260,7 @@ fibo-fbc-fct-bci:Abuja
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Abuja" ;
-	lcc-cr:isPartOf	cc:NG ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:NG ;
 	rdfs:label	"Abuja" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Abuja> , <http://sws.geonames.org/2352778/> , unlcd:NGABV , wd:Q3787 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Lagos> .
@@ -269,7 +269,7 @@ fibo-fbc-fct-bci:Accra
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Accra" ;
-	lcc-cr:isPartOf	cc:GH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:GH ;
 	rdfs:label	"Accra" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Accra> , <http://sws.geonames.org/2306104/> , unlcd:GHACC , wd:Q3761 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Accra> .
@@ -278,7 +278,7 @@ fibo-fbc-fct-bci:Addis_Ababa
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Addis Ababa" ;
-	lcc-cr:isPartOf	cc:ET ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ET ;
 	rdfs:label	"Addis Ababa" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Addis_Ababa> , <http://sws.geonames.org/344979/> , unlcd:ETADD , wd:Q3624 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Addis_Ababa> .
@@ -287,7 +287,7 @@ fibo-fbc-fct-bci:Adelaide
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Adelaide" ;
-	lcc-cr:isPartOf	cc:AU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AU ;
 	rdfs:label	"Adelaide" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Adelaide> , <http://sws.geonames.org/2078025/> , unlcd:AUADL , wd:Q5112 ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Adelaide> .
@@ -296,7 +296,7 @@ fibo-fbc-fct-bci:Aden
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Aden" ;
-	lcc-cr:isPartOf	cc:YE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:YE ;
 	rdfs:label	"Aden" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Aden> , <http://sws.geonames.org/415189/> , unlcd:YEADE , wd:Q131694 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Aden> .
@@ -305,7 +305,7 @@ fibo-fbc-fct-bci:Ahmedabad
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Ahmedabad" ;
-	lcc-cr:isPartOf	cc:IN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IN ;
 	rdfs:label	"Ahmedabad" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Ahmedabad> , <http://sws.geonames.org/1279233/> , unlcd:INAMD , wd:Q1070 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
@@ -314,7 +314,7 @@ fibo-fbc-fct-bci:Algiers
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Algiers" ;
-	lcc-cr:isPartOf	cc:DZ ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DZ ;
 	rdfs:label	"Algiers" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Algiers> , <http://sws.geonames.org/2507480/> , unlcd:DZALG , wd:Q3561 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Algiers> .
@@ -326,7 +326,7 @@ fibo-fbc-fct-bci:Almaty
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Almaty" ;
-	lcc-cr:isPartOf	cc:KZ ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:KZ ;
 	rdfs:label	"Almaty" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Almaty> , <http://sws.geonames.org/1526384/> , unlcd:KZALA , wd:Q35493 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Almaty> .
@@ -335,7 +335,7 @@ fibo-fbc-fct-bci:Amman
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Amman" ;
-	lcc-cr:isPartOf	cc:JO ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:JO ;
 	rdfs:label	"Amman" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Amman> , <http://sws.geonames.org/250441/> , unlcd:JOAMM , wd:Q3805 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Amman> .
@@ -344,7 +344,7 @@ fibo-fbc-fct-bci:Amsterdam
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Amsterdam" ;
-	lcc-cr:isPartOf	cc:NL ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:NL ;
 	rdfs:label	"Amsterdam" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Amsterdam> , <http://sws.geonames.org/2759794/> , unlcd:NLAMS , wd:Q727 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
@@ -353,7 +353,7 @@ fibo-fbc-fct-bci:Ankara
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Ankara" ;
-	lcc-cr:isPartOf	cc:TR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:TR ;
 	rdfs:label	"Ankara" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Ankara> , <http://sws.geonames.org/323786/> , unlcd:TRANK , wd:Q3640 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Istanbul> .
@@ -361,7 +361,7 @@ fibo-fbc-fct-bci:Ankara
 fibo-fbc-fct-bci:Antananarivo
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:MG ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MG ;
 	rdfs:label	"Antananarivo" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Antananarivo> , <http://sws.geonames.org/1070940/> , unlcd:MGTNR , wd:Q3915 ;
 	time:timeZone	<http://dbpedia.org/resource/Indian/Antananarivo> .
@@ -369,7 +369,7 @@ fibo-fbc-fct-bci:Antananarivo
 fibo-fbc-fct-bci:Antiguo_Cuscatlan
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:SV ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SV ;
 	rdfs:label	"Antiguo Cuscatlan" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Antiguo_Cuscatl%C3%A1n> , <http://sws.geonames.org/3587362/> , unlcd:SVCUS , wd:Q575756 ;
 	time:timeZone	<http://dbpedia.org/resource/America/El_Salvador> .
@@ -377,7 +377,7 @@ fibo-fbc-fct-bci:Antiguo_Cuscatlan
 fibo-fbc-fct-bci:Antwerp
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:BE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BE ;
 	rdfs:label	"Antwerp" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Antwerp> , <http://sws.geonames.org/2803138/> , unlcd:BEANR , wd:Q12892 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
@@ -385,7 +385,7 @@ fibo-fbc-fct-bci:Antwerp
 fibo-fbc-fct-bci:Astana
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:KZ ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:KZ ;
 	rdfs:label	"Astana" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Nur-Sultan> , <http://sws.geonames.org/1526273/> , unlcd:KZAST , wd:Q1520 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Almaty> .
@@ -393,7 +393,7 @@ fibo-fbc-fct-bci:Astana
 fibo-fbc-fct-bci:Asti
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:IT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IT ;
 	rdfs:label	"Asti" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Asti> , <http://sws.geonames.org/3182714/> , unlcd:ITAST , wd:Q6122 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
@@ -401,7 +401,7 @@ fibo-fbc-fct-bci:Asti
 fibo-fbc-fct-bci:Asuncion
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:PY ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PY ;
 	rdfs:label	"Asuncion" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Asunci%C3%B3n> , <http://sws.geonames.org/3439389/> , unlcd:PYASU , wd:Q2933 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Asuncion> .
@@ -410,7 +410,7 @@ fibo-fbc-fct-bci:Athens
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Athens" ;
-	lcc-cr:isPartOf	cc:GR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:GR ;
 	rdfs:label	"Athens" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Athens> , <http://sws.geonames.org/264371/> , unlcd:GRATH , wd:Q1524 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Athens> .
@@ -418,7 +418,7 @@ fibo-fbc-fct-bci:Athens
 fibo-fbc-fct-bci:Atlanta
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-GA , cc:US ;
+	lcc-cr:isPartOf	cc2:US-GA , lcc-3166-1-adj:US ;
 	rdfs:label	"Atlanta" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Atlanta> , <http://sws.geonames.org/4180439/> , unlcd:USATL , wd:Q23556 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -427,7 +427,7 @@ fibo-fbc-fct-bci:Auckland
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Auckland" ;
-	lcc-cr:isPartOf	cc:NZ ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:NZ ;
 	rdfs:label	"Auckland" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Auckland> , <http://sws.geonames.org/2193733/> , unlcd:NZAKL , wd:Q37100 ;
 	time:timeZone	<http://dbpedia.org/resource/Pacific/Auckland> .
@@ -435,7 +435,7 @@ fibo-fbc-fct-bci:Auckland
 fibo-fbc-fct-bci:Aylesbury
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:GB ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:GB ;
 	rdfs:label	"Aylesbury" ;
 	skos:closeMatch	<http://sws.geonames.org/2656719/> , unlcd:GBAYL , wd:Q213474 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
@@ -594,7 +594,7 @@ fibo-fbc-fct-bci:Baghdad
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Baghdad" ;
-	lcc-cr:isPartOf	cc:IQ ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IQ ;
 	rdfs:label	"Baghdad" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Baghdad> , <http://sws.geonames.org/98182/> , unlcd:IQBGW , wd:Q1530 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Baghdad> .
@@ -603,7 +603,7 @@ fibo-fbc-fct-bci:Baku
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Baku" ;
-	lcc-cr:isPartOf	cc:AZ ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AZ ;
 	rdfs:label	"Baku" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Baku> , <http://sws.geonames.org/587084/> , unlcd:AZBAK , wd:Q9248 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Baku> .
@@ -612,7 +612,7 @@ fibo-fbc-fct-bci:Bandar_Seri_Begawan
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Bandar Seri Begawan" ;
-	lcc-cr:isPartOf	cc:BN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BN ;
 	rdfs:label	"Bandar Seri Begawan" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bandar_Seri_Begawan> , <http://sws.geonames.org/1820906/> , unlcd:BNBWN , wd:Q9279 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Brunei> .
@@ -621,7 +621,7 @@ fibo-fbc-fct-bci:Bangalore
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Bangalore" ;
-	lcc-cr:isPartOf	cc:IN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IN ;
 	rdfs:label	"Bangalore" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bangalore> , <http://sws.geonames.org/1277333/> , unlcd:INBLR , wd:Q1355 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
@@ -630,7 +630,7 @@ fibo-fbc-fct-bci:Bangkok
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Bangkok" ;
-	lcc-cr:isPartOf	cc:TH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:TH ;
 	rdfs:label	"Bangkok" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bangkok> , <http://sws.geonames.org/1609350/> , unlcd:THBKK , wd:Q1861 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Bangkok> .
@@ -638,7 +638,7 @@ fibo-fbc-fct-bci:Bangkok
 fibo-fbc-fct-bci:Banja_Luka
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:BA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BA ;
 	rdfs:label	"Banja Luka" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Banja_Luka> , <http://sws.geonames.org/3204541/> , unlcd:BABNX , wd:Q131127 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Sarajevo> .
@@ -647,7 +647,7 @@ fibo-fbc-fct-bci:Banjul
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Banjul" ;
-	lcc-cr:isPartOf	cc:GM ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:GM ;
 	rdfs:label	"Banjul" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Banjul> , <http://sws.geonames.org/2413876/> , unlcd:GMBJL , wd:Q3726 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Banjul> .
@@ -656,7 +656,7 @@ fibo-fbc-fct-bci:Barcelona
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Barcelona" ;
-	lcc-cr:isPartOf	cc:ES ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ES ;
 	rdfs:label	"Barcelona" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Barcelona> , <http://sws.geonames.org/3128760/> , unlcd:ESBCN , wd:Q1492 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
@@ -665,7 +665,7 @@ fibo-fbc-fct-bci:Basel
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Basel" ;
-	lcc-cr:isPartOf	cc:CH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CH ;
 	rdfs:label	"Basel" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Basel> , <http://sws.geonames.org/2661604/> , unlcd:CHBSL , wd:Q78 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
@@ -673,7 +673,7 @@ fibo-fbc-fct-bci:Basel
 fibo-fbc-fct-bci:Basseterre
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:KN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:KN ;
 	rdfs:label	"Basseterre" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Basseterre> , <http://sws.geonames.org/3575551/> , unlcd:KNBAS , wd:Q41295 ;
 	time:timeZone	<http://dbpedia.org/resource/America/St_Kitts> .
@@ -681,7 +681,7 @@ fibo-fbc-fct-bci:Basseterre
 fibo-fbc-fct-bci:Bedminster
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
+	lcc-cr:isPartOf	cc2:US-NJ , lcc-3166-1-adj:US ;
 	rdfs:label	"Bedminster" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bedminster%2C_New_Jersey> , <http://sws.geonames.org/5095528/> , unlcd:USBCD , wd:Q813922 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -690,7 +690,7 @@ fibo-fbc-fct-bci:Beijing
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Beijing" ;
-	lcc-cr:isPartOf	cc:CN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CN ;
 	rdfs:label	"Beijing" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Beijing> , <http://sws.geonames.org/1816670/> , unlcd:CNBJS , wd:Q956 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Shanghai> .
@@ -699,7 +699,7 @@ fibo-fbc-fct-bci:Beirut
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Beirut" ;
-	lcc-cr:isPartOf	cc:LB ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:LB ;
 	rdfs:label	"Beirut" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Beirut> , <http://sws.geonames.org/276781/> , unlcd:LBBEY , wd:Q3820 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Beirut> .
@@ -708,7 +708,7 @@ fibo-fbc-fct-bci:Belgrade
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Belgrade" ;
-	lcc-cr:isPartOf	cc:RS ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:RS ;
 	rdfs:label	"Belgrade" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Belgrade> , <http://sws.geonames.org/792680/> , unlcd:RSBEG , wd:Q3711 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Belgrade> .
@@ -716,7 +716,7 @@ fibo-fbc-fct-bci:Belgrade
 fibo-fbc-fct-bci:Bergamo
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:IT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IT ;
 	rdfs:label	"Bergamo" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bergamo> , <http://sws.geonames.org/3182164/> , unlcd:ITBGO , wd:Q628 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
@@ -724,7 +724,7 @@ fibo-fbc-fct-bci:Bergamo
 fibo-fbc-fct-bci:Bergen
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:NO ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:NO ;
 	rdfs:label	"Bergen" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bergen> , <http://sws.geonames.org/3161732/> , unlcd:NOBGO , wd:Q26793 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Oslo> .
@@ -732,7 +732,7 @@ fibo-fbc-fct-bci:Bergen
 fibo-fbc-fct-bci:Berlin
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Berlin" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Berlin> , <http://sws.geonames.org/2950159/> , unlcd:DEBER , wd:Q64 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -740,7 +740,7 @@ fibo-fbc-fct-bci:Berlin
 fibo-fbc-fct-bci:Bern
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:CH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CH ;
 	rdfs:label	"Bern" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bern> , <http://sws.geonames.org/2661552/> , unlcd:CHBRN , wd:Q70 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
@@ -748,7 +748,7 @@ fibo-fbc-fct-bci:Bern
 fibo-fbc-fct-bci:Biella
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:IT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IT ;
 	rdfs:label	"Biella" ;
 	skos:closeMatch	<http://sws.geonames.org/3182043/> , unlcd:ITBIE , wd:Q18021 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
@@ -756,7 +756,7 @@ fibo-fbc-fct-bci:Biella
 fibo-fbc-fct-bci:Bilbao
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:ES ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ES ;
 	rdfs:label	"Bilbao" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bilbao> , <http://sws.geonames.org/3128026/> , unlcd:ESBIO , wd:Q8692 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
@@ -764,7 +764,7 @@ fibo-fbc-fct-bci:Bilbao
 fibo-fbc-fct-bci:Bishkek
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:KG ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:KG ;
 	rdfs:label	"Bishkek" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bishkek> , <http://sws.geonames.org/1528675/> , unlcd:KGFRU , wd:Q9361 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Bishkek> .
@@ -772,7 +772,7 @@ fibo-fbc-fct-bci:Bishkek
 fibo-fbc-fct-bci:Blantyre
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:MW ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MW ;
 	rdfs:label	"Blantyre" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Blantyre> , <http://sws.geonames.org/931755/> , unlcd:MWBLZ , wd:Q188693 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Blantyre> .
@@ -780,7 +780,7 @@ fibo-fbc-fct-bci:Blantyre
 fibo-fbc-fct-bci:BocaRaton
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-FL , cc:US ;
+	lcc-cr:isPartOf	cc2:US-FL , lcc-3166-1-adj:US ;
 	rdfs:label	"Boca Raton" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Boca_Raton%2C_Florida> , <http://sws.geonames.org/4148411/> , unlcd:USBCT , wd:Q29422 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -789,7 +789,7 @@ fibo-fbc-fct-bci:Bogota
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Bogota" ;
-	lcc-cr:isPartOf	cc:CO ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CO ;
 	rdfs:label	"Bogota" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bogot%C3%A1> , <http://sws.geonames.org/3688689/> , unlcd:COBOG , wd:Q2841 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Bogota> .
@@ -797,7 +797,7 @@ fibo-fbc-fct-bci:Bogota
 fibo-fbc-fct-bci:Bologna
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:IT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IT ;
 	rdfs:label	"Bologna" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bologna> , <http://sws.geonames.org/3181928/> , unlcd:ITBLQ , wd:Q1891 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
@@ -806,7 +806,7 @@ fibo-fbc-fct-bci:Boston
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Boston" ;
-	lcc-cr:isPartOf	cc2:US-MA , cc:US ;
+	lcc-cr:isPartOf	cc2:US-MA , lcc-3166-1-adj:US ;
 	rdfs:label	"Boston" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Boston> , <http://sws.geonames.org/4930956/> , unlcd:USBOS , wd:Q100 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -814,7 +814,7 @@ fibo-fbc-fct-bci:Boston
 fibo-fbc-fct-bci:Bradford
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:GB ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:GB ;
 	rdfs:label	"Bradford" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bradford> , <http://sws.geonames.org/2654993/> , unlcd:GBBRF , wd:Q22905 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
@@ -823,7 +823,7 @@ fibo-fbc-fct-bci:Brasilia
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Brasilia" ;
-	lcc-cr:isPartOf	cc:BR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BR ;
 	rdfs:label	"Brasilia" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bras%C3%ADlia> , <http://sws.geonames.org/3469058/> , unlcd:BRBSB , wd:Q2844 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Sao_Paulo> .
@@ -832,7 +832,7 @@ fibo-fbc-fct-bci:Bratislava
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Bratislava" ;
-	lcc-cr:isPartOf	cc:SK ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SK ;
 	rdfs:label	"Bratislava" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bratislava> , <http://sws.geonames.org/3060972/> , unlcd:SKBTS , wd:Q1780 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Bratislava> .
@@ -847,7 +847,7 @@ fibo-fbc-fct-bci:BrazilBusinessDay
 fibo-fbc-fct-bci:Bremen
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Bremen" ;
 	skos:closeMatch	<http://sws.geonames.org/2944388/> , unlcd:DEBRE , wd:Q24879 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -856,7 +856,7 @@ fibo-fbc-fct-bci:Bridgetown
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Bridgetown" ;
-	lcc-cr:isPartOf	cc:BB ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BB ;
 	rdfs:label	"Bridgetown" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bridgetown> , <http://sws.geonames.org/3374036/> , unlcd:BBBGI , wd:Q36168 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Barbados> .
@@ -865,7 +865,7 @@ fibo-fbc-fct-bci:Brisbane
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Brisbane" ;
-	lcc-cr:isPartOf	cc:AU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AU ;
 	rdfs:label	"Brisbane" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Brisbane> , <http://sws.geonames.org/2174003/> , unlcd:AUBNE , wd:Q34932 ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Brisbane> .
@@ -874,7 +874,7 @@ fibo-fbc-fct-bci:Brussels
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Brussels" ;
-	lcc-cr:isPartOf	cc:BE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BE ;
 	rdfs:label	"Brussels" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Brussels> , <http://sws.geonames.org/2800866/> , unlcd:BEBRU , wd:Q239 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
@@ -882,7 +882,7 @@ fibo-fbc-fct-bci:Brussels
 fibo-fbc-fct-bci:BryanstonSandton
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:ZA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ZA ;
 	rdfs:label	"Bryanston, Sandton" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bryanston%2C_Gauteng> , <http://sws.geonames.org/1015304/> , unlcd:ZABSN , wd:Q4980509 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Johannesburg> .
@@ -894,7 +894,7 @@ fibo-fbc-fct-bci:Bucharest
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Bucharest" ;
-	lcc-cr:isPartOf	cc:RO ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:RO ;
 	rdfs:label	"Bucharest" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Bucharest> , <http://sws.geonames.org/683506/> , unlcd:ROBUH , wd:Q19660 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Bucharest> .
@@ -902,7 +902,7 @@ fibo-fbc-fct-bci:Bucharest
 fibo-fbc-fct-bci:Budaors
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:HU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:HU ;
 	rdfs:label	"Budaors" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Buda%C3%B6rs> , <http://sws.geonames.org/3054646/> , unlcd:HUBUA , wd:Q755691 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Budapest> .
@@ -911,7 +911,7 @@ fibo-fbc-fct-bci:Budapest
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Budapest" ;
-	lcc-cr:isPartOf	cc:HU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:HU ;
 	rdfs:label	"Budapest" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Budapest> , <http://sws.geonames.org/3054643/> , unlcd:HUBUD , wd:Q1781 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Budapest> .
@@ -920,7 +920,7 @@ fibo-fbc-fct-bci:Buenos_Aires
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Buenos Aires" ;
-	lcc-cr:isPartOf	cc:AR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AR ;
 	rdfs:label	"Buenos Aires" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Buenos_Aires> , <http://sws.geonames.org/3435910/> , unlcd:ARBUE , wd:Q1486 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Argentina/Buenos_Aires> .
@@ -1139,7 +1139,7 @@ fibo-fbc-fct-bci:Cairo
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Cairo" ;
-	lcc-cr:isPartOf	cc:EG ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:EG ;
 	rdfs:label	"Cairo" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Cairo> , <http://sws.geonames.org/360630/> , unlcd:EGCAI , wd:Q85 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Cairo> .
@@ -1151,7 +1151,7 @@ fibo-fbc-fct-bci:Calgary
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Calgary" ;
-	lcc-cr:isPartOf	cc:CA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CA ;
 	rdfs:label	"Calgary" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Calgary> , <http://sws.geonames.org/5913490/> , unlcd:CACAL , wd:Q36312 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Edmonton> .
@@ -1160,7 +1160,7 @@ fibo-fbc-fct-bci:Canberra
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Canberra" ;
-	lcc-cr:isPartOf	cc:AU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AU ;
 	rdfs:label	"Canberra" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Canberra> , <http://sws.geonames.org/2172517/> , unlcd:AUCBR , wd:Q3114 ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
@@ -1169,7 +1169,7 @@ fibo-fbc-fct-bci:Caracas
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Caracas" ;
-	lcc-cr:isPartOf	cc:VE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:VE ;
 	rdfs:label	"Caracas" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Caracas> , <http://sws.geonames.org/3646738/> , unlcd:VECCS , wd:Q1533 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Caracas> .
@@ -1178,7 +1178,7 @@ fibo-fbc-fct-bci:Casablanca
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Casablanca" ;
-	lcc-cr:isPartOf	cc:MA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MA ;
 	rdfs:label	"Casablanca" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Casablanca> , <http://sws.geonames.org/2553604/> , unlcd:MACAS , wd:Q7903 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Casablanca> .
@@ -1187,7 +1187,7 @@ fibo-fbc-fct-bci:Charlotte
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Charlotte" ;
-	lcc-cr:isPartOf	cc2:US-NC , cc:US ;
+	lcc-cr:isPartOf	cc2:US-NC , lcc-3166-1-adj:US ;
 	rdfs:label	"Charlotte" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Charlotte%2C_North_Carolina> , <http://sws.geonames.org/4460243/> , unlcd:USCLT , wd:Q16565 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -1195,7 +1195,7 @@ fibo-fbc-fct-bci:Charlotte
 fibo-fbc-fct-bci:Chatham
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:MA , cc:US ;
+	lcc-cr:isPartOf	cc2:MA , lcc-3166-1-adj:US ;
 	rdfs:label	"Chatham" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Savannah%2C_Georgia> , <http://sws.geonames.org/4221552/> , unlcd:USSAV , wd:Q83813 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -1204,7 +1204,7 @@ fibo-fbc-fct-bci:Chennai
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Chennai" ;
-	lcc-cr:isPartOf	cc:IN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IN ;
 	rdfs:label	"Chennai" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Chennai> , <http://sws.geonames.org/1264527/> , unlcd:INMAA , wd:Q1352 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
@@ -1213,7 +1213,7 @@ fibo-fbc-fct-bci:Chicago
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Chicago" ;
-	lcc-cr:isPartOf	cc2:US-IL , cc:US ;
+	lcc-cr:isPartOf	cc2:US-IL , lcc-3166-1-adj:US ;
 	rdfs:label	"Chicago" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Chicago> , <http://sws.geonames.org/4887398/> , unlcd:USCHI , wd:Q1297 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -1221,7 +1221,7 @@ fibo-fbc-fct-bci:Chicago
 fibo-fbc-fct-bci:Chisinau
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:MD ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MD ;
 	rdfs:label	"Chisinau" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Chi%C5%9Fin%C4%83u> , <http://sws.geonames.org/618426/> , unlcd:MDKIV , wd:Q21197 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Chisinau> .
@@ -1229,7 +1229,7 @@ fibo-fbc-fct-bci:Chisinau
 fibo-fbc-fct-bci:Chittagong
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:BD ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BD ;
 	rdfs:label	"Chittagong" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Chittagong> , <http://sws.geonames.org/1205733/> , unlcd:BDCGP , wd:Q376749 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Dhaka> .
@@ -1237,7 +1237,7 @@ fibo-fbc-fct-bci:Chittagong
 fibo-fbc-fct-bci:Chiyoda-ku
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:JP ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:JP ;
 	rdfs:label	"Chiyoda-ku" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Chiyoda%2C_Tokyo> , <http://sws.geonames.org/1864529/> , unlcd:JPCAU , wd:Q214051 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -1245,7 +1245,7 @@ fibo-fbc-fct-bci:Chiyoda-ku
 fibo-fbc-fct-bci:ClujNapoca
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:RO ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:RO ;
 	rdfs:label	"Cluj Napoca" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Cluj-Napoca> , <http://sws.geonames.org/681290/> , unlcd:ROCLJ , wd:Q100188 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Bucharest> .
@@ -1254,7 +1254,7 @@ fibo-fbc-fct-bci:Cologne
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Cologne" ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Cologne" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Cologne> , <http://sws.geonames.org/2886242/> , unlcd:DECGN , wd:Q365 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -1263,7 +1263,7 @@ fibo-fbc-fct-bci:Colombo
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Colombo" ;
-	lcc-cr:isPartOf	cc:LK ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:LK ;
 	rdfs:label	"Colombo" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Colombo> , <http://sws.geonames.org/1248991/> , unlcd:LKCMB , wd:Q35381 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Colombo> .
@@ -1272,7 +1272,7 @@ fibo-fbc-fct-bci:Conakry
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Conakry" ;
-	lcc-cr:isPartOf	cc:GN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:GN ;
 	rdfs:label	"Conakry" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Conakry> , <http://sws.geonames.org/2422465/> , unlcd:GNCKY , wd:Q3733 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Conakry> .
@@ -1281,7 +1281,7 @@ fibo-fbc-fct-bci:Copenhagen
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Copenhagen" ;
-	lcc-cr:isPartOf	cc:DK ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DK ;
 	rdfs:label	"Copenhagen" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Copenhagen> , <http://sws.geonames.org/2618425/> , unlcd:DKCPH , wd:Q1748 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Copenhagen> .
@@ -1289,7 +1289,7 @@ fibo-fbc-fct-bci:Copenhagen
 fibo-fbc-fct-bci:Cordoba
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:AR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AR ;
 	rdfs:label	"Cordoba" ;
 	skos:closeMatch	<http://dbpedia.org/resource/C%C3%B3rdoba%2C_Argentina> , <http://sws.geonames.org/3860259/> , unlcd:ARCOR , wd:Q44210 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Argentina/Cordoba> .
@@ -1297,7 +1297,7 @@ fibo-fbc-fct-bci:Cordoba
 fibo-fbc-fct-bci:Corrientes
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:AR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AR ;
 	rdfs:label	"Corrientes" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Corrientes> , <http://sws.geonames.org/3435217/> , unlcd:ARCNQ , wd:Q44211 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Argentina/Cordoba> .
@@ -1305,7 +1305,7 @@ fibo-fbc-fct-bci:Corrientes
 fibo-fbc-fct-bci:Curitiba
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:BR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BR ;
 	rdfs:label	"Curitiba" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Curitiba> , <http://sws.geonames.org/3464975/> , unlcd:BRCWB , wd:Q4361 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Sao_Paulo> .
@@ -1434,7 +1434,7 @@ fibo-fbc-fct-bci:Dakar
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Dakar" ;
-	lcc-cr:isPartOf	cc:SN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SN ;
 	rdfs:label	"Dakar" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Dakar> , <http://sws.geonames.org/2253354/> , unlcd:SNDKR , wd:Q3718 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Dakar> .
@@ -1442,7 +1442,7 @@ fibo-fbc-fct-bci:Dakar
 fibo-fbc-fct-bci:Dalian
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:CN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CN ;
 	rdfs:label	"Dalian" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Dalian> , <http://sws.geonames.org/1814087/> , unlcd:CNDAL , wd:Q74881 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Shanghai> .
@@ -1451,7 +1451,7 @@ fibo-fbc-fct-bci:Damascus
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	dct:description	"the municipality of Damascus" ;
-	lcc-cr:isPartOf	cc:SY ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SY ;
 	rdfs:label	"Damascus" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Damascus> , <http://sws.geonames.org/170654/> , unlcd:SYDAM , wd:Q3766 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Damascus> .
@@ -1460,7 +1460,7 @@ fibo-fbc-fct-bci:Dar_es_Salaam
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Dar es Salaam" ;
-	lcc-cr:isPartOf	cc:TZ ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:TZ ;
 	rdfs:label	"Dar es Salaam" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Dar_es_Salaam> , <http://sws.geonames.org/160263/> , unlcd:TZDAR , wd:Q1960 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Dar_es_Salaam> .
@@ -1469,7 +1469,7 @@ fibo-fbc-fct-bci:Darwin
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Darwin" ;
-	lcc-cr:isPartOf	cc:AU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AU ;
 	rdfs:label	"Darwin" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Darwin%2C_Northern_Territory> , <http://sws.geonames.org/2073124/> , unlcd:AUPAL , wd:Q11568 ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Darwin> .
@@ -1477,7 +1477,7 @@ fibo-fbc-fct-bci:Darwin
 fibo-fbc-fct-bci:Davos_Platz
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:CH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CH ;
 	rdfs:label	"Davos Platz" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Davos> , <http://sws.geonames.org/7669421/> , unlcd:CHDPZ , wd:Q68097 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
@@ -1486,7 +1486,7 @@ fibo-fbc-fct-bci:Denver
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Denver" ;
-	lcc-cr:isPartOf	cc2:US-CO , cc:US ;
+	lcc-cr:isPartOf	cc2:US-CO , lcc-3166-1-adj:US ;
 	rdfs:label	"Denver" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Denver> , <http://sws.geonames.org/5419384/> , unlcd:USDEN , wd:Q16554 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Denver> .
@@ -1495,7 +1495,7 @@ fibo-fbc-fct-bci:Detroit
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Detroit" ;
-	lcc-cr:isPartOf	cc2:US-MI , cc:US ;
+	lcc-cr:isPartOf	cc2:US-MI , lcc-3166-1-adj:US ;
 	rdfs:label	"Detroit" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Detroit> , <http://sws.geonames.org/4990729/> , unlcd:USDET , wd:Q12439 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Detroit> .
@@ -1504,7 +1504,7 @@ fibo-fbc-fct-bci:Dhaka
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Dhaka" ;
-	lcc-cr:isPartOf	cc:BD ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BD ;
 	rdfs:label	"Dhaka" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Dhaka> , <http://sws.geonames.org/1185241/> , unlcd:BDDAC , wd:Q1354 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Dhaka> .
@@ -1512,7 +1512,7 @@ fibo-fbc-fct-bci:Dhaka
 fibo-fbc-fct-bci:Dnipropetrovsk
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:UA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:UA ;
 	rdfs:label	"Dnipropetrovsk" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Dnipro> , <http://sws.geonames.org/709930/> , unlcd:UADNK , wd:Q48256 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Kiev> .
@@ -1521,7 +1521,7 @@ fibo-fbc-fct-bci:Dodoma
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Dodoma" ;
-	lcc-cr:isPartOf	cc:TZ ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:TZ ;
 	rdfs:label	"Dodoma" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Dodoma> , <http://sws.geonames.org/160196/> , unlcd:TZDOD , wd:Q3866 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Dar_es_Salaam> .
@@ -1530,7 +1530,7 @@ fibo-fbc-fct-bci:Doha
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Doha" ;
-	lcc-cr:isPartOf	cc:QA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:QA ;
 	rdfs:label	"Doha" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Doha> , <http://sws.geonames.org/290030/> , unlcd:QADOH , wd:Q3861 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Qatar> .
@@ -1538,7 +1538,7 @@ fibo-fbc-fct-bci:Doha
 fibo-fbc-fct-bci:Douala
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:CM ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CM ;
 	rdfs:label	"Douala" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Douala> , <http://sws.geonames.org/2232593/> , unlcd:CMDLA , wd:Q132830 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Douala> .
@@ -1547,7 +1547,7 @@ fibo-fbc-fct-bci:Dubai
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Dubai" ;
-	lcc-cr:isPartOf	cc:AE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AE ;
 	rdfs:label	"Dubai" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Dubai> , <http://sws.geonames.org/292223/> , unlcd:AEDXB , wd:Q612 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Dubai> .
@@ -1556,7 +1556,7 @@ fibo-fbc-fct-bci:Dublin
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Dublin" ;
-	lcc-cr:isPartOf	cc:IE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IE ;
 	rdfs:label	"Dublin" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Dublin> , <http://sws.geonames.org/2964574/> , unlcd:IEDUB , wd:Q1761 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Dublin> .
@@ -1565,7 +1565,7 @@ fibo-fbc-fct-bci:Duesseldorf
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Dusseldorf" ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Duesseldorf" ;
 	skos:closeMatch	<http://dbpedia.org/resource/D%C3%BCsseldorf> , <http://sws.geonames.org/2934246/> , unlcd:DEDUS , wd:Q1718 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -1574,7 +1574,7 @@ fibo-fbc-fct-bci:Dusseldorf
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Dusseldorf" ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	owl:sameAs	fibo-fbc-fct-bci:Duesseldorf ;
 	rdfs:label	"Dusseldorf" .
 
@@ -1680,7 +1680,7 @@ fibo-fbc-fct-bci:Ebene
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	fibo-fnd-utl-av:synonym	"Cybercity" , "Ebene Cybercity" ;
-	lcc-cr:isPartOf	cc:MU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MU ;
 	rdfs:label	"Ebene" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Ebene_CyberCity> , <http://sws.geonames.org/1106748/> , unlcd:MUEBN , wd:Q213275 ;
 	time:timeZone	<http://dbpedia.org/resource/Indian/Mauritius> .
@@ -1688,7 +1688,7 @@ fibo-fbc-fct-bci:Ebene
 fibo-fbc-fct-bci:Eden_Island
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:SC ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SC ;
 	rdfs:label	"Eden Island" ;
 	skos:closeMatch	<http://sws.geonames.org/8693252/> , wd:Q25062207 ;
 	time:timeZone	<http://dbpedia.org/resource/Indian/Mahe> .
@@ -1697,7 +1697,7 @@ fibo-fbc-fct-bci:Edinburgh
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Edinburgh" ;
-	lcc-cr:isPartOf	cc:GB ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:GB ;
 	rdfs:label	"Edinburgh" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Edinburgh> , <http://sws.geonames.org/2650225/> , unlcd:GBEDI , wd:Q23436 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
@@ -1705,7 +1705,7 @@ fibo-fbc-fct-bci:Edinburgh
 fibo-fbc-fct-bci:Esch-sur-alzette
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:LU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:LU ;
 	rdfs:label	"Esch-sur-alzette" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Esch-sur-Alzette> , <http://sws.geonames.org/2960596/> , unlcd:LUEZT , wd:Q16010 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Luxembourg> .
@@ -1713,7 +1713,7 @@ fibo-fbc-fct-bci:Esch-sur-alzette
 fibo-fbc-fct-bci:Eschborn
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Eschborn" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Eschborn> , <http://sws.geonames.org/2929134/> , unlcd:DEESC , wd:Q569648 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -1721,7 +1721,7 @@ fibo-fbc-fct-bci:Eschborn
 fibo-fbc-fct-bci:Eschenz
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:CH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CH ;
 	rdfs:label	"Eschenz" ;
 	skos:closeMatch	<http://sws.geonames.org/2660859/> , unlcd:CHESZ , wd:Q65080 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
@@ -1729,7 +1729,7 @@ fibo-fbc-fct-bci:Eschenz
 fibo-fbc-fct-bci:Espoo
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:FI ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:FI ;
 	rdfs:label	"Espoo" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Espoo> , <http://sws.geonames.org/660158/> , unlcd:FIESP , wd:Q47034 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Helsinki> .
@@ -1757,7 +1757,7 @@ fibo-fbc-fct-bci:FRPA
 fibo-fbc-fct-bci:Fiac
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:FR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:FR ;
 	rdfs:label	"Fiac" ;
 	skos:closeMatch	<http://sws.geonames.org/3018542/> , wd:Q744492 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
@@ -1768,7 +1768,7 @@ fibo-fbc-fct-bci:Firenze
 fibo-fbc-fct-bci:Florence
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:IT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IT ;
 	rdfs:label	"Florence" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Florence> , <http://sws.geonames.org/3176959/> , unlcd:ITFLR , wd:Q2044 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
@@ -1784,7 +1784,7 @@ fibo-fbc-fct-bci:Frankfurt
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Frankfurt" ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Frankfurt" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Frankfurt> , <http://sws.geonames.org/2925533/> , unlcd:DEFRA , wd:Q1794 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -1793,7 +1793,7 @@ fibo-fbc-fct-bci:Fredericton
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Fredericton" ;
-	lcc-cr:isPartOf	cc:CA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CA ;
 	rdfs:label	"Fredericton" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Fredericton> , <http://sws.geonames.org/5957776/> , unlcd:CAFRE , wd:Q2138 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Moncton> .
@@ -1802,7 +1802,7 @@ fibo-fbc-fct-bci:Freetown
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Freetown" ;
-	lcc-cr:isPartOf	cc:SL ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SL ;
 	rdfs:label	"Freetown" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Freetown> , <http://sws.geonames.org/2409306/> , unlcd:SLFNA , wd:Q3780 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Freetown> .
@@ -1810,7 +1810,7 @@ fibo-fbc-fct-bci:Freetown
 fibo-fbc-fct-bci:Fukuoka
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:JP ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:JP ;
 	rdfs:label	"Fukuoka" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Fukuoka> , <http://sws.geonames.org/1863967/> , unlcd:JPFUK , wd:Q26600 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -1879,7 +1879,7 @@ fibo-fbc-fct-bci:GIFT_City
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	fibo-fnd-utl-av:synonym	"Gujarat International Finance Tec-City" ;
-	lcc-cr:isPartOf	cc:IN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IN ;
 	rdfs:label	"GIFT City" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Gujarat_International_Finance_Tec-City> , <http://sws.geonames.org/11789136/> , wd:Q2732118 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
@@ -1928,7 +1928,7 @@ fibo-fbc-fct-bci:Gaborone
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Gaborone" ;
-	lcc-cr:isPartOf	cc:BW ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BW ;
 	rdfs:label	"Gaborone" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Gaborone> , <http://sws.geonames.org/933773/> , unlcd:BWGBE , wd:Q3919 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Gaborone> .
@@ -1936,7 +1936,7 @@ fibo-fbc-fct-bci:Gaborone
 fibo-fbc-fct-bci:Gandhinagar
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:IN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IN ;
 	rdfs:label	"Gandhinagar" ;
 	skos:closeMatch	<http://sws.geonames.org/1271715/> , unlcd:INGDH , wd:Q11910 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
@@ -1945,7 +1945,7 @@ fibo-fbc-fct-bci:Geneva
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Geneva" ;
-	lcc-cr:isPartOf	cc:CH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CH ;
 	rdfs:label	"Geneva" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Geneva> , <http://sws.geonames.org/2660646/> , unlcd:CHGVA , wd:Q71 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
@@ -1953,7 +1953,7 @@ fibo-fbc-fct-bci:Geneva
 fibo-fbc-fct-bci:Genoa
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:IT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IT ;
 	rdfs:label	"Genoa" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Genoa> , <http://sws.geonames.org/3176219/> , unlcd:ITGOA , wd:Q1449 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
@@ -1965,7 +1965,7 @@ fibo-fbc-fct-bci:George_Town
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of George Town" ;
-	lcc-cr:isPartOf	cc:KY ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:KY ;
 	rdfs:label	"George Town" ;
 	skos:closeMatch	<http://dbpedia.org/resource/George_Town%2C_Cayman_Islands> , <http://sws.geonames.org/3580661/> , unlcd:KYGEC , wd:Q172996 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Cayman> .
@@ -1973,7 +1973,7 @@ fibo-fbc-fct-bci:George_Town
 fibo-fbc-fct-bci:Georgetown
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:GY ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:GY ;
 	rdfs:label	"Georgetown" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Georgetown%2C_Guyana> , <http://sws.geonames.org/3378644/> , unlcd:GYGEO , wd:Q10717 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Guyana> .
@@ -1981,7 +1981,7 @@ fibo-fbc-fct-bci:Georgetown
 fibo-fbc-fct-bci:Gibraltar
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:GI ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:GI ;
 	rdfs:label	"Gibraltar" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Gibraltar> , <http://sws.geonames.org/2411585/> , unlcd:GIGIB , wd:Q1410 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Gibraltar> .
@@ -1989,7 +1989,7 @@ fibo-fbc-fct-bci:Gibraltar
 fibo-fbc-fct-bci:Glenview
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-IL , cc:US ;
+	lcc-cr:isPartOf	cc2:US-IL , lcc-3166-1-adj:US ;
 	rdfs:label	"Glenview" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Glenview%2C_Illinois> , <http://sws.geonames.org/4893886/> , unlcd:USNBU , wd:Q33438705 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -1997,7 +1997,7 @@ fibo-fbc-fct-bci:Glenview
 fibo-fbc-fct-bci:Great_Neck
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NY , cc:US ;
+	lcc-cr:isPartOf	cc2:US-NY , lcc-3166-1-adj:US ;
 	rdfs:label	"Great Neck" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Great_Neck_%28village%29%2C_New_York> , <http://sws.geonames.org/5119218/> , unlcd:USGNK , wd:Q3115965 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -2005,7 +2005,7 @@ fibo-fbc-fct-bci:Great_Neck
 fibo-fbc-fct-bci:Greenwich
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-CT , cc:US ;
+	lcc-cr:isPartOf	cc2:US-CT , lcc-3166-1-adj:US ;
 	rdfs:label	"Greenwich" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Greenwich%2C_Connecticut> , <http://sws.geonames.org/4835395/> , unlcd:USGRH , wd:Q5885280 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -2013,7 +2013,7 @@ fibo-fbc-fct-bci:Greenwich
 fibo-fbc-fct-bci:Grindsted
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DK ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DK ;
 	rdfs:label	"Grindsted" ;
 	skos:closeMatch	<http://sws.geonames.org/2621192/> , unlcd:DKGRN , wd:Q3547368 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Copenhagen> .
@@ -2022,7 +2022,7 @@ fibo-fbc-fct-bci:Guatemala_City
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Guatemala City" ;
-	lcc-cr:isPartOf	cc:GT , cc:GU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:GT , cc:GU ;
 	rdfs:label	"Guatemala City" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Guatemala_City> , <http://sws.geonames.org/3598132/> , unlcd:GTGUA , wd:Q1555 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Guatemala> .
@@ -2030,7 +2030,7 @@ fibo-fbc-fct-bci:Guatemala_City
 fibo-fbc-fct-bci:Guayaquil
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:EC ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:EC ;
 	rdfs:label	"Guayaquil" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Guayaquil> , <http://sws.geonames.org/3657509/> , unlcd:ECGYE , wd:Q43509 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Guayaquil> .
@@ -2038,7 +2038,7 @@ fibo-fbc-fct-bci:Guayaquil
 fibo-fbc-fct-bci:Guaynabo
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-PR , cc:US ;
+	lcc-cr:isPartOf	cc2:US-PR , lcc-3166-1-adj:US ;
 	rdfs:label	"Guaynabo" ;
 	skos:closeMatch	<http://sws.geonames.org/4565119/> , unlcd:PRGUO , wd:Q590060 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Puerto_Rico> .
@@ -2046,7 +2046,7 @@ fibo-fbc-fct-bci:Guaynabo
 fibo-fbc-fct-bci:Guildford
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:GB ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:GB ;
 	rdfs:label	"Guildford" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Guildford> , <http://sws.geonames.org/2647793/> , unlcd:GBGDD , wd:Q213465 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
@@ -2095,7 +2095,7 @@ fibo-fbc-fct-bci:Hamburg
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Hamburg" ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Hamburg" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Hamburg> , <http://sws.geonames.org/2911298/> , unlcd:DEHAM , wd:Q1055 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -2104,7 +2104,7 @@ fibo-fbc-fct-bci:Hamilton
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Hamilton" ;
-	lcc-cr:isPartOf	cc:BM ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BM ;
 	rdfs:label	"Hamilton" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Hamilton%2C_Bermuda> , <http://sws.geonames.org/3573197/> , unlcd:BMBDA , wd:Q30985 ;
 	time:timeZone	<http://dbpedia.org/resource/Atlantic/Bermuda> .
@@ -2113,7 +2113,7 @@ fibo-fbc-fct-bci:Hannover
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Hannover" ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Hannover" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Hanover_Region> , <http://sws.geonames.org/2910831/> , unlcd:DEHAJ , wd:Q1715 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -2122,7 +2122,7 @@ fibo-fbc-fct-bci:Hanoi
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Hanoi" ;
-	lcc-cr:isPartOf	cc:VN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:VN ;
 	rdfs:label	"Hanoi" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Hanoi> , <http://sws.geonames.org/1581130/> , unlcd:VNHAN , wd:Q1858 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Bangkok> .
@@ -2131,7 +2131,7 @@ fibo-fbc-fct-bci:Harare
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Harare" ;
-	lcc-cr:isPartOf	cc:ZW ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ZW ;
 	rdfs:label	"Harare" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Harare> , <http://sws.geonames.org/890299/> , unlcd:ZWHRE , wd:Q3921 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Harare> .
@@ -2140,7 +2140,7 @@ fibo-fbc-fct-bci:Helsinki
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Helsinki" ;
-	lcc-cr:isPartOf	cc:FI ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:FI ;
 	rdfs:label	"Helsinki" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Helsinki> , <http://sws.geonames.org/658225/> , unlcd:FIHEL , wd:Q1757 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Helsinki> .
@@ -2148,7 +2148,7 @@ fibo-fbc-fct-bci:Helsinki
 fibo-fbc-fct-bci:Hiroshima
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:JP ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:JP ;
 	rdfs:label	"Hiroshima" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Hiroshima> , <http://sws.geonames.org/1862415/> , unlcd:JPHIJ , wd:Q34664 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -2160,7 +2160,7 @@ fibo-fbc-fct-bci:Ho_Chi_Minh_City
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Ho Chi Minh (formerly Saigon)" ;
-	lcc-cr:isPartOf	cc:VN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:VN ;
 	rdfs:label	"Ho Chi Minh City" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Ho_Chi_Minh_City> , <http://sws.geonames.org/1566083/> , unlcd:VNSGN , wd:Q1854 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Ho_Chi_Minh> .
@@ -2169,7 +2169,7 @@ fibo-fbc-fct-bci:Hong_Kong
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Hong Kong" ;
-	lcc-cr:isPartOf	cc:HK ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:HK ;
 	rdfs:label	"Hong Kong" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Hong_Kong> , <http://sws.geonames.org/1819729/> , unlcd:HKHKG , wd:Q8646 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Hong_Kong> .
@@ -2178,7 +2178,7 @@ fibo-fbc-fct-bci:Honolulu
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Honolulu" ;
-	lcc-cr:isPartOf	cc2:US-HI , cc:US ;
+	lcc-cr:isPartOf	cc2:US-HI , lcc-3166-1-adj:US ;
 	rdfs:label	"Honolulu" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Honolulu> , <http://sws.geonames.org/5856195/> , unlcd:USHNL , wd:Q18094 ;
 	time:timeZone	<http://dbpedia.org/resource/Pacific/Honolulu> .
@@ -2186,7 +2186,7 @@ fibo-fbc-fct-bci:Honolulu
 fibo-fbc-fct-bci:Horsens
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DK ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DK ;
 	rdfs:label	"Horsens" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Horsens> , <http://sws.geonames.org/2619771/> , unlcd:DKHOR , wd:Q190235 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Copenhagen> .
@@ -2195,7 +2195,7 @@ fibo-fbc-fct-bci:Houston
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Houston" ;
-	lcc-cr:isPartOf	cc2:US-TX , cc:US ;
+	lcc-cr:isPartOf	cc2:US-TX , lcc-3166-1-adj:US ;
 	rdfs:label	"Houston" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Houston> , <http://sws.geonames.org/4699066/> , unlcd:USHOU , wd:Q16555 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -2203,7 +2203,7 @@ fibo-fbc-fct-bci:Houston
 fibo-fbc-fct-bci:Hove
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:GB ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:GB ;
 	rdfs:label	"Hove" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Hove> , <http://sws.geonames.org/2646504/> , unlcd:GBHEV , wd:Q989616 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
@@ -2212,7 +2212,7 @@ fibo-fbc-fct-bci:Hyderabad
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Hyderabad" ;
-	lcc-cr:isPartOf	cc:IN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IN ;
 	rdfs:label	"Hyderabad" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Hyderabad%2C_India> , <http://sws.geonames.org/1269843/> , unlcd:INHYD , wd:Q1361 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
@@ -2400,7 +2400,7 @@ fibo-fbc-fct-bci:ITTU
 fibo-fbc-fct-bci:Indore_Madhya_Pradesh
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:IN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IN ;
 	rdfs:label	"Indore Madhya Pradesh" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Indore> , <http://sws.geonames.org/1269743/> , unlcd:INIDR , wd:Q66616 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
@@ -2408,7 +2408,7 @@ fibo-fbc-fct-bci:Indore_Madhya_Pradesh
 fibo-fbc-fct-bci:Islamabad
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:PK ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PK ;
 	rdfs:label	"Islamabad" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Islamabad> , <http://sws.geonames.org/1176615/> , unlcd:PKISB , wd:Q1362 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Karachi> .
@@ -2417,7 +2417,7 @@ fibo-fbc-fct-bci:Istanbul
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Istanbul" ;
-	lcc-cr:isPartOf	cc:TR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:TR ;
 	rdfs:label	"Istanbul" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Istanbul> , <http://sws.geonames.org/745044/> , unlcd:TRIST , wd:Q406 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Istanbul> .
@@ -2425,7 +2425,7 @@ fibo-fbc-fct-bci:Istanbul
 fibo-fbc-fct-bci:Izmir
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:TR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:TR ;
 	rdfs:label	"Izmir" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Smyrna> , <http://sws.geonames.org/311046/> , unlcd:TRIZM , wd:Q35997 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Istanbul> .
@@ -2473,7 +2473,7 @@ fibo-fbc-fct-bci:JPTO
 fibo-fbc-fct-bci:Jaen
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:ES ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ES ;
 	rdfs:label	"Jaen" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Ja%C3%A9n%2C_Spain> , <http://sws.geonames.org/2516395/> , unlcd:ESJAE , wd:Q15681 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
@@ -2482,7 +2482,7 @@ fibo-fbc-fct-bci:Jakarta
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Jakarta" ;
-	lcc-cr:isPartOf	cc:ID ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ID ;
 	rdfs:label	"Jakarta" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Jakarta> , <http://sws.geonames.org/1642911/> , unlcd:IDJKT , wd:Q3630 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jakarta> .
@@ -2491,7 +2491,7 @@ fibo-fbc-fct-bci:Jeddah
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Jeddah" ;
-	lcc-cr:isPartOf	cc:SA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SA ;
 	rdfs:label	"Jeddah" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Jeddah> , <http://sws.geonames.org/105343/> , unlcd:SAJED , wd:Q374365 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Riyadh> .
@@ -2499,7 +2499,7 @@ fibo-fbc-fct-bci:Jeddah
 fibo-fbc-fct-bci:Jersey_City
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
+	lcc-cr:isPartOf	cc2:US-NJ , lcc-3166-1-adj:US ;
 	rdfs:label	"Jersey City" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Jersey_City%2C_New_Jersey> , <http://sws.geonames.org/5099836/> , unlcd:USJEC , wd:Q26339 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -2508,7 +2508,7 @@ fibo-fbc-fct-bci:Jerusalem
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Jerusalem" ;
-	lcc-cr:isPartOf	cc:IL ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IL ;
 	rdfs:label	"Jerusalem" ;
 	skos:closeMatch	<http://dbpedia.org/resource/West_Jerusalem> , <http://sws.geonames.org/7498240/> , wd:Q2213440 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
@@ -2517,7 +2517,7 @@ fibo-fbc-fct-bci:Johannesburg
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Johannesburg" ;
-	lcc-cr:isPartOf	cc:ZA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ZA ;
 	rdfs:label	"Johannesburg" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Johannesburg> , <http://sws.geonames.org/993800/> , unlcd:ZAJNB , wd:Q34647 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Johannesburg> .
@@ -2586,7 +2586,7 @@ fibo-fbc-fct-bci:Kampala
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Kampala" ;
-	lcc-cr:isPartOf	cc:UG ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:UG ;
 	rdfs:label	"Kampala" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Kampala> , <http://sws.geonames.org/232422/> , unlcd:UGKLA , wd:Q3894 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Kampala> .
@@ -2594,7 +2594,7 @@ fibo-fbc-fct-bci:Kampala
 fibo-fbc-fct-bci:Kansas_City
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-MO , cc:US ;
+	lcc-cr:isPartOf	cc2:US-MO , lcc-3166-1-adj:US ;
 	rdfs:label	"Kansas City" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Kansas_City%2C_Missouri> , <http://sws.geonames.org/4393217/> , unlcd:USMKC , wd:Q41819 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -2603,7 +2603,7 @@ fibo-fbc-fct-bci:Karachi
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Karachi" ;
-	lcc-cr:isPartOf	cc:PK ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PK ;
 	rdfs:label	"Karachi" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Karachi> , <http://sws.geonames.org/1174872/> , unlcd:PKKHI , wd:Q8660 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Karachi> .
@@ -2612,7 +2612,7 @@ fibo-fbc-fct-bci:Kathmandu
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Kathmandu" ;
-	lcc-cr:isPartOf	cc:NP ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:NP ;
 	rdfs:label	"Kathmandu" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Kathmandu> , <http://sws.geonames.org/1283240/> , unlcd:NPKTM , wd:Q3037 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kathmandu> .
@@ -2620,7 +2620,7 @@ fibo-fbc-fct-bci:Kathmandu
 fibo-fbc-fct-bci:Kharkov
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:UA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:UA ;
 	rdfs:label	"Kharkov" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Kharkiv> , <http://sws.geonames.org/706483/> , unlcd:UAHRK , wd:Q42308 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Kiev> .
@@ -2628,7 +2628,7 @@ fibo-fbc-fct-bci:Kharkov
 fibo-fbc-fct-bci:Khartoum
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:SD ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SD ;
 	rdfs:label	"Khartoum" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Khartoum> , <http://sws.geonames.org/379252/> , unlcd:SDKRT , wd:Q1963 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Khartoum> .
@@ -2636,7 +2636,7 @@ fibo-fbc-fct-bci:Khartoum
 fibo-fbc-fct-bci:Kiel
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Kiel" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Kiel> , <http://sws.geonames.org/2891122/> , unlcd:DEKEL , wd:Q1707 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -2645,14 +2645,14 @@ fibo-fbc-fct-bci:Kiev
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Kiev" ;
-	lcc-cr:isPartOf	cc:UA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:UA ;
 	owl:sameAs	fibo-fbc-fct-bci:Kyiv ;
 	rdfs:label	"Kiev" .
 
 fibo-fbc-fct-bci:Kigali
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:RW ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:RW ;
 	rdfs:label	"Kigali" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Kigali> , <http://sws.geonames.org/202061/> , unlcd:RWKGL , wd:Q3859 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Kigali> .
@@ -2661,7 +2661,7 @@ fibo-fbc-fct-bci:Kingston
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Kingston" ;
-	lcc-cr:isPartOf	cc:JM ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:JM ;
 	rdfs:label	"Kingston" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Kingston%2C_Jamaica> , <http://sws.geonames.org/3489854/> , unlcd:JMKIN , wd:Q34692 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Jamaica> .
@@ -2669,7 +2669,7 @@ fibo-fbc-fct-bci:Kingston
 fibo-fbc-fct-bci:Kingstown
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:VC ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:VC ;
 	rdfs:label	"Kingstown" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Kingstown> , <http://sws.geonames.org/3577887/> , unlcd:VCKTN , wd:Q41474 ;
 	time:timeZone	<http://dbpedia.org/resource/America/St_Vincent> .
@@ -2677,7 +2677,7 @@ fibo-fbc-fct-bci:Kingstown
 fibo-fbc-fct-bci:Klagenfurt_am_Woerthersee
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:AT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AT ;
 	rdfs:label	"Klagenfurt Am Woerthersee" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Klagenfurt> , <http://sws.geonames.org/2774326/> , unlcd:ATKLU , wd:Q41753 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Vienna> .
@@ -2685,7 +2685,7 @@ fibo-fbc-fct-bci:Klagenfurt_am_Woerthersee
 fibo-fbc-fct-bci:Kobe
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:ES ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ES ;
 	rdfs:label	"Kobe" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Kobe> , <http://sws.geonames.org/1859171/> , unlcd:JPUKB , wd:Q48320 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -2694,7 +2694,7 @@ fibo-fbc-fct-bci:Kolkata
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Kolkata" ;
-	lcc-cr:isPartOf	cc:IN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IN ;
 	rdfs:label	"Kolkata" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Kolkata> , <http://sws.geonames.org/1275004/> , unlcd:INCCU , wd:Q52162031 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
@@ -2702,7 +2702,7 @@ fibo-fbc-fct-bci:Kolkata
 fibo-fbc-fct-bci:Kongsvinger
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:NO ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:NO ;
 	rdfs:label	"Kongsvinger" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Kongsvinger> , <http://sws.geonames.org/3149533/> , unlcd:NOKSV , wd:Q12912940 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Oslo> .
@@ -2711,7 +2711,7 @@ fibo-fbc-fct-bci:Kuala_Lumpur
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Kuala Lumpur" ;
-	lcc-cr:isPartOf	cc:MY ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MY ;
 	rdfs:label	"Kuala Lumpur" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Kuala_Lumpur> , <http://sws.geonames.org/1735161/> , unlcd:MYKUL , wd:Q1865 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kuala_Lumpur> .
@@ -2720,7 +2720,7 @@ fibo-fbc-fct-bci:Kuwait_City
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Kuwait City" ;
-	lcc-cr:isPartOf	cc:KW ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:KW ;
 	rdfs:label	"Kuwait City" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Kuwait_City> , <http://sws.geonames.org/285787/> , unlcd:KWKWI , wd:Q35178 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kuwait> .
@@ -2729,7 +2729,7 @@ fibo-fbc-fct-bci:Kyiv
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Kyiv" ;
-	lcc-cr:isPartOf	cc:UA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:UA ;
 	rdfs:label	"Kyiv" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Kyiv> , <http://sws.geonames.org/703448/> , unlcd:UAIEV , wd:Q1899 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Kiev> .
@@ -2737,7 +2737,7 @@ fibo-fbc-fct-bci:Kyiv
 fibo-fbc-fct-bci:Kyoto
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:JP ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:JP ;
 	rdfs:label	"Kyoto" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Kyoto> , <http://sws.geonames.org/1857910/> , unlcd:JPUKY , wd:Q34600 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -2796,7 +2796,7 @@ fibo-fbc-fct-bci:La_Paz
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of La Paz" ;
-	lcc-cr:isPartOf	cc:BO ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BO ;
 	rdfs:label	"La Paz" ;
 	skos:closeMatch	<http://dbpedia.org/resource/La_Paz> , <http://sws.geonames.org/3911925/> , unlcd:BOLPB , wd:Q1491 ;
 	time:timeZone	<http://dbpedia.org/resource/America/La_Paz> .
@@ -2805,7 +2805,7 @@ fibo-fbc-fct-bci:Labuan
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Labuan" ;
-	lcc-cr:isPartOf	cc:MY ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MY ;
 	rdfs:label	"Labuan" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Labuan> , <http://sws.geonames.org/1733782/> , unlcd:MYLBU , wd:Q2363616 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kuala_Lumpur> .
@@ -2814,7 +2814,7 @@ fibo-fbc-fct-bci:Lagos
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Lagos" ;
-	lcc-cr:isPartOf	cc:NEia , cc:NG ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:NEia , cc:NG ;
 	rdfs:label	"Lagos" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Lagos> , <http://sws.geonames.org/2332459/> , unlcd:NGLOS , wd:Q8673 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Lagos> .
@@ -2822,7 +2822,7 @@ fibo-fbc-fct-bci:Lagos
 fibo-fbc-fct-bci:Lahore
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:PK ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PK ;
 	rdfs:label	"Lahore" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Lahore> , <http://sws.geonames.org/1172451/> , unlcd:PKLHE , wd:Q11739 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Karachi> .
@@ -2830,7 +2830,7 @@ fibo-fbc-fct-bci:Lahore
 fibo-fbc-fct-bci:Lane_Cove
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:AU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AU ;
 	rdfs:label	"Lane Cove" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Lane_Cove%2C_New_South_Wales> , <http://sws.geonames.org/2160625/> , unlcd:AULNC , wd:Q930009 ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
@@ -2838,7 +2838,7 @@ fibo-fbc-fct-bci:Lane_Cove
 fibo-fbc-fct-bci:Larnaca
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:CY ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CY ;
 	rdfs:label	"Larnaca" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Larnaca> , <http://sws.geonames.org/146400/> , unlcd:CYLCA , wd:Q171882 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Nicosia> .
@@ -2847,7 +2847,7 @@ fibo-fbc-fct-bci:Leipzig
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Leipzig" ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Leipzig" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Leipzig> , <http://sws.geonames.org/2879139/> , unlcd:DELEJ , wd:Q2079 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -2855,7 +2855,7 @@ fibo-fbc-fct-bci:Leipzig
 fibo-fbc-fct-bci:Lenexa
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-KS , cc:US ;
+	lcc-cr:isPartOf	cc2:US-KS , lcc-3166-1-adj:US ;
 	rdfs:label	"Lenexa" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Lenexa%2C_Kansas> , <http://sws.geonames.org/4274356/> , unlcd:USLXA , wd:Q992536 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -2863,7 +2863,7 @@ fibo-fbc-fct-bci:Lenexa
 fibo-fbc-fct-bci:Leuven
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:BE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BE ;
 	rdfs:label	"Leuven" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Leuven> , <http://sws.geonames.org/2792482/> , unlcd:BELEU , wd:Q21765562 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
@@ -2872,7 +2872,7 @@ fibo-fbc-fct-bci:Lilongwe
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Lilongwe" ;
-	lcc-cr:isPartOf	cc:MW ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MW ;
 	rdfs:label	"Lilongwe" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Lilongwe> , <http://sws.geonames.org/927967/> , unlcd:MWLLW , wd:Q3876 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Blantyre> .
@@ -2881,7 +2881,7 @@ fibo-fbc-fct-bci:Lima
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Lima" ;
-	lcc-cr:isPartOf	cc:PE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PE ;
 	rdfs:label	"Lima" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Lima> , <http://sws.geonames.org/3936456/> , unlcd:PELIM , wd:Q2868 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Lima> .
@@ -2889,7 +2889,7 @@ fibo-fbc-fct-bci:Lima
 fibo-fbc-fct-bci:Limassol
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:CY ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CY ;
 	rdfs:label	"Limassol" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Limassol> , <http://sws.geonames.org/146384/> , unlcd:CYLMS , wd:Q185632 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Nicosia> .
@@ -2897,7 +2897,7 @@ fibo-fbc-fct-bci:Limassol
 fibo-fbc-fct-bci:Linz
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:AT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AT ;
 	rdfs:label	"Linz" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Linz> , <http://sws.geonames.org/2772400/> , unlcd:ATLNZ , wd:Q41329 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Vienna> .
@@ -2909,7 +2909,7 @@ fibo-fbc-fct-bci:Lisbon
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Lisbon" ;
-	lcc-cr:isPartOf	cc:PT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PT ;
 	rdfs:label	"Lisbon" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Lisbon> , <http://sws.geonames.org/2267057/> , unlcd:PTLIS , wd:Q597 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Lisbon> .
@@ -2918,7 +2918,7 @@ fibo-fbc-fct-bci:Ljubljana
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Ljubljana" ;
-	lcc-cr:isPartOf	cc:SI ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SI ;
 	rdfs:label	"Ljubljana" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Ljubljana> , <http://sws.geonames.org/3196359/> , unlcd:SILJU , wd:Q437 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Ljubljana> .
@@ -2927,7 +2927,7 @@ fibo-fbc-fct-bci:London
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of London" ;
-	lcc-cr:isPartOf	cc:GB ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:GB ;
 	rdfs:label	"London" ;
 	skos:closeMatch	<http://dbpedia.org/resource/London> , <http://sws.geonames.org/2643743/> , unlcd:GBLON , wd:Q84 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
@@ -2936,7 +2936,7 @@ fibo-fbc-fct-bci:Los_Angeles
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Los Angeles" ;
-	lcc-cr:isPartOf	cc2:US-CA , cc:US ;
+	lcc-cr:isPartOf	cc2:US-CA , lcc-3166-1-adj:US ;
 	rdfs:label	"Los Angeles" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Los_Angeles> , <http://sws.geonames.org/5368361/> , unlcd:USLAX , wd:Q65 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
@@ -2945,7 +2945,7 @@ fibo-fbc-fct-bci:Luanda
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Luanda" ;
-	lcc-cr:isPartOf	cc:AO ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AO ;
 	rdfs:label	"Luanda" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Luanda> , <http://sws.geonames.org/2240449/> , unlcd:AOLAD , wd:Q3897 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Luanda> .
@@ -2953,7 +2953,7 @@ fibo-fbc-fct-bci:Luanda
 fibo-fbc-fct-bci:Lugano
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:CH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CH ;
 	rdfs:label	"Lugano" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Lugano> , <http://sws.geonames.org/2659836/> , unlcd:CHLUG , wd:Q7024 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
@@ -2962,7 +2962,7 @@ fibo-fbc-fct-bci:Lusaka
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Lusaka" ;
-	lcc-cr:isPartOf	cc:ZM ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ZM ;
 	rdfs:label	"Lusaka" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Lusaka> , <http://sws.geonames.org/909137/> , unlcd:ZMLUN , wd:Q3881 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Lusaka> .
@@ -2971,7 +2971,7 @@ fibo-fbc-fct-bci:Luxembourg
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Luxembourg" ;
-	lcc-cr:isPartOf	cc:LU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:LU ;
 	rdfs:label	"Luxembourg" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Luxembourg_%28city%29> , <http://sws.geonames.org/2960316/> , unlcd:LULUX , wd:Q1842 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Luxembourg> .
@@ -2979,7 +2979,7 @@ fibo-fbc-fct-bci:Luxembourg
 fibo-fbc-fct-bci:Luzern
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:CH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CH ;
 	rdfs:label	"Luzern" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Lucerne> , <http://sws.geonames.org/2659811/> , unlcd:CHLUC , wd:Q4191 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
@@ -3118,7 +3118,7 @@ fibo-fbc-fct-bci:Macau
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Macau" ;
-	lcc-cr:isPartOf	cc:MO ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MO ;
 	rdfs:label	"Macau" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Macau> , <http://sws.geonames.org/1821274/> , unlcd:MOMFM , wd:Q14773 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Macau> .
@@ -3130,7 +3130,7 @@ fibo-fbc-fct-bci:Madrid
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Madrid" ;
-	lcc-cr:isPartOf	cc:ES ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ES ;
 	rdfs:label	"Madrid" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Madrid> , <http://sws.geonames.org/3117735/> , unlcd:ESMAD , wd:Q2807 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
@@ -3139,7 +3139,7 @@ fibo-fbc-fct-bci:Mainz
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Mainz" ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Mainz" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Mainz> , <http://sws.geonames.org/2874225/> , unlcd:DEMAI , wd:Q1720 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -3148,7 +3148,7 @@ fibo-fbc-fct-bci:Makati
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Makati" ;
-	lcc-cr:isPartOf	cc:PH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PH ;
 	owl:sameAs	fibo-fbc-fct-bci:Makati_City ;
 	rdfs:label	"Makati" .
 
@@ -3156,7 +3156,7 @@ fibo-fbc-fct-bci:Makati_City
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Makati" ;
-	lcc-cr:isPartOf	cc:PH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PH ;
 	rdfs:label	"Makati City" ;
 	skos:closeMatch	<http://sws.geonames.org/1703417/> , unlcd:PHMKC , wd:Q1508 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Manila> .
@@ -3165,7 +3165,7 @@ fibo-fbc-fct-bci:Male
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Male" ;
-	lcc-cr:isPartOf	cc:MV ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MV ;
 	rdfs:label	"Male" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Mal%C3%A9> , <http://sws.geonames.org/1282027/> , unlcd:MVMLE , wd:Q9347 ;
 	time:timeZone	<http://dbpedia.org/resource/Indian/Maldives> .
@@ -3173,7 +3173,7 @@ fibo-fbc-fct-bci:Male
 fibo-fbc-fct-bci:Managua
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:NI ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:NI ;
 	rdfs:label	"Managua" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Managua> , <http://sws.geonames.org/3617763/> , unlcd:NIMGA , wd:Q3274 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Managua> .
@@ -3182,7 +3182,7 @@ fibo-fbc-fct-bci:Manama
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Manama" ;
-	lcc-cr:isPartOf	cc:BH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BH ;
 	rdfs:label	"Manama" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Manama> , <http://sws.geonames.org/290340/> , unlcd:BHAMH , wd:Q3882 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Bahrain> .
@@ -3191,7 +3191,7 @@ fibo-fbc-fct-bci:Manila
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Manila" ;
-	lcc-cr:isPartOf	cc:PH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PH ;
 	rdfs:label	"Manila" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Manila> , <http://sws.geonames.org/1701668/> , unlcd:PHMNL , wd:Q1461 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Manila> .
@@ -3200,7 +3200,7 @@ fibo-fbc-fct-bci:Maputo
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Maputo" ;
-	lcc-cr:isPartOf	cc:MZ ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MZ ;
 	rdfs:label	"Maputo" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Maputo> , <http://sws.geonames.org/1040652/> , unlcd:MZMPM , wd:Q3889 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Maputo> .
@@ -3208,7 +3208,7 @@ fibo-fbc-fct-bci:Maputo
 fibo-fbc-fct-bci:Maringa
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:BR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BR ;
 	rdfs:label	"Maringa" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Maring%C3%A1> , <http://sws.geonames.org/3457671/> , unlcd:BRMGF , wd:Q208669 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Sao_Paulo> .
@@ -3216,7 +3216,7 @@ fibo-fbc-fct-bci:Maringa
 fibo-fbc-fct-bci:Mbabane
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:SZ ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SZ ;
 	rdfs:label	"Mbabane" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Mbabane> , <http://sws.geonames.org/934985/> , unlcd:SZQMN , wd:Q3904 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Mbabane> .
@@ -3225,7 +3225,7 @@ fibo-fbc-fct-bci:Melbourne
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Melbourne" ;
-	lcc-cr:isPartOf	cc:AU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AU ;
 	rdfs:label	"Melbourne" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Melbourne> , <http://sws.geonames.org/2158177/> , unlcd:AUMEL , wd:Q3141 ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Melbourne> .
@@ -3233,7 +3233,7 @@ fibo-fbc-fct-bci:Melbourne
 fibo-fbc-fct-bci:Mendoza
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:AR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AR ;
 	rdfs:label	"Mendoza" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Mendoza%2C_Argentina> , <http://sws.geonames.org/3844421/> , unlcd:ARMDZ , wd:Q44237 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Argentina/Mendoza> .
@@ -3242,7 +3242,7 @@ fibo-fbc-fct-bci:Mexico_City
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Mexico City" ;
-	lcc-cr:isPartOf	cc:MX ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MX ;
 	rdfs:label	"Mexico City" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Mexico_City> , <http://sws.geonames.org/3530597/> , unlcd:MXMEX , wd:Q1489 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Mexico_City> .
@@ -3250,7 +3250,7 @@ fibo-fbc-fct-bci:Mexico_City
 fibo-fbc-fct-bci:Miami
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-FL , cc:US ;
+	lcc-cr:isPartOf	cc2:US-FL , lcc-3166-1-adj:US ;
 	rdfs:label	"Miami" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Miami> , <http://sws.geonames.org/4164138/> , unlcd:USMIA , wd:Q8652 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -3259,7 +3259,7 @@ fibo-fbc-fct-bci:Milan
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Milan" ;
-	lcc-cr:isPartOf	cc:IT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IT ;
 	rdfs:label	"Milan" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Milan> , <http://sws.geonames.org/3173435/> , unlcd:ITMIL , wd:Q490 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
@@ -3268,7 +3268,7 @@ fibo-fbc-fct-bci:Minneapolis
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Minneapolis" ;
-	lcc-cr:isPartOf	cc2:US-MN , cc:US ;
+	lcc-cr:isPartOf	cc2:US-MN , lcc-3166-1-adj:US ;
 	rdfs:label	"Minneapolis" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Minneapolis> , <http://sws.geonames.org/5037649/> , unlcd:USMES , wd:Q36091 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -3277,7 +3277,7 @@ fibo-fbc-fct-bci:Minsk
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Minsk" ;
-	lcc-cr:isPartOf	cc:BY ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BY ;
 	rdfs:label	"Minsk" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Minsk> , <http://sws.geonames.org/625144/> , unlcd:BYMSQ , wd:Q2280 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Minsk> .
@@ -3286,7 +3286,7 @@ fibo-fbc-fct-bci:Mobile
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Mobile" ;
-	lcc-cr:isPartOf	cc2:US-AL , cc:US ;
+	lcc-cr:isPartOf	cc2:US-AL , lcc-3166-1-adj:US ;
 	rdfs:label	"Mobile" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Mobile%2C_Alabama> , <http://sws.geonames.org/4076598/> , unlcd:USMOB , wd:Q79875 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -3294,7 +3294,7 @@ fibo-fbc-fct-bci:Mobile
 fibo-fbc-fct-bci:Moka
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:MU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MU ;
 	rdfs:label	"Moka" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Moka> , <http://sws.geonames.org/934277/> , unlcd:MUMOK , wd:Q282908 ;
 	time:timeZone	<http://dbpedia.org/resource/Indian/Mauritius> .
@@ -3303,7 +3303,7 @@ fibo-fbc-fct-bci:Monaco
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Monaco" ;
-	lcc-cr:isPartOf	cc:MC ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MC ;
 	rdfs:label	"Monaco" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Monaco> , <http://sws.geonames.org/2993458/> , unlcd:MCMON , wd:Q235 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Monaco> .
@@ -3312,7 +3312,7 @@ fibo-fbc-fct-bci:Montevideo
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Montevideo" ;
-	lcc-cr:isPartOf	cc:UY ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:UY ;
 	rdfs:label	"Montevideo" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Montevideo> , <http://sws.geonames.org/3441575/> , unlcd:UYMVD , wd:Q1335 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Montevideo> .
@@ -3321,7 +3321,7 @@ fibo-fbc-fct-bci:Montreal
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Montreal" ;
-	lcc-cr:isPartOf	cc:CA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CA ;
 	rdfs:label	"Montreal" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Montreal> , <http://sws.geonames.org/6077243/> , unlcd:CAMTR , wd:Q340 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Toronto> .
@@ -3329,7 +3329,7 @@ fibo-fbc-fct-bci:Montreal
 fibo-fbc-fct-bci:Moorpark
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-CA , cc:US ;
+	lcc-cr:isPartOf	cc2:US-CA , lcc-3166-1-adj:US ;
 	rdfs:label	"Moorpark" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Moorpark%2C_California> , <http://sws.geonames.org/5374648/> , unlcd:USMQK , wd:Q983829 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
@@ -3338,7 +3338,7 @@ fibo-fbc-fct-bci:Moscow
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Moscow" ;
-	lcc-cr:isPartOf	cc:RU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:RU ;
 	rdfs:label	"Moscow" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Moscow> , <http://sws.geonames.org/524901/> , unlcd:RUMOW , wd:Q649 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Moscow> .
@@ -3346,7 +3346,7 @@ fibo-fbc-fct-bci:Moscow
 fibo-fbc-fct-bci:Mount_Pleasant
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-SC , cc:US ;
+	lcc-cr:isPartOf	cc2:US-SC , lcc-3166-1-adj:US ;
 	rdfs:label	"Mount Pleasant" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Mount_Pleasant%2C_South_Carolina> , <http://sws.geonames.org/4588165/> , unlcd:USMPH , wd:Q1010216 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -3358,7 +3358,7 @@ fibo-fbc-fct-bci:Mumbai
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Mumbai" ;
-	lcc-cr:isPartOf	cc:IN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IN ;
 	rdfs:label	"Mumbai" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Mumbai> , <http://sws.geonames.org/1275339/> , unlcd:INBOM , wd:Q1156 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
@@ -3367,7 +3367,7 @@ fibo-fbc-fct-bci:Munich
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Munich" ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Munich" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Munich> , <http://sws.geonames.org/2867714/> , unlcd:DEMUC , wd:Q1726 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -3376,7 +3376,7 @@ fibo-fbc-fct-bci:Muscat
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Muscat" ;
-	lcc-cr:isPartOf	cc:OM ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:OM ;
 	rdfs:label	"Muscat" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Muscat%2C_Oman> , <http://sws.geonames.org/287286/> , unlcd:OMMCT , wd:Q3826 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Muscat> .
@@ -3494,7 +3494,7 @@ fibo-fbc-fct-bci:NZWE
 fibo-fbc-fct-bci:Nablus
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:PS ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PS ;
 	rdfs:label	"Nablus" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Shechem> , <http://sws.geonames.org/282615/> , unlcd:ILNAB , wd:Q214178 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Hebron> .
@@ -3502,7 +3502,7 @@ fibo-fbc-fct-bci:Nablus
 fibo-fbc-fct-bci:Nacka
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:SE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SE ;
 	rdfs:label	"Nacka" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Nacka> , <http://sws.geonames.org/2690580/> , unlcd:SENAC , wd:Q13383459 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
@@ -3510,7 +3510,7 @@ fibo-fbc-fct-bci:Nacka
 fibo-fbc-fct-bci:Nagoya
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:JP ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:JP ;
 	rdfs:label	"Nagoya" ;
 	skos:closeMatch	<http://sws.geonames.org/1856057/> , unlcd:JPNGO , wd:Q11751 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -3519,7 +3519,7 @@ fibo-fbc-fct-bci:Nairobi
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Nairobi" ;
-	lcc-cr:isPartOf	cc:KE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:KE ;
 	rdfs:label	"Nairobi" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Nairobi> , <http://sws.geonames.org/184745/> , unlcd:KENBO , wd:Q3870 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Nairobi> .
@@ -3527,7 +3527,7 @@ fibo-fbc-fct-bci:Nairobi
 fibo-fbc-fct-bci:Narberth
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-PA , cc:US ;
+	lcc-cr:isPartOf	cc2:US-PA , lcc-3166-1-adj:US ;
 	rdfs:label	"Narberth" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Narberth%2C_Pennsylvania> , <http://sws.geonames.org/5202869/> , unlcd:USN84 , wd:Q1186079 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -3539,7 +3539,7 @@ fibo-fbc-fct-bci:Nassau
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Nassau" ;
-	lcc-cr:isPartOf	cc:BS ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BS ;
 	rdfs:label	"Nassau" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Nassau%2C_Bahamas> , <http://sws.geonames.org/3571824/> , unlcd:BSNAS , wd:Q2467 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Nassau> .
@@ -3562,7 +3562,7 @@ fibo-fbc-fct-bci:New_Delhi
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of New Delhi" ;
-	lcc-cr:isPartOf	cc:IN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IN ;
 	rdfs:label	"New Delhi" ;
 	skos:closeMatch	<http://dbpedia.org/resource/New_Delhi> , <http://sws.geonames.org/1261481/> , unlcd:INICD , wd:Q987 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
@@ -3572,7 +3572,7 @@ fibo-fbc-fct-bci:New_York
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of New York" ;
 	fibo-fnd-utl-av:synonym	"New York City" ;
-	lcc-cr:isPartOf	cc2:US-NY , cc:US ;
+	lcc-cr:isPartOf	cc2:US-NY , lcc-3166-1-adj:US ;
 	rdfs:label	"New York" ;
 	skos:closeMatch	<http://dbpedia.org/resource/New_York_City> , <http://sws.geonames.org/5128581/> , unlcd:USNYC , wd:Q60 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -3580,7 +3580,7 @@ fibo-fbc-fct-bci:New_York
 fibo-fbc-fct-bci:Newcastle
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:AU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AU ;
 	rdfs:label	"Newcastle" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Newcastle%2C_New_South_Wales> , <http://sws.geonames.org/2155472/> , unlcd:AUNTL , wd:Q57278 ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
@@ -3589,7 +3589,7 @@ fibo-fbc-fct-bci:Nicosia
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Nicosia" ;
-	lcc-cr:isPartOf	cc:CY ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CY ;
 	rdfs:label	"Nicosia" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Nicosia> , <http://sws.geonames.org/146268/> , unlcd:CYNIC , wd:Q3856 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Nicosia> .
@@ -3597,7 +3597,7 @@ fibo-fbc-fct-bci:Nicosia
 fibo-fbc-fct-bci:Niigata
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:JP ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:JP ;
 	rdfs:label	"Niigata" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Niigata_%28city%29> , <http://sws.geonames.org/1855431/> , unlcd:JPKIJ , wd:Q179691 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -3605,7 +3605,7 @@ fibo-fbc-fct-bci:Niigata
 fibo-fbc-fct-bci:Nizhny_Novgorod
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:RU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:RU ;
 	rdfs:label	"Nizhny Novgorod" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Nizhny_Novgorod> , <http://sws.geonames.org/520555/> , unlcd:RUGOJ , wd:Q891 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Moscow> .
@@ -3613,7 +3613,7 @@ fibo-fbc-fct-bci:Nizhny_Novgorod
 fibo-fbc-fct-bci:North_Bergen
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
+	lcc-cr:isPartOf	cc2:US-NJ , lcc-3166-1-adj:US ;
 	rdfs:label	"North Bergen" ;
 	skos:closeMatch	<http://dbpedia.org/resource/North_Bergen%2C_New_Jersey> , <http://sws.geonames.org/5101879/> , unlcd:USNBN , wd:Q2000528 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -3621,7 +3621,7 @@ fibo-fbc-fct-bci:North_Bergen
 fibo-fbc-fct-bci:Novosibirsk
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:RU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:RU ;
 	rdfs:label	"Novosibirsk" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Novosibirsk> , <http://sws.geonames.org/1496747/> , unlcd:RUOVB , wd:Q883 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Novosibirsk> .
@@ -3629,7 +3629,7 @@ fibo-fbc-fct-bci:Novosibirsk
 fibo-fbc-fct-bci:Nyon
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:CH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CH ;
 	rdfs:label	"Nyon" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Noviodunum_%28Switzerland%29> , <http://sws.geonames.org/2659422/> , unlcd:CHNYO , wd:Q64027 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
@@ -3647,7 +3647,7 @@ fibo-fbc-fct-bci:OMMU
 fibo-fbc-fct-bci:Odessa
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:UA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:UA ;
 	rdfs:label	"Odessa" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Odessa> , <http://sws.geonames.org/698740/> , unlcd:UAODS , wd:Q1874 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Kiev> .
@@ -3655,7 +3655,7 @@ fibo-fbc-fct-bci:Odessa
 fibo-fbc-fct-bci:Oldenburg
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Oldenburg" ;
 	skos:closeMatch	<http://sws.geonames.org/2857458/> , unlcd:DEOLO , wd:Q2936 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -3663,7 +3663,7 @@ fibo-fbc-fct-bci:Oldenburg
 fibo-fbc-fct-bci:Osaka
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:JP ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:JP ;
 	rdfs:label	"Osaka" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Osaka> , <http://sws.geonames.org/1853909/> , unlcd:JPOSA , wd:Q35765 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -3672,7 +3672,7 @@ fibo-fbc-fct-bci:Oslo
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Oslo" ;
-	lcc-cr:isPartOf	cc:NO ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:NO ;
 	rdfs:label	"Oslo" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Oslo> , <http://sws.geonames.org/3143244/> , unlcd:NOOSL , wd:Q585 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Oslo> .
@@ -3680,7 +3680,7 @@ fibo-fbc-fct-bci:Oslo
 fibo-fbc-fct-bci:Oststeinbek
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Oststeinbek" ;
 	skos:closeMatch	<http://sws.geonames.org/2856184/> , unlcd:DEOSK , wd:Q560887 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -3689,7 +3689,7 @@ fibo-fbc-fct-bci:Ottawa
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Ottawa" ;
-	lcc-cr:isPartOf	cc:CA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CA ;
 	rdfs:label	"Ottawa" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Ottawa> , <http://sws.geonames.org/6094817/> , unlcd:CAOTT , wd:Q1930 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Toronto> .
@@ -3777,7 +3777,7 @@ fibo-fbc-fct-bci:PTLI
 fibo-fbc-fct-bci:Padova
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:IT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IT ;
 	rdfs:label	"Padova" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Padua> , <http://sws.geonames.org/3171728/> , unlcd:ITPDA , wd:Q617 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
@@ -3785,7 +3785,7 @@ fibo-fbc-fct-bci:Padova
 fibo-fbc-fct-bci:PalmaDeMallorca
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:ES ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ES ;
 	rdfs:label	"Palma de Mallorca" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Palma%2C_Majorca> , <http://sws.geonames.org/2512989/> , unlcd:ESPMI , wd:Q8826 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
@@ -3794,7 +3794,7 @@ fibo-fbc-fct-bci:Panama_City
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Panama City" ;
-	lcc-cr:isPartOf	cc:PA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PA ;
 	rdfs:label	"Panama City" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Panama_City> , <http://sws.geonames.org/3703443/> , unlcd:PAPTY , wd:Q3306 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Panama> .
@@ -3803,7 +3803,7 @@ fibo-fbc-fct-bci:Paris
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Paris" ;
-	lcc-cr:isPartOf	cc:FR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:FR ;
 	rdfs:label	"Paris" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Paris> , <http://sws.geonames.org/2988507/> , unlcd:FRPAR , wd:Q90 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
@@ -3811,7 +3811,7 @@ fibo-fbc-fct-bci:Paris
 fibo-fbc-fct-bci:Pasig_City
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:PH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PH ;
 	rdfs:label	"Pasig City" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Pasig> , <http://sws.geonames.org/7290466/> , unlcd:PHPSG , wd:Q1624 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Manila> .
@@ -3820,7 +3820,7 @@ fibo-fbc-fct-bci:Perth
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Perth" ;
-	lcc-cr:isPartOf	cc:AU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AU ;
 	rdfs:label	"Perth" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Perth> , <http://sws.geonames.org/2063523/> , unlcd:AUPER , wd:Q3183 ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Perth> .
@@ -3828,7 +3828,7 @@ fibo-fbc-fct-bci:Perth
 fibo-fbc-fct-bci:Pfaffikon_SZ
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:CH-SZ , cc:CH ;
+	lcc-cr:isPartOf	cc2:CH-SZ , lcc-3166-1-adj:CH ;
 	rdfs:label	"Pfäffikon SZ" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Pf%C3%A4ffikon%2C_Schwyz> , <http://sws.geonames.org/2659220/> , unlcd:CHPFK , wd:Q671010 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
@@ -3836,7 +3836,7 @@ fibo-fbc-fct-bci:Pfaffikon_SZ
 fibo-fbc-fct-bci:Philadelphia
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-PA , cc:US ;
+	lcc-cr:isPartOf	cc2:US-PA , lcc-3166-1-adj:US ;
 	rdfs:label	"Philadelphia" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Philadelphia> , <http://sws.geonames.org/4560349/> , unlcd:USPHL , wd:Q1345 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -3845,7 +3845,7 @@ fibo-fbc-fct-bci:Phnom_Penh
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Phnom Penh" ;
-	lcc-cr:isPartOf	cc:KH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:KH ;
 	rdfs:label	"Phnom Penh" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Phnom_Penh> , <http://sws.geonames.org/1821306/> , unlcd:KHPNH , wd:Q1850 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Phnom_Penh> .
@@ -3853,7 +3853,7 @@ fibo-fbc-fct-bci:Phnom_Penh
 fibo-fbc-fct-bci:Phoenix
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-AZ , cc:US ;
+	lcc-cr:isPartOf	cc2:US-AZ , lcc-3166-1-adj:US ;
 	rdfs:label	"Phoenix" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Phoenix%2C_Arizona> , <http://sws.geonames.org/5308655/> , unlcd:USPHX , wd:Q16556 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Phoenix> .
@@ -3861,7 +3861,7 @@ fibo-fbc-fct-bci:Phoenix
 fibo-fbc-fct-bci:Podgorica
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:ME ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ME ;
 	rdfs:label	"Podgorica" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Podgorica> , <http://sws.geonames.org/3193044/> , unlcd:METGD , wd:Q23564 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Podgorica> .
@@ -3870,7 +3870,7 @@ fibo-fbc-fct-bci:Port_Louis
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Port Louis" ;
-	lcc-cr:isPartOf	cc:MU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MU ;
 	rdfs:label	"Port Louis" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Port_Louis> , <http://sws.geonames.org/934154/> , unlcd:MUPLU , wd:Q3929 ;
 	time:timeZone	<http://dbpedia.org/resource/Indian/Mauritius> .
@@ -3878,7 +3878,7 @@ fibo-fbc-fct-bci:Port_Louis
 fibo-fbc-fct-bci:Port_Moresby
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:PG ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PG ;
 	rdfs:label	"Port Moresby" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Port_Moresby> , <http://sws.geonames.org/2088122/> , unlcd:PGPOM , wd:Q36526 ;
 	time:timeZone	<http://dbpedia.org/resource/Pacific/Port_Moresby> .
@@ -3886,7 +3886,7 @@ fibo-fbc-fct-bci:Port_Moresby
 fibo-fbc-fct-bci:Port_Vila
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:VU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:VU ;
 	rdfs:label	"Port Vila" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Port_Vila> , <http://sws.geonames.org/2135171/> , unlcd:VUVLI , wd:Q37806 ;
 	time:timeZone	<http://dbpedia.org/resource/Pacific/Efate> .
@@ -3895,7 +3895,7 @@ fibo-fbc-fct-bci:Port_of_Spain
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Port of Spain" ;
-	lcc-cr:isPartOf	cc:TT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:TT ;
 	rdfs:label	"Port of Spain" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Port_of_Spain> , <http://sws.geonames.org/3573890/> , unlcd:TTPOS , wd:Q39178 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Port_of_Spain> .
@@ -3904,7 +3904,7 @@ fibo-fbc-fct-bci:Portland
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Portland" ;
-	lcc-cr:isPartOf	cc2:US-OR , cc:US ;
+	lcc-cr:isPartOf	cc2:US-OR , lcc-3166-1-adj:US ;
 	rdfs:label	"Portland" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Portland%2C_Oregon> , <http://sws.geonames.org/5746545/> , unlcd:USPDX , wd:Q6106 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
@@ -3912,7 +3912,7 @@ fibo-fbc-fct-bci:Portland
 fibo-fbc-fct-bci:Porto
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:PT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PT ;
 	rdfs:label	"Porto" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Porto> , <http://sws.geonames.org/2735943/> , unlcd:PTOPO , wd:Q36433 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Lisbon> .
@@ -3921,7 +3921,7 @@ fibo-fbc-fct-bci:Prague
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Prague" ;
-	lcc-cr:isPartOf	cc:CZ ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CZ ;
 	rdfs:label	"Prague" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Prague> , <http://sws.geonames.org/3067696/> , unlcd:CZPRG , wd:Q1085 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Prague> .
@@ -3929,7 +3929,7 @@ fibo-fbc-fct-bci:Prague
 fibo-fbc-fct-bci:Praia
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:CV ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CV ;
 	rdfs:label	"Praia" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Praia> , <http://sws.geonames.org/3374333/> , unlcd:CVRAI , wd:Q3751 ;
 	time:timeZone	<http://dbpedia.org/resource/Atlantic/Cape_Verde> .
@@ -3937,7 +3937,7 @@ fibo-fbc-fct-bci:Praia
 fibo-fbc-fct-bci:Princeton
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
+	lcc-cr:isPartOf	cc2:US-NJ , lcc-3166-1-adj:US ;
 	rdfs:label	"Princeton" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Princeton%2C_New_Jersey> , <http://sws.geonames.org/5102922/> , unlcd:USPCT , wd:Q138518 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -3945,7 +3945,7 @@ fibo-fbc-fct-bci:Princeton
 fibo-fbc-fct-bci:Purchase
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NY , cc:US ;
+	lcc-cr:isPartOf	cc2:US-NY , lcc-3166-1-adj:US ;
 	rdfs:label	"Purchase" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Purchase%2C_New_York> , <http://sws.geonames.org/5133135/> , unlcd:USYP5 , wd:Q642275 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -3963,7 +3963,7 @@ fibo-fbc-fct-bci:QADO
 fibo-fbc-fct-bci:Quito
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:EC ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:EC ;
 	rdfs:label	"Quito" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Quito> , <http://sws.geonames.org/3652462/> , unlcd:ECUIO , wd:Q2900 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Guayaquil> .
@@ -4002,7 +4002,7 @@ fibo-fbc-fct-bci:Rabat
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Rabat" ;
-	lcc-cr:isPartOf	cc:MA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MA ;
 	rdfs:label	"Rabat" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Rabat> , <http://sws.geonames.org/2538475/> , unlcd:MARBA , wd:Q3551 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Casablanca> .
@@ -4010,7 +4010,7 @@ fibo-fbc-fct-bci:Rabat
 fibo-fbc-fct-bci:Randers
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DK ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DK ;
 	rdfs:label	"Randers" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Randers> , <http://sws.geonames.org/2615006/> , unlcd:DKRAN , wd:Q27168 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Copenhagen> .
@@ -4018,7 +4018,7 @@ fibo-fbc-fct-bci:Randers
 fibo-fbc-fct-bci:Red_Bank
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
+	lcc-cr:isPartOf	cc2:US-NJ , lcc-3166-1-adj:US ;
 	rdfs:label	"Red Bank" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Red_Bank%2C_New_Jersey> , <http://sws.geonames.org/5103159/> , unlcd:USREN , wd:Q1010539 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -4026,7 +4026,7 @@ fibo-fbc-fct-bci:Red_Bank
 fibo-fbc-fct-bci:Regensburg
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Regensburg" ;
 	skos:closeMatch	<http://sws.geonames.org/2849483/> , unlcd:DEREG , wd:Q2978 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -4034,7 +4034,7 @@ fibo-fbc-fct-bci:Regensburg
 fibo-fbc-fct-bci:Reggio_Emilia
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:IT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IT ;
 	rdfs:label	"Reggio Emilia" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Reggio_Emilia> , <http://sws.geonames.org/3169522/> , unlcd:ITRNE , wd:Q13360 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
@@ -4043,7 +4043,7 @@ fibo-fbc-fct-bci:Reykjavik
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Reykjavik" ;
-	lcc-cr:isPartOf	cc:IS ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IS ;
 	rdfs:label	"Reykjavik" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Reykjav%C3%ADk> , <http://sws.geonames.org/3413829/> , unlcd:ISREY , wd:Q1764 ;
 	time:timeZone	<http://dbpedia.org/resource/Atlantic/Reykjavik> .
@@ -4052,7 +4052,7 @@ fibo-fbc-fct-bci:Riga
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Riga" ;
-	lcc-cr:isPartOf	cc:LV ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:LV ;
 	rdfs:label	"Riga" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Riga> , <http://sws.geonames.org/456172/> , unlcd:LVRIX , wd:Q1773 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Riga> .
@@ -4061,7 +4061,7 @@ fibo-fbc-fct-bci:Rio_de_Janeiro
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Rio de Janeiro" ;
-	lcc-cr:isPartOf	cc:BR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BR ;
 	rdfs:label	"Rio de Janeiro" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Rio_de_Janeiro> , <http://sws.geonames.org/3451190/> , unlcd:BRRIO , wd:Q8678 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Sao_Paulo> .
@@ -4070,7 +4070,7 @@ fibo-fbc-fct-bci:Riyadh
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Riyadh" ;
-	lcc-cr:isPartOf	cc:SA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SA ;
 	rdfs:label	"Riyadh" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Riyadh> , <http://sws.geonames.org/108410/> , unlcd:SARUH , wd:Q3692 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Riyadh> .
@@ -4079,7 +4079,7 @@ fibo-fbc-fct-bci:Road_Town
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Road Town" ;
-	lcc-cr:isPartOf	cc:VG ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:VG ;
 	rdfs:label	"Road Town" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Road_Town> , <http://sws.geonames.org/3577430/> , unlcd:VGRAD , wd:Q179431 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Tortola> .
@@ -4087,7 +4087,7 @@ fibo-fbc-fct-bci:Road_Town
 fibo-fbc-fct-bci:Rodgau
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Rodgau" ;
 	skos:closeMatch	<http://sws.geonames.org/3336893/> , unlcd:DEROU , wd:Q7053 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -4099,7 +4099,7 @@ fibo-fbc-fct-bci:Rome
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Rome" ;
-	lcc-cr:isPartOf	cc:IT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IT ;
 	rdfs:label	"Rome" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Rome> , <http://sws.geonames.org/3169070/> , unlcd:ITROM , wd:Q220 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
@@ -4107,7 +4107,7 @@ fibo-fbc-fct-bci:Rome
 fibo-fbc-fct-bci:Rosario
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:AR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AR ;
 	rdfs:label	"Rosario" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Rosario%2C_Santa_Fe> , <http://sws.geonames.org/3838583/> , unlcd:ARROS , wd:Q52535 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Argentina/Cordoba> .
@@ -4115,7 +4115,7 @@ fibo-fbc-fct-bci:Rosario
 fibo-fbc-fct-bci:Rostov-on-Don
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:RU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:RU ;
 	rdfs:label	"Rostov-on-Don" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Rostov-on-Don> , <http://sws.geonames.org/501175/> , unlcd:RURND , wd:Q908 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Moscow> .
@@ -4124,7 +4124,7 @@ fibo-fbc-fct-bci:Rotterdam
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Rotterdam" ;
-	lcc-cr:isPartOf	cc:NL ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:NL ;
 	rdfs:label	"Rotterdam" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Rotterdam> , <http://sws.geonames.org/2747891/> , unlcd:NLRTM , wd:Q34370 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
@@ -4232,7 +4232,7 @@ fibo-fbc-fct-bci:SVSS
 fibo-fbc-fct-bci:Sabadell
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:ES ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ES ;
 	rdfs:label	"Sabadell" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Sabadell> , <http://sws.geonames.org/3111199/> , unlcd:ESSBP , wd:Q12258 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
@@ -4241,7 +4241,7 @@ fibo-fbc-fct-bci:Sacramento
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Sacramento" ;
-	lcc-cr:isPartOf	cc2:US-CA , cc:US ;
+	lcc-cr:isPartOf	cc2:US-CA , lcc-3166-1-adj:US ;
 	rdfs:label	"Sacramento" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Sacramento%2C_California> , <http://sws.geonames.org/5389489/> , unlcd:USSAC , wd:Q18013 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
@@ -4250,7 +4250,7 @@ fibo-fbc-fct-bci:Saint-Petersburg
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	fibo-fnd-utl-av:synonym	"St. Petersburg" ;
-	lcc-cr:isPartOf	cc:RU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:RU ;
 	rdfs:label	"Saint Petersburg" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Saint_Petersburg> , <http://sws.geonames.org/498817/> , unlcd:RULED , wd:Q656 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Moscow> .
@@ -4260,7 +4260,7 @@ fibo-fbc-fct-bci:Saint_Peter_Port
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Saint Peter Port" ;
 	fibo-fnd-utl-av:synonym	"St. Peter Port" ;
-	lcc-cr:isPartOf	cc:GG ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:GG ;
 	rdfs:label	"Saint Peter Port" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Saint_Peter_Port> , <http://sws.geonames.org/3042287/> , unlcd:GGSPT , wd:Q174262 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Guernsey> .
@@ -4268,7 +4268,7 @@ fibo-fbc-fct-bci:Saint_Peter_Port
 fibo-fbc-fct-bci:Salzburg
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:AT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AT ;
 	rdfs:label	"Salzburg" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Salzburg> , <http://sws.geonames.org/2766824/> , unlcd:ATSZG , wd:Q32220672 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Vienna> .
@@ -4276,7 +4276,7 @@ fibo-fbc-fct-bci:Salzburg
 fibo-fbc-fct-bci:Samara
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:RU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:RU ;
 	rdfs:label	"Samara" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Samara> , <http://sws.geonames.org/499099/> , unlcd:RUKUF , wd:Q894 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Samara> .
@@ -4284,7 +4284,7 @@ fibo-fbc-fct-bci:Samara
 fibo-fbc-fct-bci:San_Carlos
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-CA , cc:US ;
+	lcc-cr:isPartOf	cc2:US-CA , lcc-3166-1-adj:US ;
 	rdfs:label	"San Carlos" ;
 	skos:closeMatch	<http://dbpedia.org/resource/San_Carlos%2C_California> , <http://sws.geonames.org/5391760/> , unlcd:USSQL , wd:Q383234 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
@@ -4293,7 +4293,7 @@ fibo-fbc-fct-bci:San_Francisco
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of San Francisco" ;
-	lcc-cr:isPartOf	cc2:US-CA , cc:US ;
+	lcc-cr:isPartOf	cc2:US-CA , lcc-3166-1-adj:US ;
 	rdfs:label	"San Francisco" ;
 	skos:closeMatch	<http://dbpedia.org/resource/San_Francisco> , <http://sws.geonames.org/5391959/> , unlcd:USSFO , wd:Q62 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
@@ -4302,7 +4302,7 @@ fibo-fbc-fct-bci:San_Jose
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of San Jose" ;
-	lcc-cr:isPartOf	cc:CR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CR ;
 	rdfs:label	"San Jose" ;
 	skos:closeMatch	<http://dbpedia.org/resource/San_Jos%C3%A9%2C_Costa_Rica> , <http://sws.geonames.org/3621849/> , unlcd:CRSJO , wd:Q3070 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Costa_Rica> .
@@ -4311,7 +4311,7 @@ fibo-fbc-fct-bci:San_Juan
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of San Juan" ;
-	lcc-cr:isPartOf	cc:PR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PR ;
 	rdfs:label	"San Juan" ;
 	skos:closeMatch	<http://dbpedia.org/resource/San_Juan%2C_Puerto_Rico> , <http://sws.geonames.org/4568127/> , unlcd:PRSJU , wd:Q41211 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Puerto_Rico> .
@@ -4319,7 +4319,7 @@ fibo-fbc-fct-bci:San_Juan
 fibo-fbc-fct-bci:San_Pedro_Sula
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:HN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:HN ;
 	rdfs:label	"San Pedro Sula" ;
 	skos:closeMatch	<http://dbpedia.org/resource/San_Pedro_Sula> , <http://sws.geonames.org/3601782/> , unlcd:HNSAP , wd:Q274584 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Tegucigalpa> .
@@ -4328,7 +4328,7 @@ fibo-fbc-fct-bci:San_Salvador
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of San Salvador" ;
-	lcc-cr:isPartOf	cc:SV ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SV ;
 	rdfs:label	"San Salvador" ;
 	skos:closeMatch	<http://dbpedia.org/resource/San_Salvador> , <http://sws.geonames.org/3583361/> , unlcd:SVSAL , wd:Q3110 ;
 	time:timeZone	<http://dbpedia.org/resource/America/El_Salvador> .
@@ -4337,7 +4337,7 @@ fibo-fbc-fct-bci:San_Sebastian
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of San Sebastian" ;
-	lcc-cr:isPartOf	cc:ES ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ES ;
 	rdfs:label	"San Sebastian" ;
 	skos:closeMatch	<http://sws.geonames.org/3110044/> , unlcd:ESEAS , wd:Q10313 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
@@ -4345,7 +4345,7 @@ fibo-fbc-fct-bci:San_Sebastian
 fibo-fbc-fct-bci:Santa_Fe
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:AR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AR ;
 	rdfs:label	"Santa Fe" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Santa_Fe%2C_Argentina> , <http://sws.geonames.org/3836277/> , unlcd:ARSFN , wd:Q44244 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Argentina/Cordoba> .
@@ -4353,7 +4353,7 @@ fibo-fbc-fct-bci:Santa_Fe
 fibo-fbc-fct-bci:Santander
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:ES ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ES ;
 	rdfs:label	"Santander" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Santander%2C_Spain> , <http://sws.geonames.org/3109718/> , unlcd:ESSDR , wd:Q12233 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
@@ -4362,7 +4362,7 @@ fibo-fbc-fct-bci:Santiago
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Santiago" ;
-	lcc-cr:isPartOf	cc:CL ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CL ;
 	rdfs:label	"Santiago" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Santiago> , <http://sws.geonames.org/3871336/> , unlcd:CLSCL , wd:Q2887 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Santiago> .
@@ -4371,7 +4371,7 @@ fibo-fbc-fct-bci:Santo_Domingo
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Santo Domingo" ;
-	lcc-cr:isPartOf	cc:DO ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DO ;
 	rdfs:label	"Santo Domingo" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Santo_Domingo> , <http://sws.geonames.org/3492908/> , unlcd:DOSDQ , wd:Q34820 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Santo_Domingo> .
@@ -4380,7 +4380,7 @@ fibo-fbc-fct-bci:Sao_Paulo
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Sao Paulo" ;
-	lcc-cr:isPartOf	cc:BR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BR ;
 	rdfs:label	"Sao Paulo" ;
 	skos:closeMatch	<http://dbpedia.org/resource/S%C3%A3o_Paulo> , <http://sws.geonames.org/3448439/> , unlcd:BRSAO , wd:Q174 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Sao_Paulo> .
@@ -4388,7 +4388,7 @@ fibo-fbc-fct-bci:Sao_Paulo
 fibo-fbc-fct-bci:Sapporo
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:JP ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:JP ;
 	rdfs:label	"Sapporo" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Sapporo> , <http://sws.geonames.org/2128295/> , unlcd:JPSPK , wd:Q37951 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -4396,7 +4396,7 @@ fibo-fbc-fct-bci:Sapporo
 fibo-fbc-fct-bci:Sarajevo
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:BA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BA ;
 	rdfs:label	"Sarajevo" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Sarajevo> , <http://sws.geonames.org/3191281/> , unlcd:BASJJ , wd:Q11194 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Sarajevo> .
@@ -4404,7 +4404,7 @@ fibo-fbc-fct-bci:Sarajevo
 fibo-fbc-fct-bci:Schwerin
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Schwerin" ;
 	skos:closeMatch	<http://sws.geonames.org/2834282/> , unlcd:DESWR , wd:Q1709 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -4412,7 +4412,7 @@ fibo-fbc-fct-bci:Schwerin
 fibo-fbc-fct-bci:SeaGirt
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
+	lcc-cr:isPartOf	cc2:US-NJ , lcc-3166-1-adj:US ;
 	rdfs:label	"Sea Girt" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Sea_Girt%2C_New_Jersey> , <http://sws.geonames.org/5104495/> , unlcd:USGXI , wd:Q1088151 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -4421,7 +4421,7 @@ fibo-fbc-fct-bci:Seattle
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Seattle" ;
-	lcc-cr:isPartOf	cc2:US-WA , cc:US ;
+	lcc-cr:isPartOf	cc2:US-WA , lcc-3166-1-adj:US ;
 	rdfs:label	"Seattle" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Seattle> , <http://sws.geonames.org/5809844/> , unlcd:USSEA , wd:Q5083 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Los_Angeles> .
@@ -4430,7 +4430,7 @@ fibo-fbc-fct-bci:Seoul
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Seoul" ;
-	lcc-cr:isPartOf	cc:KR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:KR ;
 	rdfs:label	"Seoul" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Seoul> , <http://sws.geonames.org/1835848/> , unlcd:KRSEL , wd:Q8684 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Seoul> .
@@ -4439,7 +4439,7 @@ fibo-fbc-fct-bci:Shanghai
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Shanghai" ;
-	lcc-cr:isPartOf	cc:CN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CN ;
 	rdfs:label	"Shanghai" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Shanghai> , <http://sws.geonames.org/1796236/> , unlcd:CNSGH , wd:Q8686 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Shanghai> .
@@ -4447,7 +4447,7 @@ fibo-fbc-fct-bci:Shanghai
 fibo-fbc-fct-bci:Shenzhen
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:CN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CN ;
 	rdfs:label	"Shenzhen" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Shenzhen> , <http://sws.geonames.org/1795565/> , unlcd:CNSNZ , wd:Q15174 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Shanghai> .
@@ -4455,7 +4455,7 @@ fibo-fbc-fct-bci:Shenzhen
 fibo-fbc-fct-bci:Shimonoseki
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:JP ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:JP ;
 	rdfs:label	"Shomonoseki" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Shimonoseki> , <http://sws.geonames.org/1852225/> , unlcd:JPSHS , wd:Q203308 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -4463,7 +4463,7 @@ fibo-fbc-fct-bci:Shimonoseki
 fibo-fbc-fct-bci:Sibiu
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:RO ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:RO ;
 	rdfs:label	"Sibiu" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Szeben_County> , <http://sws.geonames.org/667268/> , unlcd:ROSBZ , wd:Q16898517 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Bucharest> .
@@ -4471,7 +4471,7 @@ fibo-fbc-fct-bci:Sibiu
 fibo-fbc-fct-bci:Silkeborg
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DK ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DK ;
 	rdfs:label	"Silkeborg" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Silkeborg> , <http://sws.geonames.org/2614030/> , unlcd:DKSLB , wd:Q21180 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Copenhagen> .
@@ -4480,7 +4480,7 @@ fibo-fbc-fct-bci:Singapore
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Singapore" ;
-	lcc-cr:isPartOf	cc:SG ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SG ;
 	rdfs:label	"Singapore" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Singapore> , <http://sws.geonames.org/1880252/> , unlcd:SGSIN , wd:Q334 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Singapore> .
@@ -4488,7 +4488,7 @@ fibo-fbc-fct-bci:Singapore
 fibo-fbc-fct-bci:Skopje
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:MK ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MK ;
 	rdfs:label	"Skopje" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Skopje> , <http://sws.geonames.org/785842/> , unlcd:MKSKP , wd:Q384 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Skopje> .
@@ -4496,7 +4496,7 @@ fibo-fbc-fct-bci:Skopje
 fibo-fbc-fct-bci:Sliema
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:MT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MT ;
 	rdfs:label	"Sliema" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Sliema> , <http://sws.geonames.org/2562501/> , unlcd:MTSLM , wd:Q39526 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Malta> .
@@ -4505,7 +4505,7 @@ fibo-fbc-fct-bci:Sofia
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Sofia" ;
-	lcc-cr:isPartOf	cc:BG ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BG ;
 	rdfs:label	"Sofia" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Sofia> , <http://sws.geonames.org/727011/> , unlcd:BGSOF , wd:Q472 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Sofia> .
@@ -4513,7 +4513,7 @@ fibo-fbc-fct-bci:Sofia
 fibo-fbc-fct-bci:Split
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:HR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:HR ;
 	rdfs:label	"Split" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Split%2C_Croatia> , <http://sws.geonames.org/3190261/> , unlcd:HRSPU , wd:Q1663 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zagreb> .
@@ -4521,7 +4521,7 @@ fibo-fbc-fct-bci:Split
 fibo-fbc-fct-bci:StAlbans
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:GB ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:GB ;
 	rdfs:label	"St. Albans" ;
 	skos:closeMatch	<http://dbpedia.org/resource/St_Albans> , <http://sws.geonames.org/2638867/> , unlcd:GBTBL , wd:Q6226 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
@@ -4530,7 +4530,7 @@ fibo-fbc-fct-bci:St_Helier
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of St. Helier" ;
-	lcc-cr:isPartOf	cc:JE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:JE ;
 	rdfs:label	"St. Helier" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Saint_Helier> , <http://sws.geonames.org/3042091/> , unlcd:JESTH , wd:Q147738 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Jersey> .
@@ -4538,7 +4538,7 @@ fibo-fbc-fct-bci:St_Helier
 fibo-fbc-fct-bci:St_Johns
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:AG ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AG ;
 	rdfs:label	"St John's" ;
 	skos:closeMatch	<http://dbpedia.org/resource/St._John%27s%2C_Antigua_and_Barbuda> , <http://sws.geonames.org/3576022/> , unlcd:AGSJO , wd:Q36262 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Antigua> .
@@ -4546,7 +4546,7 @@ fibo-fbc-fct-bci:St_Johns
 fibo-fbc-fct-bci:Stamford
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-CT , cc:US ;
+	lcc-cr:isPartOf	cc2:US-CT , lcc-3166-1-adj:US ;
 	rdfs:label	"Stamford" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Stamford%2C_Connecticut> , <http://sws.geonames.org/4843564/> , unlcd:USXLX , wd:Q49169 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -4555,7 +4555,7 @@ fibo-fbc-fct-bci:Stockholm
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Stockholm" ;
-	lcc-cr:isPartOf	cc:SE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SE ;
 	rdfs:label	"Stockholm" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Stockholm> , <http://sws.geonames.org/2673730/> , unlcd:SESTO , wd:Q1754 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
@@ -4564,7 +4564,7 @@ fibo-fbc-fct-bci:Stuttgart
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Stuttgart" ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Stuttgart" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Stuttgart> , <http://sws.geonames.org/2825297/> , unlcd:DESTR , wd:Q1022 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -4572,7 +4572,7 @@ fibo-fbc-fct-bci:Stuttgart
 fibo-fbc-fct-bci:Summit
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-NJ , cc:US ;
+	lcc-cr:isPartOf	cc2:US-NJ , lcc-3166-1-adj:US ;
 	rdfs:label	"Summit" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Summit%2C_New_Jersey> , <http://sws.geonames.org/5105127/> , unlcd:USUYX , wd:Q1000642 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -4580,7 +4580,7 @@ fibo-fbc-fct-bci:Summit
 fibo-fbc-fct-bci:Surabaya
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:ID ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ID ;
 	rdfs:label	"Surabaya" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Surabaya> , <http://sws.geonames.org/1625822/> , unlcd:IDSUB , wd:Q11462 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jakarta> .
@@ -4588,7 +4588,7 @@ fibo-fbc-fct-bci:Surabaya
 fibo-fbc-fct-bci:Suva
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:FJ ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:FJ ;
 	rdfs:label	"Suva" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Suva> , <http://sws.geonames.org/2198148/> , unlcd:FJSUV , wd:Q38807 ;
 	time:timeZone	<http://dbpedia.org/resource/Pacific/Fiji> .
@@ -4597,7 +4597,7 @@ fibo-fbc-fct-bci:Sydney
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Sydney" ;
-	lcc-cr:isPartOf	cc:AU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AU ;
 	rdfs:label	"Sydney" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Sydney> , <http://sws.geonames.org/2147714/> , unlcd:AUSYD , wd:Q3130 ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
@@ -4694,7 +4694,7 @@ fibo-fbc-fct-bci:Taipei
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Taipei" ;
-	lcc-cr:isPartOf	cc:TW ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:TW ;
 	rdfs:label	"Taipei" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Taipei> , <http://sws.geonames.org/1668341/> , unlcd:TWTPE , wd:Q1867 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Taipei> .
@@ -4703,7 +4703,7 @@ fibo-fbc-fct-bci:Tallinn
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Tallinn" ;
-	lcc-cr:isPartOf	cc:EE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:EE ;
 	rdfs:label	"Tallinn" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Tallinn> , <http://sws.geonames.org/588409/> , unlcd:EETLL , wd:Q1770 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Tallinn> .
@@ -4712,7 +4712,7 @@ fibo-fbc-fct-bci:Tashkent
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Tashkent" ;
-	lcc-cr:isPartOf	cc:UZ ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:UZ ;
 	rdfs:label	"Tashkent" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Tashkent> , <http://sws.geonames.org/1512569/> , unlcd:UZTAS , wd:Q269 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tashkent> .
@@ -4721,7 +4721,7 @@ fibo-fbc-fct-bci:Tbilisi
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Tbilisi" ;
-	lcc-cr:isPartOf	cc:GE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:GE ;
 	rdfs:label	"Tbilisi" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Tbilisi> , <http://sws.geonames.org/611717/> , unlcd:GETBS , wd:Q994 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tbilisi> .
@@ -4730,7 +4730,7 @@ fibo-fbc-fct-bci:Tegucigalpa
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Tegucigalpa" ;
-	lcc-cr:isPartOf	cc:HN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:HN ;
 	rdfs:label	"Tegucigalpa" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Tegucigalpa> , <http://sws.geonames.org/3600949/> , unlcd:HNTGU , wd:Q3238 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Tegucigalpa> .
@@ -4739,7 +4739,7 @@ fibo-fbc-fct-bci:Teheran
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Teheran" ;
-	lcc-cr:isPartOf	cc:IR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IR ;
 	owl:sameAs	fibo-fbc-fct-bci:Tehran ;
 	rdfs:label	"Teheran" .
 
@@ -4747,7 +4747,7 @@ fibo-fbc-fct-bci:Tehran
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Tehran" ;
-	lcc-cr:isPartOf	cc:IR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IR ;
 	rdfs:label	"Tehran" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Tehran> , <http://sws.geonames.org/112931/> , unlcd:IRTHR , wd:Q3616 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tehran> .
@@ -4756,7 +4756,7 @@ fibo-fbc-fct-bci:Tel_Aviv
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Tel Aviv" ;
-	lcc-cr:isPartOf	cc:IL ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IL ;
 	rdfs:label	"Tel Aviv" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Tel_Aviv> , <http://sws.geonames.org/293397/> , unlcd:ILTLV , wd:Q33935 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
@@ -4764,7 +4764,7 @@ fibo-fbc-fct-bci:Tel_Aviv
 fibo-fbc-fct-bci:TheWoodlands
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-TX , cc:US ;
+	lcc-cr:isPartOf	cc2:US-TX , lcc-3166-1-adj:US ;
 	rdfs:label	"The Woodlands" ;
 	skos:closeMatch	<http://dbpedia.org/resource/The_Woodlands%2C_Texas> , <http://sws.geonames.org/4736476/> , unlcd:USTHW , wd:Q982421 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -4772,7 +4772,7 @@ fibo-fbc-fct-bci:TheWoodlands
 fibo-fbc-fct-bci:The_Hague
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:NL ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:NL ;
 	rdfs:label	"The Hague" ;
 	skos:closeMatch	<http://dbpedia.org/resource/The_Hague> , <http://sws.geonames.org/2747373/> , unlcd:NLHAG , wd:Q41795540 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
@@ -4780,7 +4780,7 @@ fibo-fbc-fct-bci:The_Hague
 fibo-fbc-fct-bci:Tirana
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:AL ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AL ;
 	rdfs:label	"Tirana" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Tirana> , <http://sws.geonames.org/3183875/> , unlcd:ALTIA , wd:Q19689 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Tirane> .
@@ -4789,7 +4789,7 @@ fibo-fbc-fct-bci:Tokyo
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Tokyo" ;
-	lcc-cr:isPartOf	cc:JP ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:JP ;
 	rdfs:label	"Tokyo" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Tokyo> , <http://sws.geonames.org/1850147/> , unlcd:JPTYO , wd:Q215646 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -4798,7 +4798,7 @@ fibo-fbc-fct-bci:Toronto
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Toronto" ;
-	lcc-cr:isPartOf	cc:CA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CA ;
 	rdfs:label	"Toronto" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Toronto> , <http://sws.geonames.org/6167865/> , unlcd:CATOR , wd:Q172 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Toronto> .
@@ -4806,7 +4806,7 @@ fibo-fbc-fct-bci:Toronto
 fibo-fbc-fct-bci:Torshavn
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:FO ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:FO ;
 	rdfs:label	"Torshavn" ;
 	skos:closeMatch	<http://dbpedia.org/resource/T%C3%B3rshavn> , <http://sws.geonames.org/2611396/> , unlcd:FOTHO , wd:Q10704 ;
 	time:timeZone	<http://dbpedia.org/resource/Atlantic/Faroe> .
@@ -4814,7 +4814,7 @@ fibo-fbc-fct-bci:Torshavn
 fibo-fbc-fct-bci:Triesen
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:LI ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:LI ;
 	rdfs:label	"Triesen" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Triesen> , <http://sws.geonames.org/3042035/> , unlcd:LITES , wd:Q49654 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Vaduz> .
@@ -4822,7 +4822,7 @@ fibo-fbc-fct-bci:Triesen
 fibo-fbc-fct-bci:Tripoli
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:LY ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:LY ;
 	rdfs:label	"Tripoli" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Tripoli> , <http://sws.geonames.org/2210247/> , unlcd:LYTIP , wd:Q3579 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Tripoli> .
@@ -4830,7 +4830,7 @@ fibo-fbc-fct-bci:Tripoli
 fibo-fbc-fct-bci:Tromso
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:NO ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:NO ;
 	rdfs:label	"Tromso" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Troms%C3%B8_%28city%29> , <http://sws.geonames.org/3133895/> , unlcd:NOTOS , wd:Q42328401 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Oslo> .
@@ -4838,7 +4838,7 @@ fibo-fbc-fct-bci:Tromso
 fibo-fbc-fct-bci:Trondheim
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:NO ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:NO ;
 	rdfs:label	"Trondheim" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Trondheim> , <http://sws.geonames.org/3133880/> , unlcd:NOTRD , wd:Q25804 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Oslo> .
@@ -4846,7 +4846,7 @@ fibo-fbc-fct-bci:Trondheim
 fibo-fbc-fct-bci:Tucuman
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:AR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AR ;
 	rdfs:label	"Tucuman" ;
 	skos:closeMatch	<http://dbpedia.org/resource/San_Miguel_de_Tucum%C3%A1n> , <http://sws.geonames.org/3836873/> , unlcd:ARSMC , wd:Q44255 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Argentina/Tucuman> .
@@ -4855,7 +4855,7 @@ fibo-fbc-fct-bci:Tunis
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Tunis" ;
-	lcc-cr:isPartOf	cc:TN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:TN ;
 	rdfs:label	"Tunis" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Tunis> , <http://sws.geonames.org/2464470/> , unlcd:TNTUN , wd:Q3572 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Tunis> .
@@ -4864,7 +4864,7 @@ fibo-fbc-fct-bci:Turin
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Turin" ;
-	lcc-cr:isPartOf	cc:IT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:IT ;
 	rdfs:label	"Turin" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Turin> , <http://sws.geonames.org/3165524/> , unlcd:ITTRN , wd:Q495 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
@@ -5123,7 +5123,7 @@ fibo-fbc-fct-bci:Ulaanbaatar
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Ulanbaatar" ;
-	lcc-cr:isPartOf	cc:MN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MN ;
 	rdfs:label	"Ulaanbaatar" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Ulan_Bator> , <http://sws.geonames.org/2028462/> , unlcd:MNULN , wd:Q23430 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Ulaanbaatar> .
@@ -5132,14 +5132,14 @@ fibo-fbc-fct-bci:Ulan_Bator
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Ulan Bator" ;
-	lcc-cr:isPartOf	cc:MN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MN ;
 	owl:sameAs	fibo-fbc-fct-bci:Ulaanbaatar ;
 	rdfs:label	"Ulan Bator" .
 
 fibo-fbc-fct-bci:Unterschleissheim
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:DE ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
 	rdfs:label	"Unterschleissheim" ;
 	skos:closeMatch	<http://sws.geonames.org/2818766/> , unlcd:DEUSL , wd:Q33510649 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -5147,7 +5147,7 @@ fibo-fbc-fct-bci:Unterschleissheim
 fibo-fbc-fct-bci:Utrecht
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:NL ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:NL ;
 	rdfs:label	"Utrecht" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Utrecht> , <http://sws.geonames.org/2745912/> , unlcd:NLUTC , wd:Q39297398 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
@@ -5195,7 +5195,7 @@ fibo-fbc-fct-bci:VNHC
 fibo-fbc-fct-bci:Vaduz
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:LI ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:LI ;
 	rdfs:label	"Vaduz" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Vaduz> , <http://sws.geonames.org/3042030/> , unlcd:LIVDZ , wd:Q27439086 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Vaduz> .
@@ -5203,7 +5203,7 @@ fibo-fbc-fct-bci:Vaduz
 fibo-fbc-fct-bci:Valencia
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:ES ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ES ;
 	rdfs:label	"Valencia" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Valencia> , <http://sws.geonames.org/2509954/> , unlcd:ESVLC , wd:Q8818 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
@@ -5212,7 +5212,7 @@ fibo-fbc-fct-bci:Valletta
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Valletta" ;
-	lcc-cr:isPartOf	cc:MT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:MT ;
 	rdfs:label	"Valletta" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Valletta> , <http://sws.geonames.org/2562305/> , unlcd:MTMLA , wd:Q23800 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Malta> .
@@ -5220,7 +5220,7 @@ fibo-fbc-fct-bci:Valletta
 fibo-fbc-fct-bci:Valparaiso
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:CL ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CL ;
 	rdfs:label	"Valparaiso" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Valpara%C3%ADso> , <http://sws.geonames.org/3868626/> , unlcd:CLVAP , wd:Q33986 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Santiago> .
@@ -5229,7 +5229,7 @@ fibo-fbc-fct-bci:Vancouver
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Vancouver" ;
-	lcc-cr:isPartOf	cc:CA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CA ;
 	rdfs:label	"Vancouver" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Vancouver> , <http://sws.geonames.org/6173331/> , unlcd:CAVAN , wd:Q24639 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Vancouver> .
@@ -5237,7 +5237,7 @@ fibo-fbc-fct-bci:Vancouver
 fibo-fbc-fct-bci:Varazdin
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:HR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:HR ;
 	rdfs:label	"Varazdin" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Vara%C5%BEdin_County_%28former%29> , <http://sws.geonames.org/3188383/> , unlcd:HRVZN , wd:Q5420 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zagreb> .
@@ -5245,7 +5245,7 @@ fibo-fbc-fct-bci:Varazdin
 fibo-fbc-fct-bci:Victoria
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:SC ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SC ;
 	rdfs:label	"Victoria" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Victoria%2C_Seychelles> , <http://sws.geonames.org/241131/> , unlcd:SCVIC , wd:Q3940 ;
 	time:timeZone	<http://dbpedia.org/resource/Indian/Mahe> .
@@ -5253,7 +5253,7 @@ fibo-fbc-fct-bci:Victoria
 fibo-fbc-fct-bci:Victoria_Falls
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:ZW ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ZW ;
 	rdfs:label	"Victoria Falls" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Victoria_Falls%2C_Zimbabwe> , <http://sws.geonames.org/879431/> , unlcd:ZWVFA , wd:Q1393804 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Harare> .
@@ -5262,7 +5262,7 @@ fibo-fbc-fct-bci:Vienna
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Vienna" ;
-	lcc-cr:isPartOf	cc:AT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AT ;
 	rdfs:label	"Vienna" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Vienna> , <http://sws.geonames.org/2761369/> , unlcd:ATVIE , wd:Q1741 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Vienna> .
@@ -5271,7 +5271,7 @@ fibo-fbc-fct-bci:Vientiane
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Vientiane" ;
-	lcc-cr:isPartOf	cc:LA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:LA ;
 	rdfs:label	"Vientiane" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Vientiane> , <http://sws.geonames.org/1651944/> , unlcd:LAVTE , wd:Q9326 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Vientiane> .
@@ -5279,7 +5279,7 @@ fibo-fbc-fct-bci:Vientiane
 fibo-fbc-fct-bci:Vilnius
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:LT ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:LT ;
 	rdfs:label	"Vilnius" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Vilnius> , <http://sws.geonames.org/593116/> , unlcd:LTVNO , wd:Q216 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Vilnius> .
@@ -5287,7 +5287,7 @@ fibo-fbc-fct-bci:Vilnius
 fibo-fbc-fct-bci:Vitoria
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:BR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:BR ;
 	rdfs:label	"Vitoria" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Vitoria> , <http://sws.geonames.org/3444924/> , unlcd:BRVIX , wd:Q168376 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Sao_Paulo> .
@@ -5295,7 +5295,7 @@ fibo-fbc-fct-bci:Vitoria
 fibo-fbc-fct-bci:Vladivostok
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:RU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:RU ;
 	rdfs:label	"Vladivostok" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Vladivostok> , <http://sws.geonames.org/2013348/> , unlcd:RUVVO , wd:Q959 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Vladivostok> .
@@ -5304,7 +5304,7 @@ fibo-fbc-fct-bci:Warsaw
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Warsaw" ;
-	lcc-cr:isPartOf	cc:PL ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PL ;
 	rdfs:label	"Warsaw" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Warsaw> , <http://sws.geonames.org/756135/> , unlcd:PLWAW , wd:Q270 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Warsaw> .
@@ -5316,7 +5316,7 @@ fibo-fbc-fct-bci:Washington
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Washington" ;
-	lcc-cr:isPartOf	cc2:US-DC , cc:US ;
+	lcc-cr:isPartOf	cc2:US-DC , lcc-3166-1-adj:US ;
 	rdfs:label	"Washington" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Washington%2C_D.C.> , <http://sws.geonames.org/4140963/> , unlcd:USWAS , wd:Q61 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -5325,7 +5325,7 @@ fibo-fbc-fct-bci:Wellington
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Wellington" ;
-	lcc-cr:isPartOf	cc:NZ ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:NZ ;
 	rdfs:label	"Wellington" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Wellington> , <http://sws.geonames.org/2179537/> , unlcd:NZWLG , wd:Q23661 ;
 	time:timeZone	<http://dbpedia.org/resource/Pacific/Auckland> .
@@ -5334,7 +5334,7 @@ fibo-fbc-fct-bci:Wichita
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Wichita" ;
-	lcc-cr:isPartOf	cc2:US-KS , cc:US ;
+	lcc-cr:isPartOf	cc2:US-KS , lcc-3166-1-adj:US ;
 	rdfs:label	"Wichita" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Wichita%2C_Kansas> , <http://sws.geonames.org/4281730/> , unlcd:USICT , wd:Q49266 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -5343,7 +5343,7 @@ fibo-fbc-fct-bci:Willemstad
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
 	dct:description	"the international business center of Willemstad" ;
-	lcc-cr:isPartOf	cc:CW ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CW ;
 	rdfs:label	"Willemstad" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Willemstad> , <http://sws.geonames.org/3513090/> , unlcd:CWWIL , wd:Q132679 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Curacao> .
@@ -5351,7 +5351,7 @@ fibo-fbc-fct-bci:Willemstad
 fibo-fbc-fct-bci:Wilmington
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc2:US-DE , cc:US ;
+	lcc-cr:isPartOf	cc2:US-DE , lcc-3166-1-adj:US ;
 	rdfs:label	"Wilmington" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Wilmington%2C_Delaware> , <http://sws.geonames.org/4145381/> , unlcd:USILG , wd:Q174224 ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
@@ -5360,7 +5360,7 @@ fibo-fbc-fct-bci:Windhoek
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Windhoek" ;
-	lcc-cr:isPartOf	cc:NA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:NA ;
 	rdfs:label	"Windhoek" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Windhoek> , <http://sws.geonames.org/3352136/> , unlcd:NAWDH , wd:Q3935 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Windhoek> .
@@ -5369,7 +5369,7 @@ fibo-fbc-fct-bci:Winnipeg
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Winnipeg" ;
-	lcc-cr:isPartOf	cc:CA ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CA ;
 	rdfs:label	"Winnipeg" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Winnipeg> , <http://sws.geonames.org/6183235/> , unlcd:CAWNP , wd:Q2135 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Winnipeg> .
@@ -5377,7 +5377,7 @@ fibo-fbc-fct-bci:Winnipeg
 fibo-fbc-fct-bci:Wroclaw
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:PL ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PL ;
 	rdfs:label	"Wroclaw" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Wroc%C5%82aw> , <http://sws.geonames.org/3081368/> , unlcd:PLWRO , wd:Q1799 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Warsaw> .
@@ -5385,7 +5385,7 @@ fibo-fbc-fct-bci:Wroclaw
 fibo-fbc-fct-bci:Wuxi
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:CN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CN ;
 	rdfs:label	"Wuxi" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Wuxi> , <http://sws.geonames.org/1790923/> , unlcd:CNWXS , wd:Q42651 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Shanghai> .
@@ -5404,7 +5404,7 @@ fibo-fbc-fct-bci:Yaounde
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Yaounde" ;
-	lcc-cr:isPartOf	cc:CM ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CM ;
 	rdfs:label	"Yaounde" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Yaound%C3%A9> , <http://sws.geonames.org/2220957/> , unlcd:CMYAO , wd:Q3808 ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Douala> .
@@ -5412,7 +5412,7 @@ fibo-fbc-fct-bci:Yaounde
 fibo-fbc-fct-bci:Yekaterinburg
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:RU ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:RU ;
 	rdfs:label	"Yekaterinburg" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Yekaterinburg> , <http://sws.geonames.org/1486209/> , unlcd:RUYEK , wd:Q887 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Yekaterinburg> .
@@ -5421,7 +5421,7 @@ fibo-fbc-fct-bci:Yerevan
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Yerevan" ;
-	lcc-cr:isPartOf	cc:AM ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:AM ;
 	rdfs:label	"Yerevan" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Yerevan> , <http://sws.geonames.org/616052/> , unlcd:AMEVN , wd:Q1953 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Yerevan> .
@@ -5460,7 +5460,7 @@ fibo-fbc-fct-bci:Zagreb
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Zagreb" ;
-	lcc-cr:isPartOf	cc:HR ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:HR ;
 	rdfs:label	"Zagreb" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Zagreb> , <http://sws.geonames.org/3186886/> , unlcd:HRZAG , wd:Q1435 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zagreb> .
@@ -5468,7 +5468,7 @@ fibo-fbc-fct-bci:Zagreb
 fibo-fbc-fct-bci:Zaragoza
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:ES ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:ES ;
 	rdfs:label	"Zaragoza" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Zaragoza> , <http://sws.geonames.org/3104324/> , unlcd:ESZAZ , wd:Q31926034 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Madrid> .
@@ -5476,7 +5476,7 @@ fibo-fbc-fct-bci:Zaragoza
 fibo-fbc-fct-bci:Zhengzhou
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:CN ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CN ;
 	rdfs:label	"Zhengzhou" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Zhengzhou> , <http://sws.geonames.org/1784658/> , unlcd:CNZGZ , wd:Q30340 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Shanghai> .
@@ -5484,7 +5484,7 @@ fibo-fbc-fct-bci:Zhengzhou
 fibo-fbc-fct-bci:Zilina
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:SK ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:SK ;
 	rdfs:label	"Zilina" ;
 	skos:closeMatch	<http://dbpedia.org/resource/%C5%BDilina> , <http://sws.geonames.org/3056508/> , unlcd:SKILZ , wd:Q25797 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Bratislava> .
@@ -5493,7 +5493,7 @@ fibo-fbc-fct-bci:Zurich
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
 	dct:description	"the international business center of Zurich" ;
-	lcc-cr:isPartOf	cc:CH ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:CH ;
 	rdfs:label	"Zurich" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Z%C3%BCrich> , <http://sws.geonames.org/2657896/> , unlcd:CHZRH , wd:Q72 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
@@ -5501,7 +5501,7 @@ fibo-fbc-fct-bci:Zurich
 fibo-fbc-fct-bci:s-Hertogenbosch
 	a	fibo-fnd-plc-loc:Municipality ;
 	a	owl:NamedIndividual ;
-	lcc-cr:isPartOf	cc:NL ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:NL ;
 	rdfs:label	"s'-Hertogenbosch" ;
 	skos:closeMatch	<http://dbpedia.org/resource/%27s-Hertogenbosch> , <http://sws.geonames.org/2747351/> , unlcd:NLHTB , wd:Q2766547 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .

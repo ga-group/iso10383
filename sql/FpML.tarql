@@ -1,4 +1,4 @@
-PREFIX cc: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/>
+PREFIX lcc-3166-1-adj: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX fibo-fbc-fct-bc: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/>
 PREFIX fibo-fbc-fct-bci: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/>
@@ -40,7 +40,7 @@ WHERE {
 		" ", "_"),
 		"\\.", "") AS ?_iril)
 	BIND(URI(CONCAT(STR(fibo-fbc-fct-bci:),?_iril)) AS ?iedge)
-	BIND(URI(CONCAT(STR(cc:),SUBSTR(?Code,1,2))) AS ?_cccc)
+	BIND(URI(CONCAT(STR(lcc-3166-1-adj:),SUBSTR(?Code,1,2))) AS ?_cccc)
 
 	BIND(CONCAT("the FpML business center code for ", ?Description) AS ?_desc)
 	BIND(CONCAT("the international business center of ",?_ilbl) AS ?_desi)

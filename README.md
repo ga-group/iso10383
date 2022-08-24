@@ -26,7 +26,10 @@ The Makefile contains some recipes to assemble a file that resembles FIBO's.
 
 For MarketsIndividuals the primary source is the latest list of Market Identifier Codes
 in the new data structure and format, to be obtained here:
-<https://www.iso20022.org/market-identifier-codes>.
+<https://www.iso20022.org/market-identifier-codes>.  The choice of vocabulary is largely
+identical to FIBO's, except for `fibo-fbc-fct-mkt:operatesInCountry` which refers to
+ISO 3166-1 codes per means of [ISO3166-1-CountryCodes-Adjunct](https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/),
+i.e. `lcc-3166-1-adj:BM` is used instead of `lcc-3166-1:Bermuda`.
 
 For BusinessCentersIndividuals the primary source is the latest business-center spec
 file as published by FpML working group: <https://www.fpml.org/coding-scheme/>.

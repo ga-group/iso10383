@@ -1,4 +1,4 @@
-@prefix cc: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
+@prefix lcc-3166-1-adj: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
 @prefix dbo: <https://dbpedia.org/ontology/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix fibo-fbc-fct-bc: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/> .
@@ -28,7 +28,7 @@ fibo-fbc-fct-mkti:Exchange-ABXX_2022-04-25
 	dbo:formerName	"ARABIAN BOURSE LIMITED" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"ABX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ARABIAN BOURSE LIMITED" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:AE ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Abu_Dhabi ;
 	fibo-fnd-plc-vrt:hasWebsite	"https://arabianbourse.com"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-984500DT1B79C9A7B343-LEI ;
@@ -42,7 +42,7 @@ fibo-fbc-fct-mkti:Exchange-BHSF_2022-08-22
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	dct:isReplacedBy	fibo-fbc-fct-mkti:Exchange-BHSF ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BATS HOTSPOT SEF LLC" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:US ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:New_York ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.hotspotfx.com"^^xsd:anyURI ;
 	rdfs:label	"BATS HOTSPOT SEF LLC" ;
@@ -57,7 +57,7 @@ fibo-fbc-fct-mkti:Exchange-CITX_2022-07-25
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	dct:isReplacedBy	fibo-fbc-fct-mkti:Exchange-CITX ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CITI MATCH - JP" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:JP ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:JP ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Tokyo ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.citigroupglobalmarkets.co.jp"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-PKVU22HMQQ0KHUAQDH05-LEI ;
@@ -73,7 +73,7 @@ fibo-fbc-fct-mkti:Exchange-ELEU_2022-05-23
 	a	owl:NamedIndividual ;
 	dbo:formerName	"NASDAQ COMMODITIES - EUR POWER/ENERGY" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"NASDAQ COMMODITIES - EUR POWER/ENERGY" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:NO ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NO ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Oslo ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-NORX ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.nasdaqomx.com/commodities/"^^xsd:anyURI ;
@@ -87,7 +87,7 @@ fibo-fbc-fct-mkti:Exchange-ELNO_2022-05-23
 	a	owl:NamedIndividual ;
 	dbo:formerName	"NASDAQ COMMODITIES - NOK POWER/ENERGY" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"NASDAQ COMMODITIES - NOK POWER/ENERGY" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:NO ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NO ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Oslo ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-NORX ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.nasdaqomx.com/commodities/"^^xsd:anyURI ;
@@ -99,7 +99,7 @@ fibo-fbc-fct-mkti:Exchange-ELSE_2022-05-23
 	a	owl:NamedIndividual ;
 	dbo:formerName	"NASDAQ COMMODITIES - SEK POWER/ENERGY" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"NASDAQ COMMODITIES - SEK POWER/ENERGY" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:NO ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NO ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Oslo ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-NORX ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.nasdaqomx.com/commodities/"^^xsd:anyURI ;
@@ -113,7 +113,7 @@ fibo-fbc-fct-mkti:Exchange-FNXB_2022-04-25
 	dbo:formerName	"FENICS INVITATIONS, LLC" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"FNXB" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"FENICS INVITATIONS, LLC" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:US ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:New_York ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-BGCF ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.fenics.com"^^xsd:anyURI ;
@@ -127,7 +127,7 @@ fibo-fbc-fct-mkti:Exchange-FREX_2022-08-22
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	dbo:formerName	"FAIRX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"FAIRX" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:US ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Chicago ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.fairx.com"^^xsd:anyURI ;
 	rdfs:label	"FAIRX" ;
@@ -140,7 +140,7 @@ fibo-fbc-fct-mkti:Exchange-ILCM_2022-08-04
 	a	owl:NamedIndividual ;
 	dbo:formerName	"LOUIS CAPITAL MARKETS UK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"LOUIS CAPITAL MARKETS UK" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-IOTF_2022-08-22 ;
 	fibo-fnd-plc-vrt:hasWebsite	"https://regulatory.tpicap.com/"^^xsd:anyURI ;
@@ -155,7 +155,7 @@ fibo-fbc-fct-mkti:Exchange-IOCD_2022-08-04
 	a	owl:NamedIndividual ;
 	dbo:formerName	"ICAP SECURITIES OTF - CREDIT DERIVATIVES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ICAP SECURITIES OTF - CREDIT DERIVATIVES" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-IOTF_2022-08-22 ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.ticap.com"^^xsd:anyURI ;
@@ -172,7 +172,7 @@ fibo-fbc-fct-mkti:Exchange-IOED_2022-08-04
 	a	owl:NamedIndividual ;
 	dbo:formerName	"ICAP SECURITIES OTF - EQUITY DERIVATIVES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ICAP SECURITIES OTF - EQUITY DERIVATIVES" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-IOTF_2022-08-22 ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.ticap.com"^^xsd:anyURI ;
@@ -189,7 +189,7 @@ fibo-fbc-fct-mkti:Exchange-IOFI_2022-08-04
 	a	owl:NamedIndividual ;
 	dbo:formerName	"ICAP SECURITIES OTF - CORPORATE BONDS AND SECURITISED DEBT" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ICAP SECURITIES OTF - CORPORATE BONDS AND SECURITISED DEBT" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-IOTF_2022-08-22 ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.ticap.com"^^xsd:anyURI ;
@@ -206,7 +206,7 @@ fibo-fbc-fct-mkti:Exchange-IOFX_2022-08-04
 	a	owl:NamedIndividual ;
 	dbo:formerName	"ICAP SECURITIES OTF - FX DERIVATIVES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ICAP SECURITIES OTF - FX DERIVATIVES" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-IOTF ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.ticap.com"^^xsd:anyURI ;
@@ -223,7 +223,7 @@ fibo-fbc-fct-mkti:Exchange-IOGB_2022-08-04
 	a	owl:NamedIndividual ;
 	dbo:formerName	"ICAP SECURITIES OTF - GOVERNMENT BONDS EXCLUDING UK GILTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ICAP SECURITIES OTF - GOVERNMENT BONDS EXCLUDING UK GILTS" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-IOTF_2022-08-22 ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.ticap.com"^^xsd:anyURI ;
@@ -240,7 +240,7 @@ fibo-fbc-fct-mkti:Exchange-IOGI_2022-08-04
 	a	owl:NamedIndividual ;
 	dbo:formerName	"ICAP SECURITIES OTF - GOVERNMENT BONDS - UK GILTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ICAP SECURITIES OTF - GOVERNMENT BONDS - UK GILTS" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-IOTF_2022-08-22 ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.ticap.com"^^xsd:anyURI ;
@@ -257,7 +257,7 @@ fibo-fbc-fct-mkti:Exchange-IOIR_2022-08-04
 	a	owl:NamedIndividual ;
 	dbo:formerName	"ICAP SECURITIES OTF - INTEREST RATE DERIVATIVES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ICAP SECURITIES OTF - INTEREST RATE DERIVATIVES" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-IOTF_2022-08-22 ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.tpicap.com"^^xsd:anyURI ;
@@ -274,7 +274,7 @@ fibo-fbc-fct-mkti:Exchange-IOMM_2022-08-04
 	a	owl:NamedIndividual ;
 	dbo:formerName	"ICAP SECURITIES OTF - MONEY MARKET INSTRUMENTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ICAP SECURITIES OTF - MONEY MARKET INSTRUMENTS" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-IOTF_2022-08-22 ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.tpicap.com"^^xsd:anyURI ;
@@ -292,7 +292,7 @@ fibo-fbc-fct-mkti:Exchange-IOTF_2021-08-22
 	dbo:formerName	"ICAP SECURITIES - OTF" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"ISL OTF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"ICAP SECURITIES - OTF" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.icap.com"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-213800NMEZS3MD2IUP33-LEI ;
@@ -307,7 +307,7 @@ fibo-fbc-fct-mkti:Exchange-JLEU_2022-06-27
 	a	fibo-fbc-fct-mkt:SystematicInternaliser , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	dbo:formerName	"JUMP TRADING EUROPE - SYSTEMATIC INTERNALISER" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"JUMP TRADING EUROPE - SYSTEMATIC INTERNALISER" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:NL ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NL ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Amsterdam ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.jumptrading.com"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-549300HFXRW8BZRK3J17-LEI ;
@@ -323,7 +323,7 @@ fibo-fbc-fct-mkti:Exchange-JLQD_2022-06-27
 	dbo:formerName	"JUMP LIQUIDITY" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"JLQD" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"JUMP LIQUIDITY" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:US ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Chicago ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.jumpliquidity.com"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-PQLMYUFDGPG4H0E88R88-LEI ;
@@ -338,7 +338,7 @@ fibo-fbc-fct-mkti:Exchange-MATX_2022-06-27
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	dbo:formerName	"MATRIX EXCHANGE LIMITED" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MATRIX EXCHANGE LIMITED" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:AE ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Abu_Dhabi ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.matrix.co"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-984500E44XSBA6058488-LEI ;
@@ -351,7 +351,7 @@ fibo-fbc-fct-mkti:Exchange-TPSO_old
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	dbo:formerName	"TULLETT PREBON SECURITIES - OTF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON SECURITIES - OTF" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.tullettprebon.com"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-549300BMVW85YF9FGN67-LEI ;
@@ -363,7 +363,7 @@ fibo-fbc-fct-mkti:Exchange-TSCB_2022-05-23
 	a	owl:NamedIndividual ;
 	dbo:formerName	"TULLETT PREBON SECURITIES - OTF - CORPORATE BONDS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON SECURITIES - OTF - CORPORATE BONDS" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-TPSO ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.tullettprebon.com"^^xsd:anyURI ;
@@ -378,7 +378,7 @@ fibo-fbc-fct-mkti:Exchange-TSCD_2022-05-23
 	a	owl:NamedIndividual ;
 	dbo:formerName	"TULLETT PREBON SECURITIES - OTF - CREDIT DERIVATIVES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON SECURITIES - OTF - CREDIT DERIVATIVES" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-TPSO ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.tullettprebon.com"^^xsd:anyURI ;
@@ -393,7 +393,7 @@ fibo-fbc-fct-mkti:Exchange-TSED_2022-05-23
 	a	owl:NamedIndividual ;
 	dbo:formerName	"TULLETT PREBON SECURITIES - OTF - EQUITY DERIVATIVES" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON SECURITIES - OTF - EQUITY DERIVATIVES" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-TPSO ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.tullettprebon.com"^^xsd:anyURI ;
@@ -408,7 +408,7 @@ fibo-fbc-fct-mkti:Exchange-TSFI_2022-05-23
 	a	owl:NamedIndividual ;
 	dbo:formerName	"TULLETT PREBON SECURITIES - OTF - CORPORATE BONDS AND SECURITISED DEBT" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON SECURITIES - OTF - CORPORATE BONDS AND SECURITISED DEBT" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-TPSO ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.tullettprebon.com"^^xsd:anyURI ;
@@ -423,7 +423,7 @@ fibo-fbc-fct-mkti:Exchange-TSFX_2022-05-23
 	a	owl:NamedIndividual ;
 	dbo:formerName	"TP UK OTF - FX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP UK OTF - FX" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-TPSO ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.tpicap.com"^^xsd:anyURI ;
@@ -437,7 +437,7 @@ fibo-fbc-fct-mkti:Exchange-TSGB_2022-05-23
 	a	owl:NamedIndividual ;
 	dbo:formerName	"TULLETT PREBON SECURITIES - OTF - GOVERNMENT BONDS EXCLUDING UK GILTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON SECURITIES - OTF - GOVERNMENT BONDS EXCLUDING UK GILTS" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-TPSO ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.tullettprebon.com"^^xsd:anyURI ;
@@ -452,7 +452,7 @@ fibo-fbc-fct-mkti:Exchange-TSGI_2022-05-23
 	a	owl:NamedIndividual ;
 	dbo:formerName	"TULLETT PREBON SECURITIES - OTF - GOVERNMENT BONDS - UK GILTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON SECURITIES - OTF - GOVERNMENT BONDS - UK GILTS" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-TPSO ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.tullettprebon.com"^^xsd:anyURI ;
@@ -467,7 +467,7 @@ fibo-fbc-fct-mkti:Exchange-TSMM_2022-05-23
 	a	owl:NamedIndividual ;
 	dbo:formerName	"TULLETT PREBON SECURITIES - OTF - MONEY MARKET INSTRUMENTS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON SECURITIES - OTF - MONEY MARKET INSTRUMENTS" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-TPSO ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.tullettprebon.com"^^xsd:anyURI ;
@@ -482,7 +482,7 @@ fibo-fbc-fct-mkti:Exchange-TSRE_2022-05-23
 	a	owl:NamedIndividual ;
 	dbo:formerName	"TULLETT PREBON SECURITIES - OTF - REPOS" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TULLETT PREBON SECURITIES - OTF - REPOS" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-TPSO ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.tullettprebon.com"^^xsd:anyURI ;
@@ -497,7 +497,7 @@ fibo-fbc-fct-mkti:Exchange-WBDM_2022-04-25
 	a	owl:NamedIndividual ;
 	dbo:formerName	"WIENER BOERSE AG DRITTER MARKT (THIRD MARKET)" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"WIENER BOERSE AG DRITTER MARKT (THIRD MARKET)" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:AT ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AT ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Vienna ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XWBO ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.wienerboerse.at"^^xsd:anyURI ;
@@ -511,7 +511,7 @@ fibo-fbc-fct-mkti:Exchange-XSAT_2022-06-27
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	dbo:formerName	"SPOTLIGHT STOCK MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"SPOTLIGHT STOCK MARKET" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:SE ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:SE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Stockholm ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.spotlightstockmarket.com"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-54930035ZLP36ALFE803-LEI ;
@@ -526,7 +526,7 @@ fibo-fbc-fct-mkti:Exchange-XTUN_2022-06-27
 	dbo:formerName	"BOURSE DE TUNIS" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"BVMT" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"BOURSE DE TUNIS" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:TN ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:TN ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Tunis ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.bvmt.com.tn"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-4117W6IV0WI0EKWA2P81-LEI ;
@@ -540,7 +540,7 @@ fibo-fbc-fct-mkti:Exchange-XUBS_old
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	dbo:formerName	"UBS MTF LIMITED - DARK ORDER BOOK" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"UBS MTF LIMITED - DARK ORDER BOOK" ;
-	fibo-fbc-fct-mkt:operatesInCountry	cc:GB ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.ubs.com/mtf"^^xsd:anyURI ;
 	rdfs:label	"UBS MTF LIMITED - DARK ORDER BOOK" .

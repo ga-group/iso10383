@@ -1,4 +1,4 @@
-PREFIX cc: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/>
+PREFIX lcc-3166-1-adj: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/>
 PREFIX dbo: <https://dbpedia.org/ontology/>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX fibo-fbc-fct-bci: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/>
@@ -55,7 +55,7 @@ WHERE {
 	BIND(URI(CONCAT(STR(fibo-fbc-fct-mkti:),'Exchange-',?MIC)) AS ?exedge)
 	BIND(URI(CONCAT(STR(fibo-fbc-fct-mkti:),'MIC-',?MIC)) AS ?micedge)
 	BIND(IF(?MIC != ?OPERATING_MIC,URI(CONCAT(STR(fibo-fbc-fct-mkti:),'Exchange-',?OPERATING_MIC)),?null) AS ?sgop)
-	BIND(URI(CONCAT(STR(cc:), ?ISO_COUNTRY_CODE__ISO_3166_)) AS ?_iso)
+	BIND(URI(CONCAT(STR(lcc-3166-1-adj:), ?ISO_COUNTRY_CODE__ISO_3166_)) AS ?_iso)
 	BIND(URI(CONCAT(STR(fibo-fbc-fct-bci:), REPLACE(?CITY, " ", "_"))) AS ?_mun)
 	BIND(URI(CONCAT(STR(gleif:), 'L-', ?LEI, '-LEI')) AS ?_lei)
 
