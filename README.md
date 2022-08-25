@@ -55,3 +55,9 @@ For ease of access the latest versions of the datasets can be downloaded here:
 - [MarketsIndividuals.ttl](MarketsIndividuals.ttl)
 - [BusinessCentersIndividuals.ttl](BusinessCentersIndividuals.ttl)
 
+
+Tracking Historical Identifiers
+-------------------------------
+
+In this repository identifiers turn historical once the entity that's been assigned
+a MIC changes, i.e. causing the MIC to be reassigned to a new entity.

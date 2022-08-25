@@ -53,7 +53,7 @@ if (sys.nframe() == 0L) {
 	args <- commandArgs(trailingOnly=TRUE)
 	outf <- ""
 
-	x <- rbindlist(lapply(lapply(args, read_excel, na=c("n/a","N/A")), as.data.table), use.names=TRUE)
+	x <- rbindlist(lapply(lapply(args, read_excel, na=c("n/a","N/A")), as.data.table), use.names=TRUE, fill=TRUE)
 	x[, WEBSITE:=tolower(WEBSITE)]
 	x[!is.na(WEBSITE) & !grepl("^https?://", WEBSITE), WEBSITE:=paste0("http://",WEBSITE)]
 #	x[!is.na(WEBSITE) & !grepl("https?://.*/", WEBSITE), WEBSITE:=paste0(WEBSITE, "/")]
@@ -61,11 +61,11 @@ if (sys.nframe() == 0L) {
 	x[!is.na(CITY), CITY:=capwords(CITY)]
 	x[cities, on=c(CITY="iso"), CITY:=i.fibo]
 
-	dtify <- function(fld) set(x, j=fld, value=as.IDate(x[[fld]], format="%Y%m%d"))
-	dtify("CREATION-ISO DATE")
-	dtify("MODIF-ISO DATE")
-	dtify("LAST VALIDATION MONTH")
-	dtify("EXPIRY DATE")
-
+	if (hasName(x, "CREATION-ISO DATE")) {
+		x[grepl("^[0-9]{8}", `CREATION-ISO DATE`), `CREATION-ISO DATE`:=as.character(as.IDate(`CREATION-ISO DATE`, format="%Y%m%d"))]
+		x[grepl("^[0-9]{8}", `MODIF-ISO DATE`), `MODIF-ISO DATE`:=as.character(as.IDate(`MODIF-ISO DATE`, format="%Y%m%d"))]
+		x[grepl("^[0-9]{8}", `LAST VALIDATION MONTH`), `LAST VALIDATION MONTH`:=as.character(as.IDate(`LAST VALIDATION MONTH`, format="%Y%m%d"))]
+		x[grepl("^[0-9]{8}", `EXPIRY DATE`), `EXPIRY DATE`:=as.character(as.IDate(`EXPIRY DATE`, format="%Y%m%d"))]
+	}
 	fwrite(x, outf, na="", sep='\t', quote=FALSE)
 }
