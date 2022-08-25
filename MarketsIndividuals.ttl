@@ -11819,7 +11819,7 @@ fibo-fbc-fct-mkti:Exchange-HEMO
 fibo-fbc-fct-mkti:Exchange-HESP
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"HENEX ELECTRICITY SPOT MARKET" ;
+	dbo:formerName	"HENEX ELECTRICITY SPOT MARKET" , "HENEX ENERGY SPOT MARKET" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"HENEX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"HENEX ELECTRICITY SPOT MARKET" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GR ;
