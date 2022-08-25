@@ -34,6 +34,7 @@ fibo-fbc-fct-mkt:MarketSegmentLevelMarket-shape a sh:NodeShape ;
 	sh:property fibo-fnd-arr-arr:isConstituentOf-property ;
 	sh:property fibo-fbc-fct-mkt:operatesInCountry-property ;
 	sh:property fibo-fbc-fct-mkt:operatesInMunicipality-property ;
+	sh:property lcc-lr:isIdentifiedBy-property ;
 	sh:property tempo:validFrom-property ;
 	sh:property tempo:validTill-property ;
 	sh:sparql tempo:validFrom-validTill-cons ;
@@ -47,6 +48,7 @@ fibo-fbc-fct-mkt:OperatingLevelMarket-shape a sh:NodeShape ;
 	sh:property fibo-fnd-plc-vrt:hasWebsite-property ;
 	sh:property fibo-fbc-fct-mkt:operatesInCountry-property ;
 	sh:property fibo-fbc-fct-mkt:operatesInMunicipality-property ;
+	sh:property lcc-lr:isIdentifiedBy-property ;
 	sh:property tempo:validFrom-property ;
 	sh:property tempo:validTill-property ;
 	sh:sparql tempo:validFrom-validTill-cons ;
@@ -140,6 +142,12 @@ lcc-lr:identifies-MSL-property a sh:PropertyShape ;
 	sh:minCount 1 ;
 	sh:maxCount 1 ;
 	sh:class fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
+	.
+
+lcc-lr:isIdentifiedBy-property a sh:PropertyShape ;
+	sh:path lcc-lr:isIdentifiedBy ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
 	.
 
 tempo:validFrom-validTill-cons
