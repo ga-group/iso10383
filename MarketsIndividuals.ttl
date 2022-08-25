@@ -239,7 +239,7 @@ fibo-fbc-fct-mkti:Exchange-ABUL
 fibo-fbc-fct-mkti:Exchange-ABXX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"YOSHI MARKETS LIMITED" ;
+	dbo:formerName	"ARABIAN BOURSE LIMITED" , "YOSHI MARKETS LIMITED" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"YOSHI" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"YOSHI MARKETS LIMITED" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AE ;
@@ -10098,7 +10098,7 @@ fibo-fbc-fct-mkti:Exchange-FNUK
 fibo-fbc-fct-mkti:Exchange-FNXB
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"FENICS INVITATIONS" ;
+	dbo:formerName	"FENICS INVITATIONS" , "FENICS INVITATIONS, LLC" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"FNXB" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"FENICS INVITATIONS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -10249,7 +10249,7 @@ fibo-fbc-fct-mkti:Exchange-FREI
 fibo-fbc-fct-mkti:Exchange-FREX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"COINBASE DERIVATIVES" ;
+	dbo:formerName	"COINBASE DERIVATIVES" , "FAIRX" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CDE" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"COINBASE DERIVATIVES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -16167,7 +16167,7 @@ fibo-fbc-fct-mkti:Exchange-MATN
 fibo-fbc-fct-mkti:Exchange-MATX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"MATRIX LIMITED" ;
+	dbo:formerName	"MATRIX EXCHANGE LIMITED" , "MATRIX LIMITED" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MATRIX LIMITED" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Abu_Dhabi ;
@@ -16479,7 +16479,7 @@ fibo-fbc-fct-mkti:Exchange-MEMM
 fibo-fbc-fct-mkti:Exchange-MEMX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"MEMX LLC EQUITIES" ;
+	dbo:formerName	"MEMX LLC EQUITIES" , "MEMX LLC" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"MEMX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"MEMX LLC EQUITIES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
@@ -17136,7 +17136,7 @@ fibo-fbc-fct-mkti:Exchange-MNIS
 fibo-fbc-fct-mkti:Exchange-MNSE
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"FIRST NORTH SWEDEN - AUCTION ON DEMAND" ;
+	dbo:formerName	"FIRST NORTH SWEDEN - AUCTION ON DEMAND" , "FIRST NORTH SWEDEN ��� AUCTION ON DEMAND" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"FIRST NORTH SWEDEN - AUCTION ON DEMAND" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:SE ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Stockholm ;
@@ -25173,7 +25173,7 @@ fibo-fbc-fct-mkti:Exchange-TSFI_2022-05-23
 fibo-fbc-fct-mkti:Exchange-TSFX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"TP UK OTF - FX DERIVATIVES" ;
+	dbo:formerName	"TP UK OTF - FX DERIVATIVES" , "TP UK OTF - FX" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"TP UK OTF - FX DERIVATIVES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
@@ -34767,7 +34767,7 @@ fibo-fbc-fct-mkti:Exchange-XUAX
 fibo-fbc-fct-mkti:Exchange-XUBS
 	a	fibo-fbc-fct-mkt:DarkPool ;
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket , fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"AQUIS EXCHANGE PLC - AMP - DARK ORDER BOOK" , "UBS MTF" ;
+	dbo:formerName	"AQUIS EXCHANGE PLC - AMP - DARK ORDER BOOK" , "UBS MTF LIMITED - DARK ORDER BOOK" , "UBS MTF" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"AQUIS EXCHANGE PLC - AMP - DARK ORDER BOOK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
