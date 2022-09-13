@@ -29,7 +29,7 @@
 This set of markets and MIC codes is current with respect to the published ISO 10383 data as of the dct:modified date."""@en ;
 	dct:issued	"2022-05-31T02:25:19Z"^^xsd:dateTime ;
 	dct:license	"http://opensource.org/licenses/MIT"^^xsd:anyURI ;
-	dct:modified	"2022-08-13T06:51:08Z"^^xsd:dateTime ;
+	dct:modified	"2022-09-13T13:20:08Z"^^xsd:dateTime ;
 	dct:source	"https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.xml"^^xsd:anyURI ;
 	fibo-fnd-utl-av:hasMaturityLevel	fibo-fnd-utl-av:Release ;
 	owl:imports	<https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/> , <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/> , <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/> , <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Places/VirtualPlaces/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> , <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> , <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> ;
@@ -246,7 +246,7 @@ fibo-fbc-fct-mkti:Exchange-ABXX
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Abu_Dhabi ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.yoshimarkets.io"^^xsd:anyURI , "https://arabianbourse.com"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-984500DT1B79C9A7B343-LEI ;
-	rdfs:label	"ARABIAN BOURSE LIMITED" ;
+	rdfs:label	"YOSHI MARKETS LIMITED" ;
 	tempo:validFrom	"2021-03-22"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-ACEX
@@ -819,6 +819,103 @@ fibo-fbc-fct-mkti:Exchange-AQEU
 	rdfs:label	"AQUIS EXCHANGE EUROPE" ;
 	skos:closeMatch	wd:Q93362972 ;
 	tempo:validFrom	"2019-02-25"^^xsd:date .
+
+fibo-fbc-fct-mkti:Exchange-AQSD
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
+	a	owl:NamedIndividual ;
+	dbo:formerName	"AQSE MAIN MARKET (NON-EQUITY)" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"AQSE" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"AQSE MAIN MARKET (NON-EQUITY)" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
+	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-AQSE ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.aquis.eu"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-213800AMGNBSOCOSDN11-LEI ;
+	rdfs:label	"AQSE MAIN MARKET (NON-EQUITY)" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
+
+fibo-fbc-fct-mkti:Exchange-AQSE
+	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
+	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
+	dbo:formerName	"AQUIS STOCK EXCHANGE" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"AQSE" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"AQUIS STOCK EXCHANGE" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.aquis.eu"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-213800AMGNBSOCOSDN11-LEI ;
+	rdfs:label	"AQUIS STOCK EXCHANGE" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
+
+fibo-fbc-fct-mkti:Exchange-AQSF
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
+	a	owl:NamedIndividual ;
+	dbo:formerName	"AQSE GROWTH MARKET (NON-EQUITY)" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"AQSE" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"AQSE GROWTH MARKET (NON-EQUITY)" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
+	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-AQSE ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.aquis.eu"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-213800AMGNBSOCOSDN11-LEI ;
+	rdfs:label	"AQSE GROWTH MARKET (NON-EQUITY)" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
+
+fibo-fbc-fct-mkti:Exchange-AQSG
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
+	a	owl:NamedIndividual ;
+	dbo:formerName	"AQSE GROWTH MARKET (EQUITY)" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"AQSE" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"AQSE GROWTH MARKET (EQUITY)" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
+	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-AQSE ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.aquis.eu"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-213800AMGNBSOCOSDN11-LEI ;
+	rdfs:label	"AQSE GROWTH MARKET (EQUITY)" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
+
+fibo-fbc-fct-mkti:Exchange-AQSL
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
+	a	owl:NamedIndividual ;
+	dbo:formerName	"AQSE MAIN MARKET (EQUITY)" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"AQSE" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"AQSE MAIN MARKET (EQUITY)" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
+	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-AQSE ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.aquis.eu"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-213800AMGNBSOCOSDN11-LEI ;
+	rdfs:label	"AQSE MAIN MARKET (EQUITY)" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
+
+fibo-fbc-fct-mkti:Exchange-AQSN
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
+	a	owl:NamedIndividual ;
+	dbo:formerName	"AQSE TRADING (NON-EQUITY)" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"AQSE" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"AQSE TRADING (NON-EQUITY)" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
+	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-AQSE ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.aquis.eu"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-213800AMGNBSOCOSDN11-LEI ;
+	rdfs:label	"AQSE TRADING (NON-EQUITY)" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
+
+fibo-fbc-fct-mkti:Exchange-AQST
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
+	a	owl:NamedIndividual ;
+	dbo:formerName	"AQSE TRADING (EQUITY)" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"AQSE" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"AQSE TRADING (EQUITY)" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
+	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-AQSE ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.aquis.eu"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-213800AMGNBSOCOSDN11-LEI ;
+	rdfs:label	"AQSE TRADING (EQUITY)" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-AQUA
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
@@ -2381,7 +2478,7 @@ fibo-fbc-fct-mkti:Exchange-BEUP
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NL ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Amsterdam ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CCXE ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://markets.cboe.com/europe/equities/about/"^^xsd:anyURI ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://markets.cboe.com/europe/equities/about/"^^xsd:anyURI , "http://www.cboe.com/europe/equities/"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-2549007JY1TP7I1IMY80-LEI ;
 	rdfs:label	"CBOE EUROPE - DXE PERIODIC (NL)" ;
 	skos:closeMatch	wd:Q107190286 ;
@@ -2998,13 +3095,14 @@ fibo-fbc-fct-mkti:Exchange-BLNK
 fibo-fbc-fct-mkti:Exchange-BLOX
 	a	fibo-fbc-fct-mkt:DarkPool ;
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
-	dbo:formerName	"BLOCKMATCH DARK" , "BLOCKMATCH MTF DARK" , "BLOCKMATCH" ;
-	fibo-fbc-fct-mkt:hasExchangeName	"BLOCKMATCH DARK" ;
+	dbo:formerName	"BLOCKMATCH DARK" , "BLOCKMATCH MTF DARK" , "BLOCKMATCH UK DARK" , "BLOCKMATCH" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"BLOCKMATCH UK DARK" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XIEL ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.instinet.com"^^xsd:anyURI ;
-	rdfs:label	"BLOCKMATCH DARK" ;
+	lcc-lr:isIdentifiedBy	gleif:L-213800MXAKR2LA1VBM44-LEI ;
+	rdfs:label	"BLOCKMATCH UK DARK" ;
 	skos:closeMatch	wd:Q107188461 ;
 	skos:note	"PRICE REFERENCE WAIVER SYSTEM." ;
 	tempo:validFrom	"2017-11-27"^^xsd:date .
@@ -3430,13 +3528,14 @@ fibo-fbc-fct-mkti:Exchange-BNSX
 fibo-fbc-fct-mkti:Exchange-BNTW
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"BLOCKMATCH MTF NT" ;
-	fibo-fbc-fct-mkt:hasExchangeName	"BLOCKMATCH MTF NT" ;
+	dbo:formerName	"BLOCKMATCH MTF NT" , "BLOCKMATCH UK NT" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"BLOCKMATCH UK NT" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XIEL ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.instinet.com"^^xsd:anyURI ;
-	rdfs:label	"BLOCKMATCH MTF NT" ;
+	lcc-lr:isIdentifiedBy	gleif:L-213800MXAKR2LA1VBM44-LEI ;
+	rdfs:label	"BLOCKMATCH UK NT" ;
 	skos:closeMatch	wd:Q107189178 ;
 	skos:note	"NEGOTIATED TRADE WAIVER SYSTEM." ;
 	tempo:validFrom	"2017-11-27"^^xsd:date .
@@ -3775,13 +3874,14 @@ fibo-fbc-fct-mkti:Exchange-BRED
 fibo-fbc-fct-mkti:Exchange-BRFQ
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	fibo-fbc-fct-mkt:QuoteDrivenMarket , owl:NamedIndividual ;
-	dbo:formerName	"BLOCKMATCH MTF RFQ" ;
-	fibo-fbc-fct-mkt:hasExchangeName	"BLOCKMATCH MTF RFQ" ;
+	dbo:formerName	"BLOCKMATCH MTF RFQ" , "BLOCKMATCH UK RFQ" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"BLOCKMATCH UK RFQ" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XIEL ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.instinet.com"^^xsd:anyURI ;
-	rdfs:label	"BLOCKMATCH MTF RFQ" ;
+	lcc-lr:isIdentifiedBy	gleif:L-213800MXAKR2LA1VBM44-LEI ;
+	rdfs:label	"BLOCKMATCH UK RFQ" ;
 	skos:closeMatch	wd:Q107189175 ;
 	skos:note	"REQUEST FOR QUOTE SYSTEM." ;
 	tempo:validFrom	"2017-11-27"^^xsd:date .
@@ -4352,7 +4452,7 @@ fibo-fbc-fct-mkti:Exchange-CAPA
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NL ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Amsterdam ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CCXE ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://markets.cboe.com/europe/equities/about/"^^xsd:anyURI ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://markets.cboe.com/europe/equities/about/"^^xsd:anyURI , "http://www.cboe.com/europe/equities/"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-2549007JY1TP7I1IMY80-LEI ;
 	rdfs:label	"CBOE EUROPE - APA (NL)" ;
 	skos:closeMatch	wd:Q107228058 ;
@@ -4454,6 +4554,18 @@ fibo-fbc-fct-mkti:Exchange-CAZE
 	rdfs:label	"THE CAZENOVE MTF" ;
 	tempo:validFrom	"2007-11-26"^^xsd:date ;
 	tempo:validTill	"2017-01-23"^^xsd:date .
+
+fibo-fbc-fct-mkti:Exchange-CBAE
+	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
+	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
+	dbo:formerName	"COMMONWEALTH BANK OF AUSTRALIA (EUROPE) N.V. - SYSTEMATIC INTERNALISER" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"COMMONWEALTH BANK OF AUSTRALIA (EUROPE) N.V. - SYSTEMATIC INTERNALISER" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NL ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Amsterdam ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.commbank.com.au"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-724500AAT1DK36059L16-LEI ;
+	rdfs:label	"COMMONWEALTH BANK OF AUSTRALIA (EUROPE) N.V. - SYSTEMATIC INTERNALISER" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CBAL
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
@@ -4798,7 +4910,7 @@ fibo-fbc-fct-mkti:Exchange-CCXE
 	fibo-fbc-fct-mkt:hasExchangeName	"CBOE EUROPE EQUITIES - EUROPEAN EQUITIES (NL)" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NL ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Amsterdam ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://markets.cboe.com/europe/equities/about/"^^xsd:anyURI ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://markets.cboe.com/europe/equities/about/"^^xsd:anyURI , "http://www.cboe.com/europe/equities/"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-2549007JY1TP7I1IMY80-LEI ;
 	rdfs:label	"CBOE EUROPE EQUITIES - EUROPEAN EQUITIES (NL)" ;
 	skos:closeMatch	wd:Q93360871 ;
@@ -5000,7 +5112,7 @@ fibo-fbc-fct-mkti:Exchange-CEUD
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NL ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Amsterdam ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CCXE ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://markets.cboe.com/europe/equities/about/"^^xsd:anyURI ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://markets.cboe.com/europe/equities/about/"^^xsd:anyURI , "http://www.cboe.com/europe/equities/"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-2549007JY1TP7I1IMY80-LEI ;
 	rdfs:label	"CBOE EUROPE - DXE DARK ORDER BOOK (NL)" ;
 	skos:closeMatch	wd:Q107190284 ;
@@ -5032,7 +5144,7 @@ fibo-fbc-fct-mkti:Exchange-CEUO
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NL ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Amsterdam ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CCXE ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://markets.cboe.com/europe/equities/about/"^^xsd:anyURI ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://markets.cboe.com/europe/equities/about/"^^xsd:anyURI , "http://www.cboe.com/europe/equities/"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-2549007JY1TP7I1IMY80-LEI ;
 	rdfs:label	"CBOE EUROPE - DXE OFF-BOOK (NL)" ;
 	skos:closeMatch	wd:Q107223112 ;
@@ -5048,7 +5160,7 @@ fibo-fbc-fct-mkti:Exchange-CEUX
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NL ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Amsterdam ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CCXE ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://markets.cboe.com/europe/equities/about/"^^xsd:anyURI ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://markets.cboe.com/europe/equities/about/"^^xsd:anyURI , "http://www.cboe.com/europe/equities/"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-2549007JY1TP7I1IMY80-LEI ;
 	rdfs:label	"CBOE EUROPE - DXE ORDER BOOKS (NL)" ;
 	skos:closeMatch	wd:Q107223048 ;
@@ -5857,7 +5969,7 @@ fibo-fbc-fct-mkti:Exchange-CITX
 	rdfs:label	"CITI MATCH - JP" ;
 	skos:closeMatch	wd:Q93355399 ;
 	skos:note	"CITI DARKPOOL (JAPAN)." ;
-	tempo:validFrom	"2017-10-23"^^xsd:date .
+	tempo:validFrom	"2009-07-27"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CLAU
 	a	fibo-fbc-fct-mkt:DarkPool ;
@@ -6030,10 +6142,12 @@ fibo-fbc-fct-mkti:Exchange-CMEC
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CMEE ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.cmeclearingeurope.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-6SI7IOVECKBHVYBTB459-LEI ;
 	rdfs:label	"CME CLEARING EUROPE" ;
 	skos:closeMatch	wd:Q107190245 ;
 	skos:note	"EUROPEAN CLEARING HOUSE" ;
-	tempo:validFrom	"2014-02-24"^^xsd:date .
+	tempo:validFrom	"2011-12-26"^^xsd:date ;
+	tempo:validTill	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CMED
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -6045,6 +6159,7 @@ fibo-fbc-fct-mkti:Exchange-CMED
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CMEE ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.cmeeurope.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-6SI7IOVECKBHVYBTB459-LEI ;
 	rdfs:label	"CME EUROPE - DERIVATIVES" ;
 	skos:note	"CME EUROPE TRADING PLATFORM" ;
 	tempo:validFrom	"2013-01-28"^^xsd:date ;
@@ -6059,9 +6174,11 @@ fibo-fbc-fct-mkti:Exchange-CMEE
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.cmegroup.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-6SI7IOVECKBHVYBTB459-LEI ;
 	rdfs:label	"CME EUROPE" ;
 	skos:closeMatch	wd:Q1023876 ;
-	tempo:validFrom	"2013-01-28"^^xsd:date .
+	tempo:validFrom	"2013-01-28"^^xsd:date ;
+	tempo:validTill	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CMES
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -8328,7 +8445,7 @@ fibo-fbc-fct-mkti:Exchange-ELEU
 	lcc-lr:isIdentifiedBy	gleif:L-5493003IZZWOHHJY1L88-LEI ;
 	rdfs:label	"NASDAQ OSLO ASA - EUROPEAN POWER AND GAS DERIVATIVES" ;
 	skos:closeMatch	wd:Q107223080 ;
-	tempo:efficaciousTill	"2022-05-23"^^xsd:date .
+	tempo:validFrom	"2017-04-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-ELIX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -8356,7 +8473,7 @@ fibo-fbc-fct-mkti:Exchange-ELNO
 	lcc-lr:isIdentifiedBy	gleif:L-5493003IZZWOHHJY1L88-LEI ;
 	rdfs:label	"NASDAQ OSLO ASA - NORDIC POWER DERIVATIVES AND EUROPEAN UNION ALLOWANCES" ;
 	skos:closeMatch	wd:Q107223083 ;
-	tempo:validFrom	"2022-05-23"^^xsd:date .
+	tempo:validFrom	"2017-04-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-ELSE
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -8369,7 +8486,8 @@ fibo-fbc-fct-mkti:Exchange-ELSE
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.nasdaq.com/solutions/european-commodities"^^xsd:anyURI , "http://www.nasdaqomx.com/commodities/"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-5493003IZZWOHHJY1L88-LEI ;
 	rdfs:label	"NASDAQ OSLO ASA - SWEDISH ELECTRICITY CERTIFICATE" ;
-	skos:closeMatch	wd:Q107223081 .
+	skos:closeMatch	wd:Q107223081 ;
+	tempo:validFrom	"2017-04-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-ELUK
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -13847,6 +13965,7 @@ fibo-fbc-fct-mkti:Exchange-IOTC
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XIEL ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.instinet.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-213800MXAKR2LA1VBM44-LEI ;
 	rdfs:label	"INSTINET EUROPE LIMITED OTC" ;
 	skos:closeMatch	wd:Q107189177 ;
 	tempo:validFrom	"2017-11-27"^^xsd:date .
@@ -14094,7 +14213,7 @@ fibo-fbc-fct-mkti:Exchange-ISWE
 	lcc-lr:isIdentifiedBy	gleif:L-213800C2MCT5QBE5VW36-LEI ;
 	rdfs:label	"ICAP GLOBAL DERIVATIVES LIMITED - ELECTRONIC" ;
 	skos:closeMatch	wd:Q107190283 ;
-	skos:note	"MTF/SEF FOR THE TRADING OF INTEREST RATE DERIVATIVES - CLOB." ;
+	skos:note	"MTF/SEF FOR THE TRADING OF INTEREST RATE DERIVATIVES – CLOB." ;
 	tempo:validFrom	"2018-02-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-ISWN
@@ -14182,7 +14301,7 @@ fibo-fbc-fct-mkti:Exchange-ISWV
 	lcc-lr:isIdentifiedBy	gleif:L-213800C2MCT5QBE5VW36-LEI ;
 	rdfs:label	"ICAP GLOBAL DERIVATIVES LIMITED - VOICE" ;
 	skos:closeMatch	wd:Q107190281 ;
-	skos:note	"MTF/SEF FOR THE TRADING OF INTEREST RATE DERIVATIVES - VOICE / RFQ." ;
+	skos:note	"MTF/SEF FOR THE TRADING OF INTEREST RATE DERIVATIVES – VOICE / RFQ." ;
 	tempo:validFrom	"2018-02-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-ITGI
@@ -14427,7 +14546,7 @@ fibo-fbc-fct-mkti:Exchange-JLEU
 	lcc-lr:isIdentifiedBy	gleif:L-549300HFXRW8BZRK3J17-LEI ;
 	rdfs:label	"JUMP LIQUIDITY EU EQUITY PLATFORM" ;
 	skos:closeMatch	wd:Q93358355 ;
-	skos:note	"SYSTEMATIC INTERNALISER FOR EU EQUITIES OPERATED BY JUMP TRADING EUROPE B.V." , "SYSTEMATIC INTERNALISER FOR EU EQUITIES." ;
+	skos:note	"SYSTEMATIC INTERNALISER FOR EU EQUITIES OPERATED BY JUMP TRADING EUROPE B.V." ;
 	tempo:validFrom	"2019-02-25"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-JLQD
@@ -14721,14 +14840,14 @@ fibo-fbc-fct-mkti:Exchange-KBCB
 fibo-fbc-fct-mkti:Exchange-KBLC
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"KBL EURO COMMERCIAL PAPERS" ;
-	fibo-fbc-fct-mkt:hasExchangeName	"KBL EURO COMMERCIAL PAPERS" ;
+	dbo:formerName	"KBL EURO COMMERCIAL PAPERS" , "QUINTET PRIVATE BANK (EUROPE) S.A. - EURO COMMERCIAL PAPERS" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"QUINTET PRIVATE BANK (EUROPE) S.A. - EURO COMMERCIAL PAPERS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:LU ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Luxembourg ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-KBLL ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://www.kbl.lu"^^xsd:anyURI ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.kbl.lu"^^xsd:anyURI , "http://www.quintet.com"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-KHCL65TP05J1HUW2D560-LEI ;
-	rdfs:label	"KBL EURO COMMERCIAL PAPERS" ;
+	rdfs:label	"QUINTET PRIVATE BANK (EUROPE) S.A. - EURO COMMERCIAL PAPERS" ;
 	skos:closeMatch	wd:Q107188661 ;
 	tempo:validFrom	"2018-12-24"^^xsd:date .
 
@@ -14762,28 +14881,28 @@ fibo-fbc-fct-mkti:Exchange-KBLM
 fibo-fbc-fct-mkti:Exchange-KBLS
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"KBL STRUCTURED PRODUCTS" ;
-	fibo-fbc-fct-mkt:hasExchangeName	"KBL STRUCTURED PRODUCTS" ;
+	dbo:formerName	"KBL STRUCTURED PRODUCTS" , "QUINTET PRIVATE BANK (EUROPE) S.A. - STRUCTURED PRODUCTS" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"QUINTET PRIVATE BANK (EUROPE) S.A. - STRUCTURED PRODUCTS" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:LU ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Luxembourg ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-KBLL ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://www.kbl.lu"^^xsd:anyURI ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.kbl.lu"^^xsd:anyURI , "http://www.quintet.com"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-KHCL65TP05J1HUW2D560-LEI ;
-	rdfs:label	"KBL STRUCTURED PRODUCTS" ;
+	rdfs:label	"QUINTET PRIVATE BANK (EUROPE) S.A. - STRUCTURED PRODUCTS" ;
 	skos:closeMatch	wd:Q107188660 ;
 	tempo:validFrom	"2018-12-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-KBLT
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"KBL FX TREASURY DERIVATIVES" ;
-	fibo-fbc-fct-mkt:hasExchangeName	"KBL FX TREASURY DERIVATIVES" ;
+	dbo:formerName	"KBL FX TREASURY DERIVATIVES" , "QUINTET PRIVATE BANK (EUROPE) S.A. - FX TREASURY DERIVATIVES" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"QUINTET PRIVATE BANK (EUROPE) S.A. - FX TREASURY DERIVATIVES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:LU ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Luxembourg ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-KBLL ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://www.kbl.lu"^^xsd:anyURI ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.kbl.lu"^^xsd:anyURI , "http://www.quintet.com"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-KHCL65TP05J1HUW2D560-LEI ;
-	rdfs:label	"KBL FX TREASURY DERIVATIVES" ;
+	rdfs:label	"QUINTET PRIVATE BANK (EUROPE) S.A. - FX TREASURY DERIVATIVES" ;
 	skos:closeMatch	wd:Q107188659 ;
 	tempo:validFrom	"2018-12-24"^^xsd:date .
 
@@ -15422,7 +15541,7 @@ fibo-fbc-fct-mkti:Exchange-LISZ
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:NL ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Amsterdam ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CCXE ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://markets.cboe.com/europe/equities/about/"^^xsd:anyURI ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://markets.cboe.com/europe/equities/about/"^^xsd:anyURI , "http://www.cboe.com/europe/equities/"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-2549007JY1TP7I1IMY80-LEI ;
 	rdfs:label	"CBOE EUROPE - LIS SERVICE (NL)" ;
 	skos:closeMatch	wd:Q107227932 ;
@@ -16190,9 +16309,11 @@ fibo-fbc-fct-mkti:Exchange-MCUR
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.currenex.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-549300SQM0MRIF4HE647-LEI ;
 	rdfs:label	"CURRENEX MTF" ;
 	skos:closeMatch	wd:Q93356833 ;
-	tempo:validFrom	"2017-05-22"^^xsd:date .
+	tempo:validFrom	"2017-05-22"^^xsd:date ;
+	tempo:validTill	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-MCXR
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -16203,9 +16324,11 @@ fibo-fbc-fct-mkti:Exchange-MCXR
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-MCUR ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.currenex.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-549300SQM0MRIF4HE647-LEI ;
 	rdfs:label	"CURRENEX MTF - RFQ" ;
 	skos:closeMatch	wd:Q107227725 ;
-	tempo:validFrom	"2017-05-22"^^xsd:date .
+	tempo:validFrom	"2017-05-22"^^xsd:date ;
+	tempo:validTill	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-MCXS
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -16216,9 +16339,11 @@ fibo-fbc-fct-mkti:Exchange-MCXS
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-MCUR ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.currenex.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-549300SQM0MRIF4HE647-LEI ;
 	rdfs:label	"CURRENEX MTF - STREAMING" ;
 	skos:closeMatch	wd:Q107223131 ;
-	tempo:validFrom	"2017-05-22"^^xsd:date .
+	tempo:validFrom	"2017-05-22"^^xsd:date ;
+	tempo:validTill	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-MCXX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
@@ -18320,7 +18445,8 @@ fibo-fbc-fct-mkti:Exchange-NEXD
 	lcc-lr:isIdentifiedBy	gleif:L-213800AMGNBSOCOSDN11-LEI ;
 	rdfs:label	"AQSE MAIN MARKET (NON-EQUITY)" ;
 	skos:closeMatch	wd:Q107223132 ;
-	tempo:validFrom	"2022-05-23"^^xsd:date .
+	tempo:validFrom	"2017-06-26"^^xsd:date ;
+	tempo:validTill	"2022-09-30"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-NEXF
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -18334,7 +18460,8 @@ fibo-fbc-fct-mkti:Exchange-NEXF
 	lcc-lr:isIdentifiedBy	gleif:L-213800AMGNBSOCOSDN11-LEI ;
 	rdfs:label	"AQSE GROWTH MARKET (NON-EQUITY)" ;
 	skos:closeMatch	wd:Q107189159 ;
-	tempo:validFrom	"2022-05-23"^^xsd:date .
+	tempo:validFrom	"2017-06-26"^^xsd:date ;
+	tempo:validTill	"2022-09-30"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-NEXG
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -18348,7 +18475,8 @@ fibo-fbc-fct-mkti:Exchange-NEXG
 	lcc-lr:isIdentifiedBy	gleif:L-213800AMGNBSOCOSDN11-LEI ;
 	rdfs:label	"AQSE GROWTH MARKET (EQUITY)" ;
 	skos:closeMatch	wd:Q107188723 ;
-	tempo:validFrom	"2022-05-23"^^xsd:date .
+	tempo:validFrom	"2017-06-26"^^xsd:date ;
+	tempo:validTill	"2022-09-30"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-NEXL
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -18362,7 +18490,8 @@ fibo-fbc-fct-mkti:Exchange-NEXL
 	lcc-lr:isIdentifiedBy	gleif:L-213800AMGNBSOCOSDN11-LEI ;
 	rdfs:label	"AQSE MAIN MARKET (EQUITY)" ;
 	skos:closeMatch	wd:Q107223133 ;
-	tempo:validFrom	"2022-05-23"^^xsd:date .
+	tempo:validFrom	"2017-06-26"^^xsd:date ;
+	tempo:validTill	"2022-09-30"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-NEXN
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -18376,7 +18505,8 @@ fibo-fbc-fct-mkti:Exchange-NEXN
 	lcc-lr:isIdentifiedBy	gleif:L-213800AMGNBSOCOSDN11-LEI ;
 	rdfs:label	"AQSE TRADING (NON-EQUITY)" ;
 	skos:closeMatch	wd:Q107188869 ;
-	tempo:validFrom	"2022-05-23"^^xsd:date .
+	tempo:validFrom	"2017-06-26"^^xsd:date ;
+	tempo:validTill	"2022-09-30"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-NEXO
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
@@ -18419,7 +18549,8 @@ fibo-fbc-fct-mkti:Exchange-NEXT
 	lcc-lr:isIdentifiedBy	gleif:L-213800AMGNBSOCOSDN11-LEI ;
 	rdfs:label	"AQSE TRADING (EQUITY)" ;
 	skos:closeMatch	wd:Q107188868 ;
-	tempo:validFrom	"2022-05-23"^^xsd:date .
+	tempo:validFrom	"2017-06-26"^^xsd:date ;
+	tempo:validTill	"2022-09-30"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-NEXX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
@@ -18432,7 +18563,8 @@ fibo-fbc-fct-mkti:Exchange-NEXX
 	lcc-lr:isIdentifiedBy	gleif:L-213800AMGNBSOCOSDN11-LEI ;
 	rdfs:label	"AQUIS STOCK EXCHANGE" ;
 	skos:closeMatch	wd:Q4491711 ;
-	tempo:validFrom	"2022-05-23"^^xsd:date .
+	tempo:validFrom	"2017-06-26"^^xsd:date ;
+	tempo:validTill	"2022-09-30"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-NEXY
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -20184,7 +20316,8 @@ fibo-fbc-fct-mkti:Exchange-PNED
 	lcc-lr:isIdentifiedBy	gleif:L-549300KBQIVNEJEZVL96-LEI ;
 	rdfs:label	"NASDAQ STOCKHOLM AB - PAN-NORDIC EQ DERIVATIVES" ;
 	skos:closeMatch	wd:Q107228043 ;
-	tempo:validFrom	"2017-04-24"^^xsd:date .
+	tempo:validFrom	"2017-04-24"^^xsd:date ;
+	tempo:validTill	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-POEE
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -24322,7 +24455,8 @@ fibo-fbc-fct-mkti:Exchange-TPSO
 	lcc-lr:isIdentifiedBy	gleif:L-549300BMVW85YF9FGN67-LEI ;
 	rdfs:label	"TP UK OTF" ;
 	skos:closeMatch	wd:Q93358772 ;
-	skos:note	"ORGANISED TRADING FACILITY." .
+	skos:note	"ORGANISED TRADING FACILITY." ;
+	tempo:validFrom	"2022-05-23"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-TPSP
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -24500,6 +24634,19 @@ fibo-fbc-fct-mkti:Exchange-TRCX
 	rdfs:label	"TOWER RESEARCH CAPITAL TRCX" ;
 	skos:closeMatch	wd:Q7829724 ;
 	tempo:validFrom	"2019-06-24"^^xsd:date .
+
+fibo-fbc-fct-mkti:Exchange-TRDC
+	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
+	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
+	dbo:formerName	"TFS CURRENCIES PTE LTD" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"TFSC" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"TFS CURRENCIES PTE LTD" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:SG ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Singapore ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.traditionasia.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-549300VX0P4NG30WZU37-LEI ;
+	rdfs:label	"TFS CURRENCIES PTE LTD" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-TRDE
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
@@ -25809,6 +25956,18 @@ fibo-fbc-fct-mkti:Exchange-URCE
 	tempo:validFrom	"2003-04-01"^^xsd:date ;
 	tempo:validTill	"2010-06-28"^^xsd:date .
 
+fibo-fbc-fct-mkti:Exchange-USEF
+	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
+	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
+	dbo:formerName	"360 TRADING NETWORKS INC." ;
+	fibo-fbc-fct-mkt:hasExchangeName	"360 TRADING NETWORKS INC." ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:New_York ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.360t.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-5493006UQP8F8P24HJ68-LEI ;
+	rdfs:label	"360 TRADING NETWORKS INC." ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
+
 fibo-fbc-fct-mkti:Exchange-USOB
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
@@ -26606,7 +26765,8 @@ fibo-fbc-fct-mkti:Exchange-WFSE
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.wellsfargo.com"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-549300AQWOOF7S8JFF80-LEI ;
 	rdfs:label	"WELLS FARGO SECURITIES EUROPE, S.A." ;
-	tempo:validFrom	"2020-07-27"^^xsd:date .
+	tempo:validFrom	"2020-07-27"^^xsd:date ;
+	tempo:validTill	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-WGAS
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -26649,7 +26809,7 @@ fibo-fbc-fct-mkti:Exchange-WINS
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.winterflood.com"^^xsd:anyURI ;
 	rdfs:label	"WINTERFLOOD SECURITIES LIMITED - ELECTRONIC PLATFORM" ;
 	skos:closeMatch	wd:Q93360875 ;
-	skos:note	"REGISTERED MARKET MAKER - ELECTRONIC PLATFORM" ;
+	skos:note	"REGISTERED MARKET MAKER – ELECTRONIC PLATFORM" ;
 	tempo:validFrom	"2017-06-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-WINX
@@ -27470,7 +27630,7 @@ fibo-fbc-fct-mkti:Exchange-XBES
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.jse.co.za"^^xsd:anyURI ;
 	rdfs:label	"JSE CASH BOND MARKET" ;
 	skos:closeMatch	wd:Q107188889 ;
-	skos:note	"JSE - FORMER BOND EXCHANGE OF SOUTH AFRICA." ;
+	skos:note	"JSE – FORMER BOND EXCHANGE OF SOUTH AFRICA." ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-XBEY
@@ -30032,6 +30192,7 @@ fibo-fbc-fct-mkti:Exchange-XIEL
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.instinet.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-213800MXAKR2LA1VBM44-LEI ;
 	rdfs:label	"INSTINET EUROPE LIMITED" ;
 	skos:closeMatch	wd:Q93357293 ;
 	tempo:validFrom	"2017-11-27"^^xsd:date .
@@ -30780,7 +30941,7 @@ fibo-fbc-fct-mkti:Exchange-XLDN
 	lcc-lr:isIdentifiedBy	gleif:L-21380037K2DZ19T57655-LEI ;
 	rdfs:label	"EURONEXT - EURONEXT LONDON" ;
 	skos:closeMatch	wd:Q93357361 ;
-	tempo:validFrom	"2015-05-25"^^xsd:date ;
+	tempo:validFrom	"2010-03-22"^^xsd:date ;
 	tempo:validTill	"2021-10-25"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-XLDX
@@ -33623,7 +33784,7 @@ fibo-fbc-fct-mkti:Exchange-XSMP
 	rdfs:label	"EURONEXT BLOCK" ;
 	skos:closeMatch	wd:Q107188784 ;
 	skos:note	"MULTILATERAL TRADING FACILITY (MTF)." ;
-	tempo:validFrom	"2017-09-25"^^xsd:date ;
+	tempo:validFrom	"2008-09-22"^^xsd:date ;
 	tempo:validTill	"2021-10-25"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-XSOM
@@ -34452,7 +34613,9 @@ fibo-fbc-fct-mkti:Exchange-XUBS
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.aquis.eu"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-213800IXJSF5E1SIW150-LEI ;
 	rdfs:label	"AQUIS EXCHANGE PLC - AMP - DARK ORDER BOOK" ;
-	skos:closeMatch	wd:Q93361972 .
+	skos:closeMatch	wd:Q93361972 ;
+	tempo:validFrom	"2010-07-26"^^xsd:date ;
+	tempo:validTill	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-XUGA
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
@@ -34658,7 +34821,7 @@ fibo-fbc-fct-mkti:Exchange-XVTX
 	rdfs:label	"SIX SWISS EXCHANGE - BLUE CHIPS SEGMENT" ;
 	skos:closeMatch	wd:Q107188833 ;
 	skos:note	"WWW.SIX-GROUP.COM/EN/PRODUCTS-SERVICES/THE-SWISS-STOCK-EXCHANGE.HTML" ;
-	tempo:validFrom	"2015-04-27"^^xsd:date ;
+	tempo:validFrom	"2010-03-22"^^xsd:date ;
 	tempo:validTill	"2020-12-07"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-XWAR
@@ -35642,6 +35805,90 @@ fibo-fbc-fct-mkti:MIC-AQEU
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"AQUIS EXCHANGE EUROPE operating-level market identifier" ;
 	tempo:validFrom	"2018-09-24"^^xsd:date .
+
+fibo-fbc-fct-mkti:MIC-AQSD
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2022-09-26"^^xsd:date ;
+	dct:modified	"2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"AQSD" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-AQSD ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"AQSE MAIN MARKET (NON-EQUITY) market segment-level market identifier" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
+
+fibo-fbc-fct-mkti:MIC-AQSE
+	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2022-09-26"^^xsd:date ;
+	dct:modified	"2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"AQSE" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-AQSE ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"AQUIS STOCK EXCHANGE operating-level market identifier" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
+
+fibo-fbc-fct-mkti:MIC-AQSF
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2022-09-26"^^xsd:date ;
+	dct:modified	"2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"AQSF" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-AQSF ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"AQSE GROWTH MARKET (NON-EQUITY) market segment-level market identifier" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
+
+fibo-fbc-fct-mkti:MIC-AQSG
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2022-09-26"^^xsd:date ;
+	dct:modified	"2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"AQSG" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-AQSG ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"AQSE GROWTH MARKET (EQUITY) market segment-level market identifier" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
+
+fibo-fbc-fct-mkti:MIC-AQSL
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2022-09-26"^^xsd:date ;
+	dct:modified	"2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"AQSL" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-AQSL ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"AQSE MAIN MARKET (EQUITY) market segment-level market identifier" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
+
+fibo-fbc-fct-mkti:MIC-AQSN
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2022-09-26"^^xsd:date ;
+	dct:modified	"2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"AQSN" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-AQSN ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"AQSE TRADING (NON-EQUITY) market segment-level market identifier" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
+
+fibo-fbc-fct-mkti:MIC-AQST
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2022-09-26"^^xsd:date ;
+	dct:modified	"2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"AQST" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-AQST ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"AQSE TRADING (EQUITY) market segment-level market identifier" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-AQUA
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
@@ -36987,7 +37234,7 @@ fibo-fbc-fct-mkti:MIC-BEUP
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2018-09-24"^^xsd:date ;
-	dct:modified	"2019-07-22"^^xsd:date ;
+	dct:modified	"2019-07-22"^^xsd:date , "2022-09-26"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"BEUP" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-BEUP ;
@@ -37504,12 +37751,12 @@ fibo-fbc-fct-mkti:MIC-BLOX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2007-11-26"^^xsd:date ;
-	dct:modified	"2017-11-27"^^xsd:date ;
+	dct:modified	"2017-11-27"^^xsd:date , "2022-09-26"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"BLOX" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-BLOX ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
-	rdfs:label	"BLOCKMATCH DARK market segment-level market identifier" ;
+	rdfs:label	"BLOCKMATCH UK DARK market segment-level market identifier" ;
 	tempo:validFrom	"2007-11-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-BLPX
@@ -37881,12 +38128,12 @@ fibo-fbc-fct-mkti:MIC-BNTW
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2017-11-27"^^xsd:date ;
-	dct:modified	"2017-11-27"^^xsd:date ;
+	dct:modified	"2017-11-27"^^xsd:date , "2022-09-26"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"BNTW" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-BNTW ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
-	rdfs:label	"BLOCKMATCH MTF NT market segment-level market identifier" ;
+	rdfs:label	"BLOCKMATCH UK NT market segment-level market identifier" ;
 	tempo:validFrom	"2017-11-27"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-BNYC
@@ -38183,12 +38430,12 @@ fibo-fbc-fct-mkti:MIC-BRFQ
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2017-11-27"^^xsd:date ;
-	dct:modified	"2017-11-27"^^xsd:date ;
+	dct:modified	"2017-11-27"^^xsd:date , "2022-09-26"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"BRFQ" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-BRFQ ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
-	rdfs:label	"BLOCKMATCH MTF RFQ market segment-level market identifier" ;
+	rdfs:label	"BLOCKMATCH UK RFQ market segment-level market identifier" ;
 	tempo:validFrom	"2017-11-27"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-BRGA
@@ -38678,7 +38925,7 @@ fibo-fbc-fct-mkti:MIC-CAPA
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2018-09-24"^^xsd:date ;
-	dct:modified	"2018-09-24"^^xsd:date ;
+	dct:modified	"2018-09-24"^^xsd:date , "2022-09-26"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"CAPA" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CAPA ;
@@ -38770,6 +39017,18 @@ fibo-fbc-fct-mkti:MIC-CAZE
 	rdfs:label	"THE CAZENOVE MTF operating-level market identifier" ;
 	tempo:validFrom	"2007-11-26"^^xsd:date ;
 	tempo:validTill	"2017-01-23"^^xsd:date .
+
+fibo-fbc-fct-mkti:MIC-CBAE
+	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2022-09-26"^^xsd:date ;
+	dct:modified	"2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"CBAE" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CBAE ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"COMMONWEALTH BANK OF AUSTRALIA (EUROPE) N.V. - SYSTEMATIC INTERNALISER operating-level market identifier" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-CBAL
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
@@ -39065,7 +39324,7 @@ fibo-fbc-fct-mkti:MIC-CCXE
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2018-09-24"^^xsd:date ;
-	dct:modified	"2018-09-24"^^xsd:date ;
+	dct:modified	"2018-09-24"^^xsd:date , "2022-09-26"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"CCXE" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CCXE ;
@@ -39235,7 +39494,7 @@ fibo-fbc-fct-mkti:MIC-CEUD
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2018-09-24"^^xsd:date ;
-	dct:modified	"2019-07-22"^^xsd:date ;
+	dct:modified	"2019-07-22"^^xsd:date , "2022-09-26"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"CEUD" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CEUD ;
@@ -39260,7 +39519,7 @@ fibo-fbc-fct-mkti:MIC-CEUO
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2018-09-24"^^xsd:date ;
-	dct:modified	"2019-07-22"^^xsd:date ;
+	dct:modified	"2019-07-22"^^xsd:date , "2022-09-26"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"CEUO" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CEUO ;
@@ -39272,7 +39531,7 @@ fibo-fbc-fct-mkti:MIC-CEUX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2018-12-24"^^xsd:date ;
-	dct:modified	"2019-07-22"^^xsd:date ;
+	dct:modified	"2019-07-22"^^xsd:date , "2022-09-26"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"CEUX" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CEUX ;
@@ -40116,13 +40375,14 @@ fibo-fbc-fct-mkti:MIC-CMEC
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2011-12-26"^^xsd:date ;
-	dct:modified	"2014-02-24"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	dct:modified	"2014-02-24"^^xsd:date , "2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:DeletedMICStatus ;
 	lcc-lr:hasTag	"CMEC" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CMEC ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"CME CLEARING EUROPE market segment-level market identifier" ;
-	tempo:validFrom	"2011-12-26"^^xsd:date .
+	tempo:validFrom	"2011-12-26"^^xsd:date ;
+	tempo:validTill	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-CMED
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
@@ -40141,13 +40401,14 @@ fibo-fbc-fct-mkti:MIC-CMEE
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2013-01-28"^^xsd:date ;
-	dct:modified	"2013-01-28"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	dct:modified	"2013-01-28"^^xsd:date , "2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:DeletedMICStatus ;
 	lcc-lr:hasTag	"CMEE" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CMEE ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"CME EUROPE operating-level market identifier" ;
-	tempo:validFrom	"2013-01-28"^^xsd:date .
+	tempo:validFrom	"2013-01-28"^^xsd:date ;
+	tempo:validTill	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-CMES
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
@@ -47566,12 +47827,12 @@ fibo-fbc-fct-mkti:MIC-KBLC
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2018-12-24"^^xsd:date ;
-	dct:modified	"2018-12-24"^^xsd:date ;
+	dct:modified	"2018-12-24"^^xsd:date , "2022-09-26"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"KBLC" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-KBLC ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
-	rdfs:label	"KBL EURO COMMERCIAL PAPERS market segment-level market identifier" ;
+	rdfs:label	"QUINTET PRIVATE BANK (EUROPE) S.A. - EURO COMMERCIAL PAPERS market segment-level market identifier" ;
 	tempo:validFrom	"2018-12-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-KBLL
@@ -47602,24 +47863,24 @@ fibo-fbc-fct-mkti:MIC-KBLS
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2018-12-24"^^xsd:date ;
-	dct:modified	"2018-12-24"^^xsd:date ;
+	dct:modified	"2018-12-24"^^xsd:date , "2022-09-26"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"KBLS" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-KBLS ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
-	rdfs:label	"KBL STRUCTURED PRODUCTS market segment-level market identifier" ;
+	rdfs:label	"QUINTET PRIVATE BANK (EUROPE) S.A. - STRUCTURED PRODUCTS market segment-level market identifier" ;
 	tempo:validFrom	"2018-12-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-KBLT
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2018-12-24"^^xsd:date ;
-	dct:modified	"2018-12-24"^^xsd:date ;
+	dct:modified	"2018-12-24"^^xsd:date , "2022-09-26"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"KBLT" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-KBLT ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
-	rdfs:label	"KBL FX TREASURY DERIVATIVES market segment-level market identifier" ;
+	rdfs:label	"QUINTET PRIVATE BANK (EUROPE) S.A. - FX TREASURY DERIVATIVES market segment-level market identifier" ;
 	tempo:validFrom	"2018-12-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-KCCP
@@ -48186,7 +48447,7 @@ fibo-fbc-fct-mkti:MIC-LISZ
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2018-09-24"^^xsd:date ;
-	dct:modified	"2018-09-24"^^xsd:date ;
+	dct:modified	"2018-09-24"^^xsd:date , "2022-09-26"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"LISZ" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-LISZ ;
@@ -48860,37 +49121,40 @@ fibo-fbc-fct-mkti:MIC-MCUR
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2017-05-22"^^xsd:date ;
-	dct:modified	"2017-05-22"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	dct:modified	"2017-05-22"^^xsd:date , "2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:DeletedMICStatus ;
 	lcc-lr:hasTag	"MCUR" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-MCUR ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"CURRENEX MTF operating-level market identifier" ;
-	tempo:validFrom	"2017-05-22"^^xsd:date .
+	tempo:validFrom	"2017-05-22"^^xsd:date ;
+	tempo:validTill	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-MCXR
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2017-05-22"^^xsd:date ;
-	dct:modified	"2017-05-22"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	dct:modified	"2017-05-22"^^xsd:date , "2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:DeletedMICStatus ;
 	lcc-lr:hasTag	"MCXR" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-MCXR ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"CURRENEX MTF - RFQ market segment-level market identifier" ;
-	tempo:validFrom	"2017-05-22"^^xsd:date .
+	tempo:validFrom	"2017-05-22"^^xsd:date ;
+	tempo:validTill	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-MCXS
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2017-05-22"^^xsd:date ;
-	dct:modified	"2017-05-22"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	dct:modified	"2017-05-22"^^xsd:date , "2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:DeletedMICStatus ;
 	lcc-lr:hasTag	"MCXS" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-MCXS ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"CURRENEX MTF - STREAMING market segment-level market identifier" ;
-	tempo:validFrom	"2017-05-22"^^xsd:date .
+	tempo:validFrom	"2017-05-22"^^xsd:date ;
+	tempo:validTill	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-MCXX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
@@ -50725,61 +50989,66 @@ fibo-fbc-fct-mkti:MIC-NEXD
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2017-06-26"^^xsd:date ;
-	dct:modified	"2022-05-23"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	dct:modified	"2022-05-23"^^xsd:date , "2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:DeletedMICStatus ;
 	lcc-lr:hasTag	"NEXD" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-NEXD ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"AQSE MAIN MARKET (NON-EQUITY) market segment-level market identifier" ;
-	tempo:validFrom	"2017-06-26"^^xsd:date .
+	tempo:validFrom	"2017-06-26"^^xsd:date ;
+	tempo:validTill	"2022-09-30"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-NEXF
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2017-06-26"^^xsd:date ;
-	dct:modified	"2022-05-23"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	dct:modified	"2022-05-23"^^xsd:date , "2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:DeletedMICStatus ;
 	lcc-lr:hasTag	"NEXF" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-NEXF ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"AQSE GROWTH MARKET (NON-EQUITY) market segment-level market identifier" ;
-	tempo:validFrom	"2017-06-26"^^xsd:date .
+	tempo:validFrom	"2017-06-26"^^xsd:date ;
+	tempo:validTill	"2022-09-30"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-NEXG
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2017-06-26"^^xsd:date ;
-	dct:modified	"2022-05-23"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	dct:modified	"2022-05-23"^^xsd:date , "2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:DeletedMICStatus ;
 	lcc-lr:hasTag	"NEXG" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-NEXG ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"AQSE GROWTH MARKET (EQUITY) market segment-level market identifier" ;
-	tempo:validFrom	"2017-06-26"^^xsd:date .
+	tempo:validFrom	"2017-06-26"^^xsd:date ;
+	tempo:validTill	"2022-09-30"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-NEXL
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2017-06-26"^^xsd:date ;
-	dct:modified	"2022-05-23"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	dct:modified	"2022-05-23"^^xsd:date , "2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:DeletedMICStatus ;
 	lcc-lr:hasTag	"NEXL" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-NEXL ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"AQSE MAIN MARKET (EQUITY) market segment-level market identifier" ;
-	tempo:validFrom	"2017-06-26"^^xsd:date .
+	tempo:validFrom	"2017-06-26"^^xsd:date ;
+	tempo:validTill	"2022-09-30"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-NEXN
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2017-06-26"^^xsd:date ;
-	dct:modified	"2022-05-23"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	dct:modified	"2022-05-23"^^xsd:date , "2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:DeletedMICStatus ;
 	lcc-lr:hasTag	"NEXN" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-NEXN ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"AQSE TRADING (NON-EQUITY) market segment-level market identifier" ;
-	tempo:validFrom	"2017-06-26"^^xsd:date .
+	tempo:validFrom	"2017-06-26"^^xsd:date ;
+	tempo:validTill	"2022-09-30"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-NEXO
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
@@ -50809,25 +51078,27 @@ fibo-fbc-fct-mkti:MIC-NEXT
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2017-06-26"^^xsd:date ;
-	dct:modified	"2022-05-23"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	dct:modified	"2022-05-23"^^xsd:date , "2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:DeletedMICStatus ;
 	lcc-lr:hasTag	"NEXT" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-NEXT ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"AQSE TRADING (EQUITY) market segment-level market identifier" ;
-	tempo:validFrom	"2017-06-26"^^xsd:date .
+	tempo:validFrom	"2017-06-26"^^xsd:date ;
+	tempo:validTill	"2022-09-30"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-NEXX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2017-06-26"^^xsd:date ;
-	dct:modified	"2022-05-23"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	dct:modified	"2022-05-23"^^xsd:date , "2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:DeletedMICStatus ;
 	lcc-lr:hasTag	"NEXX" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-NEXX ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"AQUIS STOCK EXCHANGE operating-level market identifier" ;
-	tempo:validFrom	"2017-06-26"^^xsd:date .
+	tempo:validFrom	"2017-06-26"^^xsd:date ;
+	tempo:validTill	"2022-09-30"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-NEXY
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
@@ -52386,13 +52657,14 @@ fibo-fbc-fct-mkti:MIC-PNED
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2017-04-24"^^xsd:date ;
-	dct:modified	"2017-04-24"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	dct:modified	"2017-04-24"^^xsd:date , "2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:DeletedMICStatus ;
 	lcc-lr:hasTag	"PNED" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-PNED ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"NASDAQ STOCKHOLM AB - PAN-NORDIC EQ DERIVATIVES market segment-level market identifier" ;
-	tempo:validFrom	"2017-04-24"^^xsd:date .
+	tempo:validFrom	"2017-04-24"^^xsd:date ;
+	tempo:validTill	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-POEE
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
@@ -56206,6 +56478,18 @@ fibo-fbc-fct-mkti:MIC-TRCX
 	rdfs:label	"TOWER RESEARCH CAPITAL TRCX operating-level market identifier" ;
 	tempo:validFrom	"2019-06-24"^^xsd:date .
 
+fibo-fbc-fct-mkti:MIC-TRDC
+	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2022-09-26"^^xsd:date ;
+	dct:modified	"2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"TRDC" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-TRDC ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"TFS CURRENCIES PTE LTD operating-level market identifier" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
+
 fibo-fbc-fct-mkti:MIC-TRDE
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
@@ -57350,6 +57634,18 @@ fibo-fbc-fct-mkti:MIC-URCE
 	tempo:validFrom	"2003-04-01"^^xsd:date ;
 	tempo:validTill	"2010-06-28"^^xsd:date .
 
+fibo-fbc-fct-mkti:MIC-USEF
+	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2022-09-26"^^xsd:date ;
+	dct:modified	"2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"USEF" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-USEF ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"360 TRADING NETWORKS INC. operating-level market identifier" ;
+	tempo:validFrom	"2022-09-26"^^xsd:date .
+
 fibo-fbc-fct-mkti:MIC-USOB
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
@@ -57377,7 +57673,7 @@ fibo-fbc-fct-mkti:MIC-USWB
 fibo-fbc-fct-mkti:MIC-USWP
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
-	dct:created	"2022-08-03"^^xsd:date ;
+	dct:created	"2022-08-22"^^xsd:date ;
 	dct:modified	"2022-08-03"^^xsd:date , "2022-08-22"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"USWP" ;
@@ -58037,13 +58333,14 @@ fibo-fbc-fct-mkti:MIC-WFSE
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2020-07-27"^^xsd:date ;
-	dct:modified	"2020-07-27"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	dct:modified	"2020-07-27"^^xsd:date , "2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:DeletedMICStatus ;
 	lcc-lr:hasTag	"WFSE" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-WFSE ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"WELLS FARGO SECURITIES EUROPE, S.A. operating-level market identifier" ;
-	tempo:validFrom	"2020-07-27"^^xsd:date .
+	tempo:validFrom	"2020-07-27"^^xsd:date ;
+	tempo:validTill	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-WGAS
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
@@ -65323,13 +65620,14 @@ fibo-fbc-fct-mkti:MIC-XUBS
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2010-07-26"^^xsd:date ;
-	dct:modified	"2022-04-25"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	dct:modified	"2022-04-25"^^xsd:date , "2022-09-26"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:DeletedMICStatus ;
 	lcc-lr:hasTag	"XUBS" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-XUBS ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"AQUIS EXCHANGE PLC - AMP - DARK ORDER BOOK operating-level market identifier" ;
-	tempo:validFrom	"2010-07-26"^^xsd:date .
+	tempo:validFrom	"2010-07-26"^^xsd:date ;
+	tempo:validTill	"2022-09-26"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-XUGA
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;

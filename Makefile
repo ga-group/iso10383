@@ -63,6 +63,12 @@ tmp/MarketsIndividuals-type.ttl: download/ISO10383_MIC_latest.xlsx
 	| grep -F $$'\ta\t' \
 	> $@
 
+tmp/MarketsIndividuals-webs.ttl: download/ISO10383_MIC_latest.xlsx
+	# rescue labels and names of active nodes
+	-ttl2ttl --sortable MarketsIndividuals.ttl \
+	| grep -F 'fibo-fnd-plc-vrt:hasWebsite' \
+	> $@
+
 tmp/MarketsIndividuals-name.ttl: download/ISO10383_MIC_latest.xlsx
 	# rescue labels and names of active nodes
 	-ttl2ttl --sortable MarketsIndividuals.ttl \
@@ -83,7 +89,7 @@ MarketsIndividuals-chronic.ttl.symm: MarketsIndividuals-chronic.ttl
 	> $@ && mv $@ $<
 	$(MAKE) $<.canon
 
-MarketsIndividuals.ttl: tmp/MarketsIndividuals.ttl MarketsIndividuals-aux.ttl MarketsIndividuals-align.ttl MarketsIndividuals-hist.ttl MarketsIndividuals-chronic.ttl tmp/MarketsIndividuals-tempo.ttl tmp/MarketsIndividuals-type.ttl tmp/MarketsIndividuals-name.ttl
+MarketsIndividuals.ttl: tmp/MarketsIndividuals.ttl MarketsIndividuals-aux.ttl MarketsIndividuals-align.ttl MarketsIndividuals-hist.ttl MarketsIndividuals-chronic.ttl tmp/MarketsIndividuals-tempo.ttl tmp/MarketsIndividuals-type.ttl tmp/MarketsIndividuals-name.ttl tmp/MarketsIndividuals-webs.ttl
 	cat $^ \
 	> $@.t && mv $@.t $@
 	$(MAKE) $@.canon
