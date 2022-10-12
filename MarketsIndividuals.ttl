@@ -3912,6 +3912,20 @@ fibo-fbc-fct-mkti:Exchange-BRIX
 	skos:note	"ELECTRONIC TRADING PLATFORM FOR OTC DERIVATIVES" ;
 	tempo:validFrom	"2011-05-23"^^xsd:date .
 
+fibo-fbc-fct-mkti:Exchange-BRMF
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
+	a	owl:NamedIndividual ;
+	dbo:formerName	"ROMANIAN COMMODITIES EXCHANGE - BRM-SMT" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"BRM" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"ROMANIAN COMMODITIES EXCHANGE - BRM-SMT" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:RO ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Bucharest ;
+	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XBRM ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.brm.ro"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-2594004XQ58NIEX1Y444-LEI ;
+	rdfs:label	"ROMANIAN COMMODITIES EXCHANGE - BRM-SMT" ;
+	tempo:validFrom	"2022-10-24"^^xsd:date .
+
 fibo-fbc-fct-mkti:Exchange-BRNX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
@@ -5634,6 +5648,7 @@ fibo-fbc-fct-mkti:Exchange-CHIA
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.chi-x.com/apac/"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-529900RLNSGA90UPEH54-LEI ;
 	rdfs:label	"CBOE AUSTRALIA" ;
 	skos:closeMatch	wd:Q93355385 ;
 	tempo:validFrom	"2022-02-28"^^xsd:date .
@@ -6877,6 +6892,21 @@ fibo-fbc-fct-mkti:Exchange-CURX
 	skos:note	"FOREIGN EXCHANGE ELECTRONIC COMMUNICATION NETWORK (ECN)." ;
 	tempo:validFrom	"2017-11-27"^^xsd:date .
 
+fibo-fbc-fct-mkti:Exchange-CXAB
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
+	a	owl:NamedIndividual ;
+	dbo:formerName	"CBOE AUSTRALIA - BIDS BLOCK TRADE VENUE" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"CXA BIDS BLOCK" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"CBOE AUSTRALIA - BIDS BLOCK TRADE VENUE" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
+	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CHIA ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.cboe.com.au"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-529900RLNSGA90UPEH54-LEI ;
+	rdfs:label	"CBOE AUSTRALIA - BIDS BLOCK TRADE VENUE" ;
+	skos:note	"CBOE AUSTRALIA - LARGE IN SCALE BIDS TRADING VENUE - BLOCK TRADES." ;
+	tempo:validFrom	"2022-10-24"^^xsd:date .
+
 fibo-fbc-fct-mkti:Exchange-CXAC
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
@@ -6887,9 +6917,10 @@ fibo-fbc-fct-mkti:Exchange-CXAC
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CHIA ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.chi-x.com.au"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-529900RLNSGA90UPEH54-LEI ;
 	rdfs:label	"CBOE AUSTRALIA - LIMIT VENUE" ;
 	skos:closeMatch	wd:Q107228115 ;
-	skos:note	"CBOE AUSTRALIA LIMIT VENUE" ;
+	skos:note	"CBOE AUSTRALIA LIMIT VENUE." ;
 	tempo:validFrom	"2022-02-28"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CXAF
@@ -6902,9 +6933,10 @@ fibo-fbc-fct-mkti:Exchange-CXAF
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CHIA ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.chi-x.com.au"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-529900RLNSGA90UPEH54-LEI ;
 	rdfs:label	"CBOE AUSTRALIA MARKET PEG (FARPOINT) VENUE" ;
 	skos:closeMatch	wd:Q107189165 ;
-	skos:note	"CBOE AUSTRALIA MARKET PEG (FARPOINT) VENUE" ;
+	skos:note	"CBOE AUSTRALIA MARKET PEG (FARPOINT) VENUE." ;
 	tempo:validFrom	"2022-02-28"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CXAM
@@ -6916,9 +6948,10 @@ fibo-fbc-fct-mkti:Exchange-CXAM
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CHIA ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.chi-x.com.au"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-529900RLNSGA90UPEH54-LEI ;
 	rdfs:label	"CBOE AUSTRALIA MOC" ;
 	skos:closeMatch	wd:Q107228042 ;
-	skos:note	"CBOE AUSTRALIA MARKET ON CLOSE VENUE" ;
+	skos:note	"CBOE AUSTRALIA MARKET ON CLOSE VENUE." ;
 	tempo:validFrom	"2022-02-28"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CXAN
@@ -6931,9 +6964,10 @@ fibo-fbc-fct-mkti:Exchange-CXAN
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CHIA ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.chi-x.com.au"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-529900RLNSGA90UPEH54-LEI ;
 	rdfs:label	"CBOE AUSTRALIA PRIMARY PEG (NEARPOINT) VENUE" ;
 	skos:closeMatch	wd:Q107228055 ;
-	skos:note	"CBOE AUSTRALIA PRIMARY PEG (NEARPOINT) VENUE" ;
+	skos:note	"CBOE AUSTRALIA PRIMARY PEG (NEARPOINT) VENUE." ;
 	tempo:validFrom	"2022-02-28"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CXAP
@@ -6946,9 +6980,10 @@ fibo-fbc-fct-mkti:Exchange-CXAP
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CHIA ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.chi-x.com.au"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-529900RLNSGA90UPEH54-LEI ;
 	rdfs:label	"CBOE AUSTRALIA MID-POINT VENUE" ;
 	skos:closeMatch	wd:Q107188866 ;
-	skos:note	"CBOE AUSTRALIA MID-POINT VENUE" ;
+	skos:note	"CBOE AUSTRALIA MID-POINT VENUE." ;
 	tempo:validFrom	"2022-02-28"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CXAQ
@@ -6960,6 +6995,7 @@ fibo-fbc-fct-mkti:Exchange-CXAQ
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CHIA ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.chi-x.com.au"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-529900RLNSGA90UPEH54-LEI ;
 	rdfs:label	"CBOE AUSTRALIA - QUOTED MANAGED FUNDS" ;
 	skos:closeMatch	wd:Q107188741 ;
 	skos:note	"CBOE AUSTRALIA QUOTED MANAGED FUNDS." ;
@@ -6975,6 +7011,7 @@ fibo-fbc-fct-mkti:Exchange-CXAR
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CHIA ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.chi-x.com.au"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-529900RLNSGA90UPEH54-LEI ;
 	rdfs:label	"CBOE AUSTRALIA - TRANSFERABLE CUSTODY RECEIPT MARKET" ;
 	skos:closeMatch	wd:Q107190310 ;
 	skos:note	"CBOE AUSTRALIA TCR MARKET." ;
@@ -6989,9 +7026,10 @@ fibo-fbc-fct-mkti:Exchange-CXAV
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CHIA ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.chi-x.com.au"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-529900RLNSGA90UPEH54-LEI ;
 	rdfs:label	"CBOE AUSTRALIA VWAP" ;
 	skos:closeMatch	wd:Q107228041 ;
-	skos:note	"CBOE AUSTRALIA VWAP VENUE" ;
+	skos:note	"CBOE AUSTRALIA VWAP VENUE." ;
 	tempo:validFrom	"2022-02-28"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CXAW
@@ -7004,10 +7042,26 @@ fibo-fbc-fct-mkti:Exchange-CXAW
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CHIA ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.chi-x.com.au"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-529900RLNSGA90UPEH54-LEI ;
 	rdfs:label	"CBOE AUSTRALIA - WARRANTS" ;
 	skos:closeMatch	wd:Q107188628 ;
-	skos:note	"CBOE AUSTRALIA WARRANTS" ;
+	skos:note	"CBOE AUSTRALIA WARRANTS." ;
 	tempo:validFrom	"2022-02-28"^^xsd:date .
+
+fibo-fbc-fct-mkti:Exchange-CXIB
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
+	a	owl:NamedIndividual ;
+	dbo:formerName	"CBOE AUSTRALIA - BIDS PRICE IMPROVEMENT VENUE" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"CXA BIDS BIDS TWPI" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"CBOE AUSTRALIA - BIDS PRICE IMPROVEMENT VENUE" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
+	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CHIA ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.cboe.com.au"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-529900RLNSGA90UPEH54-LEI ;
+	rdfs:label	"CBOE AUSTRALIA - BIDS PRICE IMPROVEMENT VENUE" ;
+	skos:note	"CBOE AUSTRALIA LARGE IN SCALE BIDS VENUE - TRADES WITH PRICE IMPROVEMENT." ;
+	tempo:validFrom	"2022-10-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CXOT
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -12810,6 +12864,20 @@ fibo-fbc-fct-mkti:Exchange-IEPA
 	skos:closeMatch	wd:Q107188496 ;
 	tempo:validFrom	"2013-12-23"^^xsd:date .
 
+fibo-fbc-fct-mkti:Exchange-IEXC
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
+	a	owl:NamedIndividual ;
+	dbo:formerName	"INVESTORS EXCHANGE - DAX FACILITY" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"IEX DAX" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"INVESTORS EXCHANGE - DAX FACILITY" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:New_York ;
+	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-IEXG ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.iex.io"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-549300H1YDWCPFOUGE67-LEI ;
+	rdfs:label	"INVESTORS EXCHANGE - DAX FACILITY" ;
+	tempo:validFrom	"2022-10-24"^^xsd:date .
+
 fibo-fbc-fct-mkti:Exchange-IEXD
 	a	fibo-fbc-fct-mkt:DarkPool ;
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket , owl:NamedIndividual ;
@@ -12819,7 +12887,7 @@ fibo-fbc-fct-mkti:Exchange-IEXD
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:New_York ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-IEXG ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://www.iextrading.com"^^xsd:anyURI ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.iex.io"^^xsd:anyURI , "http://www.iextrading.com"^^xsd:anyURI ;
 	rdfs:label	"INVESTORS EXCHANGE - DARK" ;
 	skos:closeMatch	wd:Q107228096 ;
 	tempo:validFrom	"2017-07-24"^^xsd:date .
@@ -12832,7 +12900,7 @@ fibo-fbc-fct-mkti:Exchange-IEXG
 	fibo-fbc-fct-mkt:hasExchangeName	"INVESTORS EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:New_York ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://www.iextrading.com"^^xsd:anyURI ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.iex.io"^^xsd:anyURI , "http://www.iextrading.com"^^xsd:anyURI ;
 	rdfs:label	"INVESTORS EXCHANGE" ;
 	skos:closeMatch	wd:Q16846407 ;
 	tempo:validFrom	"2016-09-26"^^xsd:date .
@@ -13671,6 +13739,18 @@ fibo-fbc-fct-mkti:Exchange-INSE
 	skos:closeMatch	wd:Q107189229 ;
 	skos:note	"FULLY OWNED SUBSIDIARY COMPANY OF NATIONAL STOCK EXCHANGE OF INDIA LIMITED (NSE)." ;
 	tempo:validFrom	"2018-06-25"^^xsd:date .
+
+fibo-fbc-fct-mkti:Exchange-INTL
+	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
+	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
+	dbo:formerName	"STONEX FINANCIAL INC." ;
+	fibo-fbc-fct-mkt:hasExchangeName	"STONEX FINANCIAL INC." ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Winter_Park ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.stonex.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-549300LNKU6K5TJCRG93-LEI ;
+	rdfs:label	"STONEX FINANCIAL INC." ;
+	tempo:validFrom	"2022-10-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-INVE
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
@@ -19065,6 +19145,18 @@ fibo-fbc-fct-mkti:Exchange-NSPO
 	rdfs:label	"NASDAQ SPOT AB" ;
 	tempo:validFrom	"2021-11-22"^^xsd:date .
 
+fibo-fbc-fct-mkti:Exchange-NSSA
+	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
+	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
+	dbo:formerName	"NOBLE SECURITIES S.A." ;
+	fibo-fbc-fct-mkt:hasExchangeName	"NOBLE SECURITIES S.A." ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:PL ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Krakow ;
+	fibo-fnd-plc-vrt:hasWebsite	"https://noblesecurities.pl/"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-259400LJC7Y93HGGGK72-LEI ;
+	rdfs:label	"NOBLE SECURITIES S.A." ;
+	tempo:validFrom	"2022-10-24"^^xsd:date .
+
 fibo-fbc-fct-mkti:Exchange-NSXB
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
@@ -23942,6 +24034,18 @@ fibo-fbc-fct-mkti:Exchange-TMTS
 	skos:note	"MARKET IS CLOSED." ;
 	tempo:validFrom	"2005-11-28"^^xsd:date ;
 	tempo:validTill	"2013-09-23"^^xsd:date .
+
+fibo-fbc-fct-mkti:Exchange-TMUK
+	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
+	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
+	dbo:formerName	"TRUMID FINANCIAL UK LIMITED" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"TRUMID FINANCIAL UK LIMITED" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.trumid.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-2138004QU7NYKYORTV10-LEI ;
+	rdfs:label	"TRUMID FINANCIAL UK LIMITED" ;
+	tempo:validFrom	"2022-10-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-TMXS
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
@@ -32962,14 +33066,15 @@ fibo-fbc-fct-mkti:Exchange-XPSX
 fibo-fbc-fct-mkti:Exchange-XPTY
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"BOLSA DE VALORES DE PANAMA, S.A." ;
-	fibo-fbc-fct-mkt:hasExchangeAcronym	"BVP" ;
-	fibo-fbc-fct-mkt:hasExchangeName	"BOLSA DE VALORES DE PANAMA, S.A." ;
+	dbo:formerName	"BOLSA DE VALORES DE PANAMA, S.A." , "LATIN AMERICAN STOCK EXCHANGE, INC." ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"LATINEX" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"LATIN AMERICAN STOCK EXCHANGE, INC." ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:PA ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Panama_City ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://www.panabolsa.com"^^xsd:anyURI ;
-	rdfs:label	"BOLSA DE VALORES DE PANAMA, S.A." ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.latinexbolsa.com"^^xsd:anyURI , "http://www.panabolsa.com"^^xsd:anyURI ;
+	rdfs:label	"LATIN AMERICAN STOCK EXCHANGE, INC." ;
 	skos:closeMatch	wd:Q93358861 ;
+	skos:note	"SPANISH: BOLSA LATINOAMERICANA DE VALORES, S.A." ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-XPUK
@@ -38462,6 +38567,18 @@ fibo-fbc-fct-mkti:MIC-BRIX
 	rdfs:label	"BRAZILIAN ENERGY EXCHANGE operating-level market identifier" ;
 	tempo:validFrom	"2011-05-23"^^xsd:date .
 
+fibo-fbc-fct-mkti:MIC-BRMF
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2022-10-24"^^xsd:date ;
+	dct:modified	"2022-10-24"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"BRMF" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-BRMF ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"ROMANIAN COMMODITIES EXCHANGE - BRM-SMT market segment-level market identifier" ;
+	tempo:validFrom	"2022-10-24"^^xsd:date .
+
 fibo-fbc-fct-mkti:MIC-BRNX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
@@ -41029,6 +41146,18 @@ fibo-fbc-fct-mkti:MIC-CURX
 	rdfs:label	"CUREX FX operating-level market identifier" ;
 	tempo:validFrom	"2017-11-27"^^xsd:date .
 
+fibo-fbc-fct-mkti:MIC-CXAB
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2022-10-24"^^xsd:date ;
+	dct:modified	"2022-10-24"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"CXAB" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CXAB ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"CBOE AUSTRALIA - BIDS BLOCK TRADE VENUE market segment-level market identifier" ;
+	tempo:validFrom	"2022-10-24"^^xsd:date .
+
 fibo-fbc-fct-mkti:MIC-CXAC
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
@@ -41136,6 +41265,18 @@ fibo-fbc-fct-mkti:MIC-CXAW
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"CBOE AUSTRALIA - WARRANTS market segment-level market identifier" ;
 	tempo:validFrom	"2015-11-23"^^xsd:date .
+
+fibo-fbc-fct-mkti:MIC-CXIB
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2022-10-24"^^xsd:date ;
+	dct:modified	"2022-10-24"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"CXIB" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CXIB ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"CBOE AUSTRALIA - BIDS PRICE IMPROVEMENT VENUE market segment-level market identifier" ;
+	tempo:validFrom	"2022-10-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-CXOT
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
@@ -46233,6 +46374,18 @@ fibo-fbc-fct-mkti:MIC-IEPA
 	rdfs:label	"INTERCONTINENTAL EXCHANGE market segment-level market identifier" ;
 	tempo:validFrom	"2008-03-24"^^xsd:date .
 
+fibo-fbc-fct-mkti:MIC-IEXC
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2017-07-24"^^xsd:date ;
+	dct:modified	"2022-10-24"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"IEXC" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-IEXC ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"INVESTORS EXCHANGE - DAX FACILITY market segment-level market identifier" ;
+	tempo:validFrom	"2017-07-24"^^xsd:date .
+
 fibo-fbc-fct-mkti:MIC-IEXD
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
@@ -46945,6 +47098,18 @@ fibo-fbc-fct-mkti:MIC-INSE
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"NSE IFSC LIMITED market segment-level market identifier" ;
 	tempo:validFrom	"2018-06-25"^^xsd:date .
+
+fibo-fbc-fct-mkti:MIC-INTL
+	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2022-10-24"^^xsd:date ;
+	dct:modified	"2022-10-24"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"INTL" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-INTL ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"STONEX FINANCIAL INC. operating-level market identifier" ;
+	tempo:validFrom	"2022-10-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-INVE
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
@@ -51549,6 +51714,18 @@ fibo-fbc-fct-mkti:MIC-NSPO
 	rdfs:label	"NASDAQ SPOT AB operating-level market identifier" ;
 	tempo:validFrom	"2021-11-22"^^xsd:date .
 
+fibo-fbc-fct-mkti:MIC-NSSA
+	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2022-10-24"^^xsd:date ;
+	dct:modified	"2022-10-24"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"NSSA" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-NSSA ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"NOBLE SECURITIES S.A. operating-level market identifier" ;
+	tempo:validFrom	"2022-10-24"^^xsd:date .
+
 fibo-fbc-fct-mkti:MIC-NSXB
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
@@ -55856,6 +56033,18 @@ fibo-fbc-fct-mkti:MIC-TMTS
 	rdfs:label	"EUROBENCHMARK TRES. BILLS market segment-level market identifier" ;
 	tempo:validFrom	"2005-11-28"^^xsd:date ;
 	tempo:validTill	"2013-09-23"^^xsd:date .
+
+fibo-fbc-fct-mkti:MIC-TMUK
+	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2022-10-24"^^xsd:date ;
+	dct:modified	"2022-10-24"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"TMUK" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-TMUK ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"TRUMID FINANCIAL UK LIMITED operating-level market identifier" ;
+	tempo:validFrom	"2022-10-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-TMXS
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
@@ -64109,7 +64298,7 @@ fibo-fbc-fct-mkti:MIC-XPTY
 	lcc-lr:hasTag	"XPTY" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-XPTY ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
-	rdfs:label	"BOLSA DE VALORES DE PANAMA, S.A. operating-level market identifier" ;
+	rdfs:label	"LATIN AMERICAN STOCK EXCHANGE, INC. operating-level market identifier" ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-XPUK

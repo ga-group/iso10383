@@ -502,6 +502,9 @@ fibo-fbc-fct-bci:Kolkata
 fibo-fbc-fct-bci:Kongsvinger
 	time:timeZone	<http://dbpedia.org/resource/Europe/Oslo> .
 
+fibo-fbc-fct-bci:Krakow
+	time:timeZone	<http://dbpedia.org/resource/Europe/Warsaw> .
+
 fibo-fbc-fct-bci:Kuala_Lumpur
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kuala_Lumpur> .
 
@@ -1104,6 +1107,9 @@ fibo-fbc-fct-bci:Windhoek
 
 fibo-fbc-fct-bci:Winnipeg
 	time:timeZone	<http://dbpedia.org/resource/America/Winnipeg> .
+
+fibo-fbc-fct-bci:Winter_Park
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 fibo-fbc-fct-bci:Wroclaw
 	time:timeZone	<http://dbpedia.org/resource/Europe/Warsaw> .

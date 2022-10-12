@@ -42,12 +42,6 @@ This set of business centers is current with respect to the FpML published XML d
 	sm:fileAbbreviation	"fibo-fbc-fct-bci" ;
 	sm:filename	"BusinessCentersIndividuals.ttl" .
 
-<https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/Ho_Chi_Minh_(formerly_Saigon)>
-	a	fibo-fnd-plc-loc:BusinessCenter ;
-	a	owl:NamedIndividual ;
-	dct:description	"the international business center of Ho Chi Minh (formerly Saigon)" ;
-	lcc-cr:isPartOf	lcc-3166-1-adj:VN ;
-	rdfs:label	"Ho Chi Minh (formerly Saigon)" .
 
 fibo-fbc-fct-bci:AEAB
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -63,9 +57,9 @@ fibo-fbc-fct-bci:AEAD
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	fibo-fnd-dt-bd:BusinessDayAdjustment , owl:NamedIndividual ;
 	dct:description	"the FpML business center code for Abu Dhabi, Settlement Day (as defined in 2021 ISDA Definitions Section 2.1.9 (i))" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci:AbuDhabiSettlementDay , fibo-fbc-fct-bci:Abu_Dhabi ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:AbuDhabiSettlementDay ;
 	lcc-lr:hasTag	"AEAD" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci:AbuDhabiSettlementDay , fibo-fbc-fct-bci:Abu_Dhabi ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:AbuDhabiSettlementDay ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"AEAD" .
 
@@ -523,17 +517,17 @@ fibo-fbc-fct-bci:BOLP
 fibo-fbc-fct-bci:BRBD
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
-	dct:description	"the FpML business center code for Brazil Business Day. This means a business day in any of Sao Paulo, Rio de Janeiro or Brasilia not otherwise declared as a financial market holiday by the Bolsa de Mercadorias & Futuros (BM&F)" , "the FpML business center code for Brazil Business Day." ;
-	lcc-lr:denotes	fibo-fbc-fct-bci: , fibo-fbc-fct-bci:BrazilBusinessDay ;
+	dct:description	"the FpML business center code for Brazil Business Day. This means a business day in any of Sao Paulo, Rio de Janeiro or Brasilia not otherwise declared as a financial market holiday by the Bolsa de Mercadorias & Futuros (BM&F)" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:BrazilBusinessDay ;
 	lcc-lr:hasTag	"BRBD" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci: , fibo-fbc-fct-bci:BrazilBusinessDay ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:BrazilBusinessDay ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"BRBD" .
 
 fibo-fbc-fct-bci:BRBR
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	owl:NamedIndividual ;
-	dct:description	"the FpML business center code for Brasilia, Brazil" , "the FpML business center code for Brasilia, Brazil." ;
+	dct:description	"the FpML business center code for Brasilia, Brazil" ;
 	lcc-lr:denotes	fibo-fbc-fct-bci:Brasilia ;
 	lcc-lr:hasTag	"BRBR" ;
 	lcc-lr:identifies	fibo-fbc-fct-bci:Brasilia ;
@@ -543,7 +537,7 @@ fibo-fbc-fct-bci:BRBR
 fibo-fbc-fct-bci:BRRJ
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	owl:NamedIndividual ;
-	dct:description	"the FpML business center code for Rio de Janeiro, Brazil" , "the FpML business center code for Rio de Janeiro, Brazil." ;
+	dct:description	"the FpML business center code for Rio de Janeiro, Brazil" ;
 	lcc-lr:denotes	fibo-fbc-fct-bci:Rio_de_Janeiro ;
 	lcc-lr:hasTag	"BRRJ" ;
 	lcc-lr:identifies	fibo-fbc-fct-bci:Rio_de_Janeiro ;
@@ -553,7 +547,7 @@ fibo-fbc-fct-bci:BRRJ
 fibo-fbc-fct-bci:BRSP
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	owl:NamedIndividual ;
-	dct:description	"the FpML business center code for Sao Paulo, Brazil" , "the FpML business center code for Sao Paulo, Brazil." ;
+	dct:description	"the FpML business center code for Sao Paulo, Brazil" ;
 	lcc-lr:denotes	fibo-fbc-fct-bci:Sao_Paulo ;
 	lcc-lr:hasTag	"BRSP" ;
 	lcc-lr:identifies	fibo-fbc-fct-bci:Sao_Paulo ;
@@ -1324,9 +1318,9 @@ fibo-fbc-fct-bci:DEDU
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	owl:NamedIndividual ;
 	dct:description	"the FpML business center code for Dusseldorf, Germany" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci:Duesseldorf , fibo-fbc-fct-bci:Dusseldorf ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Duesseldorf ;
 	lcc-lr:hasTag	"DEDU" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci:Duesseldorf , fibo-fbc-fct-bci:Dusseldorf ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Duesseldorf ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"DEDU" .
 
@@ -1571,12 +1565,7 @@ fibo-fbc-fct-bci:Duesseldorf
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 fibo-fbc-fct-bci:Dusseldorf
-	a	fibo-fnd-plc-loc:BusinessCenter ;
-	a	owl:NamedIndividual ;
-	dct:description	"the international business center of Dusseldorf" ;
-	lcc-cr:isPartOf	lcc-3166-1-adj:DE ;
-	owl:sameAs	fibo-fbc-fct-bci:Duesseldorf ;
-	rdfs:label	"Dusseldorf" .
+	owl:sameAs	fibo-fbc-fct-bci:Duesseldorf .
 
 fibo-fbc-fct-bci:EETA
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -1602,9 +1591,9 @@ fibo-fbc-fct-bci:ESAS
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
 	dct:description	"the FpML business center code for ESAS Settlement Day (as defined in 2006 ISDA Definitions Section 7.1 and Supplement Number 15 to the 2000 ISDA Definitions)" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci: , fibo-fbc-fct-bci:ESASSettlementDay ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:ESASSettlementDay ;
 	lcc-lr:hasTag	"ESAS" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci: , fibo-fbc-fct-bci:ESASSettlementDay ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:ESASSettlementDay ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"ESAS" .
 
@@ -1660,19 +1649,17 @@ fibo-fbc-fct-bci:EUR-ICESWAP
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	owl:NamedIndividual ;
 	dct:description	"the FpML business center code for Publication dates for ICE Swap rates based on EUR-EURIBOR rates" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci: ;
 	lcc-lr:hasTag	"EUR-ICESWAP" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci: ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"EUR-ICESWAP" .
 
 fibo-fbc-fct-bci:EUTA
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
-	dct:description	"the FpML business center code for TARGET (euro 'Business Center')" , "the FpML business center code for TARGET Settlement Day" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci: , fibo-fbc-fct-bci:TARGETSettlementDay ;
+	dct:description	"the FpML business center code for TARGET (euro 'Business Center')" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:TARGETSettlementDay ;
 	lcc-lr:hasTag	"EUTA" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci: , fibo-fbc-fct-bci:TARGETSettlementDay ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:TARGETSettlementDay ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"EUTA" .
 
@@ -1839,9 +1826,7 @@ fibo-fbc-fct-bci:GBP-ICESWAP
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	owl:NamedIndividual ;
 	dct:description	"the FpML business center code for Publication dates for GBP ICE Swap rates" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci: ;
 	lcc-lr:hasTag	"GBP-ICESWAP" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci: ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"GBP-ICESWAP" .
 
@@ -2251,9 +2236,7 @@ fibo-fbc-fct-bci:ILS-TELBOR
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	owl:NamedIndividual ;
 	dct:description	"the FpML business center code for Publication dates of the ILS-TELBOR index." ;
-	lcc-lr:denotes	fibo-fbc-fct-bci: ;
 	lcc-lr:hasTag	"ILS-TELBOR" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci: ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"ILS-TELBOR" .
 
@@ -2642,12 +2625,7 @@ fibo-fbc-fct-bci:Kiel
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 fibo-fbc-fct-bci:Kiev
-	a	fibo-fnd-plc-loc:BusinessCenter ;
-	a	owl:NamedIndividual ;
-	dct:description	"the international business center of Kiev" ;
-	lcc-cr:isPartOf	lcc-3166-1-adj:UA ;
-	owl:sameAs	fibo-fbc-fct-bci:Kyiv ;
-	rdfs:label	"Kiev" .
+	owl:sameAs	fibo-fbc-fct-bci:Kyiv .
 
 fibo-fbc-fct-bci:Kigali
 	a	fibo-fnd-plc-loc:Municipality ;
@@ -2706,6 +2684,15 @@ fibo-fbc-fct-bci:Kongsvinger
 	rdfs:label	"Kongsvinger" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Kongsvinger> , <http://sws.geonames.org/3149533/> , unlcd:NOKSV , wd:Q12912940 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Oslo> .
+
+fibo-fbc-fct-bci:Krakow
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Krakow" ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:PL ;
+	rdfs:label	"Krakow" ;
+	skos:closeMatch	<http://dbpedia.org/resource/Krak%C3%B3w> , <http://sws.geonames.org/3094802/> , unlcd:PLKRK , wd:Q31487 ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Warsaw> .
 
 fibo-fbc-fct-bci:Kuala_Lumpur
 	a	fibo-fnd-plc-loc:BusinessCenter ;
@@ -3018,9 +3005,9 @@ fibo-fbc-fct-bci:MNUB
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	owl:NamedIndividual ;
 	dct:description	"the FpML business center code for Ulan Bator, Mongolia" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci:Ulaanbaatar , fibo-fbc-fct-bci:Ulan_Bator ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Ulaanbaatar ;
 	lcc-lr:hasTag	"MNUB" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci:Ulaanbaatar , fibo-fbc-fct-bci:Ulan_Bator ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Ulaanbaatar ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"MNUB" .
 
@@ -3145,12 +3132,7 @@ fibo-fbc-fct-bci:Mainz
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 fibo-fbc-fct-bci:Makati
-	a	fibo-fnd-plc-loc:BusinessCenter ;
-	a	owl:NamedIndividual ;
-	dct:description	"the international business center of Makati" ;
-	lcc-cr:isPartOf	lcc-3166-1-adj:PH ;
-	owl:sameAs	fibo-fbc-fct-bci:Makati_City ;
-	rdfs:label	"Makati" .
+	owl:sameAs	fibo-fbc-fct-bci:Makati_City .
 
 fibo-fbc-fct-bci:Makati_City
 	a	fibo-fnd-plc-loc:BusinessCenter ;
@@ -3455,9 +3437,9 @@ fibo-fbc-fct-bci:NYFD
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
 	dct:description	"the FpML business center code for New York Fed Business Day (as defined in 2006 ISDA Definitions Section 1.9 and 2000 ISDA Definitions Section 1.9)" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci: , fibo-fbc-fct-bci:NewYorkFederalReserveBusinessDay ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:NewYorkFederalReserveBusinessDay ;
 	lcc-lr:hasTag	"NYFD" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci: , fibo-fbc-fct-bci:NewYorkFederalReserveBusinessDay ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:NewYorkFederalReserveBusinessDay ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"NYFD" .
 
@@ -3465,9 +3447,9 @@ fibo-fbc-fct-bci:NYSE
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
 	dct:description	"the FpML business center code for New York Stock Exchange Business Day (as defined in 2006 ISDA Definitions Section 1.10 and 2000 ISDA Definitions Section 1.10)" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci: , fibo-fbc-fct-bci:NewYorkStockExchangeBusinessDay ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:NewYorkStockExchangeBusinessDay ;
 	lcc-lr:hasTag	"NYSE" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci: , fibo-fbc-fct-bci:NewYorkStockExchangeBusinessDay ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:NewYorkStockExchangeBusinessDay ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"NYSE" .
 
@@ -3728,7 +3710,7 @@ fibo-fbc-fct-bci:PHMK
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	owl:NamedIndividual ;
 	dct:description	"the FpML business center code for Makati, Philippines" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci:Makati , fibo-fbc-fct-bci:Makati_City ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Makati_City ;
 	lcc-lr:hasTag	"PHMK" ;
 	lcc-lr:identifies	fibo-fbc-fct-bci:Makati ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
@@ -4736,12 +4718,7 @@ fibo-fbc-fct-bci:Tegucigalpa
 	time:timeZone	<http://dbpedia.org/resource/America/Tegucigalpa> .
 
 fibo-fbc-fct-bci:Teheran
-	a	fibo-fnd-plc-loc:BusinessCenter ;
-	a	owl:NamedIndividual ;
-	dct:description	"the international business center of Teheran" ;
-	lcc-cr:isPartOf	lcc-3166-1-adj:IR ;
-	owl:sameAs	fibo-fbc-fct-bci:Tehran ;
-	rdfs:label	"Teheran" .
+	owl:sameAs	fibo-fbc-fct-bci:Tehran .
 
 fibo-fbc-fct-bci:Tehran
 	a	fibo-fnd-plc-loc:BusinessCenter ;
@@ -4923,9 +4900,7 @@ fibo-fbc-fct-bci:USD-ICESWAP
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	owl:NamedIndividual ;
 	dct:description	"the FpML business center code for Publication dates for ICE Swap rates based on USD-LIBOR rates" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci: ;
 	lcc-lr:hasTag	"USD-ICESWAP" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci: ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"USD-ICESWAP" .
 
@@ -4933,9 +4908,7 @@ fibo-fbc-fct-bci:USD-MUNI
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	owl:NamedIndividual ;
 	dct:description	"the FpML business center code for Publication dates for the USD-Municipal Swap Index" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci: ;
 	lcc-lr:hasTag	"USD-MUNI" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci: ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"USD-MUNI" .
 
@@ -4973,9 +4946,9 @@ fibo-fbc-fct-bci:USGS
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
 	dct:description	"the FpML business center code for U.S. Government Securities Business Day (as defined in 2006 ISDA Definitions Section 1.11 and 2000 ISDA Definitions Section 1.11)" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci: , fibo-fbc-fct-bci:USGovernmentSecuritiesBusinessDay ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:USGovernmentSecuritiesBusinessDay ;
 	lcc-lr:hasTag	"USGS" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci: , fibo-fbc-fct-bci:USGovernmentSecuritiesBusinessDay ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:USGovernmentSecuritiesBusinessDay ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"USGS" .
 
@@ -5129,12 +5102,7 @@ fibo-fbc-fct-bci:Ulaanbaatar
 	time:timeZone	<http://dbpedia.org/resource/Asia/Ulaanbaatar> .
 
 fibo-fbc-fct-bci:Ulan_Bator
-	a	fibo-fnd-plc-loc:BusinessCenter ;
-	a	owl:NamedIndividual ;
-	dct:description	"the international business center of Ulan Bator" ;
-	lcc-cr:isPartOf	lcc-3166-1-adj:MN ;
-	owl:sameAs	fibo-fbc-fct-bci:Ulaanbaatar ;
-	rdfs:label	"Ulan Bator" .
+	owl:sameAs	fibo-fbc-fct-bci:Ulaanbaatar .
 
 fibo-fbc-fct-bci:Unterschleissheim
 	a	fibo-fnd-plc-loc:Municipality ;
@@ -5186,9 +5154,9 @@ fibo-fbc-fct-bci:VNHC
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	owl:NamedIndividual ;
 	dct:description	"the FpML business center code for Ho Chi Minh (formerly Saigon), Vietnam" ;
-	lcc-lr:denotes	<https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/Ho_Chi_Minh_(formerly_Saigon)> , fibo-fbc-fct-bci:Ho_Chi_Minh ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Ho_Chi_Minh_City ;
 	lcc-lr:hasTag	"VNHC" ;
-	lcc-lr:identifies	<https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/Ho_Chi_Minh_(formerly_Saigon)> , fibo-fbc-fct-bci:Ho_Chi_Minh ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Ho_Chi_Minh_City ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"VNHC" .
 
@@ -5373,6 +5341,15 @@ fibo-fbc-fct-bci:Winnipeg
 	rdfs:label	"Winnipeg" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Winnipeg> , <http://sws.geonames.org/6183235/> , unlcd:CAWNP , wd:Q2135 ;
 	time:timeZone	<http://dbpedia.org/resource/America/Winnipeg> .
+
+fibo-fbc-fct-bci:Winter_Park
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	owl:NamedIndividual ;
+	dct:description	"the international business center of Winter Park" ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:US ;
+	rdfs:label	"Winter Park" ;
+	skos:closeMatch	<http://dbpedia.org/resource/Winter_Park,_Florida> , <http://sws.geonames.org/4178560/> , unlcd:USWPK , wd:Q986641 ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 fibo-fbc-fct-bci:Wroclaw
 	a	fibo-fnd-plc-loc:Municipality ;

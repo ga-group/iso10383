@@ -672,6 +672,10 @@ fibo-fbc-fct-bci:Kongsvinger
 	skos:closeMatch	<http://dbpedia.org/resource/Kongsvinger> ;
 	skos:closeMatch	<http://sws.geonames.org/3149533/> , unlcd:NOKSV , wd:Q12912940 .
 
+fibo-fbc-fct-bci:Krakow
+	skos:closeMatch	<http://dbpedia.org/resource/Krak%C3%B3w> ;
+	skos:closeMatch	<http://sws.geonames.org/3094802/> , unlcd:PLKRK , wd:Q31487 .
+
 fibo-fbc-fct-bci:Kuala_Lumpur
 	skos:closeMatch	<http://dbpedia.org/resource/Kuala_Lumpur> ;
 	skos:closeMatch	<http://sws.geonames.org/1735161/> , unlcd:MYKUL , wd:Q1865 .
@@ -1475,6 +1479,10 @@ fibo-fbc-fct-bci:Windhoek
 fibo-fbc-fct-bci:Winnipeg
 	skos:closeMatch	<http://dbpedia.org/resource/Winnipeg> ;
 	skos:closeMatch	<http://sws.geonames.org/6183235/> , unlcd:CAWNP , wd:Q2135 .
+
+fibo-fbc-fct-bci:Winter_Park
+	skos:closeMatch	<http://dbpedia.org/resource/Winter_Park,_Florida> ;
+	skos:closeMatch	<http://sws.geonames.org/4178560/> , unlcd:USWPK , wd:Q986641 .
 
 fibo-fbc-fct-bci:Wroclaw
 	skos:closeMatch	<http://dbpedia.org/resource/Wroc%C5%82aw> ;
