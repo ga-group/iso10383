@@ -42,7 +42,6 @@ This set of business centers is current with respect to the FpML published XML d
 	sm:fileAbbreviation	"fibo-fbc-fct-bci" ;
 	sm:filename	"BusinessCentersIndividuals.ttl" .
 
-
 fibo-fbc-fct-bci:AEAB
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;

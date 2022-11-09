@@ -6939,6 +6939,21 @@ fibo-fbc-fct-mkti:Exchange-CXAF
 	skos:note	"CBOE AUSTRALIA MARKET PEG (FARPOINT) VENUE." ;
 	tempo:validFrom	"2022-02-28"^^xsd:date .
 
+fibo-fbc-fct-mkti:Exchange-CXAI
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
+	a	owl:NamedIndividual ;
+	dbo:formerName	"CBOE AUSTRALIA - BIDS PRICE IMPROVEMENT VENUE" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"CXA BIDS BIDS TWPI" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"CBOE AUSTRALIA - BIDS PRICE IMPROVEMENT VENUE" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
+	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CHIA ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.cboe.com.au"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-529900RLNSGA90UPEH54-LEI ;
+	rdfs:label	"CBOE AUSTRALIA - BIDS PRICE IMPROVEMENT VENUE" ;
+	skos:note	"CBOE AUSTRALIA LARGE IN SCALE BIDS VENUE - TRADES WITH PRICE IMPROVEMENT." ;
+	tempo:validFrom	"2022-10-24"^^xsd:date .
+
 fibo-fbc-fct-mkti:Exchange-CXAM
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
@@ -7047,21 +7062,6 @@ fibo-fbc-fct-mkti:Exchange-CXAW
 	skos:closeMatch	wd:Q107188628 ;
 	skos:note	"CBOE AUSTRALIA WARRANTS." ;
 	tempo:validFrom	"2022-02-28"^^xsd:date .
-
-fibo-fbc-fct-mkti:Exchange-CXIB
-	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
-	a	owl:NamedIndividual ;
-	dbo:formerName	"CBOE AUSTRALIA - BIDS PRICE IMPROVEMENT VENUE" ;
-	fibo-fbc-fct-mkt:hasExchangeAcronym	"CXA BIDS BIDS TWPI" ;
-	fibo-fbc-fct-mkt:hasExchangeName	"CBOE AUSTRALIA - BIDS PRICE IMPROVEMENT VENUE" ;
-	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:AU ;
-	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Sydney ;
-	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-CHIA ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://www.cboe.com.au"^^xsd:anyURI ;
-	lcc-lr:isIdentifiedBy	gleif:L-529900RLNSGA90UPEH54-LEI ;
-	rdfs:label	"CBOE AUSTRALIA - BIDS PRICE IMPROVEMENT VENUE" ;
-	skos:note	"CBOE AUSTRALIA LARGE IN SCALE BIDS VENUE - TRADES WITH PRICE IMPROVEMENT." ;
-	tempo:validFrom	"2022-10-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CXOT
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -41182,6 +41182,18 @@ fibo-fbc-fct-mkti:MIC-CXAF
 	rdfs:label	"CBOE AUSTRALIA MARKET PEG (FARPOINT) VENUE market segment-level market identifier" ;
 	tempo:validFrom	"2014-05-26"^^xsd:date .
 
+fibo-fbc-fct-mkti:MIC-CXAI
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2022-10-24"^^xsd:date ;
+	dct:modified	"2022-10-24"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"CXAI" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CXAI ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"CBOE AUSTRALIA - BIDS PRICE IMPROVEMENT VENUE market segment-level market identifier" ;
+	tempo:validFrom	"2022-10-24"^^xsd:date .
+
 fibo-fbc-fct-mkti:MIC-CXAM
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
@@ -41265,18 +41277,6 @@ fibo-fbc-fct-mkti:MIC-CXAW
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"CBOE AUSTRALIA - WARRANTS market segment-level market identifier" ;
 	tempo:validFrom	"2015-11-23"^^xsd:date .
-
-fibo-fbc-fct-mkti:MIC-CXIB
-	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
-	a	owl:NamedIndividual ;
-	dct:created	"2022-10-24"^^xsd:date ;
-	dct:modified	"2022-10-24"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
-	lcc-lr:hasTag	"CXIB" ;
-	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CXIB ;
-	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
-	rdfs:label	"CBOE AUSTRALIA - BIDS PRICE IMPROVEMENT VENUE market segment-level market identifier" ;
-	tempo:validFrom	"2022-10-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-CXOT
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
