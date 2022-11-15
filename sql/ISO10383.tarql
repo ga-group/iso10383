@@ -23,15 +23,15 @@ CONSTRUCT {
 		a	?ex_opsg ;
 		a	?_fsp ;
 		a	owl:NamedIndividual ;
-		dbo:formerName	?NAME_INSTITUTION_DESCRIPTION ;
-		fibo-fbc-fct-mkt:hasExchangeName	?NAME_INSTITUTION_DESCRIPTION ;
+		dbo:formerName	?_name ;
+		fibo-fbc-fct-mkt:hasExchangeName	?_name ;
 		fibo-fbc-fct-mkt:hasExchangeAcronym	?ACRONYM ;
 		fibo-fnd-plc-vrt:hasWebsite	?_web ;
 		fibo-fbc-fct-mkt:operatesInCountry ?_iso ;
 		fibo-fbc-fct-mkt:operatesInMunicipality ?_mun ;
 		fibo-fnd-arr-arr:isConstituentOf	?sgop ;
 		lcc-lr:isIdentifiedBy ?_lei ;
-		rdfs:label	?NAME_INSTITUTION_DESCRIPTION ;
+		rdfs:label	?_name ;
 		skos:note	?COMMENTS ;
 		tempo:validFrom	?_from ;
 		tempo:validTill ?_expd .
@@ -58,6 +58,8 @@ WHERE {
 	BIND(URI(CONCAT(STR(fibo-fbc-fct-bci:), REPLACE(?CITY, " ", "_"))) AS ?_mun)
 	BIND(URI(CONCAT(STR(gleif:), 'L-', ?LEI, '-LEI')) AS ?_lei)
 
+	BIND(COALESCE(?MARKET_NAME_INSTITUTION_DESCRIPTION, ?NAME_INSTITUTION_DESCRIPTION) AS ?_name)
+
 	VALUES (?OPRT_SGMT ?ex_opsg) {
 		("OPRT" fibo-fbc-fct-mkt:OperatingLevelMarket)
 		("SGMT" fibo-fbc-fct-mkt:MarketSegmentLevelMarket)
@@ -74,16 +76,18 @@ WHERE {
 		("OPRT" ' operating-level market identifier')
 		("SGMT" ' market segment-level market identifier')
 	}
-	BIND(CONCAT(?NAME_INSTITUTION_DESCRIPTION, ?_miclblapdx) AS ?_miclbl)
+	BIND(CONCAT(?_name, ?_miclblapdx) AS ?_miclbl)
 
 	VALUES (?STATUS ?_status) {
 		("ACTIVE" fibo-fbc-fct-mkt:ActiveMICStatus)
 		("DELETED" fibo-fbc-fct-mkt:DeletedMICStatus)
 		("MODIFIED" fibo-fbc-fct-mkt:ModifiedMICStatus)
+		("UPDATED" fibo-fbc-fct-mkt:ModifiedMICStatus)
+		("EXPIRED" fibo-fbc-fct-mkt:DeletedMICStatus)
 	}
 
-	BIND(COALESCE(?MARKET_CAT_CODE, "NSPD") AS ?_MARKET_CAT_CODE)
-	VALUES (?_MARKET_CAT_CODE ?_adty) {
+	BIND(COALESCE(?MARKET_CATEGORY_CODE, ?MARKET_CAT_CODE, "NSPD") AS ?_mktcat)
+	VALUES (?_mktcat ?_adty) {
 		("APPA" undef)
 		("ATSS" fibo-fbc-fct-mkt:AlternativeTradingSystem)
 		("CASP" undef)
@@ -101,8 +105,9 @@ WHERE {
 	}
 
 	BIND(xsd:anyURI(?WEBSITE) AS ?_web)
-	BIND(xsd:date(?CREATION_ISO_DATE) AS ?_crea)
-	BIND(xsd:date(?MODIF_ISO_DATE) AS ?_modf)
+	BIND(xsd:date(COALESCE(?CREATION_DATE, ?CREATION_ISO_DATE)) AS ?_crea)
+	BIND(xsd:date(COALESCE(?LAST_UPDATE_DATE, ?MODIF_ISO_DATE)) AS ?_modf)
+	BIND(xsd:date(COALESCE(?LAST_VALIDATION_DATE, ?LAST_VALIDATION_MONTH)) AS ?_refr)
 	BIND(IF(!BOUND(?EXPIRY_DATE), COALESCE(?_modf, ?_crea), ?_crea) AS ?_from)
 	BIND(xsd:date(?EXPIRY_DATE) AS ?_expd)
 }
