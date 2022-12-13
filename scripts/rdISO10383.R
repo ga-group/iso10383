@@ -63,9 +63,25 @@ if (sys.nframe() == 0L) {
 
 	if (hasName(x, "CREATION-ISO DATE")) {
 		x[grepl("^[0-9]{8}", `CREATION-ISO DATE`), `CREATION-ISO DATE`:=as.character(as.IDate(`CREATION-ISO DATE`, format="%Y%m%d"))]
+	}
+	if (hasName(x, "MODIF-ISO DATE")) {
 		x[grepl("^[0-9]{8}", `MODIF-ISO DATE`), `MODIF-ISO DATE`:=as.character(as.IDate(`MODIF-ISO DATE`, format="%Y%m%d"))]
+	}
+	if (hasName(x, "CREATION DATE")) {
+		x[grepl("^[0-9]{8}", `CREATION DATE`), `CREATION DATE`:=as.character(as.IDate(`CREATION DATE`, format="%Y%m%d"))]
+	}
+	if (hasName(x, "LAST UPDATE DATE")) {
+		x[grepl("^[0-9]{8}", `LAST UPDATE DATE`), `LAST UPDATE DATE`:=as.character(as.IDate(`LAST UPDATE DATE`, format="%Y%m%d"))]
+	}
+	if (hasName(x, "LAST VALIDATION MONTH")) {
 		x[grepl("^[0-9]{8}", `LAST VALIDATION MONTH`), `LAST VALIDATION MONTH`:=as.character(as.IDate(`LAST VALIDATION MONTH`, format="%Y%m%d"))]
+	}
+	if (hasName(x, "LAST VALIDATION DATE")) {
+		x[grepl("^[0-9]{8}", `LAST VALIDATION DATE`), `LAST VALIDATION DATE`:=as.character(as.IDate(`LAST VALIDATION DATE`, format="%Y%m%d"))]
+	}
+	if (hasName(x, "EXPIRY DATE")) {
 		x[grepl("^[0-9]{8}", `EXPIRY DATE`), `EXPIRY DATE`:=as.character(as.IDate(`EXPIRY DATE`, format="%Y%m%d"))]
 	}
+
 	fwrite(x, outf, na="", sep='\t', quote=FALSE)
 }
