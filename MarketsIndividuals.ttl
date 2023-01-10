@@ -29,7 +29,7 @@
 This set of markets and MIC codes is current with respect to the published ISO 10383 data as of the dct:modified date."""@en ;
 	dct:issued	"2022-05-31T02:25:19Z"^^xsd:dateTime ;
 	dct:license	"http://opensource.org/licenses/MIT"^^xsd:anyURI ;
-	dct:modified	"2022-12-13T13:20:00Z"^^xsd:dateTime ;
+	dct:modified	"2023-01-10T13:20:00Z"^^xsd:dateTime ;
 	dct:source	"https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.xml"^^xsd:anyURI ;
 	fibo-fnd-utl-av:hasMaturityLevel	fibo-fnd-utl-av:Release ;
 	owl:imports	<https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/> , <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/> , <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/> , <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Places/VirtualPlaces/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> , <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> , <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> ;
@@ -1069,6 +1069,20 @@ fibo-fbc-fct-mkti:Exchange-ARCX
 	rdfs:label	"NYSE ARCA" ;
 	skos:closeMatch	wd:Q10593835 ;
 	tempo:validFrom	"2006-09-25"^^xsd:date .
+
+fibo-fbc-fct-mkti:Exchange-ARDA
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
+	a	owl:NamedIndividual ;
+	dbo:formerName	"ARCHAX - DIGITAL ASSETS" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"ARCHAX - DIGITAL ASSETS" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
+	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-ARCH ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.archax.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-8755004G4UQX5BQOU260-LEI ;
+	rdfs:label	"ARCHAX - DIGITAL ASSETS" ;
+	skos:note	"ALTERNATIVE TRADING FACILITY FOR DIGITAL ASSETS." ;
+	tempo:validFrom	"2023-01-23"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-AREX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
@@ -4610,6 +4624,18 @@ fibo-fbc-fct-mkti:Exchange-CASI
 	skos:note	"SYSTEMATIC INTERNALISER." ;
 	tempo:validFrom	"2017-11-27"^^xsd:date .
 
+fibo-fbc-fct-mkti:Exchange-CAST
+	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
+	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
+	dbo:formerName	"FORECASTEX, LLC" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"FORECASTEX, LLC" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Chicago ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.4castex.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-2549001HQ7OKKPL03I86-LEI ;
+	rdfs:label	"FORECASTEX, LLC" ;
+	tempo:validFrom	"2023-01-23"^^xsd:date .
+
 fibo-fbc-fct-mkti:Exchange-CATS
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
@@ -7293,7 +7319,7 @@ fibo-fbc-fct-mkti:Exchange-DASI
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:DK ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Copenhagen ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.danskebank.dk"^^xsd:anyURI ;
-	lcc-lr:isIdentifiedBy	gleif:L-549300JECLPX13NZLU57-LEI ;
+	lcc-lr:isIdentifiedBy	gleif:L-MAES062Z21O4RZ2U7M96-LEI ;
 	rdfs:label	"DANSKE BANK A/S" ;
 	skos:closeMatch	wd:Q93356501 ;
 	skos:note	"SYSTEMATIC INTERNALISER." ;
@@ -7449,7 +7475,6 @@ fibo-fbc-fct-mkti:Exchange-DBIX
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.db.com"^^xsd:anyURI ;
-	lcc-lr:isIdentifiedBy	gleif:L-7LTWFZYICNSX8D621K86-LEI ;
 	rdfs:label	"DEUTSCHE BANK AG - LONDON" ;
 	skos:closeMatch	wd:Q93360878 ;
 	tempo:validFrom	"2014-10-27"^^xsd:date ;
@@ -16098,16 +16123,16 @@ fibo-fbc-fct-mkti:Exchange-LMAE
 fibo-fbc-fct-mkti:Exchange-LMAF
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"LMAX - FX" ;
-	fibo-fbc-fct-mkt:hasExchangeName	"LMAX - FX" ;
+	dbo:formerName	"LMAX - FX - CASH-SETTLED DERIVATIVES" , "LMAX - FX" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"LMAX - FX - CASH-SETTLED DERIVATIVES" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:GB ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:London ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-LMAX ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://www.lmax.com"^^xsd:anyURI ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.lmax.com"^^xsd:anyURI , "http://www.lmax.com/exchange"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-21380034TU2TI8CNZ578-LEI ;
-	rdfs:label	"LMAX - FX" ;
+	rdfs:label	"LMAX - FX - CASH-SETTLED DERIVATIVES" ;
 	skos:closeMatch	wd:Q107188512 ;
-	skos:note	"FSA REGULATED MTF FOR RETAIL CLIENTS TO TRADE CFDS UNDERLYINGS IN MULTIPLE ASSETS CLASSES INCLUDING FX." ;
+	skos:note	"REGULATED MTF FOR CFDS IN MULTIPLE ASSETS CLASSES INCLUDING FX AND CASH-SETTLED DERIVATIVES." ;
 	tempo:validFrom	"2010-01-25"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-LMAO
@@ -32131,7 +32156,7 @@ fibo-fbc-fct-mkti:Exchange-XMAI
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.set.or.th"^^xsd:anyURI ;
 	rdfs:label	"MARKET FOR ALTERNATIVE INVESTMENT" ;
 	skos:closeMatch	wd:Q6578261 ;
-	skos:note	"THE MAI’S PURPOSE IS TO CREATE NEW FUND-RAISING OPPORTUNITIES FOR INNOVATIVE BUSINESS WITH HIGH POTENTIAL GROWTH AS WELL AS PROVIDE A GREATER RANGE OF INVESTMENT ALTERNATIVES." ;
+	skos:note	"THE MAI'S PURPOSE IS TO CREATE NEW FUND-RAISING OPPORTUNITIES FOR INNOVATIVE BUSINESS WITH HIGH POTENTIAL GROWTH AS WELL AS PROVIDE A GREATER RANGE OF INVESTMENT ALTERNATIVES." ;
 	tempo:validFrom	"2011-04-25"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-XMAL
@@ -36764,7 +36789,7 @@ fibo-fbc-fct-mkti:MIC-AQSF
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2022-09-26"^^xsd:date ;
-	dct:modified	"2022-09-26"^^xsd:date ;
+	dct:modified	"2022-09-26"^^xsd:date , "2023-01-23"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"AQSF" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-AQSF ;
@@ -36776,7 +36801,7 @@ fibo-fbc-fct-mkti:MIC-AQSG
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2022-09-26"^^xsd:date ;
-	dct:modified	"2022-09-26"^^xsd:date ;
+	dct:modified	"2022-09-26"^^xsd:date , "2023-01-23"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"AQSG" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-AQSG ;
@@ -36800,7 +36825,7 @@ fibo-fbc-fct-mkti:MIC-AQSN
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2022-09-26"^^xsd:date ;
-	dct:modified	"2022-09-26"^^xsd:date ;
+	dct:modified	"2022-09-26"^^xsd:date , "2023-01-23"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"AQSN" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-AQSN ;
@@ -36812,7 +36837,7 @@ fibo-fbc-fct-mkti:MIC-AQST
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2022-09-26"^^xsd:date ;
-	dct:modified	"2022-09-26"^^xsd:date ;
+	dct:modified	"2022-09-26"^^xsd:date , "2023-01-23"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"AQST" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-AQST ;
@@ -36837,7 +36862,7 @@ fibo-fbc-fct-mkti:MIC-AQXA
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2018-03-26"^^xsd:date ;
-	dct:modified	"2019-02-25"^^xsd:date ;
+	dct:modified	"2019-02-25"^^xsd:date , "2023-01-23"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"AQXA" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-AQXA ;
@@ -36861,7 +36886,7 @@ fibo-fbc-fct-mkti:MIC-AQXE
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2013-07-22"^^xsd:date ;
-	dct:modified	"2019-02-25"^^xsd:date ;
+	dct:modified	"2019-02-25"^^xsd:date , "2023-01-23"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"AQXE" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-AQXE ;
@@ -36897,7 +36922,7 @@ fibo-fbc-fct-mkti:MIC-ARCH
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2019-05-27"^^xsd:date ;
-	dct:modified	"2019-05-27"^^xsd:date ;
+	dct:modified	"2019-05-27"^^xsd:date , "2023-01-23"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"ARCH" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-ARCH ;
@@ -36928,6 +36953,18 @@ fibo-fbc-fct-mkti:MIC-ARCX
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"NYSE ARCA market segment-level market identifier" ;
 	tempo:validFrom	"2006-09-25"^^xsd:date .
+
+fibo-fbc-fct-mkti:MIC-ARDA
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2023-01-23"^^xsd:date ;
+	dct:modified	"2023-01-23"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"ARDA" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-ARDA ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"ARCHAX - DIGITAL ASSETS market segment-level market identifier" ;
+	tempo:validFrom	"2023-01-23"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-AREX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
@@ -39927,6 +39964,18 @@ fibo-fbc-fct-mkti:MIC-CASI
 	rdfs:label	"CARNEGIE INVESTMENT BANK AB operating-level market identifier" ;
 	tempo:validFrom	"2017-11-27"^^xsd:date .
 
+fibo-fbc-fct-mkti:MIC-CAST
+	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2023-01-23"^^xsd:date ;
+	dct:modified	"2023-01-23"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"CAST" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CAST ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"FORECASTEX, LLC operating-level market identifier" ;
+	tempo:validFrom	"2023-01-23"^^xsd:date .
+
 fibo-fbc-fct-mkti:MIC-CATS
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
@@ -42197,7 +42246,7 @@ fibo-fbc-fct-mkti:MIC-DASI
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2017-03-27"^^xsd:date ;
-	dct:modified	"2017-03-27"^^xsd:date ;
+	dct:modified	"2017-03-27"^^xsd:date , "2023-01-23"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"DASI" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-DASI ;
@@ -43376,7 +43425,7 @@ fibo-fbc-fct-mkti:MIC-EIXE
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2019-03-25"^^xsd:date ;
-	dct:modified	"2020-12-28"^^xsd:date ;
+	dct:modified	"2020-12-28"^^xsd:date , "2023-01-23"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"EIXE" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-EIXE ;
@@ -49611,12 +49660,12 @@ fibo-fbc-fct-mkti:MIC-LMAF
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2010-01-25"^^xsd:date ;
-	dct:modified	"2010-01-25"^^xsd:date ;
+	dct:modified	"2010-01-25"^^xsd:date , "2023-01-23"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"LMAF" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-LMAF ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
-	rdfs:label	"LMAX - FX market segment-level market identifier" ;
+	rdfs:label	"LMAX - FX - CASH-SETTLED DERIVATIVES market segment-level market identifier" ;
 	tempo:validFrom	"2010-01-25"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-LMAO
