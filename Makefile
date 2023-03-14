@@ -12,7 +12,7 @@ TODAY := $(shell dateconv today)
 download: download/ISO10383_MIC_$(TODAY).xlsx
 
 download/ISO10383_MIC_$(TODAY).xlsx:
-	curl -L -o $@ 'https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC_NewFormat.xlsx'
+	curl -L -o $@ 'https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.xlsx'
 	if diff -q $@ download/ISO10383_MIC_latest.xlsx; then \
 		$(RM) $@; \
 	else; \
