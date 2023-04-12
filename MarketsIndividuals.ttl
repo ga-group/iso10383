@@ -29,7 +29,7 @@
 This set of markets and MIC codes is current with respect to the published ISO 10383 data as of the dct:modified date."""@en ;
 	dct:issued	"2022-05-31T02:25:19Z"^^xsd:dateTime ;
 	dct:license	"http://opensource.org/licenses/MIT"^^xsd:anyURI ;
-	dct:modified	"2023-03-14T13:20:00Z"^^xsd:dateTime ;
+	dct:modified	"2023-04-12T13:20:00Z"^^xsd:dateTime ;
 	dct:source	"https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.xml"^^xsd:anyURI ;
 	fibo-fnd-utl-av:hasMaturityLevel	fibo-fnd-utl-av:Release ;
 	owl:imports	<https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/> , <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/> , <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/> , <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Places/VirtualPlaces/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> , <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> , <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> ;
@@ -305,6 +305,19 @@ fibo-fbc-fct-mkti:Exchange-ACXL
 	lcc-lr:isIdentifiedBy	gleif:L-984500FA44A07RE3D049-LEI ;
 	rdfs:label	"ACX" ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
+
+fibo-fbc-fct-mkti:Exchange-ADRK
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
+	a	owl:NamedIndividual ;
+	dbo:formerName	"ALPHA DRK" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"ALPHA DRK" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:CA ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Toronto ;
+	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XATS ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.tmx.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-549300N65GFVKSHGJW59-LEI ;
+	rdfs:label	"ALPHA DRK" ;
+	tempo:validFrom	"2023-04-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-ADVT
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
@@ -5445,6 +5458,19 @@ fibo-fbc-fct-mkti:Exchange-CFIL
 	skos:closeMatch	wd:Q93356764 ;
 	tempo:validFrom	"2019-11-25"^^xsd:date .
 
+fibo-fbc-fct-mkti:Exchange-CFIM
+	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
+	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
+	dbo:formerName	"CBOE FIXED INCOME MARKETS, LLC" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"CFIM" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"CBOE FIXED INCOME MARKETS, LLC" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:US ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:New_York ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.cboe.com/us/fixed_income/"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-5493000ASBNL9GPFAM72-LEI ;
+	rdfs:label	"CBOE FIXED INCOME MARKETS, LLC" ;
+	tempo:validFrom	"2023-04-24"^^xsd:date .
+
 fibo-fbc-fct-mkti:Exchange-CFJP
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
@@ -5477,7 +5503,7 @@ fibo-fbc-fct-mkti:Exchange-CGCM
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
 	dbo:formerName	"CASSA DI COMPENSAZIONE E GARANZIA SPA - COLLATERALIZED MONEY MARKET GUARANTEE SERVICE" ;
-	fibo-fbc-fct-mkt:hasExchangeAcronym	"NEWMIC" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"NewMIC" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CASSA DI COMPENSAZIONE E GARANZIA SPA - COLLATERALIZED MONEY MARKET GUARANTEE SERVICE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:IT ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Rome ;
@@ -5486,7 +5512,7 @@ fibo-fbc-fct-mkti:Exchange-CGCM
 	lcc-lr:isIdentifiedBy	gleif:L-8156006407E264D2C725-LEI ;
 	rdfs:label	"CASSA DI COMPENSAZIONE E GARANZIA SPA - COLLATERALIZED MONEY MARKET GUARANTEE SERVICE" ;
 	skos:closeMatch	wd:Q107188636 ;
-	skos:note	"COLLATERALIZED MONEY MARKET GUARANTEE SERVICE" ;
+	skos:note	"COLLATERALIZED MONEY MARKET GUARANTEE SERVICE." ;
 	tempo:validFrom	"2013-06-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CGDB
@@ -5502,7 +5528,7 @@ fibo-fbc-fct-mkti:Exchange-CGDB
 	lcc-lr:isIdentifiedBy	gleif:L-8156006407E264D2C725-LEI ;
 	rdfs:label	"CASSA DI COMPENSAZIONE E GARANZIA SPA - BONDS CCP SERVICE" ;
 	skos:closeMatch	wd:Q107188780 ;
-	skos:note	"CCP SERVICE FOR GOVERNMENT BONDS, CORPORATE BONDS AND REPOS" ;
+	skos:note	"CCP SERVICE FOR GOVERNMENT BONDS, CORPORATE BONDS AND REPOS." ;
 	tempo:validFrom	"2013-06-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CGEB
@@ -5518,7 +5544,7 @@ fibo-fbc-fct-mkti:Exchange-CGEB
 	lcc-lr:isIdentifiedBy	gleif:L-8156006407E264D2C725-LEI ;
 	rdfs:label	"CASSA DI COMPENSAZIONE E GARANZIA SPA - EURO BONDS CCP SERVICE" ;
 	skos:closeMatch	wd:Q107188781 ;
-	skos:note	"CCP SERVICE FOR EURO GOVERNMENT BONDS, EURO CORPORATE BONDS" ;
+	skos:note	"CCP SERVICE FOR EURO GOVERNMENT BONDS, EURO CORPORATE BONDS." ;
 	tempo:validFrom	"2013-06-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CGEC
@@ -5579,14 +5605,14 @@ fibo-fbc-fct-mkti:Exchange-CGGD
 	lcc-lr:isIdentifiedBy	gleif:L-8156006407E264D2C725-LEI ;
 	rdfs:label	"CASSA DI COMPENSAZIONE E GARANZIA SPA - CCP AGRICULTURAL COMMODITY DERIVATIVES" ;
 	skos:closeMatch	wd:Q107227921 ;
-	skos:note	"CCP SERVICE ON AGRICULTURAL COMMODITIES DERIVATIVES" ;
+	skos:note	"CCP SERVICE ON AGRICULTURAL COMMODITIES DERIVATIVES." ;
 	tempo:validFrom	"2013-06-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CGIT
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	dbo:formerName	"CASSA DI COMPENSAZIONE E GARANZIA SPA" ;
-	fibo-fbc-fct-mkt:hasExchangeAcronym	"CC&G" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"CCG" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CASSA DI COMPENSAZIONE E GARANZIA SPA" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:IT ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Rome ;
@@ -5594,7 +5620,7 @@ fibo-fbc-fct-mkti:Exchange-CGIT
 	lcc-lr:isIdentifiedBy	gleif:L-8156006407E264D2C725-LEI ;
 	rdfs:label	"CASSA DI COMPENSAZIONE E GARANZIA SPA" ;
 	skos:closeMatch	wd:Q3661907 ;
-	skos:note	"CENTRAL COUNTERPARTY ACROSS MULTIPLE TRADING VENUES COVERING A WIDE RANGE OF ASSET CLASSES" ;
+	skos:note	"CENTRAL COUNTERPARTY ACROSS MULTIPLE TRADING VENUES COVERING A WIDE RANGE OF ASSET CLASSES." ;
 	tempo:validFrom	"2013-06-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CGMA
@@ -5760,7 +5786,7 @@ fibo-fbc-fct-mkti:Exchange-CGND
 	lcc-lr:isIdentifiedBy	gleif:L-8156006407E264D2C725-LEI ;
 	rdfs:label	"CASSA DI COMPENSAZIONE E GARANZIA SPA - CCP ENERGY DERIVATIVES" ;
 	skos:closeMatch	wd:Q107223038 ;
-	skos:note	"CCP SERVICE ON ENERGY DERIVATIVES" ;
+	skos:note	"CCP SERVICE ON ENERGY DERIVATIVES." ;
 	tempo:validFrom	"2013-06-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CGQD
@@ -5776,7 +5802,7 @@ fibo-fbc-fct-mkti:Exchange-CGQD
 	lcc-lr:isIdentifiedBy	gleif:L-8156006407E264D2C725-LEI ;
 	rdfs:label	"CASSA DI COMPENSAZIONE E GARANZIA SPA - CCP EQUITY DERIVATIVES" ;
 	skos:closeMatch	wd:Q107188796 ;
-	skos:note	"CCP SERVICE ON EQUITY DERIVATIVES" ;
+	skos:note	"CCP SERVICE ON EQUITY DERIVATIVES." ;
 	tempo:validFrom	"2013-06-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CGQT
@@ -5792,7 +5818,7 @@ fibo-fbc-fct-mkti:Exchange-CGQT
 	lcc-lr:isIdentifiedBy	gleif:L-8156006407E264D2C725-LEI ;
 	rdfs:label	"CASSA DI COMPENSAZIONE E GARANZIA SPA - EQUITY CCP SERVICE" ;
 	skos:closeMatch	wd:Q107227815 ;
-	skos:note	"CCP SERVICE FOR EQUITIES AND COMPARABLE PRODUCTS SUCH WARRANTS, CONVERTIBLE BONDS, CLOSED-END FUNDS, INVESTMENT COMPANIES, REAL ESTATE INVESTMENT COMPANIES, ETF AND ETC" ;
+	skos:note	"CCP SERVICE FOR EQUITIES AND COMPARABLE PRODUCTS SUCH WARRANTS, CONVERTIBLE BONDS, CLOSED-END FUNDS, INVESTMENT COMPANIES, REAL ESTATE INVESTMENT COMPANIES, ETF AND ETC." ;
 	tempo:validFrom	"2013-06-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CGTR
@@ -5808,7 +5834,7 @@ fibo-fbc-fct-mkti:Exchange-CGTR
 	lcc-lr:isIdentifiedBy	gleif:L-8156006407E264D2C725-LEI ;
 	rdfs:label	"CASSA DI COMPENSAZIONE E GARANZIA SPA - TRIPARTY REPO CCP SERVICE" ;
 	skos:closeMatch	wd:Q107188783 ;
-	skos:note	"CCP SERVICE FOR TRIPARTY REPOS" ;
+	skos:note	"CCP SERVICE FOR TRIPARTY REPOS." ;
 	tempo:validFrom	"2013-06-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-CGXS
@@ -9390,7 +9416,8 @@ fibo-fbc-fct-mkti:Exchange-ERIS
 	lcc-lr:isIdentifiedBy	gleif:L-529900RLNSGA90UPEH54-LEI ;
 	rdfs:label	"CBOE DIGITAL EXCHANGE" ;
 	skos:closeMatch	wd:Q93355895 ;
-	tempo:validFrom	"2019-08-26"^^xsd:date .
+	tempo:validFrom	"2012-03-26"^^xsd:date ;
+	tempo:validTill	"2023-04-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-ERST
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
@@ -16596,7 +16623,8 @@ fibo-fbc-fct-mkti:Exchange-MALM
 	lcc-lr:isIdentifiedBy	gleif:L-529900GFVFMKAFCMT075-LEI ;
 	rdfs:label	"MARKETAXESS SINGAPORE PTE LIMITED - LIVE MARKETS" ;
 	skos:closeMatch	wd:Q107188774 ;
-	tempo:validFrom	"2019-12-23"^^xsd:date .
+	tempo:validFrom	"2019-12-23"^^xsd:date ;
+	tempo:validTill	"2023-04-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-MALX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
@@ -18086,15 +18114,30 @@ fibo-fbc-fct-mkti:Exchange-MSWP
 fibo-fbc-fct-mkti:Exchange-MSXB
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
 	a	owl:NamedIndividual ;
-	dbo:formerName	"MUSCAT STOCK EXCHANGE" ;
+	dbo:formerName	"MUSCAT STOCK EXCHANGE - BOOK BUILDING" , "MUSCAT STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"MSM" ;
-	fibo-fbc-fct-mkt:hasExchangeName	"MUSCAT STOCK EXCHANGE" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"MUSCAT STOCK EXCHANGE - BOOK BUILDING" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:OM ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Muscat ;
 	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XMUS ;
 	fibo-fnd-plc-vrt:hasWebsite	"http://www.msx.om"^^xsd:anyURI ;
-	rdfs:label	"MUSCAT STOCK EXCHANGE" ;
+	lcc-lr:isIdentifiedBy	gleif:L-549300Z0H15P7ZLU2G11-LEI ;
+	rdfs:label	"MUSCAT STOCK EXCHANGE - BOOK BUILDING" ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
+
+fibo-fbc-fct-mkti:Exchange-MSXO
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
+	a	owl:NamedIndividual ;
+	dbo:formerName	"MUSCAT STOCK EXCHANGE – NON-LISTED INSTRUMENTS" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"MSM" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"MUSCAT STOCK EXCHANGE – NON-LISTED INSTRUMENTS" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:OM ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Muscat ;
+	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XMUS ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.msx.om"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-549300Z0H15P7ZLU2G11-LEI ;
+	rdfs:label	"MUSCAT STOCK EXCHANGE – NON-LISTED INSTRUMENTS" ;
+	tempo:validFrom	"2023-04-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-MTAA
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
@@ -28088,6 +28131,18 @@ fibo-fbc-fct-mkti:Exchange-XAND
 	rdfs:label	"ASIANEXT DERIVATIVES" ;
 	tempo:validFrom	"2022-12-26"^^xsd:date .
 
+fibo-fbc-fct-mkti:Exchange-XANM
+	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
+	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
+	dbo:formerName	"ASIANEXT TOKEN MARKETPLACE" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"ASIANEXT TOKEN MARKETPLACE" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:SG ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Singapore ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.asianext.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-213800BH3E3OLFIMH912-LEI ;
+	rdfs:label	"ASIANEXT TOKEN MARKETPLACE" ;
+	tempo:validFrom	"2023-04-24"^^xsd:date .
+
 fibo-fbc-fct-mkti:Exchange-XANT
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
@@ -28258,11 +28313,25 @@ fibo-fbc-fct-mkti:Exchange-XATS
 	fibo-fbc-fct-mkt:hasExchangeName	"ALPHA EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:CA ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Toronto ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://www.alphatradingsystems.ca"^^xsd:anyURI ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.alphatradingsystems.ca"^^xsd:anyURI , "http://www.tmx.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-549300N65GFVKSHGJW59-LEI ;
 	rdfs:label	"ALPHA EXCHANGE" ;
 	skos:closeMatch	wd:Q93356691 ;
 	skos:note	"REGULATED MARKETPLACE FOR TRADING EQUITY AND EQUITY RELATED SECURITIES." ;
 	tempo:validFrom	"2012-05-28"^^xsd:date .
+
+fibo-fbc-fct-mkti:Exchange-XATX
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarket ;
+	a	owl:NamedIndividual ;
+	dbo:formerName	"ALPHA-X" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"ALPHA-X" ;
+	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:CA ;
+	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Toronto ;
+	fibo-fnd-arr-arr:isConstituentOf	fibo-fbc-fct-mkti:Exchange-XATS ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.tmx.com"^^xsd:anyURI ;
+	lcc-lr:isIdentifiedBy	gleif:L-549300N65GFVKSHGJW59-LEI ;
+	rdfs:label	"ALPHA-X" ;
+	tempo:validFrom	"2023-04-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-XAUK
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
@@ -28867,7 +28936,7 @@ fibo-fbc-fct-mkti:Exchange-XBRN
 	lcc-lr:isIdentifiedBy	gleif:L-529900U9FZPJJDSUXJ89-LEI ;
 	rdfs:label	"BX SWISS AG" ;
 	skos:closeMatch	wd:Q824533 ;
-	skos:note	"BX WORLDCAPS, BX LOCAL SHARES" ;
+	skos:note	"BX WORLDCAPS, BX LOCAL SHARES." ;
 	tempo:validFrom	"2014-08-25"^^xsd:date .
 
 fibo-fbc-fct-mkti:Exchange-XBRT
@@ -32793,14 +32862,14 @@ fibo-fbc-fct-mkti:Exchange-XMUN
 fibo-fbc-fct-mkti:Exchange-XMUS
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
-	dbo:formerName	"MUSCAT SECURITIES MARKET" ;
-	fibo-fbc-fct-mkt:hasExchangeAcronym	"MSM" ;
-	fibo-fbc-fct-mkt:hasExchangeName	"MUSCAT SECURITIES MARKET" ;
+	dbo:formerName	"MUSCAT SECURITIES MARKET" , "MUSCAT STOCK EXCHANGE" ;
+	fibo-fbc-fct-mkt:hasExchangeAcronym	"MSX" ;
+	fibo-fbc-fct-mkt:hasExchangeName	"MUSCAT STOCK EXCHANGE" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:OM ;
 	fibo-fbc-fct-mkt:operatesInMunicipality	fibo-fbc-fct-bci:Muscat ;
-	fibo-fnd-plc-vrt:hasWebsite	"http://www.msm.gov.om"^^xsd:anyURI ;
+	fibo-fnd-plc-vrt:hasWebsite	"http://www.msm.gov.om"^^xsd:anyURI , "http://www.msx.om"^^xsd:anyURI ;
 	lcc-lr:isIdentifiedBy	gleif:L-549300Z0H15P7ZLU2G11-LEI ;
-	rdfs:label	"MUSCAT SECURITIES MARKET" ;
+	rdfs:label	"MUSCAT STOCK EXCHANGE" ;
 	skos:closeMatch	wd:Q4117996 ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -36448,6 +36517,18 @@ fibo-fbc-fct-mkti:MIC-ACXL
 	rdfs:label	"ACX operating-level market identifier" ;
 	tempo:validFrom	"2023-02-27"^^xsd:date .
 
+fibo-fbc-fct-mkti:MIC-ADRK
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2023-04-24"^^xsd:date ;
+	dct:modified	"2023-04-24"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"ADRK" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-ADRK ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"ALPHA DRK market segment-level market identifier" ;
+	tempo:validFrom	"2023-04-24"^^xsd:date .
+
 fibo-fbc-fct-mkti:MIC-ADVT
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
@@ -36633,7 +36714,7 @@ fibo-fbc-fct-mkti:MIC-AKIS
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2018-02-26"^^xsd:date ;
-	dct:modified	"2018-02-26"^^xsd:date ;
+	dct:modified	"2018-02-26"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"AKIS" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-AKIS ;
@@ -37346,7 +37427,7 @@ fibo-fbc-fct-mkti:MIC-ATFX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2018-07-23"^^xsd:date ;
-	dct:modified	"2018-07-23"^^xsd:date ;
+	dct:modified	"2018-07-23"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"ATFX" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-ATFX ;
@@ -40813,6 +40894,18 @@ fibo-fbc-fct-mkti:MIC-CFIL
 	rdfs:label	"CANTOR FITZGERALD IRELAND LIMITED operating-level market identifier" ;
 	tempo:validFrom	"2019-11-25"^^xsd:date .
 
+fibo-fbc-fct-mkti:MIC-CFIM
+	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2023-04-24"^^xsd:date ;
+	dct:modified	"2023-04-24"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"CFIM" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CFIM ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"CBOE FIXED INCOME MARKETS, LLC operating-level market identifier" ;
+	tempo:validFrom	"2023-04-24"^^xsd:date .
+
 fibo-fbc-fct-mkti:MIC-CFJP
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
@@ -40841,7 +40934,7 @@ fibo-fbc-fct-mkti:MIC-CGCM
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2013-06-24"^^xsd:date ;
-	dct:modified	"2013-06-24"^^xsd:date ;
+	dct:modified	"2013-06-24"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"CGCM" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CGCM ;
@@ -40853,7 +40946,7 @@ fibo-fbc-fct-mkti:MIC-CGDB
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2013-06-24"^^xsd:date ;
-	dct:modified	"2013-06-24"^^xsd:date ;
+	dct:modified	"2013-06-24"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"CGDB" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CGDB ;
@@ -40865,7 +40958,7 @@ fibo-fbc-fct-mkti:MIC-CGEB
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2013-06-24"^^xsd:date ;
-	dct:modified	"2013-06-24"^^xsd:date ;
+	dct:modified	"2013-06-24"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"CGEB" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CGEB ;
@@ -40913,7 +41006,7 @@ fibo-fbc-fct-mkti:MIC-CGGD
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2013-06-24"^^xsd:date ;
-	dct:modified	"2013-06-24"^^xsd:date ;
+	dct:modified	"2013-06-24"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"CGGD" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CGGD ;
@@ -40925,7 +41018,7 @@ fibo-fbc-fct-mkti:MIC-CGIT
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2013-06-24"^^xsd:date ;
-	dct:modified	"2013-06-24"^^xsd:date ;
+	dct:modified	"2013-06-24"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"CGIT" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CGIT ;
@@ -41070,7 +41163,7 @@ fibo-fbc-fct-mkti:MIC-CGND
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2013-06-24"^^xsd:date ;
-	dct:modified	"2013-06-24"^^xsd:date ;
+	dct:modified	"2013-06-24"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"CGND" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CGND ;
@@ -41082,7 +41175,7 @@ fibo-fbc-fct-mkti:MIC-CGQD
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2013-06-24"^^xsd:date ;
-	dct:modified	"2013-06-24"^^xsd:date ;
+	dct:modified	"2013-06-24"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"CGQD" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CGQD ;
@@ -41094,7 +41187,7 @@ fibo-fbc-fct-mkti:MIC-CGQT
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2013-06-24"^^xsd:date ;
-	dct:modified	"2013-06-24"^^xsd:date ;
+	dct:modified	"2013-06-24"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"CGQT" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CGQT ;
@@ -41106,7 +41199,7 @@ fibo-fbc-fct-mkti:MIC-CGTR
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2013-06-24"^^xsd:date ;
-	dct:modified	"2013-06-24"^^xsd:date ;
+	dct:modified	"2013-06-24"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"CGTR" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-CGTR ;
@@ -43181,7 +43274,7 @@ fibo-fbc-fct-mkti:MIC-EBMX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2019-01-28"^^xsd:date ;
-	dct:modified	"2019-01-28"^^xsd:date ;
+	dct:modified	"2019-01-28"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"EBMX" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-EBMX ;
@@ -43741,7 +43834,7 @@ fibo-fbc-fct-mkti:MIC-EMDR
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2008-06-23"^^xsd:date ;
-	dct:modified	"2008-06-23"^^xsd:date ;
+	dct:modified	"2008-06-23"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"EMDR" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-EMDR ;
@@ -43753,7 +43846,7 @@ fibo-fbc-fct-mkti:MIC-EMIB
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2016-10-24"^^xsd:date ;
-	dct:modified	"2016-10-24"^^xsd:date ;
+	dct:modified	"2016-10-24"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"EMIB" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-EMIB ;
@@ -43765,7 +43858,7 @@ fibo-fbc-fct-mkti:MIC-EMID
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2010-05-24"^^xsd:date ;
-	dct:modified	"2010-05-24"^^xsd:date ;
+	dct:modified	"2010-05-24"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"EMID" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-EMID ;
@@ -43777,7 +43870,7 @@ fibo-fbc-fct-mkti:MIC-EMIR
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2011-11-28"^^xsd:date ;
-	dct:modified	"2011-11-28"^^xsd:date ;
+	dct:modified	"2011-11-28"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"EMIR" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-EMIR ;
@@ -44178,13 +44271,14 @@ fibo-fbc-fct-mkti:MIC-ERIS
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2012-03-26"^^xsd:date ;
-	dct:modified	"2019-08-26"^^xsd:date , "2022-12-26"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	dct:modified	"2019-08-26"^^xsd:date , "2022-12-26"^^xsd:date , "2023-04-24"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:DeletedMICStatus ;
 	lcc-lr:hasTag	"ERIS" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-ERIS ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"CBOE DIGITAL EXCHANGE operating-level market identifier" ;
-	tempo:validFrom	"2012-03-26"^^xsd:date .
+	tempo:validFrom	"2012-03-26"^^xsd:date ;
+	tempo:validTill	"2023-04-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-ERST
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
@@ -44239,7 +44333,7 @@ fibo-fbc-fct-mkti:MIC-ETFP
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2007-09-24"^^xsd:date ;
-	dct:modified	"2017-06-26"^^xsd:date ;
+	dct:modified	"2017-06-26"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"ETFP" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-ETFP ;
@@ -44251,7 +44345,7 @@ fibo-fbc-fct-mkti:MIC-ETLX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2007-08-27"^^xsd:date ;
-	dct:modified	"2020-07-27"^^xsd:date ;
+	dct:modified	"2020-07-27"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"ETLX" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-ETLX ;
@@ -44762,7 +44856,7 @@ fibo-fbc-fct-mkti:MIC-FBSI
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2017-08-28"^^xsd:date ;
-	dct:modified	"2017-08-28"^^xsd:date ;
+	dct:modified	"2017-08-28"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"FBSI" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-FBSI ;
@@ -50207,13 +50301,14 @@ fibo-fbc-fct-mkti:MIC-MALM
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2019-12-23"^^xsd:date ;
-	dct:modified	"2019-12-23"^^xsd:date ;
-	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	dct:modified	"2019-12-23"^^xsd:date , "2023-04-24"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:DeletedMICStatus ;
 	lcc-lr:hasTag	"MALM" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-MALM ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"MARKETAXESS SINGAPORE PTE LIMITED - LIVE MARKETS market segment-level market identifier" ;
-	tempo:validFrom	"2019-12-23"^^xsd:date .
+	tempo:validFrom	"2019-12-23"^^xsd:date ;
+	tempo:validTill	"2023-04-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-MALX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
@@ -50399,7 +50494,7 @@ fibo-fbc-fct-mkti:MIC-MBPL
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2018-08-27"^^xsd:date ;
-	dct:modified	"2018-08-27"^^xsd:date ;
+	dct:modified	"2018-08-27"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"MBPL" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-MBPL ;
@@ -50435,7 +50530,7 @@ fibo-fbc-fct-mkti:MIC-MCAD
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2019-01-28"^^xsd:date ;
-	dct:modified	"2019-01-28"^^xsd:date ;
+	dct:modified	"2019-01-28"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"MCAD" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-MCAD ;
@@ -50730,7 +50825,7 @@ fibo-fbc-fct-mkti:MIC-MFOX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2007-11-26"^^xsd:date ;
-	dct:modified	"2015-04-27"^^xsd:date ;
+	dct:modified	"2015-04-27"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"MFOX" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-MFOX ;
@@ -51240,7 +51335,7 @@ fibo-fbc-fct-mkti:MIC-MOTX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2007-09-24"^^xsd:date ;
-	dct:modified	"2007-09-24"^^xsd:date ;
+	dct:modified	"2007-09-24"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"MOTX" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-MOTX ;
@@ -51485,7 +51580,7 @@ fibo-fbc-fct-mkti:MIC-MSWP
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2022-07-25"^^xsd:date ;
-	dct:modified	"2022-07-25"^^xsd:date ;
+	dct:modified	"2022-07-25"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"MSWP" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-MSWP ;
@@ -51497,13 +51592,25 @@ fibo-fbc-fct-mkti:MIC-MSXB
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2023-03-27"^^xsd:date ;
-	dct:modified	"2023-03-27"^^xsd:date ;
+	dct:modified	"2023-03-27"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"MSXB" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-MSXB ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
-	rdfs:label	"MUSCAT STOCK EXCHANGE market segment-level market identifier" ;
+	rdfs:label	"MUSCAT STOCK EXCHANGE - BOOK BUILDING market segment-level market identifier" ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
+
+fibo-fbc-fct-mkti:MIC-MSXO
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2023-04-24"^^xsd:date ;
+	dct:modified	"2023-04-24"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"MSXO" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-MSXO ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"MUSCAT STOCK EXCHANGE – NON-LISTED INSTRUMENTS market segment-level market identifier" ;
+	tempo:validFrom	"2023-04-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-MTAA
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
@@ -51583,7 +51690,7 @@ fibo-fbc-fct-mkti:MIC-MTSC
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2005-11-28"^^xsd:date ;
-	dct:modified	"2017-04-24"^^xsd:date ;
+	dct:modified	"2017-04-24"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"MTSC" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-MTSC ;
@@ -51645,7 +51752,7 @@ fibo-fbc-fct-mkti:MIC-MTSO
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2017-04-24"^^xsd:date ;
-	dct:modified	"2017-04-24"^^xsd:date ;
+	dct:modified	"2017-04-24"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"MTSO" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-MTSO ;
@@ -53401,7 +53508,7 @@ fibo-fbc-fct-mkti:MIC-OPEX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2005-06-27"^^xsd:date ;
-	dct:modified	"2005-06-27"^^xsd:date ;
+	dct:modified	"2005-06-27"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"OPEX" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-OPEX ;
@@ -53593,7 +53700,7 @@ fibo-fbc-fct-mkti:MIC-PARK
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2020-02-24"^^xsd:date ;
-	dct:modified	"2020-02-24"^^xsd:date ;
+	dct:modified	"2020-02-24"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"PARK" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-PARK ;
@@ -55211,7 +55318,7 @@ fibo-fbc-fct-mkti:MIC-SEDX
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2007-09-24"^^xsd:date ;
-	dct:modified	"2017-12-25"^^xsd:date ;
+	dct:modified	"2017-12-25"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"SEDX" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-SEDX ;
@@ -55523,7 +55630,7 @@ fibo-fbc-fct-mkti:MIC-SIAB
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2018-08-27"^^xsd:date ;
-	dct:modified	"2018-08-27"^^xsd:date ;
+	dct:modified	"2018-08-27"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"SIAB" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-SIAB ;
@@ -56140,7 +56247,7 @@ fibo-fbc-fct-mkti:MIC-SSOB
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2010-05-24"^^xsd:date ;
-	dct:modified	"2017-12-25"^^xsd:date ;
+	dct:modified	"2017-12-25"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"SSOB" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-SSOB ;
@@ -60210,6 +60317,18 @@ fibo-fbc-fct-mkti:MIC-XAND
 	rdfs:label	"ASIANEXT DERIVATIVES operating-level market identifier" ;
 	tempo:validFrom	"2022-12-26"^^xsd:date .
 
+fibo-fbc-fct-mkti:MIC-XANM
+	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2023-04-24"^^xsd:date ;
+	dct:modified	"2023-04-24"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"XANM" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-XANM ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"ASIANEXT TOKEN MARKETPLACE operating-level market identifier" ;
+	tempo:validFrom	"2023-04-24"^^xsd:date .
+
 fibo-fbc-fct-mkti:MIC-XANT
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
@@ -60363,13 +60482,25 @@ fibo-fbc-fct-mkti:MIC-XATS
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2012-05-28"^^xsd:date ;
-	dct:modified	"2012-05-28"^^xsd:date ;
+	dct:modified	"2012-05-28"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"XATS" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-XATS ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
 	rdfs:label	"ALPHA EXCHANGE operating-level market identifier" ;
 	tempo:validFrom	"2012-05-28"^^xsd:date .
+
+fibo-fbc-fct-mkti:MIC-XATX
+	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
+	a	owl:NamedIndividual ;
+	dct:created	"2023-04-24"^^xsd:date ;
+	dct:modified	"2023-04-24"^^xsd:date ;
+	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
+	lcc-lr:hasTag	"XATX" ;
+	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-XATX ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
+	rdfs:label	"ALPHA-X market segment-level market identifier" ;
+	tempo:validFrom	"2023-04-24"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-XAUK
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
@@ -62717,7 +62848,7 @@ fibo-fbc-fct-mkti:MIC-XGME
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2009-04-27"^^xsd:date ;
-	dct:modified	"2009-04-27"^^xsd:date ;
+	dct:modified	"2009-04-27"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"XGME" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-XGME ;
@@ -63809,7 +63940,7 @@ fibo-fbc-fct-mkti:MIC-XLIS
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2005-06-27"^^xsd:date ;
-	dct:modified	"2015-04-27"^^xsd:date ;
+	dct:modified	"2015-04-27"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"XLIS" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-XLIS ;
@@ -64276,7 +64407,7 @@ fibo-fbc-fct-mkti:MIC-XMIL
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2007-12-24"^^xsd:date ;
-	dct:modified	"2012-09-24"^^xsd:date ;
+	dct:modified	"2012-09-24"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"XMIL" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-XMIL ;
@@ -64422,7 +64553,7 @@ fibo-fbc-fct-mkti:MIC-XMOT
 	a	fibo-fbc-fct-mkt:MarketSegmentLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2009-07-27"^^xsd:date ;
-	dct:modified	"2009-07-27"^^xsd:date ;
+	dct:modified	"2009-07-27"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"XMOT" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-XMOT ;
@@ -64518,12 +64649,12 @@ fibo-fbc-fct-mkti:MIC-XMUS
 	a	fibo-fbc-fct-mkt:OperatingLevelMarketIdentifier ;
 	a	owl:NamedIndividual ;
 	dct:created	"2005-06-27"^^xsd:date ;
-	dct:modified	"2005-06-27"^^xsd:date ;
+	dct:modified	"2005-06-27"^^xsd:date , "2023-04-24"^^xsd:date ;
 	fibo-fbc-fct-mkt:hasMarketIdentifierCodeStatus	fibo-fbc-fct-mkt:ActiveMICStatus ;
 	lcc-lr:hasTag	"XMUS" ;
 	lcc-lr:identifies	fibo-fbc-fct-mkti:Exchange-XMUS ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-mkti:MICCodeScheme ;
-	rdfs:label	"MUSCAT SECURITIES MARKET operating-level market identifier" ;
+	rdfs:label	"MUSCAT STOCK EXCHANGE operating-level market identifier" ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 fibo-fbc-fct-mkti:MIC-XMVL
