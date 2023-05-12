@@ -42,6 +42,9 @@ This set of markets and MIC codes is current with respect to the published ISO 1
 	sm:fileAbbreviation	"fibo-fbc-fct-mkti" ;
 	sm:filename	"MarketsIndividuals.ttl" .
 
+
+
+
 fibo-fbc-fct-mkti:Exchange-24EX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
@@ -6201,6 +6204,7 @@ fibo-fbc-fct-mkti:Exchange-CITX
 	a	fibo-fbc-fct-mkt:OperatingLevelMarket ;
 	a	fibo-fbc-pas-fpas:FinancialServiceProvider , owl:NamedIndividual ;
 	dbo:formerName	"CITI MATCH - JP" , "CITI MATCH" ;
+	dct:replaces	fibo-fbc-fct-mkti:Exchange-CITX_2022-07-25 ;
 	fibo-fbc-fct-mkt:hasExchangeAcronym	"CM" ;
 	fibo-fbc-fct-mkt:hasExchangeName	"CITI MATCH - JP" ;
 	fibo-fbc-fct-mkt:operatesInCountry	lcc-3166-1-adj:JP ;

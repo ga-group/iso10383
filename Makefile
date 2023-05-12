@@ -1,13 +1,13 @@
 SHELL := /bin/zsh
 
-sparql := /home/freundt/usr/apache-jena/bin/sparql
-stardog := STARDOG_JAVA_ARGS='-Dstardog.default.cli.server=http://plutos:5820' /home/freundt/usr/stardog/bin/stardog
+include .make.env
 
-all: MarketsIndividuals.ttl BusinessCentersIndividuals.ttl
+all: .imported.MarketsIndividuals .imported.BusinessCentersIndividuals
 canon: MarketsIndividuals.ttl.canon BusinessCentersIndividuals.ttl.canon
 check: check.MarketsIndividuals check.BusinessCentersIndividuals
 
 TODAY := $(shell dateconv today)
+
 
 download: download/ISO10383_MIC_$(TODAY).xlsx
 
@@ -50,6 +50,32 @@ check.%: %.ttl shacl/%.shacl.sql
 
 %.rpt: /tmp/check.%.ttl
 	$(sparql) --results text --data $< --query sql/valrpt.sql
+
+.imported.%:: %.ttl.repl sql/repl-%.sql
+	rapper -c -i turtle $<
+	$(csvsql) < sql/repl-$*.sql \
+	&& touch $@ && $(RM) -- $<
+
+.imported.%:: %.ttl sql/load-%.sql
+	rapper -c -i turtle $<
+	$(csvsql) < sql/load-$*.sql \
+	&& touch $@
+
+export.%: sql/dump-%.sql .imported.%
+	m4 $< | $(csvsql)
+	$(RM) $@
+	$(RSYNC)/tmp/$*.ttl /tmp/$*.ttl
+	-mawk '(x+=$$0=="")<=3&&($$0==""||(x=0)||1)' $*.ttl > $@
+	sed 's/rdf:type/a/' /tmp/$*.ttl \
+	| ttl2ttl --sortable --expand-generic \
+	| sort -u \
+	| ttl2ttl -BQU \
+	| sed '/^@/d' \
+	>> $@
+	mv $@ $*.ttl
+	touch .imported.$*
+
+
 
 tmp/MarketsIndividuals-tempo.ttl: download/ISO10383_MIC_latest.xlsx
 	# rescue validity, efficacy, and modification dates of active nodes
@@ -105,7 +131,7 @@ BusinessCentersIndividuals.ttl: download/business-center-latest.xml BusinessCent
 	>> $@.t && mv $@.t $@
 	$(MAKE) $@.canon
 
-setup-stardog:                                                                                                                                                                                          
+setup-stardog:
 	$(stardog)-admin db create -o reasoning.sameas=OFF -n iso
 	$(stardog) namespace add --prefix fibo-fbc-fct-mkt --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/ iso
 	$(stardog) namespace add --prefix fibo-fbc-fct-mkti --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/ iso
