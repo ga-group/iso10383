@@ -23,7 +23,6 @@ CONSTRUCT {
 		a	?ex_opsg ;
 		a	?_fsp ;
 		a	owl:NamedIndividual ;
-		dbo:formerName	?_name ;
 		fibo-fbc-fct-mkt:hasExchangeName	?_name ;
 		fibo-fbc-fct-mkt:hasExchangeAcronym	?ACRONYM ;
 		fibo-fnd-plc-vrt:hasWebsite	?_web ;
