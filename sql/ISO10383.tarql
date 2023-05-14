@@ -32,6 +32,8 @@ CONSTRUCT {
 		lcc-lr:isIdentifiedBy ?_lei ;
 		rdfs:label	?_name ;
 		skos:note	?COMMENTS ;
+		pav:importedOn ?now ;
+		pav:lastRefreshedOn ?now ;
 		pav:sourceAccessedOn ?_accd ;
 		pav:sourceLastAccessedOn ?_accd ;
 		tempo:validFrom	?_from ;
@@ -47,6 +49,8 @@ CONSTRUCT {
 		rdfs:label	?_miclbl ;
 		dct:created ?_crea ;
 		dct:modified ?_modf ;
+		pav:importedOn ?now ;
+		pav:lastRefreshedOn ?now ;
 		pav:sourceAccessedOn ?_accd ;
 		pav:sourceLastAccessedOn ?_accd ;
 		tempo:validFrom ?_crea ;
