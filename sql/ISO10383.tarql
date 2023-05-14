@@ -33,6 +33,8 @@ CONSTRUCT {
 		lcc-lr:isIdentifiedBy ?_lei ;
 		rdfs:label	?_name ;
 		skos:note	?COMMENTS ;
+		pav:sourceAccessedOn ?_accd ;
+		pav:sourceLastAccessedOn ?_accd ;
 		tempo:validFrom	?_from ;
 		tempo:validTill ?_expd .
 
@@ -46,11 +48,14 @@ CONSTRUCT {
 		rdfs:label	?_miclbl ;
 		dct:created ?_crea ;
 		dct:modified ?_modf ;
+		pav:sourceAccessedOn ?_accd ;
+		pav:sourceLastAccessedOn ?_accd ;
 		tempo:validFrom ?_crea ;
 		tempo:validTill ?_expd .
 }
 WHERE {
 	BIND(NOW() AS ?now)
+	BIND(xsd:dateTime(?accd) AS ?_accd)
 	BIND(URI(CONCAT(STR(fibo-fbc-fct-mkti:),'Exchange-',?MIC)) AS ?exedge)
 	BIND(URI(CONCAT(STR(fibo-fbc-fct-mkti:),'MIC-',?MIC)) AS ?micedge)
 	BIND(IF(?MIC != ?OPERATING_MIC,URI(CONCAT(STR(fibo-fbc-fct-mkti:),'Exchange-',?OPERATING_MIC)),?null) AS ?sgop)

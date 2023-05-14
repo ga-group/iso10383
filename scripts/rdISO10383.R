@@ -53,7 +53,11 @@ if (sys.nframe() == 0L) {
 	args <- commandArgs(trailingOnly=TRUE)
 	outf <- ""
 
-	x <- rbindlist(lapply(lapply(args, read_excel, na=c("n/a","N/A")), as.data.table), use.names=TRUE, fill=TRUE)
+	x <- lapply(lapply(args, read_excel, na=c("n/a","N/A")), as.data.table)
+	m <- lapply(args, file.mtime)
+	mapply(function(dt, t) dt[, accd:=t], x, m)
+	x <- rbindlist(x, use.names=TRUE, fill=TRUE)
+
 	x[, WEBSITE:=tolower(WEBSITE)]
 	x[!is.na(WEBSITE) & !grepl("^https?://", WEBSITE), WEBSITE:=paste0("http://",WEBSITE)]
 #	x[!is.na(WEBSITE) & !grepl("https?://.*/", WEBSITE), WEBSITE:=paste0(WEBSITE, "/")]
