@@ -11,43 +11,69 @@ capwords <- function(s, strict = FALSE)
 	sapply(strsplit(s, split = " "), cap, USE.NAMES=!is.null(names(s)))
 }
 
-cities <- fread("iso	fibo
+cities <- setkey(fread("iso	fibo
+Aichi	Nagoya
+Alberta	Calgary
+Antwerpen	Antwerp
+Bermuda	Hamilton
 Berne	Bern
 Boca Raton	BocaRaton
 Bryanston, Sandton	BryanstonSandton
-Bucharest	Bucarest
+Bucarest	Bucharest
+Calcutta	Kolkata
 Cluj Napoca	ClujNapoca
-Dar Es Salaam	Dar_es_Salaam
-Duesseldorf	Dusseldorf
 Cybercity, Ebene	Ebene
+Dar Es Salaam	Dar_es_Salaam
+Delhi	New_Delhi
+Dusseldorf	Duesseldorf
 Ebene City	Ebene
+Ekaterinburg	Yekaterinburg
+El Salvador	Antiguo_Cuscatlan
+Espirito Santo	Vitoria
+Firenze	Florence
 Frankfurt Am Main	Frankfurt
+Genova	Genoa
 Gift City, Gandhinagar	GIFT_City
-Kyiv	Kiev
+Guatemala	Guatemala_City
+Illinois	Glenview
 Klagenfurt Am Woerthersee	Klagenfurt_am_Woerthersee
 Kuwait	Kuwait_City
+Kiev	Kyiv
+Lao	Vientiane
 Lisboa	Lisbon
+Madras	Chennai
 Mexico	Mexico_City
 Milano	Milan
+Montenegro	Podgorica
 Muenchen	Munich
-Delhi	New_Delhi
+Nasau	Nassau
+New Jersey	Summit
+New York, Ny	New_York
 Nicosia (lefkosia)	Nicosia
+Nigita	Niigata
+Nizhniy Novgorod	Nizhny_Novgorod
+Not Applicable	
 Palma De Mallorca	PalmaDeMallorca
 Panama	Panama_City
-Vila	Port_Vila
 Port Of Spain	Port_of_Spain
 Rio De Janeiro	Rio_de_Janeiro
 Roma	Rome
+Rostov	Rostov-on-Don
+S-hertogenbosch	s-Hertogenbosch
 Saint-petersburg	Saint-Petersburg
-St Albans	StAlbans
-St.  Peter Port	Saint_Peter_Port
 Sea Girt	SeaGirt
 St Albans	StAlbans
+St Albans	StAlbans
+St John	St_Johns
+St.  Peter Port	Saint_Peter_Port
+Taiwan	Taipei
 The Woodlands	TheWoodlands
 Torino	Turin
-Washington/new York	Washington_New_York
-S-hertogenbosch	s-Hertogenbosch
-")
+Ulaan Baatar	Ulaanbaatar
+Unterschleisshem	Unterschleissheim
+Vila	Port_Vila
+Washington/new York	Washington|New_York
+"))
 
 if (sys.nframe() == 0L) {
 	args <- commandArgs(trailingOnly=TRUE)

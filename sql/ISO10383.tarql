@@ -63,8 +63,11 @@ WHERE {
 	BIND(URI(CONCAT(STR(fibo-fbc-fct-mkti:),'MIC-',?MIC)) AS ?micedge)
 	BIND(IF(?MIC != ?OPERATING_MIC,URI(CONCAT(STR(fibo-fbc-fct-mkti:),'Exchange-',?OPERATING_MIC)),?null) AS ?sgop)
 	BIND(URI(CONCAT(STR(lcc-3166-1-adj:), ?ISO_COUNTRY_CODE__ISO_3166_)) AS ?_iso)
-	BIND(URI(CONCAT(STR(fibo-fbc-fct-bci:), REPLACE(?CITY, " ", "_"))) AS ?_mun)
 	BIND(URI(CONCAT(STR(gleif:), 'L-', ?LEI, '-LEI')) AS ?_lei)
+
+	?_CITY apf:strSplit(?CITY "\\|")
+	BIND(URI(CONCAT(STR(fibo-fbc-fct-bci:), REPLACE(?_CITY, " ", "_"))) AS ?_mun)
+
 
 	BIND(COALESCE(?MARKET_NAME_INSTITUTION_DESCRIPTION, ?NAME_INSTITUTION_DESCRIPTION) AS ?_name)
 
