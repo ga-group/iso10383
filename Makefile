@@ -75,52 +75,14 @@ export.%: sql/dump-%.sql .imported.%
 	mv $@ $*.ttl
 	touch .imported.$*
 
-
-
-tmp/MarketsIndividuals-tempo.ttl: download/ISO10383_MIC_latest.xlsx
-	# rescue validity, efficacy, and modification dates of active nodes
-	-ttl2ttl --sortable MarketsIndividuals.ttl \
-	| grep -F $$'tempo:valid\ntempo:efficacious\ndct:modified' \
-	> $@
-
-tmp/MarketsIndividuals-type.ttl: download/ISO10383_MIC_latest.xlsx
-	# rescue types of active nodes
-	-ttl2ttl --sortable MarketsIndividuals.ttl \
-	| grep -F $$'\ta\t' \
-	> $@
-
-tmp/MarketsIndividuals-webs.ttl: download/ISO10383_MIC_latest.xlsx
-	# rescue labels and names of active nodes
-	-ttl2ttl --sortable MarketsIndividuals.ttl \
-	| grep -F 'fibo-fnd-plc-vrt:hasWebsite' \
-	> $@
-
-tmp/MarketsIndividuals-name.ttl: download/ISO10383_MIC_latest.xlsx
-	# rescue labels and names of active nodes
-	-ttl2ttl --sortable MarketsIndividuals.ttl \
-	| grep -F $$'fibo-fbc-fct-mkt:hasExchangeName\ndbo:formerName' \
-	| mawk -F'\t' '$$2="dbo:formerName"' \
-	> $@
-
-tmp/MarketsIndividuals.ttl: download/ISO10383_MIC_latest.xlsx
+daily: .daily
+.daily: download/ISO10383_MIC_latest.xlsx
 	scripts/rdISO10383.R $< \
 	| tarql -t --stdin sql/ISO10383.tarql \
-	| grep -vF 'lcc-3166-1:' \
-	| sed 's@rdf:type@a@; s@  *@ @g' \
-	> $@.t && mv $@.t $@
+	>> MarketsIndividuals.ttl.repl
+	touch $@
 
-MarketsIndividuals-chronic.ttl.symm: MarketsIndividuals-chronic.ttl
-	ttl2ttl --sortable $< \
-	| scripts/symm-replaces.awk \
-	> $@ && mv $@ $<
-	$(MAKE) $<.canon
-
-MarketsIndividuals.ttl: tmp/MarketsIndividuals.ttl MarketsIndividuals-aux.ttl MarketsIndividuals-align.ttl MarketsIndividuals-hist.ttl MarketsIndividuals-chronic.ttl tmp/MarketsIndividuals-tempo.ttl tmp/MarketsIndividuals-type.ttl tmp/MarketsIndividuals-name.ttl tmp/MarketsIndividuals-webs.ttl
-	cat $^ \
-	> $@.t && mv $@.t $@
-	$(MAKE) $@.canon
-
-BusinessCentersIndividuals.ttl: download/business-center-latest.xml BusinessCentersIndividuals-aux.ttl BusinessCentersIndividuals-align.ttl BusinessCentersIndividuals-tz.ttl
+BusinessCentersIndividuals.ttl: download/business-center-latest.xml BusinessCentersIndividuals-align.ttl BusinessCentersIndividuals-tz.ttl
 	ttl2ttl --sortable $(filter %.ttl, $^) \
 	> $@.t
 	-cat $@ >> $@.t
