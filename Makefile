@@ -1,13 +1,13 @@
 SHELL := /bin/zsh
 
-sparql := /home/freundt/usr/apache-jena/bin/sparql
-stardog := STARDOG_JAVA_ARGS='-Dstardog.default.cli.server=http://plutos:5820' /home/freundt/usr/stardog/bin/stardog
+include .make.env
 
-all: MarketsIndividuals.ttl BusinessCentersIndividuals.ttl
+all: .imported.MarketsIndividuals .imported.BusinessCentersIndividuals
 canon: MarketsIndividuals.ttl.canon BusinessCentersIndividuals.ttl.canon
 check: check.MarketsIndividuals check.BusinessCentersIndividuals
 
 TODAY := $(shell dateconv today)
+
 
 download: download/ISO10383_MIC_$(TODAY).xlsx
 
@@ -51,50 +51,38 @@ check.%: %.ttl shacl/%.shacl.sql
 %.rpt: /tmp/check.%.ttl
 	$(sparql) --results text --data $< --query sql/valrpt.sql
 
-tmp/MarketsIndividuals-tempo.ttl: download/ISO10383_MIC_latest.xlsx
-	# rescue validity, efficacy, and modification dates of active nodes
-	-ttl2ttl --sortable MarketsIndividuals.ttl \
-	| grep -F $$'tempo:valid\ntempo:efficacious\ndct:modified' \
-	> $@
+.imported.%:: %.ttl.repl sql/repl-%.sql
+	rapper -c -i turtle $<
+	$(csvsql) < sql/repl-$*.sql \
+	&& touch $@ && $(RM) -- $<
 
-tmp/MarketsIndividuals-type.ttl: download/ISO10383_MIC_latest.xlsx
-	# rescue types of active nodes
-	-ttl2ttl --sortable MarketsIndividuals.ttl \
-	| grep -F $$'\ta\t' \
-	> $@
+.imported.%:: %.ttl sql/load-%.sql
+	rapper -c -i turtle $<
+	$(csvsql) < sql/load-$*.sql \
+	&& touch $@
 
-tmp/MarketsIndividuals-webs.ttl: download/ISO10383_MIC_latest.xlsx
-	# rescue labels and names of active nodes
-	-ttl2ttl --sortable MarketsIndividuals.ttl \
-	| grep -F 'fibo-fnd-plc-vrt:hasWebsite' \
-	> $@
+export.%: sql/dump-%.sql .imported.%
+	m4 $< | $(csvsql)
+	$(RM) $@
+	$(RSYNC)/tmp/$*.ttl /tmp/$*.ttl
+	-mawk '(x+=$$0=="")<=3&&($$0==""||(x=0)||1)' $*.ttl > $@
+	sed 's/rdf:type/a/' /tmp/$*.ttl \
+	| ttl2ttl --sortable --expand-generic \
+	| sort -u \
+	| ttl2ttl -BQU \
+	| sed '/^@/d' \
+	>> $@
+	mv $@ $*.ttl
+	touch .imported.$*
 
-tmp/MarketsIndividuals-name.ttl: download/ISO10383_MIC_latest.xlsx
-	# rescue labels and names of active nodes
-	-ttl2ttl --sortable MarketsIndividuals.ttl \
-	| grep -F $$'fibo-fbc-fct-mkt:hasExchangeName\ndbo:formerName' \
-	| mawk -F'\t' '$$2="dbo:formerName"' \
-	> $@
-
-tmp/MarketsIndividuals.ttl: download/ISO10383_MIC_latest.xlsx
+daily: .daily
+.daily: download/ISO10383_MIC_latest.xlsx
 	scripts/rdISO10383.R $< \
 	| tarql -t --stdin sql/ISO10383.tarql \
-	| grep -vF 'lcc-3166-1:' \
-	| sed 's@rdf:type@a@; s@  *@ @g' \
-	> $@.t && mv $@.t $@
+	>> MarketsIndividuals.ttl.repl
+	touch $@
 
-MarketsIndividuals-chronic.ttl.symm: MarketsIndividuals-chronic.ttl
-	ttl2ttl --sortable $< \
-	| scripts/symm-replaces.awk \
-	> $@ && mv $@ $<
-	$(MAKE) $<.canon
-
-MarketsIndividuals.ttl: tmp/MarketsIndividuals.ttl MarketsIndividuals-aux.ttl MarketsIndividuals-align.ttl MarketsIndividuals-hist.ttl MarketsIndividuals-chronic.ttl tmp/MarketsIndividuals-tempo.ttl tmp/MarketsIndividuals-type.ttl tmp/MarketsIndividuals-name.ttl tmp/MarketsIndividuals-webs.ttl
-	cat $^ \
-	> $@.t && mv $@.t $@
-	$(MAKE) $@.canon
-
-BusinessCentersIndividuals.ttl: download/business-center-latest.xml BusinessCentersIndividuals-aux.ttl BusinessCentersIndividuals-align.ttl BusinessCentersIndividuals-tz.ttl
+BusinessCentersIndividuals.ttl: download/business-center-latest.xml BusinessCentersIndividuals-align.ttl BusinessCentersIndividuals-tz.ttl
 	ttl2ttl --sortable $(filter %.ttl, $^) \
 	> $@.t
 	-cat $@ >> $@.t
@@ -105,7 +93,7 @@ BusinessCentersIndividuals.ttl: download/business-center-latest.xml BusinessCent
 	>> $@.t && mv $@.t $@
 	$(MAKE) $@.canon
 
-setup-stardog:                                                                                                                                                                                          
+setup-stardog:
 	$(stardog)-admin db create -o reasoning.sameas=OFF -n iso
 	$(stardog) namespace add --prefix fibo-fbc-fct-mkt --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/ iso
 	$(stardog) namespace add --prefix fibo-fbc-fct-mkti --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/ iso

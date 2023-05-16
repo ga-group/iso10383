@@ -1,3 +1,6 @@
 tmp
 download
 onto
+.imported*
+.make.env
+.daily

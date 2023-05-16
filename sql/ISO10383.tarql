@@ -23,7 +23,6 @@ CONSTRUCT {
 		a	?ex_opsg ;
 		a	?_fsp ;
 		a	owl:NamedIndividual ;
-		dbo:formerName	?_name ;
 		fibo-fbc-fct-mkt:hasExchangeName	?_name ;
 		fibo-fbc-fct-mkt:hasExchangeAcronym	?ACRONYM ;
 		fibo-fnd-plc-vrt:hasWebsite	?_web ;
@@ -33,6 +32,10 @@ CONSTRUCT {
 		lcc-lr:isIdentifiedBy ?_lei ;
 		rdfs:label	?_name ;
 		skos:note	?COMMENTS ;
+		pav:importedOn ?now ;
+		pav:lastRefreshedOn ?now ;
+		pav:sourceAccessedOn ?_accd ;
+		pav:sourceLastAccessedOn ?_accd ;
 		tempo:validFrom	?_from ;
 		tempo:validTill ?_expd .
 
@@ -46,17 +49,25 @@ CONSTRUCT {
 		rdfs:label	?_miclbl ;
 		dct:created ?_crea ;
 		dct:modified ?_modf ;
+		pav:importedOn ?now ;
+		pav:lastRefreshedOn ?now ;
+		pav:sourceAccessedOn ?_accd ;
+		pav:sourceLastAccessedOn ?_accd ;
 		tempo:validFrom ?_crea ;
 		tempo:validTill ?_expd .
 }
 WHERE {
 	BIND(NOW() AS ?now)
+	BIND(xsd:dateTime(?accd) AS ?_accd)
 	BIND(URI(CONCAT(STR(fibo-fbc-fct-mkti:),'Exchange-',?MIC)) AS ?exedge)
 	BIND(URI(CONCAT(STR(fibo-fbc-fct-mkti:),'MIC-',?MIC)) AS ?micedge)
 	BIND(IF(?MIC != ?OPERATING_MIC,URI(CONCAT(STR(fibo-fbc-fct-mkti:),'Exchange-',?OPERATING_MIC)),?null) AS ?sgop)
 	BIND(URI(CONCAT(STR(lcc-3166-1-adj:), ?ISO_COUNTRY_CODE__ISO_3166_)) AS ?_iso)
-	BIND(URI(CONCAT(STR(fibo-fbc-fct-bci:), REPLACE(?CITY, " ", "_"))) AS ?_mun)
 	BIND(URI(CONCAT(STR(gleif:), 'L-', ?LEI, '-LEI')) AS ?_lei)
+
+	?_CITY apf:strSplit(?CITY "\\|")
+	BIND(URI(CONCAT(STR(fibo-fbc-fct-bci:), REPLACE(?_CITY, " ", "_"))) AS ?_mun)
+
 
 	BIND(COALESCE(?MARKET_NAME_INSTITUTION_DESCRIPTION, ?NAME_INSTITUTION_DESCRIPTION) AS ?_name)
 
