@@ -8,6 +8,9 @@ ECHO "changes ... ";
 ## +s p A C
 SPARQL
 PREFIX delta: <http://www.w3.org/2004/delta#>
+PREFIX tempo: <http://purl.org/tempo/>
+PREFIX pav: <http://purl.org/pav/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
 
 WITH <$u{DIFFG}>
 INSERT {
@@ -52,6 +55,8 @@ WHERE {
 	FILTER(?p != pav:createdOn)
 	FILTER(?p != prov:generatedAtTime)
 	FILTER(?p != pav:importedOn)
+	FILTER(?p != tempo:validFrom)
+	FILTER(?p != tempo:validTill)
 
 	BIND(IRI(CONCAT(STR(?s),'_',STR(xsd:date(?dd)))) AS ?d)
 }
@@ -66,6 +71,9 @@ ECHO "insertions ... ";
 ## +s p A B C
 SPARQL
 PREFIX delta: <http://www.w3.org/2004/delta#>
+PREFIX tempo: <http://purl.org/tempo/>
+PREFIX pav: <http://purl.org/pav/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
 
 WITH <$u{DIFFG}>
 INSERT {
@@ -104,6 +112,8 @@ WHERE {
 	FILTER(?p != pav:createdOn)
 	FILTER(?p != prov:generatedAtTime)
 	FILTER(?p != pav:importedOn)
+	FILTER(?p != tempo:validFrom)
+	FILTER(?p != tempo:validTill)
 
 	BIND(IRI(CONCAT(STR(?s),'_',STR(xsd:date(?dd)))) AS ?d)
 }

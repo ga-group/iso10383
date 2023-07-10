@@ -1,6 +1,5 @@
 changequote()changequote([,])
 DB.DBA.XML_SET_NS_DECL('dct','http://purl.org/dc/terms/', 1);
-DB.DBA.XML_SET_NS_DECL('dbpedia','http://does.not.exist/', 1);
 DB.DBA.XML_SET_NS_DECL('fibo-fbc-fct-bc','https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/', 1);
 DB.DBA.XML_SET_NS_DECL('fibo-fbc-fct-bci','https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/', 1);
 DB.DBA.XML_SET_NS_DECL('fibo-fnd-dt-bd','https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/', 1);

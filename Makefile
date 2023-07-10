@@ -79,6 +79,7 @@ daily: .daily
 .daily: download/ISO10383_MIC_latest.xlsx
 	scripts/rdISO10383.R $< \
 	| tarql -t --stdin sql/ISO10383.tarql \
+	| sed 's@ModifiedMICStatus@ActiveMICStatus@' \
 	>> MarketsIndividuals.ttl.repl
 	touch $@
 
