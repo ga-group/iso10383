@@ -1,7 +1,6 @@
 changequote()changequote([,])
 DB.DBA.XML_SET_NS_DECL('dbo','https://dbpedia.org/ontology/', 1);
 DB.DBA.XML_SET_NS_DECL('dct','http://purl.org/dc/terms/', 1);
-DB.DBA.XML_SET_NS_DECL('dbpedia','http://does.not.exist/', 1);
 DB.DBA.XML_SET_NS_DECL('delta','http://www.w3.org/2004/delta#', 1);
 DB.DBA.XML_SET_NS_DECL('fibo-fbc-fct-bc','https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/', 1);
 DB.DBA.XML_SET_NS_DECL('fibo-fbc-fct-bci','https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/', 1);
@@ -23,8 +22,10 @@ DB.DBA.XML_SET_NS_DECL('rdfs','http://www.w3.org/2000/01/rdf-schema#', 1);
 DB.DBA.XML_SET_NS_DECL('skos','http://www.w3.org/2004/02/skos/core#', 1);
 DB.DBA.XML_SET_NS_DECL('sm','http://www.omg.org/techprocess/ab/SpecificationMetadata/', 1);
 DB.DBA.XML_SET_NS_DECL('tempo','http://purl.org/tempo/', 1);
-DB.DBA.XML_SET_NS_DECL('wd','http://www.wikidata.org/entity/', 1);
 DB.DBA.XML_SET_NS_DECL('xsd','http://www.w3.org/2001/XMLSchema#', 1);
+
+DB.DBA.XML_REMOVE_NS_BY_PREFIX('dbpedia',3);
+DB.DBA.XML_SET_NS_DECL('wd','http://www.wikidata.org/entity/', 1);
 
 include(/home/freundt/exper/eco/sql/dump-generic.sql)
 CREATE DUMP_PROCEDURE(dump_MarketsIndividuals,

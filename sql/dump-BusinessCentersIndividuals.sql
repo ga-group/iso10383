@@ -26,6 +26,8 @@ DB.DBA.XML_SET_NS_DECL('unlcd','https://github.com/uncefact/codes-locode/blob/ma
 DB.DBA.XML_SET_NS_DECL('wd','http://www.wikidata.org/entity/', 1);
 DB.DBA.XML_SET_NS_DECL('xsd','http://www.w3.org/2001/XMLSchema#', 1);
 
+DB.DBA.XML_REMOVE_NS_BY_PREFIX('dbpedia',3);
+
 include(/home/freundt/exper/eco/sql/dump-generic.sql)
 CREATE DUMP_PROCEDURE(dump_BusinessCentersIndividuals,
 SPARQL
