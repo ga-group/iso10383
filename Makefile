@@ -83,14 +83,16 @@ daily: .daily
 	>> MarketsIndividuals.ttl.repl
 	touch $@
 
-irreg: .irreg
-.irreg: download/business-center-latest.xml
+BusinessCentersIndividuals.ttl: download/business-center-latest.xml BusinessCentersIndividuals-align.ttl BusinessCentersIndividuals-tz.ttl
+	ttl2ttl --sortable $(filter %.ttl, $^) \
+	> $@.t
+	-cat $@ >> $@.t
 	xsltproc scripts/rdfpml.xsl $< \
 	| tarql -t --stdin sql/FpML.tarql \
 	| grep -vF 'lcc-3166-1:' \
 	| sed 's@rdf:type@a@; s@  *@ @g' \
-	>> BusinessCentersIndividuals.ttl.repl
-	touch $@
+	>> $@.t && mv $@.t $@
+	$(MAKE) $@.canon
 
 setup-stardog:
 	$(stardog)-admin db create -o reasoning.sameas=OFF -n iso
