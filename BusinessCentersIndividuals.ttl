@@ -48,7 +48,7 @@ This set of business centers is current with respect to the FpML published XML d
 fibo-fbc-fct-bci:AEAB
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
-	dct:description	"the FpML business center code for Abu Dhabi, Business Day (as defined in 2021 ISDA Definitions Section 2.1.9 (ii))" ;
+	dct:description	"the FpML business center code for Abu Dhabi, Business Day (as defined in 2021 ISDA Definitions Section 2.1.10 (ii))" ;
 	lcc-lr:denotes	fibo-fbc-fct-bci:AbuDhabiBusinessDay , fibo-fbc-fct-bci:Abu_Dhabi ;
 	lcc-lr:hasTag	"AEAB" ;
 	lcc-lr:identifies	fibo-fbc-fct-bci:AbuDhabiBusinessDay , fibo-fbc-fct-bci:Abu_Dhabi ;
@@ -58,10 +58,10 @@ fibo-fbc-fct-bci:AEAB
 fibo-fbc-fct-bci:AEAD
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	fibo-fnd-dt-bd:BusinessDayAdjustment , owl:NamedIndividual ;
-	dct:description	"the FpML business center code for Abu Dhabi, Settlement Day (as defined in 2021 ISDA Definitions Section 2.1.9 (i))" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci:AbuDhabiSettlementDay ;
+	dct:description	"the FpML business center code for Abu Dhabi, Settlement Day (as defined in 2021 ISDA Definitions Section 2.1.10 (i))" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:AbuDhabiSettlementDay , fibo-fbc-fct-bci:Abu_Dhabi ;
 	lcc-lr:hasTag	"AEAD" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci:AbuDhabiSettlementDay ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:AbuDhabiSettlementDay , fibo-fbc-fct-bci:Abu_Dhabi ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"AEAD" .
 
@@ -3449,7 +3449,7 @@ fibo-fbc-fct-bci:NPKA
 fibo-fbc-fct-bci:NYFD
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
-	dct:description	"the FpML business center code for New York Fed Business Day (as defined in 2006 ISDA Definitions Section 1.9 and 2000 ISDA Definitions Section 1.9)" ;
+	dct:description	"the FpML business center code for New York Fed Business Day (as defined in 2006 ISDA Definitions Section 1.9, 2000 ISDA Definitions Section 1.9, and 2021 ISDA Definitions Section 2.1.7)" ;
 	lcc-lr:denotes	fibo-fbc-fct-bci:NewYorkFederalReserveBusinessDay ;
 	lcc-lr:hasTag	"NYFD" ;
 	lcc-lr:identifies	fibo-fbc-fct-bci:NewYorkFederalReserveBusinessDay ;
@@ -3459,7 +3459,7 @@ fibo-fbc-fct-bci:NYFD
 fibo-fbc-fct-bci:NYSE
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
-	dct:description	"the FpML business center code for New York Stock Exchange Business Day (as defined in 2006 ISDA Definitions Section 1.10 and 2000 ISDA Definitions Section 1.10)" ;
+	dct:description	"the FpML business center code for New York Stock Exchange Business Day (as defined in 2006 ISDA Definitions Section 1.10, 2000 ISDA Definitions Section 1.10, and 2021 ISDA Definitions Section 2.1.8)" ;
 	lcc-lr:denotes	fibo-fbc-fct-bci:NewYorkStockExchangeBusinessDay ;
 	lcc-lr:hasTag	"NYSE" ;
 	lcc-lr:identifies	fibo-fbc-fct-bci:NewYorkStockExchangeBusinessDay ;
