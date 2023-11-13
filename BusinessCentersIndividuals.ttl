@@ -992,14 +992,7 @@ fibo-fbc-fct-bci:CAWI
 	rdfs:label	"CAWI" .
 
 fibo-fbc-fct-bci:CFYA
-	a	fibo-fbc-fct-bc:BusinessCenterCode ;
-	a	owl:NamedIndividual ;
-	dct:description	"the FpML business center code for Yaounde, Central African Republic" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci:Yaounde ;
-	lcc-lr:hasTag	"CFYA" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci:Yaounde ;
-	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
-	rdfs:label	"CFYA" .
+	owl:sameAs	fibo-fbc-fct-bci:CMYA .
 
 fibo-fbc-fct-bci:CHBA
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -1911,15 +1904,18 @@ fibo-fbc-fct-bci:GRAT
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"GRAT" .
 
-fibo-fbc-fct-bci:GUGC
+fibo-fbc-fct-bci:GTGC
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	owl:NamedIndividual ;
 	dct:description	"the FpML business center code for Guatemala City, Guatemala" ;
 	lcc-lr:denotes	fibo-fbc-fct-bci:Guatemala_City ;
-	lcc-lr:hasTag	"GUGC" ;
+	lcc-lr:hasTag	"GTGC" ;
 	lcc-lr:identifies	fibo-fbc-fct-bci:Guatemala_City ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
-	rdfs:label	"GUGC" .
+	rdfs:label	"GTGC" .
+
+fibo-fbc-fct-bci:GUGC
+	owl:sameAs	fibo-fbc-fct-bci:GTGC .
 
 fibo-fbc-fct-bci:Gaborone
 	a	fibo-fnd-plc-loc:BusinessCenter ;
