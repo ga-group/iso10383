@@ -1874,6 +1874,16 @@ fibo-fbc-fct-bci:GIFT_City
 	skos:closeMatch	<http://dbpedia.org/resource/Gujarat_International_Finance_Tec-City> , <http://sws.geonames.org/11789136/> , wd:Q2732118 ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
 
+fibo-fbc-fct-bci:GIGI
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Gibraltar, Gibraltar" ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:Gibraltar ;
+	lcc-lr:hasTag	"GIGI" ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:Gibraltar ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"GIGI" .
+
 fibo-fbc-fct-bci:GMBA
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	owl:NamedIndividual ;
@@ -1972,8 +1982,9 @@ fibo-fbc-fct-bci:Georgetown
 	time:timeZone	<http://dbpedia.org/resource/America/Guyana> .
 
 fibo-fbc-fct-bci:Gibraltar
-	a	fibo-fnd-plc-loc:Municipality ;
-	a	owl:NamedIndividual ;
+	a	fibo-fnd-plc-loc:BusinessCenter ;
+	a	fibo-fnd-plc-loc:Municipality , owl:NamedIndividual ;
+	dct:description	"the international business center of Gibraltar" ;
 	lcc-cr:isPartOf	lcc-3166-1-adj:GI ;
 	rdfs:label	"Gibraltar" ;
 	skos:closeMatch	<http://dbpedia.org/resource/Gibraltar> , <http://sws.geonames.org/2411585/> , unlcd:GIGIB , wd:Q1410 ;
