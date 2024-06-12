@@ -19,6 +19,7 @@ Bermuda	Hamilton
 Berne	Bern
 Boca Raton	BocaRaton
 Bryanston, Sandton	BryanstonSandton
+Bryanston - Sandton	BryanstonSandton
 Bucarest	Bucharest
 Calcutta	Kolkata
 Cluj Napoca	ClujNapoca
