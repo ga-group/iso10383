@@ -12,7 +12,7 @@ ld_add('/home/freundt/author/iso10383/MarketsIndividuals.ttl.repl', '$u{STAGE}')
 rdf_loader_run();
 CHECKPOINT;
 
-LOAD 'sql/diff-nodel.sql';
+LOAD 'sql/diff.sql';
 LOAD 'sql/unify-delta.sql';
 LOAD 'sql/fixup-delta.sql';
 LOAD 'sql/patch.sql';
