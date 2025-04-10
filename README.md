@@ -9,6 +9,8 @@ Business centres have been taken from the ISDA/FpML business centre specificatio
 See <https://spec.edmcouncil.org/fibo/>
 or <https://github.com/edmcouncil/fibo>
 
+Individuals follow FIBO's old naming convention (Exchange-XMIC).
+
 
 Why?
 ----
