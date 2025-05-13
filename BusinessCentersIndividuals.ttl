@@ -29,8 +29,8 @@
 	dct:abstract	"""This ontology includes individuals representing the set of international business centers corresponding to those identified in FpML as well as additional municipalities called out in the ISO 10383 Codes for exchanges and market identification (MIC) standard.
 This set of business centers is current with respect to the FpML published XML data as of modified date.  Note that we have deviated from the standard FIBO naming convention of strict use of camel case to add underscores in city names for readability purposes.""" ;
 	dct:license	"http://opensource.org/licenses/MIT"^^xsd:anyURI ;
-	dct:modified	"2023-01-10T09:15:00Z"^^xsd:dateTime ;
-	dct:source	"https://www.fpml.org/coding-scheme/business-center-9-1.xml"^^xsd:anyURI ;
+	dct:modified	"2025-05-13T09:15:00Z"^^xsd:dateTime ;
+	dct:source	"https://www.fpml.org/coding-scheme/business-center-9-4.xml"^^xsd:anyURI ;
 	fibo-fnd-utl-av:hasMaturityLevel	fibo-fnd-utl-av:Release ;
 	owl:imports	<https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/> , <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> , <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> , <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> , <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> , <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> , <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> , <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> ;
 	owl:versionIRI	<https://spec.edmcouncil.org/fibo/ontology/FBC/20220301/FunctionalEntities/BusinessCentersIndividuals/> ;
@@ -38,7 +38,7 @@ This set of business centers is current with respect to the FpML published XML d
 	skos:changeNote	"The https://spec.edmcouncil.org/fibo/ontology/FBC/20180901/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to support revisions of the MIC codes as of December 2018." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20181201/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to replace Swaziland with Eswatini, which was revised by the LCC 1.1 RTF to reflect the change to the country name per the U.N." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20190401/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to add municipalities required for the ISO revision to the MIC codes as of September 2019." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20190901/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to add municipalities required for the ISO revision to the MIC codes as of September 2019." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20191201/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to merge countries with locations in FND." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20200301/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to add municipalities required for the ISO revision to the MIC codes as of June 2020, replace the relations hasTag property with the equivalent lcc-lr version, and replace skos:definition on reference individuals with dct:description." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20200601/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to add municipalities required for the ISO revision to the MIC codes as of November 2020, and add Municipalities for 4 important Swiss financial cities." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20201101/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to add municipalities required for the ISO revision to the MIC codes as of March 2021." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20210301/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to add municipalities required for the ISO revision to the MIC codes as of September 2021." , "The https://spec.edmcouncil.org/fibo/ontology/FBC/20210901/FunctionalEntities/BusinessCentersIndividuals/ version of this ontology was modified to add municipalities required for the ISO revision to the MIC codes as of January 2023." ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
 	sm:contributor	"GA Financial Solutions GmbH" , "Thematix Partners LLC" , "agnos.ai UK Ltd." ;
-	sm:copyright	"Copyright (c) 2018-2022 EDM Council, Inc." , "Copyright (c) 2018-2022 Object Management Group, Inc." , "Copyright (c) 2023 GA Financial Solutions GmbH" ;
+	sm:copyright	"Copyright (c) 2018-2022 EDM Council, Inc." , "Copyright (c) 2018-2022 Object Management Group, Inc." , "Copyright (c) 2023-2025 PAMIYA Strategic Advisors GmbH" ;
 	sm:fileAbbreviation	"fibo-fbc-fct-bci" ;
 	sm:filename	"BusinessCentersIndividuals.ttl" .
 
@@ -46,22 +46,22 @@ This set of business centers is current with respect to the FpML published XML d
 
 
 fibo-fbc-fct-bci:AEAB
-	a	fibo-fbc-fct-bc:BusinessCenterCode ;
-	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
+	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode ;
+	a	owl:NamedIndividual ;
 	dct:description	"the FpML business center code for Abu Dhabi, Business Day (as defined in 2021 ISDA Definitions Section 2.1.10 (ii))" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci:AbuDhabiBusinessDay , fibo-fbc-fct-bci:Abu_Dhabi ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:AbuDhabiBusinessDay ;
 	lcc-lr:hasTag	"AEAB" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci:AbuDhabiBusinessDay , fibo-fbc-fct-bci:Abu_Dhabi ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:AbuDhabiBusinessDay ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"AEAB" .
 
 fibo-fbc-fct-bci:AEAD
-	a	fibo-fbc-fct-bc:BusinessCenterCode ;
-	a	fibo-fnd-dt-bd:BusinessDayAdjustment , owl:NamedIndividual ;
+	a	fibo-fnd-dt-bd:BusinessDayAdjustment ;
+	a	owl:NamedIndividual ;
 	dct:description	"the FpML business center code for Abu Dhabi, Settlement Day (as defined in 2021 ISDA Definitions Section 2.1.10 (i))" ;
-	lcc-lr:denotes	fibo-fbc-fct-bci:AbuDhabiSettlementDay , fibo-fbc-fct-bci:Abu_Dhabi ;
+	lcc-lr:denotes	fibo-fbc-fct-bci:AbuDhabiSettlementDay ;
 	lcc-lr:hasTag	"AEAD" ;
-	lcc-lr:identifies	fibo-fbc-fct-bci:AbuDhabiSettlementDay , fibo-fbc-fct-bci:Abu_Dhabi ;
+	lcc-lr:identifies	fibo-fbc-fct-bci:AbuDhabiSettlementDay ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"AEAD" .
 
@@ -1661,7 +1661,7 @@ fibo-fbc-fct-bci:EUR-ICESWAP
 fibo-fbc-fct-bci:EUTA
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
 	a	fibo-fbc-fct-bc:BusinessDayAdjustmentCode , owl:NamedIndividual ;
-	dct:description	"the FpML business center code for TARGET (euro 'Business Center')" ;
+	dct:description	"the FpML business center code for TARGET Settlement Day" ;
 	lcc-lr:denotes	fibo-fbc-fct-bci:TARGETSettlementDay ;
 	lcc-lr:hasTag	"EUTA" ;
 	lcc-lr:identifies	fibo-fbc-fct-bci:TARGETSettlementDay ;
@@ -2251,6 +2251,14 @@ fibo-fbc-fct-bci:ILJE
 	lcc-lr:identifies	fibo-fbc-fct-bci:Jerusalem ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"ILJE" .
+
+fibo-fbc-fct-bci:ILS-SHIR
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for Publication dates of the ILS-SHIR index." ;
+	lcc-lr:hasTag	"ILS-SHIR" ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"ILS-SHIR" .
 
 fibo-fbc-fct-bci:ILS-TELBOR
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;
@@ -3482,6 +3490,14 @@ fibo-fbc-fct-bci:NZAU
 	lcc-lr:identifies	fibo-fbc-fct-bci:Auckland ;
 	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
 	rdfs:label	"NZAU" .
+
+fibo-fbc-fct-bci:NZBD
+	a	fibo-fbc-fct-bc:BusinessCenterCode ;
+	a	owl:NamedIndividual ;
+	dct:description	"the FpML business center code for New Zealand Business Day (proposed effective date: 2025-10-06)" ;
+	lcc-lr:hasTag	"NZBD" ;
+	lcc-lr:isMemberOf	fibo-fbc-fct-bci:FpMLBusinessCenterCodeScheme ;
+	rdfs:label	"NZBD" .
 
 fibo-fbc-fct-bci:NZWE
 	a	fibo-fbc-fct-bc:BusinessCenterCode ;

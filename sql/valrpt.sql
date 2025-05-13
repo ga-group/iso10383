@@ -1,12 +1,14 @@
 PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX : <http://ga.local/stk#>
 
-SELECT ?sch ?sev (COUNT(?r) AS ?cnt) WHERE {
+SELECT ?sh ?sc ?sev (COUNT(?r) AS ?cnt) WHERE {
 	?x a sh:ValidationReport ;
 		sh:result ?r .
 	?r sh:sourceShape ?sh ;
 		sh:resultSeverity ?sev .
 	OPTIONAL {
-		?r sh:sourceConstraint ?sc
+		?r sh:sourceConstraintComponent ?sc
 	}
-	BIND(COALESCE(?sc, ?sh) AS ?sch)
-} GROUP BY ?sch ?sev ORDER BY ?sch ?sev
+}
+GROUP BY ?sh ?sc ?sev
+ORDER BY ?sh ?sc ?sev
