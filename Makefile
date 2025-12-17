@@ -70,7 +70,7 @@ export.%: sql/dump-%.sql .imported.%
 	| ttl2ttl --sortable --expand-generic \
 	| sort -u \
 	| ttl2ttl -BQU \
-	| sed '/^@/d' \
+	| sed '/^@/d;s@rdf:predicate\ta@rdf:predicate\trdf:type@' \
 	>> $@
 	mv $@ $*.ttl
 	touch .imported.$*
