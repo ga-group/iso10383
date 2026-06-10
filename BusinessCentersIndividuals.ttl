@@ -3274,6 +3274,14 @@ fibo-fbc-fct-bci:Milan
 	skos:closeMatch	<http://dbpedia.org/resource/Milan> , <http://sws.geonames.org/3173435/> , unlcd:ITMIL , wd:Q490 ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Rome> .
 
+fibo-fbc-fct-bci:Milton_Keynes
+	a	fibo-fnd-plc-loc:Municipality ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isPartOf	lcc-3166-1-adj:GB , lcc-3166-2-adj:US-FL ;
+	rdfs:label	"Milton Keynes" ;
+	skos:closeMatch	<http://dbpedia.org/resource/Milton_Keynes> , <http://sws.geonames.org/2642465/> , unlcd:GBMIK , wd:Q204234 ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
 fibo-fbc-fct-bci:Minneapolis
 	a	fibo-fnd-plc-loc:BusinessCenter ;
 	a	owl:NamedIndividual ;
