@@ -1,5 +1,9 @@
 changequote()changequote([,])
 DB.DBA.XML_SET_NS_DECL('dct','http://purl.org/dc/terms/', 1);
+DB.DBA.XML_SET_NS_DECL('cmns-av', 'https://www.omg.org/spec/Commons/AnnotationVocabulary/', 1);
+DB.DBA.XML_SET_NS_DECL('cmns-col', 'https://www.omg.org/spec/Commons/Collections/', 1);
+DB.DBA.XML_SET_NS_DECL('cmns-id', 'https://www.omg.org/spec/Commons/Identifiers/', 1);
+DB.DBA.XML_SET_NS_DECL('cmns-loc', 'https://www.omg.org/spec/Commons/Locations/', 1);
 DB.DBA.XML_SET_NS_DECL('fibo-fbc-fct-bc','https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/', 1);
 DB.DBA.XML_SET_NS_DECL('fibo-fbc-fct-bci','https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/', 1);
 DB.DBA.XML_SET_NS_DECL('fibo-fnd-dt-bd','https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/', 1);
